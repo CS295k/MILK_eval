@@ -1,9 +1,0 @@
-<recipe version="1.1"><line><originaltext>2 (14 ounce) cans sweetened condensed milk</originaltext><annotation>create_ing(ing77, "2 (14 ounce) cans sweetened condensed milk")</annotation></line>
-<line><originaltext>5 cups milk</originaltext><annotation>create_ing(ing78, "5 cups milk")</annotation></line>
-<line><originaltext>2 cups heavy cream</originaltext><annotation>create_ing(ing79, "2 cups heavy cream")</annotation></line>
-<line><originaltext>2 tablespoons vanilla extract</originaltext><annotation>create_ing(ing80, "2 tablespoons vanilla extract")</annotation></line>
-<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing81, "1/2 teaspoon salt")</annotation></line>
-<line><originaltext>3 cups chopped strawberries</originaltext><annotation>create_ing(ing82, "3 cups chopped strawberries")</annotation></line>
-<line><originaltext>Combine condensed milk, milk, cream, vanilla, salt and fruit in freezer canister of ice cream maker. </originaltext><annotation>combine({ing77, ing78, ing79, ing80, ing81, ing82}, ing83, "ready to freeze", "in the freezer canister of an ice cream maker")</annotation></line>
-<line><originaltext>Freeze according to manufacturer's directions. </originaltext><annotation>leave(ing83,"freeze according to directions")</annotation></line>
-</recipe>

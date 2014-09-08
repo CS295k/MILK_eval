@@ -1,8 +1,0 @@
-<recipe version="1.1"><line><originaltext>8 ounces cream cheese</originaltext><annotation>create_ing(ing71, "8 ounces cream cheese")</annotation></line>
-<line><originaltext>1/2 cup marshmallow creme</originaltext><annotation>create_ing(ing72, "1/2 cup marshmallow creme")</annotation></line>
-<line><originaltext>2 cups frozen whipped topping, thawed</originaltext><annotation>create_ing(ing73, "2 cups frozen whipped topping, thawed")</annotation></line>
-<line><originaltext>1/4 cup unsweetened pineapple juice</originaltext><annotation>create_ing(ing74, "1/4 cup unsweetened pineapple juice")</annotation></line>
-<line><originaltext>Blend together the cream cheese, marshmallow cream and thawed topping. </originaltext><annotation>combine({ing71, ing72, ing73}, ing75, "blended", "blend")</annotation></line>
-<line><originaltext>Add enough pineapple juice to make it dipping consistency. </originaltext><annotation>combine({ing74, ing75}, ing76, "dip!", "until the mixture is a good dipping consistency")</annotation></line>
-<line><originaltext>Chill for 1 hour. </originaltext><annotation>leave(ing76,"chill for 1 hour")</annotation></line>
-</recipe>
