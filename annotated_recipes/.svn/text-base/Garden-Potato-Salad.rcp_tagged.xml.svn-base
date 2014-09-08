@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>6 large potatoes, cooked, peeled and cubed</originaltext><annotation>create_ing(ing120, "6 large potatoes, cooked, peeled and cubed")</annotation></line>
+<line><originaltext>4 hard-cooked eggs, sliced</originaltext><annotation>create_ing(ing121, "4 hard-cooked eggs, sliced")</annotation></line>
+<line><originaltext>2 celery ribs, sliced</originaltext><annotation>create_ing(ing122, "2 celery ribs, sliced")</annotation></line>
+<line><originaltext>6 green onions with tops, sliced</originaltext><annotation>create_ing(ing123, "6 green onions with tops, sliced")</annotation></line>
+<line><originaltext>6 radishes, sliced</originaltext><annotation>create_ing(ing124, "6 radishes, sliced")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing125, "1 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon pepper</originaltext><annotation>create_ing(ing126, "1/2 teaspoon pepper")</annotation></line>
+<line><originaltext>In a large bowl, combine potatoes, eggs, celery, green onions, radishes, salt and pepper; set aside. </originaltext><annotation>combine({ing120, ing121, ing122, ing123, ing124, ing125, ing126}, ing127, "salad", "in a large bowl")</annotation></line>
+<line><originaltext>3 eggs, beaten</originaltext><annotation>create_ing(ing128, "3 eggs, beaten")</annotation></line>
+<line><originaltext>1/4 cup vinegar</originaltext><annotation>create_ing(ing129, "1/4 cup vinegar")</annotation></line>
+<line><originaltext>1/4 cup sugar</originaltext><annotation>create_ing(ing130, "1/4 cup sugar")</annotation></line>
+<line><originaltext>1/2 teaspoon dry mustard</originaltext><annotation>create_ing(ing131, "1/2 teaspoon dry mustard")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing132, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1 cup mayonnaise or salad dressing</originaltext><annotation>create_ing(ing133, "1 cup mayonnaise or salad dressing")</annotation></line>
+<line><originaltext>For dressing, combine eggs, vinegar, sugar, dry mustard and salt in a saucepan. </originaltext><annotation>combine({ing128, ing129, ing130, ing131, ing132}, ing134, "dressing base", "combine in a sauce pan")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until thickened. </originaltext><annotation>create_tool(t14, "stove")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until thickened. </originaltext><annotation>set(t14,"medium heat")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until thickened. </originaltext><annotation>cook(ing134, t14, ing135, "cooked base", "stir until thickened")</annotation></line>
+<line><originaltext>Cool. </originaltext><annotation>leave(ing135,"cool")</annotation></line>
+<line><originaltext>Stir in mayonnaise; mix well. </originaltext><annotation>combine({ing133, ing135}, ing136, "dressing", "mix well")</annotation></line>
+<line><originaltext>Pour over potato mixture; toss to coat. </originaltext><annotation>combine({ing127, ing136}, ing137, "salad!", "pour and toss")</annotation></line>
+<line><originaltext>Refrigerate for several hours. </originaltext><annotation>leave(ing137,"refrigerate for several hours")</annotation></line>
+</recipe>

@@ -1,0 +1,35 @@
+<recipe version="1.1"><line><originaltext>2 pounds lean ground beef</originaltext><annotation>create_ing(ing0, "2 pounds lean ground beef")</annotation></line>
+<line><originaltext>1/2 large onion, diced</originaltext><annotation>create_ing(ing1, "1/2 large onion, diced")</annotation></line>
+<line><originaltext>1 tablespoon crushed red pepper</originaltext><annotation>create_ing(ing2, "1 tablespoon crushed red pepper")</annotation></line>
+<line><originaltext>3 tablespoons garlic powder</originaltext><annotation>create_ing(ing3, "3 tablespoons garlic powder")</annotation></line>
+<line><originaltext>1 tablespoon seasoned pepper</originaltext><annotation>create_ing(ing4, "1 tablespoon seasoned pepper")</annotation></line>
+<line><originaltext>2 (4 ounce) cans mushroom pieces, drained</originaltext><annotation>create_ing(ing5, "2 (4 ounce) cans mushroom pieces, drained")</annotation></line>
+<line><originaltext>1 (28 ounce) can baked beans</originaltext><annotation>create_ing(ing6, "1 (28 ounce) can baked beans")</annotation></line>
+<line><originaltext>2 (15.25 ounce) cans kidney beans with liquid</originaltext><annotation>create_ing(ing7, "2 (15.25 ounce) cans kidney beans with liquid")</annotation></line>
+<line><originaltext>2 (6 ounce) cans tomato paste</originaltext><annotation>create_ing(ing8, "2 (6 ounce) cans tomato paste")</annotation></line>
+<line><originaltext>1/4 cup white sugar</originaltext><annotation>create_ing(ing9, "1/4 cup white sugar")</annotation></line>
+<line><originaltext>3 carrots, sliced</originaltext><annotation>create_ing(ing10, "3 carrots, sliced")</annotation></line>
+<line><originaltext>3 stalks celery, sliced</originaltext><annotation>create_ing(ing11, "3 stalks celery, sliced")</annotation></line>
+<line><originaltext>1 green bell pepper, diced</originaltext><annotation>create_ing(ing12, "1 green bell pepper, diced")</annotation></line>
+<line><originaltext>1 red bell pepper, diced</originaltext><annotation>create_ing(ing13, "1 red bell pepper, diced")</annotation></line>
+<line><originaltext>2 jalapeno chile peppers, diced</originaltext><annotation>create_ing(ing14, "2 jalapeno chile peppers, diced")</annotation></line>
+<line><originaltext>1/4 cup Canadian beer</originaltext><annotation>create_ing(ing15, "1/4 cup Canadian beer")</annotation></line>
+<line><originaltext>2 tablespoons crushed red pepper</originaltext><annotation>create_ing(ing16, "2 tablespoons crushed red pepper")</annotation></line>
+<line><originaltext>hot sauce</originaltext><annotation>create_ing(ing17, "Hot sauce")</annotation></line>
+<line><originaltext>1/4 cup barbeque sauce</originaltext><annotation>create_ing(ing18, "1/4 cup barbeque sauce")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, brown ground beef together with onion, crushed red pepper, garlic powder, and seasoned pepper. </originaltext><annotation>create_tool(t0, "large skillet ")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, brown ground beef together with onion, crushed red pepper, garlic powder, and seasoned pepper. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing19, "seasoned beef", "")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, brown ground beef together with onion, crushed red pepper, garlic powder, and seasoned pepper. </originaltext><annotation>put(ing19, t0)</annotation></line>
+<line><originaltext>In a large skillet over medium heat, brown ground beef together with onion, crushed red pepper, garlic powder, and seasoned pepper. </originaltext><annotation>cook(ing19, t0, ing20, "cooked ground beef", "medium heat")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, brown ground beef together with onion, crushed red pepper, garlic powder, and seasoned pepper. </originaltext><annotation>chefcheck(ing20,"brown")</annotation></line>
+<line><originaltext>Drain off the fat, and place the mixture into a slow cooker.</originaltext><annotation>separate(ing20, ing21, "cooked beef", ing22, "fat", "drain fat off")</annotation></line>
+<line><originaltext>Drain off the fat, and place the mixture into a slow cooker.</originaltext><annotation>create_tool(t1, "slow cooker")</annotation></line>
+<line><originaltext>Drain off the fat, and place the mixture into a slow cooker.</originaltext><annotation>put(ing21, t1)</annotation></line>
+<line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing14, ing15, ing18, ing21, ing5, ing6, ing7, ing8, ing9}, ing23, "chili ingredients", "")</annotation></line>
+<line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>put(ing23, t1)</annotation></line>
+<line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>mix(ing23, t1, ing24, "chili", "stir")</annotation></line>
+<line><originaltext>Season with hot sauce and more crushed red pepper.</originaltext><annotation>combine({ing16, ing17, ing24}, ing25, "seasoned chili", "season")</annotation></line>
+<line><originaltext>Cover, and cook on Low for 4 to 5 hours.</originaltext><annotation>create_tool(t2, "covered slow cooker")</annotation></line>
+<line><originaltext>Cover, and cook on Low for 4 to 5 hours.</originaltext><annotation>put(ing25, t2)</annotation></line>
+<line><originaltext>Cover, and cook on Low for 4 to 5 hours.</originaltext><annotation>cook(ing25, t2, ing26, "cooked chili", "low, 4 to 5 hours")</annotation></line>
+</recipe>

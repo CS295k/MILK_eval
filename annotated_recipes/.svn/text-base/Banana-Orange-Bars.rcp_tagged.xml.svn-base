@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>2 cups mashed ripe bananas</originaltext><annotation>create_ing(ing64, "2 cups mashed ripe bananas")</annotation></line>
+<line><originaltext>1 2/3 cups sugar</originaltext><annotation>create_ing(ing65, "1 2/3 cups sugar")</annotation></line>
+<line><originaltext>1 cup vegetable oil</originaltext><annotation>create_ing(ing66, "1 cup vegetable oil")</annotation></line>
+<line><originaltext>4 eggs</originaltext><annotation>create_ing(ing67, "4 eggs")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing68, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>2 teaspoons ground cinnamon</originaltext><annotation>create_ing(ing69, "2 teaspoons ground cinnamon")</annotation></line>
+<line><originaltext>2 teaspoons baking powder</originaltext><annotation>create_ing(ing70, "2 teaspoons baking powder")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing71, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing72, "1 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 cup butter or margarine, softened</originaltext><annotation>create_ing(ing73, "1/4 cup butter or margarine, softened")</annotation></line>
+<line><originaltext>3 cups confectioners' sugar</originaltext><annotation>create_ing(ing74, "3 cups confectioners' sugar")</annotation></line>
+<line><originaltext>1/4 cup orange juice</originaltext><annotation>create_ing(ing75, "1/4 cup orange juice")</annotation></line>
+<line><originaltext>1/2 teaspoon grated orange peel</originaltext><annotation>create_ing(ing76, "1/2 teaspoon grated orange peel")</annotation></line>
+<line><originaltext>In a mixing bowl, beat bananas, sugar, oil and eggs until well blended. </originaltext><annotation>create_tool(t13, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, beat bananas, sugar, oil and eggs until well blended. </originaltext><annotation>combine({ing64, ing65, ing66, ing67}, ing77, "banana mix", "")</annotation></line>
+<line><originaltext>In a mixing bowl, beat bananas, sugar, oil and eggs until well blended. </originaltext><annotation>mix(ing77, t13, ing78, "blended banana mix", "beat until well blended")</annotation></line>
+<line><originaltext>Combine dry ingredients; fold into the banana mixture until well mixed. </originaltext><annotation>combine({ing68, ing69, ing70, ing71, ing72}, ing79, "dry ingredients", "")</annotation></line>
+<line><originaltext>Spread over bars.</originaltext><annotation>combine({ing78, ing79}, ing80, "bar batter", "fold dry ingredients into blended banana mix until well mixed")</annotation></line>
+<line><originaltext>Pour into a greased 15-in. x 10-in. x 1-in. baking pan. </originaltext><annotation>create_tool(t14, "15-in. x 10-in. x 1-in. bakng pan")</annotation></line>
+<line><originaltext>Pour into a greased 15-in. x 10-in. x 1-in. baking pan. </originaltext><annotation>put(ing80, t14)</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 25-30 minutes; cool.</originaltext><annotation>create_tool(t15, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 25-30 minutes; cool.</originaltext><annotation>cook(ing80, t15, ing81, "unfrosted bars", "bake at 350 degrees F for 25-30 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 25-30 minutes; cool.</originaltext><annotation>leave(ing81,"cool")</annotation></line>
+<line><originaltext>For frosting, cream butter and sugar in a mixing bowl. </originaltext><annotation>create_tool(t16, "second mixing bowl")</annotation></line>
+<line><originaltext>For frosting, cream butter and sugar in a mixing bowl. </originaltext><annotation>combine({ing73, ing74}, ing82, "creamed butter and sugar", "cream")</annotation></line>
+<line><originaltext>Add orange juice and peel and beat until smooth. </originaltext><annotation>combine({ing75, ing76, ing82}, ing83, "frosting mix", "")</annotation></line>
+<line><originaltext>Add orange juice and peel and beat until smooth. </originaltext><annotation>mix(ing83, t16, ing84, "frosting", "beat until smooth")</annotation></line>
+<line><originaltext>Spread over bars.</originaltext><annotation>combine({ing81, ing84}, ing85, "frosted bars", "spread frosting over unfrosted bars")</annotation></line>
+</recipe>

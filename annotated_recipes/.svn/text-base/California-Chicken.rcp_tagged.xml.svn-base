@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>4 skinless, boneless chicken breasts</originaltext><annotation>create_ing(ing74, "4 skinless, boneless chicken breasts")</annotation></line>
+<line><originaltext>1 teaspoon olive oil</originaltext><annotation>create_ing(ing75, "1 teaspoon olive oil")</annotation></line>
+<line><originaltext>1/2 teaspoon onion powder</originaltext><annotation>create_ing(ing76, "1/2 teaspoon onion powder")</annotation></line>
+<line><originaltext>1 pinch salt</originaltext><annotation>create_ing(ing77, "1 pinch salt")</annotation></line>
+<line><originaltext>1 pinch ground black pepper</originaltext><annotation>create_ing(ing78, "1 pinch ground black pepper")</annotation></line>
+<line><originaltext>2 avocados - peeled, pitted and sliced</originaltext><annotation>create_ing(ing79, "2 avocados - peeled, pitted and sliced")</annotation></line>
+<line><originaltext>2 ripe tomatoes, sliced</originaltext><annotation>create_ing(ing80, "2 ripe tomatoes, sliced")</annotation></line>
+<line><originaltext>1 (8 ounce) package Monterey Jack cheese, cut into 10 slices</originaltext><annotation>create_ing(ing81, "1 (8 ounce) package Monterey Jack cheese, cut into 10 slices")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t13, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t13,"350 degrees F")</annotation></line>
+<line><originaltext>Warm oil in skillet and add chicken and onion. </originaltext><annotation>create_tool(t14, "skillet")</annotation></line>
+<line><originaltext>Warm oil in skillet and add chicken and onion. </originaltext><annotation>cook(ing75, t14, ing82, "warmed oil", "warm")</annotation></line>
+<line><originaltext>Warm oil in skillet and add chicken and onion. </originaltext><annotation>combine({ing74, ing76, ing82}, ing83, "oil chicken onion", "")</annotation></line>
+<line><originaltext>Cook 15 minutes or until chicken is browned and just about done. </originaltext><annotation>cook(ing83, t14, ing84, "cooked chicken", "cook 15 minutes or until chicken is browned and just about done")</annotation></line>
+<line><originaltext>Cook 15 minutes or until chicken is browned and just about done. </originaltext><annotation>chefcheck(ing84,"browned and just about done")</annotation></line>
+<line><originaltext>Add salt and pepper to taste.</originaltext><annotation>combine({ing77, ing78, ing84}, ing85, "seasoned chicken", "to taste")</annotation></line>
+<line><originaltext>Add salt and pepper to taste.</originaltext><annotation>chefcheck(ing85,"to taste")</annotation></line>
+<line><originaltext>Place chicken on cookie sheet and top each breast with 1 to 2 slices of tomato and 2 to 3 slices of cheese. </originaltext><annotation>create_tool(t15, "cookie sheet")</annotation></line>
+<line><originaltext>Place chicken on cookie sheet and top each breast with 1 to 2 slices of tomato and 2 to 3 slices of cheese. </originaltext><annotation>combine({ing80, ing81, ing85}, ing86, "topped chicken", "1 to 2 slices of tomato and 2 to 3 slices cheese on top each breast")</annotation></line>
+<line><originaltext>Place chicken on cookie sheet and top each breast with 1 to 2 slices of tomato and 2 to 3 slices of cheese. </originaltext><annotation>put(ing86, t15)</annotation></line>
+<line><originaltext>Place in oven for 10 to 15 minutes, until cheese melts. </originaltext><annotation>cook(ing86, t13, ing87, "baked chicken", "10 to 15 minutes, until cheese melts")</annotation></line>
+<line><originaltext>Remove from oven, add 2 to 3 slices of avocado on top of each breast, and serve immediately.</originaltext><annotation>remove(ing87,t13)</annotation></line>
+<line><originaltext>Remove from oven, add 2 to 3 slices of avocado on top of each breast, and serve immediately.</originaltext><annotation>combine({ing79, ing87}, ing88, "topped baked chicken", "2 to 3 slices of avocado on top of each breast")</annotation></line>
+<line><originaltext>Remove from oven, add 2 to 3 slices of avocado on top of each breast, and serve immediately.</originaltext><annotation>serve(ing88,"immediately")</annotation></line>
+</recipe>

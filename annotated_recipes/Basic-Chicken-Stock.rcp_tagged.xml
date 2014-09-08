@@ -1,0 +1,33 @@
+<recipe version="1.1"><line><originaltext>1 pound chicken parts</originaltext><annotation>create_ing(ing0, "1 pound chicken parts")</annotation></line>
+<line><originaltext>1 large onion</originaltext><annotation>create_ing(ing1, "1 large onion")</annotation></line>
+<line><originaltext>3 stalks celery, including some leaves</originaltext><annotation>create_ing(ing2, "3 stalks celery, including some leaves")</annotation></line>
+<line><originaltext>1 large carrot</originaltext><annotation>create_ing(ing3, "1 large carrot")</annotation></line>
+<line><originaltext>1 1/2 teaspoons salt</originaltext><annotation>create_ing(ing4, "1 1/2 teaspoons salt")</annotation></line>
+<line><originaltext>3 whole cloves</originaltext><annotation>create_ing(ing5, "3 whole cloves")</annotation></line>
+<line><originaltext>6 cups water</originaltext><annotation>create_ing(ing6, "6 cups water")</annotation></line>
+<line><originaltext>1/4 cup cold water (optional)</originaltext><annotation>create_ing(ing7, "1/4 cup cold water (optional)")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing8, "1 egg")</annotation></line>
+<line><originaltext>Quarter onion. </originaltext><annotation>cut(ing1, , ing9, "quartered onion", "quarter")</annotation></line>
+<line><originaltext>Chop scrubbed celery and carrot into 1 inch chunks. </originaltext><annotation>cut(ing2, , ing10, "celery chunks", "chop into 1 inch chunks")</annotation></line>
+<line><originaltext>Chop scrubbed celery and carrot into 1 inch chunks. </originaltext><annotation>cut(ing3, , ing11, "carrot chunks", "chop into 1 inch chunks")</annotation></line>
+<line><originaltext>Place chicken pieces, onion, celery, carrot, salt, and cloves in large soup pot or Dutch oven. </originaltext><annotation>create_tool(t0, "large soup pot or dutch oven")</annotation></line>
+<line><originaltext>Place chicken pieces, onion, celery, carrot, salt, and cloves in large soup pot or Dutch oven. </originaltext><annotation>combine({ing0, ing10, ing11, ing4, ing5, ing9}, ing12, "chicken stock stuff", "")</annotation></line>
+<line><originaltext>Place chicken pieces, onion, celery, carrot, salt, and cloves in large soup pot or Dutch oven. </originaltext><annotation>put(ing12, t0)</annotation></line>
+<line><originaltext>Add 6 cups water. </originaltext><annotation>combine({ing12, ing6}, ing13, "chicken stock stuff in water", "")</annotation></line>
+<line><originaltext>Add 6 cups water. </originaltext><annotation>put(ing13, t0)</annotation></line>
+<line><originaltext>Bring to a boil.  </originaltext><annotation>cook(ing13, t0, ing14, "boiled chicken stock stuff", "bring to a boil")</annotation></line>
+<line><originaltext>Reduce heat, cover, and simmer for 1 hour.</originaltext><annotation>cook(ing14, t0, ing15, "simmered chicken stock stuff", "reduce heat, cover, and simmer for 1 hour")</annotation></line>
+<line><originaltext>Remove chicken and vegetables. </originaltext><annotation>separate(ing15, ing16, "chicken juice", ing17, "chicken and vegetables", "remove chicken and vegetables")</annotation></line>
+<line><originaltext>Strain stock. </originaltext><annotation>do(ing16, , ing24, "strained stock", "strain")</annotation></line>
+<line><originaltext>Skim fat off the surface.</originaltext><annotation>do(ing24, , ing25, "strained skimmed stock", "skim fat off the surface")</annotation></line>
+<line><originaltext>Separate the egg white from the egg yolk, and reserve the shell. </originaltext><annotation>separate(ing8, ing18, "egg white", ing19, "egg shell", "seperate egg white from egg yoke, reserve the shell")</annotation></line>
+<line><originaltext>In a small bowl, combine 1/4 cup cold water, egg white, and crushed eggshell.  </originaltext><annotation>create_tool(t1, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, combine 1/4 cup cold water, egg white, and crushed eggshell.  </originaltext><annotation>combine({ing18, ing19, ing7}, ing20, "wet egg stuff", "")</annotation></line>
+<line><originaltext>In a small bowl, combine 1/4 cup cold water, egg white, and crushed eggshell.  </originaltext><annotation>put(ing20, t1)</annotation></line>
+<line><originaltext>Add to strained stock, and bring to a boil.  </originaltext><annotation>combine({ing25, ing20}, ing21, "chicken stock and egg stuff", "")</annotation></line>
+<line><originaltext>Add to strained stock, and bring to a boil.  </originaltext><annotation>cook(ing21, t0, ing22, "hot chicken stock and egg stuff", "bring to a boil")</annotation></line>
+<line><originaltext>Remove from heat, and let stand 5 minutes. </originaltext><annotation>remove(ing22,t0)</annotation></line>
+<line><originaltext>Remove from heat, and let stand 5 minutes. </originaltext><annotation>leave(ing22,"let stand 5 minutes")</annotation></line>
+<line><originaltext>Strain again through a sieve lined with cheesecloth.</originaltext><annotation>create_tool(t2, "sieve lined with cheesecloth")</annotation></line>
+<line><originaltext>Strain again through a sieve lined with cheesecloth.</originaltext><annotation>do(ing22, t2, ing23, "strained again stock", "strain through sieve lined with cheesecloth")</annotation></line>
+</recipe>

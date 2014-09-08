@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>1 1/2 pounds cubed beef stew meat</originaltext><annotation>create_ing(ing0, "1 1/2 pounds cubed beef stew meat")</annotation></line>
+<line><originaltext>2 cups water</originaltext><annotation>create_ing(ing1, "2 cups water")</annotation></line>
+<line><originaltext>1 small onion, chopped</originaltext><annotation>create_ing(ing2, "1 small onion, chopped")</annotation></line>
+<line><originaltext>1 (28 ounce) can crushed tomatoes</originaltext><annotation>create_ing(ing3, "1 (28 ounce) can crushed tomatoes")</annotation></line>
+<line><originaltext>1 (16 ounce) package frozen mixed vegetables</originaltext><annotation>create_ing(ing4, "1 (16 ounce) package frozen mixed vegetables")</annotation></line>
+<line><originaltext>2 potatoes, peeled and cubed</originaltext><annotation>create_ing(ing5, "2 potatoes, peeled and cubed")</annotation></line>
+<line><originaltext>10 cubes beef bouillon, crumbled</originaltext><annotation>create_ing(ing6, "10 cubes beef bouillon, crumbled")</annotation></line>
+<line><originaltext>2 teaspoons ground black pepper</originaltext><annotation>create_ing(ing7, "2 teaspoons ground black pepper")</annotation></line>
+<line><originaltext>1 tablespoon salt</originaltext><annotation>create_ing(ing8, "1 tablespoon salt")</annotation></line>
+<line><originaltext>1 tablespoon dried basil</originaltext><annotation>create_ing(ing9, "1 tablespoon dried basil")</annotation></line>
+<line><originaltext>Place beef in a slow cooker.  </originaltext><annotation>create_tool(t0, "slow cooker")</annotation></line>
+<line><originaltext>Place beef in a slow cooker.  </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Pour in water.  </originaltext><annotation>combine({ing0, ing1}, ing10, "beef and water", "")</annotation></line>
+<line><originaltext>Pour in water.  </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>combine({ing10, ing2, ing3, ing4, ing5}, ing11, "beef, water, onion, tomatoes, veg, potatoes", "")</annotation></line>
+<line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>put(ing11, t0)</annotation></line>
+<line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>mix(ing11, t0, ing12, "beef, water, onion, tomatoes, veg, potatoes", "Stir")</annotation></line>
+<line><originaltext>Season with bouillon, pepper, salt and basil.  </originaltext><annotation>combine({ing12, ing6, ing7, ing8, ing9}, ing13, "everything", "season")</annotation></line>
+<line><originaltext>Cook on low 8 hours.</originaltext><annotation>cook(ing13, t0, ing14, "cooked stew", "cook on low 8 hours")</annotation></line>
+<line><originaltext>Cook on low 8 hours.</originaltext><annotation>serve(ing14,"")</annotation></line>
+</recipe>

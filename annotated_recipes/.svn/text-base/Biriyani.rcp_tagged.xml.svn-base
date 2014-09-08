@@ -1,0 +1,43 @@
+<recipe version="1.1"><line><originaltext>2 1/2 tablespoons olive oil</originaltext><annotation>create_ing(ing0, "2 1/2 tablespoons olive oil")</annotation></line>
+<line><originaltext>3 tablespoons plain yogurt</originaltext><annotation>create_ing(ing1, "3 tablespoons plain yogurt")</annotation></line>
+<line><originaltext>2 tablespoons distilled white vinegar</originaltext><annotation>create_ing(ing2, "2 tablespoons distilled white vinegar")</annotation></line>
+<line><originaltext>1 medium onion, sliced</originaltext><annotation>create_ing(ing3, "1 medium onion, sliced")</annotation></line>
+<line><originaltext>2 cloves garlic, crushed</originaltext><annotation>create_ing(ing4, "2 cloves garlic, crushed")</annotation></line>
+<line><originaltext>1 tablespoon ginger paste</originaltext><annotation>create_ing(ing5, "1 tablespoon ginger paste")</annotation></line>
+<line><originaltext>2 small green chile peppers</originaltext><annotation>create_ing(ing6, "2 small green chile peppers")</annotation></line>
+<line><originaltext>2 medium tomatoes, chopped</originaltext><annotation>create_ing(ing7, "2 medium tomatoes, chopped")</annotation></line>
+<line><originaltext>2 tablespoons garam masala</originaltext><annotation>create_ing(ing8, "2 tablespoons garam masala")</annotation></line>
+<line><originaltext>1 tablespoon dried mint</originaltext><annotation>create_ing(ing9, "1 tablespoon dried mint")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing10, "salt and pepper to taste")</annotation></line>
+<line><originaltext>5 sprigs cilantro</originaltext><annotation>create_ing(ing11, "5 sprigs cilantro")</annotation></line>
+<line><originaltext>1 (3 pound) whole chicken, skin removed and cut into pieces</originaltext><annotation>create_ing(ing12, "1 (3 pound) whole chicken, skin removed and cut into pieces")</annotation></line>
+<line><originaltext>2 quarts water</originaltext><annotation>create_ing(ing13, "2 quarts water")</annotation></line>
+<line><originaltext>4 cups uncooked basmati rice</originaltext><annotation>create_ing(ing14, "4 cups uncooked basmati rice")</annotation></line>
+<line><originaltext>1 bay leaf</originaltext><annotation>create_ing(ing15, "1 bay leaf")</annotation></line>
+<line><originaltext>4 pods green cardamom</originaltext><annotation>create_ing(ing16, "4 pods green cardamom")</annotation></line>
+<line><originaltext>1 pod black cardamom</originaltext><annotation>create_ing(ing17, "1 pod black cardamom")</annotation></line>
+<line><originaltext>1 cinnamon stick</originaltext><annotation>create_ing(ing18, "1 cinnamon stick")</annotation></line>
+<line><originaltext>salt to taste</originaltext><annotation>create_ing(ing19, "salt to taste")</annotation></line>
+<line><originaltext>1/4 teaspoon powdered yellow food coloring</originaltext><annotation>create_ing(ing20, "1/4 teaspoon powdered yellow food coloring")</annotation></line>
+<line><originaltext>Heat the olive oil in a large skillet over medium heat. </originaltext><annotation>create_tool(t0, "large skillet")</annotation></line>
+<line><originaltext>Heat the olive oil in a large skillet over medium heat. </originaltext><annotation>cook(ing0, t0, ing21, "hot oil", "heat over medium heat")</annotation></line>
+<line><originaltext>Mix in the yogurt and vinegar. </originaltext><annotation>combine({ing1, ing2}, ing22, " yogurt + vinegar", "mix")</annotation></line>
+<line><originaltext>Place the onion in the skillet, and cook until tender. </originaltext><annotation>cook(ing3, t0, ing23, "cooked onion", "cook until tender")</annotation></line>
+<line><originaltext>Mix in the garlic, ginger paste, green chile peppers, and tomatoes. </originaltext><annotation>combine({ing4, ing5, ing6, ing7}, ing24, "mixed veggies", "mix")</annotation></line>
+<line><originaltext>Cook and stir until tomatoes are tender. </originaltext><annotation>combine({ing21, ing22, ing23, ing24}, ing25, "stuff in skillet", "mix")</annotation></line>
+<line><originaltext>Cook and stir until tomatoes are tender. </originaltext><annotation>cook(ing25, t0, ing26, "cooked stuff", "cook until tomatoes are tender")</annotation></line>
+<line><originaltext>Season with garam masala, mint, salt, and pepper, and mix in the cilantro.</originaltext><annotation>combine({ing26, ing8}, ing27, "seasoned veggies", "season")</annotation></line>
+<line><originaltext>Season with garam masala, mint, salt, and pepper, and mix in the cilantro.</originaltext><annotation>combine({ing10, ing11, ing27, ing9}, ing28, "sauce", "mix")</annotation></line>
+<line><originaltext>Place the chicken in the skillet. </originaltext><annotation>combine({ing12, ing28}, ing29, "chicken and sauce", "place chicken in skillet")</annotation></line>
+<line><originaltext>Reduce heat to medium-low, cover, and continue cooking 45 minutes, stirring occasionally, until chicken juices run clear.</originaltext><annotation>cook(ing29, t0, ing30, "cooked chicken", "reduce heat to medium-low, cover, cook for 45 min, stir occasionally until juices run clear")</annotation></line>
+<line><originaltext>Bring the water and rice to a boil in a large pot. </originaltext><annotation>create_tool(t1, "pot")</annotation></line>
+<line><originaltext>Bring the water and rice to a boil in a large pot. </originaltext><annotation>combine({ing13, ing14}, ing31, "water + rice", "in pot")</annotation></line>
+<line><originaltext>Bring the water and rice to a boil in a large pot. </originaltext><annotation>cook(ing31, t1, ing32, "cooking rice", "bring to boil")</annotation></line>
+<line><originaltext>Mix in the bay leaf, green cardamom, black cardamom, and cinnamon. </originaltext><annotation>combine({ing15, ing16, ing17, ing18, ing32}, ing33, "seasoned rice", "mix in")</annotation></line>
+<line><originaltext>Season with salt to taste. </originaltext><annotation>combine({ing19, ing33}, ing34, "seasoned rice", "season")</annotation></line>
+<line><originaltext>Cover, reduce heat to low, and simmer 20 minutes.</originaltext><annotation>cook(ing34, t1, ing35, "cooked rice", "cover reduce to low heat and simmer for 20 min")</annotation></line>
+<line><originaltext>In a separate pot, alternate the rice and chicken mixture in layers, topping with rice. </originaltext><annotation>create_tool(t2, "seperate pot")</annotation></line>
+<line><originaltext>In a separate pot, alternate the rice and chicken mixture in layers, topping with rice. </originaltext><annotation>combine({ing30, ing35}, ing36, "rice chicken", "alternate in layers")</annotation></line>
+<line><originaltext>Sprinkle with the food coloring, and mix to serve.</originaltext><annotation>combine({ing20, ing36}, ing37, "ready to servce food", "sprinkle")</annotation></line>
+<line><originaltext>Sprinkle with the food coloring, and mix to serve.</originaltext><annotation>serve(ing37, "")</annotation></line>
+</recipe>

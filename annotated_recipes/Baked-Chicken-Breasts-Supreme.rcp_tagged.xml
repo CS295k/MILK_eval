@@ -1,0 +1,24 @@
+<recipe><line><originaltext>1 1/2 cups Plain yogurt or sour cream</originaltext><annotation>create_ing(ing0, "1 1/2 cups Plain yogurt or sour cream")</annotation></line>
+<line><originaltext>1/4 cup lemon juice</originaltext><annotation>create_ing(ing1, "1/4 cup lemon juice")</annotation></line>
+<line><originaltext>1/2 teaspoon Worcestershire sauce</originaltext><annotation>create_ing(ing2, "1/2 teaspoon Worcestershire sauce")</annotation></line>
+<line><originaltext>1/2 teaspoon celery seed</originaltext><annotation>create_ing(ing3, "1/2 teaspoon celery seed")</annotation></line>
+<line><originaltext>1/2 teaspoon Hungarian sweet paprika</originaltext><annotation>create_ing(ing4, "1/2 teaspoon Hungarian sweet paprika")</annotation></line>
+<line><originaltext>1 garlic clove, minced</originaltext><annotation>create_ing(ing5, "1 garlic clove, minced")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing6, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 teaspoon pepper</originaltext><annotation>create_ing(ing7, "1/4 teaspoon pepper")</annotation></line>
+<line><originaltext>8 skinless, boneless chicken breast halves</originaltext><annotation>create_ing(ing8, "8 skinless, boneless chicken breast halves")</annotation></line>
+<line><originaltext>2 cups fine dry bread crumbs</originaltext><annotation>create_ing(ing9, "2 cups fine dry bread crumbs")</annotation></line>
+<line><originaltext>In a large bowl, combine first eight ingredients. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine first eight ingredients. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing10, "mixture", "")</annotation></line>
+<line><originaltext>In a large bowl, combine first eight ingredients. </originaltext><annotation>put({ing10}, t0)</annotation></line>
+<line><originaltext>Place chicken in mixture and turn to coat. </originaltext><annotation>combine({ing10, ing8}, ing11, "chicken in mixture", "")</annotation></line>
+<line><originaltext>Place chicken in mixture and turn to coat. </originaltext><annotation>mix(ing11, t0, ing12, "coated chicken", "turn to coat")</annotation></line>
+<line><originaltext>Cover and marinate overnight in the refrigerator. </originaltext><annotation>do(ing12,"cover and marinate overnight in a refrigerator")</annotation></line>
+<line><originaltext>Remove chicken from marinade; coat each piece with crumbs. </originaltext><annotation>separate(ing12, ing13, "chicken", ing14, "marinade", "")</annotation></line>
+<line><originaltext>Remove chicken from marinade; coat each piece with crumbs. </originaltext><annotation>combine({ing13, ing9}, ing15, "chicken with crumbs", "coat each piece with crumbs")</annotation></line>
+<line><originaltext>Arrange on a shallow baking pan. </originaltext><annotation>create_tool(t1, "shallow baking pan")</annotation></line>
+<line><originaltext>Arrange on a shallow baking pan. </originaltext><annotation>put({ing15}, t1)</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees for 45 minutes or until juices run clear.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees for 45 minutes or until juices run clear.</originaltext><annotation>set(t2,"350 degrees")</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees for 45 minutes or until juices run clear.</originaltext><annotation>cook(ing15, t2, ing16, "cooked chicken", "45 minutes or until juices run clear")</annotation></line>
+</recipe>

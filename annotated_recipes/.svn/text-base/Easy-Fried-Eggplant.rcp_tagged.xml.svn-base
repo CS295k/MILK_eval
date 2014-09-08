@@ -1,0 +1,19 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons canola oil</originaltext><annotation>create_ing(ing34, "2 tablespoons canola oil")</annotation></line>
+<line><originaltext>1 large eggplant, peeled and sliced</originaltext><annotation>create_ing(ing35, "1 large eggplant, peeled and sliced")</annotation></line>
+<line><originaltext>3 eggs, beaten</originaltext><annotation>create_ing(ing36, "3 eggs, beaten")</annotation></line>
+<line><originaltext>2 cups dry bread crumbs</originaltext><annotation>create_ing(ing37, "2 cups dry bread crumbs")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>create_tool(t11, "skillet")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>put(ing34, t11)</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>cook(ing34, t11, ing38, "hot oil", "over medium high heat")</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>create_tool(t12, "implicit bowl")</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>put(ing36, t12)</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>create_tool(t13, "implicit plate")</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>put(ing37, t13)</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>combine({ing35, ing36}, ing39, "eggyplant", "dip the eggplant")</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>combine({ing38, ing39}, ing40, "breaded eggplant (uncooked)", "roll eggplant in crumbs")</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>put(ing40, t11)</annotation></line>
+<line><originaltext>Dip eggplant slices in egg, then in crumbs, and place in hot oil. </originaltext><annotation>combine({ing37, ing40}, ing41, "cooking eggplant", "in skillet")</annotation></line>
+<line><originaltext>Fry 2 to 3 minutes on each side, or until golden brown. </originaltext><annotation>cook(ing41, t11, ing42, "cooked breaded eggplant", "2-3 minutes per side")</annotation></line>
+<line><originaltext>Drain on paper towels. </originaltext><annotation>create_tool(t14, "paper towels")</annotation></line>
+<line><originaltext>Drain on paper towels. </originaltext><annotation>do(ing42, t14, ing43, "Easy Fried Eggplant", "drain oil")</annotation></line>
+</recipe>

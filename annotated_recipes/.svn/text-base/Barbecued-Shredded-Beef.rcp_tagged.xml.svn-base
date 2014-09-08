@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>3 pounds beef roast</originaltext><annotation>create_ing(ing86, "3 pounds beef roast")</annotation></line>
+<line><originaltext>2 onions, chopped</originaltext><annotation>create_ing(ing87, "2 onions, chopped")</annotation></line>
+<line><originaltext>2 (12 fluid ounce) cans or bottles beer</originaltext><annotation>create_ing(ing88, "2 (12 fluid ounce) cans or bottles beer")</annotation></line>
+<line><originaltext>6 teaspoons Worcestershire sauce</originaltext><annotation>create_ing(ing89, "6 teaspoons Worcestershire sauce")</annotation></line>
+<line><originaltext>2 teaspoons liquid smoke flavoring</originaltext><annotation>create_ing(ing90, "2 teaspoons liquid smoke flavoring")</annotation></line>
+<line><originaltext>2 teaspoons garlic powder</originaltext><annotation>create_ing(ing91, "2 teaspoons garlic powder")</annotation></line>
+<line><originaltext>2 teaspoons ground black pepper</originaltext><annotation>create_ing(ing92, "2 teaspoons ground black pepper")</annotation></line>
+<line><originaltext>salt to taste</originaltext><annotation>create_ing(ing93, "salt to taste")</annotation></line>
+<line><originaltext>1 (18 ounce) bottle barbecue sauce</originaltext><annotation>create_ing(ing94, "1 (18 ounce) bottle barbecue sauce")</annotation></line>
+<line><originaltext>2 cups water</originaltext><annotation>create_ing(ing95, "2 cups water")</annotation></line>
+<line><originaltext>Preheat oven to 275 degrees (135 degrees C).</originaltext><annotation>create_tool(t17, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 275 degrees (135 degrees C).</originaltext><annotation>set(t17,"preheat to 275 degrees F (135 degrees C)")</annotation></line>
+<line><originaltext>Place roast in a large roasting pan and scatter chopped onions over.</originaltext><annotation>create_tool(t18, "large roasting pan")</annotation></line>
+<line><originaltext>Place roast in a large roasting pan and scatter chopped onions over.</originaltext><annotation>put(ing86, t18)</annotation></line>
+<line><originaltext>Place roast in a large roasting pan and scatter chopped onions over.</originaltext><annotation>combine({ing86, ing87}, ing96, "beef roast and onions", "scatter onions over")</annotation></line>
+<line><originaltext>In a large bowl, combine Worcestershire sauce, liquid smoke, garlic powder, salt and pepper. </originaltext><annotation>create_tool(t19, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine Worcestershire sauce, liquid smoke, garlic powder, salt and pepper. </originaltext><annotation>combine({ing89, ing90, ing91, ing92, ing93}, ing97, "worcestershire mix", "")</annotation></line>
+<line><originaltext>In a large bowl, combine Worcestershire sauce, liquid smoke, garlic powder, salt and pepper. </originaltext><annotation>put(ing97, t19)</annotation></line>
+<line><originaltext>Pour in beer, stir and add to roasting pan. </originaltext><annotation>combine({ing88, ing97}, ing98, "beer and worcestershire mx", "pour in beer")</annotation></line>
+<line><originaltext>Pour in beer, stir and add to roasting pan. </originaltext><annotation>mix(ing98, t19, ing99, "stirred beer mix", "stir")</annotation></line>
+<line><originaltext>Pour in beer, stir and add to roasting pan. </originaltext><annotation>combine({ing96, ing99}, ing100, "beef with sauce", "")</annotation></line>
+<line><originaltext>Add water to the top of beef.</originaltext><annotation>combine({ing100, ing95}, ing101, "wet beef with sauce", "add water to top of beef")</annotation></line>
+<line><originaltext>Cover and cook in oven at 275 degrees F (135 degrees C) for 4 to 5 hours.</originaltext><annotation>cook(ing101, t17, ing102, "cooked meat", "cover and cook at 275 degrees F (135 degrees C) for 4 to 5 hours")</annotation></line>
+<line><originaltext>When meat is cooked, shred meat with 2 forks, add barbecue sauce and mix well.</originaltext><annotation>create_tool(t20, "two forks")</annotation></line>
+<line><originaltext>When meat is cooked, shred meat with 2 forks, add barbecue sauce and mix well.</originaltext><annotation>cut(ing102, t20, ing103, "shredded meat", "shred with two forks")</annotation></line>
+<line><originaltext>When meat is cooked, shred meat with 2 forks, add barbecue sauce and mix well.</originaltext><annotation>combine({ing103, ing94}, ing104, "meat and sauce", "mix well")</annotation></line>
+</recipe>

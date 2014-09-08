@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>24 chicken wings</originaltext><annotation>create_ing(ing0, "24 chicken wings")</annotation></line>
+<line><originaltext>2 quarts vegetable oil for deep frying</originaltext><annotation>create_ing(ing1, "2 quarts vegetable oil for deep frying")</annotation></line>
+<line><originaltext>4 tablespoons butter</originaltext><annotation>create_ing(ing2, "4 tablespoons butter")</annotation></line>
+<line><originaltext>1 tablespoon distilled white vinegar</originaltext><annotation>create_ing(ing3, "1 tablespoon distilled white vinegar")</annotation></line>
+<line><originaltext>5 tablespoons hot pepper sauce</originaltext><annotation>create_ing(ing4, "5 tablespoons hot pepper sauce")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing5, "salt and pepper to taste")</annotation></line>
+<line><originaltext>In a large skillet or deep fryer, deep fry chicken wings in oil until done, about 10 minutes. </originaltext><annotation>create_tool(t0, "skillet or deep fryer")</annotation></line>
+<line><originaltext>In a large skillet or deep fryer, deep fry chicken wings in oil until done, about 10 minutes. </originaltext><annotation>combine({ing0, ing1}, ing6, "deep fried chicken", "")</annotation></line>
+<line><originaltext>In a large skillet or deep fryer, deep fry chicken wings in oil until done, about 10 minutes. </originaltext><annotation>cook(ing6, t0, ing7, "deep fried chicken", "for about 10 minutes or until done")</annotation></line>
+<line><originaltext>Remove chicken and oil from skillet/fryer, drain oil and reserve chicken.</originaltext><annotation>remove(ing7,t0)</annotation></line>
+<line><originaltext>Remove chicken and oil from skillet/fryer, drain oil and reserve chicken.</originaltext><annotation>do(ing7, , ing13, "chicken drained of oil", "drain off oil")</annotation></line>
+<line><originaltext>Melt butter/margarine in skillet, then add vinegar and hot sauce. </originaltext><annotation>create_tool(t1, "skillet")</annotation></line>
+<line><originaltext>Melt butter/margarine in skillet, then add vinegar and hot sauce. </originaltext><annotation>combine({ing2, ing3, ing4}, ing8, "sauce", "")</annotation></line>
+<line><originaltext>Melt butter/margarine in skillet, then add vinegar and hot sauce. </originaltext><annotation>cook(ing8, t1, ing9, "sauce", "until butter is melted")</annotation></line>
+<line><originaltext>Season with salt and pepper to taste. </originaltext><annotation>combine({ing5, ing9}, ing10, "seasoned sauce", "to taste")</annotation></line>
+<line><originaltext>Add cooked chicken to sauce and stir over low heat to coat. </originaltext><annotation>combine({ing10, ing13}, ing11, "seasoned chicken", "")</annotation></line>
+<line><originaltext>Add cooked chicken to sauce and stir over low heat to coat. </originaltext><annotation>cook(ing11, t1, ing12, "seasoned cooked chicken ", "over low heat till coated in sauce")</annotation></line>
+<line><originaltext>The longer the wings simmer in the sauce, the hotter they will be. </originaltext><annotation>chefcheck(ing12,"the longer they simmer, the hotter they will be")</annotation></line>
+<line><originaltext>Serve warm.</originaltext><annotation>serve(ing12,"warm")</annotation></line>
+</recipe>

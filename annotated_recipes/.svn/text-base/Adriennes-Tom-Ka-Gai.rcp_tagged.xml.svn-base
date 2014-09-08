@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>2 teaspoons peanut oil</originaltext><annotation>create_ing(ing0, "2 teaspoons peanut oil")</annotation></line>
+<line><originaltext>2 cloves garlic, thinly sliced</originaltext><annotation>create_ing(ing1, "2 cloves garlic, thinly sliced")</annotation></line>
+<line><originaltext>2 tablespoons grated fresh ginger root</originaltext><annotation>create_ing(ing2, "2 tablespoons grated fresh ginger root")</annotation></line>
+<line><originaltext>1/4 cup chopped lemon grass</originaltext><annotation>create_ing(ing3, "1/4 cup chopped lemon grass")</annotation></line>
+<line><originaltext>2 teaspoons crushed red pepper</originaltext><annotation>create_ing(ing4, "2 teaspoons crushed red pepper")</annotation></line>
+<line><originaltext>1 teaspoon ground coriander</originaltext><annotation>create_ing(ing5, "1 teaspoon ground coriander")</annotation></line>
+<line><originaltext>1 teaspoon ground cumin</originaltext><annotation>create_ing(ing6, "1 teaspoon ground cumin")</annotation></line>
+<line><originaltext>1 skinless, boneless chicken breast halves - cut into thin strips</originaltext><annotation>create_ing(ing7, "1 skinless, boneless chicken breast halves - cut into thin strips")</annotation></line>
+<line><originaltext>1 onion, thinly sliced</originaltext><annotation>create_ing(ing8, "1 onion, thinly sliced")</annotation></line>
+<line><originaltext>2 cups bok choy, shredded</originaltext><annotation>create_ing(ing9, "2 cups bok choy, shredded")</annotation></line>
+<line><originaltext>4 cups water</originaltext><annotation>create_ing(ing10, "4 cups water")</annotation></line>
+<line><originaltext>1 (10 ounce) can coconut milk</originaltext><annotation>create_ing(ing11, "1 (10 ounce) can coconut milk")</annotation></line>
+<line><originaltext>1/4 cup fish sauce</originaltext><annotation>create_ing(ing12, "1/4 cup fish sauce")</annotation></line>
+<line><originaltext>1/4 cup chopped fresh cilantro</originaltext><annotation>create_ing(ing13, "1/4 cup chopped fresh cilantro")</annotation></line>
+<line><originaltext>In a large saucepan over medium heat, heat peanut oil.  </originaltext><annotation>create_tool(t0, "large saucepan")</annotation></line>
+<line><originaltext>In a large saucepan over medium heat, heat peanut oil.  </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>In a large saucepan over medium heat, heat peanut oil.  </originaltext><annotation>cook(ing0, t0, ing14, "heated peanut oil", "medium heat")</annotation></line>
+<line><originaltext>Stir in garlic, ginger, lemon grass, red pepper, coriander and cumin and cook until fragrant, 2 minutes.  </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6, ing14}, ing15, "oil and spices", "")</annotation></line>
+<line><originaltext>Stir in garlic, ginger, lemon grass, red pepper, coriander and cumin and cook until fragrant, 2 minutes.  </originaltext><annotation>cook(ing16, t0, ing17, "fragrant spices", "cook until fragrant, 2 minutes")</annotation></line>
+<line><originaltext>Stir in chicken and onion and cook, stirring, until chicken is white and onion is translucent, 5 minutes.  </originaltext><annotation>combine({ing17, ing7, ing8}, ing18, "chicken, onion, spices", "stir")</annotation></line>
+<line><originaltext>Stir in chicken and onion and cook, stirring, until chicken is white and onion is translucent, 5 minutes.  </originaltext><annotation>cook(ing18, t0, ing19, "cooked chicken, onion, spices", "cook, stirring, 5 minutes, until chicken is white and onion is translucent")</annotation></line>
+<line><originaltext>Stir in bok choy and cook until it begins to wilt, 5 to 10 minutes.  </originaltext><annotation>combine({ing19, ing9}, ing20, "chicken, onion, spices, bok choy", "stir")</annotation></line>
+<line><originaltext>Stir in bok choy and cook until it begins to wilt, 5 to 10 minutes.  </originaltext><annotation>cook(ing20, t0, ing21, "chicken, onion, spices, bok choy", "cook 5 to 10 minutes, until bok choy begins to wilt")</annotation></line>
+<line><originaltext>Stir in water, coconut milk, fish sauce and cilantro.  </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing21}, ing22, "everything", "stir")</annotation></line>
+<line><originaltext>Simmer until chicken is thoroughly cooked and flavors are well blended, 30 minutes.</originaltext><annotation>cook(ing22, t0, ing23, "tom ka gai", "simmer until chicken is thoroughly cooked, 30 minutes")</annotation></line>
+<line><originaltext>Simmer until chicken is thoroughly cooked and flavors are well blended, 30 minutes.</originaltext><annotation>serve(ing23,"")</annotation></line>
+</recipe>

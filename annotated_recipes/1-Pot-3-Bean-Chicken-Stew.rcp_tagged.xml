@@ -1,0 +1,35 @@
+<recipe version="1.1"><line><originaltext>1 tablespoon canola oil</originaltext><annotation>create_ing(ing0, "1 tablespoon canola oil")</annotation></line>
+<line><originaltext>1 3/4 pounds boneless, skinless chicken breast or thighs, cut in chunks</originaltext><annotation>create_ing(ing1, "1 3/4 pounds boneless, skinless chicken breast or thighs, cut in chunks")</annotation></line>
+<line><originaltext>1 large yellow onion, chopped</originaltext><annotation>create_ing(ing2, "1 large yellow onion, chopped")</annotation></line>
+<line><originaltext>1 cup sliced celery</originaltext><annotation>create_ing(ing3, "1 cup sliced celery")</annotation></line>
+<line><originaltext>1 cup thinly sliced carrots</originaltext><annotation>create_ing(ing4, "1 cup thinly sliced carrots")</annotation></line>
+<line><originaltext>3 cups no-salt-added chopped tomatoes</originaltext><annotation>create_ing(ing5, "3 cups no-salt-added chopped tomatoes")</annotation></line>
+<line><originaltext>1 (14.25 ounce) can fat-free, less-sodium chicken broth</originaltext><annotation>create_ing(ing6, "1 (14.25 ounce) can fat-free, less-sodium chicken broth")</annotation></line>
+<line><originaltext>1 (15 ounce) can no-salt-added black beans</originaltext><annotation>create_ing(ing7, "1 (15 ounce) can no-salt-added black beans")</annotation></line>
+<line><originaltext>1 (15 ounce) can no salt-added navy beans</originaltext><annotation>create_ing(ing8, "1 (15 ounce) can no salt-added navy beans")</annotation></line>
+<line><originaltext>1 (15 ounce) can no salt-added kidney beans</originaltext><annotation>create_ing(ing9, "1 (15 ounce) can no salt-added kidney beans")</annotation></line>
+<line><originaltext>1 cup dry red wine</originaltext><annotation>create_ing(ing10, "1 cup dry red wine")</annotation></line>
+<line><originaltext>1 bay leaf</originaltext><annotation>create_ing(ing11, "1 bay leaf")</annotation></line>
+<line><originaltext>1 tablespoon Italian herbs</originaltext><annotation>create_ing(ing12, "1 tablespoon Italian herbs")</annotation></line>
+<line><originaltext>1 cup smoked chicken breast, cubed</originaltext><annotation>create_ing(ing13, "1 cup smoked chicken breast, cubed")</annotation></line>
+<line><originaltext>1 cup fresh Italian parsley, chopped</originaltext><annotation>create_ing(ing14, "1 cup fresh Italian parsley, chopped")</annotation></line>
+<line><originaltext>1 cup fresh cilantro, chopped</originaltext><annotation>create_ing(ing15, "1 cup fresh cilantro, chopped")</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>cook(ing0, t0, ing16, "heated oil", "heat oil")</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>combine({ing1, ing16}, ing17, "oil and chicken", "")</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>put(ing17, t0)</annotation></line>
+<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>cook(ing17, t0, ing18, "browned chicken", "brown chicken")</annotation></line>
+<line><originaltext>Remove chicken and set aside. </originaltext><annotation>separate(ing18, ing19, "chicken", ing20, "heated oil", "")</annotation></line>
+<line><originaltext>Remove chicken and set aside. </originaltext><annotation>remove(ing19,t0)</annotation></line>
+<line><originaltext>Remove chicken and set aside. </originaltext><annotation>leave(ing19,"")</annotation></line>
+<line><originaltext>Saute onions until soft, about 5 minutes. </originaltext><annotation>combine({ing2, ing20}, ing21, "onion in oil", "")</annotation></line>
+<line><originaltext>Saute onions until soft, about 5 minutes. </originaltext><annotation>cook(ing21, t0, ing22, "onions in oil", "saute until soft, about 5 minutes")</annotation></line>
+<line><originaltext>Add broth, beans, tomatoes, celery, carrots, wine, bay leaf, herbs and all the chicken; cover and simmer for 40 minutes.</originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing19, ing22, ing3, ing4, ing5, ing6, ing7, ing8, ing9}, ing23, "stew", "")</annotation></line>
+<line><originaltext>Add broth, beans, tomatoes, celery, carrots, wine, bay leaf, herbs and all the chicken; cover and simmer for 40 minutes.</originaltext><annotation>set(t0,"cover pot")</annotation></line>
+<line><originaltext>Add broth, beans, tomatoes, celery, carrots, wine, bay leaf, herbs and all the chicken; cover and simmer for 40 minutes.</originaltext><annotation>cook(ing23, t0, ing24, "cooked stew", "simmer for 40 minutes")</annotation></line>
+<line><originaltext>Add parsley, cilantro, salt, and pepper, and simmer 5 more minutes.</originaltext><annotation>create_ing(ing25, "salt and pepper")</annotation></line>
+<line><originaltext>Add parsley, cilantro, salt, and pepper, and simmer 5 more minutes.</originaltext><annotation>combine({ing14, ing15, ing24, ing25}, ing26, "cooked stew", "")</annotation></line>
+<line><originaltext>Add parsley, cilantro, salt, and pepper, and simmer 5 more minutes.</originaltext><annotation>cook(ing26, t0, ing27, "finished stew", "simmer 5 minutes")</annotation></line>
+<line><originaltext>Add parsley, cilantro, salt, and pepper, and simmer 5 more minutes.</originaltext><annotation>serve(ing27,"")</annotation></line>
+</recipe>

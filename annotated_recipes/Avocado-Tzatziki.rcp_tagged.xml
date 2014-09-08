@@ -1,0 +1,24 @@
+<recipe version="1.1"><line><originaltext>1 large avocado, peeled and pitted</originaltext><annotation>create_ing(ing51, "1 large avocado, peeled and pitted")</annotation></line>
+<line><originaltext>2 cloves garlic, minced</originaltext><annotation>create_ing(ing52, "2 cloves garlic, minced")</annotation></line>
+<line><originaltext>1 lemons, juiced</originaltext><annotation>create_ing(ing53, "1 lemons, juiced")</annotation></line>
+<line><originaltext>1/4 cup sour cream (optional)</originaltext><annotation>create_ing(ing54, "1/4 cup sour cream (optional)")</annotation></line>
+<line><originaltext>1/2 cup chopped seeded cucumber</originaltext><annotation>create_ing(ing55, "1/2 cup chopped seeded cucumber")</annotation></line>
+<line><originaltext>1/2 teaspoon red pepper flakes, or to taste</originaltext><annotation>create_ing(ing56, "1/2 teaspoon red pepper flakes, or to taste")</annotation></line>
+<line><originaltext>1 tablespoon chopped fresh cilantro</originaltext><annotation>create_ing(ing57, "1 tablespoon chopped fresh cilantro")</annotation></line>
+<line><originaltext>1 tablespoon chopped fresh mint</originaltext><annotation>create_ing(ing58, "1 tablespoon chopped fresh mint")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing59, "salt and pepper to taste")</annotation></line>
+<line><originaltext>In a medium bowl, combine the avocado, garlic, lemon juice, sour cream and cucumber. </originaltext><annotation>create_tool(t12, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, combine the avocado, garlic, lemon juice, sour cream and cucumber. </originaltext><annotation>combine({ing51, ing52, ing53, ing54, ing55}, ing60, "stuff", "")</annotation></line>
+<line><originaltext>In a medium bowl, combine the avocado, garlic, lemon juice, sour cream and cucumber. </originaltext><annotation>put(ing60, t12)</annotation></line>
+<line><originaltext>Mash with a fork until smooth. </originaltext><annotation>create_tool(t13, "fork")</annotation></line>
+<line><originaltext>Mash with a fork until smooth. </originaltext><annotation>mix(ing60, t13, ing61, "mashed stuff", "mash")</annotation></line>
+<line><originaltext>Season with red pepper flakes, cilantro, mint, salt and pepper, and mix well. </originaltext><annotation>combine({ing56, ing57, ing58, ing59, ing61}, ing62, "seasoned mashed stuff", "")</annotation></line>
+<line><originaltext>Season with red pepper flakes, cilantro, mint, salt and pepper, and mix well. </originaltext><annotation>put(ing62, t12)</annotation></line>
+<line><originaltext>Season with red pepper flakes, cilantro, mint, salt and pepper, and mix well. </originaltext><annotation>mix(ing62, t12, ing63, "avocado tzatziki", "")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>create_tool(t14, "medium bowl, covered")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>put(ing63, t14)</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>create_tool(t15, "refrigerator")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>put(ing63, t15)</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>leave(ing63,"1 hour in refrigerator")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour before serving.</originaltext><annotation>serve(ing63,"")</annotation></line>
+</recipe>

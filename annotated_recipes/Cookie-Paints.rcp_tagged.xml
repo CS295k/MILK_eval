@@ -1,0 +1,6 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons evaporated milk</originaltext><annotation>create_ing(ing0, "2 tablespoons evaporated milk")</annotation></line>
+<line><originaltext>4 drops red food coloring</originaltext><annotation>create_ing(ing1, "4 drops red food coloring")</annotation></line>
+<line><originaltext>In a small bowl, stir the food coloring into the evaporated milk. </originaltext><annotation>create_tool(t0, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, stir the food coloring into the evaporated milk. </originaltext><annotation>combine({ing0, ing1}, ing2, "cookie paint", "stir in")</annotation></line>
+<line><originaltext>Paint onto cookies with a paintbrush before baking. </originaltext><annotation>do(ing2, , ing3, "painted cookies", "paint onto cookies with a paintbrush before baking")</annotation></line>
+</recipe>

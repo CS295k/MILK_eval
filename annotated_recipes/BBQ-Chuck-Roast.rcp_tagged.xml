@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>1 (5 pound) chuck roast</originaltext><annotation>create_ing(ing59, "1 (5 pound) chuck roast")</annotation></line>
+<line><originaltext>1 cup barbeque sauce</originaltext><annotation>create_ing(ing60, "1 cup barbeque sauce")</annotation></line>
+<line><originaltext>1 cup teriyaki sauce</originaltext><annotation>create_ing(ing61, "1 cup teriyaki sauce")</annotation></line>
+<line><originaltext>1 (12 fluid ounce) can or bottle beer</originaltext><annotation>create_ing(ing62, "1 (12 fluid ounce) can or bottle beer")</annotation></line>
+<line><originaltext>3 teaspoons minced garlic</originaltext><annotation>create_ing(ing63, "3 teaspoons minced garlic")</annotation></line>
+<line><originaltext>3 teaspoons thinly sliced fresh ginger root</originaltext><annotation>create_ing(ing64, "3 teaspoons thinly sliced fresh ginger root")</annotation></line>
+<line><originaltext>1 onion, finely chopped</originaltext><annotation>create_ing(ing65, "1 onion, finely chopped")</annotation></line>
+<line><originaltext>3 teaspoons coarsely ground black pepper</originaltext><annotation>create_ing(ing66, "3 teaspoons coarsely ground black pepper")</annotation></line>
+<line><originaltext>2 teaspoons salt</originaltext><annotation>create_ing(ing67, "2 teaspoons salt")</annotation></line>
+<line><originaltext>In a large bowl, mix barbeque sauce, teriyaki sauce, beer, garlic, ginger, onion, black pepper, and salt. </originaltext><annotation>combine({ing60, ing61, ing62, ing63, ing64, ing65, ing66, ing67}, ing68, "sauce", "")</annotation></line>
+<line><originaltext>In a large bowl, mix barbeque sauce, teriyaki sauce, beer, garlic, ginger, onion, black pepper, and salt. </originaltext><annotation>create_tool(t8, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix barbeque sauce, teriyaki sauce, beer, garlic, ginger, onion, black pepper, and salt. </originaltext><annotation>mix(ing68, t8, ing69, "mixed sauce", "mix")</annotation></line>
+<line><originaltext>Place the roast into the marinade, cover and refrigerate for six hours, turning often.</originaltext><annotation>combine({ing59, ing69}, ing70, "roast in marinade", "place roast into the mixed sauce")</annotation></line>
+<line><originaltext>Place the roast into the marinade, cover and refrigerate for six hours, turning often.</originaltext><annotation>set(t8,"cover")</annotation></line>
+<line><originaltext>Place the roast into the marinade, cover and refrigerate for six hours, turning often.</originaltext><annotation>leave(ing70,"refrigerate for 6 hours turning often")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for indirect heat. </originaltext><annotation>create_tool(t9, "outdoor grill")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for indirect heat. </originaltext><annotation>set(t9,"preheat for indirect heat")</annotation></line>
+<line><originaltext>Remove the roast from the marinade, and pour the marinade into a saucepan. </originaltext><annotation>separate(ing70, ing71, "roast ", ing72, "marinade", "")</annotation></line>
+<line><originaltext>Remove the roast from the marinade, and pour the marinade into a saucepan. </originaltext><annotation>create_tool(t10, "saucepan")</annotation></line>
+<line><originaltext>Remove the roast from the marinade, and pour the marinade into a saucepan. </originaltext><annotation>put(ing72, t10)</annotation></line>
+<line><originaltext>Bring to a boil, and cook for 5 minutes. </originaltext><annotation>cook(ing72, t10, ing73, "basting sauce", "bring to a boil and cook for 5 minutes")</annotation></line>
+<line><originaltext>Set aside for use as a basting sauce.</originaltext><annotation>leave(ing73,"set aside")</annotation></line>
+<line><originaltext>Thread the roast onto a rotating barbecue spit above indirect heat.  </originaltext><annotation>create_tool(t11,"rotating barbecue spit above indirect heat.")</annotation></line>
+<line><originaltext>Thread the roast onto a rotating barbecue spit above indirect heat.  </originaltext><annotation>put(ing71, t11)</annotation></line>
+<line><originaltext>Cook the roast for two hours, or until the internal temperature of the roast is at least 145 degrees F (63 degrees C). </originaltext><annotation>cook(ing71, t9, ing74, "grilled roast", "cook for two hours, or until the internal temperatureof the roast is at least 145 degrees F (63 degrees C)")</annotation></line>
+<line><originaltext>Baste often during the last hour with reserved marinade.</originaltext><annotation>combine({ing73, ing74}, ing75, "basted roast", "baste often during the last hour")</annotation></line>
+</recipe>

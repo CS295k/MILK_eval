@@ -1,0 +1,35 @@
+<recipe version="1.1"><line><originaltext>1 cup unsalted butter</originaltext><annotation>create_ing(ing0, "1 cup unsalted butter")</annotation></line>
+<line><originaltext>1 cup chai tea mix</originaltext><annotation>create_ing(ing1, "1 cup chai tea mix")</annotation></line>
+<line><originaltext>1 1/3 cups white sugar</originaltext><annotation>create_ing(ing2, "1 1/3 cups white sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing3, "2 eggs")</annotation></line>
+<line><originaltext>3 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing4, "3 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 tablespoon baking powder</originaltext><annotation>create_ing(ing5, "1 tablespoon baking powder")</annotation></line>
+<line><originaltext>2 teaspoons salt</originaltext><annotation>create_ing(ing6, "2 teaspoons salt")</annotation></line>
+<line><originaltext>1/2 cup white sugar for decoration</originaltext><annotation>create_ing(ing7, "1/2 cup white sugar for decoration")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, 1 1/3 cups sugar, and chai tea mix until light and fluffy. </originaltext><annotation>create_tool(t0, "Large bowl")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, 1 1/3 cups sugar, and chai tea mix until light and fluffy. </originaltext><annotation>combine({ing0, ing1, ing2}, ing8, "butter, sugar, chai tea mix", "cream together")</annotation></line>
+<line><originaltext>Beat in the eggs one at a time, mixing well after each. </originaltext><annotation>combine({ing3, ing8}, ing9, "butter, sugar, chai tea mix, eggs", "one at a time")</annotation></line>
+<line><originaltext>Beat in the eggs one at a time, mixing well after each. </originaltext><annotation>mix(ing9, t0, ing10, "Mixed butter, sugar, eggs, chai", "Mix well")</annotation></line>
+<line><originaltext>Combine the flour, baking powder, and salt; blend into the creamed mixture until all of the dry has been absorbed. </originaltext><annotation>combine({ing4, ing5, ing6}, ing11, "Dry things", "")</annotation></line>
+<line><originaltext>Combine the flour, baking powder, and salt; blend into the creamed mixture until all of the dry has been absorbed. </originaltext><annotation>combine({ing10, ing11}, ing12, "All cookie ingredients", "Blend together")</annotation></line>
+<line><originaltext>Combine the flour, baking powder, and salt; blend into the creamed mixture until all of the dry has been absorbed. </originaltext><annotation>mix(ing12, t0, ing13, "Blended cookie ingredients", "Blend together until all the dry is absorbed")</annotation></line>
+<line><originaltext>Combine the flour, baking powder, and salt; blend into the creamed mixture until all of the dry has been absorbed. </originaltext><annotation>chefcheck(ing13,"All dry ingredients are absorbed")</annotation></line>
+<line><originaltext>Cover the dough, and refrigerate for 1 hour.</originaltext><annotation>put(ing13, t0)</annotation></line>
+<line><originaltext>Cover the dough, and refrigerate for 1 hour.</originaltext><annotation>set(t0,"Cover")</annotation></line>
+<line><originaltext>Cover the dough, and refrigerate for 1 hour.</originaltext><annotation>leave(ing13,"Refrigerate for 1 hour")</annotation></line>
+<line><originaltext>Preheat the oven to 400 degrees F (200 degrees C). </originaltext><annotation>create_tool(t1, "Oven")</annotation></line>
+<line><originaltext>Preheat the oven to 400 degrees F (200 degrees C). </originaltext><annotation>set(t1,"Preheat to 400 F (200 C)")</annotation></line>
+<line><originaltext>Roll the cookie dough into walnut sized balls, and roll the balls in sugar. </originaltext><annotation>do(ing13, , ing14, "Dough balls", "Roll the dough into walnut-sized balls")</annotation></line>
+<line><originaltext>Roll the cookie dough into walnut sized balls, and roll the balls in sugar. </originaltext><annotation>create_ing(ing15, "Sugar ")</annotation></line>
+<line><originaltext>Roll the cookie dough into walnut sized balls, and roll the balls in sugar. </originaltext><annotation>combine({ing14, ing15}, ing16, "Dough balls covered in sugar", "Roll the dough balls in sugar")</annotation></line>
+<line><originaltext>Place the cookies onto greased cookie sheets about 3 inches apart, and flatten slightly using the tines of a fork.</originaltext><annotation>create_tool(t2, "Greased cookie sheets")</annotation></line>
+<line><originaltext>Place the cookies onto greased cookie sheets about 3 inches apart, and flatten slightly using the tines of a fork.</originaltext><annotation>put(ing16, t2)</annotation></line>
+<line><originaltext>Place the cookies onto greased cookie sheets about 3 inches apart, and flatten slightly using the tines of a fork.</originaltext><annotation>create_tool(t3, "Fork")</annotation></line>
+<line><originaltext>Place the cookies onto greased cookie sheets about 3 inches apart, and flatten slightly using the tines of a fork.</originaltext><annotation>do(ing16, t3, ing17, "Flattened dough balls", "Flatten with a fork")</annotation></line>
+<line><originaltext>Bake for 10 to 12 minutes in the preheated oven, just until the edges begin to brown. </originaltext><annotation>cook(ing17, t1, ing18, "Baked cookies", "10-12 minutes")</annotation></line>
+<line><originaltext>Bake for 10 to 12 minutes in the preheated oven, just until the edges begin to brown. </originaltext><annotation>chefcheck(ing18,"Edges begin to brown")</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks.</originaltext><annotation>remove(ing18,t2)</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks.</originaltext><annotation>create_tool(t4, "Wire racks")</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks.</originaltext><annotation>put(ing18, t4)</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks.</originaltext><annotation>leave(ing18,"Let them cool on wire racks")</annotation></line>
+</recipe>

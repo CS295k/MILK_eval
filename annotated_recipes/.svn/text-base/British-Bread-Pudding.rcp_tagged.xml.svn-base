@@ -1,0 +1,24 @@
+<recipe version="1.1"><line><originaltext>6 1/4 cups cubed whole wheat bread</originaltext><annotation>create_ing(ing0, "6 1/4 cups cubed whole wheat bread")</annotation></line>
+<line><originaltext>1 1/4 cups milk</originaltext><annotation>create_ing(ing1, "1 1/4 cups milk")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing2, "1 egg, beaten")</annotation></line>
+<line><originaltext>1/3 cup butter, softened</originaltext><annotation>create_ing(ing3, "1/3 cup butter, softened")</annotation></line>
+<line><originaltext>3/4 cup raisins</originaltext><annotation>create_ing(ing4, "3/4 cup raisins")</annotation></line>
+<line><originaltext>1/4 cup dried mixed fruit</originaltext><annotation>create_ing(ing5, "1/4 cup dried mixed fruit")</annotation></line>
+<line><originaltext>1/2 cup brown sugar</originaltext><annotation>create_ing(ing6, "1/2 cup brown sugar")</annotation></line>
+<line><originaltext>1 tablespoon ground nutmeg</originaltext><annotation>create_ing(ing7, "1 tablespoon ground nutmeg")</annotation></line>
+<line><originaltext>1 tablespoon ground cinnamon</originaltext><annotation>create_ing(ing8, "1 tablespoon ground cinnamon")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C).</originaltext><annotation>set(t0,"preheat to 375 F")</annotation></line>
+<line><originaltext>In a large bowl, combine bread and milk, and set aside to soak for 5 minutes. </originaltext><annotation>combine({ing0, ing1}, ing9, "milky bread", "")</annotation></line>
+<line><originaltext>In a large bowl, combine bread and milk, and set aside to soak for 5 minutes. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine bread and milk, and set aside to soak for 5 minutes. </originaltext><annotation>put(ing9, t1)</annotation></line>
+<line><originaltext>In a large bowl, combine bread and milk, and set aside to soak for 5 minutes. </originaltext><annotation>leave(ing9,"to soak for 5 minutes")</annotation></line>
+<line><originaltext>Then stir in egg, butter, raisins, mixed fruit, brown sugar, nutmeg, and cinnamon. </originaltext><annotation>combine({ing2, ing3, ing4, ing5, ing6, ing7, ing8, ing9}, ing10, "pudding mix", "stir in")</annotation></line>
+<line><originaltext>Mix well. </originaltext><annotation>mix(ing10, t1, ing11, "mixed pudding", "well")</annotation></line>
+<line><originaltext>Press the mixture into a  9-inch square baking pan.</originaltext><annotation>create_tool(t2, "9-inch square baking pan")</annotation></line>
+<line><originaltext>Press the mixture into a  9-inch square baking pan.</originaltext><annotation>put(ing11, t2)</annotation></line>
+<line><originaltext>Bake in preheated oven until golden and firm to touch, about 35 minutes. </originaltext><annotation>cook(ing11, t0, ing12, "baked pudding", "bake until golden and firm to touch, about 35 minutes")</annotation></line>
+<line><originaltext>Leave in baking pan to cool, then cut into squares.</originaltext><annotation>leave(ing12,"until cool")</annotation></line>
+<line><originaltext>Leave in baking pan to cool, then cut into squares.</originaltext><annotation>cut(ing12, , ing13, "pudding squares", "into squares")</annotation></line>
+<line><originaltext>Leave in baking pan to cool, then cut into squares.</originaltext><annotation>serve(ing13,"")</annotation></line>
+</recipe>

@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>2 cups cherry brandy liqueur</originaltext><annotation>create_ing(ing75, "2 cups cherry brandy liqueur")</annotation></line>
+<line><originaltext>1 (16 ounce) can frozen orange juice concentrate</originaltext><annotation>create_ing(ing76, "1 (16 ounce) can frozen orange juice concentrate")</annotation></line>
+<line><originaltext>1 (16 ounce) can frozen lemonade concentrate</originaltext><annotation>create_ing(ing77, "1 (16 ounce) can frozen lemonade concentrate")</annotation></line>
+<line><originaltext>2 quarts cranberry juice</originaltext><annotation>create_ing(ing78, "2 quarts cranberry juice")</annotation></line>
+<line><originaltext>1 (2 liter) bottle lemon-lime flavored carbonated beverage, chilled</originaltext><annotation>create_ing(ing79, "1 (2 liter) bottle lemon-lime flavored carbonated beverage, chilled")</annotation></line>
+<line><originaltext>In a plastic container, mix together cherry brandy, orange juice concentrate, lemonade concentrate, and cranberry juice. </originaltext><annotation>create_tool(t15, "plastic container")</annotation></line>
+<line><originaltext>In a plastic container, mix together cherry brandy, orange juice concentrate, lemonade concentrate, and cranberry juice. </originaltext><annotation>combine({ing75, ing76, ing77, ing78}, ing80, "fruity drink", "mix")</annotation></line>
+<line><originaltext>In a plastic container, mix together cherry brandy, orange juice concentrate, lemonade concentrate, and cranberry juice. </originaltext><annotation>mix(ing80, t15, ing81, "fruit cocktail", "mix")</annotation></line>
+<line><originaltext>Freeze overnight. </originaltext><annotation>leave(ing81,"freeze overnight")</annotation></line>
+<line><originaltext>To serve, scoop desired amount of frozen mixture into a glass, and fill with lemon-lime soda. </originaltext><annotation>combine({ing79, ing81}, ing82, "slush", "in a glass")</annotation></line>
+<line><originaltext>To serve, scoop desired amount of frozen mixture into a glass, and fill with lemon-lime soda. </originaltext><annotation>serve(ing82,"in a glass")</annotation></line>
+</recipe>

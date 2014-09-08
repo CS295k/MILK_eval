@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>4 skinless, boneless chicken breast halves</originaltext><annotation>create_ing(ing23, "4 skinless, boneless chicken breast halves")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing24, "Salt and pepper to taste")</annotation></line>
+<line><originaltext>2 teaspoons olive oil</originaltext><annotation>create_ing(ing25, "2 teaspoons olive oil")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can diced tomatoes with green peppers and onions</originaltext><annotation>create_ing(ing26, "1 (14.5 ounce) can diced tomatoes with green peppers and onions")</annotation></line>
+<line><originaltext>1/4 cup sun-dried tomato pesto</originaltext><annotation>create_ing(ing27, "1/4 cup sun-dried tomato pesto")</annotation></line>
+<line><originaltext>1 (14 ounce) can artichoke hearts in water, drained and quartered</originaltext><annotation>create_ing(ing28, "1 (14 ounce) can artichoke hearts in water, drained and quartered")</annotation></line>
+<line><originaltext>Season both sides of chicken breasts with salt and pepper. </originaltext><annotation>combine({ing23, ing24}, ing29, "seasoned chicken", "")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>create_tool(t5, "skillet")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>cook(ing25, t5, ing30, "hot oil", "medium-high heat")</annotation></line>
+<line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>combine({ing29, ing30}, ing31, "chicken in oil", "")</annotation></line>
+<line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>put(ing31, t5)</annotation></line>
+<line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>cook(ing31, t5, ing33, "cooked chicken", "cook, turning once to brown each side")</annotation></line>
+<line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>chefcheck(ing33,"brown on both sides")</annotation></line>
+<line><originaltext>Remove chicken from pan, and set aside.</originaltext><annotation>remove(ing33,t5)</annotation></line>
+<line><originaltext>Pour tomatoes into pan; cook for 1 minute, stirring constantly, and incorporating any brown bits from bottom of pan. </originaltext><annotation>put(ing26, t5)</annotation></line>
+<line><originaltext>Pour tomatoes into pan; cook for 1 minute, stirring constantly, and incorporating any brown bits from bottom of pan. </originaltext><annotation>cook(ing26, t5, ing34, "cooked tomatoes", "medium-high heat, 1 minute")</annotation></line>
+<line><originaltext>Pour tomatoes into pan; cook for 1 minute, stirring constantly, and incorporating any brown bits from bottom of pan. </originaltext><annotation>mix(ing34, t5, ing35, "mixed cooked tomatoes", "while cooking")</annotation></line>
+<line><originaltext>Stir in pesto and artichokes, and return chicken to pan. </originaltext><annotation>combine({ing27, ing28, ing35}, ing36, "sauce", "")</annotation></line>
+<line><originaltext>Stir in pesto and artichokes, and return chicken to pan. </originaltext><annotation>mix(ing36, t5, ing37, "stirred sauce", "stir")</annotation></line>
+<line><originaltext>Stir in pesto and artichokes, and return chicken to pan. </originaltext><annotation>combine({ing33, ing37}, ing38, "chicken and sauce", "")</annotation></line>
+<line><originaltext>Stir in pesto and artichokes, and return chicken to pan. </originaltext><annotation>put(ing38, t5)</annotation></line>
+<line><originaltext>Cover, and reduce heat to medium. </originaltext><annotation>set(t5,"cover, medium heat")</annotation></line>
+<line><originaltext>Simmer for 5 to 10 minutes, or until chicken is cooked through.</originaltext><annotation>cook(ing38, t5, ing39, "cooked chicken", "simmer, 5 to 10 minutes")</annotation></line>
+<line><originaltext>Simmer for 5 to 10 minutes, or until chicken is cooked through.</originaltext><annotation>chefcheck(ing39,"cooked through")</annotation></line>
+</recipe>

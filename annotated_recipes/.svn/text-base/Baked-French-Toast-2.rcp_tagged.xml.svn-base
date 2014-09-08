@@ -1,0 +1,28 @@
+<recipe><line><originaltext>1 (1 pound) loaf French bread, cut diagonally in 1 inch slices</originaltext><annotation>create_ing(ing0, "1 (1 pound) loaf French bread, cut diagonally in 1 inch slices")</annotation></line>
+<line><originaltext>8 eggs</originaltext><annotation>create_ing(ing1, "8 eggs")</annotation></line>
+<line><originaltext>2 cups milk</originaltext><annotation>create_ing(ing2, "2 cups milk")</annotation></line>
+<line><originaltext>1 1/2 cups half-and-half cream</originaltext><annotation>create_ing(ing3, "1 1/2 cups half-and-half cream")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing4, "2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>1/4 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing5, "1/4 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>3/4 cup butter</originaltext><annotation>create_ing(ing6, "3/4 cup butter")</annotation></line>
+<line><originaltext>1 1/3 cups brown sugar</originaltext><annotation>create_ing(ing7, "1 1/3 cups brown sugar")</annotation></line>
+<line><originaltext>3 tablespoons light corn syrup</originaltext><annotation>create_ing(ing8, "3 tablespoons light corn syrup")</annotation></line>
+<line><originaltext>Butter a 9x13 inch baking dish. </originaltext><annotation>create_tool(t0, "9x13 in baking dish")</annotation></line>
+<line><originaltext>Butter a 9x13 inch baking dish. </originaltext><annotation>set(t0,"butter")</annotation></line>
+<line><originaltext>Arrange the slices of bread in the bottom. </originaltext><annotation>put({ing0}, t0)</annotation></line>
+<line><originaltext>In a large bowl, beat together eggs, milk, cream, vanilla and cinnamon. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, beat together eggs, milk, cream, vanilla and cinnamon. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5}, ing9, "cream mixture", "")</annotation></line>
+<line><originaltext>In a large bowl, beat together eggs, milk, cream, vanilla and cinnamon. </originaltext><annotation>put({ing9}, t1)</annotation></line>
+<line><originaltext>In a large bowl, beat together eggs, milk, cream, vanilla and cinnamon. </originaltext><annotation>mix(ing9, t1, ing10, "cream mixture", "beat together")</annotation></line>
+<line><originaltext>Pour over bread slices, cover, and refrigerate overnight.</originaltext><annotation>combine({ing0, ing10}, ing11, "slices with mixture", "pour mixture over slices")</annotation></line>
+<line><originaltext>Pour over bread slices, cover, and refrigerate overnight.</originaltext><annotation>do(ing11,"cover")</annotation></line>
+<line><originaltext>Pour over bread slices, cover, and refrigerate overnight.</originaltext><annotation>leave(ing11,"refrigerate overnight")</annotation></line>
+<line><originaltext>The next morning, preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>The next morning, preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
+<line><originaltext>In a small saucepan, combine butter, brown sugar and corn syrup; heat until bubbling. </originaltext><annotation>create_tool(t3, "small saucepan")</annotation></line>
+<line><originaltext>In a small saucepan, combine butter, brown sugar and corn syrup; heat until bubbling. </originaltext><annotation>combine({ing6, ing7, ing8}, ing12, "topping", "")</annotation></line>
+<line><originaltext>In a small saucepan, combine butter, brown sugar and corn syrup; heat until bubbling. </originaltext><annotation>put({ing12}, t3)</annotation></line>
+<line><originaltext>In a small saucepan, combine butter, brown sugar and corn syrup; heat until bubbling. </originaltext><annotation>cook(ing12, t3, ing13, "heated topping", "heat until bubbling")</annotation></line>
+<line><originaltext>Pour over bread and egg mixture.</originaltext><annotation>combine({ing11, ing13}, ing14, "unbaked french toast", "pour topping over slices")</annotation></line>
+<line><originaltext>Bake in preheated oven, uncovered, for 40 minutes.</originaltext><annotation>cook(ing14, t0, ing15, "french toast", "bake, uncovered, for 40 minutes")</annotation></line>
+</recipe>

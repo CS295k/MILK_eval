@@ -1,0 +1,47 @@
+<recipe><line><originaltext>3 pounds ground beef</originaltext><annotation>create_ing(ing0, "3 pounds ground beef")</annotation></line>
+<line><originaltext>17 saltine crackers, finely crushed</originaltext><annotation>create_ing(ing1, "17 saltine crackers, finely crushed")</annotation></line>
+<line><originaltext>1/2 cup milk</originaltext><annotation>create_ing(ing2, "1/2 cup milk")</annotation></line>
+<line><originaltext>1 1/2 teaspoons garlic powder</originaltext><annotation>create_ing(ing3, "1 1/2 teaspoons garlic powder")</annotation></line>
+<line><originaltext>1 1/2 teaspoons onion powder</originaltext><annotation>create_ing(ing4, "1 1/2 teaspoons onion powder")</annotation></line>
+<line><originaltext>1/4 teaspoon ground black pepper</originaltext><annotation>create_ing(ing5, "1/4 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>1 pinch salt, or to taste</originaltext><annotation>create_ing(ing6, "1 pinch salt, or to taste")</annotation></line>
+<line><originaltext>1/2 cup all-purpose flour</originaltext><annotation>create_ing(ing7, "1/2 cup all-purpose flour")</annotation></line>
+<line><originaltext>1 tablespoon vegetable oil</originaltext><annotation>create_ing(ing8, "1 tablespoon vegetable oil")</annotation></line>
+<line><originaltext>1 1/2 cups water</originaltext><annotation>create_ing(ing9, "1 1/2 cups water")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can  condensed beef and mushroom soup</originaltext><annotation>create_ing(ing10, "1 (10.75 ounce) can  condensed beef and mushroom soup")</annotation></line>
+<line><originaltext>1 (.75 ounce) packet dry brown gravy mix</originaltext><annotation>create_ing(ing11, "1 (.75 ounce) packet dry brown gravy mix")</annotation></line>
+<line><originaltext>In a large bowl, mix together the ground beef, saltine crackers and milk. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix together the ground beef, saltine crackers and milk. </originaltext><annotation>combine({ing0, ing1, ing2}, ing12, "beef, crackers, milk", "")</annotation></line>
+<line><originaltext>In a large bowl, mix together the ground beef, saltine crackers and milk. </originaltext><annotation>put({ing12}, t0)</annotation></line>
+<line><originaltext>In a large bowl, mix together the ground beef, saltine crackers and milk. </originaltext><annotation>mix(ing12, t0, ing13, "beef, crackers, milk", "")</annotation></line>
+<line><originaltext>Season with garlic powder, onion powder, salt and pepper, and mix until well blended. </originaltext><annotation>combine({ing13, ing3, ing4, ing5, ing6}, ing14, "beef mixture", "")</annotation></line>
+<line><originaltext>Season with garlic powder, onion powder, salt and pepper, and mix until well blended. </originaltext><annotation>mix(ing14, t0, ing15, "beef mixture", "until well blended")</annotation></line>
+<line><originaltext>Line a 10x15 inch jellyroll pan with waxed paper. </originaltext><annotation>create_tool(t1, "10x15 jellyroll pan")</annotation></line>
+<line><originaltext>Line a 10x15 inch jellyroll pan with waxed paper. </originaltext><annotation>set(t1,"line with waxed paper")</annotation></line>
+<line><originaltext>Press the beef mixture firmly into the pan. </originaltext><annotation>put({ing15}, t1)</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate 8 to 10 hours, or overnight.</originaltext><annotation>do(ing15,"cover with plastic wrap")</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate 8 to 10 hours, or overnight.</originaltext><annotation>leave(ing15,"refrigerate 8 to 10 hours, or overnight")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
+<line><originaltext>Remove plastic wrap from meat, and rub flour over the top side of the beef. </originaltext><annotation>do(ing15,"remove plastic wrap")</annotation></line>
+<line><originaltext>Remove plastic wrap from meat, and rub flour over the top side of the beef. </originaltext><annotation>combine({ing15, ing7}, ing16, "beef with flour", "rub flour over the top side of the beef")</annotation></line>
+<line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>create_tool(t3, "waxed paper")</annotation></line>
+<line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>put({ing16}, t3)</annotation></line>
+<line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>combine({ing16}, ing17, "beef with flour", "rub flour on other side")</annotation></line>
+<line><originaltext>Cut into pieces (I use a pizza cutter).</originaltext><annotation>cut(ing17, ing18, "cut beef", "cut into pieces")</annotation></line>
+<line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>create_tool(t4, "large heavy skillet")</annotation></line>
+<line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>put({ing8}, t4)</annotation></line>
+<line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>cook(ing8, t4, ing19, "heated oil", "heat over medium-high heat")</annotation></line>
+<line><originaltext>Fry the meat until browned on each side, turning only once. </originaltext><annotation>put({ing18}, t4)</annotation></line>
+<line><originaltext>Fry the meat until browned on each side, turning only once. </originaltext><annotation>cook(ing18, t4, ing20, "fried beef", "fry until browned on each side, turning only once")</annotation></line>
+<line><originaltext>Remove to a 9x13 inch baking dish. </originaltext><annotation>create_tool(t5, "9x13 in baking dish")</annotation></line>
+<line><originaltext>Remove to a 9x13 inch baking dish. </originaltext><annotation>put({ing20}, t5)</annotation></line>
+<line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>create_tool(t6, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>combine({ing10, ing11, ing9}, ing21, "gravy", "")</annotation></line>
+<line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>put({ing21}, t6)</annotation></line>
+<line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>mix(ing21, t6, ing22, "mixed gravy", "")</annotation></line>
+<line><originaltext>Pour over the meat in the dish. </originaltext><annotation>combine({ing20, ing22}, ing23, "beef with gravy", "pour gravy over meat")</annotation></line>
+<line><originaltext>Cover the dish loosely with aluminum foil.</originaltext><annotation>do(ing23,"cover loosely aluminum foil")</annotation></line>
+<line><originaltext>Bake for 1 hour in the preheated oven. </originaltext><annotation>cook(ing23, t2, ing24, "cooked beef", "1 hour")</annotation></line>
+<line><originaltext>Serve fake steak and gravy with potatoes, rice, or noodles.</originaltext><annotation>serve(ing24,"with potatoes, rice, or noodles")</annotation></line>
+</recipe>

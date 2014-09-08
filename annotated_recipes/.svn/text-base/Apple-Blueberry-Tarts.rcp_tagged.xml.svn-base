@@ -1,0 +1,32 @@
+<recipe version="1.1"><line><originaltext>2 medium cooking apples, peeled, cored, and chopped</originaltext><annotation>create_ing(ing16, "2 medium cooking apples, peeled, cored, and chopped")</annotation></line>
+<line><originaltext>2/3 cup fresh or frozen blueberries</originaltext><annotation>create_ing(ing17, "2/3 cup fresh or frozen blueberries")</annotation></line>
+<line><originaltext>1 tablespoon heat-stable granular sugar substitute</originaltext><annotation>create_ing(ing18, "1 tablespoon heat-stable granular sugar substitute")</annotation></line>
+<line><originaltext>1/2 teaspoon apple pie spice or ground allspice</originaltext><annotation>create_ing(ing19, "1/2 teaspoon apple pie spice or ground allspice")</annotation></line>
+<line><originaltext>1 1/3 cups whole wheat pastry flour</originaltext><annotation>create_ing(ing20, "1 1/3 cups whole wheat pastry flour")</annotation></line>
+<line><originaltext>1/4 teaspoon kosher salt</originaltext><annotation>create_ing(ing21, "1/4 teaspoon kosher salt")</annotation></line>
+<line><originaltext>1/3 cup extra-virgin olive oil</originaltext><annotation>create_ing(ing22, "1/3 cup extra-virgin olive oil")</annotation></line>
+<line><originaltext>3 tablespoons low-fat milk</originaltext><annotation>create_ing(ing23, "3 tablespoons low-fat milk")</annotation></line>
+<line><originaltext>In a medium bowl combine apples, blueberries, sugar substitute, and the 1/4 teaspoon apple pie spice; set aside.</originaltext><annotation>create_tool(t3, "medium bowl ")</annotation></line>
+<line><originaltext>In a medium bowl combine apples, blueberries, sugar substitute, and the 1/4 teaspoon apple pie spice; set aside.</originaltext><annotation>combine({ing16, ing17, ing18, ing19}, ing24, "fruit, sugar, and allspice", "")</annotation></line>
+<line><originaltext>In a medium bowl combine apples, blueberries, sugar substitute, and the 1/4 teaspoon apple pie spice; set aside.</originaltext><annotation>put(ing24, t3)</annotation></line>
+<line><originaltext>In another medium bowl stir together whole wheat pastry flour, kosher salt, and the 1/8 teaspoon apple pie spice. </originaltext><annotation>create_tool(t4, "another medium bowl")</annotation></line>
+<line><originaltext>In another medium bowl stir together whole wheat pastry flour, kosher salt, and the 1/8 teaspoon apple pie spice. </originaltext><annotation>create_ing(ing25, "1/8 teaspoon apple pie spice")</annotation></line>
+<line><originaltext>In another medium bowl stir together whole wheat pastry flour, kosher salt, and the 1/8 teaspoon apple pie spice. </originaltext><annotation>combine({ing20, ing21, ing25}, ing26, "flour mixture", "")</annotation></line>
+<line><originaltext>In another medium bowl stir together whole wheat pastry flour, kosher salt, and the 1/8 teaspoon apple pie spice. </originaltext><annotation>mix(ing26, t4, ing27, "stirred flour mixture", "stir together")</annotation></line>
+<line><originaltext>Add oil and milk all at once to flour mixture. </originaltext><annotation>combine({ing22, ing23, ing27}, ing28, "wet flour mixture", "add oil and milk all at once")</annotation></line>
+<line><originaltext>Stir lightly with a fork until dough comes together. </originaltext><annotation>mix(ing28, , ing29, "dough", "stir lightly with fork until dough comes together")</annotation></line>
+<line><originaltext>Divide dough into 6 portions. </originaltext><annotation>cut(ing29, ing30, "6 portions of dough", "divide")</annotation></line>
+<line><originaltext>Using six 3 1/2- to 4-inch individual tart pans with removable bottoms, press one dough portion on the bottom and up the side of each tart pan.</originaltext><annotation>create_tool(t5, "six 1/2- to 4-inch tart pans with removable bottoms")</annotation></line>
+<line><originaltext>Using six 3 1/2- to 4-inch individual tart pans with removable bottoms, press one dough portion on the bottom and up the side of each tart pan.</originaltext><annotation>do(ing30, t5, ing31, "pastry-lined pans", "press one dough portion on the bottom and up the side of each tart pan")</annotation></line>
+<line><originaltext>Divide fruit mixture among pastry-lined pans. </originaltext><annotation>combine({ing24, ing31}, ing32, "unbaked fruit tarts", "divide fruit mixture among pastry-lined pans")</annotation></line>
+<line><originaltext>Place tart pans on a large baking sheet. </originaltext><annotation>create_tool(t6, "large baking sheet")</annotation></line>
+<line><originaltext>Place tart pans on a large baking sheet. </originaltext><annotation>put(ing32, t5)</annotation></line>
+<line><originaltext>Place a large piece of foil over tart pans; press down lightly around the edges to seal.</originaltext><annotation>set(t5, "place large piece of foil over, press down lightly around the edges to seal")</annotation></line>
+<line><originaltext>Bake in a 375 degrees F oven for 20 minutes; remove foil. </originaltext><annotation>create_tool(t8, "oven")</annotation></line>
+<line><originaltext>Bake in a 375 degrees F oven for 20 minutes; remove foil. </originaltext><annotation>cook(ing32, t8, ing33, "half baked tarts", "bake at 375 degrees F for 20 minutes")</annotation></line>
+<line><originaltext>Bake in a 375 degrees F oven for 20 minutes; remove foil. </originaltext><annotation>set(t5,"remove foil")</annotation></line>
+<line><originaltext>Bake about 20 minutes more or until fruit is tender. </originaltext><annotation>cook(ing33, t8, ing34, "hot tarts", "bake about 20 minutes more or until fruit is tender")</annotation></line>
+<line><originaltext>Let cool in tart pans on a wire rack for 15 minutes. </originaltext><annotation>leave(ing34,"let cool in tart pans on a wire rack for 15 minutes")</annotation></line>
+<line><originaltext>Carefully remove sides of tart pans. </originaltext><annotation>set(t5,"remove sides of tart pans")</annotation></line>
+<line><originaltext>Serve warm or cool.</originaltext><annotation>serve(ing34,"warm or cool")</annotation></line>
+</recipe>

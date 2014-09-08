@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>12 helix snails, without shells</originaltext><annotation>create_ing(ing0, "12 helix snails, without shells")</annotation></line>
+<line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing1, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>2 cloves garlic, finely chopped</originaltext><annotation>create_ing(ing2, "2 cloves garlic, finely chopped")</annotation></line>
+<line><originaltext>1 green onion, finely chopped</originaltext><annotation>create_ing(ing3, "1 green onion, finely chopped")</annotation></line>
+<line><originaltext>1 tablespoon finely minced fresh parsley</originaltext><annotation>create_ing(ing4, "1 tablespoon finely minced fresh parsley")</annotation></line>
+<line><originaltext>1 teaspoon freshly ground black pepper</originaltext><annotation>create_ing(ing5, "1 teaspoon freshly ground black pepper")</annotation></line>
+<line><originaltext>1/8 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing6, "1/8 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>2 tablespoons dry white wine</originaltext><annotation>create_ing(ing7, "2 tablespoons dry white wine")</annotation></line>
+<line><originaltext>12 puff pastry shells</originaltext><annotation>create_ing(ing8, "12 puff pastry shells")</annotation></line>
+<line><originaltext>12 mushroom caps</originaltext><annotation>create_ing(ing9, "12 mushroom caps")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>set(t0,"400 degrees")</annotation></line>
+<line><originaltext>Drain escargots; rinse in cold water and drain again. </originaltext><annotation>do(ing0, , ing10, "drained escargot", "drain")</annotation></line>
+<line><originaltext>Drain escargots; rinse in cold water and drain again. </originaltext><annotation>do(ing10, , ing11, "rinsed escargot", "rinse")</annotation></line>
+<line><originaltext>Drain escargots; rinse in cold water and drain again. </originaltext><annotation>do(ing11, , ing12, "rinsed escargot", "rinse")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the butter, garlic, green onion, parsley, pepper, nutmeg and wine. </originaltext><annotation>create_tool(t1, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the butter, garlic, green onion, parsley, pepper, nutmeg and wine. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing13, "butter mixture", "")</annotation></line>
+<line><originaltext>Mix thoroughly. </originaltext><annotation>mix(ing13, t1, ing14, "butter mixture", "thoroughly")</annotation></line>
+<line><originaltext>Mix thoroughly. </originaltext><annotation>chefcheck(ing14,"thorough")</annotation></line>
+<line><originaltext>Place 1 teaspoon of butter mixture into each pastry shell. </originaltext><annotation>combine({ing14, ing8}, ing15, "mixture in shells", "1 tsp in each shell")</annotation></line>
+<line><originaltext>Top each with 1 escargot, cover with another teaspoon of butter mixture and place mushroom cap on top. </originaltext><annotation>combine({ing12, ing15}, ing16, "escargot topped shells", "place escargot on top")</annotation></line>
+<line><originaltext>Top each with 1 escargot, cover with another teaspoon of butter mixture and place mushroom cap on top. </originaltext><annotation>do(ing16, , ing17, "escargot stack", "cover with another tsp of butter mixture")</annotation></line>
+<line><originaltext>Top each with 1 escargot, cover with another teaspoon of butter mixture and place mushroom cap on top. </originaltext><annotation>combine({ing17, ing9}, ing18, "topped stacks", "place mushroom on top")</annotation></line>
+<line><originaltext>Arrange pastry shells on a 10x15 inch baking sheet. </originaltext><annotation>create_tool(t2, "10 x 15 inch baking sheet")</annotation></line>
+<line><originaltext>Arrange pastry shells on a 10x15 inch baking sheet. </originaltext><annotation>put(ing18, t2)</annotation></line>
+<line><originaltext>Bake in a preheated oven for 8 to 10 minutes or until golden brown. </originaltext><annotation>cook(ing18, t0, ing19, "cooked stacks", "bake 8 to 10 minutes")</annotation></line>
+<line><originaltext>Bake in a preheated oven for 8 to 10 minutes or until golden brown. </originaltext><annotation>chefcheck(ing19,"golden brown")</annotation></line>
+</recipe>

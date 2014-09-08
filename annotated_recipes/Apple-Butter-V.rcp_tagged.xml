@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>6 pounds tart apples, cored and sliced</originaltext><annotation>create_ing(ing0, "6 pounds tart apples, cored and sliced")</annotation></line>
+<line><originaltext>6 cups apple cider</originaltext><annotation>create_ing(ing1, "6 cups apple cider")</annotation></line>
+<line><originaltext>3 cups white sugar</originaltext><annotation>create_ing(ing2, "3 cups white sugar")</annotation></line>
+<line><originaltext>2 teaspoons ground cinnamon</originaltext><annotation>create_ing(ing3, "2 teaspoons ground cinnamon")</annotation></line>
+<line><originaltext>1 teaspoon ground cloves</originaltext><annotation>create_ing(ing4, "1 teaspoon ground cloves")</annotation></line>
+<line><originaltext>Place the apples in a Dutch oven. </originaltext><annotation>create_tool(t0, "dutch oven")</annotation></line>
+<line><originaltext>Place the apples in a Dutch oven. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Pour in the cider. </originaltext><annotation>combine({ing0, ing1}, ing5, "apples and cider", "pour in cider")</annotation></line>
+<line><originaltext>Bring to a boil and cook on medium heat 30 minutes, or until soft.</originaltext><annotation>cook(ing5, t0, ing6, "hot apples mixture", "bring to a boil and cook on medium heat 30 minutes, or until soft")</annotation></line>
+<line><originaltext>Press the softened mixture through a food mill.</originaltext><annotation>create_tool(t1, "food mill")</annotation></line>
+<line><originaltext>Press the softened mixture through a food mill.</originaltext><annotation>mix(ing6, t1, ing7, "pressed apple mixture", "press mixture through food mill")</annotation></line>
+<line><originaltext>Continue cooking at a medium boil for 30 minutes, stirring occasionally.</originaltext><annotation>cook(ing7, t0, ing8, "hot pressed apple mixture", "cook at medium boil for 30 minutes, stirring occasionally")</annotation></line>
+<line><originaltext>Mix in the sugar, cinnamon and cloves. </originaltext><annotation>combine({ing2, ing3, ing4, ing8}, ing9, "apple sugar and spices mix", "mix")</annotation></line>
+<line><originaltext>Continue cooking over low heat until the sugar dissolves, stirring frequently. </originaltext><annotation>cook(ing9, t0, ing10, "dissolved sugar mix", "cook over low eat until sugar disolves, stirring frequently")</annotation></line>
+<line><originaltext>Cook until the desired thickness has been attained. </originaltext><annotation>cook(ing10, t0, ing11, "hot apple butter", "cook until desired thickness has been attained")</annotation></line>
+<line><originaltext>Cook until the desired thickness has been attained. </originaltext><annotation>chefcheck(ing11,"desired thickness")</annotation></line>
+<line><originaltext>Refrigerate the finished apple butter in sterile containers.</originaltext><annotation>leave(ing11,"refrigerate in sterile containers")</annotation></line>
+</recipe>

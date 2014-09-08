@@ -1,0 +1,22 @@
+<recipe version="1.1"><line><originaltext>24 jalapeno peppers</originaltext><annotation>create_ing(ing0, "24 jalapeno peppers")</annotation></line>
+<line><originaltext>1 pound sausage</originaltext><annotation>create_ing(ing1, "1 pound sausage")</annotation></line>
+<line><originaltext>2 cups all-purpose baking mix</originaltext><annotation>create_ing(ing2, "2 cups all-purpose baking mix")</annotation></line>
+<line><originaltext>1 (16 ounce) package Cheddar cheese, shredded</originaltext><annotation>create_ing(ing3, "1 (16 ounce) package Cheddar cheese, shredded")</annotation></line>
+<line><originaltext>1 tablespoon crushed red pepper flakes</originaltext><annotation>create_ing(ing4, "1 tablespoon crushed red pepper flakes")</annotation></line>
+<line><originaltext>1 tablespoon garlic salt</originaltext><annotation>create_ing(ing5, "1 tablespoon garlic salt")</annotation></line>
+<line><originaltext>1 (16 ounce) package Monterey Jack cheese, cubed</originaltext><annotation>create_ing(ing6, "1 (16 ounce) package Monterey Jack cheese, cubed")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>set(t0,"Preheat to 325 degrees F (165 degrees C)")</annotation></line>
+<line><originaltext>Lightly grease a medium baking sheet.</originaltext><annotation>create_tool(t1, "medium baking sheet")</annotation></line>
+<line><originaltext>Lightly grease a medium baking sheet.</originaltext><annotation>set(t1,"lightly grease")</annotation></line>
+<line><originaltext>Cut a slit in each jalapeno pepper. </originaltext><annotation>cut(ing0, , ing7, "slitted jalapenos", "cut slit in each pepper")</annotation></line>
+<line><originaltext>Remove and discard seeds and pulp.</originaltext><annotation>do(ing7, , ing13, "seedless slitted jalapenos", "Remove and discard seeds and pulp")</annotation></line>
+<line><originaltext>In a medium bowl, mix sausage, baking mix, Cheddar cheese, crushed red pepper, and garlic salt.</originaltext><annotation>create_tool(t2, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix sausage, baking mix, Cheddar cheese, crushed red pepper, and garlic salt.</originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5}, ing8, "sausage stuff", "")</annotation></line>
+<line><originaltext>In a medium bowl, mix sausage, baking mix, Cheddar cheese, crushed red pepper, and garlic salt.</originaltext><annotation>mix(ing8, t2, ing9, "mixed sausage stuff", "mix")</annotation></line>
+<line><originaltext>Stuff jalapenos with the Monterey Jack cheese cubes. </originaltext><annotation>combine({ing6, ing13}, ing10, "cheesy jalapenos", "stuff jalapenos with cheese cubes")</annotation></line>
+<line><originaltext>Shape sausage mixture around the jalapenos to form balls.</originaltext><annotation>combine({ing10, ing9}, ing11, "sausage jalapeno balls", "shape sausage stuff around the jalapenos to form balls")</annotation></line>
+<line><originaltext>Arrange jalapeno balls on the prepared baking sheet. </originaltext><annotation>put(ing11, t1)</annotation></line>
+<line><originaltext>Bake 25 minutes in the preheated oven, until lightly browned.</originaltext><annotation>cook(ing11, t0, ing12, "cooked jalapeno sausage balls", "Bake 25 minutes, until lightly browned")</annotation></line>
+<line><originaltext>Bake 25 minutes in the preheated oven, until lightly browned.</originaltext><annotation>chefcheck(ing12,"lightly browned")</annotation></line>
+</recipe>

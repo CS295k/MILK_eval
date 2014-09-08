@@ -1,0 +1,44 @@
+<recipe version="1.1"><line><originaltext>2 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing0, "2 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup sugar</originaltext><annotation>create_ing(ing1, "1/2 cup sugar")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing2, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>3 teaspoons baking powder</originaltext><annotation>create_ing(ing3, "3 teaspoons baking powder")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing4, "1 teaspoon salt")</annotation></line>
+<line><originaltext>2 (4 ounce) jars apricot baby food, divided</originaltext><annotation>create_ing(ing5, "2 (4 ounce) jars apricot baby food, divided")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing6, "1 egg")</annotation></line>
+<line><originaltext>3/4 cup milk</originaltext><annotation>create_ing(ing7, "3/4 cup milk")</annotation></line>
+<line><originaltext>3 tablespoons vegetable oil</originaltext><annotation>create_ing(ing8, "3 tablespoons vegetable oil")</annotation></line>
+<line><originaltext>1 teaspoon almond extract</originaltext><annotation>create_ing(ing9, "1 teaspoon almond extract")</annotation></line>
+<line><originaltext>2/3 cup sliced almonds, coarsely chopped</originaltext><annotation>create_ing(ing10, "2/3 cup sliced almonds, coarsely chopped")</annotation></line>
+<line><originaltext>1/2 cup diced dried apricots</originaltext><annotation>create_ing(ing11, "1/2 cup diced dried apricots")</annotation></line>
+<line><originaltext>1/2 cup confectioners' sugar</originaltext><annotation>create_ing(ing12, "1/2 cup confectioners' sugar")</annotation></line>
+<line><originaltext>1 teaspoon milk</originaltext><annotation>create_ing(ing13, "1 teaspoon milk")</annotation></line>
+<line><originaltext>1/8 teaspoon almond extract</originaltext><annotation>create_ing(ing14, "1/8 teaspoon almond extract")</annotation></line>
+<line><originaltext>In a large bowl, combine the flour, sugars, baking powder and salt. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the flour, sugars, baking powder and salt. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing15, "flour, sugars, baking powder, salt", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the flour, sugars, baking powder and salt. </originaltext><annotation>put(ing15, t0)</annotation></line>
+<line><originaltext>In a large bowl, combine the flour, sugars, baking powder and salt. </originaltext><annotation>mix(ing15, t0, ing16, "flour, sugars, baking powder, salt", "")</annotation></line>
+<line><originaltext>Set aside 1 tablespoon baby food for glaze. </originaltext><annotation>separate(ing5, ing17, "1 tablespoon baby food", ing18, "rest of baby food", "")</annotation></line>
+<line><originaltext>In another bowl, beat the egg, milk, oil, extract and remaining baby food. </originaltext><annotation>create_tool(t1, "medium bowl")</annotation></line>
+<line><originaltext>In another bowl, beat the egg, milk, oil, extract and remaining baby food. </originaltext><annotation>combine({ing18, ing6, ing7, ing8, ing9}, ing19, "egg, milk, oil, extract, baby food", "")</annotation></line>
+<line><originaltext>In another bowl, beat the egg, milk, oil, extract and remaining baby food. </originaltext><annotation>put(ing19, t1)</annotation></line>
+<line><originaltext>In another bowl, beat the egg, milk, oil, extract and remaining baby food. </originaltext><annotation>mix(ing19, t1, ing20, "egg, milk, oil, extract, baby food", "beat")</annotation></line>
+<line><originaltext>Stir into dry ingredients just until moistened. </originaltext><annotation>combine({ing16, ing20}, ing21, "almost everything", "")</annotation></line>
+<line><originaltext>Stir into dry ingredients just until moistened. </originaltext><annotation>mix(ing21, t0, ing22, "almost everything", "stir just until moistened")</annotation></line>
+<line><originaltext>Fold in almonds and apricots. </originaltext><annotation>combine({ing10, ing11, ing22}, ing23, "dough", "fold in almonds and apricots")</annotation></line>
+<line><originaltext>Pour into a greased 9-in. x 5-in. x 3-in. loaf pan. </originaltext><annotation>create_tool(t2, "9-in. x 5-in. x 3-in. loaf pan")</annotation></line>
+<line><originaltext>Pour into a greased 9-in. x 5-in. x 3-in. loaf pan. </originaltext><annotation>set(t2,"grease pan")</annotation></line>
+<line><originaltext>Pour into a greased 9-in. x 5-in. x 3-in. loaf pan. </originaltext><annotation>put(ing23, t2)</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 55-65 minutes or until a toothpick comes out clean. </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 55-65 minutes or until a toothpick comes out clean. </originaltext><annotation>set(t3,"350 degrees")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 55-65 minutes or until a toothpick comes out clean. </originaltext><annotation>cook(ing23, t3, ing24, "almond bread", "bake 55-65 minutes or until a toothpick comes out clean")</annotation></line>
+<line><originaltext>Cool for 10 minutes before removing from the pan to a wire rack.</originaltext><annotation>leave(ing24,"cool 10 minutes")</annotation></line>
+<line><originaltext>Cool for 10 minutes before removing from the pan to a wire rack.</originaltext><annotation>remove(ing24,t2)</annotation></line>
+<line><originaltext>Cool for 10 minutes before removing from the pan to a wire rack.</originaltext><annotation>create_tool(t4, "wire rack")</annotation></line>
+<line><originaltext>Cool for 10 minutes before removing from the pan to a wire rack.</originaltext><annotation>put(ing24, t4)</annotation></line>
+<line><originaltext>For glaze, combine the confectioners' sugar, milk, extract and reserved baby food until smooth. </originaltext><annotation>create_tool(t5, "small bowl")</annotation></line>
+<line><originaltext>For glaze, combine the confectioners' sugar, milk, extract and reserved baby food until smooth. </originaltext><annotation>combine({ing12, ing13, ing14, ing17}, ing25, "unmixed glaze", "")</annotation></line>
+<line><originaltext>For glaze, combine the confectioners' sugar, milk, extract and reserved baby food until smooth. </originaltext><annotation>put(ing25, t5)</annotation></line>
+<line><originaltext>For glaze, combine the confectioners' sugar, milk, extract and reserved baby food until smooth. </originaltext><annotation>mix(ing25, t5, ing26, "glaze", "stir until smooth")</annotation></line>
+<line><originaltext>Drizzle over cooled bread.</originaltext><annotation>combine({ing24, ing26}, ing27, "almond apricot bread", "drizzle glaze over cooled bread")</annotation></line>
+<line><originaltext>Drizzle over cooled bread.</originaltext><annotation>serve(ing27,"")</annotation></line>
+</recipe>

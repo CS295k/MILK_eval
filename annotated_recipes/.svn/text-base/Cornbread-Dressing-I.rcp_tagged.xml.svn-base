@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>1 (12 ounce) package refrigerated biscuit dough</originaltext><annotation>create_ing(ing0, "1 (12 ounce) package refrigerated biscuit dough")</annotation></line>
+<line><originaltext>1 (8 ounce) package corn bread mix</originaltext><annotation>create_ing(ing1, "1 (8 ounce) package corn bread mix")</annotation></line>
+<line><originaltext>1 cup diced onion</originaltext><annotation>create_ing(ing2, "1 cup diced onion")</annotation></line>
+<line><originaltext>1 cup diced celery</originaltext><annotation>create_ing(ing3, "1 cup diced celery")</annotation></line>
+<line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing4, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing5, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon ground black pepper</originaltext><annotation>create_ing(ing6, "1/2 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>2 (14.5 ounce) cans chicken broth</originaltext><annotation>create_ing(ing7, "2 (14.5 ounce) cans chicken broth")</annotation></line>
+<line><originaltext>1/8 pound pork sausage</originaltext><annotation>create_ing(ing8, "1/8 pound pork sausage")</annotation></line>
+<line><originaltext>2 hard-cooked eggs</originaltext><annotation>create_ing(ing9, "2 hard-cooked eggs")</annotation></line>
+<line><originaltext>1 teaspoon dried sage (optional)</originaltext><annotation>create_ing(ing10, "1 teaspoon dried sage (optional)")</annotation></line>
+<line><originaltext>Prepare biscuits (enough to make 4 cups crumbled), and one 8x8 inch pan cornbread according to package directions. </originaltext><annotation>create_tool(t0, "8x8 inch pan")</annotation></line>
+<line><originaltext>Prepare biscuits (enough to make 4 cups crumbled), and one 8x8 inch pan cornbread according to package directions. </originaltext><annotation>do(ing0, , ing11, "biscuits", "Prepare biscuits (enough to make 4 cups crumbled) according to package directions")</annotation></line>
+<line><originaltext>Prepare biscuits (enough to make 4 cups crumbled), and one 8x8 inch pan cornbread according to package directions. </originaltext><annotation>do(ing1, t0, ing12, "cornbread", "Prepare cornbread according to package directions")</annotation></line>
+<line><originaltext>Cool and crumble. </originaltext><annotation>leave(ing11,"cool")</annotation></line>
+<line><originaltext>Cool and crumble. </originaltext><annotation>leave(ing12,"cool")</annotation></line>
+<line><originaltext>Cool and crumble. </originaltext><annotation>cut(ing11, , ing13, "crumbled biscuits", "crumble")</annotation></line>
+<line><originaltext>Cool and crumble. </originaltext><annotation>cut(ing12, , ing14, "crumbled cornbread", "crumble")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t1,"preheat oven to 350 degrees F")</annotation></line>
+<line><originaltext>In a small pot, combine onion, celery, margarine and chicken broth. </originaltext><annotation>create_tool(t2, "small pot")</annotation></line>
+<line><originaltext>In a small pot, combine onion, celery, margarine and chicken broth. </originaltext><annotation>combine({ing2, ing3, ing4, ing7}, ing15, "broth mix", "")</annotation></line>
+<line><originaltext>In a small pot, combine onion, celery, margarine and chicken broth. </originaltext><annotation>put(ing15, t2)</annotation></line>
+<line><originaltext>Bring to boil and cook vegetables until tender. </originaltext><annotation>cook(ing15, t2, ing16, "boiled broth", "bring to boil and cook vegetables until tender")</annotation></line>
+<line><originaltext>In a 2-quart casserole dish, combine 4 cups crumbled cornbread, 4 cups biscuit crumbs, salt, pepper, sausage, chopped eggs and sage. </originaltext><annotation>create_tool(t3, "2-quart casserole dish")</annotation></line>
+<line><originaltext>In a 2-quart casserole dish, combine 4 cups crumbled cornbread, 4 cups biscuit crumbs, salt, pepper, sausage, chopped eggs and sage. </originaltext><annotation>combine({ing10, ing13, ing14, ing5, ing6, ing8, ing9}, ing17, "bread mixture", "")</annotation></line>
+<line><originaltext>In a 2-quart casserole dish, combine 4 cups crumbled cornbread, 4 cups biscuit crumbs, salt, pepper, sausage, chopped eggs and sage. </originaltext><annotation>put(ing17, t3)</annotation></line>
+<line><originaltext>Pour broth and vegetables over bread mixture, and stir until combined. </originaltext><annotation>combine({ing16, ing17}, ing18, "cornbread dressing", "pour broth over bread mixture")</annotation></line>
+<line><originaltext>Pour broth and vegetables over bread mixture, and stir until combined. </originaltext><annotation>mix(ing18, t3, ing19, "cornbread dressing", "stir until combined")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 30 to 45 minutes. </originaltext><annotation>cook(ing19, t1, ing20, "baked cornbread dressing", "bake for 30 to 45 minutes")</annotation></line>
+</recipe>

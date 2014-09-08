@@ -1,0 +1,51 @@
+<recipe version="1.1"><line><originaltext>1 (8 ounce) package cream cheese, softened</originaltext><annotation>create_ing(ing27, "1 (8 ounce) package cream cheese, softened")</annotation></line>
+<line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing28, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing29, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing30, "1 cup white sugar")</annotation></line>
+<line><originaltext>1/3 cup milk</originaltext><annotation>create_ing(ing31, "1/3 cup milk")</annotation></line>
+<line><originaltext>1/2 pound ground walnuts</originaltext><annotation>create_ing(ing32, "1/2 pound ground walnuts")</annotation></line>
+<line><originaltext>1/3 cup confectioners' sugar for decoration</originaltext><annotation>create_ing(ing33, "1/3 cup confectioners' sugar for decoration")</annotation></line>
+<line><originaltext>Beat together cream cheese and margarine until well blended.  </originaltext><annotation>combine({ing27, ing28}, ing34, "cream cheese and butter", "")</annotation></line>
+<line><originaltext>Beat together cream cheese and margarine until well blended.  </originaltext><annotation>create_tool(t3, "electric mixer")</annotation></line>
+<line><originaltext>Beat together cream cheese and margarine until well blended.  </originaltext><annotation>mix(ing34, t3, ing35, "creamy mixture", "beat")</annotation></line>
+<line><originaltext>Add flour, mixing well. </originaltext><annotation>combine({ing29, ing35}, ing36, "flour and creamy mixture", "")</annotation></line>
+<line><originaltext>Add flour, mixing well. </originaltext><annotation>mix(ing36, , ing37, "mixture", "")</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>do(ing37, , ing100, "mixture shaped into a ball", "shape into a ball")</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>create_tool(t4, "plastic wrap")</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>put(ing100, t4)</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>create_tool(t5, "refrigerator")</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>put(ing100, t5)</annotation></line>
+<line><originaltext>Shape into a ball, cover and chill for 2 hours.</originaltext><annotation>leave(ing100,"2 hours")</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>create_tool(t6, "saucepan")</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>combine({ing30, ing31}, ing38, "sweet milk", "")</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>put(ing38, t6)</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>cook(ing38, t6, ing39, "hot sweet milk", "medium heat")</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>mix(ing39, t6, ing40, "stirred hot sweet milk", "stir occasionally")</annotation></line>
+<line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>chefcheck(ing40,"milk boils, sugar dissolves")</annotation></line>
+<line><originaltext>Add the ground nuts.  </originaltext><annotation>combine({ing32, ing40}, ing41, "milk, sugar, and nuts", "")</annotation></line>
+<line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>remove(ing41,t6)</annotation></line>
+<line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>leave(ing41,"let cool")</annotation></line>
+<line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>chefcheck(ing41,"spreading consistency")</annotation></line>
+<line><originaltext>Roll out chilled dough on lightly floured surface to a rectangle about 18 X 12 inches.  </originaltext><annotation>create_tool(t7, "rolling pin")</annotation></line>
+<line><originaltext>Roll out chilled dough on lightly floured surface to a rectangle about 18 X 12 inches.  </originaltext><annotation>do(ing100, t7, ing101, "rolled dough", "roll to 18 by 12 inches using rolling pin")</annotation></line>
+<line><originaltext>Cut in half lengthwise.  </originaltext><annotation>cut(ing101, , ing42, "dough rectangles", "in half")</annotation></line>
+<line><originaltext>Spread each piece with milk/nut filling and roll up like a jelly-roll, starting from the long side.</originaltext><annotation>combine({ing41, ing42}, ing43, "dough with filling", "spread filling on dough")</annotation></line>
+<line><originaltext>Spread each piece with milk/nut filling and roll up like a jelly-roll, starting from the long side.</originaltext><annotation>do(ing43, , ing102, "rolled dough with filling", "roll up like a jelly-roll, starting from the long side.")</annotation></line>
+<line><originaltext>Cut each roll in half. </originaltext><annotation>cut(ing102, , ing44, "rolls", "in half")</annotation></line>
+<line><originaltext>Place seam side down on ungreased cookie sheets (two on a baking sheet).  </originaltext><annotation>create_tool(t8, "cookie sheets")</annotation></line>
+<line><originaltext>Place seam side down on ungreased cookie sheets (two on a baking sheet).  </originaltext><annotation>put(ing44, t8)</annotation></line>
+<line><originaltext>Leaving roll's shape intact, cut into slices 1/2 inch thick almost to the bottom of the roll.</originaltext><annotation>cut(ing44, , ing45, "sliced rolls", "1/2 inch thick slices almost through")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 15 to 20 minutes or till done. </originaltext><annotation>create_tool(t9, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 15 to 20 minutes or till done. </originaltext><annotation>set(t9,"350 degrees F")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 15 to 20 minutes or till done. </originaltext><annotation>cook(ing45, t9, ing46, "baked rolls", "15 to 20 minutes")</annotation></line>
+<line><originaltext>Remove from sheet and sprinkle with confectioners' sugar. </originaltext><annotation>remove(ing46,t8)</annotation></line>
+<line><originaltext>Remove from sheet and sprinkle with confectioners' sugar. </originaltext><annotation>combine({ing33, ing46}, ing47, "sugary rolls", "sprinkle sugar on rolls")</annotation></line>
+<line><originaltext>Cool on racks. </originaltext><annotation>create_tool(t10, "cooling racks")</annotation></line>
+<line><originaltext>Cool on racks. </originaltext><annotation>put(ing47, t10)</annotation></line>
+<line><originaltext>Cool on racks. </originaltext><annotation>leave(ing47,"until cool")</annotation></line>
+<line><originaltext>Cut cookies all the way through. </originaltext><annotation>cut(ing47, , ing48, "cookies", "cut slices all the way through")</annotation></line>
+<line><originaltext>Refrigerate or freeze. </originaltext><annotation>create_tool(t11, "refrigerator")</annotation></line>
+<line><originaltext>Refrigerate or freeze. </originaltext><annotation>put(ing48, t11)</annotation></line>
+<line><originaltext>Resprinkle with confectioners' sugar before serving.</originaltext><annotation>create_ing(ing49, "additional confectioners' sugar")</annotation></line>
+<line><originaltext>Resprinkle with confectioners' sugar before serving.</originaltext><annotation>combine({ing48, ing49}, ing50, "finished cookies", "sprinkle additional sugar just before serving")</annotation></line>
+</recipe>

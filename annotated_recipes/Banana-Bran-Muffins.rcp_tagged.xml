@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing0, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1/2 cup brown sugar</originaltext><annotation>create_ing(ing1, "1/2 cup brown sugar")</annotation></line>
+<line><originaltext>3 bananas, mashed</originaltext><annotation>create_ing(ing2, "3 bananas, mashed")</annotation></line>
+<line><originaltext>1/4 cup milk</originaltext><annotation>create_ing(ing3, "1/4 cup milk")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing4, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing5, "2 eggs")</annotation></line>
+<line><originaltext>1 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing6, "1 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup wheat bran</originaltext><annotation>create_ing(ing7, "1/2 cup wheat bran")</annotation></line>
+<line><originaltext>1 teaspoon baking powder</originaltext><annotation>create_ing(ing8, "1 teaspoon baking powder")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing9, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing10, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 cup chopped walnuts</originaltext><annotation>create_ing(ing11, "1/2 cup chopped walnuts")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>set(t0,"preheat to 375 degrees F (190 degrees C)")</annotation></line>
+<line><originaltext>Grease a muffin pan or line with paper muffin liners.</originaltext><annotation>create_tool(t1, "muffin pan")</annotation></line>
+<line><originaltext>Grease a muffin pan or line with paper muffin liners.</originaltext><annotation>set(t1,"grease or line with paper muffin liners")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream butter and brown sugar together until fluffy. </originaltext><annotation>create_tool(t2, "large mixing bowl")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream butter and brown sugar together until fluffy. </originaltext><annotation>combine({ing0, ing1}, ing12, "butter and sugar", "")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream butter and brown sugar together until fluffy. </originaltext><annotation>mix(ing12, t2, ing13, "creamed butter and sugar", "cream together until fluffy")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream butter and brown sugar together until fluffy. </originaltext><annotation>chefcheck(ing13,"fluffy")</annotation></line>
+<line><originaltext>Add bananas, milk, vanilla and eggs; mix well. </originaltext><annotation>combine({ing13, ing2, ing3, ing4, ing5}, ing14, "mixed stuff", "")</annotation></line>
+<line><originaltext>Add bananas, milk, vanilla and eggs; mix well. </originaltext><annotation>mix(ing14, t2, ing15, "well-mixed stuff", "mix well")</annotation></line>
+<line><originaltext>Stir in flour, bran, baking powder, soda and salt; blend just until moistened. </originaltext><annotation>combine({ing10, ing15, ing6, ing7, ing8, ing9}, ing16, "batter", "")</annotation></line>
+<line><originaltext>Stir in flour, bran, baking powder, soda and salt; blend just until moistened. </originaltext><annotation>mix(ing16, t2, ing17, "blended batter", "blend just until moistened")</annotation></line>
+<line><originaltext>Stir in walnuts. </originaltext><annotation>combine({ing11, ing17}, ing18, "batter with walnuts", "stir in")</annotation></line>
+<line><originaltext>Pour batter into prepared muffin cups.</originaltext><annotation>put(ing18, t1)</annotation></line>
+<line><originaltext>Bake at 375 degrees F (190 degrees C) for 20 to 25 minutes or until a toothpick inserted into the center of a muffin comes out clean. </originaltext><annotation>cook(ing18, t0, ing19, "baked muffins", "Bake at 375 degrees F (190 degrees C) for 20 to 25 minutes")</annotation></line>
+<line><originaltext>Bake at 375 degrees F (190 degrees C) for 20 to 25 minutes or until a toothpick inserted into the center of a muffin comes out clean. </originaltext><annotation>chefcheck(ing19,"toothpick inserted into the center of a muffin comes out clean")</annotation></line>
+<line><originaltext>Cool in the cups for 5 minutes, then remove muffins and place on a wire rack to cool completely.</originaltext><annotation>leave(ing19,"cool in the cups for 5 minutes")</annotation></line>
+<line><originaltext>Cool in the cups for 5 minutes, then remove muffins and place on a wire rack to cool completely.</originaltext><annotation>leave(ing19,"remove muffins and place on a wire rack to cool completely")</annotation></line>
+</recipe>

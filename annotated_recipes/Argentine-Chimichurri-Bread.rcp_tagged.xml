@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 cup water</originaltext><annotation>create_ing(ing53, "1 cup water")</annotation></line>
+<line><originaltext>1 1/2 tablespoons white wine vinegar</originaltext><annotation>create_ing(ing54, "1 1/2 tablespoons white wine vinegar")</annotation></line>
+<line><originaltext>3 tablespoons olive oil</originaltext><annotation>create_ing(ing55, "3 tablespoons olive oil")</annotation></line>
+<line><originaltext>1/8 teaspoon cayenne pepper</originaltext><annotation>create_ing(ing56, "1/8 teaspoon cayenne pepper")</annotation></line>
+<line><originaltext>3/4 teaspoon dried oregano</originaltext><annotation>create_ing(ing57, "3/4 teaspoon dried oregano")</annotation></line>
+<line><originaltext>2 cloves garlic, minced</originaltext><annotation>create_ing(ing58, "2 cloves garlic, minced")</annotation></line>
+<line><originaltext>3 tablespoons chopped onion</originaltext><annotation>create_ing(ing59, "3 tablespoons chopped onion")</annotation></line>
+<line><originaltext>3 tablespoons fresh parsley</originaltext><annotation>create_ing(ing60, "3 tablespoons fresh parsley")</annotation></line>
+<line><originaltext>1 1/2 teaspoons salt</originaltext><annotation>create_ing(ing61, "1 1/2 teaspoons salt")</annotation></line>
+<line><originaltext>1 tablespoon white sugar</originaltext><annotation>create_ing(ing62, "1 tablespoon white sugar")</annotation></line>
+<line><originaltext>3 tablespoons wheat bran</originaltext><annotation>create_ing(ing63, "3 tablespoons wheat bran")</annotation></line>
+<line><originaltext>3 cups bread flour</originaltext><annotation>create_ing(ing64, "3 cups bread flour")</annotation></line>
+<line><originaltext>2 teaspoons active dry yeast</originaltext><annotation>create_ing(ing65, "2 teaspoons active dry yeast")</annotation></line>
+<line><originaltext>Place ingredients in the pan of the bread machine in the order recommended by the manufacturer. </originaltext><annotation>create_tool(t9, "bread machine")</annotation></line>
+<line><originaltext>Place ingredients in the pan of the bread machine in the order recommended by the manufacturer. </originaltext><annotation>combine({ing53, ing54, ing55, ing56, ing57, ing58, ing59, ing60, ing61, ing62, ing63, ing64, ing66}, ing67, "all ingredients", "Place ingredients in the pan of the bread machine in the order recommended by the manufacturer.")</annotation></line>
+<line><originaltext>Select Basic or White Cycle; press Start.</originaltext><annotation>set(t9,"Select Basic or White Cycle")</annotation></line>
+<line><originaltext>Select Basic or White Cycle; press Start. </originaltext><annotation>cook(ing65, t9, ing66, "bread", "press Start")</annotation></line>
+</recipe>

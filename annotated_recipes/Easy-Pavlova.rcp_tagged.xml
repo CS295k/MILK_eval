@@ -1,0 +1,38 @@
+<recipe version="1.1"><line><originaltext>4 egg whites</originaltext><annotation>create_ing(ing0, "4 egg whites")</annotation></line>
+<line><originaltext>1 1/4 cups white sugar</originaltext><annotation>create_ing(ing1, "1 1/4 cups white sugar")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing2, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1 teaspoon lemon juice</originaltext><annotation>create_ing(ing3, "1 teaspoon lemon juice")</annotation></line>
+<line><originaltext>2 teaspoons cornstarch</originaltext><annotation>create_ing(ing4, "2 teaspoons cornstarch")</annotation></line>
+<line><originaltext>1 pint heavy cream</originaltext><annotation>create_ing(ing5, "1 pint heavy cream")</annotation></line>
+<line><originaltext>6 kiwi, peeled and sliced</originaltext><annotation>create_ing(ing6, "6 kiwi, peeled and sliced")</annotation></line>
+<line><originaltext>Preheat oven to 300 degrees F (150 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 300 degrees F (150 degrees C). </originaltext><annotation>set(t0,"300 degrees F")</annotation></line>
+<line><originaltext>Line a baking sheet with parchment paper. </originaltext><annotation>create_tool(t1, "baking sheet lined with parchment paper")</annotation></line>
+<line><originaltext>Draw a 9 inch circle on the parchment paper. </originaltext><annotation>set(t1,"draw a 9-inch circle on the paper")</annotation></line>
+<line><originaltext>In a large bowl, beat egg whites until stiff but not dry. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, beat egg whites until stiff but not dry. </originaltext><annotation>put(ing0, t2)</annotation></line>
+<line><originaltext>In a large bowl, beat egg whites until stiff but not dry. </originaltext><annotation>mix(ing0, t2, ing7, "stiff egg whites", "beat")</annotation></line>
+<line><originaltext>In a large bowl, beat egg whites until stiff but not dry. </originaltext><annotation>chefcheck(ing7,"Make sure they're stiff, but not dry")</annotation></line>
+<line><originaltext>Gradually add in the sugar, 1 tablespoon at a time, beating well after each addition. </originaltext><annotation>combine({ing1, ing7}, ing8, "sugary egg whites", "add sugar 1 tablespoon at a time while beating")</annotation></line>
+<line><originaltext>Beat until thick and glossy. </originaltext><annotation>mix(ing8, t2, ing9, "thick and glossy sugary egg whites", "beat until thick and glossy")</annotation></line>
+<line><originaltext>Overbeaten egg whites lose volume and deflate when folded into other ingredients. </originaltext><annotation>chefcheck(ing9,"Don't overbeat the eggs or it'll suck")</annotation></line>
+<line><originaltext>Be absolutely sure not a particle of grease or egg yolk gets into the whites. </originaltext><annotation>chefcheck(ing9,"Don't get grease or yolks into that or it'll suck")</annotation></line>
+<line><originaltext>Gently fold in vanilla extract, lemon juice and cornstarch. </originaltext><annotation>combine({ing2, ing3, ing4, ing9}, ing10, "TGSEW, VE, LJ and CS", "in bowl")</annotation></line>
+<line><originaltext>Gently fold in vanilla extract, lemon juice and cornstarch. </originaltext><annotation>mix(ing10, t2, ing11, "some sort of egg white/corn starch dough", "gently fold")</annotation></line>
+<line><originaltext>Spoon mixture inside the circle drawn on the parchment paper. </originaltext><annotation>do(ing11, t1, ing12, "stuff on a baking sheet", "spoon mixture into the circle you drew")</annotation></line>
+<line><originaltext>Working from the center, spread mixture toward the outside edge, building edge slightly. </originaltext><annotation>do(ing12, t1, ing13, "circle of stuff with raised edges on baking sheet", "spread from center outward and build up an edge")</annotation></line>
+<line><originaltext>This should leave a slight depression in the center. </originaltext><annotation>chefcheck(ing13,"If you properly raised the edges, the center should be relatively lower")</annotation></line>
+<line><originaltext>Bake for 1 hour. </originaltext><annotation>cook(ing13, t0, ing14, "Cooked dough-plates", "For one hour")</annotation></line>
+<line><originaltext>Cool on a wire rack. </originaltext><annotation>create_tool(t3, "wire rack")</annotation></line>
+<line><originaltext>Cool on a wire rack. </originaltext><annotation>put(ing14, t3)</annotation></line>
+<line><originaltext>Cool on a wire rack. </originaltext><annotation>leave(ing14,"until cool")</annotation></line>
+<line><originaltext>Remove the paper, and place meringue on a flat serving plate. </originaltext><annotation>separate(ing14, ing15, "meringue", ing16, "parchment", "")</annotation></line>
+<line><originaltext>Remove the paper, and place meringue on a flat serving plate. </originaltext><annotation>create_tool(t4, "serving plate")</annotation></line>
+<line><originaltext>Remove the paper, and place meringue on a flat serving plate. </originaltext><annotation>put(ing15, t4)</annotation></line>
+<line><originaltext>Fill the center of the meringue with whipped cream, sweetened if desired. </originaltext><annotation>create_tool(t5, "implicit bowl")</annotation></line>
+<line><originaltext>Fill the center of the meringue with whipped cream, sweetened if desired. </originaltext><annotation>put(ing5, t5)</annotation></line>
+<line><originaltext>Fill the center of the meringue with whipped cream, sweetened if desired. </originaltext><annotation>mix(ing5, t5, ing17, "whipped cream", "whip")</annotation></line>
+<line><originaltext>Fill the center of the meringue with whipped cream, sweetened if desired. </originaltext><annotation>chefcheck(ing17,"sweeten, if desired")</annotation></line>
+<line><originaltext>Fill the center of the meringue with whipped cream, sweetened if desired. </originaltext><annotation>combine({ing15, ing17}, ing18, "really basic pies", "fill center of meringue with whipped cream")</annotation></line>
+<line><originaltext>Top whipped cream with kiwifruit slices. </originaltext><annotation>combine({ing18, ing6}, ing19, "Pavlova", "top pies with fruit")</annotation></line>
+</recipe>

@@ -1,0 +1,10 @@
+<recipe version="1.1"><line><originaltext>1 (10 inch) angel food cake, cut into large cubes</originaltext><annotation>create_ing(ing0, "1 (10 inch) angel food cake, cut into large cubes")</annotation></line>
+<line><originaltext>1 (5 ounce) can sweetened condensed milk</originaltext><annotation>create_ing(ing1, "1 (5 ounce) can sweetened condensed milk")</annotation></line>
+<line><originaltext>1 cup coconut flakes</originaltext><annotation>create_ing(ing2, "1 cup coconut flakes")</annotation></line>
+<line><originaltext>Toast the angel food cake cubes over the coals of a campfire on toasting sticks until browned.  </originaltext><annotation>create_tool(t0, "coals of a campfire")</annotation></line>
+<line><originaltext>Toast the angel food cake cubes over the coals of a campfire on toasting sticks until browned.  </originaltext><annotation>create_tool(t1, "toasting sticks")</annotation></line>
+<line><originaltext>Toast the angel food cake cubes over the coals of a campfire on toasting sticks until browned.  </originaltext><annotation>put(ing0, t1)</annotation></line>
+<line><originaltext>Toast the angel food cake cubes over the coals of a campfire on toasting sticks until browned.  </originaltext><annotation>cook(ing0, t0, ing3, "toasted cake", "toast until browned")</annotation></line>
+<line><originaltext>Dip the toasted cake into the condensed milk, and roll in coconut flakes.</originaltext><annotation>combine({ing1, ing3}, ing4, "dipped cake", "dip toasted cake into the condensed milk")</annotation></line>
+<line><originaltext>Dip the toasted cake into the condensed milk, and roll in coconut flakes.</originaltext><annotation>combine({ing2, ing4}, ing5, "coconut cakes", "roll cake in coconut flakes")</annotation></line>
+</recipe>

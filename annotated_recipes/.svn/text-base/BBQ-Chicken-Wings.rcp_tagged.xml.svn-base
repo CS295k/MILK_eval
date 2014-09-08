@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1/2 cup teriyaki sauce</originaltext><annotation>create_ing(ing41, "1/2 cup teriyaki sauce")</annotation></line>
+<line><originaltext>1 cup oyster sauce</originaltext><annotation>create_ing(ing42, "1 cup oyster sauce")</annotation></line>
+<line><originaltext>1/4 cup soy sauce</originaltext><annotation>create_ing(ing43, "1/4 cup soy sauce")</annotation></line>
+<line><originaltext>1/4 cup ketchup</originaltext><annotation>create_ing(ing44, "1/4 cup ketchup")</annotation></line>
+<line><originaltext>2 tablespoons garlic powder</originaltext><annotation>create_ing(ing45, "2 tablespoons garlic powder")</annotation></line>
+<line><originaltext>1/4 cup gin</originaltext><annotation>create_ing(ing46, "1/4 cup gin")</annotation></line>
+<line><originaltext>2 dashes liquid smoke flavoring</originaltext><annotation>create_ing(ing47, "2 dashes liquid smoke flavoring")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing48, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>1 1/2 pounds chicken wings, separated at joints, tips discarded</originaltext><annotation>create_ing(ing49, "1 1/2 pounds chicken wings, separated at joints, tips discarded")</annotation></line>
+<line><originaltext>1/4 cup honey</originaltext><annotation>create_ing(ing50, "1/4 cup honey")</annotation></line>
+<line><originaltext>In a large bowl, mix the teriyaki sauce, oyster sauce, soy sauce, ketchup, garlic powder, gin, liquid smoke, and sugar. </originaltext><annotation>create_tool(t6, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix the teriyaki sauce, oyster sauce, soy sauce, ketchup, garlic powder, gin, liquid smoke, and sugar. </originaltext><annotation>combine({ing41, ing42, ing43, ing44, ing45, ing46, ing47, ing48}, ing51, "sauce", "")</annotation></line>
+<line><originaltext>In a large bowl, mix the teriyaki sauce, oyster sauce, soy sauce, ketchup, garlic powder, gin, liquid smoke, and sugar. </originaltext><annotation>mix(ing51, t6, ing52, "mixed sauce", "mix")</annotation></line>
+<line><originaltext>Place the chicken wings in the bowl, cover, and marinate in the refrigerator 8 hours or overnight.</originaltext><annotation>combine({ing49, ing52}, ing53, "chicken wings in sauce", "place chicken wings in bowl")</annotation></line>
+<line><originaltext>Place the chicken wings in the bowl, cover, and marinate in the refrigerator 8 hours or overnight.</originaltext><annotation>set(t6,"cover")</annotation></line>
+<line><originaltext>Place the chicken wings in the bowl, cover, and marinate in the refrigerator 8 hours or overnight.</originaltext><annotation>leave(ing53,"mainate in the refrigerator 8 hours or overnight")</annotation></line>
+<line><originaltext>Preheat the grill for low heat.</originaltext><annotation>create_tool(t7, "grill")</annotation></line>
+<line><originaltext>Preheat the grill for low heat.</originaltext><annotation>set(t7,"preheat for low heat")</annotation></line>
+<line><originaltext>Lightly oil the grill grate. </originaltext><annotation>set(t7,"lightly oil the grill grate")</annotation></line>
+<line><originaltext>Arrange chicken on the grill, and discard the marinade. </originaltext><annotation>separate(ing53, ing54, "chicken", ing55, "marinade", "")</annotation></line>
+<line><originaltext>Arrange chicken on the grill, and discard the marinade. </originaltext><annotation>put(ing54, t7)</annotation></line>
+<line><originaltext>Grill the chicken wings on one side for 20 minutes, then turn and brush with honey. </originaltext><annotation>cook(ing54, t7, ing56, "grilled wings", "grill on one side for 20 minutes")</annotation></line>
+<line><originaltext>Grill the chicken wings on one side for 20 minutes, then turn and brush with honey. </originaltext><annotation>combine({ing50, ing56}, ing57, "honey wings", "turn grilled wings and brush with honey")</annotation></line>
+<line><originaltext>Continue grilling 25 minutes, or until juices run clear.</originaltext><annotation>cook(ing57, t7, ing58, "hot honey wings", "continue grilling 25 minutes, or until juices run clear")</annotation></line>
+<line><originaltext>Continue grilling 25 minutes, or until juices run clear.</originaltext><annotation>chefcheck(ing58,"juices run clear")</annotation></line>
+</recipe>

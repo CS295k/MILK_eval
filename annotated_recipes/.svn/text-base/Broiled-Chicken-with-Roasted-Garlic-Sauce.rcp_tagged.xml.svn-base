@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>1 medium head garlic</originaltext><annotation>create_ing(ing0, "1 medium head garlic")</annotation></line>
+<line><originaltext>1 tablespoon olive oil</originaltext><annotation>create_ing(ing1, "1 tablespoon olive oil")</annotation></line>
+<line><originaltext>4 skinless, boneless chicken breasts</originaltext><annotation>create_ing(ing2, "4 skinless, boneless chicken breasts")</annotation></line>
+<line><originaltext>1/2 cup white wine</originaltext><annotation>create_ing(ing3, "1/2 cup white wine")</annotation></line>
+<line><originaltext>2 tablespoons butter</originaltext><annotation>create_ing(ing4, "2 tablespoons butter")</annotation></line>
+<line><originaltext>1 cup milk</originaltext><annotation>create_ing(ing5, "1 cup milk")</annotation></line>
+<line><originaltext>1 tablespoon all-purpose flour</originaltext><annotation>create_ing(ing6, "1 tablespoon all-purpose flour")</annotation></line>
+<line><originaltext>1/4 cup grated Parmesan cheese</originaltext><annotation>create_ing(ing7, "1/4 cup grated Parmesan cheese")</annotation></line>
+<line><originaltext>1 tablespoon chopped fresh parsley</originaltext><annotation>create_ing(ing8, "1 tablespoon chopped fresh parsley")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C).</originaltext><annotation>set(t0,"preheat to 400 degrees F")</annotation></line>
+<line><originaltext>Slice the top of the head of garlic, just enough to remove paper and expose the tops of the cloves. </originaltext><annotation>cut(ing0, , ing9, "sliced garlic", "slice the top of the head of garlic, just enough to remove paper and expose the tops of the cloves")</annotation></line>
+<line><originaltext>Drizzle with olive oil and roast in preheated oven, either in a clay garlic roaster or wrapped in aluminum foil. </originaltext><annotation>combine({ing1, ing9}, ing10, "oily garlic", "drizzle")</annotation></line>
+<line><originaltext>Drizzle with olive oil and roast in preheated oven, either in a clay garlic roaster or wrapped in aluminum foil. </originaltext><annotation>cook(ing10, t0, ing11, "roasted garlic", "roast in clay garlic roaster or wrapped in aluminum foil")</annotation></line>
+<line><originaltext>Roast for 20 minutes or until cloves are soft and slip from skins when pushed. </originaltext><annotation>cook(ing11, t0, ing12, "roasted garlic", "roast for 20 minutes or until cloves are soft and slip from skins when pushed")</annotation></line>
+<line><originaltext>Change oven setting to broil (375 degrees F, 190 degrees C). </originaltext><annotation>set(t0,"set to broil (375 degrees F)")</annotation></line>
+<line><originaltext>Let garlic cool.</originaltext><annotation>leave(ing12,"let cool")</annotation></line>
+<line><originaltext>To prepare chicken, place in a 9x13 inch baking dish and splash both sides with white wine. </originaltext><annotation>create_tool(t1, "9x13 inch baking dish")</annotation></line>
+<line><originaltext>To prepare chicken, place in a 9x13 inch baking dish and splash both sides with white wine. </originaltext><annotation>put(ing2, t1)</annotation></line>
+<line><originaltext>To prepare chicken, place in a 9x13 inch baking dish and splash both sides with white wine. </originaltext><annotation>combine({ing2, ing3}, ing13, "winey chicken", "splash both sides with wine")</annotation></line>
+<line><originaltext>Broil for 25 minutes or until chicken is cooked through and juices run clear.</originaltext><annotation>cook(ing13, t0, ing14, "broiled chicken", "broil for 25 minutes or until chicken is cooked through and juices run clear")</annotation></line>
+<line><originaltext>Meanwhile, place butter or margarine and milk in a large skillet and heat over medium heat until warm. </originaltext><annotation>create_tool(t2, "large skillet")</annotation></line>
+<line><originaltext>Meanwhile, place butter or margarine and milk in a large skillet and heat over medium heat until warm. </originaltext><annotation>combine({ing4, ing5}, ing15, "milk/butter", "")</annotation></line>
+<line><originaltext>Meanwhile, place butter or margarine and milk in a large skillet and heat over medium heat until warm. </originaltext><annotation>cook(ing15, t2, ing16, "warm milk/butter", "heat over medium heat until warm")</annotation></line>
+<line><originaltext>Stir in the flour and cheese. </originaltext><annotation>combine({ing16, ing6, ing7}, ing17, "cheese mix", "stir in")</annotation></line>
+<line><originaltext>Stir over medium heat until sauce begins to thicken. </originaltext><annotation>cook(ing17, t2, ing18, "thick sauce", "stir over medium heat until sauce begins to thicken")</annotation></line>
+<line><originaltext>Slip cooled garlic cloves from skin and add to the sauce (if desired, mince first). </originaltext><annotation>do(ing12, , ing24, "sauce without garlic cloves", "slip cooled cloves from skin")</annotation></line>
+<line><originaltext>Slip cooled garlic cloves from skin and add to the sauce (if desired, mince first). </originaltext><annotation>combine({ing24, ing18}, ing19, "garlic sauce", "")</annotation></line>
+<line><originaltext>Add chopped parsley. </originaltext><annotation>combine({ing19, ing8}, ing20, "sauce", "")</annotation></line>
+<line><originaltext>Bring nearly to a boil; reduce heat and stir to control thickening. </originaltext><annotation>cook(ing20, t2, ing21, "hot sauce", "bring nearly to a boil; reduce heat and stir to control thickening")</annotation></line>
+<line><originaltext>If desired, pour sauce over cooked rice or pasta and top with broiled chicken. </originaltext><annotation>create_ing(ing22, "cooked rice or pasta")</annotation></line>
+<line><originaltext>If desired, pour sauce over cooked rice or pasta and top with broiled chicken. </originaltext><annotation>combine({ing14, ing21, ing22}, ing23, "chicken", "If desired, pour sauce over cooked rice or pasta and top with broiled chicken. ")</annotation></line>
+<line><originaltext>Enjoy!</originaltext><annotation>serve(ing23,"Enjoy!")</annotation></line>
+</recipe>

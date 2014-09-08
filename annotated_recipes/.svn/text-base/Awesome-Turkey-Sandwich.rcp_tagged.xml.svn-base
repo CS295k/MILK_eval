@@ -1,0 +1,17 @@
+<recipe version="1.1"><line><originaltext>2 slices whole wheat bread, toasted (optional)</originaltext><annotation>create_ing(ing0, "2 slices whole wheat bread, toasted (optional)")</annotation></line>
+<line><originaltext>1 tablespoon mayonnaise</originaltext><annotation>create_ing(ing1, "1 tablespoon mayonnaise")</annotation></line>
+<line><originaltext>2 teaspoons Dijon-style prepared mustard</originaltext><annotation>create_ing(ing2, "2 teaspoons Dijon-style prepared mustard")</annotation></line>
+<line><originaltext>3 slices smoked turkey breast</originaltext><annotation>create_ing(ing3, "3 slices smoked turkey breast")</annotation></line>
+<line><originaltext>2 tablespoons guacamole</originaltext><annotation>create_ing(ing4, "2 tablespoons guacamole")</annotation></line>
+<line><originaltext>1/2 cup mixed salad greens</originaltext><annotation>create_ing(ing5, "1/2 cup mixed salad greens")</annotation></line>
+<line><originaltext>1/4 cup bean sprouts</originaltext><annotation>create_ing(ing6, "1/4 cup bean sprouts")</annotation></line>
+<line><originaltext>1/4 avocado - peeled, pitted and sliced</originaltext><annotation>create_ing(ing7, "1/4 avocado - peeled, pitted and sliced")</annotation></line>
+<line><originaltext>3 ounces Colby-Monterey Jack cheese, sliced</originaltext><annotation>create_ing(ing8, "3 ounces Colby-Monterey Jack cheese, sliced")</annotation></line>
+<line><originaltext>2 slices tomato</originaltext><annotation>create_ing(ing9, "2 slices tomato")</annotation></line>
+<line><originaltext>Spread mayonnaise on one slice of toast, then spread mustard on the other. </originaltext><annotation>combine({ing0, ing1, ing2}, ing10, "condiments on toast", "spread one on each slice")</annotation></line>
+<line><originaltext>Arrange the sliced turkey on one side. </originaltext><annotation>combine({ing10, ing3}, ing11, "turkey on bread", "arrange on one side")</annotation></line>
+<line><originaltext>Spread guacamole over the turkey. </originaltext><annotation>combine({ing11, ing4}, ing12, "guacamole on turkey", "spread over turkey")</annotation></line>
+<line><originaltext>Pile on the salad greens, bean sprouts, avocado and cheese. </originaltext><annotation>combine({ing12, ing5, ing6, ing7}, ing13, "garnished sandwich", "pile on")</annotation></line>
+<line><originaltext>Pile on the salad greens, bean sprouts, avocado and cheese. </originaltext><annotation>combine({ing13, ing8}, ing14, "garnished sandwich", "pile on")</annotation></line>
+<line><originaltext>Finish with tomato slices, then place the remaining slice of toast on top.</originaltext><annotation>combine({ing14, ing9}, ing15, "finished sandwich", "")</annotation></line>
+</recipe>

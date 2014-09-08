@@ -1,0 +1,62 @@
+<recipe version="1.1"><line><originaltext>4 boneless, skinless chicken breast halves</originaltext><annotation>create_ing(ing0, "4 boneless, skinless chicken breast halves")</annotation></line>
+<line><originaltext>1 tablespoon vegetable oil</originaltext><annotation>create_ing(ing1, "1 tablespoon vegetable oil")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing2, "1 onion, chopped")</annotation></line>
+<line><originaltext>1 (10 ounce) can diced tomatoes with green chile peppers</originaltext><annotation>create_ing(ing3, "1 (10 ounce) can diced tomatoes with green chile peppers")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can stewed tomatoes</originaltext><annotation>create_ing(ing4, "1 (14.5 ounce) can stewed tomatoes")</annotation></line>
+<line><originaltext>12 small chile peppers, diced  (optional)</originaltext><annotation>create_ing(ing5, "12 small chile peppers, diced  (optional)")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can condensed cream of chicken soup</originaltext><annotation>create_ing(ing6, "1 (10.75 ounce) can condensed cream of chicken soup")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can chicken broth</originaltext><annotation>create_ing(ing7, "1 (14.5 ounce) can chicken broth")</annotation></line>
+<line><originaltext>1 bunch green onions, chopped</originaltext><annotation>create_ing(ing8, "1 bunch green onions, chopped")</annotation></line>
+<line><originaltext>1/2 pint heavy cream</originaltext><annotation>create_ing(ing9, "1/2 pint heavy cream")</annotation></line>
+<line><originaltext>6 (6 inch) corn tortillas</originaltext><annotation>create_ing(ing10, "6 (6 inch) corn tortillas")</annotation></line>
+<line><originaltext>3 cups shredded Cheddar cheese</originaltext><annotation>create_ing(ing11, "3 cups shredded Cheddar cheese")</annotation></line>
+<line><originaltext>1 (10 ounce) can enchilada sauce</originaltext><annotation>create_ing(ing12, "1 (10 ounce) can enchilada sauce")</annotation></line>
+<line><originaltext>Cut chicken breasts into 1 inch strips. </originaltext><annotation>create_tool(t0, "knife")</annotation></line>
+<line><originaltext>Cut chicken breasts into 1 inch strips. </originaltext><annotation>cut(ing0, t0, ing13, "chicken breast strips", "1 inch strips")</annotation></line>
+<line><originaltext>Place in a medium bowl with desired marinade, and marinate in the refrigerator for at least 30 minutes. </originaltext><annotation>create_ing(ing14, "marinade")</annotation></line>
+<line><originaltext>Place in a medium bowl with desired marinade, and marinate in the refrigerator for at least 30 minutes. </originaltext><annotation>combine({ing13, ing14}, ing15, "marinated chicken", "combine")</annotation></line>
+<line><originaltext>Place in a medium bowl with desired marinade, and marinate in the refrigerator for at least 30 minutes. </originaltext><annotation>create_tool(t1, "medium bowl")</annotation></line>
+<line><originaltext>Place in a medium bowl with desired marinade, and marinate in the refrigerator for at least 30 minutes. </originaltext><annotation>put(ing15, t1)</annotation></line>
+<line><originaltext>Place in a medium bowl with desired marinade, and marinate in the refrigerator for at least 30 minutes. </originaltext><annotation>leave(ing15,"refridgerate for 30 minutes")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t2,"350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium heat. </originaltext><annotation>create_tool(t3, "large skillet")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium heat. </originaltext><annotation>cook(ing1, t3, ing16, "hot oil", "heat over medium heat")</annotation></line>
+<line><originaltext>Saute chicken and onions until chicken is evenly brown. </originaltext><annotation>combine({ing15, ing16, ing2}, ing17, "hot stuff", "combine")</annotation></line>
+<line><originaltext>Saute chicken and onions until chicken is evenly brown. </originaltext><annotation>cook(ing17, t3, ing18, "sauteed stuff", "saute")</annotation></line>
+<line><originaltext>Saute chicken and onions until chicken is evenly brown. </originaltext><annotation>chefcheck(ing18,"evenly brown")</annotation></line>
+<line><originaltext>Stir in diced tomatoes with green chile peppers, stewed tomatoes, chile peppers, soup and broth. </originaltext><annotation>combine({ing18, ing3, ing4, ing5, ing6, ing7}, ing19, "soupy stuff", "combine")</annotation></line>
+<line><originaltext>Stir in diced tomatoes with green chile peppers, stewed tomatoes, chile peppers, soup and broth. </originaltext><annotation>mix(ing19, t3, ing20, "stirred soupy stuff", "stir")</annotation></line>
+<line><originaltext>Bring mixture to a boil. </originaltext><annotation>cook(ing20, t3, ing21, "boiled soupy stuff", "bring to boil")</annotation></line>
+<line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>set(t3,"reduce heat")</annotation></line>
+<line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>set(t3,"cover")</annotation></line>
+<line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>cook(ing21, t3, ing22, "simmered soup", "20-30 minutes")</annotation></line>
+<line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>chefcheck(ing22,"chicken is no longer pink and juices run clear")</annotation></line>
+<line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>separate(ing22, ing23, "chicken", ing24, "chicken-less soup", "remove chicken")</annotation></line>
+<line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>remove(ing23,t3)</annotation></line>
+<line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>cut(ing23, t0, ing25, "shredded chicken", "shred when cool")</annotation></line>
+<line><originaltext>Meanwhile, allow skillet mixture to simmer and reduce to about 2 1/4 cups. </originaltext><annotation>cook(ing24, t3, ing26, "simmered soup", "simmer")</annotation></line>
+<line><originaltext>Meanwhile, allow skillet mixture to simmer and reduce to about 2 1/4 cups. </originaltext><annotation>chefcheck(ing26,"reduce to 2 1/4 cups")</annotation></line>
+<line><originaltext>In a medium bowl, combine shredded chicken and about 1/4 cup skillet mixture (just enough to make a paste like mixture). </originaltext><annotation>separate(ing26, ing27, "1/4 cup soup", ing28, "2 cup soup", "separate")</annotation></line>
+<line><originaltext>In a medium bowl, combine shredded chicken and about 1/4 cup skillet mixture (just enough to make a paste like mixture). </originaltext><annotation>combine({ing25, ing27}, ing29, "chicken paste", "combine to paste")</annotation></line>
+<line><originaltext>In a medium bowl, combine shredded chicken and about 1/4 cup skillet mixture (just enough to make a paste like mixture). </originaltext><annotation>put(ing29, t1)</annotation></line>
+<line><originaltext>Mix together with half the chopped green onions. </originaltext><annotation>separate(ing8, ing30, "1/2 chopped green onions", ing31, "1/2 chopped green onions", "split")</annotation></line>
+<line><originaltext>Mix together with half the chopped green onions. </originaltext><annotation>combine({ing29, ing30}, ing32, "onion paste", "mix together")</annotation></line>
+<line><originaltext>Pour remaining 2 cups of skillet mixture into a 9x13 inch baking dish. </originaltext><annotation>create_tool(t4, "9x13 inch baking dish")</annotation></line>
+<line><originaltext>Pour remaining 2 cups of skillet mixture into a 9x13 inch baking dish. </originaltext><annotation>put(ing28, t4)</annotation></line>
+<line><originaltext>In a second skillet, heat cream over low heat, being careful not to boil. </originaltext><annotation>create_tool(t5, "second skillet")</annotation></line>
+<line><originaltext>In a second skillet, heat cream over low heat, being careful not to boil. </originaltext><annotation>cook(ing9, t5, ing33, "hot cream", "heat over low heat")</annotation></line>
+<line><originaltext>In a second skillet, heat cream over low heat, being careful not to boil. </originaltext><annotation>chefcheck(ing33,"don't boil")</annotation></line>
+<line><originaltext>Dip tortillas in the warm cream to soften and coat. </originaltext><annotation>combine({ing10, ing33}, ing34, "creamy tortillas", "dip into cream")</annotation></line>
+<line><originaltext>Spoon about 1/3 cup chicken mixture onto each tortilla. </originaltext><annotation>combine({ing32, ing34}, ing35, "chicken in tortilla", "spoon 1/3 cup into each")</annotation></line>
+<line><originaltext>Top chicken mixture with half the shredded cheese, and roll up tortillas. </originaltext><annotation>separate(ing11, ing36, "1 1/2 cup shredded cheddar cheese", ing37, "1 1/2 cup shredded cheddar cheese", "split")</annotation></line>
+<line><originaltext>Top chicken mixture with half the shredded cheese, and roll up tortillas. </originaltext><annotation>combine({ing35, ing36}, ing38, "cheesy tortillas", "top chicken mixture with cheese")</annotation></line>
+<line><originaltext>Top chicken mixture with half the shredded cheese, and roll up tortillas. </originaltext><annotation>do(ing38, , ing39, "rolled tortillas", "roll up tortillas")</annotation></line>
+<line><originaltext>Place rolled tortillas in baking dish, seam side down, and drizzle with enchilada sauce. </originaltext><annotation>put(ing39, t4)</annotation></line>
+<line><originaltext>Place rolled tortillas in baking dish, seam side down, and drizzle with enchilada sauce. </originaltext><annotation>combine({ing12, ing39}, ing40, "saucy tortillas", "drizzle with sauce")</annotation></line>
+<line><originaltext>Cover with remaining shredded cheese, and sprinkle remaining chopped green onion over cheese. </originaltext><annotation>combine({ing37, ing40}, ing41, "cheesy saucy tortillas", "cover")</annotation></line>
+<line><originaltext>Cover with remaining shredded cheese, and sprinkle remaining chopped green onion over cheese. </originaltext><annotation>combine({ing31, ing41}, ing42, "delicious tortillas", "sprinkle")</annotation></line>
+<line><originaltext>Cover with remaining shredded cheese, and sprinkle remaining chopped green onion over cheese. </originaltext><annotation>combine({ing28, ing42}, ing43, "soupy tortillas", "soaked")</annotation></line>
+<line><originaltext>Bake uncovered in preheated oven for 25 minutes, or until cheese is melted and bubbling. </originaltext><annotation>cook(ing43, t2, ing44, "cooked tortillas", "25 minutes")</annotation></line>
+<line><originaltext>Bake uncovered in preheated oven for 25 minutes, or until cheese is melted and bubbling. </originaltext><annotation>chefcheck(ing44,"cheese is melted and bubbling")</annotation></line>
+</recipe>

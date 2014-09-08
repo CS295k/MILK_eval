@@ -1,0 +1,42 @@
+<recipe version="1.1"><line><originaltext>1 (16 ounce) package baby carrots, sliced</originaltext><annotation>create_ing(ing0, "1 (16 ounce) package baby carrots, sliced")</annotation></line>
+<line><originaltext>2 medium onions, sliced</originaltext><annotation>create_ing(ing1, "2 medium onions, sliced")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing2, "1 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>3 tablespoons butter</originaltext><annotation>create_ing(ing3, "3 tablespoons butter")</annotation></line>
+<line><originaltext>3 tablespoons all-purpose flour</originaltext><annotation>create_ing(ing4, "3 tablespoons all-purpose flour")</annotation></line>
+<line><originaltext>1 1/2 cups milk</originaltext><annotation>create_ing(ing5, "1 1/2 cups milk")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing6, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/8 teaspoon ground black pepper</originaltext><annotation>create_ing(ing7, "1/8 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>1 tablespoon butter</originaltext><annotation>create_ing(ing8, "1 tablespoon butter")</annotation></line>
+<line><originaltext>1 cup fine dry bread crumbs</originaltext><annotation>create_ing(ing9, "1 cup fine dry bread crumbs")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"preheat to 250 degrees F")</annotation></line>
+<line><originaltext>Place carrots and onions in a pot with enough lightly salted water to cover, and bring to a boil. </originaltext><annotation>combine({ing0, ing1}, ing10, "carrots and onions", "")</annotation></line>
+<line><originaltext>Place carrots and onions in a pot with enough lightly salted water to cover, and bring to a boil. </originaltext><annotation>create_ing(ing11, "lightly salted water")</annotation></line>
+<line><originaltext>Place carrots and onions in a pot with enough lightly salted water to cover, and bring to a boil. </originaltext><annotation>combine({ing10, ing11}, ing12, "carrots and onions and salty water", "enough water to cover")</annotation></line>
+<line><originaltext>Place carrots and onions in a pot with enough lightly salted water to cover, and bring to a boil. </originaltext><annotation>create_tool(t1, "pot")</annotation></line>
+<line><originaltext>Place carrots and onions in a pot with enough lightly salted water to cover, and bring to a boil. </originaltext><annotation>cook(ing12, t1, ing13, "boiling veggies", "bring to a boil")</annotation></line>
+<line><originaltext>Cook 5 minutes, or until tender but firm. </originaltext><annotation>cook(ing13, t1, ing14, "boiled veggies", "cook 5 minutes")</annotation></line>
+<line><originaltext>Cook 5 minutes, or until tender but firm. </originaltext><annotation>chefcheck(ing14,"tender but firm")</annotation></line>
+<line><originaltext>Drain, and spread 1/2 the carrots and onions in a baking dish. </originaltext><annotation>separate(ing14, ing15, "water", ing16, "veggies", "drain")</annotation></line>
+<line><originaltext>Drain, and spread 1/2 the carrots and onions in a baking dish. </originaltext><annotation>separate(ing16, ing17, "1/2 the carrots and onions", ing18, "1/2 the carrots and onions", "")</annotation></line>
+<line><originaltext>Drain, and spread 1/2 the carrots and onions in a baking dish. </originaltext><annotation>create_tool(t2, "baking dish")</annotation></line>
+<line><originaltext>Drain, and spread 1/2 the carrots and onions in a baking dish. </originaltext><annotation>put(ing17, t2)</annotation></line>
+<line><originaltext>Cover with 3/4 cup cheese, layer with remaining carrots and onions, and top with remaining cheese.</originaltext><annotation>separate(ing2, ing19, "3/4 cup cheese", ing20, "1/4 cup cheese", "")</annotation></line>
+<line><originaltext>Cover with 3/4 cup cheese, layer with remaining carrots and onions, and top with remaining cheese.</originaltext><annotation>combine({ing18, ing19}, ing21, "cheese-covered veggies", "cover carrots and onions with cheese")</annotation></line>
+<line><originaltext>Cover with 3/4 cup cheese, layer with remaining carrots and onions, and top with remaining cheese.</originaltext><annotation>combine({ing17, ing21}, ing22, "cheese and veggies", "layer carrots and onions on top")</annotation></line>
+<line><originaltext>Cover with 3/4 cup cheese, layer with remaining carrots and onions, and top with remaining cheese.</originaltext><annotation>combine({ing20, ing22}, ing23, "cheese and veggies", "top with cheese")</annotation></line>
+<line><originaltext>In a saucepan, melt 3 tablespoons butter and mix in flour until smooth. </originaltext><annotation>create_tool(t3, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan, melt 3 tablespoons butter and mix in flour until smooth. </originaltext><annotation>cook(ing3, t3, ing24, "melted butter", "melt butter")</annotation></line>
+<line><originaltext>In a saucepan, melt 3 tablespoons butter and mix in flour until smooth. </originaltext><annotation>combine({ing24, ing4}, ing25, "butter and flour", "")</annotation></line>
+<line><originaltext>In a saucepan, melt 3 tablespoons butter and mix in flour until smooth. </originaltext><annotation>mix(ing25, t3, ing26, "butter flour mix", "until smooth")</annotation></line>
+<line><originaltext>Gradually stir in milk until thickened, and season with salt and pepper. </originaltext><annotation>combine({ing26, ing5}, ing27, "butter flour milk", "until thickened")</annotation></line>
+<line><originaltext>Gradually stir in milk until thickened, and season with salt and pepper. </originaltext><annotation>combine({ing27, ing6, ing7}, ing28, "seasoned batter", "")</annotation></line>
+<line><originaltext>Pour over the carrots, onions, and cheese in the baking dish.</originaltext><annotation>combine({ing23, ing28}, ing29, "au gratin mix", "pour over carrots, onions, and cheese")</annotation></line>
+<line><originaltext>Melt 1 tablespoon butter in a small pot, and mix in bread crumbs. </originaltext><annotation>create_tool(t4, "small pot")</annotation></line>
+<line><originaltext>Melt 1 tablespoon butter in a small pot, and mix in bread crumbs. </originaltext><annotation>cook(ing8, t4, ing30, "melted butter", "")</annotation></line>
+<line><originaltext>Melt 1 tablespoon butter in a small pot, and mix in bread crumbs. </originaltext><annotation>combine({ing30, ing9}, ing31, "bread and butter", "")</annotation></line>
+<line><originaltext>Sprinkle evenly in the baking dish.</originaltext><annotation>combine({ing29, ing31}, ing32, "carrots and onions au gratin", "sprinkle evenly")</annotation></line>
+<line><originaltext>Bake 20 minutes in the preheated oven, or until bubbly and lightly browned.</originaltext><annotation>cook(ing32, t0, ing33, "baked au gratin", "bake 20 minutes in the preheated oven")</annotation></line>
+<line><originaltext>Bake 20 minutes in the preheated oven, or until bubbly and lightly browned.</originaltext><annotation>chefcheck(ing33,"bubbly and lightly browned")</annotation></line>
+<line><originaltext>Bake 20 minutes in the preheated oven, or until bubbly and lightly browned.</originaltext><annotation>serve(ing33,"")</annotation></line>
+</recipe>

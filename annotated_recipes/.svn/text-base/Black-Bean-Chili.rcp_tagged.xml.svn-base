@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>1 tablespoon olive oil</originaltext><annotation>create_ing(ing0, "1 tablespoon olive oil")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing1, "1 onion, chopped")</annotation></line>
+<line><originaltext>2 red bell pepper, seeded and chopped</originaltext><annotation>create_ing(ing2, "2 red bell pepper, seeded and chopped")</annotation></line>
+<line><originaltext>1 jalapeno pepper, seeded and minced</originaltext><annotation>create_ing(ing3, "1 jalapeno pepper, seeded and minced")</annotation></line>
+<line><originaltext>10 fresh mushrooms, quartered</originaltext><annotation>create_ing(ing4, "10 fresh mushrooms, quartered")</annotation></line>
+<line><originaltext>6 roma (plum) tomatoes, diced</originaltext><annotation>create_ing(ing5, "6 roma (plum) tomatoes, diced")</annotation></line>
+<line><originaltext>1 cup fresh corn kernels</originaltext><annotation>create_ing(ing6, "1 cup fresh corn kernels")</annotation></line>
+<line><originaltext>1 teaspoon ground black pepper</originaltext><annotation>create_ing(ing7, "1 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>1 teaspoon ground cumin</originaltext><annotation>create_ing(ing8, "1 teaspoon ground cumin")</annotation></line>
+<line><originaltext>1 tablespoon chili powder</originaltext><annotation>create_ing(ing9, "1 tablespoon chili powder")</annotation></line>
+<line><originaltext>2 (15 ounce) cans black beans, drained and rinsed</originaltext><annotation>create_ing(ing10, "2 (15 ounce) cans black beans, drained and rinsed")</annotation></line>
+<line><originaltext>1 1/2 cups chicken broth</originaltext><annotation>create_ing(ing11, "1 1/2 cups chicken broth")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing12, "1 teaspoon salt")</annotation></line>
+<line><originaltext>Heat oil in a large saucepan over medium-high heat. </originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>Heat oil in a large saucepan over medium-high heat. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Heat oil in a large saucepan over medium-high heat. </originaltext><annotation>cook(ing0, t0, ing13, "heated oil", "heat over medium high heat")</annotation></line>
+<line><originaltext>Sautee the onion, red bell peppers, jalapeno, mushrooms, tomatoes and corn for 10 minutes or until the onions are translucent. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6}, ing14, "veggie mix", "mix")</annotation></line>
+<line><originaltext>Sautee the onion, red bell peppers, jalapeno, mushrooms, tomatoes and corn for 10 minutes or until the onions are translucent. </originaltext><annotation>cook(ing14, t0, ing15, "cooked veggies", "until onions are translucent")</annotation></line>
+<line><originaltext>Season with black pepper, cumin and chili powder. </originaltext><annotation>combine({ing13, ing15, ing7, ing8, ing9}, ing16, "seasoned veggies", "season")</annotation></line>
+<line><originaltext>Stir in the black beans, chicken broth and salt. </originaltext><annotation>combine({ing10, ing11, ing12, ing16}, ing17, "beans and broth", "combine")</annotation></line>
+<line><originaltext>bring to a boil.</originaltext><annotation>cook(ing17, t0, ing18, "cooked food", "boil")</annotation></line>
+<line><originaltext>Remove 1 1/2 cups of the soup to food processor or blender; puree and stir the bean mixture back into the soup. </originaltext><annotation>separate(ing18, ing19, "1 1/2 cups of soup", ing20, "rest of soup", "remove")</annotation></line>
+<line><originaltext>Remove 1 1/2 cups of the soup to food processor or blender; puree and stir the bean mixture back into the soup. </originaltext><annotation>create_tool(t1, "food processor")</annotation></line>
+<line><originaltext>Remove 1 1/2 cups of the soup to food processor or blender; puree and stir the bean mixture back into the soup. </originaltext><annotation>mix(ing19, t1, ing21, "puree", "puree")</annotation></line>
+<line><originaltext>Remove 1 1/2 cups of the soup to food processor or blender; puree and stir the bean mixture back into the soup. </originaltext><annotation>combine({ing20, ing21}, ing22, "soup", "stir back")</annotation></line>
+<line><originaltext>Serve hot by itself or over rice.</originaltext><annotation>serve(ing22,"serve hot over rice, or by itself")</annotation></line>
+</recipe>

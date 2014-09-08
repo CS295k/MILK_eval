@@ -1,0 +1,53 @@
+<recipe version="1.1"><line><originaltext>2 eggs</originaltext><annotation>create_ing(ing0, "2 eggs")</annotation></line>
+<line><originaltext>1/4 cup water</originaltext><annotation>create_ing(ing1, "1/4 cup water")</annotation></line>
+<line><originaltext>6 tablespoons all-purpose flour</originaltext><annotation>create_ing(ing2, "6 tablespoons all-purpose flour")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing3, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>2 tablespoons chopped onion</originaltext><annotation>create_ing(ing4, "2 tablespoons chopped onion")</annotation></line>
+<line><originaltext>1 tablespoon butter</originaltext><annotation>create_ing(ing5, "1 tablespoon butter")</annotation></line>
+<line><originaltext>1 tablespoon all-purpose flour</originaltext><annotation>create_ing(ing6, "1 tablespoon all-purpose flour")</annotation></line>
+<line><originaltext>1 cup milk</originaltext><annotation>create_ing(ing7, "1 cup milk")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese, divided</originaltext><annotation>create_ing(ing8, "1 cup shredded Cheddar cheese, divided")</annotation></line>
+<line><originaltext>1 1/2 teaspoons Dijon mustard</originaltext><annotation>create_ing(ing9, "1 1/2 teaspoons Dijon mustard")</annotation></line>
+<line><originaltext>1 teaspoon Worcestershire sauce</originaltext><annotation>create_ing(ing10, "1 teaspoon Worcestershire sauce")</annotation></line>
+<line><originaltext>1/4 teaspoon pepper</originaltext><annotation>create_ing(ing11, "1/4 teaspoon pepper")</annotation></line>
+<line><originaltext>1/8 teaspoon salt</originaltext><annotation>create_ing(ing12, "1/8 teaspoon salt")</annotation></line>
+<line><originaltext>2 cups frozen chopped broccoli, thawed</originaltext><annotation>create_ing(ing13, "2 cups frozen chopped broccoli, thawed")</annotation></line>
+<line><originaltext>For batter, combine the eggs, water, flour and salt in a blender. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing14, "batter", "")</annotation></line>
+<line><originaltext>For batter, combine the eggs, water, flour and salt in a blender. </originaltext><annotation>create_tool(t0, "blender")</annotation></line>
+<line><originaltext>For batter, combine the eggs, water, flour and salt in a blender. </originaltext><annotation>put(ing14, t0)</annotation></line>
+<line><originaltext>Cover and process until smooth; let stand for 15 minutes.</originaltext><annotation>mix(ing14, t0, ing15, "smooth batter", "cover and process until smooth")</annotation></line>
+<line><originaltext>Cover and process until smooth; let stand for 15 minutes.</originaltext><annotation>leave(ing15,"let stand for 15 minutes")</annotation></line>
+<line><originaltext>Meanwhile, in a small saucepan, saute onion in butter until tender. </originaltext><annotation>create_tool(t1, "small saucepan")</annotation></line>
+<line><originaltext>Meanwhile, in a small saucepan, saute onion in butter until tender. </originaltext><annotation>combine({ing4, ing5}, ing16, "buttered onions", "")</annotation></line>
+<line><originaltext>Meanwhile, in a small saucepan, saute onion in butter until tender. </originaltext><annotation>cook(ing16, t1, ing17, "sauteed onions", "saute until tender")</annotation></line>
+<line><originaltext>Stir in flour until blended. </originaltext><annotation>combine({ing17, ing6}, ing18, "floury onions", "stir in until blended")</annotation></line>
+<line><originaltext>Gradually stir in milk. </originaltext><annotation>combine({ing18, ing7}, ing19, "milky onions", "gradually stir in")</annotation></line>
+<line><originaltext>Bring to a boil over medium heat, stirring constantly; cook and stir for 2 minutes or until slightly thickened.  </originaltext><annotation>cook(ing19, t1, ing20, "boiled onions", "bring to a boil over medium heat, stirring constantly; cook and stir for two minutes or until slightly thick ")</annotation></line>
+<line><originaltext>Reduce heat to low. </originaltext><annotation>chefcheck(ing20,"should be slightly thick")</annotation></line>
+<line><originaltext>Reduce heat to low. </originaltext><annotation>set(t1,"reduce heat to low")</annotation></line>
+<line><originaltext>Stir in 1/2 cup cheese, mustard, Worcestershire sauce, pepper and salt until cheese is melted. </originaltext><annotation>separate(ing8, ing21, "1/2 cup cheese", ing22, "1/2 cup cheese", "")</annotation></line>
+<line><originaltext>Stir in 1/2 cup cheese, mustard, Worcestershire sauce, pepper and salt until cheese is melted. </originaltext><annotation>combine({ing10, ing11, ing12, ing20, ing21, ing9}, ing23, "cheesy onions", "stir in")</annotation></line>
+<line><originaltext>Stir in 1/2 cup cheese, mustard, Worcestershire sauce, pepper and salt until cheese is melted. </originaltext><annotation>cook(ing23, t1, ing24, "melty cheese mix", "until cheese is melted")</annotation></line>
+<line><originaltext>Stir in broccoli. </originaltext><annotation>combine({ing13, ing24}, ing25, "broccoli cheese mix", "stir in")</annotation></line>
+<line><originaltext>Cover; keep warm.</originaltext><annotation>leave(ing25,"cover and keep warm")</annotation></line>
+<line><originaltext>Heat a lightly greased 8-in. nonstick skillet; pour 2 tablespoons batter into the center of skillet. </originaltext><annotation>create_tool(t2, "lightly greased 8-in. nonstick skillet")</annotation></line>
+<line><originaltext>Heat a lightly greased 8-in. nonstick skillet; pour 2 tablespoons batter into the center of skillet. </originaltext><annotation>set(t2,"heat")</annotation></line>
+<line><originaltext>Heat a lightly greased 8-in. nonstick skillet; pour 2 tablespoons batter into the center of skillet. </originaltext><annotation>separate(ing15, ing26, "2 tablespoons batter", ing27, "rest of batter", "")</annotation></line>
+<line><originaltext>Heat a lightly greased 8-in. nonstick skillet; pour 2 tablespoons batter into the center of skillet. </originaltext><annotation>put(ing26, t2)</annotation></line>
+<line><originaltext>Lift and tilt pan to evenly coat bottom. </originaltext><annotation>set(t2, "lift and tilt pan to evenly coat bottom")</annotation></line>
+<line><originaltext>Cook until top appears dry; turn and cook 15-20 seconds longer. </originaltext><annotation>cook(ing26, t2, ing28, "first crepe", "")</annotation></line>
+<line><originaltext>Cook until top appears dry; turn and cook 15-20 seconds longer. </originaltext><annotation>chefcheck(ing28,"top appears dry")</annotation></line>
+<line><originaltext>Cook until top appears dry; turn and cook 15-20 seconds longer. </originaltext><annotation>cook(ing28, t2, ing29, "done crepe", "turn and cook 15-20 seconds longer")</annotation></line>
+<line><originaltext>Remove to a wire rack. </originaltext><annotation>create_tool(t3, "wire rack")</annotation></line>
+<line><originaltext>Remove to a wire rack. </originaltext><annotation>put(ing29, t3)</annotation></line>
+<line><originaltext>Repeat with remaining batter, greasing skillet as needed.</originaltext><annotation>cook(ing27, t2, ing30, "crepes", "cook rest of batter as above")</annotation></line>
+<line><originaltext>Repeat with remaining batter, greasing skillet as needed.</originaltext><annotation>combine({ing29, ing30}, ing31, "crepes", "on wire rack")</annotation></line>
+<line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>combine({ing25, ing31}, ing32, "filled crepes", "spoon about 1/2 cup filling down the center of each crepe")</annotation></line>
+<line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>do(ing32, , ing35, "rolled crepes", "roll up")</annotation></line>
+<line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>create_tool(t4, "ungreased 11-in. x 7-in. x 2-in. baking dish. ")</annotation></line>
+<line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>put(ing35, t4)</annotation></line>
+<line><originaltext>Sprinkle with remaining cheese. </originaltext><annotation>combine({ing22, ing32}, ing33, "cheesy crepes", "sprinkle")</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>create_tool(t5, "oven")</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>cook(ing33, t5, ing34, "done crepes", "at 350 F for 5-7 minutes or until cheese is melted")</annotation></line>
+<line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>serve(ing34,"")</annotation></line>
+</recipe>

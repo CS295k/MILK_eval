@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>1 (10 ounce) can asparagus tips, drained</originaltext><annotation>create_ing(ing76, "1 (10 ounce) can asparagus tips, drained")</annotation></line>
+<line><originaltext>1/2 cup mayonnaise</originaltext><annotation>create_ing(ing77, "1/2 cup mayonnaise")</annotation></line>
+<line><originaltext>2 tablespoons finely chopped onion</originaltext><annotation>create_ing(ing78, "2 tablespoons finely chopped onion")</annotation></line>
+<line><originaltext>1 pinch seasoning salt</originaltext><annotation>create_ing(ing79, "1 pinch seasoning salt")</annotation></line>
+<line><originaltext>1 (1 pound) loaf soft, sliced white bread</originaltext><annotation>create_ing(ing80, "1 (1 pound) loaf soft, sliced white bread")</annotation></line>
+<line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>create_tool(t14, "")</annotation></line>
+<line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>create_tool(t15, "paper towels")</annotation></line>
+<line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>put(ing76, t15)</annotation></line>
+<line><originaltext>In a small bowl, mix together the mayonnaise, onion and seasoning salt. </originaltext><annotation>create_tool(t16, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, mix together the mayonnaise, onion and seasoning salt. </originaltext><annotation>combine({ing77, ing78, ing79}, ing81, "mayonnaise, onion, and seasoning", "")</annotation></line>
+<line><originaltext>In a small bowl, mix together the mayonnaise, onion and seasoning salt. </originaltext><annotation>put(ing81, t16)</annotation></line>
+<line><originaltext>In a small bowl, mix together the mayonnaise, onion and seasoning salt. </originaltext><annotation>mix(ing81, t16, ing82, "mayonnaise mixture", "")</annotation></line>
+<line><originaltext>Remove crusts from bread slices, and spread mayonnaise mixture thinly on each slice. </originaltext><annotation>cut(ing80, , ing83, "crustless bread", "remove crusts")</annotation></line>
+<line><originaltext>Remove crusts from bread slices, and spread mayonnaise mixture thinly on each slice. </originaltext><annotation>combine({ing82, ing83}, ing84, "bread with mayonnaise mixture", "spread mayonnaise on bread")</annotation></line>
+<line><originaltext>Place a spear onto the slice and roll up. </originaltext><annotation>combine({ing76, ing84}, ing85, "bread with mayonnaise and asparagus", "put one spear on each slice")</annotation></line>
+<line><originaltext>Place a spear onto the slice and roll up. </originaltext><annotation>do(ing85, , ing87, "sandwiches", "roll bread around asparagus")</annotation></line>
+<line><originaltext>Cut each roll in half, and arrange on a serving tray. </originaltext><annotation>cut(ing87, , ing86, "sandwiches", "in half")</annotation></line>
+<line><originaltext>Cut each roll in half, and arrange on a serving tray. </originaltext><annotation>create_tool(t17, "serving tray")</annotation></line>
+<line><originaltext>Cut each roll in half, and arrange on a serving tray. </originaltext><annotation>put(ing86, t17)</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate until serving.</originaltext><annotation>create_tool(t18, "refrigerator")</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate until serving.</originaltext><annotation>put(ing86, t18)</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate until serving.</originaltext><annotation>serve(ing86,"on tray")</annotation></line>
+</recipe>

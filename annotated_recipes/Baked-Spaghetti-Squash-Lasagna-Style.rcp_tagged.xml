@@ -1,0 +1,33 @@
+<recipe><line><originaltext>1 spaghetti squash, halved lengthwise and seeded</originaltext><annotation>create_ing(ing0, "1 spaghetti squash, halved lengthwise and seeded")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing1, "1 onion, chopped")</annotation></line>
+<line><originaltext>2 tablespoons minced garlic</originaltext><annotation>create_ing(ing2, "2 tablespoons minced garlic")</annotation></line>
+<line><originaltext>2 (14 ounce) cans stewed tomatoes</originaltext><annotation>create_ing(ing3, "2 (14 ounce) cans stewed tomatoes")</annotation></line>
+<line><originaltext>1 tablespoon dried basil</originaltext><annotation>create_ing(ing4, "1 tablespoon dried basil")</annotation></line>
+<line><originaltext>1 cube vegetable bouillon</originaltext><annotation>create_ing(ing5, "1 cube vegetable bouillon")</annotation></line>
+<line><originaltext>black pepper to taste</originaltext><annotation>create_ing(ing6, "black pepper to taste")</annotation></line>
+<line><originaltext>1 (15 ounce) can black olives, chopped</originaltext><annotation>create_ing(ing7, "1 (15 ounce) can black olives, chopped")</annotation></line>
+<line><originaltext>1 cup shredded mozzarella cheese</originaltext><annotation>create_ing(ing8, "1 cup shredded mozzarella cheese")</annotation></line>
+<line><originaltext>1 cup shredded Parmesan cheese</originaltext><annotation>create_ing(ing9, "1 cup shredded Parmesan cheese")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>set(t0,"325 degrees")</annotation></line>
+<line><originaltext>Spray a baking sheet with a thin layer of cooking spray. </originaltext><annotation>create_tool(t1, "baking sheet")</annotation></line>
+<line><originaltext>Spray a baking sheet with a thin layer of cooking spray. </originaltext><annotation>set(t1,"spray with cooking spray")</annotation></line>
+<line><originaltext>Place squash halves cut side down on the baking sheet.</originaltext><annotation>put({ing0}, t1)</annotation></line>
+<line><originaltext>Bake squash 35 minutes in the preheated oven, or until a knife can be easily inserted. </originaltext><annotation>cook(ing0, t1, ing10, "baked squash", "bake 35 minutes or until a knife can be easily inserted")</annotation></line>
+<line><originaltext>Remove from oven, and cool.</originaltext><annotation>leave(ing10,"cool")</annotation></line>
+<line><originaltext>Meanwhile, spray a non-stick saucepan with cooking spray. </originaltext><annotation>create_tool(t2, "non-stick saucepan")</annotation></line>
+<line><originaltext>Meanwhile, spray a non-stick saucepan with cooking spray. </originaltext><annotation>set(t2,"spray with cooking spray")</annotation></line>
+<line><originaltext>Over medium heat, saute the onion and garlic until golden brown. </originaltext><annotation>combine({ing1, ing2}, ing11, "onion and garlic", "")</annotation></line>
+<line><originaltext>Over medium heat, saute the onion and garlic until golden brown. </originaltext><annotation>put({ing11}, t2)</annotation></line>
+<line><originaltext>Over medium heat, saute the onion and garlic until golden brown. </originaltext><annotation>cook(ing11, t2, ing12, "sauteed onion and garlic", "medium heat until golden brown")</annotation></line>
+<line><originaltext>Stir in tomatoes, basil, bouillon cube, and black pepper. </originaltext><annotation>combine({ing12, ing3, ing4, ing5, ing6}, ing13, "sauce", "")</annotation></line>
+<line><originaltext>Stir in tomatoes, basil, bouillon cube, and black pepper. </originaltext><annotation>mix(ing13, t2, ing14, "sauce", "stir")</annotation></line>
+<line><originaltext>Cook for about 15 minutes, or until you have a medium thick sauce.</originaltext><annotation>cook(ing14, t2, ing15, "sauce", "15 minutes or until you have a medium thick sauce")</annotation></line>
+<line><originaltext>Remove squash strands with a fork, reserving the shells. </originaltext><annotation>remove(ing10,t1)</annotation></line>
+<line><originaltext>Remove squash strands with a fork, reserving the shells. </originaltext><annotation>separate(ing10, ing16, "squash strands", ing17, "squash shells", "")</annotation></line>
+<line><originaltext>Layer each half with a spoonful of the sauce, a layer of spaghetti squash strands, olives, and mozzarella cheese. </originaltext><annotation>combine({ing15, ing16, ing17, ing7, ing8}, ing18, "shells", "layer ingredients in each half of shell")</annotation></line>
+<line><originaltext>Repeat layers until shells are full, or until all of the ingredients are used. </originaltext><annotation>do(ing18,"repeat previous step until all ingredients are used")</annotation></line>
+<line><originaltext>Top with Parmesan cheese.</originaltext><annotation>combine({ing18, ing9}, ing19, "shells with cheese", "top shells with cheese")</annotation></line>
+<line><originaltext>Bake for 20 minutes in the preheated oven, or until Parmesan cheese melts.</originaltext><annotation>put({ing19}, t1)</annotation></line>
+<line><originaltext>Bake for 20 minutes in the preheated oven, or until Parmesan cheese melts.</originaltext><annotation>cook(ing19, t1, ing20, "baked spaghetti squash", "bake 20 minutes or until cheese melts")</annotation></line>
+</recipe>

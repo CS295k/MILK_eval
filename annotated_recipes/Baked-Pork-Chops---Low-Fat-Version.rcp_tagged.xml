@@ -1,0 +1,37 @@
+<recipe><line><originaltext>6 center cut pork chops, trimmed of any visible fat</originaltext><annotation>create_ing(ing0, "6 center cut pork chops, trimmed of any visible fat")</annotation></line>
+<line><originaltext>1 teaspoon garlic powder</originaltext><annotation>create_ing(ing1, "1 teaspoon garlic powder")</annotation></line>
+<line><originaltext>1/2 teaspoon seasoning salt</originaltext><annotation>create_ing(ing2, "1/2 teaspoon seasoning salt")</annotation></line>
+<line><originaltext>1 egg, beaten with</originaltext><annotation>create_ing(ing3, "1 egg, beaten with")</annotation></line>
+<line><originaltext>1/4 cup egg substitute</originaltext><annotation>create_ing(ing4, "1/4 cup egg substitute")</annotation></line>
+<line><originaltext>1/4 cup all-purpose flour</originaltext><annotation>create_ing(ing5, "1/4 cup all-purpose flour")</annotation></line>
+<line><originaltext>2 cups Italian-style seasoned bread crumbs</originaltext><annotation>create_ing(ing6, "2 cups Italian-style seasoned bread crumbs")</annotation></line>
+<line><originaltext>2 tablespoons olive oil</originaltext><annotation>create_ing(ing7, "2 tablespoons olive oil")</annotation></line>
+<line><originaltext>canola cooking spray</originaltext><annotation>create_ing(ing8, "canola cooking spray")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can  reduced fat condensed cream of mushroom soup</originaltext><annotation>create_ing(ing9, "1 (10.75 ounce) can  reduced fat condensed cream of mushroom soup")</annotation></line>
+<line><originaltext>1/2 cup 1% low-fat milk</originaltext><annotation>create_ing(ing10, "1/2 cup 1% low-fat milk")</annotation></line>
+<line><originaltext>1/3 cup white wine</originaltext><annotation>create_ing(ing11, "1/3 cup white wine")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"350 degrees")</annotation></line>
+<line><originaltext>Rinse pork chops, pat dry, and season with garlic powder and seasoning salt to taste. </originaltext><annotation>do(ing0,"rinse and pat dry")</annotation></line>
+<line><originaltext>Rinse pork chops, pat dry, and season with garlic powder and seasoning salt to taste. </originaltext><annotation>combine({ing0, ing1, ing2}, ing12, "salted pork", "season to taste")</annotation></line>
+<line><originaltext>Place the beaten egg and egg substitute mixture in a small bowl. </originaltext><annotation>create_tool(t1, "small bowl")</annotation></line>
+<line><originaltext>Place the beaten egg and egg substitute mixture in a small bowl. </originaltext><annotation>combine({ing3, ing4}, ing13, "egg stuff", "")</annotation></line>
+<line><originaltext>Place the beaten egg and egg substitute mixture in a small bowl. </originaltext><annotation>put({ing13}, t1)</annotation></line>
+<line><originaltext>Dredge the pork chops lightly in flour, dip in the egg, and coat liberally with bread crumbs.</originaltext><annotation>combine({ing12, ing13, ing5, ing6}, ing14, "coated pork chops", "dredge pork in flour, dip in egg, coat with crumbs")</annotation></line>
+<line><originaltext>Heat the olive oil in a large skillet over medium-high heat. </originaltext><annotation>create_tool(t2, "large skillet")</annotation></line>
+<line><originaltext>Heat the olive oil in a large skillet over medium-high heat. </originaltext><annotation>put({ing7}, t2)</annotation></line>
+<line><originaltext>Heat the olive oil in a large skillet over medium-high heat. </originaltext><annotation>cook(ing7, t2, ing15, "heated olive oil", "heat over medium-high heat")</annotation></line>
+<line><originaltext>Place the pork chops in the pan and coat the tops with canola cooking spray. </originaltext><annotation>put({ing14}, t2)</annotation></line>
+<line><originaltext>Place the pork chops in the pan and coat the tops with canola cooking spray. </originaltext><annotation>combine({ing14, ing8}, ing16, "pork chops", "coat pork chops with cooking spray")</annotation></line>
+<line><originaltext>Fry the pork chops 5 minutes per side, or until the breading appears well browned. </originaltext><annotation>cook(ing16, t2, ing17, "fried pork chops", "fry 5 minutes per side or until breading appears browned")</annotation></line>
+<line><originaltext>Transfer the chops to a 9x13 inch baking dish, and cover with foil.</originaltext><annotation>create_tool(t3, "9x13 inch baking dish")</annotation></line>
+<line><originaltext>Transfer the chops to a 9x13 inch baking dish, and cover with foil.</originaltext><annotation>put({ing17}, t3)</annotation></line>
+<line><originaltext>Transfer the chops to a 9x13 inch baking dish, and cover with foil.</originaltext><annotation>do(ing17,"cover with foil")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 1 hour. </originaltext><annotation>cook(ing17, t3, ing18, "baked pork chops", "bake for 1 hour")</annotation></line>
+<line><originaltext>While baking, combine the cream of mushroom soup, milk, and white wine in a medium bowl. </originaltext><annotation>create_tool(t4, "medium bowl")</annotation></line>
+<line><originaltext>While baking, combine the cream of mushroom soup, milk, and white wine in a medium bowl. </originaltext><annotation>combine({ing10, ing11, ing9}, ing19, "sauce", "")</annotation></line>
+<line><originaltext>While baking, combine the cream of mushroom soup, milk, and white wine in a medium bowl. </originaltext><annotation>put({ing19}, t4)</annotation></line>
+<line><originaltext>After the pork chops have baked for an hour, cover them with the soup mixture. </originaltext><annotation>combine({ing18, ing19}, ing20, "pork chops and sauce", "cover pork chops with sauce")</annotation></line>
+<line><originaltext>Replace foil, and bake for another 30 minutes.</originaltext><annotation>do(ing20,"replace foil")</annotation></line>
+<line><originaltext>Replace foil, and bake for another 30 minutes.</originaltext><annotation>cook(ing20, t3, ing21, "baked pork chops", "30 minutes")</annotation></line>
+</recipe>

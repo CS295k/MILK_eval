@@ -1,0 +1,27 @@
+<recipe><line><originaltext>1 teaspoon olive oil</originaltext><annotation>create_ing(ing0, "1 teaspoon olive oil")</annotation></line>
+<line><originaltext>1 cup diced zucchini</originaltext><annotation>create_ing(ing1, "1 cup diced zucchini")</annotation></line>
+<line><originaltext>1/2 cup minced onion</originaltext><annotation>create_ing(ing2, "1/2 cup minced onion")</annotation></line>
+<line><originaltext>1 clove garlic, peeled and minced</originaltext><annotation>create_ing(ing3, "1 clove garlic, peeled and minced")</annotation></line>
+<line><originaltext>2 cups diced fresh tomatoes</originaltext><annotation>create_ing(ing4, "2 cups diced fresh tomatoes")</annotation></line>
+<line><originaltext>2 tablespoons chopped fresh basil</originaltext><annotation>create_ing(ing5, "2 tablespoons chopped fresh basil")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing6, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 teaspoon ground black pepper</originaltext><annotation>create_ing(ing7, "1/4 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>4 (6 ounce) halibut steaks</originaltext><annotation>create_ing(ing8, "4 (6 ounce) halibut steaks")</annotation></line>
+<line><originaltext>1/3 cup crumbled feta cheese</originaltext><annotation>create_ing(ing9, "1/3 cup crumbled feta cheese")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). Lightly grease a shallow baking dish.</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). Lightly grease a shallow baking dish.</originaltext><annotation>set(t0,"450 degrees")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). Lightly grease a shallow baking dish.</originaltext><annotation>create_tool(t1, "shallow baking dish")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). Lightly grease a shallow baking dish.</originaltext><annotation>set(t1,"lightly grease")</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>create_tool(t2, "medium saucepan")</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>put({ing0}, t2)</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>cook(ing0, t2, ing10, "heated oil", "over medium heat")</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>combine({ing1, ing10, ing2, ing3}, ing11, "zucchini, onion, and garlic in oil", "")</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>mix(ing11, t2, ing12, "zucchini, onion, and garlic in oil", "stir")</annotation></line>
+<line><originaltext>Heat olive oil in a medium saucepan over medium heat and stir in zucchini, onion, and garlic. Cook and stir 5 minutes or until tender. </originaltext><annotation>cook(ing12, t2, ing13, "cooked zucchini, onion, and garlic", "cook and stir 5 minutes or until tender")</annotation></line>
+<line><originaltext>Remove saucepan from heat and mix in tomatoes, basil, salt, and pepper.</originaltext><annotation>combine({ing13, ing4, ing5, ing6, ing7}, ing14, "vegetables and spices", "")</annotation></line>
+<line><originaltext>Remove saucepan from heat and mix in tomatoes, basil, salt, and pepper.</originaltext><annotation>mix(ing14, t2, ing15, "vegetables and spices", "mix")</annotation></line>
+<line><originaltext>Arrange halibut steaks in a single layer in the prepared baking dish. </originaltext><annotation>put({ing8}, t1)</annotation></line>
+<line><originaltext>Spoon equal amounts of the zucchini mixture over each steak. </originaltext><annotation>combine({ing15, ing8}, ing16, "steak and mixture", "spoon equals amounts of mixture over each steak")</annotation></line>
+<line><originaltext>Top with feta cheese.</originaltext><annotation>combine({ing16, ing9}, ing17, "uncooked steaks", "top with cheese")</annotation></line>
+<line><originaltext>Bake 15 minutes in the preheated oven, or until fish is easily flaked with a fork.</originaltext><annotation>cook(ing17, t0, ing18, "cooked steaks", "bake 15 minutes or until fish flakes easily with a fork")</annotation></line>
+</recipe>

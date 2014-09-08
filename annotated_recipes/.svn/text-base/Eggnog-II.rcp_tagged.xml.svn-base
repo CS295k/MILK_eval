@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>6 eggs, beaten</originaltext><annotation>create_ing(ing15, "6 eggs, beaten")</annotation></line>
+<line><originaltext>2 1/4 cups milk</originaltext><annotation>create_ing(ing16, "2 1/4 cups milk")</annotation></line>
+<line><originaltext>1/3 cup white sugar</originaltext><annotation>create_ing(ing17, "1/3 cup white sugar")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing18, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1 cup heavy whipping cream</originaltext><annotation>create_ing(ing19, "1 cup heavy whipping cream")</annotation></line>
+<line><originaltext>2 teaspoons white sugar</originaltext><annotation>create_ing(ing20, "2 teaspoons white sugar")</annotation></line>
+<line><originaltext>1 pinch ground nutmeg</originaltext><annotation>create_ing(ing21, "1 pinch ground nutmeg")</annotation></line>
+<line><originaltext>In a large saucepan, combine the eggs, milk and 1/3 cup sugar. </originaltext><annotation>create_tool(t3, "large saucepan")</annotation></line>
+<line><originaltext>In a large saucepan, combine the eggs, milk and 1/3 cup sugar. </originaltext><annotation>put(ing16, t3)</annotation></line>
+<line><originaltext>In a large saucepan, combine the eggs, milk and 1/3 cup sugar. </originaltext><annotation>combine({ing15, ing16, ing17}, ing22, "mileggar", "in saucepan")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until mixture coats a metal spoon. </originaltext><annotation>set(t3,"medium heat")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until mixture coats a metal spoon. </originaltext><annotation>cook(ing22, t3, ing23, "cooked mileggar", "while stirring")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until mixture coats a metal spoon. </originaltext><annotation>chefcheck(ing23,"Does the mixture coat a metal spoon?")</annotation></line>
+<line><originaltext>Remove from heat. </originaltext><annotation>set(t3,"remove from heat")</annotation></line>
+<line><originaltext>Cool quickly by placing pan in a sink or bowl of ice water and stirring 1 to 2 minutes. </originaltext><annotation>create_tool(t4, "sink or bowl of ice water")</annotation></line>
+<line><originaltext>Cool quickly by placing pan in a sink or bowl of ice water and stirring 1 to 2 minutes. </originaltext><annotation>do(ing23, t4, ing24, "cooled cooked mileggar", "place pan into sink or bowl and stir for 1-2 minutes")</annotation></line>
+<line><originaltext>Stir in the vanilla. </originaltext><annotation>combine({ing18, ing24}, ing25, "cooled cooked vamileggar", "stir in")</annotation></line>
+<line><originaltext>Chill 4 to 24 hours. </originaltext><annotation>leave(ing25,"chill, 4 to 24 hours")</annotation></line>
+<line><originaltext>Before serving, whip the cream and 2 tablespoons sugar until soft peaks form. </originaltext><annotation>combine({ing19, ing20}, ing26, "whipped cream", "whip together")</annotation></line>
+<line><originaltext>Before serving, whip the cream and 2 tablespoons sugar until soft peaks form. </originaltext><annotation>chefcheck(ing26,"Do soft peaks form?")</annotation></line>
+<line><originaltext>Transfer chilled egg mixture to a punch bowl. </originaltext><annotation>create_tool(t5, "large punch bowl")</annotation></line>
+<line><originaltext>Transfer chilled egg mixture to a punch bowl. </originaltext><annotation>put(ing25, t5)</annotation></line>
+<line><originaltext>Sprinkle each serving with nutmeg. </originaltext><annotation>combine({ing21, ing25}, ing30, "meggnog", "sprinkle nutmeg on top")</annotation></line>
+<line><originaltext>Fold in whipped cream mixture and serve at once. </originaltext><annotation>combine({ing30, ing26}, ing27, "cold vamileggaream", "in large punch bowl")</annotation></line>
+<line><originaltext>Fold in whipped cream mixture and serve at once. </originaltext><annotation>mix(ing27, t5, ing28, "eggnog", "fold in whipped cream")</annotation></line>
+<line><originaltext>Fold in whipped cream mixture and serve at once. </originaltext><annotation>serve(ing28,"at once")</annotation></line>
+</recipe>

@@ -1,0 +1,9 @@
+<recipe version="1.1"><line><originaltext>1 fluid ounce dark rum</originaltext><annotation>create_ing(ing0, "1 fluid ounce dark rum")</annotation></line>
+<line><originaltext>1/2 fluid ounce apricot brandy</originaltext><annotation>create_ing(ing1, "1/2 fluid ounce apricot brandy")</annotation></line>
+<line><originaltext>3 1/2 fluid ounces fruit punch</originaltext><annotation>create_ing(ing2, "3 1/2 fluid ounces fruit punch")</annotation></line>
+<line><originaltext>1/2 fluid ounce pina colada mix</originaltext><annotation>create_ing(ing3, "1/2 fluid ounce pina colada mix")</annotation></line>
+<line><originaltext>In a mixing glass combine the rum, apricot brandy, fruit punch and pina colada mix. </originaltext><annotation>create_tool(t0, "mixing glass")</annotation></line>
+<line><originaltext>In a mixing glass combine the rum, apricot brandy, fruit punch and pina colada mix. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing4, "drink", "combine")</annotation></line>
+<line><originaltext>Stir to blend and serve over ice.</originaltext><annotation>mix(ing4, t0, ing5, "stirred drink", "stir to blend")</annotation></line>
+<line><originaltext>Stir to blend and serve over ice.</originaltext><annotation>serve(ing5,"over ice")</annotation></line>
+</recipe>

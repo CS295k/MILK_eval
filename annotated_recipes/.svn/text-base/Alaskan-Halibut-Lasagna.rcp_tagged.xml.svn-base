@@ -1,0 +1,43 @@
+<recipe version="1.1"><line><originaltext>6 tablespoons butter or margarine, divided</originaltext><annotation>create_ing(ing0, "6 tablespoons butter or margarine, divided")</annotation></line>
+<line><originaltext>1 1/2 pounds halibut steaks, bones removed and cut into 1 inch cubes</originaltext><annotation>create_ing(ing1, "1 1/2 pounds halibut steaks, bones removed and cut into 1 inch cubes")</annotation></line>
+<line><originaltext>2 garlic cloves, minced</originaltext><annotation>create_ing(ing2, "2 garlic cloves, minced")</annotation></line>
+<line><originaltext>3/4 teaspoon dried thyme</originaltext><annotation>create_ing(ing3, "3/4 teaspoon dried thyme")</annotation></line>
+<line><originaltext>1/3 cup all-purpose flour</originaltext><annotation>create_ing(ing4, "1/3 cup all-purpose flour")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing5, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1 1/2 cups chicken broth</originaltext><annotation>create_ing(ing6, "1 1/2 cups chicken broth")</annotation></line>
+<line><originaltext>1 cup heavy whipping cream</originaltext><annotation>create_ing(ing7, "1 cup heavy whipping cream")</annotation></line>
+<line><originaltext>8 ounces lasagna noodles, cooked and drained</originaltext><annotation>create_ing(ing8, "8 ounces lasagna noodles, cooked and drained")</annotation></line>
+<line><originaltext>2 cups shredded Swiss cheese</originaltext><annotation>create_ing(ing9, "2 cups shredded Swiss cheese")</annotation></line>
+<line><originaltext>Minced fresh parsley</originaltext><annotation>create_ing(ing10, "Minced fresh parsley")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, melt 2 tablespoons butter. </originaltext><annotation>create_tool(t0, "large skillet")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, melt 2 tablespoons butter. </originaltext><annotation>separate(ing0, ing11, "4 tablespoons butter", ing12, "2 tablespoons butter", "")</annotation></line>
+<line><originaltext>In a large skillet over medium heat, melt 2 tablespoons butter. </originaltext><annotation>cook(ing12, t0, ing13, "melted butter", "medium heat, melt butter")</annotation></line>
+<line><originaltext>Add halibut, garlic and thyme. </originaltext><annotation>combine({ing1, ing13, ing2, ing3}, ing14, "butter, halibut, garlic, thyme", "")</annotation></line>
+<line><originaltext>Cook until fish flakes easily with a fork, about 10 minutes. </originaltext><annotation>cook(ing14, t0, ing15, "cooked halibut", "cook 10 minutes, until fish flakes easily with a fork")</annotation></line>
+<line><originaltext>Remove and set aside. </originaltext><annotation>remove(ing15,t0)</annotation></line>
+<line><originaltext>Remove and set aside. </originaltext><annotation>leave(ing15,"")</annotation></line>
+<line><originaltext>Add the remaining butter to the skillet. </originaltext><annotation>put(ing11, t0)</annotation></line>
+<line><originaltext>Stir in flour and salt until smooth; cook and stir until golden brown. </originaltext><annotation>combine({ing11, ing4, ing5}, ing16, "butter, flour, salt", "")</annotation></line>
+<line><originaltext>Stir in flour and salt until smooth; cook and stir until golden brown. </originaltext><annotation>mix(ing16, t0, ing17, "butter, flour, salt", "stir until smooth")</annotation></line>
+<line><originaltext>Stir in flour and salt until smooth; cook and stir until golden brown. </originaltext><annotation>cook(ing17, t0, ing18, "cooked butter, flour, salt", "cook and stir until golden brown")</annotation></line>
+<line><originaltext>Gradually add broth and cream. </originaltext><annotation>combine({ing18, ing6, ing7}, ing19, "butter, flour, salt, broth, cream", "gradually add broth and cream")</annotation></line>
+<line><originaltext>Bring to a boil; cook and stir for 2 minutes or until thickened. </originaltext><annotation>cook(ing19, t0, ing20, "cooked lasagna filling", "bring to a boil, cook and stir for 2 minutes until thickened")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>create_tool(t1, "13-in. x 9-in. x 2-in. baking dish")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>set(t1,"grease")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>separate(ing8, ing21, "4 ounces of lasagna noodles", ing22, "4 ounces of lasagna noodles", "")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>separate(ing9, ing23, "1 cup cheese", ing24, "1 cup cheese", "")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>separate(ing15, ing25, "half of halibut", ing26, "half of halibut", "")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>separate(ing20, ing27, "half of white sauce", ing28, "half of white sauce", "")</annotation></line>
+<line><originaltext>In a greased 13-in. x 9-in. x 2-in. baking dish, layer half of the noodles, halibut, white sauce and cheese. </originaltext><annotation>combine({ing21, ing23, ing25, ing27}, ing29, "first layer", "layer ingredients")</annotation></line>
+<line><originaltext>Repeat layers. </originaltext><annotation>combine({ing22, ing24, ing26, ing28, ing29}, ing30, "uncooked lasagna", "layer ingredients on top of first layer")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 20 minutes. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 20 minutes. </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 20 minutes. </originaltext><annotation>put(ing30, t1)</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 20 minutes. </originaltext><annotation>set(t1,"cover pot")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 20 minutes. </originaltext><annotation>cook(ing30, t1, ing31, "half cooked lasagna", "bake for 20 minutes")</annotation></line>
+<line><originaltext>Uncover; bake 20 minutes longer or until bubbly. </originaltext><annotation>set(t1,"uncover pot")</annotation></line>
+<line><originaltext>Uncover; bake 20 minutes longer or until bubbly. </originaltext><annotation>cook(ing31, t1, ing32, "cooked lasagna", "bake 20 minutes or until bubbly")</annotation></line>
+<line><originaltext>Let stand 15 minutes before serving. </originaltext><annotation>leave(ing32,"let stand 15 minutes")</annotation></line>
+<line><originaltext>Sprinkle with parsley if desired.</originaltext><annotation>combine({ing10, ing32}, ing33, "finished lasagna", "sprinkle with parsley")</annotation></line>
+<line><originaltext>Sprinkle with parsley if desired.</originaltext><annotation>serve(ing33,"")</annotation></line>
+</recipe>

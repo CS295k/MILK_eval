@@ -1,0 +1,40 @@
+<recipe version="1.1"><line><originaltext>1/2 cup margarine</originaltext><annotation>create_ing(ing17, "1/2 cup margarine")</annotation></line>
+<line><originaltext>1/2 cup sugar</originaltext><annotation>create_ing(ing18, "1/2 cup sugar")</annotation></line>
+<line><originaltext>1/2 cup molasses</originaltext><annotation>create_ing(ing19, "1/2 cup molasses")</annotation></line>
+<line><originaltext>1 egg yolk</originaltext><annotation>create_ing(ing20, "1 egg yolk")</annotation></line>
+<line><originaltext>2 cups sifted all-purpose flour</originaltext><annotation>create_ing(ing21, "2 cups sifted all-purpose flour")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing22, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon baking powder</originaltext><annotation>create_ing(ing23, "1/2 teaspoon baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon baking soda</originaltext><annotation>create_ing(ing24, "1/2 teaspoon baking soda")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing25, "1/2 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1 teaspoon ground cloves</originaltext><annotation>create_ing(ing26, "1 teaspoon ground cloves")</annotation></line>
+<line><originaltext>1 teaspoon ginger</originaltext><annotation>create_ing(ing27, "1 teaspoon ginger")</annotation></line>
+<line><originaltext>1/2 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing28, "1/2 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>In a large bowl, cream together the margarine and sugar until smooth. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, cream together the margarine and sugar until smooth. </originaltext><annotation>put(ing17, t2)</annotation></line>
+<line><originaltext>In a large bowl, cream together the margarine and sugar until smooth. </originaltext><annotation>combine({ing17, ing18}, ing29, "sugargarine", "in bowl")</annotation></line>
+<line><originaltext>In a large bowl, cream together the margarine and sugar until smooth. </originaltext><annotation>mix(ing29, t2, ing30, "creamed sugargarine", "cream")</annotation></line>
+<line><originaltext>Stir in molasses and egg yolk. </originaltext><annotation>combine({ing19, ing20, ing30}, ing31, "egged sulargarine", "in bowl")</annotation></line>
+<line><originaltext>Stir in molasses and egg yolk. </originaltext><annotation>mix(ing31, t2, ing32, "egged sulargarine (well stirred)", "stir")</annotation></line>
+<line><originaltext>Combine the flour, salt, baking powder, baking soda, cinnamon, cloves, ginger, and nutmeg; blend into the molasses mixture until smooth. </originaltext><annotation>combine({ing21, ing22, ing23, ing24, ing25, ing26, ing27, ing28}, ing33, "dry ingredients", "in an implicit bowl")</annotation></line>
+<line><originaltext>Combine the flour, salt, baking powder, baking soda, cinnamon, cloves, ginger, and nutmeg; blend into the molasses mixture until smooth. </originaltext><annotation>combine({ing32, ing33}, ing34, "goop", "dump dry things out of implicit bowl into explicit bowl with wet things inside")</annotation></line>
+<line><originaltext>Combine the flour, salt, baking powder, baking soda, cinnamon, cloves, ginger, and nutmeg; blend into the molasses mixture until smooth. </originaltext><annotation>mix(ing34, t2, ing35, "dough", "blend until smooth")</annotation></line>
+<line><originaltext>Cover, and chill for at least one hour. </originaltext><annotation>set(t2,"covered")</annotation></line>
+<line><originaltext>Cover, and chill for at least one hour. </originaltext><annotation>leave(ing35,"in refrigerator for 1 hour")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t3,"350 degrees F")</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch thickness. </originaltext><annotation>create_tool(t4, "lightly floured surface")</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch thickness. </originaltext><annotation>create_tool(t5, "implicit rolling pin")</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch thickness. </originaltext><annotation>put(ing35, t4)</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch thickness. </originaltext><annotation>do(ing35, t5, ing36, "rolled dough", "roll it out to 1/4 inch thickness")</annotation></line>
+<line><originaltext>Cut into desired shapes with cookie cutters. </originaltext><annotation>create_tool(t6, "cookie cutters")</annotation></line>
+<line><originaltext>Cut into desired shapes with cookie cutters. </originaltext><annotation>cut(ing36, t6, ing37, "pretty shapes of dough", "into shapes")</annotation></line>
+<line><originaltext>Place cookies 2 inches apart on ungreased cookie sheets. </originaltext><annotation>create_tool(t7, "ungreased cookie sheet")</annotation></line>
+<line><originaltext>Place cookies 2 inches apart on ungreased cookie sheets. </originaltext><annotation>put(ing37, t7)</annotation></line>
+<line><originaltext>Place cookies 2 inches apart on ungreased cookie sheets. </originaltext><annotation>chefcheck(ing37,"are the shapes 2 inches apart on the baking sheet?")</annotation></line>
+<line><originaltext>Bake for 8 to 10 minutes in the preheated oven, until firm. </originaltext><annotation>cook(ing37, t3, ing38, "cookies", "for 8-10 minutes")</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks. </originaltext><annotation>create_tool(t8, "wire racks")</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks. </originaltext><annotation>put(ing38, t8)</annotation></line>
+<line><originaltext>Remove from cookie sheets to cool on wire racks. </originaltext><annotation>leave(ing38,"until cool")</annotation></line>
+<line><originaltext>Frost or decorate when cool. </originaltext><annotation>chefcheck(ing38,"Decorate or frost as you like")</annotation></line>
+</recipe>

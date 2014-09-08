@@ -1,0 +1,33 @@
+<recipe version="1.1"><line><originaltext>2/3 cup butter, softened</originaltext><annotation>create_ing(ing0, "2/3 cup butter, softened")</annotation></line>
+<line><originaltext>1/4 cup white sugar</originaltext><annotation>create_ing(ing1, "1/4 cup white sugar")</annotation></line>
+<line><originaltext>1 1/4 cups all-purpose flour</originaltext><annotation>create_ing(ing2, "1 1/4 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing3, "1/2 cup butter")</annotation></line>
+<line><originaltext>1/2 cup packed light brown sugar</originaltext><annotation>create_ing(ing4, "1/2 cup packed light brown sugar")</annotation></line>
+<line><originaltext>2 tablespoons light corn syrup</originaltext><annotation>create_ing(ing5, "2 tablespoons light corn syrup")</annotation></line>
+<line><originaltext>1/2 cup sweetened condensed milk</originaltext><annotation>create_ing(ing6, "1/2 cup sweetened condensed milk")</annotation></line>
+<line><originaltext>1 1/4 cups milk chocolate chips</originaltext><annotation>create_ing(ing7, "1 1/4 cups milk chocolate chips")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 C).</originaltext><annotation>set(t0,"preheat to 350 degrees F")</annotation></line>
+<line><originaltext>In a medium bowl, mix together 2/3 cup butter, 1/4 cup white sugar, and 1 1/4 cup flour until evenly crumbly. </originaltext><annotation>create_tool(t1, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix together 2/3 cup butter, 1/4 cup white sugar, and 1 1/4 cup flour until evenly crumbly. </originaltext><annotation>combine({ing0, ing1, ing2}, ing8, "dough", "")</annotation></line>
+<line><originaltext>In a medium bowl, mix together 2/3 cup butter, 1/4 cup white sugar, and 1 1/4 cup flour until evenly crumbly. </originaltext><annotation>put(ing8, t1)</annotation></line>
+<line><originaltext>In a medium bowl, mix together 2/3 cup butter, 1/4 cup white sugar, and 1 1/4 cup flour until evenly crumbly. </originaltext><annotation>mix(ing8, t1, ing9, "crumbly dough", "mix until evenly crumbly")</annotation></line>
+<line><originaltext>Press into 9&#34; square baking pan. </originaltext><annotation>create_tool(t2, "9 inch square baking pan")</annotation></line>
+<line><originaltext>Press into 9&#34; square baking pan. </originaltext><annotation>put(ing9, t2)</annotation></line>
+<line><originaltext>Bake for 20 minutes.</originaltext><annotation>cook(ing9, t0, ing10, "baked dough", "bake for 20 minutes")</annotation></line>
+<line><originaltext>In a 2 quart saucepan, combine 1/2 cup butter, brown sugar, corn syrup, and sweetened condensed milk. </originaltext><annotation>create_tool(t3, "2 quart saucepan")</annotation></line>
+<line><originaltext>In a 2 quart saucepan, combine 1/2 cup butter, brown sugar, corn syrup, and sweetened condensed milk. </originaltext><annotation>combine({ing3, ing4, ing5, ing6}, ing11, "sweet mix", "")</annotation></line>
+<line><originaltext>Bring to a boil. </originaltext><annotation>cook(ing11, t3, ing12, "boiled mix", "bring to a boil")</annotation></line>
+<line><originaltext>Continue to boil for 5 minutes. </originaltext><annotation>cook(ing12, t3, ing13, "boiled mix", "continue to boil for 5 minutes")</annotation></line>
+<line><originaltext>Remove from heat and beat vigorously with a wooden spoon for about 3 minutes. </originaltext><annotation>create_tool(t4, "wooden spoon")</annotation></line>
+<line><originaltext>Remove from heat and beat vigorously with a wooden spoon for about 3 minutes. </originaltext><annotation>mix(ing13, t4, ing14, "beaten stuff", "beat vigorously")</annotation></line>
+<line><originaltext>Pour over baked crust (warm or cool). </originaltext><annotation>combine({ing10, ing14}, ing15, "pie thing", "pour over baked crust")</annotation></line>
+<line><originaltext>Cool until it begins to firm.</originaltext><annotation>leave(ing15,"cool")</annotation></line>
+<line><originaltext>Cool until it begins to firm.</originaltext><annotation>chefcheck(ing15,"beginning to firm")</annotation></line>
+<line><originaltext>Melt chocolate and pour over caramel layer. </originaltext><annotation>cook(ing7, , ing16, "melted chocolate", "melt")</annotation></line>
+<line><originaltext>Melt chocolate and pour over caramel layer. </originaltext><annotation>combine({ing15, ing16}, ing17, "chocolate thing", "pour over caramel layer")</annotation></line>
+<line><originaltext>Cover the layer completely. </originaltext><annotation>mix(ing17, t2, ing18, "caramel square", "cover the layer completely")</annotation></line>
+<line><originaltext>Chill. </originaltext><annotation>leave(ing18,"chill")</annotation></line>
+<line><originaltext>Cut into squares (about 48 - small because it is rich).</originaltext><annotation>cut(ing18, , ing19, "caramel squares", "cut into about 48 small squares")</annotation></line>
+<line><originaltext>Cut into squares (about 48 - small because it is rich).</originaltext><annotation>serve(ing19,"")</annotation></line>
+</recipe>

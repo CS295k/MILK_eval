@@ -1,0 +1,54 @@
+<recipe><line><originaltext>12 ounces dry fettuccine pasta</originaltext><annotation>create_ing(ing0, "12 ounces dry fettuccine pasta")</annotation></line>
+<line><originaltext>1 pound lean ground beef (optional)</originaltext><annotation>create_ing(ing1, "1 pound lean ground beef (optional)")</annotation></line>
+<line><originaltext>1 cup chopped onion</originaltext><annotation>create_ing(ing2, "1 cup chopped onion")</annotation></line>
+<line><originaltext>1 cup red bell pepper, chopped</originaltext><annotation>create_ing(ing3, "1 cup red bell pepper, chopped")</annotation></line>
+<line><originaltext>1 tablespoon butter</originaltext><annotation>create_ing(ing4, "1 tablespoon butter")</annotation></line>
+<line><originaltext>1 (29 ounce) can diced tomatoes</originaltext><annotation>create_ing(ing5, "1 (29 ounce) can diced tomatoes")</annotation></line>
+<line><originaltext>1 (4 ounce) can sliced mushrooms</originaltext><annotation>create_ing(ing6, "1 (4 ounce) can sliced mushrooms")</annotation></line>
+<line><originaltext>3 tablespoons chopped black olives</originaltext><annotation>create_ing(ing7, "3 tablespoons chopped black olives")</annotation></line>
+<line><originaltext>2 teaspoons dried oregano</originaltext><annotation>create_ing(ing8, "2 teaspoons dried oregano")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing9, "1 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>1 cup shredded mozzarella cheese</originaltext><annotation>create_ing(ing10, "1 cup shredded mozzarella cheese")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can condensed cream of mushroom soup</originaltext><annotation>create_ing(ing11, "1 (10.75 ounce) can condensed cream of mushroom soup")</annotation></line>
+<line><originaltext>1/4 cup beef broth</originaltext><annotation>create_ing(ing12, "1/4 cup beef broth")</annotation></line>
+<line><originaltext>1/4 cup grated Parmesan cheese</originaltext><annotation>create_ing(ing13, "1/4 cup grated Parmesan cheese")</annotation></line>
+<line><originaltext>Bring a large pot of lightly salted water to a boil. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Bring a large pot of lightly salted water to a boil. </originaltext><annotation>create_ing(ing14, "lightly salted water")</annotation></line>
+<line><originaltext>Bring a large pot of lightly salted water to a boil. </originaltext><annotation>put({ing14}, t0)</annotation></line>
+<line><originaltext>Bring a large pot of lightly salted water to a boil. </originaltext><annotation>cook(ing14, t0, ing15, "boiled water", "bring to a boil")</annotation></line>
+<line><originaltext>Cook pasta for 8 to 10 minutes, or until al dente; drain.</originaltext><annotation>combine({ing15, ing0}, ing16, "pasta and water", "")</annotation></line>
+<line><originaltext>Cook pasta for 8 to 10 minutes, or until al dente; drain.</originaltext><annotation>put({ing16}, t0)</annotation></line>
+<line><originaltext>Cook pasta for 8 to 10 minutes, or until al dente; drain.</originaltext><annotation>cook(ing16, t0, ing17, "cooked pasta", "8 to 10 minutes, or until al dente")</annotation></line>
+<line><originaltext>Cook pasta for 8 to 10 minutes, or until al dente; drain.</originaltext><annotation>separate(ing17, ing18, "pasta", ing19, "water", "drain the pasta")</annotation></line>
+<line><originaltext>In a large skillet, brown beef over medium heat. </originaltext><annotation>create_tool(t1, "large skillet")</annotation></line>
+<line><originaltext>In a large skillet, brown beef over medium heat. </originaltext><annotation>put({ing1}, t1)</annotation></line>
+<line><originaltext>In a large skillet, brown beef over medium heat. </originaltext><annotation>cook(ing1, t1, ing20, "browned beef", "brown beef over medium heat")</annotation></line>
+<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>create_tool(t2, "bowl")</annotation></line>
+<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>do(ing20,"drain fat from pan")</annotation></line>
+<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>put({ing20}, t2)</annotation></line>
+<line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>combine({ing2, ing3, ing4}, ing21, "onion, pepper, butter", "")</annotation></line>
+<line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>put({ing21}, t1)</annotation></line>
+<line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>cook(ing21, t1, ing22, "onion, pepper, butter", "cook until tender")</annotation></line>
+<line><originaltext>Stir in tomatoes, mushrooms, olives, and  beef, and season with oregano. </originaltext><annotation>combine({ing20, ing22, ing5, ing6, ing7, ing8}, ing23, "veggies and beef", "")</annotation></line>
+<line><originaltext>Stir in tomatoes, mushrooms, olives, and  beef, and season with oregano. </originaltext><annotation>mix(ing23, t1, ing24, "veggies and beef", "stir")</annotation></line>
+<line><originaltext>Simmer for 10 minutes.</originaltext><annotation>cook(ing24, t1, ing25, "cooked veggies and beef", "simmer for 10 minutes")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t3,"350 degrees")</annotation></line>
+<line><originaltext>Lightly grease a 9x13 inch baking dish.</originaltext><annotation>create_tool(t4, "9x13 inch baking dish")</annotation></line>
+<line><originaltext>Lightly grease a 9x13 inch baking dish.</originaltext><annotation>set(t4,"lightly grease")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>separate(ing18, ing26, "pasta half 1", ing27, "pasta half 2", "divide in half")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>separate(ing25, ing28, "beef mixture half 1", ing29, "beef mixture half 2", "divide in half")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>separate(ing9, ing30, "1/2 cup shredded cheddar cheese 1", ing31, "1/2 cup shredded cheddar cheese 2", "divide")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>separate(ing10, ing32, "1/2 cup shredded mozzarella cheese 1", ing33, "1/2 cup shredded mozzarella cheese 2", "divide")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>combine({ing26, ing28, ing30, ing32}, ing36, "casserole", "layer pasta, beef mixture, cheese")</annotation></line>
+<line><originaltext>Arrange half of the cooked fettuccine in the prepared dish, top with half of the beef and vegetable mixture, and sprinkle with 1/2 cup of Cheddar cheese and 1/2 cup of mozzarella cheese. </originaltext><annotation>put({ing36}, t4)</annotation></line>
+<line><originaltext>Repeat layers. </originaltext><annotation>combine({ing27, ing29, ing31, ing33, ing36}, ing37, "casserole", "layer pasta, beef mixture, cheese")</annotation></line>
+<line><originaltext>Repeat layers. </originaltext><annotation>put({ing37}, t4)</annotation></line>
+<line><originaltext>Mix together soup and beef broth until smooth, and pour over casserole. </originaltext><annotation>combine({ing11, ing12}, ing34, "soup and broth", "")</annotation></line>
+<line><originaltext>Mix together soup and beef broth until smooth, and pour over casserole. </originaltext><annotation>create_tool(t5, "bowl 2")</annotation></line>
+<line><originaltext>Mix together soup and beef broth until smooth, and pour over casserole. </originaltext><annotation>put({ing34}, t5)</annotation></line>
+<line><originaltext>Mix together soup and beef broth until smooth, and pour over casserole. </originaltext><annotation>mix(ing34, t5, ing35, "soup and broth", "mix until smooth")</annotation></line>
+<line><originaltext>Mix together soup and beef broth until smooth, and pour over casserole. </originaltext><annotation>put({ing35}, t4)</annotation></line>
+<line><originaltext>Sprinkle with Parmesan cheese.</originaltext><annotation>put({ing13}, t4)</annotation></line>
+<line><originaltext>Bake in preheated oven for 30 to 35 minutes, or until heated through.</originaltext><annotation>cook(ing37, t3, ing38, "cooked casserole", "bake 30 to 35 minutes or until heated through")</annotation></line>
+</recipe>

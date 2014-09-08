@@ -1,0 +1,13 @@
+<recipe version="1.1"><line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing23, "1 cup white sugar")</annotation></line>
+<line><originaltext>1 cup water</originaltext><annotation>create_ing(ing24, "1 cup water")</annotation></line>
+<line><originaltext>2 pandan leaves</originaltext><annotation>create_ing(ing25, "2 pandan leaves")</annotation></line>
+<line><originaltext>Place sugar, water and pandan leaves in a deep saucepan. </originaltext><annotation>create_tool(t3, "deep saucepan")</annotation></line>
+<line><originaltext>Place sugar, water and pandan leaves in a deep saucepan. </originaltext><annotation>combine({ing23, ing24, ing25}, ing26, "syrup stuff", "")</annotation></line>
+<line><originaltext>Place sugar, water and pandan leaves in a deep saucepan. </originaltext><annotation>put(ing26, t3)</annotation></line>
+<line><originaltext>Bring to a boil, lower heat and simmer until sugar is dissolved.</originaltext><annotation>cook(ing26, t3, ing27, "hot syrup stuff", "bring to a boil, lower heat and simmer until sugar is dissolved")</annotation></line>
+<line><originaltext>Bring to a boil, lower heat and simmer until sugar is dissolved.</originaltext><annotation>chefcheck(ing27,"sugar is dissolved")</annotation></line>
+<line><originaltext>Remove pandan leaves and strain the syrup. </originaltext><annotation>separate(ing27, ing28, "boiled syrup stuff", ing29, "pandan leaves", "remove pandan leaves")</annotation></line>
+<line><originaltext>Remove pandan leaves and strain the syrup. </originaltext><annotation>do(ing28, , ing29, "strained syrup", "strain")</annotation></line>
+<line><originaltext>Allow to cool for use as a basic syrup. </originaltext><annotation>leave(ing29,"allow to cool")</annotation></line>
+<line><originaltext>Store the syrup in a bottle in the refrigerator.</originaltext><annotation>leave(ing29,"store in a bottle in the refrigerator")</annotation></line>
+</recipe>

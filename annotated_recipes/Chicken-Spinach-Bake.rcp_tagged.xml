@@ -1,0 +1,44 @@
+<recipe version="1.1"><line><originaltext>3 (10 ounce) packages frozen chopped spinach, thawed</originaltext><annotation>create_ing(ing0, "3 (10 ounce) packages frozen chopped spinach, thawed")</annotation></line>
+<line><originaltext>3 eggs</originaltext><annotation>create_ing(ing1, "3 eggs")</annotation></line>
+<line><originaltext>1/2 teaspoon onion salt</originaltext><annotation>create_ing(ing2, "1/2 teaspoon onion salt")</annotation></line>
+<line><originaltext>1/2 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing3, "1/2 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>3/4 cup grated Parmesan cheese, divided</originaltext><annotation>create_ing(ing4, "3/4 cup grated Parmesan cheese, divided")</annotation></line>
+<line><originaltext>3/4 cup Italian seasoned bread crumbs</originaltext><annotation>create_ing(ing5, "3/4 cup Italian seasoned bread crumbs")</annotation></line>
+<line><originaltext>16 skinless, boneless chicken breast halves</originaltext><annotation>create_ing(ing6, "16 skinless, boneless chicken breast halves")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing7, "salt and pepper to taste")</annotation></line>
+<line><originaltext>5 tablespoons butter or margarine, melted</originaltext><annotation>create_ing(ing8, "5 tablespoons butter or margarine, melted")</annotation></line>
+<line><originaltext>6 tablespoons butter or margarine, divided</originaltext><annotation>create_ing(ing9, "6 tablespoons butter or margarine, divided")</annotation></line>
+<line><originaltext>1/4 cup all-purpose flour</originaltext><annotation>create_ing(ing10, "1/4 cup all-purpose flour")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing11, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>2 cups milk</originaltext><annotation>create_ing(ing12, "2 cups milk")</annotation></line>
+<line><originaltext>2 cups shredded Cheddar cheese</originaltext><annotation>create_ing(ing13, "2 cups shredded Cheddar cheese")</annotation></line>
+<line><originaltext>1 cup sliced fresh mushrooms</originaltext><annotation>create_ing(ing14, "1 cup sliced fresh mushrooms")</annotation></line>
+<line><originaltext>3/4 cup grated Parmesan cheese, divided</originaltext><annotation>separate(ing4, ing15, "1/4 parm", ing16, "1/2 parm", "")</annotation></line>
+<line><originaltext>6 tablespoons butter or margarine, divided</originaltext><annotation>separate(ing9, ing17, "4 tbsp butter", ing18, "2 tbsp butter", "")</annotation></line>
+<line><originaltext>Drain and squeeze out excess moisture from spinach. </originaltext><annotation>do(ing0, , ing19, "drained spinach", "drain and squeeze out excess moisture from spinach")</annotation></line>
+<line><originaltext>Beat eggs, onion salt and nutmeg. </originaltext><annotation>combine({ing1, ing2, ing3}, ing20, "egg mix", "beat")</annotation></line>
+<line><originaltext>Add spinach and 1/4 cup Parmesan cheese; mix well. </originaltext><annotation>combine({ing15, ing19, ing20}, ing21, "spinach mix", "mix well")</annotation></line>
+<line><originaltext>Combine bread crumbs and remaining Parmesan. </originaltext><annotation>combine({ing16, ing5}, ing22, "crumb mix", "")</annotation></line>
+<line><originaltext>Sprinkle chicken with salt and pepper; coat with crumb mixture. </originaltext><annotation>separate(ing22, ing23, "coating crumb", ing24, "remaining crumb", "")</annotation></line>
+<line><originaltext>Sprinkle chicken with salt and pepper; coat with crumb mixture. </originaltext><annotation>combine({ing23, ing6, ing7}, ing25, "coated chicken", "sprinkle chicken with salt and pepper; coat with crumb mixture")</annotation></line>
+<line><originaltext>Place in two greased 13-in. x 9-in. x 2-in. baking pans. </originaltext><annotation>create_tool(t0, "two greased 13-in. x 9-in. x 2-in. baking pans")</annotation></line>
+<line><originaltext>Place in two greased 13-in. x 9-in. x 2-in. baking pans. </originaltext><annotation>put(ing25, t0)</annotation></line>
+<line><originaltext>Spread 2 tablespoons spinach mixture onto each breast. </originaltext><annotation>combine({ing21, ing25}, ing26, "spinach chicken", "spread 2 tablespoons spinach mixture onto each breast")</annotation></line>
+<line><originaltext>Sprinkle with remaining crumb mixture; drizzle with butter. </originaltext><annotation>combine({ing24, ing26, ing8}, ing27, "done chicken", "sprinkle chicken with remaining crumb mixture; drizzle with butter")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 35-40 minutes or until chicken juices run clear.</originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 35-40 minutes or until chicken juices run clear.</originaltext><annotation>set(t1,"350 degrees F")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 35-40 minutes or until chicken juices run clear.</originaltext><annotation>cook(ing27, t1, ing28, "baked chicken", "bake 35-40 minutes or until chicken juices run clear")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 35-40 minutes or until chicken juices run clear.</originaltext><annotation>chefcheck(ing28,"chicken juices run clear")</annotation></line>
+<line><originaltext>For sauce, melt 4 tablespoons butter; blend in flour and salt. </originaltext><annotation>do(ing17, , ing29, "melted butter", "melt")</annotation></line>
+<line><originaltext>For sauce, melt 4 tablespoons butter; blend in flour and salt. </originaltext><annotation>combine({ing10, ing11, ing29}, ing30, "butter mix", "blend")</annotation></line>
+<line><originaltext>Stir to form a smooth paste. </originaltext><annotation>mix(ing30, , ing31, "smooth paste", "stir to form a smooth paste")</annotation></line>
+<line><originaltext>Stir to form a smooth paste. </originaltext><annotation>chefcheck(ing31,"smooth paste")</annotation></line>
+<line><originaltext>Add milk; cook and stir until thickened and bubbly. </originaltext><annotation>combine({ing12, ing31}, ing32, "milk mix", "")</annotation></line>
+<line><originaltext>Add milk; cook and stir until thickened and bubbly. </originaltext><annotation>cook(ing32, , ing33, "cooked milk", "cook and stir until thickened and bubbly")</annotation></line>
+<line><originaltext>Add milk; cook and stir until thickened and bubbly. </originaltext><annotation>chefcheck(ing33,"thickened and bubbly")</annotation></line>
+<line><originaltext>Add cheese and stir until melted. </originaltext><annotation>combine({ing13, ing33}, ing34, "cheese mix", "stir until melted")</annotation></line>
+<line><originaltext>Saute mushrooms in remaining butter. </originaltext><annotation>combine({ing14, ing18}, ing35, "mushroom mix", "")</annotation></line>
+<line><originaltext>Saute mushrooms in remaining butter. </originaltext><annotation>cook(ing35, , ing36, "cooked mushroom", "saute")</annotation></line>
+<line><originaltext>Stir into cheese mixture. </originaltext><annotation>combine({ing34, ing36}, ing37, "sauce", "stir mushrooms into cheese mixture")</annotation></line>
+<line><originaltext>Carefully pour sauce over chicken, or pour into a serving bowl and pass.</originaltext><annotation>combine({ing28, ing37}, ing38, "finished chicken", "carefully pour sauce over chicken, or pour into a serving bowl and pass")</annotation></line>
+</recipe>

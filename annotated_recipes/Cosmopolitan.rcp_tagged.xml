@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>1 (1.5 fluid ounce) jigger vodka</originaltext><annotation>create_ing(ing0, "1 (1.5 fluid ounce) jigger vodka")</annotation></line>
+<line><originaltext>1/2 fluid ounce cointreau</originaltext><annotation>create_ing(ing1, "1/2 fluid ounce cointreau")</annotation></line>
+<line><originaltext>1 teaspoon fresh lime juice</originaltext><annotation>create_ing(ing2, "1 teaspoon fresh lime juice")</annotation></line>
+<line><originaltext>1 1/2 fluid ounces cranberry juice</originaltext><annotation>create_ing(ing3, "1 1/2 fluid ounces cranberry juice")</annotation></line>
+<line><originaltext>1 twist lime zest, garnish</originaltext><annotation>create_ing(ing4, "1 twist lime zest, garnish")</annotation></line>
+<line><originaltext>Pour all the ingredients into a shaker with lots of ice. </originaltext><annotation>create_tool(t0, "shaker")</annotation></line>
+<line><originaltext>Pour all the ingredients into a shaker with lots of ice. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing5, "cocktail", "")</annotation></line>
+<line><originaltext>Shake vigorously for several seconds and strain into a cocktail glass. </originaltext><annotation>mix(ing5, t0, ing6, "shaken cosmo", "shake vigorously with ice")</annotation></line>
+<line><originaltext>Shake vigorously for several seconds and strain into a cocktail glass. </originaltext><annotation>create_tool(t1, "cocktail glass")</annotation></line>
+<line><originaltext>Shake vigorously for several seconds and strain into a cocktail glass. </originaltext><annotation>put(ing6, t1)</annotation></line>
+<line><originaltext>Garnish with a lime twist. </originaltext><annotation>put(ing4, t1)</annotation></line>
+</recipe>

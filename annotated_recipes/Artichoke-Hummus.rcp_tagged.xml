@@ -1,0 +1,19 @@
+<recipe version="1.1"><line><originaltext>1 (15 ounce) can chickpeas (garbanzo beans), drained</originaltext><annotation>create_ing(ing40, "1 (15 ounce) can chickpeas (garbanzo beans), drained")</annotation></line>
+<line><originaltext>1 clove garlic</originaltext><annotation>create_ing(ing41, "1 clove garlic")</annotation></line>
+<line><originaltext>1/2 cup drained marinated artichoke hearts</originaltext><annotation>create_ing(ing42, "1/2 cup drained marinated artichoke hearts")</annotation></line>
+<line><originaltext>2 tablespoons lemon juice</originaltext><annotation>create_ing(ing43, "2 tablespoons lemon juice")</annotation></line>
+<line><originaltext>2 tablespoons water</originaltext><annotation>create_ing(ing44, "2 tablespoons water")</annotation></line>
+<line><originaltext>1 tablespoon chopped fresh parsley</originaltext><annotation>create_ing(ing45, "1 tablespoon chopped fresh parsley")</annotation></line>
+<line><originaltext>Quaker&#174; Quakes&#174; Ranch or Sour Cream and Onion Flavor Rice Snacks</originaltext><annotation>create_ing(ing46, "Quaker Ranch or Sour Cream and Onion Flavor Rice Snacks")</annotation></line>
+<line><originaltext>Combine all ingredients except parsley and Quaker&#174; Rice Snacks in work bowl of food processor.  </originaltext><annotation>combine({ing40, ing41, ing42, ing43, ing44}, ing47, "ingredients", "")</annotation></line>
+<line><originaltext>Combine all ingredients except parsley and Quaker&#174; Rice Snacks in work bowl of food processor.  </originaltext><annotation>create_tool(t7, "food processor  ")</annotation></line>
+<line><originaltext>Combine all ingredients except parsley and Quaker&#174; Rice Snacks in work bowl of food processor.  </originaltext><annotation>put(ing47, t7)</annotation></line>
+<line><originaltext>Pulse until smooth.</originaltext><annotation>mix(ing47, t7, ing48, "pulsed ingredients", "pulse")</annotation></line>
+<line><originaltext>Pulse until smooth.</originaltext><annotation>chefcheck(ing48,"smooth")</annotation></line>
+<line><originaltext>Transfer to serving bowl.  </originaltext><annotation>create_tool(t8, "serving bowl")</annotation></line>
+<line><originaltext>Transfer to serving bowl.  </originaltext><annotation>put(ing48, t8)</annotation></line>
+<line><originaltext>Cover and refrigerate until ready to serve.</originaltext><annotation>leave(ing48,"cover and refrigerate")</annotation></line>
+<line><originaltext>Stir in parsley.  </originaltext><annotation>combine({ing45, ing48}, ing49, "parsley and ingredients", "")</annotation></line>
+<line><originaltext>Stir in parsley.  </originaltext><annotation>mix(ing49, t8, ing50, "hummus", "stir")</annotation></line>
+<line><originaltext>Dip or spread each Quakes Ranch Flavor Rice Snack with hummus.</originaltext><annotation>combine({ing46, ing50}, ing51, "rice cakes with hummus", "spread hummus on cakes")</annotation></line>
+</recipe>

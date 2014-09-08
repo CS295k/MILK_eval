@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>1/2 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing0, "1/2 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>1 tablespoon grated Parmesan cheese</originaltext><annotation>create_ing(ing1, "1 tablespoon grated Parmesan cheese")</annotation></line>
+<line><originaltext>1 small onion, chopped</originaltext><annotation>create_ing(ing2, "1 small onion, chopped")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing3, "1 egg")</annotation></line>
+<line><originaltext>1 tablespoon ketchup</originaltext><annotation>create_ing(ing4, "1 tablespoon ketchup")</annotation></line>
+<line><originaltext>1 tablespoon Worcestershire sauce</originaltext><annotation>create_ing(ing5, "1 tablespoon Worcestershire sauce")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing6, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/8 teaspoon pepper</originaltext><annotation>create_ing(ing7, "1/8 teaspoon pepper")</annotation></line>
+<line><originaltext>1 pound ground beef</originaltext><annotation>create_ing(ing8, "1 pound ground beef")</annotation></line>
+<line><originaltext>6 slices bacon</originaltext><annotation>create_ing(ing9, "6 slices bacon")</annotation></line>
+<line><originaltext>6 hamburger buns, split</originaltext><annotation>create_ing(ing10, "6 hamburger buns, split")</annotation></line>
+<line><originaltext>Preheat a grill for high heat.</originaltext><annotation>create_tool(t0, "grill")</annotation></line>
+<line><originaltext>Preheat a grill for high heat.</originaltext><annotation>set(t0,"high heat")</annotation></line>
+<line><originaltext>In a large bowl, mix together the Cheddar cheese, Parmesan cheese, onion, egg, ketchup, Worcestershire sauce, salt and pepper. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix together the Cheddar cheese, Parmesan cheese, onion, egg, ketchup, Worcestershire sauce, salt and pepper. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing11, "toppings", "mix together")</annotation></line>
+<line><originaltext>In a large bowl, mix together the Cheddar cheese, Parmesan cheese, onion, egg, ketchup, Worcestershire sauce, salt and pepper. </originaltext><annotation>put(ing11, t1)</annotation></line>
+<line><originaltext>Crumble in the ground beef, and mix together by hand. </originaltext><annotation>combine({ing11, ing8}, ing12, "burger meat", "crumble in")</annotation></line>
+<line><originaltext>Crumble in the ground beef, and mix together by hand. </originaltext><annotation>mix(ing12, t1, ing13, "mixed meat", "mix by hand")</annotation></line>
+<line><originaltext>Form into 6 patties, and wrap a slice of bacon around each one. </originaltext><annotation>do(ing13, , ing14, "6 patties", "form into 6 patties")</annotation></line>
+<line><originaltext>Form into 6 patties, and wrap a slice of bacon around each one. </originaltext><annotation>combine({ing14, ing9}, ing15, "bacon patties", "wrap one slice around each")</annotation></line>
+<line><originaltext>Secure bacon with toothpicks.</originaltext><annotation>create_tool(t2, "toothpicks")</annotation></line>
+<line><originaltext>Secure bacon with toothpicks.</originaltext><annotation>do(ing15, t2, ing16, "toothpicked patties", "secure bacon with toothpicks")</annotation></line>
+<line><originaltext>Place patties on the grill, and cook for 5 minutes per side, or until well done. </originaltext><annotation>cook(ing16, t0, ing17, "grilled burgers", "cook 5 minutes per side")</annotation></line>
+<line><originaltext>Place patties on the grill, and cook for 5 minutes per side, or until well done. </originaltext><annotation>chefcheck(ing17,"well done")</annotation></line>
+<line><originaltext>Remove toothpicks before serving on hamburger buns.</originaltext><annotation>remove(ing17,t2)</annotation></line>
+<line><originaltext>Remove toothpicks before serving on hamburger buns.</originaltext><annotation>combine({ing10, ing17}, ing18, "burgers", "")</annotation></line>
+<line><originaltext>Remove toothpicks before serving on hamburger buns.</originaltext><annotation>serve(ing18,"")</annotation></line>
+</recipe>

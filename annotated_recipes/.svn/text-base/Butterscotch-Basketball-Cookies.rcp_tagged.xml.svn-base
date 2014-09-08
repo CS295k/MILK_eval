@@ -1,0 +1,60 @@
+<recipe version="1.1"><line><originaltext>1 cup butterscotch chips</originaltext><annotation>create_ing(ing0, "1 cup butterscotch chips")</annotation></line>
+<line><originaltext>1 cup butter (no substitutes), softened</originaltext><annotation>create_ing(ing1, "1 cup butter (no substitutes), softened")</annotation></line>
+<line><originaltext>1/2 cup sugar</originaltext><annotation>create_ing(ing2, "1/2 cup sugar")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing3, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing4, "1 egg")</annotation></line>
+<line><originaltext>2 tablespoons milk</originaltext><annotation>create_ing(ing5, "2 tablespoons milk")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing6, "2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>3 cups all-purpose flour</originaltext><annotation>create_ing(ing7, "3 cups all-purpose flour")</annotation></line>
+<line><originaltext>3/4 cup shortening</originaltext><annotation>create_ing(ing8, "3/4 cup shortening")</annotation></line>
+<line><originaltext>1/4 cup water</originaltext><annotation>create_ing(ing9, "1/4 cup water")</annotation></line>
+<line><originaltext>2 tablespoons all-purpose flour</originaltext><annotation>create_ing(ing10, "2 tablespoons all-purpose flour")</annotation></line>
+<line><originaltext>1 1/2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing11, "1 1/2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>4 cups confectioners' sugar</originaltext><annotation>create_ing(ing12, "4 cups confectioners' sugar")</annotation></line>
+<line><originaltext>Paste food coloring</originaltext><annotation>create_ing(ing13, "Paste food coloring")</annotation></line>
+<line><originaltext>In a microwave, melt butterscotch chips; cool for 10 minutes.  </originaltext><annotation>create_tool(t0, "microwave")</annotation></line>
+<line><originaltext>In a microwave, melt butterscotch chips; cool for 10 minutes.  </originaltext><annotation>cook(ing0, t0, ing14, "Melted butterscotch chips", "Melt")</annotation></line>
+<line><originaltext>In a microwave, melt butterscotch chips; cool for 10 minutes.  </originaltext><annotation>leave(ing14,"Cool for 10 minutes")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter and sugars.  </originaltext><annotation>create_tool(t1, "Mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter and sugars.  </originaltext><annotation>combine({ing1, ing2, ing3}, ing15, "butter and sugars", "")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter and sugars.  </originaltext><annotation>mix(ing15, t1, ing16, "Creamed butter and sugars", "Cream")</annotation></line>
+<line><originaltext>Add egg, milk and vanilla; mix well.  </originaltext><annotation>combine({ing16, ing4, ing5, ing6}, ing17, "cream, sugar, egg, milk, vanilla", "")</annotation></line>
+<line><originaltext>Add egg, milk and vanilla; mix well.  </originaltext><annotation>mix(ing17, t1, ing18, "Mixed cream, sugar, egg, milk, vanilla", "Mix well")</annotation></line>
+<line><originaltext>Beat in melted chips.  </originaltext><annotation>combine({ing14, ing18}, ing19, "Wet ingredients with butterscotch chips", "Beat in chips")</annotation></line>
+<line><originaltext>Gradually add flour; mix well.  </originaltext><annotation>combine({ing19, ing7}, ing20, "All cookie ingredients", "Add flour gradually")</annotation></line>
+<line><originaltext>Gradually add flour; mix well.  </originaltext><annotation>mix(ing20, t1, ing21, "All cookie ingredients, mixed", "Mix well")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour.</originaltext><annotation>set(t1,"Cover")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour.</originaltext><annotation>leave(ing21,"Refrigerate for 1 hour")</annotation></line>
+<line><originaltext>On a floured surface, roll out dough to 1/4-in. thickness.  </originaltext><annotation>create_tool(t2, "Floured surface")</annotation></line>
+<line><originaltext>On a floured surface, roll out dough to 1/4-in. thickness.  </originaltext><annotation>do(ing21, t2, ing22, "Rolled dough", "Roll out to 1/4-in. thickness")</annotation></line>
+<line><originaltext>Cut with a floured 4-1/2-in. gingerbread man cookie cutter and a 3-in. round cutter.  </originaltext><annotation>create_tool(t3, "Floured 4-1/2-in. gingerbread man cookie cutter and a round 3-in. cookie cutter")</annotation></line>
+<line><originaltext>Cut with a floured 4-1/2-in. gingerbread man cookie cutter and a 3-in. round cutter.  </originaltext><annotation>cut(ing22, t3, ing23, "Dough cut into cookie shapes", "")</annotation></line>
+<line><originaltext>Place 2 in. apart on greased baking sheets.  </originaltext><annotation>create_tool(t4, "Greased baking sheets")</annotation></line>
+<line><originaltext>Place 2 in. apart on greased baking sheets.  </originaltext><annotation>put(ing23, t4)</annotation></line>
+<line><originaltext>Bake at 375 degrees F for 5-8 minutes or until edges are lightly browned.  </originaltext><annotation>cook(ing23, t4, ing24, "Baked cookies", "Bake at 375 degrees F for 5-8 minutes")</annotation></line>
+<line><originaltext>Bake at 375 degrees F for 5-8 minutes or until edges are lightly browned.  </originaltext><annotation>chefcheck(ing24,"Edges are lightly browned")</annotation></line>
+<line><originaltext>Cool for 1 minute; remove to wire racks to cool completely.</originaltext><annotation>leave(ing24,"Cool for 1 minute")</annotation></line>
+<line><originaltext>Cool for 1 minute; remove to wire racks to cool completely.</originaltext><annotation>create_tool(t5, "wire racks")</annotation></line>
+<line><originaltext>Cool for 1 minute; remove to wire racks to cool completely.</originaltext><annotation>remove(ing24,t4)</annotation></line>
+<line><originaltext>Cool for 1 minute; remove to wire racks to cool completely.</originaltext><annotation>put(ing24, t5)</annotation></line>
+<line><originaltext>Cool for 1 minute; remove to wire racks to cool completely.</originaltext><annotation>leave(ing24,"Cool completely")</annotation></line>
+<line><originaltext>For frosting, combine shortening, water, flour and vanilla in a mixing bowl; mix well.  </originaltext><annotation>create_tool(t6, "Mixing bowl")</annotation></line>
+<line><originaltext>For frosting, combine shortening, water, flour and vanilla in a mixing bowl; mix well.  </originaltext><annotation>combine({ing10, ing11, ing8, ing9}, ing25, "Shortening, water, flour, vanilla mix", "")</annotation></line>
+<line><originaltext>For frosting, combine shortening, water, flour and vanilla in a mixing bowl; mix well.  </originaltext><annotation>mix(ing25, t6, ing26, "Mixed stuff", "Mix well.")</annotation></line>
+<line><originaltext>gradually beat in sugar.  </originaltext><annotation>combine({ing12, ing26}, ing27, "Frosting", "Gradually beat in sugar")</annotation></line>
+<line><originaltext>Place 1 cup frosting in a plastic bag; cut a small hole in corner of bag.  </originaltext><annotation>create_tool(t7, "Plastic bag with corner cut in it")</annotation></line>
+<line><originaltext>Place 1 cup frosting in a plastic bag; cut a small hole in corner of bag.  </originaltext><annotation>separate(ing27, ing28, "1 cup frosting", ing29, "All but 1 cup frosting", "")</annotation></line>
+<line><originaltext>Place 1 cup frosting in a plastic bag; cut a small hole in corner of bag.  </originaltext><annotation>put(ing28, t7)</annotation></line>
+<line><originaltext>Pipe shirt and shorts on players.  </originaltext><annotation>combine({ing24, ing28}, ing30, "Cookies with shirts and shorts", "Pipe shirts and shorts on players")</annotation></line>
+<line><originaltext>Fill in outline and smooth with a metal spatula.  </originaltext><annotation>create_tool(t8, "Metal spatula")</annotation></line>
+<line><originaltext>Fill in outline and smooth with a metal spatula.  </originaltext><annotation>do(ing30, t8, ing31, "Cookies with filled-in shirts and shorts", "Fill in outline and smooth")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting black; place in a plastic bag.  </originaltext><annotation>separate(ing29, ing32, "1/4 cup frosting", ing33, "1/4 cup frosting", "")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting black; place in a plastic bag.  </originaltext><annotation>separate(ing13, ing34, "Some black food coloring", ing35, "Some red food coloring", "")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting black; place in a plastic bag.  </originaltext><annotation>combine({ing32, ing34}, ing36, "black frosting", "")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting black; place in a plastic bag.  </originaltext><annotation>create_tool(t9, "plastic bag for black frosting")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting black; place in a plastic bag.  </originaltext><annotation>put(ing36, t9)</annotation></line>
+<line><originaltext>Pipe lines on round cookies to create basketballs; pipe hair, eyes and noses on players.  </originaltext><annotation>combine({ing31, ing36}, ing37, "Cookies with basketball lines, hair, eyes, and noses", "Pipe lines on cookies")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting red; pipe a mouth on each player.  </originaltext><annotation>combine({ing33, ing35}, ing38, "Red frosting", "")</annotation></line>
+<line><originaltext>Tint 1/4 cup frosting red; pipe a mouth on each player.  </originaltext><annotation>combine({ing37, ing38}, ing39, "Cookies with faces and basketball lines", "Pipe a mouth on each player")</annotation></line>
+<line><originaltext>Tint remaining frosting to match team colors of your choice; pipe around shirts and shorts and add a letter on shirts if desired.</originaltext><annotation>do(ing39, , ing40, "Frosted cookies", "Put team colors on the cookies, frost")</annotation></line>
+</recipe>

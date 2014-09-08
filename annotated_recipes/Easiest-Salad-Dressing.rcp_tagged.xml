@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>1/2 cup mayonnaise</originaltext><annotation>create_ing(ing8, "1/2 cup mayonnaise")</annotation></line>
+<line><originaltext>3 teaspoons milk</originaltext><annotation>create_ing(ing9, "3 teaspoons milk")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing10, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>1 pinch ground black pepper</originaltext><annotation>create_ing(ing11, "1 pinch ground black pepper")</annotation></line>
+<line><originaltext>Combine the mayonnaise, milk, salt and pepper in a jar with a tight fitting lid. </originaltext><annotation>create_tool(t3, "jar with tight-fitting lid")</annotation></line>
+<line><originaltext>Combine the mayonnaise, milk, salt and pepper in a jar with a tight fitting lid. </originaltext><annotation>put(ing10, t3)</annotation></line>
+<line><originaltext>Combine the mayonnaise, milk, salt and pepper in a jar with a tight fitting lid. </originaltext><annotation>put(ing11, t3)</annotation></line>
+<line><originaltext>Combine the mayonnaise, milk, salt and pepper in a jar with a tight fitting lid. </originaltext><annotation>put(ing8, t3)</annotation></line>
+<line><originaltext>Combine the mayonnaise, milk, salt and pepper in a jar with a tight fitting lid. </originaltext><annotation>put(ing9, t3)</annotation></line>
+<line><originaltext>Shake vigorously to mix, then pour over your salad. </originaltext><annotation>combine({ing10, ing11, ing8, ing9}, ing12, "salad dressing", "shake vigorously to mix")</annotation></line>
+<line><originaltext>Shake vigorously to mix, then pour over your salad. </originaltext><annotation>serve(ing12,"over salad")</annotation></line>
+</recipe>

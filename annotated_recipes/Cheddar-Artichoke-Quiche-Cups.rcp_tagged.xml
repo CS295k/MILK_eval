@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>1 (7.5 ounce) jar marinated artichoke hearts</originaltext><annotation>create_ing(ing0, "1 (7.5 ounce) jar marinated artichoke hearts")</annotation></line>
+<line><originaltext>1 small onion, finely chopped</originaltext><annotation>create_ing(ing1, "1 small onion, finely chopped")</annotation></line>
+<line><originaltext>1 garlic clove, minced</originaltext><annotation>create_ing(ing2, "1 garlic clove, minced")</annotation></line>
+<line><originaltext>4 eggs, beaten</originaltext><annotation>create_ing(ing3, "4 eggs, beaten")</annotation></line>
+<line><originaltext>1/4 cup dry bread crumbs</originaltext><annotation>create_ing(ing4, "1/4 cup dry bread crumbs")</annotation></line>
+<line><originaltext>1/4 teaspoon ground mustard</originaltext><annotation>create_ing(ing5, "1/4 teaspoon ground mustard")</annotation></line>
+<line><originaltext>1/8 teaspoon dried oregano</originaltext><annotation>create_ing(ing6, "1/8 teaspoon dried oregano")</annotation></line>
+<line><originaltext>1/8 teaspoon pepper</originaltext><annotation>create_ing(ing7, "1/8 teaspoon pepper")</annotation></line>
+<line><originaltext>1/8 teaspoon hot pepper sauce</originaltext><annotation>create_ing(ing8, "1/8 teaspoon hot pepper sauce")</annotation></line>
+<line><originaltext>2 (8 ounce) packages shredded Cheddar cheese</originaltext><annotation>create_ing(ing9, "2 (8 ounce) packages shredded Cheddar cheese")</annotation></line>
+<line><originaltext>2 tablespoons minced fresh parsley</originaltext><annotation>create_ing(ing10, "2 tablespoons minced fresh parsley")</annotation></line>
+<line><originaltext>Drain artichokes, reserving half of the marinade. </originaltext><annotation>separate(ing0, ing11, "half of the marinade", ing12, "artichokes", "drain")</annotation></line>
+<line><originaltext>Chop artichokes; set aside. </originaltext><annotation>create_tool(t0, "knife")</annotation></line>
+<line><originaltext>Chop artichokes; set aside. </originaltext><annotation>cut(ing12, t0, ing13, "chopped artichokes", "chop")</annotation></line>
+<line><originaltext>In a skillet, saute onion and garlic in reserved marinade until tender; set aside. </originaltext><annotation>create_tool(t1, "skillet")</annotation></line>
+<line><originaltext>In a skillet, saute onion and garlic in reserved marinade until tender; set aside. </originaltext><annotation>combine({ing1, ing11, ing2}, ing14, "onion mix", "")</annotation></line>
+<line><originaltext>In a skillet, saute onion and garlic in reserved marinade until tender; set aside. </originaltext><annotation>cook(ing14, t1, ing15, "sauteed onions", "saute until tender")</annotation></line>
+<line><originaltext>In a large bowl, combine the egg, bread crumbs, mustard, oregano, pepper and hot pepper sauce. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the egg, bread crumbs, mustard, oregano, pepper and hot pepper sauce. </originaltext><annotation>combine({ing3, ing4, ing5, ing6, ing7, ing8}, ing16, "spicy crumbs", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the egg, bread crumbs, mustard, oregano, pepper and hot pepper sauce. </originaltext><annotation>put(ing16, t2)</annotation></line>
+<line><originaltext>Stir in the cheese, parsley, reserved artichokes and onion mixture.</originaltext><annotation>combine({ing10, ing13, ing15, ing16, ing9}, ing17, "quiche mix", "stir in")</annotation></line>
+<line><originaltext>Fill miniature muffin cups three-fourths full. </originaltext><annotation>create_tool(t3, "miniature muffin cups")</annotation></line>
+<line><originaltext>Fill miniature muffin cups three-fourths full. </originaltext><annotation>put(ing17, t3)</annotation></line>
+<line><originaltext>Bake at 325 degrees F for 15-17 minutes or until set. </originaltext><annotation>create_tool(t4, "oven")</annotation></line>
+<line><originaltext>Bake at 325 degrees F for 15-17 minutes or until set. </originaltext><annotation>cook(ing17, t4, ing18, "quiches", "bake at 325 degrees F for 15-17 minutes")</annotation></line>
+<line><originaltext>Bake at 325 degrees F for 15-17 minutes or until set. </originaltext><annotation>chefcheck(ing18,"set")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to wire racks. </originaltext><annotation>leave(ing18,"cool for 5 minutes")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to wire racks. </originaltext><annotation>create_tool(t5, "wire rack")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to wire racks. </originaltext><annotation>put(ing18, t5)</annotation></line>
+<line><originaltext>Serve warm. </originaltext><annotation>serve(ing18,"warm")</annotation></line>
+</recipe>

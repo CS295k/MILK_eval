@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>3 cups all-purpose flour</originaltext><annotation>create_ing(ing37, "3 cups all-purpose flour")</annotation></line>
+<line><originaltext>3 eggs</originaltext><annotation>create_ing(ing38, "3 eggs")</annotation></line>
+<line><originaltext>2 cups white sugar</originaltext><annotation>create_ing(ing39, "2 cups white sugar")</annotation></line>
+<line><originaltext>1 cup vegetable oil</originaltext><annotation>create_ing(ing40, "1 cup vegetable oil")</annotation></line>
+<line><originaltext>2 cups applesauce</originaltext><annotation>create_ing(ing41, "2 cups applesauce")</annotation></line>
+<line><originaltext>1 cup raisins (optional)</originaltext><annotation>create_ing(ing42, "1 cup raisins (optional)")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing43, "1 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing44, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1/4 teaspoon baking powder</originaltext><annotation>create_ing(ing45, "1/4 teaspoon baking powder")</annotation></line>
+<line><originaltext>1/2 cup sour cream</originaltext><annotation>create_ing(ing46, "1/2 cup sour cream")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).  </originaltext><annotation>create_tool(t7, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).  </originaltext><annotation>set(t7,"Preheat to 375 degrees F (175 degrees C).")</annotation></line>
+<line><originaltext>Grease and flour two 9 x 5 inch loaf pans.</originaltext><annotation>create_tool(t8, "two 9 x 5 inch loaf pans")</annotation></line>
+<line><originaltext>Grease and flour two 9 x 5 inch loaf pans.</originaltext><annotation>set(t8,"grease and flour")</annotation></line>
+<line><originaltext>Beat together eggs, sugar, and oil.  </originaltext><annotation>combine({ing38, ing39, ing40}, ing47, "egg mix", "")</annotation></line>
+<line><originaltext>Beat together eggs, sugar, and oil.  </originaltext><annotation>mix(ing47, , ing48, "beaten egg mix", "beat ")</annotation></line>
+<line><originaltext>Blend in applesauce, and then sour cream or buttermilk.  </originaltext><annotation>combine({ing41, ing46, ing48}, ing49, "creamy egg mix and applesauce", "blend in")</annotation></line>
+<line><originaltext>Mix in flour, baking powder, soda, and cinnamon. </originaltext><annotation>combine({ing37, ing43, ing44, ing45, ing49}, ing50, "batter mix without raisins", "mix")</annotation></line>
+<line><originaltext>Stir in raisins. </originaltext><annotation>combine({ing42, ing50}, ing51, "final batter", "stir in raisins")</annotation></line>
+<line><originaltext>Pour batter into prepared pans.</originaltext><annotation>put(ing51, t8)</annotation></line>
+<line><originaltext>Bake for 80 minutes.  </originaltext><annotation>cook(ing51, t7, ing52, "hot bread", "Bake for 80 minutes")</annotation></line>
+<line><originaltext>Cool on wire racks.</originaltext><annotation>leave(ing52,"cool on wire racks")</annotation></line>
+</recipe>

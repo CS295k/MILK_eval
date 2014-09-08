@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>6 (2 inch thick) slices French bread</originaltext><annotation>create_ing(ing0, "6 (2 inch thick) slices French bread")</annotation></line>
+<line><originaltext>1/4 cup ricotta cheese</originaltext><annotation>create_ing(ing1, "1/4 cup ricotta cheese")</annotation></line>
+<line><originaltext>1/4 cup cottage cheese, whipped</originaltext><annotation>create_ing(ing2, "1/4 cup cottage cheese, whipped")</annotation></line>
+<line><originaltext>2 tablespoons lowfat cream cheese</originaltext><annotation>create_ing(ing3, "2 tablespoons lowfat cream cheese")</annotation></line>
+<line><originaltext>2 teaspoons white sugar</originaltext><annotation>create_ing(ing4, "2 teaspoons white sugar")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing5, "2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>3 cups egg substitute</originaltext><annotation>create_ing(ing6, "3 cups egg substitute")</annotation></line>
+<line><originaltext>1/4 cup evaporated milk</originaltext><annotation>create_ing(ing7, "1/4 cup evaporated milk")</annotation></line>
+<line><originaltext>Cut a pocket in each slice of bread. </originaltext><annotation>cut(ing0, , ing8, "French bread slices with pockets", "cut a pocket")</annotation></line>
+<line><originaltext>Open carefully</originaltext><annotation>do(ing8, , ing18, "French bread slices with open pockets", "open pockets")</annotation></line>
+<line><originaltext>In a large bowl, combine the ricotta, cottage cheese and cream cheese. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the ricotta, cottage cheese and cream cheese. </originaltext><annotation>combine({ing1, ing2, ing3}, ing9, "cheeses", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the ricotta, cottage cheese and cream cheese. </originaltext><annotation>put(ing9, t0)</annotation></line>
+<line><originaltext>Add the sugar and flavoring extract and beat until smooth. </originaltext><annotation>combine({ing4, ing5, ing9}, ing10, "mixture", "")</annotation></line>
+<line><originaltext>Add the sugar and flavoring extract and beat until smooth. </originaltext><annotation>create_tool(t1, "electric mixer")</annotation></line>
+<line><originaltext>Add the sugar and flavoring extract and beat until smooth. </originaltext><annotation>mix(ing10, t1, ing11, "beat mixture", "beat")</annotation></line>
+<line><originaltext>Add the sugar and flavoring extract and beat until smooth. </originaltext><annotation>chefcheck(ing11,"smooth")</annotation></line>
+<line><originaltext>Spread the mixture evenly into each bread pocket.</originaltext><annotation>combine({ing11, ing18}, ing12, "stuffed bread", "spread mixture into pocket")</annotation></line>
+<line><originaltext>Beat together the egg substitutes and milk. </originaltext><annotation>combine({ing6, ing7}, ing13, "milk and eggs", "")</annotation></line>
+<line><originaltext>Beat together the egg substitutes and milk. </originaltext><annotation>mix(ing13, t1, ing14, "beaten milk and eggs", "beat")</annotation></line>
+<line><originaltext>Dip the slices of bread in the egg mixture.</originaltext><annotation>combine({ing12, ing14}, ing15, "stuffed bread dipped in egg", "dip")</annotation></line>
+<line><originaltext>Heat a nonstick pan over medium-high heat. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Heat a nonstick pan over medium-high heat. </originaltext><annotation>create_tool(t3, "nonstick pan")</annotation></line>
+<line><originaltext>Heat a nonstick pan over medium-high heat. </originaltext><annotation>set(t2,"medium-high heat")</annotation></line>
+<line><originaltext>Coat with cooking spray. </originaltext><annotation>create_ing(ing16, "cooking spray")</annotation></line>
+<line><originaltext>Coat with cooking spray. </originaltext><annotation>put(ing16, t3)</annotation></line>
+<line><originaltext>Cook the toast on each side for about 3 to 4 minutes per side until golden brown.</originaltext><annotation>cook(ing15, t3, ing17, "toast", "3 to 4 minutes per side")</annotation></line>
+<line><originaltext>Cook the toast on each side for about 3 to 4 minutes per side until golden brown.</originaltext><annotation>chefcheck(ing17,"golden brown")</annotation></line>
+</recipe>

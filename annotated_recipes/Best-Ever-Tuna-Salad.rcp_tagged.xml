@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>2 eggs</originaltext><annotation>create_ing(ing0, "2 eggs")</annotation></line>
+<line><originaltext>1 (12 ounce) can white tuna</originaltext><annotation>create_ing(ing1, "1 (12 ounce) can white tuna")</annotation></line>
+<line><originaltext>1 (6 ounce) can crabmeat, shredded</originaltext><annotation>create_ing(ing2, "1 (6 ounce) can crabmeat, shredded")</annotation></line>
+<line><originaltext>1/2 cup mayonnaise</originaltext><annotation>create_ing(ing3, "1/2 cup mayonnaise")</annotation></line>
+<line><originaltext>1 teaspoon sour cream</originaltext><annotation>create_ing(ing4, "1 teaspoon sour cream")</annotation></line>
+<line><originaltext>1 teaspoon yellow mustard</originaltext><annotation>create_ing(ing5, "1 teaspoon yellow mustard")</annotation></line>
+<line><originaltext>1/2 teaspoon dried dill weed</originaltext><annotation>create_ing(ing6, "1/2 teaspoon dried dill weed")</annotation></line>
+<line><originaltext>1/8 teaspoon lemon pepper</originaltext><annotation>create_ing(ing7, "1/8 teaspoon lemon pepper")</annotation></line>
+<line><originaltext>2 tablespoons dill pickle relish</originaltext><annotation>create_ing(ing8, "2 tablespoons dill pickle relish")</annotation></line>
+<line><originaltext>2 tablespoons sweet pickle relish</originaltext><annotation>create_ing(ing9, "2 tablespoons sweet pickle relish")</annotation></line>
+<line><originaltext>3/4 cup finely chopped onion</originaltext><annotation>create_ing(ing10, "3/4 cup finely chopped onion")</annotation></line>
+<line><originaltext>Place eggs in a saucepan and cover with cold water. </originaltext><annotation>create_tool(t0, "Saucepan")</annotation></line>
+<line><originaltext>Place eggs in a saucepan and cover with cold water. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Place eggs in a saucepan and cover with cold water. </originaltext><annotation>do(ing0, t0, ing17, "eggs covered in water", "Cover eggs in water")</annotation></line>
+<line><originaltext>Bring water to a boil and immediately remove from heat. </originaltext><annotation>cook(ing17, t0, ing11, "boiled eggs", "Bring water to a boil and remove from heat")</annotation></line>
+<line><originaltext>Cover and let eggs stand in hot water for 10 to 12 minutes. </originaltext><annotation>leave(ing11, "cover eggs, let stand for 10 to 12 minutes in hot water")</annotation></line>
+<line><originaltext>Remove from hot water, cool, peel and chop finely.</originaltext><annotation>remove(ing11,t0)</annotation></line>
+<line><originaltext>Remove from hot water, cool, peel and chop finely.</originaltext><annotation>leave(ing11,"Cool")</annotation></line>
+<line><originaltext>Remove from hot water, cool, peel and chop finely.</originaltext><annotation>do(ing11, , ing12, "peeled eggs", "peel")</annotation></line>
+<line><originaltext>Remove from hot water, cool, peel and chop finely.</originaltext><annotation>cut(ing12, , ing13, "chopped eggs", "chop finely")</annotation></line>
+<line><originaltext>In a mixing bowl, combine tuna, crabmeat, mayonnaise, sour cream and mustard. </originaltext><annotation>create_tool(t1, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, combine tuna, crabmeat, mayonnaise, sour cream and mustard. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5}, ing14, "Tuna mix", "combine")</annotation></line>
+<line><originaltext>Stir in chopped egg, dill weed, lemon pepper, dill and sweet relish and chopped onion.</originaltext><annotation>combine({ing10, ing13, ing14, ing6, ing7, ing8, ing9}, ing15, "Salad", "Stir in")</annotation></line>
+<line><originaltext>Mix thoroughly.</originaltext><annotation>mix(ing15, t1, ing16, "Salad", "Mix thoroughly")</annotation></line>
+</recipe>

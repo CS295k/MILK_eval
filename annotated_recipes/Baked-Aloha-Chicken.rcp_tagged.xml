@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>1/4 cup lemon juice</originaltext><annotation>create_ing(ing0, "1/4 cup lemon juice")</annotation></line>
+<line><originaltext>1/4 cup light corn syrup</originaltext><annotation>create_ing(ing1, "1/4 cup light corn syrup")</annotation></line>
+<line><originaltext>2 tablespoons soy sauce</originaltext><annotation>create_ing(ing2, "2 tablespoons soy sauce")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing3, "1 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 teaspoon ground ginger</originaltext><annotation>create_ing(ing4, "1/4 teaspoon ground ginger")</annotation></line>
+<line><originaltext>1/4 cup corn oil</originaltext><annotation>create_ing(ing5, "1/4 cup corn oil")</annotation></line>
+<line><originaltext>1 (8 ounce) can crushed pineapple (not drained)</originaltext><annotation>create_ing(ing6, "1 (8 ounce) can crushed pineapple (not drained)")</annotation></line>
+<line><originaltext>10 chicken leg quarters</originaltext><annotation>create_ing(ing7, "10 chicken leg quarters")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Stir together lemon juice, corn syrup, soy sauce, salt, ginger, and corn oil in a bowl until smooth. </originaltext><annotation>create_tool(t1, "bowl")</annotation></line>
+<line><originaltext>Stir together lemon juice, corn syrup, soy sauce, salt, ginger, and corn oil in a bowl until smooth. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing8, "sauce", "stir together until smooth")</annotation></line>
+<line><originaltext>Stir together lemon juice, corn syrup, soy sauce, salt, ginger, and corn oil in a bowl until smooth. </originaltext><annotation>put(ing8, t1)</annotation></line>
+<line><originaltext>Stir in the crushed pineapple with its liquid. </originaltext><annotation>combine({ing6, ing8}, ing9, "sauce", "stir in")</annotation></line>
+<line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>create_tool(t2, "ovenproof glass baking dish")</annotation></line>
+<line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>put(ing7, t2)</annotation></line>
+<line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>combine({ing7, ing9}, ing10, "saucy chicken", "pour over top")</annotation></line>
+<line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>cook(ing10, t0, ing11, "baked chicken", "30 minutes")</annotation></line>
+<line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>do(ing11, t2, ing12, "turned chicken", "turn over")</annotation></line>
+<line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>cook(ing12, t0, ing13, "baked chicken", "20 minutes")</annotation></line>
+<line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>chefcheck(ing13,"no longer pink")</annotation></line>
+<line><originaltext>Baste with sauce frequently while baking.</originaltext><annotation>do(ing13, , ing14, "basted chicken", "baste with sauce")</annotation></line>
+</recipe>

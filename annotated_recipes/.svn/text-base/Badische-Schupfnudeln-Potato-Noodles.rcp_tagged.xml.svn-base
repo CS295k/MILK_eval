@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>1 1/2 pounds russet potatoes</originaltext><annotation>create_ing(ing0, "1 1/2 pounds russet potatoes")</annotation></line>
+<line><originaltext>1/2 cup all-purpose flour</originaltext><annotation>create_ing(ing1, "1/2 cup all-purpose flour")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing2, "1 egg")</annotation></line>
+<line><originaltext>1 tablespoon chopped fresh parsley</originaltext><annotation>create_ing(ing3, "1 tablespoon chopped fresh parsley")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing4, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 teaspoon freshly ground nutmeg</originaltext><annotation>create_ing(ing5, "1/4 teaspoon freshly ground nutmeg")</annotation></line>
+<line><originaltext>1/4 cup lard or other cooking fat</originaltext><annotation>create_ing(ing6, "1/4 cup lard or other cooking fat")</annotation></line>
+<line><originaltext>Place whole potatoes in their skins into a large pot of boiling water; boil for 25 to 30 minutes. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Place whole potatoes in their skins into a large pot of boiling water; boil for 25 to 30 minutes. </originaltext><annotation>cook(ing0, t0, ing7, "boiled potatoes", "place whole in boiling water for 25 to 30 minutes")</annotation></line>
+<line><originaltext>Remove potatoes, and discard water. </originaltext><annotation>remove(ing7,t0)</annotation></line>
+<line><originaltext>When cool enough to handle, peel potatoes, and place on a lightly floured surface. </originaltext><annotation>create_tool(t1, "potato peeler")</annotation></line>
+<line><originaltext>When cool enough to handle, peel potatoes, and place on a lightly floured surface. </originaltext><annotation>create_tool(t2, "lightly floured surface")</annotation></line>
+<line><originaltext>When cool enough to handle, peel potatoes, and place on a lightly floured surface. </originaltext><annotation>cut(ing7, t1, ing8, "peeled potatoes", "peel")</annotation></line>
+<line><originaltext>When cool enough to handle, peel potatoes, and place on a lightly floured surface. </originaltext><annotation>put(ing8, t2)</annotation></line>
+<line><originaltext>Mash potatoes with a rolling pin.</originaltext><annotation>create_tool(t3, "rolling pin")</annotation></line>
+<line><originaltext>Mash potatoes with a rolling pin.</originaltext><annotation>do(ing8, t3, ing9, "mashed potatoes", "mash")</annotation></line>
+<line><originaltext>Place mashed potatoes into a large bowl. </originaltext><annotation>create_tool(t4, "large bowl")</annotation></line>
+<line><originaltext>Place mashed potatoes into a large bowl. </originaltext><annotation>put(ing9, t4)</annotation></line>
+<line><originaltext>Stir in flour, egg, parsley, salt, and nutmeg. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing9}, ing10, "mashed potato mixture", "stir in")</annotation></line>
+<line><originaltext>Knead well to form a smooth dough. </originaltext><annotation>mix(ing10, t4, ing11, "kneaded potato dough", "knead well")</annotation></line>
+<line><originaltext>Then roll out the dough to a thickness of about 1/2 inch. </originaltext><annotation>do(ing11, t3, ing12, "rolled dough", "1/2 inch thick")</annotation></line>
+<line><originaltext>Cut flattened dough into thin strips, about 1 1/2 inches long. </originaltext><annotation>create_tool(t5, "knife")</annotation></line>
+<line><originaltext>Cut flattened dough into thin strips, about 1 1/2 inches long. </originaltext><annotation>cut(ing12, t5, ing13, "dough noodles", "cut into thin strips, about 1 1/2 inches long")</annotation></line>
+<line><originaltext>Gently roll out the strips, or stretch them until the ends taper. </originaltext><annotation>do(ing13, , ing14, "stretched strips", "roll out, or stretch them until the ends taper")</annotation></line>
+<line><originaltext>Set aside for 15 minutes.</originaltext><annotation>leave(ing14,"set aside for 15 minutes")</annotation></line>
+<line><originaltext>In a large skillet, heat lard over medium heat. </originaltext><annotation>create_tool(t6, "large skillet")</annotation></line>
+<line><originaltext>In a large skillet, heat lard over medium heat. </originaltext><annotation>cook(ing6, t6, ing15, "hot lard", "over medium heat")</annotation></line>
+<line><originaltext>Place the potato strips into the skillet, and fry until golden brown on both sides.</originaltext><annotation>combine({ing14, ing15}, ing16, "fried strips", "fry until golden brown on both sides")</annotation></line>
+</recipe>

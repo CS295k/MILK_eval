@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>1 tablespoon butter, unsalted</originaltext><annotation>create_ing(ing0, "1 tablespoon butter, unsalted")</annotation></line>
+<line><originaltext>2 cups Broccoflower&#8482;, diced</originaltext><annotation>create_ing(ing1, "2 cups Broccoflower&#8482;, diced")</annotation></line>
+<line><originaltext>2 cups assorted wild mushrooms, chopped</originaltext><annotation>create_ing(ing2, "2 cups assorted wild mushrooms, chopped")</annotation></line>
+<line><originaltext>1/2 white onion, chopped</originaltext><annotation>create_ing(ing3, "1/2 white onion, chopped")</annotation></line>
+<line><originaltext>2 tablespoons garlic, minced</originaltext><annotation>create_ing(ing4, "2 tablespoons garlic, minced")</annotation></line>
+<line><originaltext>3 cups Arborio rice</originaltext><annotation>create_ing(ing5, "3 cups Arborio rice")</annotation></line>
+<line><originaltext>9 cups chicken stock, unsalted</originaltext><annotation>create_ing(ing6, "9 cups chicken stock, unsalted")</annotation></line>
+<line><originaltext>1 pinch fresh ground nutmeg</originaltext><annotation>create_ing(ing7, "1 pinch fresh ground nutmeg")</annotation></line>
+<line><originaltext>1/4 cup fresh herbs; tarragon, parsley, chives, diced</originaltext><annotation>create_ing(ing8, "1/4 cup fresh herbs; tarragon, parsley, chives, diced")</annotation></line>
+<line><originaltext>1/4 cup Parmesan cheese</originaltext><annotation>create_ing(ing9, "1/4 cup Parmesan cheese")</annotation></line>
+<line><originaltext>Salt and pepper to taste</originaltext><annotation>create_ing(ing10, "Salt and pepper to taste")</annotation></line>
+<line><originaltext>Melt butter and saute Broccoflower&#8482;, mushrooms, onions and garlic for 10 minutes.</originaltext><annotation>create_tool(t0, "pan")</annotation></line>
+<line><originaltext>Melt butter and saute Broccoflower&#8482;, mushrooms, onions and garlic for 10 minutes.</originaltext><annotation>cook(ing0, t0, ing11, "melted butter", "melt")</annotation></line>
+<line><originaltext>Melt butter and saute Broccoflower&#8482;, mushrooms, onions and garlic for 10 minutes.</originaltext><annotation>combine({ing1, ing11, ing2, ing3, ing4}, ing12, "saute stuff", "")</annotation></line>
+<line><originaltext>Melt butter and saute Broccoflower&#8482;, mushrooms, onions and garlic for 10 minutes.</originaltext><annotation>cook(ing12, t0, ing13, "sauteed stuff", "saute for 10 minutes")</annotation></line>
+<line><originaltext>Remove sauteed ingredients and place aside. </originaltext><annotation>remove(ing13,t0)</annotation></line>
+<line><originaltext>In same pan, cook the rice by adding chicken stock one-cup at a time stirring until well incorporated before adding the next cup.  </originaltext><annotation>combine({ing5, ing6}, ing14, "chicken rice", "one cup at a time while cooking, stirring until well incorporated before adding next cup")</annotation></line>
+<line><originaltext>In same pan, cook the rice by adding chicken stock one-cup at a time stirring until well incorporated before adding the next cup.  </originaltext><annotation>cook(ing14, t0, ing15, "cooked chicken rice", "until incorporated")</annotation></line>
+<line><originaltext>Once chicken stock is absorbed and rice is tender, stir in nutmeg, herbs and season with salt and pepper.</originaltext><annotation>chefcheck(ing15,"stock is absorbed and rice is tender")</annotation></line>
+<line><originaltext>Once chicken stock is absorbed and rice is tender, stir in nutmeg, herbs and season with salt and pepper.</originaltext><annotation>combine({ing10, ing15, ing7, ing8}, ing16, "rice risotto", "stir in")</annotation></line>
+<line><originaltext>Once rice risotto is cooked, stir in the sauteed ingredients, salt and pepper to taste.</originaltext><annotation>chefcheck(ing16,"make sure it is cooked")</annotation></line>
+<line><originaltext>Once rice risotto is cooked, stir in the sauteed ingredients, salt and pepper to taste.</originaltext><annotation>combine({ing13, ing16}, ing17, "risottow with stuff", "stir in")</annotation></line>
+<line><originaltext>Stir in Parmesan cheese before serving.</originaltext><annotation>combine({ing17, ing9}, ing18, "final risotto", "stir in")</annotation></line>
+<line><originaltext>Stir in Parmesan cheese before serving.</originaltext><annotation>serve(ing18,"")</annotation></line>
+</recipe>

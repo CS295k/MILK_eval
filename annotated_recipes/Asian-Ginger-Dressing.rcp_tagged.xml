@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>3 cloves garlic, minced</originaltext><annotation>create_ing(ing52, "3 cloves garlic, minced")</annotation></line>
+<line><originaltext>2 tablespoons minced fresh ginger root</originaltext><annotation>create_ing(ing53, "2 tablespoons minced fresh ginger root")</annotation></line>
+<line><originaltext>3/4 cup olive oil</originaltext><annotation>create_ing(ing54, "3/4 cup olive oil")</annotation></line>
+<line><originaltext>1/3 cup rice vinegar</originaltext><annotation>create_ing(ing55, "1/3 cup rice vinegar")</annotation></line>
+<line><originaltext>1/2 cup soy sauce</originaltext><annotation>create_ing(ing56, "1/2 cup soy sauce")</annotation></line>
+<line><originaltext>3 tablespoons honey</originaltext><annotation>create_ing(ing57, "3 tablespoons honey")</annotation></line>
+<line><originaltext>1/4 cup water</originaltext><annotation>create_ing(ing58, "1/4 cup water")</annotation></line>
+<line><originaltext>In a 1 pint glass jar or larger, combine the garlic, ginger, olive oil, rice vinegar, soy sauce, honey, and water. </originaltext><annotation>create_tool(t9, "1pint glass jar")</annotation></line>
+<line><originaltext>In a 1 pint glass jar or larger, combine the garlic, ginger, olive oil, rice vinegar, soy sauce, honey, and water. </originaltext><annotation>combine({ing52, ing53, ing54, ing55, ing56, ing57, ing58}, ing59, "mixture", "")</annotation></line>
+<line><originaltext>In a 1 pint glass jar or larger, combine the garlic, ginger, olive oil, rice vinegar, soy sauce, honey, and water. </originaltext><annotation>put(ing59, t9)</annotation></line>
+<line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>create_tool(t10, "1 pint glass jar with lid on")</annotation></line>
+<line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>put(ing59, t10)</annotation></line>
+<line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>mix(ing59, t10, ing60, "shaken mixture", "shake well")</annotation></line>
+<line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>put(ing60, t9)</annotation></line>
+<line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>create_tool(t11, "microwave")</annotation></line>
+<line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>cook(ing60, t11, ing61, "hot dressing", "1 minute")</annotation></line>
+<line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>chefcheck(ing61,"honey dissolved")</annotation></line>
+<line><originaltext>Let cool, and shake well before serving. </originaltext><annotation>leave(ing61,"until cool")</annotation></line>
+<line><originaltext>Let cool, and shake well before serving. </originaltext><annotation>serve(ing61,"shaken")</annotation></line>
+<line><originaltext>Store covered in the refrigerator.</originaltext><annotation>leave(ing61,"in refrigerator when not using")</annotation></line>
+</recipe>

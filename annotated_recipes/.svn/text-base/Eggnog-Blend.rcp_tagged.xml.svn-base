@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>4 cups half-and-half</originaltext><annotation>create_ing(ing0, "4 cups half-and-half")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing1, "1 cup white sugar")</annotation></line>
+<line><originaltext>11 egg yolks, beaten</originaltext><annotation>create_ing(ing2, "11 egg yolks, beaten")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing3, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>2 cups heavy cream</originaltext><annotation>create_ing(ing4, "2 cups heavy cream")</annotation></line>
+<line><originaltext>2/3 cup dark rum</originaltext><annotation>create_ing(ing5, "2/3 cup dark rum")</annotation></line>
+<line><originaltext>1/2 cup Scotch whiskey</originaltext><annotation>create_ing(ing6, "1/2 cup Scotch whiskey")</annotation></line>
+<line><originaltext>1 pint vanilla ice cream</originaltext><annotation>create_ing(ing7, "1 pint vanilla ice cream")</annotation></line>
+<line><originaltext>In a saucepan over low heat, stir together the half-and-half and sugar. </originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan over low heat, stir together the half-and-half and sugar. </originaltext><annotation>set(t0,"low heat")</annotation></line>
+<line><originaltext>In a saucepan over low heat, stir together the half-and-half and sugar. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>In a saucepan over low heat, stir together the half-and-half and sugar. </originaltext><annotation>combine({ing0, ing1}, ing8, "half and half and sugar", "in saucepan")</annotation></line>
+<line><originaltext>In a saucepan over low heat, stir together the half-and-half and sugar. </originaltext><annotation>mix(ing8, t0, ing9, "sweet half and half", "stir together")</annotation></line>
+<line><originaltext>Whisk in egg yolks and cook until light custard forms; do not boil. </originaltext><annotation>create_tool(t1, "wire whisk")</annotation></line>
+<line><originaltext>Whisk in egg yolks and cook until light custard forms; do not boil. </originaltext><annotation>combine({ing2, ing9}, ing10, "eggs and swalf and swalf", "in pan")</annotation></line>
+<line><originaltext>Whisk in egg yolks and cook until light custard forms; do not boil. </originaltext><annotation>mix(ing10, t1, ing11, "uncooked custard", "with a whisking motion")</annotation></line>
+<line><originaltext>Whisk in egg yolks and cook until light custard forms; do not boil. </originaltext><annotation>cook(ing11, t0, ing12, "light custard", "until light custard forms")</annotation></line>
+<line><originaltext>Whisk in egg yolks and cook until light custard forms; do not boil. </originaltext><annotation>chefcheck(ing12,"Do not let it boil")</annotation></line>
+<line><originaltext>Remove from heat and cool, then place in refrigerator and chill overnight. </originaltext><annotation>set(t0,"remove from heat")</annotation></line>
+<line><originaltext>Remove from heat and cool, then place in refrigerator and chill overnight. </originaltext><annotation>leave(ing12,"until cool")</annotation></line>
+<line><originaltext>Remove from heat and cool, then place in refrigerator and chill overnight. </originaltext><annotation>leave(ing12,"in refrigerator, overnight")</annotation></line>
+<line><originaltext>Into the chilled mixture, stir in vanilla, cream, dark rum, scotch, and vanilla ice cream. </originaltext><annotation>combine({ing12, ing3, ing4, ing5, ing6, ing7}, ing13, "pre-nog", "place into the mixture")</annotation></line>
+<line><originaltext>Into the chilled mixture, stir in vanilla, cream, dark rum, scotch, and vanilla ice cream. </originaltext><annotation>create_tool(t2, "implicit stirring device")</annotation></line>
+<line><originaltext>Into the chilled mixture, stir in vanilla, cream, dark rum, scotch, and vanilla ice cream. </originaltext><annotation>mix(ing13, t2, ing14, "eggnog", "stir in")</annotation></line>
+<line><originaltext>Serve cold. </originaltext><annotation>serve(ing14,"cold")</annotation></line>
+</recipe>

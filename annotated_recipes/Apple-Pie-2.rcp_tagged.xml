@@ -1,0 +1,13 @@
+<recipe version="1.1"><line><originaltext>1 gallon apple juice</originaltext><annotation>create_ing(ing29, "1 gallon apple juice")</annotation></line>
+<line><originaltext>1 gallon apple cider</originaltext><annotation>create_ing(ing30, "1 gallon apple cider")</annotation></line>
+<line><originaltext>3 cups white sugar</originaltext><annotation>create_ing(ing31, "3 cups white sugar")</annotation></line>
+<line><originaltext>8 cinnamon sticks</originaltext><annotation>create_ing(ing32, "8 cinnamon sticks")</annotation></line>
+<line><originaltext>1 (750 milliliter) bottle 190 proof grain alcohol</originaltext><annotation>create_ing(ing33, "1 (750 milliliter) bottle 190 proof grain alcohol")</annotation></line>
+<line><originaltext>In a large pot, combine apple juice, apple cider, sugar and cinnamon sticks. </originaltext><annotation>create_tool(t5, "large pot")</annotation></line>
+<line><originaltext>In a large pot, combine apple juice, apple cider, sugar and cinnamon sticks. </originaltext><annotation>combine({ing29, ing30, ing31, ing32}, ing34, "apple juice mix", "")</annotation></line>
+<line><originaltext>In a large pot, combine apple juice, apple cider, sugar and cinnamon sticks. </originaltext><annotation>put(ing34, t5)</annotation></line>
+<line><originaltext>Bring to a boil, then remove from heat and let cool completely.</originaltext><annotation>create_tool(t6, "heat")</annotation></line>
+<line><originaltext>Bring to a boil, then remove from heat and let cool completely.</originaltext><annotation>cook(ing34, t6, ing35, "hot apple juice mix", "bring to boil, then remove from heat")</annotation></line>
+<line><originaltext>Bring to a boil, then remove from heat and let cool completely.</originaltext><annotation>leave(ing35,"let cool completely")</annotation></line>
+<line><originaltext>When juice mixture is cool, Stir in the grain alcohol.</originaltext><annotation>combine({ing33, ing35}, ing36, "alcoholic apple juice mix", "stir")</annotation></line>
+</recipe>

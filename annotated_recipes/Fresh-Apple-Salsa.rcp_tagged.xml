@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>2 tart apples, cored and cubed</originaltext><annotation>create_ing(ing20, "2 tart apples, cored and cubed")</annotation></line>
+<line><originaltext>4 tablespoons lime juice</originaltext><annotation>create_ing(ing21, "4 tablespoons lime juice")</annotation></line>
+<line><originaltext>1 fresh jalapeno pepper, seeded and sliced</originaltext><annotation>create_ing(ing22, "1 fresh jalapeno pepper, seeded and sliced")</annotation></line>
+<line><originaltext>1 fresh Anaheim chile, seeded and sliced</originaltext><annotation>create_ing(ing23, "1 fresh Anaheim chile, seeded and sliced")</annotation></line>
+<line><originaltext>1/2 medium onion, finely chopped</originaltext><annotation>create_ing(ing24, "1/2 medium onion, finely chopped")</annotation></line>
+<line><originaltext>2 tablespoons coarsely chopped fresh cilantro</originaltext><annotation>create_ing(ing25, "2 tablespoons coarsely chopped fresh cilantro")</annotation></line>
+<line><originaltext>1/2 cup chopped walnuts, lightly toasted</originaltext><annotation>create_ing(ing26, "1/2 cup chopped walnuts, lightly toasted")</annotation></line>
+<line><originaltext>2 tablespoons fresh ginger, peeled and thinly sliced</originaltext><annotation>create_ing(ing27, "2 tablespoons fresh ginger, peeled and thinly sliced")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing28, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>In a large bowl, stir together apples and lime juice. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, stir together apples and lime juice. </originaltext><annotation>combine({ing20, ing21}, ing29, "juice and apples", "in the large bowl")</annotation></line>
+<line><originaltext>Stir in jalapeno and Anaheim chile slices. </originaltext><annotation>combine({ing22, ing23, ing29}, ing30, "two", "stir")</annotation></line>
+<line><originaltext>Stir in onion, cilantro, walnuts, ginger, and salt. </originaltext><annotation>combine({ing24, ing25, ing26, ing27, ing28, ing30}, ing31, "all ready to mix", "stir")</annotation></line>
+<line><originaltext>Mix thoroughly. </originaltext><annotation>mix(ing31, t2, ing32, "salsa", "thoroughly")</annotation></line>
+</recipe>

@@ -1,0 +1,36 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons olive oil, divided</originaltext><annotation>create_ing(ing0, "2 tablespoons olive oil, divided")</annotation></line>
+<line><originaltext>2 (6 ounce) skinless, boneless chicken breast halves</originaltext><annotation>create_ing(ing1, "2 (6 ounce) skinless, boneless chicken breast halves")</annotation></line>
+<line><originaltext>1 1/2 tablespoons Cajun seasoning</originaltext><annotation>create_ing(ing2, "1 1/2 tablespoons Cajun seasoning")</annotation></line>
+<line><originaltext>2 cloves garlic, crushed</originaltext><annotation>create_ing(ing3, "2 cloves garlic, crushed")</annotation></line>
+<line><originaltext>1 tablespoon balsamic vinegar</originaltext><annotation>create_ing(ing4, "1 tablespoon balsamic vinegar")</annotation></line>
+<line><originaltext>1 teaspoon Dijon mustard</originaltext><annotation>create_ing(ing5, "1 teaspoon Dijon mustard")</annotation></line>
+<line><originaltext>salt and black pepper to taste</originaltext><annotation>create_ing(ing6, "salt and black pepper to taste")</annotation></line>
+<line><originaltext>2 cups mixed salad greens</originaltext><annotation>create_ing(ing7, "2 cups mixed salad greens")</annotation></line>
+<line><originaltext>1 cup arugula</originaltext><annotation>create_ing(ing8, "1 cup arugula")</annotation></line>
+<line><originaltext>1 avocado - peeled, pitted, and diced</originaltext><annotation>create_ing(ing9, "1 avocado - peeled, pitted, and diced")</annotation></line>
+<line><originaltext>12 oil-packed sun-dried tomatoes, drained and sliced</originaltext><annotation>create_ing(ing10, "12 oil-packed sun-dried tomatoes, drained and sliced")</annotation></line>
+<line><originaltext>1/2 cup sliced black olives</originaltext><annotation>create_ing(ing11, "1/2 cup sliced black olives")</annotation></line>
+<line><originaltext>Warm 1 tablespoon olive oil in a large skillet over medium heat. </originaltext><annotation>create_tool(t0, "skillet")</annotation></line>
+<line><originaltext>Warm 1 tablespoon olive oil in a large skillet over medium heat. </originaltext><annotation>separate(ing0, ing12, "1 tablespoon oil", ing13, "1 tablespoon oil", "")</annotation></line>
+<line><originaltext>Warm 1 tablespoon olive oil in a large skillet over medium heat. </originaltext><annotation>cook(ing12, t0, ing14, "warmed oil", "warm over medium heat")</annotation></line>
+<line><originaltext>Season both sides of chicken with Cajun seasoning, and place in hot oil. </originaltext><annotation>combine({ing1, ing2}, ing15, "seasoned chicken", "season both sides of chicken")</annotation></line>
+<line><originaltext>Season both sides of chicken with Cajun seasoning, and place in hot oil. </originaltext><annotation>put(ing15, t0)</annotation></line>
+<line><originaltext>Stir in crushed garlic. </originaltext><annotation>combine({ing15, ing3}, ing16, "chicken and garlic", "")</annotation></line>
+<line><originaltext>Stir in crushed garlic. </originaltext><annotation>mix(ing16, t0, ing17, "chicken and garlic", "stir")</annotation></line>
+<line><originaltext>Cook chicken 5 minutes on each side, or until juices run clear. </originaltext><annotation>cook(ing17, t0, ing18, "warm chicken", "5 minutes")</annotation></line>
+<line><originaltext>Cook chicken 5 minutes on each side, or until juices run clear. </originaltext><annotation>chefcheck(ing18,"juices run clear")</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>remove(ing18,t0)</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>create_tool(t1, "paper towels")</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>do(ing18, t1, ing19, "drained chicken", "drain")</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>leave(ing19,"let cool")</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>create_tool(t2, "knife")</annotation></line>
+<line><originaltext>Remove chicken from skillet, drain on paper towels, cool slightly, and dice; discard oil and garlic. </originaltext><annotation>cut(ing19, t2, ing20, "diced chicken", "dice")</annotation></line>
+<line><originaltext>In a small bowl, mix remaining olive oil, balsamic vinegar, mustard, salt, and pepper. </originaltext><annotation>create_tool(t3, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, mix remaining olive oil, balsamic vinegar, mustard, salt, and pepper. </originaltext><annotation>combine({ing13, ing4, ing5, ing6}, ing21, "seasoning", "")</annotation></line>
+<line><originaltext>In a small bowl, mix remaining olive oil, balsamic vinegar, mustard, salt, and pepper. </originaltext><annotation>mix(ing21, t3, ing22, "mix seasoning", "")</annotation></line>
+<line><originaltext>In a large bowl, gently toss the dressing with the mixed salad greens, arugula, avocado, sun-dried tomatoes, and olives. </originaltext><annotation>create_tool(t4, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, gently toss the dressing with the mixed salad greens, arugula, avocado, sun-dried tomatoes, and olives. </originaltext><annotation>combine({ing10, ing11, ing22, ing7, ing8, ing9}, ing23, "salad with dressing", "")</annotation></line>
+<line><originaltext>In a large bowl, gently toss the dressing with the mixed salad greens, arugula, avocado, sun-dried tomatoes, and olives. </originaltext><annotation>mix(ing23, t4, ing24, "tossed salad", "toss")</annotation></line>
+<line><originaltext>Top with diced chicken to serve. </originaltext><annotation>combine({ing20, ing24}, ing25, "salad with chicken", "top with chicken")</annotation></line>
+<line><originaltext>Top with diced chicken to serve. </originaltext><annotation>serve(ing25,"")</annotation></line>
+</recipe>

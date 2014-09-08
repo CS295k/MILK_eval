@@ -1,0 +1,22 @@
+<recipe version="1.1"><line><originaltext>1 cup quick cooking oats</originaltext><annotation>create_ing(ing0, "1 cup quick cooking oats")</annotation></line>
+<line><originaltext>3/4 cup flaked coconut</originaltext><annotation>create_ing(ing1, "3/4 cup flaked coconut")</annotation></line>
+<line><originaltext>1 cup all-purpose flour</originaltext><annotation>create_ing(ing2, "1 cup all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing3, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing4, "1 cup white sugar")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing5, "1/2 cup butter")</annotation></line>
+<line><originaltext>1 tablespoon golden syrup</originaltext><annotation>create_ing(ing6, "1 tablespoon golden syrup")</annotation></line>
+<line><originaltext>2 tablespoons boiling water</originaltext><annotation>create_ing(ing7, "2 tablespoons boiling water")</annotation></line>
+<line><originaltext>Mix oats, flour, sugar and coconut together.</originaltext><annotation>combine({ing0, ing1, ing2, ing4}, ing8, "mixed dry stuff", "mix")</annotation></line>
+<line><originaltext>In a small saucepan over low heat, melt the syrup and butter together. </originaltext><annotation>create_tool(t0, "small saucepan")</annotation></line>
+<line><originaltext>In a small saucepan over low heat, melt the syrup and butter together. </originaltext><annotation>combine({ing5, ing6}, ing9, "syrup and butter", "")</annotation></line>
+<line><originaltext>In a small saucepan over low heat, melt the syrup and butter together. </originaltext><annotation>cook(ing9, t0, ing10, "melted butter and syrup", "melt together")</annotation></line>
+<line><originaltext>Mix the soda and the boiling water and add to the melted butter and syrup.</originaltext><annotation>combine({ing3, ing7}, ing11, "soda and water", "mix")</annotation></line>
+<line><originaltext>Mix the soda and the boiling water and add to the melted butter and syrup.</originaltext><annotation>combine({ing10, ing11}, ing12, "mixed hot stuff", "add soda and water to the melted butter and syrup")</annotation></line>
+<line><originaltext>Add butter mixture to the dry ingredients.  </originaltext><annotation>combine({ing12, ing8}, ing13, "final mixture", "add mixed hot stuff to the dry ingredients")</annotation></line>
+<line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>create_tool(t1, "greased cookie sheets or baking paper")</annotation></line>
+<line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>create_tool(t2, "teaspoon")</annotation></line>
+<line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>cut(ing13, t2, ing14, "teaspoons of mixture", "")</annotation></line>
+<line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>put(ing14, t1)</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>cook(ing14, t2, ing15, "baked biscuits", "Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes")</annotation></line>
+</recipe>
