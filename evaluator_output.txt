@@ -1,0 +1,596 @@
+annotated_recipes/1-Pot-3-Bean-Chicken-Stew.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing19')
+
+annotated_recipes/A-1-Chicken-Soup.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/A-Surprise-Inside-French-Toast.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/A-Very-Intense-Fruit-Smoothie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Aaahh-Potato-Soup.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Adobo-Chicken-with-Ginger.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Adriennes-Tom-Ka-Gai.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+serve: ingredient must already exist: ing16
+
+annotated_recipes/Alaskan-Halibut-Lasagna.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing15')
+
+annotated_recipes/Alisons-Slow-Cooker-Vegetable-Beef-Soup.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Almond-Apricot-Bread.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing24')
+
+annotated_recipes/Almond-Buttercrunch.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing9')
+
+annotated_recipes/Anzac-Biscuits-I.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_tool: tool must not already exist: t2
+
+annotated_recipes/Apple-Blueberry-Tarts.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+cut() takes exactly 6 arguments (5 given)
+
+annotated_recipes/apple-butter-spice-cake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Apple-Butter-V.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Apple-Cranberry-Crisp-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Apple-Pie-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Applesauce-Bread-I.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Argentine-Chimichurri-Bread.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+serve: ingredient must already exist: ing66
+
+annotated_recipes/Armadillo-Eggs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Arroz-con-Pollo-II.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t13', 'ing96')
+
+annotated_recipes/Artichoke-and-Sun-dried-Tomato-Chicken.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t5', 'ing33')
+
+annotated_recipes/Artichoke-Hummus.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Asian-Ginger-Dressing.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Asian-Turkey-Burgers.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Asparagus-Sandwiches.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_tool: description must not be null
+
+annotated_recipes/Atomic-Canuck-Chili.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Aunt-Mamies.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t6', 'ing41')
+
+annotated_recipes/Avocado-Tzatziki.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Awesome-Turkey-Sandwich.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Babis-Bean-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Bacon-Mushroom-Swiss-Meatloaf.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing8')
+
+annotated_recipes/Bacon-Wrapped-Hamburgers.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing17')
+
+annotated_recipes/Bacon-Wrapped-Hotdogs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Bacon-Wrapped-Smokies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Badische-Schupfnudeln-Potato-Noodles.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing7')
+
+annotated_recipes/Bahama-Mama-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Baked-Aloha-Chicken.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Baked-Apple-Oatmeal.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Baked-Chicken-Breasts-Supreme.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing10'])
+
+annotated_recipes/Baked-Fake-Steak-with-Gravy.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing12'])
+
+annotated_recipes/Baked-Fettuccine-Lasagna.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing14'])
+
+annotated_recipes/Baked-Fish-and-Rice-2.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing10'])
+
+annotated_recipes/Baked-French-Toast-2.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing0'])
+
+annotated_recipes/Baked-Halibut-Steaks.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing0'])
+
+annotated_recipes/Baked-Pork-Chops---Low-Fat-Version.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+do() takes exactly 6 arguments (3 given)
+
+annotated_recipes/Baked-Salmon-with-Herbs.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing10'])
+
+annotated_recipes/Baked-Spaghetti-Squash-Lasagna-Style.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing0'])
+
+annotated_recipes/Bakers-Secret-Pie-Crust.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing11'])
+
+annotated_recipes/Banana-Bran-Muffins.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Banana-Chip-Muffins-I.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Banana-Kiwi-Strawberry-Tart.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t14', 'ing100')
+
+annotated_recipes/Banana-Orange-Bars.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Barbecued-Shredded-Beef.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Basic-Chicken-Stock.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing22')
+
+annotated_recipes/Basic-Syrup-for-Sunset-Cooler.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_ing: ingredient must not already exist: ing29
+
+annotated_recipes/Basil-Burgers.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/BBQ-Chicken-Wings.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/BBQ-Chuck-Roast.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Beet-and-Pear-Puree.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Best-Chocolate-Chippers.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Best-Ever-Tuna-Salad.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing11')
+
+annotated_recipes/Best-Macaroni-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Beths-Spicy-Oatmeal-Raisin-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Biga.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Biriyani.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Black-Bean-and-Corn-Quesadillas.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+put: ingredient must already exist: set(['ing15', 'ing8'])
+
+annotated_recipes/Black-Bean-Chili.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Black-Bean-Lasagna-Rolls.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Black-Forest-Dump-Cake-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Blackened-Tuna.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Bocconcini-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Brandy-Flamed-Peppercorn-Steak.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/British-Bread-Pudding.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Broccoflower-Risotto-with-Wild-Mushrooms.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing13')
+
+annotated_recipes/Broccoli-Cheese-Crepes.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+serve: ingredient must already exist: ing32
+
+annotated_recipes/Broccoli-Chicken-Roli.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+do() takes exactly 6 arguments (5 given)
+
+annotated_recipes/Broccoli-Coleslaw.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Broiled--Slow-Roasted-Butterflied-Leg-of-Lamb-With-Cumin-and-Garlic.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing12')
+
+annotated_recipes/Broiled-Chicken-with-Roasted-Garlic-Sauce.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Broiled-Egg-Salad-Sandwiches.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Brownie-Mix-in-a-Jar-III.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Bruschetta-II-2.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t3', 'ing13')
+
+annotated_recipes/Bs-Cordon-Bleu-Bundles.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Buffalo-Chicken-Wings-I.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing7')
+
+annotated_recipes/Buttermilk-Shake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Butterscotch-Basketball-Cookies.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t4', 'ing24')
+
+annotated_recipes/Butterscotch-Brownies-in-a-Jar.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cabbage-Kielbasa-Supper.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cabbage-Rolls-II.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing15')
+
+annotated_recipes/Cabin-Hash.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cake-Doughnuts.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t7', 'ing69')
+
+annotated_recipes/California-Chicken.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t13', 'ing87')
+
+annotated_recipes/Campagnard-Sauce.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Campfire-Angel-Food-Yummies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Canadian-Cedar-Planked-Salmon.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Candy-Bar-Squares.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t3', 'ing36')
+
+annotated_recipes/Candy-Coated-Milk-Chocolate-Pieces-Cookies-I.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_ing: description must not be null
+
+annotated_recipes/Caramel-Chocolate-Corn.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Caramel-Shortbread-Squares.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Caramelized-Apple-Bites.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Caraway-Rye-Muffins.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Caribbean-Canadian-Glazed-Chicken.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Carrot-and-Coriander-Soup-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Carrot-Pineapple-Cake-I.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Carrots-and-Onions-Au-Gratin.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cawl-Traditional-Welsh-Broth.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chai-Butter-Cookies.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing18')
+
+annotated_recipes/Cheddar-Artichoke-Quiche-Cups.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cheesy-Cheddar-Potato-Boats.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cheesy-Sweet-and-Savory-Spuds.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-and-Black-Bean-Chili.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-and-Herbs-in-White-Wine.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing16')
+
+annotated_recipes/Chicken-Eileen.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Fiesta-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Fried-Chops-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Marsala-with-Portobello-Mushrooms.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Pot-Pie-II-2.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing12')
+
+annotated_recipes/Chicken-Pot-Pie-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/chicken-pot-pie-ix.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing14')
+
+annotated_recipes/Chicken-Salad-With-Thai-Flavored-Dressing.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Spinach-Bake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Stuffed-Buns.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Tacos.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Tortellini-Soup-With-Zucchini-and-Tomatoes.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Tortilla-Soup-IV.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-Vegetable-Stew.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chicken-with-Vegetables.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t4', 'ing77')
+
+annotated_recipes/Chili-For-Two.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chipotle-Mayo-Relish.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Cheesecake-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Chews.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Chip-Cookie-Ice-Cream-Cake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Covered-Banana-Pie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Covered-Pretzels.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Cream-Dessert.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Crisps.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Hazelnut-Fruit-Crepes.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Chocolate-Madeleines.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing14')
+
+annotated_recipes/Chunky-Pizza-Dip.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Churros.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cindis-Egg-Rolls.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing15')
+
+annotated_recipes/Cinnamon-Bread-I.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing21')
+
+annotated_recipes/Cinnamon-Chocolate-Cake-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cinnamon-Crackle-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cinnamon-Rolls-I.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing18')
+
+annotated_recipes/Cinnamon-Sugar-Cookies-2.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing18')
+
+annotated_recipes/Citrus-Infused-Guacamole.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_ing: description must not be null
+
+annotated_recipes/Classic-Peanut-Butter-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Coconut-Ambrosia-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cold-Cocoa-Smoothie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cookie-Bowl.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cookie-Jar-Gingersnaps.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cookie-Jar-Sugar-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cookie-Paints.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Coq-au-Vin-alla-Italiana.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Corn-Bread-Sloppy-Joes.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cornbread-Dressing-I.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Corned-Beef-Hash.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cosmopolitan.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Country-Fried-Chicken.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing20')
+
+annotated_recipes/Crab-and-Lobster-Stuffed-Mushrooms.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crab-Cake-Sauce.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crab-Quiche.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing19')
+
+annotated_recipes/Crabby-Cliffs-Mushroom-Puffs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cranberry-Apple-Pie-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cranberry-Brandy-Slush.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crawfish-Chowder.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t16', 'ing94')
+
+annotated_recipes/Crawfish-Etouffee-III.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crunchy-Cheese-Sandwiches.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crustless-Spinach-Quiche-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Crustless-Spinach-Quiche.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cucumber-Sandwiches.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Cupids-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Curried-Winter-Squash.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dads-BBQ-Roast.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dads-Best-Burgers.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dads-Flat-Bread.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dads-Kickin-Jamaican-Wings-Mon.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Date-Loaf-Cake.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing8')
+
+annotated_recipes/Date-Nut-Bars.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Deep-Fried-Turkey.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t4', 'ing25')
+
+annotated_recipes/Deep-South-Fried-Chicken.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Delicious-Artichoke-Dip.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Diegos-Special-Beef-Stew.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dilled-Garlic.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+create_ing: description must not be null
+
+annotated_recipes/Dilly-Chicken-and-Potatoes.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing12')
+
+annotated_recipes/Dipping-Sauce.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Doreens-Oriental-Swordfish-Steaks.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing7')
+
+annotated_recipes/Double-Fudge-Brownie-Mix.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Drunken-Fruit-Salsa.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dutch-Cream-Waffles.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Dziriat-Algerian-Almond-Tarts.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing21')
+
+annotated_recipes/E-Z-Cheezy-Pie.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing14')
+
+annotated_recipes/Early-Morning-Oven-Roasted-New-Potatoes.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easiest-Salad-Dressing.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easy-Alfredo-Sauce-I.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easy-Bake-Oven-Cookie-Mix.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t6', 'ing26')
+
+annotated_recipes/Easy-Fried-Eggplant.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easy-Marinated-Vegetables.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t15', 'ing55')
+
+annotated_recipes/Easy-Pavlova.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easy-Pot-Roast.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Easy-Punch.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eclairs-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eggnog-Blend.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eggnog-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eggplant-and-Pepper-Parmesan-Sandwiches.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eggplant-Mixed-Grill.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Eileens-Spicy-Gingerbread-Men.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Elizabeths-Extreme-Chocolate-Lovers-Cake.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+combine() takes exactly 5 arguments (6 given)
+
+annotated_recipes/Empanadas.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Enchilada-Style-Burritos.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/English-Walnut-Pie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Escargots-Vol-au-Vent.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fab-Summer-Blackened-Chicken-Salad.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing18')
+
+annotated_recipes/Fall-Harvest-Baked-Apples.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Famous-Caramel-Cookie-Bars.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fancy-Brussels-Sprouts.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fast-and-Delicious-Black-Bean-Soup.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Festive-Shortbread-Logs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Feta-Chicken-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fiery-Fish-Tacos-with-Crunchy-Corn-Salsa.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fig-Bars-II.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Figs-with-Goat-Cheese-Pecans-and-Bacon.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fire-Side-Coffee.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+serve: ingredient must already exist: ing16
+
+annotated_recipes/Flavorful-Rice-Dressing-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Flax-and-Sunflower-Seed-Bread.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/French-Apple-Cream-Pie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/French-Spring-Soup.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fresh-Apple-Cake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fresh-Apple-Salsa.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fresh-Apple-Walnut-Cake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fresh-Cranberry-Spiced-Tea.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fried-Apple-Pies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fried-Beef-Ribs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fried-Chicken-Tenders.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Frosted-Ruby-Punch.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Frosted-Shortbread.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fruit-Dip-2.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fruited-Ice-Cream.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Fudge-Drops.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Garden-Party-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Garden-Potato-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Garlic-Butter.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Garlic-Chicken-Stir-Fry.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Garlic-Crab-Artichoke-Dip.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Gelatin-Fruit-Salad.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/German-Chocolate-Brownie-Cookies.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/German-Sweet-Chocolate-Pie.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Gerrys-Chicken-Enchiladas.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t3', 'ing23')
+
+annotated_recipes/Gingered-Mango-Salsa.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Gingery-Fish-Kabobs.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Glazed-Ham.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t0', 'ing8')
+
+annotated_recipes/Golden-Cheese-Yeast-Bread.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t4', 'ing19')
+
+annotated_recipes/Grand-Marnier-Chicken.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Grandmas-Carrot-Cake.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Grandmas-Gingersnaps.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t2', 'ing16')
+
+annotated_recipes/Grandmas-Gnocchi.rcp_tagged.xml was successfully evaluated!
+
+annotated_recipes/Grandmas-Wheat-Germ-Cookies.rcp_tagged.xml was unsuccessfully evaluted with the following exception:
+remove: ingredient must be in tool: ('t1', 'ing17')
+
+Successful evaluations: 187
+Unsuccessful evaluations: 73
+Total evaluations: 260
