@@ -1,3 +1,14 @@
+# CURD Recipe Evaluator
+
+# Written by Frank Goodman (fgoodman)
+# 9/7/14
+
+# Usage (parsing):
+# parse('recipe_file.xml')
+
+# Usage (evaluating):
+# interp(parse('recipe_file.xml'))
+
 import re
 from glob import glob
 from xml import etree
