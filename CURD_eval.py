@@ -11,7 +11,7 @@
 
 import re
 from glob import glob
-from xml import etree
+from lxml import etree
 
 def run(filename):
   return interp(parse(filename))
@@ -68,6 +68,9 @@ class ToolExistsException(RecipeException):
 class ToolNonExistsException(RecipeException):
   pass
 
+class ContainExistsException(RecipeException):
+  pass
+
 class ContainNonExistsException(RecipeException):
   pass
 
@@ -76,147 +79,153 @@ class NullException(RecipeException):
 
 class WorldState(object):
 
-  def __init__(self, I = set(), T = set(), I_d = {}, T_d = {}, C = {}):
-    self.I = I
-    self.T = T
+  def __init__(self, I_d = {}, T_d = {}, C = {}):
     self.I_d = I_d
     self.T_d = T_d
     self.C = C
 
-  def __ingredient_exists(self, ingredient):
-    return ingredient in self.I or ingredient in self.I_d.keys()
+  # Predicates for safety checks
 
-  def __tool_exists(self, tool):
-    return tool in self.T or tool in self.T_d.keys()
+  def __IsNull(self, value):
+    return value is None or value == "" or value == "null"
 
-  def __is_null(self, value):
-    return value is None or value == ""
+  def __IsIngredient(self, ingredient):
+    return ingredient in self.I_d.keys()
 
-  def create_ing(self, ingredient, description):
-    if self.__is_null(ingredient):
-      raise NullException("create_ing: ingredient must not be null")
+  def __IsTool(self, tool):
+    return tool in self.T_d.keys()
 
-    if self.__is_null(description):
-      raise NullException("create_ing: description must not be null")
+  def __IsContain(self, ingredient, tool):
+    return tool in self.C.keys() and ingredient == self.C[tool]
 
-    if self.__ingredient_exists(ingredient):
-      raise IngredientExistsException("create_ing: ingredient must not already exist: " + str(ingredient))
+  # Desugared CURD
+
+  def __AddIngredient(self, ingredient, description):
+    if self.__IsNull(ingredient):
+      raise NullException()
+
+    if self.__IsNull(description):
+      raise NullException()
+
+    if self.__IsIngredient(ingredient):
+      raise IngredientExistsException()
 
     I_d = dict(self.I_d)
     I_d[ingredient] = description
 
-    return WorldState(self.I | {ingredient},
-                      self.T,
-                      I_d,
-                      self.T_d,
-                      self.C)
+    return WorldState(I_d, self.T_d, self.C)
 
-  def create_tool(self, tool, description):
-    if self.__is_null(tool):
-      raise NullException("create_tool: tool must not be null")
+  def __RemoveIngredient(self, ingredient):
+    if self.__IsNull(ingredient):
+      raise NullException()
 
-    if self.__is_null(description):
-      raise NullException("create_tool: description must not be null")
+    if not self.__IsIngredient(ingredient):
+      raise IngredientNonExistsException()
 
-    if self.__tool_exists(tool):
-      raise ToolExistsException("create_tool: tool must not already exist: " + str(tool))
+    I_d = dict(self.I_d)
+    del I_d[ingredient]
+
+    return WorldState(I_d, self.T_d, self.C)
+
+  def __AddTool(self, tool, description):
+    if self.__IsNull(tool):
+      raise NullException()
+
+    if self.__IsNull(description):
+      raise NullException()
+
+    if self.__IsTool(tool):
+      raise ToolExistsException()
 
     T_d = dict(self.T_d)
     T_d[tool] = description
 
-    return WorldState(self.I,
-                      self.T | {tool},
-                      self.I_d,
-                      T_d,
-                      self.C)
+    return WorldState(self.I_d, T_d, self.C)
 
-  def combine(self, ingredients, ingredient, description, manner):
-    w = self
-    for i in ingredients:
-      w = self.serve(i, None)
+  def __AddContain(self, ingredient, tool):
+    if self.__IsNull(ingredient):
+      raise NullException()
 
-    return w.create_ing(ingredient, description)
+    if self.__IsNull(tool):
+      raise NullException()
 
-  def separate(self, ingredient, out1, out1desc, out2, out2desc, manner):
-    return self.serve(ingredient, None).create_ing(out1, out1desc).create_ing(out2, out2desc)
+    if not self.__IsIngredient(ingredient):
+      raise IngredientNonExistsException()
 
-  def put(self, ingredient, tool):
-    if self.__is_null(ingredient):
-      raise NullException("put: ingredient must not be null")
+    if not self.__IsTool(tool):
+      raise ToolNonExistsException()
 
-    if self.__is_null(tool):
-      raise NullException("put: tool must not be null")
-
-    if not self.__ingredient_exists(ingredient):
-      raise IngredientNonExistsException("put: ingredient must already exist: " + str(ingredient))
-
-    if not self.__tool_exists(tool):
-      raise ToolNonExistsException("put: tool must already exist: " + str(tool))
+    if self.__IsContain(ingredient, tool):
+      raise ContainExistsException()
 
     C = dict(self.C)
     C[tool] = ingredient
 
-    return WorldState(self.I,
-                      self.T,
-                      self.I_d,
-                      self.T_d,
-                      C)
+    return WorldState(self.I_d, self.T_d, C)
 
+  def __RemoveContain(self, ingredient, tool):
+    if self.__IsNull(ingredient):
+      raise NullException()
+
+    if self.__IsNull(tool):
+      raise NullException()
+
+    if not self.__IsIngredient(ingredient):
+      raise IngredientNonExistsException()
+
+    if not self.__IsTool(tool):
+      raise ToolNonExistsException()
+
+    if not self.__IsContain(ingredient, tool):
+      raise ContainNonExistsException()
+
+    C = dict(self.C)
+    del C[tool]
+
+    return WorldState(self.I_d, self.T_d, C)
+
+  # CURD
+
+  def create_ing(self, ingredient, description):
+    return self.__AddIngredient(ingredient, description)
+
+  def create_tool(self, tool, description):
+    return self.__AddTool(tool, description)
+
+  def combine(self, ingredients, ingredient, description, manner):
+    return reduce(lambda s, i: s.__RemoveIngredient(i), ingredients, self).__AddIngredient(ingredient, description)
+
+  def separate(self, ingredient, out1, out1desc, out2, out2desc, manner):
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out1, out1desc).__AddIngredient(out2, out2desc)
+
+  def put(self, ingredient, tool):
+    return self.__AddContain(ingredient, tool)
 
   def remove(self, ingredient, tool):
-    if self.__is_null(ingredient):
-      raise NullException("remove: ingredient must not be null: " + str(ingredient))
-
-    if self.__is_null(tool):
-      raise NullException("remove: tool must not be null: " + str(tool))
-
-    if not self.__ingredient_exists(ingredient):
-      raise IngredientNonExistsException("remove: ingredient must already exist: " + str(ingredient))
-
-    if not self.__tool_exists(tool):
-      raise ToolNonExistsException("remove: tool must already exist: " + str(tool))
-
-    if not (tool in self.C.keys() and ingredient == self.C[tool]):
-      raise ContainNonExistsException("remove: ingredient must be in tool: " + str((tool, ingredient)))
-
-    return WorldState(self.I,
-                      self.T,
-                      self.I_d,
-                      self.T_d,
-                      {k: v for k, v in self.C.items() if k != tool})
+    return self.__RemoveContain(ingredient, tool)
 
   def do(self, ingredient, tool, out, outdesc, manner):
-    return self.serve(ingredient, None).create_ing(out, outdesc)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
 
   def cut(self, ingredient, tool, out, outdesc, manner):
-    return self.do(ingredient, tool, out, outdesc, manner)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
 
   def mix(self, ingredient, tool, out, outdesc, manner):
-    return self.do(ingredient, tool, out, outdesc, manner)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
 
   def cook(self, ingredient, tool, out, outdesc, manner):
-    return self.do(ingredient, tool, out, outdesc, manner)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
 
   def serve(self, ingredient, manner):
-    if self.__is_null(ingredient):
-      raise NullException("serve: ingredient must not be null")
+    return self.__RemoveIngredient(ingredient)
 
-    if not self.__ingredient_exists(ingredient):
-      raise IngredientNonExistsException("serve: ingredient must already exist: " + str(ingredient))
-
-    return WorldState(self.I - {ingredient},
-                      self.T,
-                      {k: v for k, v in self.I_d.items() if k != ingredient},
-                      self.T_d,
-                      self.C)
-
-  def set(self, *_):
+  def set(self, tool, setting):
     return self
 
-  def leave(self, *_):
+  def leave(self, ingredient, manner):
     return self
 
-  def chefcheck(self, *_):
+  def chefcheck(self, ingredient, condition):
     return self
 
 
