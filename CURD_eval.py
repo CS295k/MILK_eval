@@ -1,21 +1,18 @@
 # CURD Recipe Evaluator
 
 # Written by Frank Goodman (fgoodman)
-# 9/7/14
+# 9/9/14
 
 # Usage (parsing):
 # parse('recipe_file.xml')
 
 # Usage (evaluating):
-# interp(parse('recipe_file.xml'))
+# CURD_eval('recipe_file.xml')
 
 from glob import glob
 from inspect import stack
 from lxml import etree
 from re import compile
-
-def run(filename):
-  return interp(parse(filename))
 
 def parse(filename):
   with open(filename, 'r') as f:
@@ -44,15 +41,6 @@ def parse(filename):
     commands.append((command_name, arguments))
 
   return commands
-
-def interp(commands):
-  w = WorldState()
-  states = [w]
-  for command in commands:
-    w = getattr(w, command[0])(*command[1])
-    states.append(w)
-
-  return states
 
 class RecipeException(Exception):
 
@@ -213,12 +201,15 @@ class WorldState(object):
   def chefcheck(self, ingredient, condition):
     return self
 
+def CURD_eval(filename):
+  commands = parse(filename)
+  return reduce(lambda s, c: s + [getattr(s[-1], c[0])(*c[1])], commands, [WorldState()])
 
 good = 0
 bad = 0
 for recipe_name in glob('annotated_recipes/*.xml'):
   try:
-    run(recipe_name)
+    CURD_eval(recipe_name)
     good += 1
     print recipe_name, 'was successfully evaluated!'
   except RecipeException, e:
