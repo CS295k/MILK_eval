@@ -9,9 +9,10 @@
 # Usage (evaluating):
 # interp(parse('recipe_file.xml'))
 
-import re
 from glob import glob
+from inspect import stack
 from lxml import etree
+from re import compile
 
 def run(filename):
   return interp(parse(filename))
@@ -22,7 +23,7 @@ def parse(filename):
 
   unparsed_commands = [command.text for command in tree.findall('.//annotation')]
 
-  PATTERN = re.compile(r'''((?:[^\,"']|"[^"]*"|'[^']*')+)''')
+  PATTERN = compile(r'''((?:[^\,"']|"[^"]*"|'[^']*')+)''')
 
   commands = []
   for unparsed_command in unparsed_commands:
@@ -54,30 +55,14 @@ def interp(commands):
   return states
 
 class RecipeException(Exception):
-  pass
 
-class IngredientExistsException(RecipeException):
-  pass
+  def __init__(self, message):
 
-class IngredientNonExistsException(RecipeException):
-  pass
-
-class ToolExistsException(RecipeException):
-  pass
-
-class ToolNonExistsException(RecipeException):
-  pass
-
-class ContainExistsException(RecipeException):
-  pass
-
-class ContainNonExistsException(RecipeException):
-  pass
-
-class NullException(RecipeException):
-  pass
+    Exception.__init__(self, "%s: %s" % (stack()[2][3], message))
 
 class WorldState(object):
+
+  # Structure of the world's state
 
   def __init__(self, I_d = {}, T_d = {}, C = {}):
     self.I_d = I_d
@@ -102,13 +87,13 @@ class WorldState(object):
 
   def __AddIngredient(self, ingredient, description):
     if self.__IsNull(ingredient):
-      raise NullException()
+      raise RecipeException("Ingredient must not be null.")
 
     if self.__IsNull(description):
-      raise NullException()
+      raise RecipeException("Description must not be null.")
 
     if self.__IsIngredient(ingredient):
-      raise IngredientExistsException()
+      raise RecipeException("Ingredient '%s' must not already exist." % ingredient)
 
     I_d = dict(self.I_d)
     I_d[ingredient] = description
@@ -117,10 +102,10 @@ class WorldState(object):
 
   def __RemoveIngredient(self, ingredient):
     if self.__IsNull(ingredient):
-      raise NullException()
+      raise RecipeException("Ingredient must not be null.")
 
     if not self.__IsIngredient(ingredient):
-      raise IngredientNonExistsException()
+      raise RecipeException("Ingredient '%s' must already exist." % ingredient)
 
     I_d = dict(self.I_d)
     del I_d[ingredient]
@@ -129,13 +114,13 @@ class WorldState(object):
 
   def __AddTool(self, tool, description):
     if self.__IsNull(tool):
-      raise NullException()
+      raise RecipeException("Tool must not be null.")
 
     if self.__IsNull(description):
-      raise NullException()
+      raise RecipeException("Description must not be null.")
 
     if self.__IsTool(tool):
-      raise ToolExistsException()
+      raise RecipeException("Tool '%s' must not already exist." % tool)
 
     T_d = dict(self.T_d)
     T_d[tool] = description
@@ -144,19 +129,19 @@ class WorldState(object):
 
   def __AddContain(self, ingredient, tool):
     if self.__IsNull(ingredient):
-      raise NullException()
+      raise RecipeException("Ingredient must not be null.")
 
     if self.__IsNull(tool):
-      raise NullException()
+      raise RecipeException("Tool must not be null.")
 
     if not self.__IsIngredient(ingredient):
-      raise IngredientNonExistsException()
+      raise RecipeException("Ingredient '%s' must already exist." % ingredient)
 
     if not self.__IsTool(tool):
-      raise ToolNonExistsException()
+      raise RecipeException("Tool '%s' must already exist." % tool)
 
     if self.__IsContain(ingredient, tool):
-      raise ContainExistsException()
+      raise RecipeException("Contain '(%s, %s)' must not already exist." % (tool, ingredient))
 
     C = dict(self.C)
     C[tool] = ingredient
@@ -165,19 +150,19 @@ class WorldState(object):
 
   def __RemoveContain(self, ingredient, tool):
     if self.__IsNull(ingredient):
-      raise NullException()
+      raise RecipeException("Ingredient must not be null.")
 
     if self.__IsNull(tool):
-      raise NullException()
+      raise RecipeException("Tool must not be null.")
 
     if not self.__IsIngredient(ingredient):
-      raise IngredientNonExistsException()
+      raise RecipeException("Ingredient '%s' must already exist." % ingredient)
 
     if not self.__IsTool(tool):
-      raise ToolNonExistsException()
+      raise RecipeException("Tool '%s' must already exist." % tool)
 
     if not self.__IsContain(ingredient, tool):
-      raise ContainNonExistsException()
+      raise RecipeException("Contain '(%s, %s)' must already exist." % (tool, ingredient))
 
     C = dict(self.C)
     del C[tool]
