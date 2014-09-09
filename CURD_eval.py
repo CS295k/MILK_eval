@@ -3,50 +3,15 @@
 # Written by Frank Goodman (fgoodman)
 # 9/9/14
 
-# Usage (parsing):
-# parse('recipe_file.xml')
+from CURD_parse import CURD_parse
 
-# Usage (evaluating):
-# CURD_eval('recipe_file.xml')
-
-from glob import glob
 from inspect import stack
-from lxml import etree
-from re import compile
-
-def parse(filename):
-  with open(filename, 'r') as f:
-    tree = etree.XML(f.read())
-
-  unparsed_commands = [command.text for command in tree.findall('.//annotation')]
-
-  PATTERN = compile(r'''((?:[^\,"']|"[^"]*"|'[^']*')+)''')
-
-  commands = []
-  for unparsed_command in unparsed_commands:
-    command_name, unparsed_command = unparsed_command.split('(', 1)
-
-    unparsed_command = unparsed_command.rstrip(')')
-
-    arguments = PATTERN.split(unparsed_command)[1::2]
-
-    arguments = [arg.replace('"', '').strip() for arg in arguments]
-
-    if arguments[0].startswith('{'):
-      end = (i for i, v in enumerate(arguments) if v.endswith('}')).next()
-      arguments = [{arg.lstrip('{').rstrip('}') for arg in arguments[0:end + 1]}] + arguments[end + 1:]
-
-    arguments = [None if arg == "null" else arg for arg in arguments]
-
-    commands.append((command_name, arguments))
-
-  return commands
 
 class RecipeException(Exception):
 
   def __init__(self, message):
-
     Exception.__init__(self, "%s: %s" % (stack()[2][3], message))
+
 
 class WorldState(object):
 
@@ -201,27 +166,7 @@ class WorldState(object):
   def chefcheck(self, ingredient, condition):
     return self
 
+
 def CURD_eval(filename):
-  commands = parse(filename)
-  return reduce(lambda s, c: s + [getattr(s[-1], c[0])(*c[1])], commands, [WorldState()])
-
-good = 0
-bad = 0
-for recipe_name in glob('annotated_recipes/*.xml'):
-  try:
-    CURD_eval(recipe_name)
-    good += 1
-    print recipe_name, 'was successfully evaluated!'
-  except RecipeException, e:
-    bad += 1
-    print recipe_name, 'was unsuccessfully evaluted with the following exception:'
-    print e
-  except TypeError, e:
-    bad += 1
-    print recipe_name, 'was unsuccessfully evaluted with the following exception:'
-    print e
-  print ''
-
-print 'Successful evaluations:', good
-print 'Unsuccessful evaluations:', bad
-print 'Total evaluations:', good + bad
+  commands = CURD_parse(filename)
+  return reduce(lambda s, c: s + [(c, getattr(s[-1][1], c[0])(*c[1]))], commands, [(None, WorldState())])
