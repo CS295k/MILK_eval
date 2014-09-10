@@ -1,4 +1,4 @@
-# CURD Recipe Parser
+# MILK Recipe Parser
 
 # Written by Frank Goodman (fgoodman)
 # 9/9/14
@@ -6,7 +6,7 @@
 from lxml import etree
 from re import compile
 
-def CURD_parse(filename):
+def MILK_parse(filename):
   with open(filename, "r") as f:
     tree = etree.XML(f.read())
 

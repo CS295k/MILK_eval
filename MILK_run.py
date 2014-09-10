@@ -1,9 +1,9 @@
-# CURD Recipe Evaluator Runner
+# MILK Recipe Evaluator Runner
 
 # Written by Frank Goodman (fgoodman)
 # 9/9/14
 
-from CURD_eval import CURD_eval, RecipeException
+from MILK_eval import MILK_eval, RecipeException
 
 from glob import glob
 from sys import argv
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
   for recipe in glob("annotated_recipes/*.xml"):
     try:
-      CURD_eval(recipe)
+      MILK_eval(recipe)
       success += 1
       print recipe, "was successfully evaluated!"
     except RecipeException, e:
