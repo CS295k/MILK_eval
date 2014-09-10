@@ -237,8 +237,14 @@ class WorldState(object):
     return self.__RemoveIngredient(ingredient).__AddIngredient(out1, out1desc).__AddIngredient(out2, out2desc)
 
   def put(self, ingredient, tool):
-    """Places the ingredient into the tool."""
-    return self.__AddContain(ingredient, tool)
+    """Places the ingredient into the tool.
+
+    ingredient may be either a single ingredient or a set of ingredients.
+    """
+    if isinstance(ingredient, set):
+      return reduce(lambda s, i: s.__AddContain(i, tool), ingredient, self)
+    else:
+      return self.__AddContain(ingredient, tool)
 
   def remove(self, ingredient, tool):
     """Removes the ingredient from the tool."""
