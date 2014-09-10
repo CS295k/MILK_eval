@@ -264,7 +264,10 @@ class WorldState(object):
 
   def cook(self, ingredient, tool, out, outdesc, manner):
     """Cooks or heats the ingredient using the provided tool."""
-    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+    if self.__IsNull(tool):
+      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+    else:
+      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__AddContain(out, tool)
 
   def serve(self, ingredient, manner):
     """Serves the provided ingredient."""
