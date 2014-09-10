@@ -11,7 +11,11 @@ class RecipeException(Exception):
   """Raised when an error in the semantic evaluation of a MILK command is encountered."""
 
   def __init__(self, message):
-    Exception.__init__(self, "%s: %s" % (stack()[2][3], message))
+    caller = str(stack()[2][3])
+    if caller == "<lambda>":
+      caller = stack()[3][3]
+
+    Exception.__init__(self, "%s: %s" % (caller, message))
 
 
 class WorldState(object):
