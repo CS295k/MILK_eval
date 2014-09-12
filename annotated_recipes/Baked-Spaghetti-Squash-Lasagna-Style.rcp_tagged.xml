@@ -12,7 +12,7 @@
 <line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>set(t0,"325 degrees")</annotation></line>
 <line><originaltext>Spray a baking sheet with a thin layer of cooking spray. </originaltext><annotation>create_tool(t1, "baking sheet")</annotation></line>
 <line><originaltext>Spray a baking sheet with a thin layer of cooking spray. </originaltext><annotation>set(t1,"spray with cooking spray")</annotation></line>
-<line><originaltext>Place squash halves cut side down on the baking sheet.</originaltext><annotation>put({ing0}, t1)</annotation></line>
+<line><originaltext>Place squash halves cut side down on the baking sheet.</originaltext><annotation>put(ing0, t1)</annotation></line>
 <line><originaltext>Bake squash 35 minutes in the preheated oven, or until a knife can be easily inserted. </originaltext><annotation>cook(ing0, t1, ing10, "baked squash", "bake 35 minutes or until a knife can be easily inserted")</annotation></line>
 <line><originaltext>Remove from oven, and cool.</originaltext><annotation>leave(ing10,"cool")</annotation></line>
 <line><originaltext>Meanwhile, spray a non-stick saucepan with cooking spray. </originaltext><annotation>create_tool(t2, "non-stick saucepan")</annotation></line>

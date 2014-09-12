@@ -15,7 +15,7 @@
 <line><originaltext>In another medium bowl stir together whole wheat pastry flour, kosher salt, and the 1/8 teaspoon apple pie spice. </originaltext><annotation>mix(ing26, t4, ing27, "stirred flour mixture", "stir together")</annotation></line>
 <line><originaltext>Add oil and milk all at once to flour mixture. </originaltext><annotation>combine({ing22, ing23, ing27}, ing28, "wet flour mixture", "add oil and milk all at once")</annotation></line>
 <line><originaltext>Stir lightly with a fork until dough comes together. </originaltext><annotation>mix(ing28, , ing29, "dough", "stir lightly with fork until dough comes together")</annotation></line>
-<line><originaltext>Divide dough into 6 portions. </originaltext><annotation>cut(ing29, ing30, "6 portions of dough", "divide")</annotation></line>
+<line><originaltext>Divide dough into 6 portions. </originaltext><annotation>cut(ing29, , ing30, "6 portions of dough", "divide")</annotation></line>
 <line><originaltext>Using six 3 1/2- to 4-inch individual tart pans with removable bottoms, press one dough portion on the bottom and up the side of each tart pan.</originaltext><annotation>create_tool(t5, "six 1/2- to 4-inch tart pans with removable bottoms")</annotation></line>
 <line><originaltext>Using six 3 1/2- to 4-inch individual tart pans with removable bottoms, press one dough portion on the bottom and up the side of each tart pan.</originaltext><annotation>do(ing30, t5, ing31, "pastry-lined pans", "press one dough portion on the bottom and up the side of each tart pan")</annotation></line>
 <line><originaltext>Divide fruit mixture among pastry-lined pans. </originaltext><annotation>combine({ing24, ing31}, ing32, "unbaked fruit tarts", "divide fruit mixture among pastry-lined pans")</annotation></line>

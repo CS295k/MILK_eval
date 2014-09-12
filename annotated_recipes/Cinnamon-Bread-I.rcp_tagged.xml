@@ -33,7 +33,7 @@
 <line><originaltext>Test with toothpick. </originaltext><annotation>do(ing20, t4, ing21, "tested batter", "test with toothpick")</annotation></line>
 <line><originaltext>When inserted it should come out clean. </originaltext><annotation>chefcheck(ing21,"toothpick came out clean")</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>create_tool(t5, "rack")</annotation></line>
-<line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>remove(ing21,t1)</annotation></line>
+<line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>remove(ing21,t4)</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>put(ing21, t5)</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>leave(ing21,"to cool on rack")</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>serve(ing21,"")</annotation></line>
