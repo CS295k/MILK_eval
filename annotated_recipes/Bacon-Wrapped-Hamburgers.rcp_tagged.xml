@@ -1,4 +1,5 @@
-<recipe version="1.1"><line><originaltext>1/2 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing0, "1/2 cup shredded Cheddar cheese")</annotation></line>
+<recipe version="1.1">
+<line><originaltext>1/2 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing0, "1/2 cup shredded Cheddar cheese")</annotation></line>
 <line><originaltext>1 tablespoon grated Parmesan cheese</originaltext><annotation>create_ing(ing1, "1 tablespoon grated Parmesan cheese")</annotation></line>
 <line><originaltext>1 small onion, chopped</originaltext><annotation>create_ing(ing2, "1 small onion, chopped")</annotation></line>
 <line><originaltext>1 egg</originaltext><annotation>create_ing(ing3, "1 egg")</annotation></line>
