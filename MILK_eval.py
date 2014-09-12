@@ -154,7 +154,7 @@ class WorldState(object):
         newState = self.__RemoveIngredient(ingredientsList[0])
         for count in xrange(len(ingredientsList)):
             if count > 0:
-                newState = self.__RemoveIngredient(ingredientsList[count])
+                newState = newState.__RemoveIngredient(ingredientsList[count])
         return newState
 
   def __AddTool(self, tool, description):
