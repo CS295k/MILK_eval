@@ -25,6 +25,6 @@
 <line><originaltext>Place cookies 2 inches apart onto ungreased cookie sheets. </originaltext><annotation>put(ing15, t2)</annotation></line>
 <line><originaltext>Bake for 8 to 10 minutes in the preheated oven. </originaltext><annotation>cook(ing15, t0, ing16, "cookies", "bake 8-10 minutes")</annotation></line>
 <line><originaltext>Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely. </originaltext><annotation>leave(ing16,"cool on baking sheet 5 minutes")</annotation></line>
-<line><originaltext>Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely. </originaltext><annotation>remove(ing16,t2)</annotation></line>
+<line><originaltext>Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely. </originaltext><annotation>remove(ing16,t0)</annotation></line>
 <line><originaltext>Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely. </originaltext><annotation>leave(ing16,"let cool completely")</annotation></line>
 </recipe>
