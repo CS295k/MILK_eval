@@ -31,7 +31,7 @@ class WorldState(object):
   a new WorldState, representing the next state in the order. Storing each state of the
   evaluation allows for easy analysis over the course of the recipe.
 
-  Furthmore, MILK's syntax has been desugared to five operations: 1) add ingredient,
+  Furthermore, MILK's syntax has been desugared to five operations: 1) add ingredient,
   2) remove ingredient, 3) add tool, 4) add contain, 5) remove contain
   """
 
@@ -123,7 +123,6 @@ class WorldState(object):
 
     Arguments:
       ingredient (String[not-null]): An ingredient
-      description (String[not-null]): A description
 
     Returns (WorldState):
       A new world state removing the provided ingredient and its description
@@ -138,6 +137,25 @@ class WorldState(object):
     del I_d[ingredient]
 
     return WorldState(I_d, self.T_d, self.C)
+
+  def __RemoveMultipleIngredients(self, ingredients):
+    """Attempt to remove multiple ingredients from the next state.
+
+    Arguments:
+      ingredients (List[not-null])
+
+    Returns (WorldState):
+      A new world state removing the provided ingredients
+    """
+    if len(ingredients) <= 1:
+        raise RecipeException("The number of ingredients must be greater than 1.")
+    else:
+        ingredientsList = list(ingredients)
+        newState = self.__RemoveIngredient(ingredientsList[0])
+        for count in xrange(len(ingredientsList)):
+            if count > 0:
+                newState = self.__RemoveIngredient(ingredientsList[count])
+        return newState
 
   def __AddTool(self, tool, description):
     """Attempt to add a tool to the next state.
@@ -234,7 +252,7 @@ class WorldState(object):
 
   def combine(self, ingredients, ingredient, description, manner):
     """Combines the ingredients in the iterable ingredients, creating the new ingredient ingredient."""
-    return reduce(lambda s, i: s.__RemoveIngredient(i), ingredients, self).__AddIngredient(ingredient, description)
+    return self.__RemoveMultipleIngredients(ingredients).__AddIngredient(ingredient, description)
 
   def separate(self, ingredient, out1, out1desc, out2, out2desc, manner):
     """Separates the ingredient ingredient into out1 and out2."""

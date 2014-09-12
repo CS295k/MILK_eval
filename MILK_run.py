@@ -16,16 +16,17 @@ if __name__ == "__main__":
     try:
       MILK_eval(recipe)
       success += 1
-      print recipe, "was successfully evaluated!"
+      # print recipe, "was successfully evaluated!" # comment this back in if you want to print output for successful evaluations
     except RecipeException, e:
       fail += 1
       print recipe, "was unsuccessfully evaluated with the following exception:"
       print e
+      print ""
     except TypeError, e:
       fail += 1
       print recipe, "was unsuccessfully evaluated with the following exception (possibly due to bad parsing):"
       print e
-    print ""
+      print ""
 
   print "Successful evaluations:", success
   print "Failed evaluations:", fail
