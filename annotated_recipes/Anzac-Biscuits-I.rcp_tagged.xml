@@ -17,6 +17,6 @@
 <line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>create_tool(t2, "teaspoon")</annotation></line>
 <line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>cut(ing13, t2, ing14, "teaspoons of mixture", "")</annotation></line>
 <line><originaltext>Drop by teaspoons on greased cookie sheets (or baking paper).</originaltext><annotation>put(ing14, t1)</annotation></line>
-<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
-<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>cook(ing14, t2, ing15, "baked biscuits", "Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.</originaltext><annotation>cook(ing14, t3, ing15, "baked biscuits", "Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes")</annotation></line>
 </recipe>
