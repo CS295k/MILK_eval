@@ -6,5 +6,6 @@ MILK_eval is an evaluator for Dan Tasse's MILK, the Minimal Instruction Language
 Assumptions made
 ----------------
 
+* Cooking should automatically place the ingredient into the tool used if the tool is not null
 * All actions should use an empty string or an empty arguments place (two commas next to each other), rather than leaving the argument out of the list altogether.
 * Put should allow for ingredient sets as input (i.e. put({ing1, ing2, ing3}, t1)) to put multiple ingredients into a single tool.
