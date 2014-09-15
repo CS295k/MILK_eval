@@ -43,7 +43,7 @@
 <line><originaltext>Repeat with remaining batter, greasing skillet as needed.</originaltext><annotation>cook(ing27, t2, ing30, "crepes", "cook rest of batter as above")</annotation></line>
 <line><originaltext>Repeat with remaining batter, greasing skillet as needed.</originaltext><annotation>combine({ing29, ing30}, ing31, "crepes", "on wire rack")</annotation></line>
 <line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>combine({ing25, ing31}, ing32, "filled crepes", "spoon about 1/2 cup filling down the center of each crepe")</annotation></line>
-<line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>do(ing32, , ing35, "rolled crepes", "roll up")</annotation></line>
+<line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>do(ing32, "", ing35, "rolled crepes", "roll up")</annotation></line>
 <line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>create_tool(t4, "ungreased 11-in. x 7-in. x 2-in. baking dish. ")</annotation></line>
 <line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>put(ing35, t4)</annotation></line>
 <line><originaltext>Sprinkle with remaining cheese. </originaltext><annotation>combine({ing22, ing32}, ing33, "cheesy crepes", "sprinkle")</annotation></line>
