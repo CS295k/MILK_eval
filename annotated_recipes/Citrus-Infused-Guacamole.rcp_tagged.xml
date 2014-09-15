@@ -12,7 +12,7 @@
 <line><originaltext>In a large bowl, stir together the avocados, lime juice, orange juice, pineapple juice, cumin, cilantro and salt. </originaltext><annotation>mix(ing8, t0, ing9, "stirred things in bowl", "stir together")</annotation></line>
 <line><originaltext>Mix in hot pepper sauce if using. </originaltext><annotation>combine({ing7, ing9}, ing10, "guacamole", "mix in hot pepper sauce")</annotation></line>
 <line><originaltext>Place one of the avocado pits into the bowl to help keep it fresh. </originaltext><annotation>create_ing(ing11, "avacado pit")</annotation></line>
-<line><originaltext>Place one of the avocado pits into the bowl to help keep it fresh. </originaltext><annotation>do(ing11, t0, ing12, "", "put avacado pit in bowl to keep it fresh")</annotation></line>
+<line><originaltext>Place one of the avocado pits into the bowl to help keep it fresh. </originaltext><annotation>do(ing11, t0, ing12, "avacado pit", "put avacado pit in bowl to keep it fresh")</annotation></line>
 <line><originaltext>Place one of the avocado pits into the bowl to help keep it fresh. </originaltext><annotation>combine({ing10, ing12}, ing13, "guacamole", "")</annotation></line>
 <line><originaltext>Serve immediately, or refrigerate until serving. </originaltext><annotation>serve(ing13,"immediatley, or after refrigerating")</annotation></line>
 </recipe>
