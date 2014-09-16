@@ -248,9 +248,6 @@ class WorldState(object):
     if self.__IsNull(out):
       raise RecipeException("Ingredient must not be null.")
 
-    if self.__IsIngredient(ingredient):
-      raise RecipeException("Ingredient '%s' must not exist." % ingredient)
-
     if not self.__IsIngredient(out):
       raise RecipeException("Ingredient '%s' must already exist." % out)
 
