@@ -12,11 +12,11 @@
 <line><originaltext>Thoroughly cream together shortening, sugars, eggs and vanilla.</originaltext><annotation>combine({ing38, ing39, ing40, ing41, ing42}, ing47, "liquids", "thoroughly cream")</annotation></line>
 <line><originaltext>In a separate bowl, mix together the dry ingredients, except the candies.  </originaltext><annotation>create_tool(t7, "separate bowl")</annotation></line>
 <line><originaltext>In a separate bowl, mix together the dry ingredients, except the candies.  </originaltext><annotation>combine({ing43, ing44, ing45}, ing48, "dry mix", "")</annotation></line>
-<line><originaltext>In a separate bowl, mix together the dry ingredients, except the candies.  </originaltext><annotation>mix(ing48, t7, ing49, "dry mix in bowl", "")</annotation></line>
+<line><originaltext>In a separate bowl, mix together the dry ingredients, except the candies.  </originaltext><annotation>mix(ing48, t7, ing49, "dry mix in bowl", "dry mix")</annotation></line>
 <line><originaltext>Add to creamed mixture and mix well.</originaltext><annotation>combine({ing47, ing49}, ing50, "mixes", "mix well")</annotation></line>
 <line><originaltext>Stir in 1/2 cup candies.  </originaltext><annotation>separate(ing46, ing51, "1/2 cup candy", ing52, "1 cup candy", "")</annotation></line>
 <line><originaltext>Stir in 1/2 cup candies.  </originaltext><annotation>combine({ing50, ing51}, ing53, "candied mix", "")</annotation></line>
-<line><originaltext>Mix well.  </originaltext><annotation>mix(ing53, , ing54, "", "mix well")</annotation></line>
+<line><originaltext>Mix well.  </originaltext><annotation>mix(ing53, "", ing54, "mixed candied mix", "mix well")</annotation></line>
 <line><originaltext>Drop by teaspoon unto cookie sheets and decorate with remaining candies.  </originaltext><annotation>create_tool(t8, "cookie sheet")</annotation></line>
 <line><originaltext>Drop by teaspoon unto cookie sheets and decorate with remaining candies.  </originaltext><annotation>do(ing54, t8, ing55, "cookie drops", "drop mix by teaspoon onto cookie sheet")</annotation></line>
 <line><originaltext>Drop by teaspoon unto cookie sheets and decorate with remaining candies.  </originaltext><annotation>combine({ing52, ing55}, ing56, "deco cookies", "decorate cookies with remaining candies")</annotation></line>

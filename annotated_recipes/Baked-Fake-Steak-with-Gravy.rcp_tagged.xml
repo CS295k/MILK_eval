@@ -19,16 +19,16 @@
 <line><originaltext>Line a 10x15 inch jellyroll pan with waxed paper. </originaltext><annotation>create_tool(t1, "10x15 jellyroll pan")</annotation></line>
 <line><originaltext>Line a 10x15 inch jellyroll pan with waxed paper. </originaltext><annotation>set(t1,"line with waxed paper")</annotation></line>
 <line><originaltext>Press the beef mixture firmly into the pan. </originaltext><annotation>put({ing15}, t1)</annotation></line>
-<line><originaltext>Cover with plastic wrap, and refrigerate 8 to 10 hours, or overnight.</originaltext><annotation>do(ing15,"cover with plastic wrap")</annotation></line>
+<line><originaltext>Cover with plastic wrap, and refrigerate 8 to 10 hours, or overnight.</originaltext><annotation>do(ing15, "", ing15, "beef mixture covered with plastic wrap", "cover with plastic wrap")</annotation></line>
 <line><originaltext>Cover with plastic wrap, and refrigerate 8 to 10 hours, or overnight.</originaltext><annotation>leave(ing15,"refrigerate 8 to 10 hours, or overnight")</annotation></line>
 <line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
 <line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
-<line><originaltext>Remove plastic wrap from meat, and rub flour over the top side of the beef. </originaltext><annotation>do(ing15,"remove plastic wrap")</annotation></line>
+<line><originaltext>Remove plastic wrap from meat, and rub flour over the top side of the beef. </originaltext><annotation>do(ing15, "", ing15, "beef mixture", remove plastic wrap")</annotation></line>
 <line><originaltext>Remove plastic wrap from meat, and rub flour over the top side of the beef. </originaltext><annotation>combine({ing15, ing7}, ing16, "beef with flour", "rub flour over the top side of the beef")</annotation></line>
 <line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>create_tool(t3, "waxed paper")</annotation></line>
 <line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>put({ing16}, t3)</annotation></line>
-<line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>combine({ing16}, ing17, "beef with flour", "rub flour on other side")</annotation></line>
-<line><originaltext>Cut into pieces (I use a pizza cutter).</originaltext><annotation>cut(ing17, ing18, "cut beef", "cut into pieces")</annotation></line>
+<line><originaltext>Flip out of the pan onto waxed paper, and rub flour on the other side as well. </originaltext><annotation>do(ing16, "", ing17, "beef with flour", "rub flour on other side")</annotation></line>
+<line><originaltext>Cut into pieces (I use a pizza cutter).</originaltext><annotation>cut(ing17, "", ing18, "cut beef", "cut into pieces")</annotation></line>
 <line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>create_tool(t4, "large heavy skillet")</annotation></line>
 <line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>put({ing8}, t4)</annotation></line>
 <line><originaltext>Heat oil in a large heavy skillet over medium-high heat. </originaltext><annotation>cook(ing8, t4, ing19, "heated oil", "heat over medium-high heat")</annotation></line>
@@ -41,7 +41,7 @@
 <line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>put({ing21}, t6)</annotation></line>
 <line><originaltext>In a medium bowl, mix together the water, condensed soup, and gravy mix. </originaltext><annotation>mix(ing21, t6, ing22, "mixed gravy", "")</annotation></line>
 <line><originaltext>Pour over the meat in the dish. </originaltext><annotation>combine({ing20, ing22}, ing23, "beef with gravy", "pour gravy over meat")</annotation></line>
-<line><originaltext>Cover the dish loosely with aluminum foil.</originaltext><annotation>do(ing23,"cover loosely aluminum foil")</annotation></line>
+<line><originaltext>Cover the dish loosely with aluminum foil.</originaltext><annotation>do(ing23, "", ing23, "beef with gravy covered with foil", "cover loosely aluminum foil")</annotation></line>
 <line><originaltext>Bake for 1 hour in the preheated oven. </originaltext><annotation>cook(ing23, t2, ing24, "cooked beef", "1 hour")</annotation></line>
 <line><originaltext>Serve fake steak and gravy with potatoes, rice, or noodles.</originaltext><annotation>serve(ing24,"with potatoes, rice, or noodles")</annotation></line>
 </recipe>

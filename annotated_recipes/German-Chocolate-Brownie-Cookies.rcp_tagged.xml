@@ -19,7 +19,7 @@
 <line><originaltext>Beat eggs into creamed mixture. </originaltext><annotation>combine({ing197, ing210}, ing211, "eggs and creamed", "beat")</annotation></line>
 <line><originaltext>In another bowl, combine flour, cocoa, salt, and baking soda. </originaltext><annotation>combine({ing198, ing199, ing200, ing201}, ing212, "dry", "mix in another bowl")</annotation></line>
 <line><originaltext>Mix this mixture into creamed mixture until just blended. </originaltext><annotation>combine({ing211, ing212}, ing213, "dough", "mix until just blended")</annotation></line>
-<line><originaltext>Stir in chocolate chips. </originaltext><annotation>combine({ing213}, ing214, "more chocolatey dough", "stir in")</annotation></line>
+<line><originaltext>Stir in chocolate chips. </originaltext><annotation>mix(ing213, "", ing214, "more chocolatey dough", "stir in")</annotation></line>
 <line><originaltext>Drop rounded tablespoonfuls of dough onto ungreased baking sheet about 2 inches apart. </originaltext><annotation>create_tool(t19, "baking sheet")</annotation></line>
 <line><originaltext>Drop rounded tablespoonfuls of dough onto ungreased baking sheet about 2 inches apart. </originaltext><annotation>put(ing214, t19)</annotation></line>
 <line><originaltext>Place cookie sheet in the middle of the oven. </originaltext><annotation>create_tool(t20, "oven")</annotation></line>

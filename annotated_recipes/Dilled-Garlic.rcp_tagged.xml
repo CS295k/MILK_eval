@@ -9,7 +9,7 @@
 <line><originaltext>Fill sterile containers with garlic, chopped fresh dill and cayenne pepper to within an inch of the top. </originaltext><annotation>chefcheck(ing5,"container filled to within an inch of the top")</annotation></line>
 <line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>create_tool(t1, "medium saucepan")</annotation></line>
 <line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>combine({ing3, ing4}, ing6, "things in saucepan", "")</annotation></line>
-<line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>mix(ing6, t1, ing7, "", "")</annotation></line>
+<line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>mix(ing6, t1, ing7, "salt and white vinegar", "")</annotation></line>
 <line><originaltext>Bring to a boil. </originaltext><annotation>cook(ing7, t1, ing8, "boiling things", "bring to a boil")</annotation></line>
 <line><originaltext>Pour the hot distilled white vinegar and salt mixture into the containers with the garlic mixture. </originaltext><annotation>combine({ing5, ing8}, ing9, "things in containers", "")</annotation></line>
 <line><originaltext>Pour the hot distilled white vinegar and salt mixture into the containers with the garlic mixture. </originaltext><annotation>put(ing9, t0)</annotation></line>
