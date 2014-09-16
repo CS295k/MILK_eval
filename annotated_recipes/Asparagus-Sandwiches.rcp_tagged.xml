@@ -3,7 +3,6 @@
 <line><originaltext>2 tablespoons finely chopped onion</originaltext><annotation>create_ing(ing78, "2 tablespoons finely chopped onion")</annotation></line>
 <line><originaltext>1 pinch seasoning salt</originaltext><annotation>create_ing(ing79, "1 pinch seasoning salt")</annotation></line>
 <line><originaltext>1 (1 pound) loaf soft, sliced white bread</originaltext><annotation>create_ing(ing80, "1 (1 pound) loaf soft, sliced white bread")</annotation></line>
-<line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>create_tool(t14, "")</annotation></line>
 <line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>create_tool(t15, "paper towels")</annotation></line>
 <line><originaltext>Set asparagus spears onto paper towels to absorb excess liquid. </originaltext><annotation>put(ing76, t15)</annotation></line>
 <line><originaltext>In a small bowl, mix together the mayonnaise, onion and seasoning salt. </originaltext><annotation>create_tool(t16, "small bowl")</annotation></line>
