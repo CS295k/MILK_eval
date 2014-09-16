@@ -241,6 +241,23 @@ class WorldState(object):
 
     return WorldState(self.I_d, self.T_d, C)
 
+  def __UpdateContain(self, ingredient, out):
+    if self.__IsNull(ingredient):
+      raise RecipeException("Ingredient must not be null.")
+
+    if self.__IsNull(out):
+      raise RecipeException("Ingredient must not be null.")
+
+    if self.__IsIngredient(ingredient):
+      raise RecipeException("Ingredient '%s' must not exist." % ingredient)
+
+    if not self.__IsIngredient(out):
+      raise RecipeException("Ingredient '%s' must already exist." % out)
+
+    C = set(self.C)
+    C = [(k, v) if v != ingredient else (k, out) for (k, v) in C]
+
+    return WorldState(self.I_d, self.T_d, C)
 
   def create_ing(self, ingredient, description):
     """Creates a new ingredient with the given name and description."""
@@ -274,22 +291,22 @@ class WorldState(object):
 
   def do(self, ingredient, tool, out, outdesc, manner):
     """Performs a generic action on the ingredient with the provided tool."""
-    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__UpdateContain(ingredient, out)
 
   def cut(self, ingredient, tool, out, outdesc, manner):
     """Cuts the ingredient into pieces with the provided tool."""
-    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__UpdateContain(ingredient, out)
 
   def mix(self, ingredient, tool, out, outdesc, manner):
     """Mixes the ingredient using the provided tool."""
-    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+    return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__UpdateContain(ingredient, out)
 
   def cook(self, ingredient, tool, out, outdesc, manner):
     """Cooks or heats the ingredient using the provided tool."""
     if self.__IsNull(tool):
-      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc)
+      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__UpdateContain(ingredient, out)
     else:
-      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__AddContain(out, tool)
+      return self.__RemoveIngredient(ingredient).__AddIngredient(out, outdesc).__AddContain(out, tool).__UpdateContain(ingredient, out)
 
   def serve(self, ingredient, manner):
     """Serves the provided ingredient."""
