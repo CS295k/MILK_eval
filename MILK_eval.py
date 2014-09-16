@@ -35,13 +35,13 @@ class WorldState(object):
   2) remove ingredient, 3) add tool, 4) add contain, 5) remove contain
   """
 
-  def __init__(self, I_d = {}, T_d = {}, C = {}):
+  def __init__(self, I_d = {}, T_d = {}, C = set()):
     """Initializes an empty (or pre-populated) world state.
 
     Arguments:
       I_d (String x String): A mapping of ingredients to descriptions
       T_d (String x String): A mapping of tools to descriptions
-      C (String x String): A mapping of tools to ingredients
+      C (String x String): A tuple mapping of tools to ingredients
     """
     self.I_d = I_d
     self.T_d = T_d
@@ -91,7 +91,7 @@ class WorldState(object):
     Returns (Boolean):
       A boolean indicating if the provided tool contains the provided ingredient in the current state
     """
-    return tool in self.C.keys() and ingredient == self.C[tool]
+    return (tool, ingredient) in self.C
 
 
   def __AddIngredient(self, ingredient, description):
@@ -206,8 +206,8 @@ class WorldState(object):
     if self.__IsContain(ingredient, tool):
       raise RecipeException("Contain '(%s, %s)' must not already exist." % (tool, ingredient))
 
-    C = dict(self.C)
-    C[tool] = ingredient
+    C = set(self.C)
+    C.add((tool, ingredient))
 
     return WorldState(self.I_d, self.T_d, C)
 
@@ -236,8 +236,8 @@ class WorldState(object):
     if not self.__IsContain(ingredient, tool):
       raise RecipeException("Contain '(%s, %s)' must already exist." % (tool, ingredient))
 
-    C = dict(self.C)
-    del C[tool]
+    C = set(self.C)
+    if (tool, ingredient) in C: C.remove((tool, ingredient))
 
     return WorldState(self.I_d, self.T_d, C)
 
