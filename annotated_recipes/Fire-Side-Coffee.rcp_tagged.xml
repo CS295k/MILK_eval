@@ -10,9 +10,8 @@
 <line><originaltext>Pour into a jar and seal with a lid. </originaltext><annotation>put(ing14, t3)</annotation></line>
 <line><originaltext>Pour into a jar and seal with a lid. </originaltext><annotation>do(ing14, t3, ing15, "sealed jar", "seal with lid")</annotation></line>
 <line><originaltext>To prepare: Stir 3 teaspoons of mixture into 1 cup of hot water. </originaltext><annotation>separate(ing15, ing17, "3 tsp powder", ing18, "rest of powder", "stir")</annotation></line>
-<line><originaltext>To prepare: Stir 3 teaspoons of mixture into 1 cup of hot water. </originaltext><annotation>create_ing(ing18, "1 cup of hot water")</annotation></line>
 <line><originaltext>To prepare: Stir 3 teaspoons of mixture into 1 cup of hot water. </originaltext><annotation>combine({ing17, ing18}, ing19, "hot drink", "")</annotation></line>
-<line><originaltext>To prepare: Stir 3 teaspoons of mixture into 1 cup of hot water. </originaltext><annotation>mix(ing19, t2, ing20, "mixed drink", "stir")</annotation></line>
+<line><originaltext>To prepare: Stir 3 teaspoons of mixture into 1 cup of hot water. </originaltext><annotation>mix(ing19, t2, ing22, "mixed drink", "stir")</annotation></line>
 <line><originaltext>Adjust to taste. </originaltext><annotation>chefcheck(ing22,"taste")</annotation></line>
 <line><originaltext>Adjust to taste. </originaltext><annotation>serve(ing22,"")</annotation></line>
 </recipe>

@@ -3,7 +3,7 @@
 <line><originaltext>16 medium slices mozzarella cheese</originaltext><annotation>create_ing(ing2, "16 medium slices mozzarella cheese")</annotation></line>
 <line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
 <line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"350 degrees F")</annotation></line>
-<line><originaltext>Prepare stuffing according to package directions. </originaltext><annotation>combine({ing0}, ing3, "stuffing", "prepare according to package")</annotation></line>
+<line><originaltext>Prepare stuffing according to package directions. </originaltext><annotation>do(ing0, "", ing3, "stuffing", "prepare according to package")</annotation></line>
 <line><originaltext>Wash the chicken, pat dry and pound out to about a 1/2 inch thickness. </originaltext><annotation>create_tool(t1, "mallet")</annotation></line>
 <line><originaltext>Wash the chicken, pat dry and pound out to about a 1/2 inch thickness. </originaltext><annotation>do(ing1, t1, ing4, "1/2 inch chicken", "pound till chicken is 1/2 inch thick")</annotation></line>
 <line><originaltext>Place a slice of cheese on each breast, followed by a scoop of prepared stuffing. </originaltext><annotation>combine({ing2, ing3, ing4}, ing5, "stuffed breasts", "place stuffing on chicken, wrap breast and stuffing in cheese")</annotation></line>

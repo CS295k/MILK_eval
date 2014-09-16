@@ -14,7 +14,7 @@
 <line><originaltext>Remove from the heat and let stand at room temperature until cold, several hours. </originaltext><annotation>leave(ing10,"until cool")</annotation></line>
 <line><originaltext>Strain out the cranberries and stir the orange juice, pineapple juice, lemon juice and sugar into the liquid. </originaltext><annotation>separate(ing10, ing11, "cranberry husks", ing12, "liquid", "strain")</annotation></line>
 <line><originaltext>Strain out the cranberries and stir the orange juice, pineapple juice, lemon juice and sugar into the liquid. </originaltext><annotation>combine({ing12, ing2, ing3, ing4, ing5}, ing13, "liquid", "stir")</annotation></line>
-<line><originaltext>Add the cinnamon stick, whole cloves and allspice berries. </originaltext><annotation>combine({ing13}, ing14, "spiced liquid", "add")</annotation></line>
+<line><originaltext>Add the cinnamon stick, whole cloves and allspice berries. </originaltext><annotation>do(ing13, "", ing14, "spiced liquid", "add")</annotation></line>
 <line><originaltext>Bring to a low boil. </originaltext><annotation>combine({ing14, ing6, ing7, ing8}, ing15, "spiced liquid", "add")</annotation></line>
 <line><originaltext>Bring to a low boil. </originaltext><annotation>cook(ing15, t0, ing16, "finished tea", "low boil")</annotation></line>
 </recipe>

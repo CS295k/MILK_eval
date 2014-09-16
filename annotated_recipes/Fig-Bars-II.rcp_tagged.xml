@@ -27,7 +27,7 @@
 <line><originaltext>Sift together the flour, baking powder, salt, cloves, cinnamon and allspice; blend into the egg mixture along with the vanilla. </originaltext><annotation>combine({ing47, ing55, ing57}, ing58, "egg mixture", "")</annotation></line>
 <line><originaltext>Sift together the flour, baking powder, salt, cloves, cinnamon and allspice; blend into the egg mixture along with the vanilla. </originaltext><annotation>mix(ing58, t7, ing59, "egg mixture", "blend")</annotation></line>
 <line><originaltext>Finally fold in the chopped figs and walnuts. </originaltext><annotation>combine({ing48, ing49, ing59}, ing60, "egg mixture and nuts", "")</annotation></line>
-<line><originaltext>Finally fold in the chopped figs and walnuts. </originaltext><annotation>combine({ing60}, ing61, "egg mixture and nuts", "fold in")</annotation></line>
+<line><originaltext>Finally fold in the chopped figs and walnuts. </originaltext><annotation>do(ing60, "", ing61, "egg mixture and nuts", "fold in")</annotation></line>
 <line><originaltext>Pour the batter into the prepared pan and spread evenly. </originaltext><annotation>put(ing61, t6)</annotation></line>
 <line><originaltext>Pour the batter into the prepared pan and spread evenly. </originaltext><annotation>do(ing61, t6, ing62, "filled pan", "spread evenly")</annotation></line>
 <line><originaltext>Bake for 20 to 25 minutes in the preheated oven, until lightly toasted. </originaltext><annotation>cook(ing62, t5, ing63, "cooked dough", "20 - 25 minutes")</annotation></line>

@@ -40,7 +40,7 @@
 <line><originaltext>Beat in the eggs one at a time, then stir in 1 1/2 teaspoon vanilla. </originaltext><annotation>combine({ing46, ing64}, ing65, "eggy vanilla buttgar", "stir in vanilla")</annotation></line>
 <line><originaltext>Stir in the melted chocolate. </originaltext><annotation>combine({ing60, ing65}, ing66, "chocolately buttgar", "stir in chocolate")</annotation></line>
 <line><originaltext>Beat in the flour mixture alternately with the sour cream. </originaltext><annotation>combine({ing47, ing59, ing66}, ing67, "dough", "beat in flalt and sour cream alternately bit by bit")</annotation></line>
-<line><originaltext>Stir in boiling water (batter will be thin). </originaltext><annotation>combine({ing67, ing48}, , ing168, "thin batter", "that water should be boiling.  Stir it into the batter")</annotation></line>
+<line><originaltext>Stir in boiling water (batter will be thin). </originaltext><annotation>combine({ing67, ing48}, ing168, "thin batter", "that water should be boiling.  Stir it into the batter")</annotation></line>
 <line><originaltext>Stir in boiling water (batter will be thin). </originaltext><annotation>mix(ing168, t13, ing68, "thin batter", "that water should be boiling.  Stir it into the batter")</annotation></line>
 <line><originaltext>Pour batter into prepared pans. </originaltext><annotation>put(ing68, t10)</annotation></line>
 <line><originaltext>Bake in the preheated oven for 35 to 40 minutes, or until a toothpick inserted into the center of the cake comes out clean. </originaltext><annotation>cook(ing68, t9, ing69, "cake", "35 to 40 minutes")</annotation></line>
@@ -58,7 +58,7 @@
 <line><originaltext>In a large bowl, whip the butter for about 10 minutes until it is super fluffy, beat in egg yolk. </originaltext><annotation>mix(ing50, t13, ing71, "super fluffy butter", "whip for 10 minutes")</annotation></line>
 <line><originaltext>In a large bowl, whip the butter for about 10 minutes until it is super fluffy, beat in egg yolk. </originaltext><annotation>combine({ing51, ing71}, ing72, "eggy fluffy butter", "beat in egg yolk")</annotation></line>
 <line><originaltext>Gradually blend in the confectioners' sugar, alternating with 2 tablespoons vanilla and 2 tablespoons cream, then blend in the melted chocolate. </originaltext><annotation>combine({ing52, ing53, ing54, ing72}, ing73, "heavy eggy fluffy vanilla buttgar", "gradually blend in sugar while alternating with vanilla and cream")</annotation></line>
-<line><originaltext>Gradually blend in the confectioners' sugar, alternating with 2 tablespoons vanilla and 2 tablespoons cream, then blend in the melted chocolate. </originaltext><annotation>combine({ing70, ing73}, ing74, "you know, now it's just "frosting," okay?", "blend in")</annotation></line>
+<line><originaltext>Gradually blend in the confectioners' sugar, alternating with 2 tablespoons vanilla and 2 tablespoons cream, then blend in the melted chocolate. </originaltext><annotation>combine({ing70, ing73}, ing74, "you know, now it's just frosting, okay?", "blend in")</annotation></line>
 <line><originaltext>Beat in the softened cream cheese. </originaltext><annotation>combine({ing55, ing74}, ing75, "frosting", "beat in")</annotation></line>
 <line><originaltext>Make the Ganache: In a large saucepan, combine chocolate chips and 1 cup heavy cream. </originaltext><annotation>create_tool(t15, "large saucepan")</annotation></line>
 <line><originaltext>Make the Ganache: In a large saucepan, combine chocolate chips and 1 cup heavy cream. </originaltext><annotation>put(ing56, t15)</annotation></line>
@@ -67,14 +67,14 @@
 <line><originaltext>Heat, stirring constantly, until chocolate is melted and smooth. </originaltext><annotation>cook(ing76, t15, ing77, "ganache", "stir constantly, until chocolate is melted and smooth")</annotation></line>
 <line><originaltext>Remove from heat and set aside. </originaltext><annotation>set(t15,"remove from heat")</annotation></line>
 <line><originaltext>Remove from heat and set aside. </originaltext><annotation>leave(ing77,"until needed")</annotation></line>
-<line><originaltext>Assemble the cake: When cake is completely cooled, cover the bottom cake layer with as much ganache as desired. </originaltext><annotation>combine({ing69, ing77}, ing78, "", "cover bottom layer with as much ganache as desired")</annotation></line>
+<line><originaltext>Assemble the cake: When cake is completely cooled, cover the bottom cake layer with as much ganache as desired. </originaltext><annotation>combine({ing69, ing77}, ing78, "ganached cake", "cover bottom layer with as much ganache as desired")</annotation></line>
 <line><originaltext>Assemble the cake: When cake is completely cooled, cover the bottom cake layer with as much ganache as desired. </originaltext><annotation>separate(ing78, ing79, "cake bottom with ganache", ing80, "cake layer(s)", "it's multiple objects already")</annotation></line>
 <line><originaltext>Refrigerate for 5 minutes, or until ganache has set. </originaltext><annotation>leave(ing79,"in refrigerator, 5 minutes, until ganache has set")</annotation></line>
 <line><originaltext>Spread frosting over the ganache. </originaltext><annotation>separate(ing75, ing81, "half of frosting", ing82, "half of frosting", "just... use half")</annotation></line>
 <line><originaltext>Spread frosting over the ganache. </originaltext><annotation>combine({ing79, ing81}, ing83, "frosted cake layer", "spread frosting over ganache")</annotation></line>
 <line><originaltext>Cover with top layer of cake. </originaltext><annotation>combine({ing80, ing83}, ing84, "cake", "stick the other on top of the frosted one")</annotation></line>
 <line><originaltext>Frost top and sides with buttercream, and garnish with more ganache. </originaltext><annotation>create_ing(ing85, "buttercream")</annotation></line>
-<line><originaltext>Frost top and sides with buttercream, and garnish with more ganache. </originaltext><annotation>combine({ing84, ing85}, ing86, "", "frost cake with buttercream")</annotation></line>
+<line><originaltext>Frost top and sides with buttercream, and garnish with more ganache. </originaltext><annotation>combine({ing84, ing85}, ing86, "frosted cake", "frost cake with buttercream")</annotation></line>
 <line><originaltext>Frost top and sides with buttercream, and garnish with more ganache. </originaltext><annotation>do(ing82, , ing87, "ganache", "transmutation into proper split")</annotation></line>
 <line><originaltext>Frost top and sides with buttercream, and garnish with more ganache. </originaltext><annotation>combine({ing86, ing87}, ing88, "pretty cake", "garnish cake with ganache")</annotation></line>
 </recipe>
