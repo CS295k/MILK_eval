@@ -26,7 +26,6 @@
 <line><originaltext>Drain off the fat, and place the mixture into a slow cooker.</originaltext><annotation>create_tool(t1, "slow cooker")</annotation></line>
 <line><originaltext>Drain off the fat, and place the mixture into a slow cooker.</originaltext><annotation>put(ing21, t1)</annotation></line>
 <line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing14, ing15, ing18, ing21, ing5, ing6, ing7, ing8, ing9}, ing23, "chili ingredients", "")</annotation></line>
-<line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>put(ing23, t1)</annotation></line>
 <line><originaltext>Stir mushrooms, baked beans, kidney beans with liquid, tomato paste, sugar, carrots, celery, peppers, beer, and barbeque sauce into the slow cooker. </originaltext><annotation>mix(ing23, t1, ing24, "chili", "stir")</annotation></line>
 <line><originaltext>Season with hot sauce and more crushed red pepper.</originaltext><annotation>combine({ing16, ing17, ing24}, ing25, "seasoned chili", "season")</annotation></line>
 <line><originaltext>Cover, and cook on Low for 4 to 5 hours.</originaltext><annotation>create_tool(t2, "covered slow cooker")</annotation></line>

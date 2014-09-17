@@ -18,7 +18,6 @@
 <line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>put(ing0, t0)</annotation></line>
 <line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>cook(ing0, t0, ing16, "heated oil", "heat oil")</annotation></line>
 <line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>combine({ing1, ing16}, ing17, "oil and chicken", "")</annotation></line>
-<line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>put(ing17, t0)</annotation></line>
 <line><originaltext>Heat oil in a large pot; brown chicken. </originaltext><annotation>cook(ing17, t0, ing18, "browned chicken", "brown chicken")</annotation></line>
 <line><originaltext>Remove chicken and set aside. </originaltext><annotation>separate(ing18, ing19, "chicken", ing20, "heated oil", "")</annotation></line>
 <line><originaltext>Remove chicken and set aside. </originaltext><annotation>remove(ing19,t0)</annotation></line>

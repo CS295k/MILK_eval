@@ -14,6 +14,7 @@
 <line><originaltext>Stir in the crushed pineapple with its liquid. </originaltext><annotation>combine({ing6, ing8}, ing9, "sauce", "stir in")</annotation></line>
 <line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>create_tool(t2, "ovenproof glass baking dish")</annotation></line>
 <line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>put(ing7, t2)</annotation></line>
+<line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>put(ing9, t2)</annotation></line>
 <line><originaltext>Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.</originaltext><annotation>combine({ing7, ing9}, ing10, "saucy chicken", "pour over top")</annotation></line>
 <line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>cook(ing10, t0, ing11, "baked chicken", "30 minutes")</annotation></line>
 <line><originaltext>Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. </originaltext><annotation>do(ing11, t2, ing12, "turned chicken", "turn over")</annotation></line>

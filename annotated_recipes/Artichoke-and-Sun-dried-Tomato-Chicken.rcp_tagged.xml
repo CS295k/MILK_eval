@@ -8,7 +8,6 @@
 <line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>create_tool(t5, "skillet")</annotation></line>
 <line><originaltext>Heat oil in a large skillet over medium-high heat. </originaltext><annotation>cook(ing25, t5, ing30, "hot oil", "medium-high heat")</annotation></line>
 <line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>combine({ing29, ing30}, ing31, "chicken in oil", "")</annotation></line>
-<line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>put(ing31, t5)</annotation></line>
 <line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>cook(ing31, t5, ing33, "cooked chicken", "cook, turning once to brown each side")</annotation></line>
 <line><originaltext>Place chicken in skillet; cook, turning once to brown each side. </originaltext><annotation>chefcheck(ing33,"brown on both sides")</annotation></line>
 <line><originaltext>Remove chicken from pan, and set aside.</originaltext><annotation>remove(ing33,t5)</annotation></line>

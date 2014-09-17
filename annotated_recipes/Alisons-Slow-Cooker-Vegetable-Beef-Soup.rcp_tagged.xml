@@ -11,7 +11,6 @@
 <line><originaltext>Place beef in a slow cooker.  </originaltext><annotation>create_tool(t0, "slow cooker")</annotation></line>
 <line><originaltext>Place beef in a slow cooker.  </originaltext><annotation>put(ing0, t0)</annotation></line>
 <line><originaltext>Pour in water.  </originaltext><annotation>combine({ing0, ing1}, ing10, "beef and water", "")</annotation></line>
-<line><originaltext>Pour in water.  </originaltext><annotation>put(ing10, t0)</annotation></line>
 <line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>combine({ing10, ing2, ing3, ing4, ing5}, ing11, "beef, water, onion, tomatoes, veg, potatoes", "")</annotation></line>
 <line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>put(ing11, t0)</annotation></line>
 <line><originaltext>Stir in onion, tomatoes, mixed vegetables and potatoes.  </originaltext><annotation>mix(ing11, t0, ing12, "beef, water, onion, tomatoes, veg, potatoes", "Stir")</annotation></line>
