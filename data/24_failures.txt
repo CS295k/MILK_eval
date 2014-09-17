@@ -1,0 +1,99 @@
+0
+annotated_recipes/1-Pot-3-Bean-Chicken-Stew.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t0, ing19)' must already exist.
+
+1
+annotated_recipes/Asian-Ginger-Dressing.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+put: Contain '(t9, ing60)' must not already exist.
+
+2
+annotated_recipes/Aunt-Mamies.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t6, ing41)' must already exist.
+
+3
+annotated_recipes/Baked-Fettuccine-Lasagna.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+4
+annotated_recipes/Baked-French-Toast-2.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+5
+annotated_recipes/Baked-Pork-Chops---Low-Fat-Version.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+6
+annotated_recipes/Baked-Salmon-with-Herbs.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+7
+annotated_recipes/Baked-Spaghetti-Squash-Lasagna-Style.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+8
+annotated_recipes/Bakers-Secret-Pie-Crust.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (3 given)
+
+9
+annotated_recipes/Basic-Syrup-for-Sunset-Cooler.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+do: Ingredient 'ing29' must not already exist.
+
+10
+annotated_recipes/Broccoli-Cheese-Crepes.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+__RemoveMultipleIngredients: Ingredient 'ing32' must already exist.
+
+0
+annotated_recipes/Broccoli-Chicken-Roli.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
+do() takes exactly 6 arguments (5 given)
+
+1
+annotated_recipes/Cinnamon-Bread-I.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t4, ing21)' must already exist.
+
+2
+annotated_recipes/Cinnamon-Sugar-Cookies-2.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t0, ing18)' must already exist.
+
+3
+annotated_recipes/Country-Fried-Chicken.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t2, ing22)' must already exist.
+
+4
+annotated_recipes/Date-Loaf-Cake.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t2, ing8)' must already exist.
+
+5
+annotated_recipes/Deep-Fried-Turkey.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t4, ing25)' must already exist.
+
+6
+annotated_recipes/Dilly-Chicken-and-Potatoes.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t0, ing12)' must already exist.
+
+7
+annotated_recipes/Doreens-Oriental-Swordfish-Steaks.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t1, ing8)' must already exist.
+
+8
+annotated_recipes/Dziriat-Algerian-Almond-Tarts.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t11, ing45)' must already exist.
+
+9
+annotated_recipes/Easy-Bake-Oven-Cookie-Mix.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t6, ing26)' must already exist.
+
+10
+annotated_recipes/Fried-Beef-Ribs.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+put: Contain '(t3, ing11)' must not already exist.
+
+0
+annotated_recipes/Gerrys-Chicken-Enchiladas.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t3, ing23)' must already exist.
+
+1
+annotated_recipes/Grandmas-Wheat-Germ-Cookies.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
+remove: Contain '(t1, ing17)' must already exist.
+
+Successful evaluations: 236
+Failed evaluations: 24
+Total evaluations: 260
