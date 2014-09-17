@@ -93,18 +93,7 @@ class WorldState(object):
     """
     return (tool, ingredient) in self.C
   
-  def __IngredientLocations(self, ingredient):
-    """Gets a list of all the ingredient locations.
-
-    Arguments:
-      ingredient (String): An ingredient
-
-    Returns (List<String>):
-      A list of all the tools the ingredient is located in
-    """
-    return [t for (t, i) in self.C if i == ingredient]
-
-  def __AddIngredient(self, ingredient, description, location = []):
+  def __AddIngredient(self, ingredient, description):
     """Attempt to add an ingredient to the next state.
 
     Arguments:
@@ -125,11 +114,8 @@ class WorldState(object):
 
     I_d = dict(self.I_d)
     I_d[ingredient] = description
-    C = set(self.C)
-    for tool in location:
-      C.add((tool, ingredient))
 
-    return WorldState(I_d, self.T_d, C)
+    return WorldState(I_d, self.T_d, self.C)
 
   def __RemoveIngredient(self, ingredient):
     """Attempt to remove an ingredient from the next state.
@@ -279,17 +265,8 @@ class WorldState(object):
 
   def combine(self, ingredients, ingredient, description, manner):
     """Combines the ingredients in the iterable ingredients, creating the new ingredient ingredient."""
-    locations = []
-    for ing in ingredients:
-      locations.append(self.__IngredientLocations(ing))
-    existingLocations = [l for l in locations if l != []]
-    if len(existingLocations) == 0: # if no ingredients are in a location
-      return self.__RemoveMultipleIngredients(ingredients).__AddIngredient(ingredient, description)
-    elif all(l == existingLocations[0] for l in existingLocations if l != []): # if all ingredients that have a location have the same one
-      return self.__RemoveMultipleIngredients(ingredients).__AddIngredient(ingredient, description, existingLocations[0])
-    else:
-      raise RecipeException("Ingredients (%s) being combined should have been in the same location." % ingredients)
-
+    return self.__RemoveMultipleIngredients(ingredients).__AddIngredient(ingredient, description)
+  
   def separate(self, ingredient, out1, out1desc, out2, out2desc, manner):
     """Separates the ingredient ingredient into out1 and out2."""
     return self.__RemoveIngredient(ingredient).__AddIngredient(out1, out1desc).__AddIngredient(out2, out2desc)
