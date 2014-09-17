@@ -32,7 +32,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[3]):
   				recipe_text += ', %s' % arguments[3]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
 
   		elif command == 'separate':
   			recipe_text += 'Separate '
@@ -41,7 +41,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[5]):
   				recipe_text += ', %s' % arguments[5]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
 
   		elif command == 'put':
   			recipe_text += 'Put %s in %s. ' % (world.I_d[arguments[0]], world.T_d[arguments[1]])
@@ -58,7 +58,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[4]):
   				recipe_text += ', %s' % arguments[4]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'mix':
   			recipe_text += 'Mix %s' % world.I_d[arguments[0]]
@@ -69,7 +69,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[4]):
   				recipe_text += ', %s' % arguments[4]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'cook':
   			recipe_text += 'Cook %s' % world.I_d[arguments[0]]
@@ -80,7 +80,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[4]):
   				recipe_text += ', %s' % arguments[4]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'do':
   			recipe_text += 'Taking %s' % world.I_d[arguments[0]]
@@ -91,7 +91,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[4]):
   				recipe_text += ', %s' % arguments[4]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'serve':
   			recipe_text += 'Serve %s' % world.I_d[arguments[0]]
@@ -99,7 +99,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[1]):
   				recipe_text += ', %s' % arguments[1]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'set':
   			recipe_text += 'Set %s on %s. ' % (world.T_d[arguments[0]], arguments[1])
@@ -110,7 +110,7 @@ for recipe_file in glob('../annotated_recipes/*.xml'):
   			if not IsNull(arguments[1]):
   				recipe_text += ', %s' % arguments[1]
 
-  			recipe_text += '. '
+  			recipe_text += '.\n'
   		
   		elif command == 'chefcheck':
   			recipe_text += 'Check %s for %s. ' % (world.I_d[arguments[0]], arguments[1])
