@@ -5,14 +5,18 @@ remove: Contain '(t0, ing19)' must already exist.
 1
 annotated_recipes/Asian-Ginger-Dressing.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
 put: Contain '(t9, ing60)' must not already exist.
+(Theoretically fixed -- unconfirmed -- removed extraneous 'put' command)
 
 2
 annotated_recipes/Aunt-Mamies.rcp_tagged.xml was unsuccessfully evaluated with the following exception:
 remove: Contain '(t6, ing41)' must already exist.
+(combine({ing32, ing40}, ing41, "milk, sugar, and nuts", "") -- ing32 has no location, and ing40 should be in t6, I'm unclear what we agreed would be ing41's location then)
+(Which seems to be my remove(ing41,t6) is failing)
 
 3
 annotated_recipes/Baked-Fettuccine-Lasagna.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
+(The 'do' command is written without an output ing. But the recipe later references the input ing from this line, so I'm unclear how to fix)
 
 4
 annotated_recipes/Baked-French-Toast-2.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
