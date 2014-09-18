@@ -11,7 +11,6 @@
 <line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>create_tool(t10, "1 pint glass jar with lid on")</annotation></line>
 <line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>put(ing59, t10)</annotation></line>
 <line><originaltext>Cover the jar with a tight fitting lid, and shake well. </originaltext><annotation>mix(ing59, t10, ing60, "shaken mixture", "shake well")</annotation></line>
-<line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>put(ing60, t9)</annotation></line>
 <line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>create_tool(t11, "microwave")</annotation></line>
 <line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>cook(ing60, t11, ing61, "hot dressing", "1 minute")</annotation></line>
 <line><originaltext>Remove lid, and heat jar in the microwave for 1 minute just to dissolve the honey. </originaltext><annotation>chefcheck(ing61,"honey dissolved")</annotation></line>
