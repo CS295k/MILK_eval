@@ -13,7 +13,7 @@
 <line><originaltext>Measure 1/2 cup of the mixture into re-sealable bags or containers for storage. </originaltext><annotation>do(ing25, t6, ing26, "dough in bags", "1/2 cup per container")</annotation></line>
 <line><originaltext>Label and date each bag. </originaltext><annotation>chefcheck(ing26,"label and date the bags")</annotation></line>
 <line><originaltext>To make the cookies, empty one package of the mix into a bowl. </originaltext><annotation>chefcheck(ing26,"To make cookies:")</annotation></line>
-<line><originaltext>Stir in 2 teaspoons of water, 1 tablespoon of raisins and 1 tablespoon of mini semisweet chocolate chips. </originaltext><annotation>remove(ing26,t6)</annotation></line>
+<!--<line><originaltext>Stir in 2 teaspoons of water, 1 tablespoon of raisins and 1 tablespoon of mini semisweet chocolate chips. </originaltext><annotation>remove(ing26,t6)</annotation></line>-->
 <line><originaltext>Stir in 2 teaspoons of water, 1 tablespoon of raisins and 1 tablespoon of mini semisweet chocolate chips. </originaltext><annotation>create_tool(t7, "bowl")</annotation></line>
 <line><originaltext>Stir in 2 teaspoons of water, 1 tablespoon of raisins and 1 tablespoon of mini semisweet chocolate chips. </originaltext><annotation>create_ing(ing27, "1 tablespoon raisins")</annotation></line>
 <line><originaltext>Stir in 2 teaspoons of water, 1 tablespoon of raisins and 1 tablespoon of mini semisweet chocolate chips. </originaltext><annotation>create_ing(ing28, "2 teaspoons water")</annotation></line>

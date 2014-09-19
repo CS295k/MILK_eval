@@ -33,7 +33,7 @@
 <line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>cook(ing21, t3, ing22, "simmered soup", "20-30 minutes")</annotation></line>
 <line><originaltext>Reduce heat, cover skillet, and simmer for 20 to 30 minutes, or until chicken is no longer pink and juices run clear. </originaltext><annotation>chefcheck(ing22,"chicken is no longer pink and juices run clear")</annotation></line>
 <line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>separate(ing22, ing23, "chicken", ing24, "chicken-less soup", "remove chicken")</annotation></line>
-<line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>remove(ing23,t3)</annotation></line>
+<!--<line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>remove(ing23,t3)</annotation></line>-->
 <line><originaltext>Remove chicken from skillet, and shred when cool enough to handle. </originaltext><annotation>cut(ing23, t0, ing25, "shredded chicken", "shred when cool")</annotation></line>
 <line><originaltext>Meanwhile, allow skillet mixture to simmer and reduce to about 2 1/4 cups. </originaltext><annotation>cook(ing24, t3, ing26, "simmered soup", "simmer")</annotation></line>
 <line><originaltext>Meanwhile, allow skillet mixture to simmer and reduce to about 2 1/4 cups. </originaltext><annotation>chefcheck(ing26,"reduce to 2 1/4 cups")</annotation></line>

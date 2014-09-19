@@ -18,8 +18,6 @@
 <line><originaltext>Whisk eggs in a large bowl. </originaltext><annotation>mix(ing7, t3, ing10, "whisked eggs", "whisk")</annotation></line>
 <line><originaltext>Rub the spice mixture onto all of the ribs. </originaltext><annotation>combine({ing8, ing9}, ing11, "spiced ribs", "rub")</annotation></line>
 <line><originaltext>Dip each rib in egg, then in flour, then egg, then flour again. </originaltext><annotation>put(ing11, t3)</annotation></line>
-<line><originaltext>Dip each rib in egg, then in flour, then egg, then flour again. </originaltext><annotation>put(ing11, t2)</annotation></line>
-<line><originaltext>Dip each rib in egg, then in flour, then egg, then flour again. </originaltext><annotation>put(ing11, t3)</annotation></line>
 <line><originaltext>Place the ribs in a fryer basket so they are not crowded, try 4 or 5 at a time depending on the size of your fryer. </originaltext><annotation>create_tool(t4, "fryer basket")</annotation></line>
 <line><originaltext>Place the ribs in a fryer basket so they are not crowded, try 4 or 5 at a time depending on the size of your fryer. </originaltext><annotation>put(ing11, t4)</annotation></line>
 <line><originaltext>Cook for about 8 minutes. </originaltext><annotation>cook(ing11, t4, ing12, "fried ribs", "8 mins, makeing sure they are not crowded")</annotation></line>
