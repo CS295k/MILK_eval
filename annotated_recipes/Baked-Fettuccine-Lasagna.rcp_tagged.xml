@@ -24,12 +24,12 @@
 <line><originaltext>In a large skillet, brown beef over medium heat. </originaltext><annotation>put({ing1}, t1)</annotation></line>
 <line><originaltext>In a large skillet, brown beef over medium heat. </originaltext><annotation>cook(ing1, t1, ing20, "browned beef", "brown beef over medium heat")</annotation></line>
 <line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>create_tool(t2, "bowl")</annotation></line>
-<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>do(ing20,"drain fat from pan")</annotation></line>
-<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>put({ing20}, t2)</annotation></line>
+<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>do(ing20, , ing99, "drained fat", "drain fat from pan")</annotation></line>
+<line><originaltext>Drain fat from pan, and transfer meat to a bowl. </originaltext><annotation>put({ing99}, t2)</annotation></line>
 <line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>combine({ing2, ing3, ing4}, ing21, "onion, pepper, butter", "")</annotation></line>
 <line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>put({ing21}, t1)</annotation></line>
 <line><originaltext>In the same skillet, cook onion and bell pepper in butter until tender. </originaltext><annotation>cook(ing21, t1, ing22, "onion, pepper, butter", "cook until tender")</annotation></line>
-<line><originaltext>Stir in tomatoes, mushrooms, olives, and  beef, and season with oregano. </originaltext><annotation>combine({ing20, ing22, ing5, ing6, ing7, ing8}, ing23, "veggies and beef", "")</annotation></line>
+<line><originaltext>Stir in tomatoes, mushrooms, olives, and  beef, and season with oregano. </originaltext><annotation>combine({ing99, ing22, ing5, ing6, ing7, ing8}, ing23, "veggies and beef", "")</annotation></line>
 <line><originaltext>Stir in tomatoes, mushrooms, olives, and  beef, and season with oregano. </originaltext><annotation>mix(ing23, t1, ing24, "veggies and beef", "stir")</annotation></line>
 <line><originaltext>Simmer for 10 minutes.</originaltext><annotation>cook(ing24, t1, ing25, "cooked veggies and beef", "simmer for 10 minutes")</annotation></line>
 <line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
