@@ -10,6 +10,7 @@ import xml.etree.cElementTree as ET
 import fnmatch
 import os
 import random
+import operator
 from glob import glob
 from lxml import etree
 
@@ -171,6 +172,10 @@ def main():
             prevText = curText
 
         recipeScores.append(float(numCorrect)/numLines)
+    x = sorted(bigramTogetherCounts.iteritems(), key=operator.itemgetter(1))
+    total = sum(bigramTogetherCounts.values())
+    x = [(k,float(v)/total) for k, v in x]
     print "avg accuracy from line-to-line:",sum(recipeScores)/len(recipeScores)
+    print "raw bigram accuracy", x
 
 main()
