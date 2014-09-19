@@ -1,0 +1,134 @@
+#!/usr/bin/python
+import xml.etree.cElementTree as ET
+import fnmatch
+import os
+import random
+from glob import glob
+from lxml import etree
+
+from sets import Set
+from collections import defaultdict
+
+def main():
+    dataInputDir = '../annotated_recipes/'
+    testingPercentage = .10
+
+    unigramCounts = defaultdict(int)
+    bigramCounts = defaultdict(int)
+    trigramCounts = defaultdict(int)
+    
+    unigramSingletonCounts = defaultdict(int) # unused for now
+    unigramNewCounts = defaultdict(int)
+    bigramTogetherCounts = defaultdict(int)
+    trigramTogetherCounts = defaultdict(int)
+
+    numRecipes = 0
+    testingRecipes = []
+
+    numTexts = 0 # how many non-1st lines we have
+    numNewTexts = 0 # how many times the line differs from the prev line (regardless of cmd)
+    for recipe_file in glob('../annotated_recipes/*.xml'):
+        
+        if (random.random() <= testingPercentage):
+            testingRecipes.append(recipe_file)
+            continue
+
+        numRecipes += 1
+        with open(recipe_file, 'r') as recipe_xml:
+            recipe_tree = etree.XML(recipe_xml.read())
+
+        # keeps track of the last 3 cmds/texts
+        curCmd = ""
+        prevCmd = ""
+        prevprevCmd = ""
+        curText = ""
+        prevText = ""
+        prevprevText = ""
+
+        commands = [element.text.split('(', 1)[0] for element in recipe_tree.findall('.//annotation')]
+        originals = [element.text for element in recipe_tree.findall('.//originaltext')]
+        #print "\n\n" + recipe_file
+
+        isLastOneSingleton = False
+        for curCmd, curText in zip(commands, originals):
+            
+            if (prevCmd != ""):
+                # the 1st line of a recipe is always a new line, so we only count the non-1stlines for our stats
+                unigramCounts[curCmd] += 1
+                
+                bigramCounts[prevCmd,curCmd] += 1
+                if (prevCmd == "create_ing" and curCmd == "create_ing"):
+                    print "*****"
+
+                # checks if the 2 last cmds corresponded to the same English instruction
+                if (prevText == curText):
+                    bigramTogetherCounts[prevCmd,curCmd] += 1
+                else:
+                    isLastOneSingleton = True
+                    unigramNewCounts[curCmd] += 1
+                    numNewTexts += 1
+
+                # checks if the last cmd was a singleton (i.e., text instruction different from its neighbors)
+                if (prevText != curText and prevprevText != prevText):
+                    unigramSingletonCounts[prevCmd] += 1
+
+                numTexts += 1
+
+            if (prevprevCmd != ""):
+                trigramCounts[prevprevCmd,prevCmd,curCmd] += 1
+
+                # checks if the 3 last cmds corresponded to the same English instruction
+                if (prevprevText == prevText and prevText == curText):
+                    trigramTogetherCounts[prevprevCmd,prevCmd,curCmd] += 1
+
+            prevprevCmd = prevCmd
+            prevprevText = prevText
+            prevCmd = curCmd
+            prevText = curText
+
+        # checks if the last cmd was a singleton (i.e., text instruction diff. from its neighbors)
+        if (isLastOneSingleton):
+            unigramSingletonCounts[prevCmd] += 1
+
+
+
+    # tests our line separation predictions
+    # evaluation is merely % accurate with respect to guessing if the current cmd and prev cmd
+    # correspond to different lines
+    print "testing on " + str(len(testingRecipes)) + " recipes"
+    print bigramCounts['create_ing,create_ing']
+    print bigramCounts
+    for recipe_file in testingRecipes:
+
+        print recipe_file
+
+        with open(recipe_file, 'r') as recipe_xml:
+            recipe_tree = etree.XML(recipe_xml.read())
+
+        # keeps track of the last 3 cmds/texts
+        curCmd = ""
+        prevCmd = ""
+        prevprevCmd = ""
+        curText = ""
+        prevText = ""
+        prevprevText = ""
+        
+        commands = [element.text.split('(', 1)[0] for element in recipe_tree.findall('.//annotation')]
+        originals = [element.text for element in recipe_tree.findall('.//originaltext')]
+        
+        numLines = 0
+        numCorrect = 0
+        for curCmd, curText in zip(commands, originals):
+            
+            # we ignore the 1st line of each recipe, as that will always be a new line
+            if (prevCmd != ""):
+                numLines += 1
+                
+                #if (prevCmd,curCmd not in bigramCounts.keys()):
+                #    print curCmd,prevCmd
+                
+            prevprevCmd = prevCmd
+            prevprevText = prevText
+            prevCmd = curCmd
+            prevText = curText
+main()
