@@ -35,7 +35,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[3]):
 				recipe_text += ', %s' % arguments[3]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'separate':
 			recipe_text += 'Separate '
@@ -44,7 +44,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[5]):
 				recipe_text += ', %s' % arguments[5]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'put':
 			recipe_text += 'Put %s in %s. ' % (world.I_d[arguments[0]], world.T_d[arguments[1]])
@@ -61,7 +61,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[4]):
 				recipe_text += ', %s' % arguments[4]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'mix':
 			recipe_text += 'Mix %s' % world.I_d[arguments[0]]
@@ -72,7 +72,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[4]):
 				recipe_text += ', %s' % arguments[4]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'cook':
 			recipe_text += 'Cook %s' % world.I_d[arguments[0]]
@@ -83,7 +83,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[4]):
 				recipe_text += ', %s' % arguments[4]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'do':
 			recipe_text += 'Taking %s' % world.I_d[arguments[0]]
@@ -94,7 +94,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[4]):
 				recipe_text += ', %s' % arguments[4]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'serve':
 			recipe_text += 'Serve %s' % world.I_d[arguments[0]]
@@ -102,7 +102,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[1]):
 				recipe_text += ', %s' % arguments[1]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'set':
 			recipe_text += 'Set %s on %s. ' % (world.T_d[arguments[0]], arguments[1])
@@ -113,7 +113,7 @@ def RecipeToText(recipe):
 			if not IsNull(arguments[1]):
 				recipe_text += ', %s' % arguments[1]
 
-			recipe_text += '.\n'
+			recipe_text += '.'
 
 		elif command == 'chefcheck':
 			recipe_text += 'Check %s for %s. ' % (world.I_d[arguments[0]], arguments[1])
@@ -123,17 +123,16 @@ def RecipeToText(recipe):
 
 	return out
 
-# for recipe_file in glob('annotated_recipes/*.xml'):
-# 	print recipe_file
-#
-# 	try:
-# 		recipe = MILK_eval.MILK_eval(recipe_file)
-#
-# 		print recipe_text
-# 		print '\n\n\n'
-# 	except (TypeError, MILK_eval.RecipeException), e:
-# 		print 'Unable to translate %s due to evaluation failure.\n\n\n\n' % recipe_file
-# 		print e
-# 	except Exception, e:
-# 		print 'Unable to translate %s due to translation failure.\n\n\n\n' % recipe_file
-# 		raise
+for recipe_file in glob('annotated_recipes/*.xml'):
+	print recipe_file
+
+	try:
+		recipe = MILK_eval.MILK_eval(recipe_file)
+		print RecipeToText(recipe)
+		print '\n\n\n'
+	except (TypeError, MILK_eval.RecipeException), e:
+		print 'Unable to translate %s due to evaluation failure.\n\n\n\n' % recipe_file
+		print e
+	except Exception, e:
+		print 'Unable to translate %s due to translation failure.\n\n\n\n' % recipe_file
+		raise
