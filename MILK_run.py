@@ -27,6 +27,9 @@ if __name__ == "__main__":
       print recipe, "was unsuccessfully evaluated with the following exception (possibly due to bad parsing):"
       print e
       print ""
+    except:
+      print recipe, "produced an unusual exception:"
+      raise
 
   print "Successful evaluations:", success
   print "Failed evaluations:", fail
