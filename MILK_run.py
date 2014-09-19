@@ -8,13 +8,14 @@ from MILK_eval import MILK_eval, RecipeException
 from glob import glob
 from sys import argv
 import os
-"""
-Usage:
-python MILK_run.py
-python MILK_run.py file1 file2 ... fileN
-python MILK_run.py dir1 file1 ... dirN fileN
 
-"""
+###############################################
+# Usage:
+# python MILK_run.py
+# python MILK_run.py file1 file2 ... fileN
+# python MILK_run.py dir1 file1 ... dirN fileN
+###############################################
+
 if __name__ == "__main__":
   success = 0
   fail = 0
