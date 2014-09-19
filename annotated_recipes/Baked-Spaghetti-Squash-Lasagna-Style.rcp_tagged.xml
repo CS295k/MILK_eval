@@ -26,8 +26,8 @@
 <line><originaltext>Remove squash strands with a fork, reserving the shells. </originaltext><annotation>remove(ing10,t1)</annotation></line>
 <line><originaltext>Remove squash strands with a fork, reserving the shells. </originaltext><annotation>separate(ing10, ing16, "squash strands", ing17, "squash shells", "")</annotation></line>
 <line><originaltext>Layer each half with a spoonful of the sauce, a layer of spaghetti squash strands, olives, and mozzarella cheese. </originaltext><annotation>combine({ing15, ing16, ing17, ing7, ing8}, ing18, "shells", "layer ingredients in each half of shell")</annotation></line>
-<line><originaltext>Repeat layers until shells are full, or until all of the ingredients are used. </originaltext><annotation>do(ing18,"repeat previous step until all ingredients are used")</annotation></line>
-<line><originaltext>Top with Parmesan cheese.</originaltext><annotation>combine({ing18, ing9}, ing19, "shells with cheese", "top shells with cheese")</annotation></line>
+<line><originaltext>Repeat layers until shells are full, or until all of the ingredients are used. </originaltext><annotation>do(ing18, , ing99, "layered spaghetti", "repeat previous step until all ingredients are used"))</annotation></line>
+<line><originaltext>Top with Parmesan cheese.</originaltext><annotation>combine({ing99, ing9}, ing19, "shells with cheese", "top shells with cheese")</annotation></line>
 <line><originaltext>Bake for 20 minutes in the preheated oven, or until Parmesan cheese melts.</originaltext><annotation>put({ing19}, t1)</annotation></line>
 <line><originaltext>Bake for 20 minutes in the preheated oven, or until Parmesan cheese melts.</originaltext><annotation>cook(ing19, t1, ing20, "baked spaghetti squash", "bake 20 minutes or until cheese melts")</annotation></line>
 </recipe>
