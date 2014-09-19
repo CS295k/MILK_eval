@@ -7,7 +7,7 @@
 <line><originaltext>Bring to a boil, lower heat and simmer until sugar is dissolved.</originaltext><annotation>cook(ing26, t3, ing27, "hot syrup stuff", "bring to a boil, lower heat and simmer until sugar is dissolved")</annotation></line>
 <line><originaltext>Bring to a boil, lower heat and simmer until sugar is dissolved.</originaltext><annotation>chefcheck(ing27,"sugar is dissolved")</annotation></line>
 <line><originaltext>Remove pandan leaves and strain the syrup. </originaltext><annotation>separate(ing27, ing28, "boiled syrup stuff", ing29, "pandan leaves", "remove pandan leaves")</annotation></line>
-<line><originaltext>Remove pandan leaves and strain the syrup. </originaltext><annotation>do(ing28, , ing29, "strained syrup", "strain")</annotation></line>
-<line><originaltext>Allow to cool for use as a basic syrup. </originaltext><annotation>leave(ing29,"allow to cool")</annotation></line>
-<line><originaltext>Store the syrup in a bottle in the refrigerator.</originaltext><annotation>leave(ing29,"store in a bottle in the refrigerator")</annotation></line>
+<line><originaltext>Remove pandan leaves and strain the syrup. </originaltext><annotation>do(ing28, , ing30, "strained syrup", "strain")</annotation></line>
+<line><originaltext>Allow to cool for use as a basic syrup. </originaltext><annotation>leave(ing30,"allow to cool")</annotation></line>
+<line><originaltext>Store the syrup in a bottle in the refrigerator.</originaltext><annotation>leave(ing30,"store in a bottle in the refrigerator")</annotation></line>
 </recipe>
