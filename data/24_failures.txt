@@ -16,23 +16,27 @@ remove: Contain '(t6, ing41)' must already exist.
 3
 annotated_recipes/Baked-Fettuccine-Lasagna.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
-(The 'do' command is written without an output ing. But the recipe later references the input ing from this line, so I'm unclear how to fix)
+(Theoretically fixed -- unconfirmed -- fixed do() syntax)
 
 4
 annotated_recipes/Baked-French-Toast-2.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
+(Theoretically fixed -- unconfirmed -- fixed do() syntax)
 
 5
 annotated_recipes/Baked-Pork-Chops---Low-Fat-Version.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
+(Theoretically fixed -- unconfirmed -- fixed do() syntax)
 
 6
 annotated_recipes/Baked-Salmon-with-Herbs.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
+(Theoretically fixed -- unconfirmed -- fixed do() syntax)
 
 7
 annotated_recipes/Baked-Spaghetti-Squash-Lasagna-Style.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
 do() takes exactly 6 arguments (3 given)
+(Theoretically fixed -- unconfirmed -- fixed do() syntax)
 
 8
 annotated_recipes/Bakers-Secret-Pie-Crust.rcp_tagged.xml was unsuccessfully evaluated with the following exception (possibly due to bad parsing):
