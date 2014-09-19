@@ -17,8 +17,8 @@
 <line><originaltext>Add butter; toss to coat evenly.</originaltext><annotation>combine({ing10, ing8}, ing11, "herbs and butter", "")</annotation></line>
 <line><originaltext>Add butter; toss to coat evenly.</originaltext><annotation>mix(ing11, t1, ing12, "herbs and butter", "toss to coat evenly with butter")</annotation></line>
 <line><originaltext>Place salmon on prepared pan. </originaltext><annotation>put({ing9}, t0)</annotation></line>
-<line><originaltext>Spray with nonstick cooking spray and pat with bread crumb mixture. </originaltext><annotation>do(ing9,"spray with nonstick cooking spray")</annotation></line>
-<line><originaltext>Spray with nonstick cooking spray and pat with bread crumb mixture. </originaltext><annotation>combine({ing12, ing9}, ing13, "salmon with topping", "pat salmon with bread crumb mixture")</annotation></line>
+<line><originaltext>Spray with nonstick cooking spray and pat with bread crumb mixture. </originaltext><annotation>do(ing9, , ing99, "non-sticked salmon", "spray with nonstick cooking spray")</annotation></line>
+<line><originaltext>Spray with nonstick cooking spray and pat with bread crumb mixture. </originaltext><annotation>combine({ing12, ing99}, ing13, "salmon with topping", "pat salmon with bread crumb mixture")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 35-40 minutes or until fish flakes easily with a fork.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 35-40 minutes or until fish flakes easily with a fork.</originaltext><annotation>set(t2,"350 degrees")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 35-40 minutes or until fish flakes easily with a fork.</originaltext><annotation>cook(ing13, t2, ing14, "baked salmon with herbs", "35-40 minutes or until fish flakes easily with a fork")</annotation></line>
