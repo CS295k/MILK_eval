@@ -46,7 +46,7 @@
 <line><originaltext>Spoon about 1/2 cup filling down the center of each crepe; roll up. </originaltext><annotation>do(ing32, "", ing35, "rolled crepes", "roll up")</annotation></line>
 <line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>create_tool(t4, "ungreased 11-in. x 7-in. x 2-in. baking dish. ")</annotation></line>
 <line><originaltext>Place seam side down in an ungreased 11-in. x 7-in. x 2-in. baking dish. </originaltext><annotation>put(ing35, t4)</annotation></line>
-<line><originaltext>Sprinkle with remaining cheese. </originaltext><annotation>combine({ing22, ing32}, ing33, "cheesy crepes", "sprinkle")</annotation></line>
+<line><originaltext>Sprinkle with remaining cheese. </originaltext><annotation>combine({ing22, ing35}, ing33, "cheesy crepes", "sprinkle")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>create_tool(t5, "oven")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>cook(ing33, t5, ing34, "done crepes", "at 350 F for 5-7 minutes or until cheese is melted")</annotation></line>
 <line><originaltext>Bake, uncovered, at 350 degrees F for 5-7 minutes or until cheese is melted.</originaltext><annotation>serve(ing34,"")</annotation></line>
