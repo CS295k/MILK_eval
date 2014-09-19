@@ -41,3 +41,18 @@ def MILK_parse(filename):
     commands.append((command_name, arguments))
 
   return commands
+
+def MILK_parse_originaltext(filename):
+  """Parses a MILK XML file into a list of the original text lines. Contains
+  duplicate lines so that the returned list can be zipped with the result from
+  MILK_parse.
+
+  Args:
+    filename - a string
+
+  Returns:
+    A list of strings.
+  """
+  with open(filename, "r") as f:
+    tree = etree.XML(f.read())
+    return [ot.text for ot in tree.findall(".//originaltext")]
