@@ -78,6 +78,7 @@
 <line><originaltext>Bake on the top shelf at 350 degrees F (175 degrees C) for 20 to 25 minutes, or until the surface of the tart is golden and the dough is firm. </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
 <line><originaltext>Bake on the top shelf at 350 degrees F (175 degrees C) for 20 to 25 minutes, or until the surface of the tart is golden and the dough is firm. </originaltext><annotation>cook(ing44, t2, ing45, "cooked tarts", "20-25 minutes")</annotation></line>
 <line><originaltext>Bake on the top shelf at 350 degrees F (175 degrees C) for 20 to 25 minutes, or until the surface of the tart is golden and the dough is firm. </originaltext><annotation>chefcheck(ing45,"Is the dough firm and the surface golden?")</annotation></line>
+<!--The english states to remove from molds, but it's the command syntax requires it be removed from oven-->
 <line><originaltext>Remove the tarts from the molds as soon as they come out of the oven. </originaltext><annotation>remove(ing45,t2)</annotation></line>
 <line><originaltext>Dip each tart in the sugar syrup while still hot. </originaltext><annotation>combine({ing27, ing45}, ing46, "syrupy tarts", "dip while still hot")</annotation></line>
 <line><originaltext>Stick a pine nut into the middle of each tart for decoration. </originaltext><annotation>combine({ing18, ing46}, ing47, "Dziriat", "stick one nut in the middle for decoration")</annotation></line>
