@@ -7,6 +7,14 @@ from lxml import etree
 from re import compile
 
 def MILK_parse(filename):
+  """Parses a MILK XML file into a list of commands.
+
+  Args:
+    filename - a string
+
+  Returns:
+    A list of (command_name, args) tuples.
+  """
   with open(filename, "r") as f:
     tree = etree.XML(f.read())
 
