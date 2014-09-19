@@ -11,17 +11,21 @@ for recipe_file in glob('annotated_recipes/*.xml'):
 
 	try:
 		recipe = MILK_eval.MILK_eval(recipe_file)
+		# print recipe[1:]
 
 		original_text = MILK_parse.MILK_parse_originaltext(recipe_file)
 		generated_text = recipe2text.RecipeToText(recipe)
 
 		assert len(original_text) == len(generated_text)
 
-		ref_text, translated = zip(*[(ot, gt) for ot, gt in zip(original_text, generated_text) if generated_text != '<create_tool>'])
+		ref_text, translated = zip(*[(ot, gt) for ot, gt, r in zip(original_text, generated_text, recipe[1:]) if r[0][0] != 'create_tool' and r[0][0] != 'create_ing'])
 		ref_texts += [[r] for r in ref_text]
 		translations += translated
 
-		# print '\n\n\n'
+		for r, t in zip(ref_text, translated):
+			print r, '\t', t
+
+		print '\n\n\n'
 	except (TypeError, MILK_eval.RecipeException), e:
 		print 'Unable to translate %s due to evaluation failure.\n' % recipe_file
 		print e
