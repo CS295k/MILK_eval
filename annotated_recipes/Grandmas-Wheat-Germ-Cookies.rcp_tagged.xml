@@ -25,5 +25,5 @@
 <line><originaltext>Bake at 350 degrees F for 10-12 minutes or until edges are lightly browned and cookies are set. </originaltext><annotation>cook(ing16, t3, ing17, "cookies", "bake 10-12 minutes")</annotation></line>
 <line><originaltext>Bake at 350 degrees F for 10-12 minutes or until edges are lightly browned and cookies are set. </originaltext><annotation>chefcheck(ing17,"edges are lightly browned and cookies are set")</annotation></line>
 <line><originaltext>Cool for 1 minute before removing to wire racks. </originaltext><annotation>leave(ing17,"cool for 1 minute")</annotation></line>
-<line><originaltext>Cool for 1 minute before removing to wire racks. </originaltext><annotation>remove(ing17,t1)</annotation></line>
+<!--<line><originaltext>Cool for 1 minute before removing to wire racks. </originaltext><annotation>remove(ing17,t1)</annotation></line>-->
 </recipe>

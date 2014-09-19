@@ -23,7 +23,7 @@
 <line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>mix(ing39, t6, ing40, "stirred hot sweet milk", "stir occasionally")</annotation></line>
 <line><originaltext>In saucepan over medium heat, cook sugar and milk, stirring occasionally until milk boils and sugar is dissolved.  </originaltext><annotation>chefcheck(ing40,"milk boils, sugar dissolves")</annotation></line>
 <line><originaltext>Add the ground nuts.  </originaltext><annotation>combine({ing32, ing40}, ing41, "milk, sugar, and nuts", "")</annotation></line>
-<line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>remove(ing41,t6)</annotation></line>
+<!--<line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>remove(ing41,t6)</annotation></line>-->
 <line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>leave(ing41,"let cool")</annotation></line>
 <line><originaltext>Remove from heat and let cool until mixture is of spreading consistency.</originaltext><annotation>chefcheck(ing41,"spreading consistency")</annotation></line>
 <line><originaltext>Roll out chilled dough on lightly floured surface to a rectangle about 18 X 12 inches.  </originaltext><annotation>create_tool(t7, "rolling pin")</annotation></line>
