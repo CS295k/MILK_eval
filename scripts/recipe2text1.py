@@ -25,7 +25,10 @@ def RecipeToText(recipe):
 			recipe_text += '%s.' % arguments[1]
 
 		elif command == 'create_tool':
-			pass
+			# TODO: This is a horrible hack but we need some way to make sure that the
+			# length of the outputted string is equal to that of the list of original
+			# texts.
+			recipe_text = '<create_tool>'
 
 		elif command == 'combine':
 			recipe_text += 'Combine '
@@ -123,16 +126,16 @@ def RecipeToText(recipe):
 
 	return out
 
-for recipe_file in glob('annotated_recipes/*.xml'):
-	print recipe_file
-
-	try:
-		recipe = MILK_eval.MILK_eval(recipe_file)
-		print RecipeToText(recipe)
-		print '\n\n\n'
-	except (TypeError, MILK_eval.RecipeException), e:
-		print 'Unable to translate %s due to evaluation failure.\n\n\n\n' % recipe_file
-		print e
-	except Exception, e:
-		print 'Unable to translate %s due to translation failure.\n\n\n\n' % recipe_file
-		raise
+# for recipe_file in glob('annotated_recipes/*.xml'):
+# 	print recipe_file
+#
+# 	try:
+# 		recipe = MILK_eval.MILK_eval(recipe_file)
+# 		print RecipeToText(recipe)
+# 		print '\n\n\n'
+# 	except (TypeError, MILK_eval.RecipeException), e:
+# 		print 'Unable to translate %s due to evaluation failure.\n\n\n\n' % recipe_file
+# 		print e
+# 	except Exception, e:
+# 		print 'Unable to translate %s due to translation failure.\n\n\n\n' % recipe_file
+# 		raise
