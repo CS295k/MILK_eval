@@ -1,0 +1,612 @@
+50	1
+-57.6187
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-59.9991
+(S1 (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-64.2439
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-64.7598
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-66.6202
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-66.6482
+(S1 (NP (CD 1/2) (NN cup) (NN mayonnaise)))
+-67.2599
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.0399
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.7086
+(S1 (X (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.7105
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-71.1081
+(S1 (S (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-71.4103
+(S1 (FRAG (ADJP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-71.6021
+(S1 (X (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-72.2265
+(S1 (NP (NP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-72.3315
+(S1 (NP (NP (CD 1/2)) (NN cup) (NN mayonnaise)))
+-72.5179
+(S1 (S (NP (CD 1/2)) (VP (NN cup) (NP (NN mayonnaise)))))
+-72.8506
+(S1 (FRAG (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-72.8602
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-73.9105
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise))))
+-73.9855
+(S1 (S (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-74.3055
+(S1 (S (ADJP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-74.3312
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-74.3524
+(S1 (X (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-74.4701
+(S1 (S (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise))))
+-74.4877
+(S1 (NP (NP (NP (CD 1/2)) (NN cup)) (NP (NN mayonnaise))))
+-74.5583
+(S1 (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise)))
+-74.7684
+(S1 (FRAG (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-74.7894
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-74.8999
+(S1 (S (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-75.2739
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise))))
+-76.6658
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-77.5436
+(S1 (S (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-77.7157
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NN mayonnaise)))
+-77.8182
+(S1 (X (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-77.8458
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-78.0284
+(S1 (NP (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-78.5722
+(S1 (X (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-78.8385
+(S1 (FRAG (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise))))
+-79.0951
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-79.3997
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise))))
+-79.7981
+(S1 (FRAG (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-80.0717
+(S1 (X (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-80.5791
+(S1 (NP (CD 1/2) (NP (NN cup)) (NN mayonnaise)))
+-80.6838
+(S1 (NP (NP (CD 1/2)) (VP (NN cup) (NP (NN mayonnaise)))))
+-80.8342
+(S1 (X (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-80.9142
+(S1 (S (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-81.4634
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-81.7828
+(S1 (S (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise))))
+-81.8555
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise)))))
+-82.0593
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup))) (NN mayonnaise)))
+
+50	2
+-58.8586
+(S1 (NP (CD 3) (NNS teaspoons) (NN milk)))
+-59.5966
+(S1 (NP (NP (CD 3) (NNS teaspoons)) (NP (NN milk))))
+-59.8276
+(S1 (NP (QP (CD 3) (NNS teaspoons)) (NN milk)))
+-62.3194
+(S1 (FRAG (NP (NP (CD 3) (NNS teaspoons)) (NP (NN milk)))))
+-63.3187
+(S1 (FRAG (NP (QP (CD 3) (NNS teaspoons)) (NN milk))))
+-63.8493
+(S1 (NP (CD 3) (NNS teaspoons) (VB milk)))
+-64.0422
+(S1 (NP (NP (CD 3) (NNS teaspoons)) (NN milk)))
+-64.9366
+(S1 (FRAG (NP (CD 3) (NNS teaspoons) (NN milk))))
+-65.0752
+(S1 (S (NP (CD 3) (NNS teaspoons) (NN milk))))
+-66.098
+(S1 (S (NP (QP (CD 3) (NNS teaspoons)) (NN milk))))
+-67.0685
+(S1 (NP (CD 3) (NNS teaspoons) (NP (NN milk))))
+-67.2223
+(S1 (NP (NP (CD 3)) (NNS teaspoons) (NN milk)))
+-67.4639
+(S1 (S (NP (NP (CD 3) (NNS teaspoons)) (NP (NN milk)))))
+-67.8601
+(S1 (S (NP (CD 3) (NNS teaspoons)) (VP (VB milk))))
+-67.9546
+(S1 (S (NP (CD 3) (NNS teaspoons)) (NP (NN milk))))
+-68.0452
+(S1 (S (NP (CD 3) (NNS teaspoons)) (VP (NN milk))))
+-68.4219
+(S1 (NP (NP (CD 3) (NNS teaspoons)) (NP (VB milk))))
+-68.4873
+(S1 (FRAG (NP (CD 3) (NNS teaspoons)) (NP (NN milk))))
+-68.9156
+(S1 (NP (NP (QP (CD 3) (NNS teaspoons))) (NN milk)))
+-69.4216
+(S1 (FRAG (NP (CD 3) (NNS teaspoons)) (VP (VB milk))))
+-69.6721
+(S1 (NP (CD 3) (NP (NNS teaspoons)) (NN milk)))
+-69.6999
+(S1 (NP (NP (CD 3) (NNS teaspoons)) (VP (NN milk))))
+-70.3474
+(S1 (S (NP (CD 3) (NNS teaspoons)) (NP (VB milk))))
+-70.8463
+(S1 (S (NP (CD 3) (NNS teaspoons) (VB milk))))
+-71.7965
+(S1 (FRAG (NP (CD 3) (NNS teaspoons) (VB milk))))
+-72.1237
+(S1 (S (NP (NP (CD 3) (NNS teaspoons)) (VP (NN milk)))))
+-72.4684
+(S1 (FRAG (NP (NP (CD 3) (NNS teaspoons)) (NP (VB milk)))))
+-72.6558
+(S1 (FRAG (NP (NP (CD 3) (NNS teaspoons)) (VP (NN milk)))))
+-72.8551
+(S1 (S (NP (QP (CD 3) (NNS teaspoons))) (NP (NN milk))))
+-72.8909
+(S1 (FRAG (S (NP (CD 3) (NNS teaspoons)) (VP (VB milk)))))
+-72.9457
+(S1 (S (NP (QP (CD 3) (NNS teaspoons))) (VP (NN milk))))
+-73.023
+(S1 (NP (NP (NP (CD 3)) (NNS teaspoons)) (NP (NN milk))))
+-73.581
+(S1 (NP (NP (NP (CD 3)) (NNS teaspoons)) (NN milk)))
+-73.8044
+(S1 (S (NP (QP (CD 3) (NNS teaspoons))) (VP (VB milk))))
+-73.9505
+(S1 (S (NP (NP (CD 3)) (NNS teaspoons)) (VP (VB milk))))
+-73.9938
+(S1 (FRAG (NP (NP (CD 3) (NNS teaspoons)) (NN milk))))
+-74.3837
+(S1 (FRAG (NP (QP (CD 3) (NNS teaspoons))) (NP (NN milk))))
+-74.5246
+(S1 (NP (NP (QP (CD 3) (NNS teaspoons))) (VP (NN milk))))
+-74.5892
+(S1 (FRAG (NP (CD 3) (NNS teaspoons)) (NP (VB milk))))
+-74.6617
+(S1 (NP (NP (CD 3) (NNS teaspoons)) (VP (VB milk))))
+-74.892
+(S1 (S (NP (NP (CD 3)) (NNS teaspoons)) (NP (NN milk))))
+-74.9826
+(S1 (S (NP (NP (CD 3)) (NNS teaspoons)) (VP (NN milk))))
+-75.318
+(S1 (FRAG (NP (QP (CD 3) (NNS teaspoons))) (VP (VB milk))))
+-75.4258
+(S1 (S (NP (NP (CD 3) (NNS teaspoons)) (NN milk))))
+-75.512
+(S1 (NP (NP (QP (CD 3) (NNS teaspoons))) (NP (NN milk))))
+-75.6257
+(S1 (S (NP (NP (QP (CD 3) (NNS teaspoons))) (VP (NN milk)))))
+-75.7458
+(S1 (FRAG (NP (NP (NP (CD 3)) (NNS teaspoons)) (NP (NN milk)))))
+-76.2917
+(S1 (S (NP (QP (CD 3) (NNS teaspoons))) (NP (VB milk))))
+-76.4378
+(S1 (S (NP (NP (CD 3)) (NNS teaspoons)) (NP (VB milk))))
+-76.7901
+(S1 (FRAG (NP (NP (CD 3)) (NNS teaspoons)) (NP (NN milk))))
+
+50	3
+-80.2486
+(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))
+-85.5789
+(S1 (NP (NP (CD 1/4) (NN teaspoon)) (NP (NN salt))))
+-85.7762
+(S1 (NP (CD 1/4) (JJ teaspoon) (NN salt)))
+-85.9196
+(S1 (NP (ADJP (CD 1/4) (NN teaspoon)) (NN salt)))
+-86.7888
+(S1 (NP (JJ 1/4) (NN teaspoon) (NN salt)))
+-87.0797
+(S1 (NP (NP (CD 1/4)) (NN teaspoon) (NN salt)))
+-88.3758
+(S1 (S (NP (CD 1/4) (NN teaspoon) (NN salt))))
+-88.4187
+(S1 (FRAG (NP (CD 1/4) (NN teaspoon) (NN salt))))
+-88.6544
+(S1 (NP (NP (CD 1/4) (NN teaspoon)) (NN salt)))
+-88.6744
+(S1 (NP (QP (CD 1/4) (CD teaspoon)) (NN salt)))
+-88.8482
+(S1 (NP (QP (CD 1/4) (NN teaspoon)) (NN salt)))
+-89.2512
+(S1 (NP (NN 1/4) (NN teaspoon) (NN salt)))
+-89.3543
+(S1 (NP (NNP 1/4) (NN teaspoon) (NN salt)))
+-89.608
+(S1 (FRAG (NP (NP (CD 1/4) (NN teaspoon)) (NP (NN salt)))))
+-90.0989
+(S1 (FRAG (NP (CD 1/4) (NN teaspoon)) (NP (NN salt))))
+-90.1811
+(S1 (NP (VBG 1/4) (NN teaspoon) (NN salt)))
+-90.2091
+(S1 (FRAG (NP (ADJP (CD 1/4) (NN teaspoon)) (NN salt))))
+-90.3618
+(S1 (S (NP (CD 1/4) (JJ teaspoon) (NN salt))))
+-90.5551
+(S1 (NP (JJ 1/4) (JJ teaspoon) (NN salt)))
+-90.6357
+(S1 (FRAG (NP (JJ 1/4) (NN teaspoon) (NN salt))))
+-90.6564
+(S1 (NP (VBN 1/4) (NN teaspoon) (NN salt)))
+-90.7144
+(S1 (S (NP (CD 1/4) (NN teaspoon)) (NP (NN salt))))
+-90.7413
+(S1 (NP (CD 1/4) (CD teaspoon) (NN salt)))
+-91.0768
+(S1 (FRAG (NP (CD 1/4) (JJ teaspoon) (NN salt))))
+-91.7007
+(S1 (S (NP (JJ 1/4) (NN teaspoon) (NN salt))))
+-91.7325
+(S1 (NP (NP (CD 1/4)) (JJ teaspoon) (NN salt)))
+-91.7354
+(S1 (NP (NP (CD 1/4)) (NP (JJ teaspoon) (NN salt))))
+-92.0079
+(S1 (FRAG (ADJP (CD 1/4) (NN teaspoon)) (NP (NN salt))))
+-92.0765
+(S1 (S (NP (CD 1/4)) (NP (NN teaspoon) (NN salt))))
+-92.099
+(S1 (FRAG (NP (QP (CD 1/4) (CD teaspoon)) (NN salt))))
+-92.166
+(S1 (NP (FW 1/4) (FW teaspoon) (NN salt)))
+-92.268
+(S1 (S (NP (ADJP (CD 1/4) (NN teaspoon)) (NN salt))))
+-92.2774
+(S1 (X (FW 1/4) (FW teaspoon) (NN salt)))
+-92.3615
+(S1 (NP (NP (CD 1/4)) (NP (NN teaspoon) (NN salt))))
+-92.3967
+(S1 (S (VP (VB 1/4) (NP (NN teaspoon) (NN salt)))))
+-92.7944
+(S1 (NP (NNP 1/4) (JJ teaspoon) (NN salt)))
+-92.9571
+(S1 (NP (NP (NNS 1/4)) (NN teaspoon) (NN salt)))
+-93.0558
+(S1 (NP (NNS 1/4) (NN teaspoon) (NN salt)))
+-93.0947
+(S1 (FRAG (NP (JJ 1/4) (JJ teaspoon) (NN salt))))
+-93.3666
+(S1 (NP (NP (NN 1/4)) (NN teaspoon) (NN salt)))
+-93.3827
+(S1 (NP (VBG 1/4) (JJ teaspoon) (NN salt)))
+-93.4165
+(S1 (S (VP (VB 1/4) (NP (JJ teaspoon) (NN salt)))))
+-93.5456
+(S1 (NP (NP (NNP 1/4)) (NP (NN teaspoon) (NN salt))))
+-93.562
+(S1 (NP (VBN 1/4) (JJ teaspoon) (NN salt)))
+-93.7313
+(S1 (X (NP (CD 1/4) (NN teaspoon) (NN salt))))
+-93.7439
+(S1 (NP (NP (JJ 1/4) (NN teaspoon)) (NP (NN salt))))
+-93.7861
+(S1 (NP (NP (QP (CD 1/4) (NN teaspoon))) (NP (NN salt))))
+-93.8193
+(S1 (S (NP (CD 1/4)) (NP (JJ teaspoon) (NN salt))))
+-94.1136
+(S1 (S (VP (VBG 1/4) (NP (NN teaspoon) (NN salt)))))
+-94.3232
+(S1 (S (NP (NNP 1/4)) (NP (NN teaspoon) (NN salt))))
+
+50	4
+-89.8564
+(S1 (NP (CD 1) (NN pinch) (VBD ground) (JJ black) (NN pepper)))
+-89.8932
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (NN ground) (JJ black) (NN pepper))))
+-90.378
+(S1 (S (NP (CD 1) (NN pinch)) (VP (VBD ground) (NP (JJ black) (NN pepper)))))
+-90.4551
+(S1 (NP (CD 1) (NN pinch) (NN ground) (JJ black) (NN pepper)))
+-90.8434
+(S1 (NP (NP (CD 1) (NN pinch) (NN ground)) (NP (JJ black) (NN pepper))))
+-91.8322
+(S1 (NP (ADJP (CD 1) (NN pinch) (VBN ground)) (JJ black) (NN pepper)))
+-91.9142
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (JJ ground) (JJ black) (NN pepper))))
+-92.6401
+(S1 (NP (ADJP (CD 1) (NN pinch) (NN ground) (JJ black)) (NN pepper)))
+-92.6586
+(S1 (NP (NP (ADJP (CD 1) (NN pinch)) (NN ground)) (NP (JJ black) (NN pepper))))
+-92.8082
+(S1 (NP (NP (CD 1) (NN pinch)) (NN ground) (JJ black) (NN pepper)))
+-92.9177
+(S1 (FRAG (NP (ADJP (CD 1) (NN pinch) (VBN ground)) (JJ black) (NN pepper))))
+-93.2573
+(S1 (S (NP (CD 1) (NN pinch)) (VP (NN ground) (NP (JJ black) (NN pepper)))))
+-93.544
+(S1 (NP (NP (CD 1) (NN pinch) (NN ground)) (JJ black) (NN pepper)))
+-93.8066
+(S1 (NP (ADJP (CD 1) (NN pinch)) (NN ground) (JJ black) (NN pepper)))
+-93.8261
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (VBN ground) (JJ black) (NN pepper))))
+-93.8482
+(S1 (S (NP (CD 1) (NN pinch) (NN ground)) (NP (JJ black) (NN pepper))))
+-93.9723
+(S1 (FRAG (NP (NP (CD 1) (NN pinch)) (NP (NN ground) (JJ black) (NN pepper)))))
+-94.1593
+(S1 (NP (NP (CD 1) (NN pinch)) (VP (VBN ground) (NP (JJ black) (NN pepper)))))
+-94.1671
+(S1 (NP (ADJP (CD 1) (NN pinch)) (JJ ground) (JJ black) (NN pepper)))
+-94.37
+(S1 (NP (ADJP (CD 1) (NN pinch) (NN ground)) (JJ black) (NN pepper)))
+-94.3784
+(S1 (S (NP (CD 1) (NN pinch)) (VP (VBN ground) (NP (JJ black) (NN pepper)))))
+-94.6685
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (NP (NN ground)) (JJ black) (NN pepper))))
+-94.9224
+(S1 (FRAG (NP (NP (CD 1) (NN pinch) (NN ground)) (NP (JJ black) (NN pepper)))))
+-95.4167
+(S1 (NP (CD 1) (NN pinch) (NN ground) (NN black) (NN pepper)))
+-95.4501
+(S1 (NP (NP (CD 1) (NN pinch)) (VP (VBD ground) (NP (JJ black) (NN pepper)))))
+-95.5495
+(S1 (NP (NP (NP (CD 1) (NN pinch)) (NP (NN ground))) (JJ black) (NN pepper)))
+-95.6195
+(S1 (NP (NP (NP (CD 1) (NN pinch)) (NN ground)) (NP (JJ black) (NN pepper))))
+-95.6209
+(S1 (NP (NP (ADJP (CD 1) (NN pinch)) (NN ground)) (JJ black) (NN pepper)))
+-95.7048
+(S1 (FRAG (NP (ADJP (CD 1) (NN pinch) (NN ground)) (JJ black) (NN pepper))))
+-95.731
+(S1 (NP (NP (CD 1) (NN pinch)) (JJ ground) (JJ black) (NN pepper)))
+-95.7365
+(S1 (NP (NP (CD 1)) (NN pinch) (NN ground) (JJ black) (NN pepper)))
+-95.8401
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (VBD ground) (JJ black) (NN pepper))))
+-95.8483
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (NN ground) (NN black) (NN pepper))))
+-95.9932
+(S1 (FRAG (NP (NP (CD 1) (NN pinch)) (NP (JJ ground) (JJ black) (NN pepper)))))
+-96.123
+(S1 (FRAG (NP (CD 1) (NN pinch)) (NP (NN ground) (JJ black) (NN pepper))))
+-96.154
+(S1 (FRAG (NP (CD 1) (NN pinch)) (NP (JJ ground) (JJ black) (NN pepper))))
+-96.3076
+(S1 (FRAG (NP (CD 1) (NN pinch) (VBD ground) (JJ black) (NN pepper))))
+-96.3654
+(S1 (FRAG (NP (NP (CD 1) (NN pinch)) (VP (VBN ground) (NP (JJ black) (NN pepper))))))
+-96.6143
+(S1 (S (NP (CD 1) (NN pinch)) (NP (NN ground) (JJ black) (NN pepper))))
+-96.6258
+(S1 (S (NP (CD 1) (NN pinch)) (VP (VBD ground) (S (NP (JJ black) (NN pepper))))))
+-96.6502
+(S1 (FRAG (NP (CD 1) (NN pinch)) (VP (VBD ground) (NP (JJ black) (NN pepper)))))
+-96.7376
+(S1 (FRAG (NP (NP (ADJP (CD 1) (NN pinch)) (NN ground)) (NP (JJ black) (NN pepper)))))
+-96.7976
+(S1 (FRAG (NP (ADJP (CD 1) (NN pinch) (NN ground) (JJ black)) (NN pepper))))
+-96.8374
+(S1 (NP (NP (CD 1) (NN pinch)) (VP (VBN ground) (S (NP (JJ black) (NN pepper))))))
+-96.8866
+(S1 (S (NP (CD 1) (NN pinch)) (NP (JJ ground) (JJ black) (NN pepper))))
+-97.0316
+(S1 (NP (NP (NP (CD 1) (NN pinch)) (NP (NN ground))) (NP (JJ black) (NN pepper))))
+-97.1402
+(S1 (NP (CD 1) (NN pinch) (JJ ground) (JJ black) (NN pepper)))
+-97.3323
+(S1 (NP (NP (CD 1) (NN pinch)) (NP (NP (NN ground)) (NP (JJ black) (NN pepper)))))
+-97.3841
+(S1 (S (NP (CD 1) (NN pinch) (VBD ground) (JJ black) (NN pepper))))
+-97.4151
+(S1 (NP (ADJP (CD 1) (NN pinch)) (NN ground) (NN black) (NN pepper)))
+
+50	5
+-186.442
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-186.722
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-187.808
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-189.654
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))) (. .)))
+-189.933
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid))))))) (. .)))
+-190.101
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-190.629
+(S1 (S (VP (VBP Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-191.02
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))))) (. .)))
+-191.444
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))) (. .)))
+-191.705
+(S1 (S (VP (VB Combine) (S (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))))) (. .)))
+-191.747
+(S1 (S (VP (VB Combine) (S (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-191.75
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-192.682
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (ADJP (JJ tight) (JJ fitting)) (NN lid)))) (. .)))
+-192.829
+(S1 (S (VP (VBP Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-192.961
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (JJ tight) (JJ fitting)) (NN lid))))))) (. .)))
+-193.067
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (ADJP (RB tight) (JJ fitting)) (NN lid)))) (. .)))
+-193.312
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))) (. .)))
+-193.346
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (RB tight) (JJ fitting)) (NN lid))))))) (. .)))
+-193.591
+(S1 (S (VP (VBP Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-193.786
+(S1 (SQ (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-193.795
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (RB tight) (JJ fitting) (NN lid)))) (. .)))
+-193.813
+(S1 (S (VP (VB Combine) (NP (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-193.841
+(S1 (S (VP (VBP Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid))))))) (. .)))
+-194.042
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-194.048
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (JJ tight) (JJ fitting)) (NN lid)))))) (. .)))
+-194.074
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (RB tight) (JJ fitting) (NN lid))))))) (. .)))
+-194.092
+(S1 (S (VP (VB Combine) (NP (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-194.427
+(S1 (S (VP (VB Combine) (S (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))) (. .)))
+-194.433
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (RB tight) (JJ fitting)) (NN lid)))))) (. .)))
+-194.58
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper)))) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-194.655
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid))))) (. .)))
+-194.917
+(S1 (S (VP (VB Combine) (S (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))))))) (. .)))
+-194.958
+(S1 (S (VP (VB Combine) (S (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid))))))) (. .)))
+-194.961
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))))) (. .)))
+-195.006
+(S1 (S (VP (VBP Combine) (S (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))))) (. .)))
+-195.02
+(S1 (SQ (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-195.161
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (RB tight) (JJ fitting) (NN lid)))))) (. .)))
+-195.253
+(S1 (S (VP (VBP Combine) (S (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))))) (. .)))
+-195.257
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (ADJP (JJ tight)) (JJ fitting) (NN lid)))) (. .)))
+-195.282
+(S1 (SQ (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-195.323
+(S1 (S (VP (VBP Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))) (. .)))
+-195.417
+(S1 (S (VP (VBP Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))))) (. .)))
+-195.537
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (JJ tight)) (JJ fitting) (NN lid))))))) (. .)))
+-195.815
+(S1 (S (VP (VB Combine) (NP (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid))))) (. .)))
+-195.889
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise)) (, ,) (NP (NN milk)) (, ,) (NP (NN salt)) (CC and) (NP (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))
+-196.04
+(S1 (S (VP (VBP Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (NN fitting) (NN lid)))))) (. .)))
+-196.165
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (ADJP (JJ fitting)) (NN lid)))) (. .)))
+-196.341
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar))) (PP (IN with) (NP (DT a) (ADJP (JJ tight) (JJ fitting)) (NN lid)))) (. .)))
+-196.445
+(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (JJ tight) (ADJP (JJ fitting)) (NN lid))))))) (. .)))
+-196.624
+(S1 (S (VP (VB Combine) (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (NP (DT a) (NN jar)) (PP (IN with) (NP (DT a) (ADJP (JJ tight)) (JJ fitting) (NN lid)))))) (. .)))
+
+50	6
+-127.6
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-128.808
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad))))))) (. .)))
+-129.261
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-129.282
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-130.213
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-130.489
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad)))))))) (. .)))
+-130.845
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-130.943
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-131.053
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VBP pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-131.2
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad))))))) (. .)))
+-131.742
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad))))))) (. .)))
+-131.874
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-131.905
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix)))))) (, ,) (RB then) (S (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-131.937
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (VB mix)))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-132.45
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix)))))) (, ,) (RB then) (S (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-132.516
+(S1 (S (VP (VB Shake) (S (RB vigorously) (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad))))))) (. .)))
+-132.527
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-132.571
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (S (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-132.582
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VBP pour) (PP (IN over) (NP (PRP$ your) (NN salad)))))))) (. .)))
+-132.613
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad)))))))) (. .)))
+-132.617
+(S1 (S (VP (VP (VB Shake) (NP (QP (RB vigorously) (TO to) (NN mix)))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-132.714
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VBP pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-132.841
+(S1 (S (VP (VP (VB Shake) (S (RB vigorously) (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-132.904
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (S (VP (TO to) (VP (VB mix)))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.116
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (S (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-133.13
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.292
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (NN mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.458
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.563
+(S1 (S (VP (VB Shake) (S (ADVP (RB vigorously)) (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad))))))) (. .)))
+-133.618
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (VB mix)))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-133.698
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (TO to) (NN mix))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.824
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix)))))) (, ,) (RB then) (S (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-133.888
+(S1 (S (VP (VP (VB Shake) (S (ADVP (RB vigorously)) (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.033
+(S1 (S (VP (VB Shake) (S (VP (ADVP (RB vigorously)) (VP (TO to) (VP (VB mix))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))))) (. .)))
+-134.089
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (NN mix) (, ,) (ADVP (RB then)) (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))))) (. .)))
+-134.198
+(S1 (S (VP (VB Shake) (S (RB vigorously) (VP (TO to) (VP (VP (VB mix)) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad)))))))) (. .)))
+-134.27
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (VP (ADVP (RB then)) (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.298
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix))))) (, ,) (RB then) (VP (VBP pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.298
+(S1 (S (VP (VP (VB Shake) (NP (QP (RB vigorously) (TO to) (NN mix)))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.311
+(S1 (S (VP (VP (VBP Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.369
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (NN mix)))))) (, ,) (RB then) (S (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.423
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix) (, ,) (ADVP (RB then)) (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))))) (. .)))
+-134.502
+(S1 (S (VP (VB Shake) (S (VP (ADVP (RB vigorously)) (VP (TO to) (VP (VB mix))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))))) (. .)))
+-134.523
+(S1 (S (VP (VP (VB Shake) (S (RB vigorously) (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.55
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (VB mix)))) (, ,) (RB then) (VP (VBP pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.586
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (S (VP (TO to) (VP (VB mix)))))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.752
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (ADVP (RB then)) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.8
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))
+-134.8
+(S1 (S (VP (VP (VBP Shake) (ADVP (RB vigorously)) (PP (TO to) (NP (NN mix)))) (, ,) (RB then) (VP (VBP pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+-134.812
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (TO to) (NP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PP (IN over) (NP (PRP$ your) (NN salad))))) (. .)))
+

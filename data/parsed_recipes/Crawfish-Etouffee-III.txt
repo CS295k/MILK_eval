@@ -1,0 +1,918 @@
+50	1
+-33.9309
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (VP (VBN chopped))))
+-44.1558
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADVP (RB chopped))))
+-47.106
+(S1 (S (NP (NP (CD 1) (NN onion)) (, ,) (VP (VBN chopped)))))
+-47.1596
+(S1 (FRAG (NP (NP (CD 1) (NN onion)) (, ,) (VP (VBN chopped)))))
+-47.398
+(S1 (NP (NP (QP (CD 1) (NN onion))) (, ,) (VP (VBN chopped))))
+-48.9456
+(S1 (NP (NP (NP (CD 1)) (NN onion)) (, ,) (VP (VBN chopped))))
+-49.8949
+(S1 (NP (NP (ADJP (CD 1) (NN onion))) (, ,) (VP (VBN chopped))))
+-54.9976
+(S1 (NP (ADJP (CD 1) (NN onion)) (, ,) (VP (VBN chopped))))
+-55.9029
+(S1 (FRAG (NP (NP (CD 1) (NN onion)) (, ,) (ADVP (RB chopped)))))
+-56.4132
+(S1 (NP (NP (NP (CD 1) (NN onion)) (, ,)) (VP (VBN chopped))))
+-56.7661
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (NP (RB chopped))))
+-57.0499
+(S1 (NP (CD 1) (NN onion) (, ,) (ADVP (RB chopped))))
+-57.484
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADVP (JJ chopped))))
+-57.6229
+(S1 (NP (NP (QP (CD 1) (NN onion))) (, ,) (ADVP (RB chopped))))
+-57.8289
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (NP (JJ chopped))))
+-58.3015
+(S1 (NP (NP (ADJP (CD 1) (NN onion)) (, ,)) (VP (VBN chopped))))
+-58.8249
+(S1 (S (NP (NP (QP (CD 1) (NN onion))) (, ,) (VP (VBN chopped)))))
+-59.1258
+(S1 (FRAG (NP (CD 1) (NN onion)) (, ,) (ADVP (RB chopped))))
+-59.1705
+(S1 (NP (NP (NP (CD 1)) (NN onion)) (, ,) (ADVP (RB chopped))))
+-59.2055
+(S1 (S (NP (NP (CD 1) (NN onion)) (, ,) (ADVP (RB chopped)))))
+-59.8711
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADJP (JJ chopped))))
+-60.0323
+(S1 (NP (NP (CD 1) (NN onion) (, ,)) (VP (VBN chopped))))
+-60.1198
+(S1 (NP (NP (ADJP (CD 1) (NN onion))) (, ,) (ADVP (RB chopped))))
+-60.2605
+(S1 (S (NP (CD 1)) (NP (NP (NN onion)) (, ,) (VP (VBN chopped)))))
+-60.3273
+(S1 (FRAG (NP (NP (QP (CD 1) (NN onion))) (, ,) (VP (VBN chopped)))))
+-60.4884
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (RB chopped)))
+-60.8061
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADJP (RB chopped))))
+-61.5737
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (SBAR (S (VP (VBN chopped))))))
+-62.0895
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (NP (VBN chopped))))
+-62.1207
+(S1 (S (NP (NP (NP (CD 1)) (NN onion)) (, ,) (VP (VBN chopped)))))
+-62.1576
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADJP (VBN chopped))))
+-62.1712
+(S1 (FRAG (S (NP (NP (CD 1) (NN onion)) (, ,) (VP (VBN chopped))))))
+-62.1743
+(S1 (FRAG (NP (NP (NP (CD 1)) (NN onion)) (, ,) (VP (VBN chopped)))))
+-62.2952
+(S1 (NP (NP (NP (CD 1) (NN onion)) (, ,)) (ADVP (RB chopped))))
+-62.5162
+(S1 (FRAG (NP (NP (ADJP (CD 1) (NN onion)) (, ,)) (VP (VBN chopped)))))
+-62.5177
+(S1 (FRAG (NP (NP (NP (CD 1) (NN onion)) (, ,)) (VP (VBN chopped)))))
+-62.5839
+(S1 (FRAG (NP (NP (CD 1) (NN onion)) (, ,) (NP (RB chopped)))))
+-62.8626
+(S1 (FRAG (NP (ADJP (CD 1) (NN onion)) (, ,) (VP (VBN chopped)))))
+-62.915
+(S1 (S (NP (NP (ADJP (CD 1) (NN onion))) (, ,) (VP (VBN chopped)))))
+-62.9968
+(S1 (FRAG (NP (CD 1) (NN onion)) (, ,) (ADJP (JJ chopped))))
+-63.1202
+(S1 (FRAG (NP (NP (CD 1) (NN onion)) (, ,) (NP (JJ chopped)))))
+-63.1509
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (ADVP (VBN chopped))))
+-63.3499
+(S1 (S (NP (NP (CD 1) (NN onion)) (, ,) (NP (RB chopped)))))
+-63.3775
+(S1 (FRAG (NP (NP (ADJP (CD 1) (NN onion))) (, ,) (VP (VBN chopped)))))
+-63.803
+(S1 (S (NP (CD 1) (NN onion)) (, ,) (ADVP (RB chopped))))
+-63.9242
+(S1 (NP (NP (CD 1) (NN onion)) (, ,) (FRAG (VP (VBN chopped)))))
+-63.9932
+(S1 (FRAG (NP (NP (CD 1) (NN onion) (, ,)) (VP (VBN chopped)))))
+-64.0919
+(S1 (FRAG (FRAG (NP (CD 1) (NN onion))) (, ,) (ADVP (RB chopped))))
+-64.1834
+(S1 (NP (NP (ADJP (CD 1) (NN onion)) (, ,)) (ADVP (RB chopped))))
+-64.3177
+(S1 (FRAG (NP (CD 1) (NN onion)) (, ,) (FRAG (ADJP (JJ chopped)))))
+
+50	2
+-119.127
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup)))
+-120.209
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup)))
+-121.943
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-126.436
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-128.735
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup))))
+-128.915
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (JJ tomato) (NN soup)))
+-129.202
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NP (NN soup))))
+-130.295
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (FW tomato)) (NN soup)))
+-130.561
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (JJ tomato)) (NN soup)))
+-131.129
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup))))
+-131.746
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN tomato) (NN soup)))
+-132.337
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (JJ tomato) (NN soup)))
+-132.545
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup))))
+-132.585
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NN soup)))
+-133.281
+(S1 (FRAG (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NP (NN soup)))))
+-133.384
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup))))
+-133.408
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (JJ tomato) (NN soup)))
+-133.663
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup)))
+-134.745
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup)))
+-135.185
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (JJ tomato) (NN soup))))
+-135.825
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (NN tomato) (NN soup))))
+-136.479
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-136.899
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup)))
+-137.128
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (NN tomato)) (NN soup)))
+-137.157
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NP (NN soup))))
+-137.981
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup)))
+-138.367
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato) (NN soup)))
+-138.751
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (JJ tomato) (NN soup))))
+-139.17
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NP (NN soup)))))
+-139.264
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (JJ tomato) (NN soup)))))
+-139.45
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup)))
+-139.904
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (NN tomato) (NN soup)))))
+-140.103
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NN soup))))
+-140.251
+(S1 (NP (NP (QP (CD 1))) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-140.316
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (FW tomato)) (NN soup))))
+-140.327
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (JJ tomato) (NN soup))))
+-140.432
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (FW tomato) (NN soup)))
+-140.708
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (JJ tomato)) (NN soup))))
+-140.791
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (NN tomato) (NN soup))))
+-140.972
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-141.092
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN tomato) (NN soup))))
+-141.183
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-141.832
+(S1 (FRAG (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN tomato)) (NN soup))))
+-142.133
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-))) (NN can) (JJ condensed) (NN tomato) (NN soup)))
+-142.941
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (FW tomato)) (NN soup))))
+-143.272
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (JJ tomato) (NN soup))))
+-143.452
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ condensed) (JJ tomato) (NN soup)))
+-143.457
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN tomato) (NN soup))))
+-143.492
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (ADJP (JJ tomato)) (NN soup))))
+-143.644
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (JJ tomato) (NN soup))))
+
+50	3
+-127.35
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-129.961
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-131.858
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-138.661
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-139.589
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-141.289
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (S (NP (NN mushroom) (NN soup))))))
+-141.486
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-141.886
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-143.278
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NP (NN mushroom)) (NP (NN soup))))))
+-143.595
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (NP (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-143.796
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-143.901
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (S (NP (NN mushroom) (NN soup))))))
+-144.07
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NP (NN mushroom)) (NN soup)))))
+-144.498
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-145.122
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-145.205
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-145.693
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-145.741
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (NP (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-145.798
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (S (NP (NN mushroom) (NN soup)))))))
+-145.89
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NP (NN soup))))))
+-146.395
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-146.59
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-146.682
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NN soup)))))
+-146.96
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (NN cream))) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-147.734
+(S1 (NP (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-147.787
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NP (NN soup)))))))
+-148.579
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NN soup))))))
+-148.73
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-149.202
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-149.631
+(S1 (S (NP (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-150.367
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-150.996
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ condensed) (NN cream))) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-151.099
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 10.75)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-151.547
+(S1 (S (VP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-151.89
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-152.703
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75)) (NN ounce) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-153.198
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-153.529
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (S (NP (NN mushroom) (NN soup))))))
+-153.533
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (JJ condensed) (NP (NP (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))))
+-153.787
+(S1 (S (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-154.125
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 10.75) (NN ounce))) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-154.186
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (S (NP (NN mushroom) (NN soup))))))
+-154.257
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NP (NN soup))))))
+-155.146
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream) (PP (IN of) (S (NP (NP (NN mushroom)) (NN soup))))))
+-155.162
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (NP (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup))))))
+-155.315
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75)) (NN ounce) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))
+-155.382
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ condensed) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NN soup)))))
+-155.425
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (S (NP (NN mushroom) (NN soup)))))))
+-155.517
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ condensed)) (NN cream)) (PP (IN of) (NP (NP (NN mushroom)) (NP (NN soup))))))
+-155.518
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 10.75) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (NP (NP (JJ condensed) (NN cream)) (PP (IN of) (NP (NN mushroom) (NN soup)))))))
+
+50	4
+-183.227
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-184.501
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))
+-185.349
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-185.631
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-187.815
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-188.097
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-189.196
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-189.52
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))))
+-189.566
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers)))))))
+-189.802
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))))
+-189.859
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-190.141
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-190.379
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))
+-190.404
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (SBAR (S (VP (NNS tomatoes) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))))
+-190.687
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile)))) (NP (NNS peppers)))))
+-190.763
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (S (VP (NNS tomatoes) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-190.84
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers))))))
+-190.9
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (ADJP (JJ green)) (NNP chile) (NNS peppers)))))))
+-191.072
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-191.688
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers))))))))
+-191.844
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NN green) (NNP chile) (NNS peppers)))))))
+-191.97
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers)))))))
+-191.973
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (S (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-191.992
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-192.048
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-192.174
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (ADJP (JJ green)) (NNP chile) (NNS peppers))))))
+-192.721
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NP (JJ green) (NNP chile)) (NNS peppers)))))))
+-193.022
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (ADJP (JJ green)) (NNP chile) (NNS peppers))))))))
+-193.119
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NN green) (NNP chile) (NNS peppers))))))
+-193.222
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (SBAR (S (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-193.304
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (ADJP (JJ green)) (NNP chile) (NNS peppers)))))))
+-193.467
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (SBAR (S (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile)))) (VP (VBZ peppers)))))))
+-193.537
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-193.603
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (S (VP (NNS tomatoes) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))))
+-193.654
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (S (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-193.66
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile))) (NP (NNS peppers)))))
+-193.921
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-193.932
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (S (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-193.967
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NN green) (NNP chile) (NNS peppers))))))))
+-193.995
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NP (JJ green) (NNP chile)) (NNS peppers))))))
+-194.112
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (S (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))))
+-194.13
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers))))))))
+-194.154
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers))))))))
+-194.179
+(S1 (S (NP (NP (CD 1)) (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-194.249
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NN green) (NNP chile) (NNS peppers)))))))
+-194.293
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (SBAR (S (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))))
+-194.412
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-194.426
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 10) (NN ounce))) (-RRB- -RRB-))) (MD can) (VP (VBD diced) (NP (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+-194.436
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB diced) (NP (NNS tomatoes)) (PP (IN with) (NP (NNP green) (NNP chile) (NNS peppers)))))))
+-194.457
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBD diced) (NP (NNS tomatoes)) (PP (IN with) (NP (JJ green) (NNP chile) (NNS peppers)))))))
+
+50	5
+-96.1065
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-97.9506
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish))) (, ,) (VP (VBN peeled))))
+-99.3157
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-100.018
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish)) (, ,) (VP (VBN peeled))))
+-100.464
+(S1 (FRAG (ADJP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-100.965
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VB crawfish) (, ,) (VBN peeled))))
+-101.327
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-101.563
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-101.686
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-102.702
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,) (VP (VBN peeled)))))
+-102.783
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADVP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-103.461
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VB crawfish) (, ,) (VBN peeled)))))
+-103.762
+(S1 (FRAG (ADJP (QP (CD 1) (CD 1/2)) (NNS pounds) (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-104.056
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (VB crawfish)) (, ,) (VP (VBN peeled))))
+-104.112
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NNS crawfish)) (, ,) (VP (VBN peeled))))
+-104.395
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VB crawfish) (, ,) (VBN peeled)))))
+-104.405
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds) (NNS crawfish)) (, ,) (VP (VBN peeled))))
+-104.682
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds) (NN crawfish)) (, ,) (VP (VBN peeled))))
+-104.711
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NNS crawfish))) (, ,) (VP (VBN peeled))))
+-104.732
+(S1 (FRAG (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-104.745
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBP crawfish) (, ,) (VBN peeled))))
+-105.026
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish)) (, ,)) (VP (VBN peeled))))
+-105.588
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,) (VP (VBN peeled)))))
+-105.685
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,) (SBAR (S (VP (VBN peeled))))))
+-105.688
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (VB crawfish))) (, ,) (VP (VBN peeled))))
+-105.689
+(S1 (FRAG (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish))) (, ,) (VP (VBN peeled)))))
+-105.764
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-105.767
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish))) (, ,) (SBAR (S (VP (VBN peeled))))))
+-105.89
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (VB crawfish)) (, ,) (VP (VBN peeled))))
+-106.07
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (NN crawfish))) (, ,) (VP (VBN peeled))))
+-106.304
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-107.054
+(S1 (FRAG (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (JJ crawfish)) (, ,) (VP (VBN peeled)))))
+-107.097
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds) (NNS crawfish)) (, ,) (VP (VBN peeled)))))
+-107.098
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VB crawfish) (, ,) (VBN peeled))))
+-107.132
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (JJ crawfish)) (, ,) (SBAR (S (VP (VBN peeled))))))
+-107.155
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADVP (NN crawfish))) (, ,) (VP (VBN peeled))))
+-107.241
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBP crawfish) (, ,) (VBN peeled)))))
+-107.357
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (SBAR (S (VP (VBP crawfish))))) (, ,) (VP (VBN peeled))))
+-107.37
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADVP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-107.469
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS pounds) (NN crawfish)) (, ,) (VP (VBN peeled))))
+-107.523
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBP crawfish) (, ,) (S (ADJP (VBN peeled))))))
+-107.591
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (JJ crawfish)) (, ,) (VP (VBN peeled))))
+-107.667
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish))) (, ,) (VP (VBN peeled))))
+-107.67
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish))) (, ,) (S (VP (VBN peeled)))))
+-107.758
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBP crawfish) (, ,) (S (VP (VBN peeled))))))
+-107.842
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish))) (, ,) (VP (VBN peeled))))
+-108.046
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish)) (, ,)) (VP (VBN peeled))))
+-108.053
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (NP (NN crawfish)) (, ,) (SBAR (S (VP (VBN peeled))))))
+-108.088
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (ADJP (JJ crawfish) (, ,) (VBN peeled))))
+-108.176
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBP crawfish) (, ,) (VBN peeled)))))
+
+50	6
+-133.013
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-136.943
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (RB clear)))) (. .)))
+-137.573
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (JJ clear)))) (. .)))
+-139
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (RB clear)))) (. .)))
+-139.125
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-139.582
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-140.439
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (JJ clear)))) (. .)))
+-141.348
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear))))) (. .)))
+-143.055
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (NP (RB clear)))) (. .)))
+-143.096
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (S (VP (JJ clear))))) (. .)))
+-143.166
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (SBAR (IN until) (S (ADJP (JJ clear))))) (. .)))
+-143.461
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (SBAR (IN until) (FRAG (ADJP (JJ clear))))) (. .)))
+-143.505
+(S1 (S (PP (IN In) (S (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat)))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-143.511
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (RB clear)))) (. .)))
+-143.685
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (ADVP (JJ clear)))) (. .)))
+-143.733
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat)))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-144.141
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (JJ clear)))) (. .)))
+-144.226
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (VP (VB clear)))) (. .)))
+-144.398
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (RB clear)))) (. .)))
+-144.445
+(S1 (S (PP (IN In) (NP (NP (DT a) (ADJP (JJ large)) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-144.515
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (S (ADJP (JJ clear))))) (. .)))
+-144.542
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (VB clear)))) (. .)))
+-144.924
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (S (VP (NN onion) (PP (IN until) (ADJP (JJ clear)))))) (. .)))
+-144.942
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (NN medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-145.112
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (ADVP (RB clear)))) (. .)))
+-145.115
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (FRAG (ADJP (JJ clear))))) (. .)))
+-145.203
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (RB clear))) (. .)))
+-145.277
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (RB clear))))) (. .)))
+-145.36
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADJP (ADVP (NN onion) (IN until)) (JJ clear))) (. .)))
+-145.569
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (RB clear)))) (. .)))
+-145.694
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-145.907
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (JJ clear))))) (. .)))
+-145.908
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (FRAG (JJ clear)))) (. .)))
+-146.115
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (PP (ADVP (NN onion)) (IN until) (ADJP (JJ clear)))) (. .)))
+-146.213
+(S1 (S (PP (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat)))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-146.551
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (NP (JJ clear)))) (. .)))
+-146.662
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (SBAR (IN until) (ADJP (JJ clear)))) (. .)))
+-146.716
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (VP (NN onion) (PP (IN until) (ADJP (JJ clear))))) (. .)))
+-147.008
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN saucepan))) (PP (IN on) (NP (JJ medium) (NN heat))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (JJ clear)))) (. .)))
+-147.184
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (NP (VB saute)) (VP (NN onion) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-147.335
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (S (NP (NN onion)) (PP (IN until) (ADVP (JJ clear))))) (. .)))
+-147.335
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADVP (RB clear))))) (. .)))
+-147.346
+(S1 (S (PP (IN In) (S (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-147.389
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (PP (NN onion) (PP (IN until) (ADVP (JJ clear))))) (. .)))
+-147.412
+(S1 (FRAG (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (ADJP (JJ clear)))) (. .)))
+-147.434
+(S1 (S (PP (IN In) (S (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat)))))) (, ,) (VP (VB saute) (NP (NN onion)) (PP (IN until) (NP (RB clear)))) (. .)))
+-147.451
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (S (NP (NN onion)) (PP (IN until) (ADJP (JJ clear))))) (. .)))
+-147.46
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VB saute) (ADVP (NN onion)) (PP (IN until) (ADJP (JJ clear))))) (. .)))
+-147.54
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (ADJP (NN onion) (PP (IN until) (ADJP (JJ clear))))) (. .)))
+-147.568
+(S1 (S (PP (IN In) (NP (NP (DT a) (JJ large) (NN saucepan)) (PP (IN on) (NP (JJ medium) (NN heat))))) (, ,) (VP (VB saute) (NP (NN onion)) (SBAR (IN until) (S (VP (VBP clear))))) (. .)))
+
+50	7
+-149.403
+(S1 (S (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-150.546
+(S1 (S (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-150.86
+(S1 (S (VP (VB Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-152.003
+(S1 (S (VP (VB Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-155.097
+(S1 (S (VP (VB Add) (PP (FW tomato) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes))))) (. .)))
+-155.646
+(S1 (S (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes))))) (. .)))
+-156.24
+(S1 (S (VP (VB Add) (PP (FW tomato) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes))))) (. .)))
+-156.382
+(S1 (S (VP (VB Add) (NP (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-156.475
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-156.666
+(S1 (S (VP (VB Add) (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-156.789
+(S1 (S (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes))))) (. .)))
+-157.005
+(S1 (S (VP (VB Add) (NP (NP (FW tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-157.381
+(S1 (S (VP (VP (VB Add) (NP (JJ tomato) (NN soup))) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-157.526
+(S1 (S (VP (VB Add) (NP (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-157.618
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-157.643
+(S1 (S (VP (VB Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes))))) (. .)))
+-157.665
+(S1 (S (VP (VBP Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-157.809
+(S1 (S (VP (VB Add) (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-158.149
+(S1 (S (VP (VB Add) (NP (NP (FW tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-158.322
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NX (NX (NN soup)) (, ,) (NX (NN mushroom) (NN soup)) (, ,) (CC and) (NX (JJ canned) (NNS tomatoes))))) (. .)))
+-158.379
+(S1 (S (VP (VB Add) (NP (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-158.493
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NX (NX (NN soup)) (, ,) (NX (NN mushroom) (NN soup)) (, ,) (CC and) (NX (VBN canned) (NNS tomatoes))))) (. .)))
+-158.524
+(S1 (S (VP (VP (VB Add) (NP (JJ tomato) (NN soup))) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-158.786
+(S1 (S (VP (VB Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes))))) (. .)))
+-158.808
+(S1 (S (VP (VBP Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-158.843
+(S1 (S (VP (VB Add) (NP (NN tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-158.9
+(S1 (S (VP (VB Add) (NP (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup))) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-158.999
+(S1 (S (VP (VB Add) (NP (NP (NNP tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.122
+(S1 (S (VP (VBP Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.163
+(S1 (S (VP (VB Add) (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes))))) (. .)))
+-159.166
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NN soup) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.522
+(S1 (S (VP (VB Add) (NP (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-159.748
+(S1 (S (VP (VP (VB Add) (NP (NN tomato) (NN soup))) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.9
+(S1 (S (VP (VB Add) (NP (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.916
+(S1 (SQ (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-159.986
+(S1 (S (VP (VB Add) (NP (NN tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.043
+(S1 (S (VP (VB Add) (NP (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup))) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.142
+(S1 (S (VP (VB Add) (NP (NP (NNP tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.152
+(S1 (S (VP (VB Add) (NP (NN tomato)) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-160.265
+(S1 (S (VP (VBP Add) (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.306
+(S1 (S (VP (VB Add) (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes))))) (. .)))
+-160.309
+(S1 (S (VP (VB Add) (NP (JJ tomato) (NN soup) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.351
+(S1 (S (VP (VB Add) (NP (NP (NP (FW tomato)) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-160.54
+(S1 (S (VP (VB Add) (NP (NP (FW tomato)) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes))))) (. .)))
+-160.758
+(S1 (S (VP (VB Add) (NP (FW tomato)) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-160.892
+(S1 (S (VP (VP (VB Add) (NP (NN tomato) (NN soup))) (, ,) (NP (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-160.897
+(S1 (S (VP (VB Add) (NP (NP (NP (NN tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup))) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+-161.043
+(S1 (S (VP (VB Add) (NP (NP (NP (CD tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,)) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-161.06
+(S1 (SQ (VP (VB Add) (NP (NP (JJ tomato) (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (VBN canned) (NNS tomatoes)))) (. .)))
+-161.083
+(S1 (S (VP (VB Add) (ADVP (FW tomato)) (NP (NP (NN soup)) (, ,) (NP (NN mushroom) (NN soup)) (, ,) (CC and) (NP (JJ canned) (NNS tomatoes)))) (. .)))
+
+50	8
+-47.425
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-52.5236
+(S1 (S (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes))) (. .)))
+-53.2061
+(S1 (S (VP (VB Simmer) (NP (IN for) (CD 15) (NNS minutes))) (. .)))
+-53.5847
+(S1 (S (VP (VB Simmer) (NP (QP (IN for) (CD 15)) (NNS minutes))) (. .)))
+-55.0125
+(S1 (S (VP (VB Simmer) (PRT (IN for)) (NP (CD 15) (NNS minutes))) (. .)))
+-55.2197
+(S1 (SQ (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-55.5944
+(S1 (S (VP (VB Simmer) (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-58.1834
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .))))
+-60.4938
+(S1 (FRAG (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))))) (. .)))
+-60.8574
+(S1 (S (VP (VB Simmer)) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-61.318
+(S1 (S (VP (VB Simmer) (ADVP (IN for)) (NP (CD 15) (NNS minutes))) (. .)))
+-61.4826
+(S1 (FRAG (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-61.9883
+(S1 (S (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))))) (. .)))
+-62.0432
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (QP (CD 15) (NNS minutes))))) (. .)))
+-62.4442
+(S1 (SQ (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes))) (. .)))
+-62.8737
+(S1 (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-62.9651
+(S1 (SQ (VP (VB Simmer) (NP (IN for) (CD 15) (NNS minutes))) (. .)))
+-63.1124
+(S1 (FRAG (NP (VB Simmer)) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-63.1266
+(S1 (FRAG (VP (VB Simmer)) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-63.3437
+(S1 (SQ (VP (VB Simmer) (NP (QP (IN for) (CD 15)) (NNS minutes))) (. .)))
+-63.4235
+(S1 (S (VP (VB Simmer) (ADVP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-63.7956
+(S1 (S (VP (VP (VB Simmer)) (PP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-64.3634
+(S1 (S (VP (VB Simmer) (NP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-64.661
+(S1 (SQ (VP (VB Simmer) (PRT (IN for)) (NP (CD 15) (NNS minutes))) (. .)))
+-65.0214
+(S1 (S (NP (VB Simmer)) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-65.0568
+(S1 (FRAG (VP (VB Simmer) (NP (IN for) (CD 15) (NNS minutes))) (. .)))
+-65.153
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (NP (CD 15)) (NNS minutes)))) (. .)))
+-65.391
+(S1 (SINV (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-65.4354
+(S1 (FRAG (VP (VB Simmer) (NP (QP (IN for) (CD 15)) (NNS minutes))) (. .)))
+-65.5526
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (CD 15))) (NP (NNS minutes))) (. .)))
+-65.5925
+(S1 (FRAG (S (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes)))) (. .)))
+-65.7235
+(S1 (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes) (. .))))))
+-65.7348
+(S1 (FRAG (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes))) (. .)))
+-65.983
+(S1 (S (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes)) (. .))))
+-66.2383
+(S1 (FRAG (SBAR (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))))) (. .)))
+-66.2749
+(S1 (FRAG (S (VP (VB Simmer) (NP (IN for) (CD 15) (NNS minutes)))) (. .)))
+-66.3757
+(S1 (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes)) (. .)))
+-66.4324
+(S1 (SBARQ (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))))) (. .)))
+-66.6535
+(S1 (FRAG (S (VP (VB Simmer) (NP (QP (IN for) (CD 15)) (NNS minutes)))) (. .)))
+-66.7971
+(S1 (S (VP (VB Simmer) (FRAG (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))))
+-66.9632
+(S1 (SINV (SBAR (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))))) (. .)))
+-67.0651
+(S1 (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes) (. .)))))
+-67.087
+(S1 (S (S (VP (VB Simmer) (PRT (RP for)) (NP (CD 15) (NNS minutes)))) (. .)))
+-67.3313
+(S1 (SBARQ (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes)))) (. .)))
+-67.5295
+(S1 (FRAG (S (VP (VB Simmer) (PP (IN for) (NP (CD 15) (NNS minutes))) (. .)))))
+-67.5381
+(S1 (SQ (VP (VB Simmer) (IN for) (NP (CD 15) (NNS minutes))) (. .)))
+-67.7694
+(S1 (S (S (VP (VB Simmer) (NP (IN for) (CD 15) (NNS minutes)))) (. .)))
+-68.0814
+(S1 (FRAG (S (VP (VB Simmer) (PRT (IN for)) (NP (CD 15) (NNS minutes)))) (. .)))
+-68.148
+(S1 (S (S (VP (VB Simmer) (NP (QP (IN for) (CD 15)) (NNS minutes)))) (. .)))
+-68.325
+(S1 (FRAG (VP (VB Simmer) (PRT (IN for)) (NP (CD 15) (NNS minutes))) (. .)))
+
+50	9
+-121.663
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-124.649
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-124.998
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-125.13
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-125.429
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-126.565
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-126.843
+(S1 (S (VP (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-127.624
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (QP (IN for) (CD 25)) (NNS minutes)))) (. .)))
+-128.188
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (IN for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-128.465
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-128.763
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-129.031
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-129.713
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-129.788
+(S1 (S (S (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-129.907
+(S1 (S (S (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-130.032
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-130.31
+(S1 (S (VP (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-130.331
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-130.608
+(S1 (S (VP (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-130.685
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-130.749
+(S1 (S (S (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))))) (CC and) (S (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-130.958
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (NP (QP (IN for) (CD 25)) (NNS minutes)))) (. .)))
+-131.305
+(S1 (FRAG (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-131.313
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (. .)))
+-131.52
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PRT (IN for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-131.522
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PRT (IN for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-131.536
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer))) (PP (IN for) (NP (CD 25) (NNS minutes))) (. .)))
+-132.026
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-132.207
+(S1 (S (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (NP (QP (IN for) (CD 25)) (NNS minutes)))) (. .)))
+-132.332
+(S1 (SQ (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-132.346
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the)) (ADJP (JJ crawfish))) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-132.526
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (QP (IN for) (CD 25)) (NNS minutes)))) (. .)))
+-132.67
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the)) (ADJP (JJ crawfish) (PP (IN into) (NP (DT the) (NN pan)))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-132.803
+(S1 (S (VP (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (NP (QP (IN for) (CD 25)) (NNS minutes)))) (. .)))
+-133.09
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (IN for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-133.368
+(S1 (S (VP (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PRT (IN for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-133.699
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (ADVP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-134.153
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (NP (IN for) (CD 25) (NNS minutes)))) (. .)))
+-134.169
+(S1 (S (S (VP (VB Place) (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-134.187
+(S1 (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes)))) (. .)))
+-134.266
+(S1 (S (VP (VP (VB Place) (S (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-134.289
+(S1 (S (S (VP (VB Place) (NP (DT the) (JJ crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (S (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-134.451
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NNS crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PRT (RP for)) (NP (CD 25) (NNS minutes)))) (. .)))
+-134.639
+(S1 (FRAG (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-134.647
+(S1 (S (VP (VP (VB Place) (NP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan))))) (CC and) (VP (VB simmer)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (. .)))
+-134.691
+(S1 (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NNP pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-134.718
+(S1 (S (VP (VP (VB Place) (NP (DT the) (ADJP (JJ crawfish))) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+-134.74
+(S1 (FRAG (S (VP (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (. .)))
+-134.755
+(S1 (S (VP (VB Place) (NP (DT the) (NN crawfish)) (PP (IN into) (NP (NP (DT the) (NN pan) (CC and) (VB simmer)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (. .)))
+-134.771
+(S1 (S (NP (NN Place)) (VP (VP (NP (DT the) (NN crawfish)) (PP (IN into) (NP (DT the) (NN pan)))) (CC and) (VP (VB simmer) (PP (IN for) (NP (CD 25) (NNS minutes))))) (. .)))
+

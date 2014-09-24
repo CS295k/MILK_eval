@@ -1,0 +1,816 @@
+50	1
+-103.694
+(S1 (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur)))
+-105.706
+(S1 (NP (ADJP (CD 2) (NNS cups) (JJ cherry)) (NN brandy) (NNP liqueur)))
+-105.903
+(S1 (NP (QP (CD 2) (NNS cups)) (NN cherry) (NN brandy) (NNP liqueur)))
+-106.034
+(S1 (NP (ADJP (NP (CD 2) (NNS cups)) (JJ cherry)) (NN brandy) (NNP liqueur)))
+-106.873
+(S1 (NP (CD 2) (NNS cups) (NN cherry) (NN brandy) (NNP liqueur)))
+-107.755
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (NP (NNP liqueur))))
+-110.202
+(S1 (NP (CD 2) (NNS cups) (JJ cherry) (NN brandy) (NNP liqueur)))
+-110.595
+(S1 (FRAG (NP (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (NP (NNP liqueur)))))
+-110.99
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NP (NN brandy) (NNP liqueur))))
+-111.477
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (JJ cherry) (NN brandy) (NNP liqueur))))
+-112.671
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NN brandy) (NNP liqueur)))
+-112.687
+(S1 (NP (ADJP (QP (CD 2) (NNS cups)) (NN cherry)) (NN brandy) (NNP liqueur)))
+-112.845
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (NN cherry) (NN brandy) (NNP liqueur))))
+-113.09
+(S1 (NP (NP (CD 2) (NNS cups) (NN cherry) (NN brandy)) (NP (NNP liqueur))))
+-113.118
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (NP (JJ cherry) (NN brandy)) (NP (NNP liqueur)))))
+-113.369
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (ADJP (NNP liqueur))))
+-113.575
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (NP (JJ cherry) (NN brandy))) (NNP liqueur)))
+-113.643
+(S1 (NP (NP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur)))
+-113.645
+(S1 (NP (NP (ADJP (CD 2) (NNS cups) (JJ cherry)) (NN brandy)) (NP (NNP liqueur))))
+-113.826
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN cherry) (NN brandy)) (NP (NNP liqueur))))
+-113.83
+(S1 (FRAG (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NP (NN brandy) (NNP liqueur)))))
+-113.833
+(S1 (NP (CD 2) (NNS cups) (NP (NP (JJ cherry) (NN brandy)) (NP (NNP liqueur)))))
+-113.936
+(S1 (NP (CD 2) (NNS cups) (NP (JJ cherry) (NN brandy) (NNP liqueur))))
+-113.98
+(S1 (S (NP (CD 2) (NNS cups) (JJ cherry) (NN brandy)) (ADJP (NNP liqueur))))
+-114.312
+(S1 (FRAG (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (NP (NNP liqueur))))
+-114.457
+(S1 (S (NP (ADJP (CD 2) (NNS cups) (JJ cherry)) (NN brandy) (NNP liqueur))))
+-114.521
+(S1 (FRAG (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur))))
+-114.553
+(S1 (FRAG (NP (NP (CD 2) (NNS cups)) (NP (JJ cherry) (NN brandy) (NNP liqueur)))))
+-114.722
+(S1 (FRAG (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NP (NN brandy))) (NP (NNP liqueur))))
+-114.785
+(S1 (S (NP (ADJP (NP (CD 2) (NNS cups)) (JJ cherry)) (NN brandy) (NNP liqueur))))
+-114.905
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (NP (NNP liqueur))))
+-114.939
+(S1 (X (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NP (NN brandy)) (NP (NNP liqueur))))
+-115.179
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur))))
+-115.228
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy)) (NNP liqueur)))
+-115.24
+(S1 (S (NP (CD 2) (NNS cups) (NN cherry) (NN brandy)) (ADJP (NNP liqueur))))
+-115.516
+(S1 (S (NP (CD 2) (NNS cups) (JJ cherry) (NN brandy)) (NP (NNP liqueur))))
+-115.67
+(S1 (NP (NP (ADJP (QP (CD 2) (NNS cups)) (NN cherry)) (NN brandy)) (NP (NNP liqueur))))
+-115.758
+(S1 (X (NP (QP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur))))
+-115.775
+(S1 (NP (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NN brandy)) (NP (NNP liqueur))))
+-115.825
+(S1 (NP (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (NP (NN brandy))) (NNP liqueur)))
+-115.921
+(S1 (FRAG (NP (NP (CD 2) (NNS cups)) (NP (NN cherry) (NN brandy) (NNP liqueur)))))
+-115.93
+(S1 (FRAG (NP (NP (CD 2) (NNS cups) (NN cherry) (NN brandy)) (NP (NNP liqueur)))))
+-116.108
+(S1 (S (NP (QP (CD 2) (NNS cups)) (NN cherry) (NN brandy)) (ADJP (NNP liqueur))))
+-116.131
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN cherry) (NN brandy)) (NNP liqueur)))
+-116.132
+(S1 (NP (ADJP (CD 2) (NNS cups)) (JJ cherry) (NN brandy) (NNP liqueur)))
+-116.245
+(S1 (NP (NP (CD 2) (NNS cups) (JJ cherry) (NN brandy)) (NP (NNP liqueur))))
+-116.479
+(S1 (NP (NP (CD 2) (NNS cups) (NN cherry)) (NP (NN brandy) (NNP liqueur))))
+-116.484
+(S1 (FRAG (NP (NP (ADJP (CD 2) (NNS cups) (JJ cherry)) (NN brandy)) (NP (NNP liqueur)))))
+-116.529
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN cherry)) (PP (NN brandy) (NP (NNP liqueur)))))
+-116.598
+(S1 (NP (NP (CD 2) (NNS cups) (NN cherry) (NN brandy)) (NNP liqueur)))
+
+50	2
+-119.376
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (NN concentrate)))
+-121.353
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-122.923
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-123.04
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (NN concentrate)))
+-125.472
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-125.668
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-125.817
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ frozen) (NN orange) (NN juice) (NN concentrate)))
+-126.536
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-127.76
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice))) (NN concentrate)))
+-129.25
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (NN concentrate))))
+-129.332
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-130.753
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate)))))
+-131.445
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-132.913
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (NN concentrate))))
+-133.168
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-133.222
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice))) (VP (VBP concentrate))))
+-134.1
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (S (NP (NN orange) (NN juice)) (VP (VB concentrate))))))
+-134.143
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (VBN frozen) (NN orange) (NN juice))) (NN concentrate)))
+-134.15
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice))) (VP (VB concentrate))))
+-134.417
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VB concentrate)))))
+-134.739
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-134.877
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ frozen) (NN orange) (NN juice)) (NN concentrate)))
+-135.109
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-135.546
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 16) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (NN concentrate)))
+-135.789
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate)))))
+-136.627
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-137.149
+(S1 (NP (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (NN concentrate)))
+-137.522
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 16) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-138.314
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (NP (NN orange) (NN juice)) (NP (NN concentrate)))))
+-138.511
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (NP (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate)))))
+-138.62
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice))) (VP (VB concentrate))))
+-138.721
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (SBAR (S (NP (NN orange) (NN juice)) (VP (VB concentrate)))))))
+-138.915
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (S (NP (NN orange) (NN juice)) (NP (NN concentrate))))))
+-139.093
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 16) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-139.125
+(S1 (S (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-139.209
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 16) (NN ounce))) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (NN concentrate)))
+-139.453
+(S1 (S (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (VP (VBP concentrate)))))
+-139.526
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (NP (NN orange) (NN juice)) (S (VP (VB concentrate))))))
+-139.604
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (VBN frozen) (NN orange) (NN juice))) (VP (VBP concentrate))))
+-139.717
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (S (NP (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))))
+-140
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (NP (NN orange) (NN juice)) (NP (VB concentrate)))))
+-140.032
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (VBN frozen) (NP (NN orange) (NN juice) (NN concentrate)))))
+-140.302
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-140.499
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (JJ frozen) (S (NP (NN orange) (NN juice)) (VP (VB concentrate))))))
+-140.533
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (VBN frozen) (NN orange) (NN juice))) (VP (VB concentrate))))
+-140.623
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 16)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (NN concentrate)))
+-140.663
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (VBN frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+-140.696
+(S1 (S (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ frozen) (NN orange) (NN juice)) (VP (VBP concentrate))))
+-140.813
+(S1 (NP (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VBN frozen) (NN orange) (NN juice)) (NN concentrate)))
+-140.835
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ frozen) (NN orange) (NN juice)) (VP (VB concentrate))))
+
+50	3
+-135.744
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (ADVP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-136.55
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (NP (NN lemonade) (NN concentrate)))))
+-136.931
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (NN concentrate))))))
+-137.801
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (NP (JJ lemonade) (NN concentrate)))))
+-138.21
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (ADVP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-138.276
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-138.427
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (ADVP (JJ frozen) (NN lemonade)) (VB concentrate)))))
+-138.624
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (VB concentrate))))))
+-139.071
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (JJ frozen) (NP (NN lemonade) (NN concentrate)))))
+-139.331
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (S (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate))))))
+-139.396
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (NN concentrate))))))
+-139.462
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (S (VP (VB concentrate)))))))
+-139.784
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN frozen) (NP (NN lemonade) (NN concentrate))))))
+-139.915
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (ADVP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))))
+-140.247
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (ADVP (JJ frozen)) (VP (VB lemonade) (NP (NN concentrate))))))
+-140.254
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (ADVP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-140.727
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate))))
+-140.741
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-140.796
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (JJ frozen) (NP (NN lemonade) (NN concentrate))))))
+-140.892
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen) (NN lemonade)) (VB concentrate)))))
+-141.036
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN frozen) (NP (JJ lemonade) (NN concentrate))))))
+-141.09
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (VB concentrate))))))
+-141.095
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (JJ frozen) (NP (JJ lemonade) (NN concentrate)))))
+-141.101
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (NN concentrate))))))))
+-141.441
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (NN concentrate))))))
+-141.552
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VBP concentrate))))
+-141.61
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (ADVP (JJ frozen)) (VP (VB lemonade) (S (VP (VB concentrate)))))))
+-141.796
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (S (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate))))))
+-141.878
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (S (NP (JJ lemonade) (NN concentrate))))))
+-141.928
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (S (VP (VB concentrate)))))))
+-141.941
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (ADVP (JJ frozen)) (VP (VB lemonade) (NP (VB concentrate))))))
+-142.201
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (S (NP (NN lemonade) (NN concentrate))))))
+-142.202
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (ADVP (JJ frozen) (NN lemonade)) (VBP concentrate))))
+-142.25
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN frozen) (NP (NN lemonade) (NN concentrate))))))
+-142.446
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))))
+-142.597
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (ADVP (JJ frozen) (NN lemonade)) (VB concentrate)))))))
+-142.713
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (ADVP (JJ frozen)) (VP (VB lemonade) (NP (NN concentrate))))))
+-142.786
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate)))))
+-142.795
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (VB concentrate))))))))
+-142.819
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (JJ frozen) (NP (JJ lemonade) (NN concentrate))))))
+-142.937
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen) (NN lemonade)) (VB concentrate)))))
+-143.038
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (S (VP (VB lemonade) (NP (NN concentrate)))))))
+-143.134
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (NP (VB concentrate))))))
+-143.204
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (NP (JJ frozen) (NN lemonade)) (S (VP (VB concentrate))))))
+-143.261
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (JJ frozen) (NP (NN lemonade) (NN concentrate))))))
+-143.501
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (S (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate))))))))
+-143.501
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN frozen) (NP (JJ lemonade) (NN concentrate))))))
+-143.564
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN frozen) (S (NP (NN lemonade)) (VP (VB concentrate))))))
+-143.632
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (ADVP (JJ frozen)) (VB lemonade) (S (VP (VB concentrate)))))))))
+-143.84
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (S (NP (JJ frozen) (NN lemonade)) (VP (VB concentrate))))))
+
+50	4
+-90.8541
+(S1 (NP (NP (CD 2) (NNS quarts)) (NP (JJ cranberry) (NN juice))))
+-91.7581
+(S1 (NP (CD 2) (NNS quarts) (NN cranberry) (NN juice)))
+-91.8972
+(S1 (NP (QP (CD 2) (NNS quarts)) (NN cranberry) (NN juice)))
+-93.1779
+(S1 (NP (CD 2) (JJ quarts) (NN cranberry) (NN juice)))
+-93.181
+(S1 (NP (QP (CD 2) (NNS quarts)) (JJ cranberry) (NN juice)))
+-93.5745
+(S1 (NP (NP (CD 2) (NNS quarts)) (NP (NN cranberry) (NN juice))))
+-93.6268
+(S1 (FRAG (NP (NP (CD 2) (NNS quarts)) (NP (JJ cranberry) (NN juice)))))
+-93.6997
+(S1 (NP (CD 2) (JJ quarts) (JJ cranberry) (NN juice)))
+-95.3552
+(S1 (NP (NP (CD 2) (NNS quarts)) (NN cranberry) (NN juice)))
+-95.6824
+(S1 (NP (NP (CD 2) (NN quarts)) (NP (JJ cranberry) (NN juice))))
+-95.8509
+(S1 (NP (CD 2) (NN quarts) (NN cranberry) (NN juice)))
+-96.3472
+(S1 (FRAG (NP (NP (CD 2) (NNS quarts)) (NP (NN cranberry) (NN juice)))))
+-96.4384
+(S1 (S (NP (CD 2)) (VP (VBZ quarts) (NP (JJ cranberry) (NN juice)))))
+-96.4617
+(S1 (NP (CD 2) (NNS quarts) (JJ cranberry) (NN juice)))
+-96.969
+(S1 (FRAG (NP (CD 2) (NNS quarts) (NN cranberry) (NN juice))))
+-96.9864
+(S1 (NP (NP (CD 2) (NNS quarts)) (JJ cranberry) (NN juice)))
+-97.0639
+(S1 (S (NP (CD 2) (NNS quarts) (NN cranberry) (NN juice))))
+-97.0906
+(S1 (S (NP (CD 2) (JJ quarts) (NN cranberry) (NN juice))))
+-97.2207
+(S1 (FRAG (NP (CD 2) (JJ quarts) (JJ cranberry) (NN juice))))
+-97.3134
+(S1 (NP (NP (CD 2) (NN quarts)) (NP (NN cranberry) (NN juice))))
+-97.7393
+(S1 (S (NP (CD 2) (NNS quarts)) (VP (VBP cranberry) (NP (NN juice)))))
+-97.7605
+(S1 (NP (CD 2) (NNS quarts) (NP (JJ cranberry) (NN juice))))
+-97.7847
+(S1 (S (NP (CD 2) (NNS quarts)) (NP (JJ cranberry) (NN juice))))
+-98.0341
+(S1 (S (NP (CD 2) (NNS quarts) (JJ cranberry) (NN juice))))
+-98.1693
+(S1 (S (ADVP (LS 2)) (VP (VBZ quarts) (NP (JJ cranberry) (NN juice)))))
+-98.4047
+(S1 (NP (NP (QP (CD 2) (NNS quarts)) (NN cranberry)) (NP (NN juice))))
+-98.4121
+(S1 (S (NP (CD 2) (JJ quarts) (JJ cranberry) (NN juice))))
+-98.6498
+(S1 (S (NP (CD 2)) (VP (VBZ quarts) (NP (NN cranberry) (NN juice)))))
+-98.677
+(S1 (NP (CD 2) (NN quarts) (JJ cranberry) (NN juice)))
+-98.7214
+(S1 (S (NP (NP (CD 2) (NNS quarts)) (NP (JJ cranberry) (NN juice)))))
+-98.9261
+(S1 (NP (NP (CD 2) (NN quarts)) (NN cranberry) (NN juice)))
+-99.0635
+(S1 (S (NP (CD 2) (NNS quarts)) (NP (NN cranberry) (NN juice))))
+-99.0713
+(S1 (FRAG (NP (CD 2) (JJ quarts) (NN cranberry) (NN juice))))
+-99.5855
+(S1 (FRAG (NP (CD 2)) (VP (VBZ quarts) (NP (JJ cranberry) (NN juice)))))
+-99.6403
+(S1 (NP (CD 2) (NNS quarts) (NP (NN cranberry) (NN juice))))
+-99.7615
+(S1 (FRAG (NP (NP (CD 2) (NN quarts)) (NP (JJ cranberry) (NN juice)))))
+-99.8301
+(S1 (S (NP (CD 2)) (VP (NNS quarts) (NP (JJ cranberry) (NN juice)))))
+-99.8924
+(S1 (NP (NP (CD 2) (NNS quarts) (NN cranberry)) (NP (NN juice))))
+-100.202
+(S1 (NP (NP (CD 2)) (NNS quarts) (NN cranberry) (NN juice)))
+-100.282
+(S1 (NP (NP (CD 2)) (JJ quarts) (NN cranberry) (NN juice)))
+-100.341
+(S1 (NP (NP (QP (CD 2) (NNS quarts)) (NN cranberry)) (NN juice)))
+-100.381
+(S1 (S (ADVP (LS 2)) (VP (VBZ quarts) (NP (NN cranberry) (NN juice)))))
+-100.464
+(S1 (NP (NP (CD 2) (NNS quarts) (NN cranberry)) (NN juice)))
+-100.557
+(S1 (NP (NP (CD 2) (NN quarts)) (JJ cranberry) (NN juice)))
+-100.782
+(S1 (NP (NP (CD 2) (NNS quarts) (JJ cranberry)) (NP (NN juice))))
+-100.85
+(S1 (S (NP (CD 2) (NNS quarts)) (VP (NN cranberry) (NP (NN juice)))))
+-100.913
+(S1 (S (NP (CD 2) (NN quarts)) (NP (JJ cranberry) (NN juice))))
+-100.915
+(S1 (S (NP (CD 2) (NN quarts) (NN cranberry) (NN juice))))
+-100.919
+(S1 (S (NP (CD 2) (NNS quarts) (NN cranberry)) (NP (NN juice))))
+-100.994
+(S1 (FRAG (NP (QP (CD 2) (NNS quarts)) (NN cranberry) (NN juice))))
+
+50	5
+-202.682
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-204.045
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-204.417
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-204.811
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (ADVP (JJ chilled))))
+-205.747
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-205.801
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-206.175
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (ADVP (JJ chilled))))
+-206.546
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (ADVP (JJ chilled))))
+-206.582
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-206.659
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-207.007
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-207.111
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-207.144
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-207.482
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-207.583
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-207.592
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-207.699
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-208.361
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-208.507
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-208.671
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-208.879
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-209.088
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-209.721
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage)) (, ,) (ADVP (JJ chilled))))
+-209.938
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (VBN flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-210.196
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-210.204
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (NN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-210.209
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage))) (, ,) (VP (VBD chilled))))
+-210.263
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-210.439
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (ADJP (JJ lemon-lime) (JJ flavored)) (VP (VBN carbonated) (NP (NN beverage))) (, ,)) (VP (VBD chilled))))
+-210.657
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-210.753
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-210.92
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (NN flavored)) (NP (JJ carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-211.093
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage) (, ,) (S (VP (VBD chilled)))))
+-211.121
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-211.172
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-211.276
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (ADJP (JJ lemon-lime) (NP (JJ flavored) (JJ carbonated) (NN beverage))) (, ,) (VP (VBN chilled))))
+-211.288
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (NN flavored)) (VP (VBD carbonated) (NP (NN beverage))) (, ,) (S (VP (VBN chilled)))))
+-211.372
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (ADJP (JJ lemon-lime)) (VP (VBN flavored) (NP (JJ carbonated) (NN beverage))) (, ,)) (VP (VBD chilled))))
+-211.414
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (VBN flavored) (JJ carbonated) (NN beverage))) (, ,) (ADVP (JJ chilled))))
+-211.468
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (ADVP (JJ chilled))))
+-211.488
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (ADJP (JJ flavored) (JJ carbonated)) (NN beverage)) (, ,) (VP (VBN chilled))))
+-211.573
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage))) (, ,) (VP (VBD chilled))))
+-211.646
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (ADJP (JJ lemon-lime) (JJ flavored)) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-211.789
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled)))))
+-211.796
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (VBD flavored) (JJ carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-211.873
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (JJ lemon-lime) (JJ flavored) (VBN carbonated) (NN beverage)) (, ,) (VP (VBN chilled))))
+-211.944
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (JJ carbonated) (NN beverage))) (, ,) (VP (VBD chilled))))
+-212.045
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-212.054
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle)) (NP (JJ lemon-lime) (JJ flavored) (NN carbonated) (NN beverage)) (, ,) (VP (VBD chilled))))
+-212.109
+(S1 (S (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 2) (NN liter)) (-RRB- -RRB-)) (NN bottle) (JJ lemon-lime) (NN flavored)) (VP (VBD carbonated) (NP (NN beverage)))) (, ,) (VP (VBD chilled))))
+
+50	6
+-276.895
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-277.03
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-277.824
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-277.96
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-278.111
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-278.247
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-278.322
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-278.457
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.041
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-279.176
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-279.243
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.251
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.378
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.387
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.538
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-279.66
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (S (VP (VB mix) (PRT (RP together)) (NP (JJ cherry) (NN brandy)))) (, ,) (S (NP (NN orange) (NN juice)) (VP (VB concentrate))) (, ,) (S (VP (VB lemonade) (NP (NP (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice))))) (. .)))
+-279.674
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-279.775
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-279.91
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.118
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (VB concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.173
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.227
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.253
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (VB concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.258
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NN cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.308
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.362
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.393
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NN cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.46
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-280.468
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-280.477
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.534
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (VP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.59
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (S (VP (VB mix) (PRT (RP together)) (NP (JJ cherry) (NN brandy)))) (, ,) (S (NP (NN orange) (NN juice)) (VP (VB concentrate))) (, ,) (S (VP (VB lemonade) (NP (NP (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice))))) (. .)))
+-280.595
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VB concentrate)))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-280.603
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-280.612
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.669
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (VP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.705
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.792
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VBP concentrate)))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.84
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.877
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (S (VP (VB mix) (PRT (RP together)) (NP (JJ cherry) (NN brandy)))) (, ,) (S (NP (NN orange) (NN juice)) (VP (VB concentrate))) (, ,) (S (VP (VB lemonade) (NP (NP (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice))))) (. .)))
+-280.914
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,)) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.927
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (S (VP (VBP concentrate)))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.936
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (S (VP (VB mix) (PRT (RP together)) (NP (JJ cherry) (NN brandy)))) (, ,) (S (NP (NN orange) (NN juice)) (VP (VB concentrate) (, ,) (VB lemonade) (NP (NP (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice))))) (. .)))
+-280.955
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,)) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-280.992
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+-281.033
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (SBAR (S (VP (VBP concentrate))))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-281.048
+(S1 (S (PP (IN In) (NP (DT a) (NN plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (VB concentrate))) (, ,) (NP (JJ lemonade) (NN concentrate)) (, ,) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-281.049
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,)) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-281.09
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (PRT (RP together)) (NP (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NN orange) (NN juice) (NN concentrate)) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,)) (CC and) (NP (NN cranberry) (NN juice)))) (. .)))
+-281.127
+(S1 (S (PP (IN In) (NP (DT a) (JJ plastic) (NN container))) (, ,) (VP (VB mix) (ADVP (RB together)) (NP (NP (JJ cherry) (NN brandy)) (, ,) (NP (NP (NN orange) (NN juice)) (NP (NN concentrate))) (, ,) (NP (NN lemonade) (NN concentrate)) (, ,) (CC and) (NP (JJ cranberry) (NN juice)))) (. .)))
+
+50	7
+-39.5061
+(S1 (S (VP (VB Freeze) (ADVP (RB overnight))) (. .)))
+-43.2873
+(S1 (S (VP (VB Freeze) (ADJP (JJ overnight))) (. .)))
+-44.9248
+(S1 (S (VP (VB Freeze) (S (ADJP (JJ overnight)))) (. .)))
+-45.3875
+(S1 (S (VP (VB Freeze) (ADVP (JJ overnight))) (. .)))
+-47.0068
+(S1 (S (VP (VB Freeze) (NP (JJ overnight))) (. .)))
+-47.6059
+(S1 (S (VP (VB Freeze) (ADJP (RB overnight))) (. .)))
+-47.7551
+(S1 (S (VP (VB Freeze) (NP (RB overnight))) (. .)))
+-48.3351
+(S1 (S (VP (VB Freeze) (S (ADVP (JJ overnight)))) (. .)))
+-48.3778
+(S1 (INTJ (VB Freeze) (JJ overnight) (. .)))
+-48.5232
+(S1 (S (VP (VB Freeze) (PRT (RB overnight))) (. .)))
+-48.5275
+(S1 (FRAG (NP (NN Freeze)) (ADVP (RB overnight)) (. .)))
+-48.6714
+(S1 (FRAG (NP (NN Freeze)) (ADJP (JJ overnight)) (. .)))
+-48.7431
+(S1 (S (NP (NN Freeze)) (ADJP (JJ overnight)) (. .)))
+-49.0972
+(S1 (S (VP (VB Freeze) (RB overnight)) (. .)))
+-49.2327
+(S1 (S (NP (NN Freeze)) (VP (JJ overnight)) (. .)))
+-49.6505
+(S1 (S (VP (VB Freeze) (FRAG (ADJP (JJ overnight)))) (. .)))
+-49.6669
+(S1 (S (VP (VB Freeze) (S (NP (JJ overnight)))) (. .)))
+-49.6842
+(S1 (S (VP (VB Freeze) (S (ADJP (RB overnight)))) (. .)))
+-49.9682
+(S1 (S (VP (VB Freeze) (PRT (JJ overnight))) (. .)))
+-50.5048
+(S1 (S (VP (NN Freeze) (ADVP (RB overnight))) (. .)))
+-51.1694
+(S1 (S (VP (VB Freeze) (FRAG (JJ overnight))) (. .)))
+-51.2059
+(S1 (SQ (VP (VB Freeze) (ADVP (RB overnight))) (. .)))
+-51.4312
+(S1 (FRAG (NP (NN Freeze) (RB overnight)) (. .)))
+-51.6977
+(S1 (S (VP (VB Freeze) (S (ADVP (RB overnight)))) (. .)))
+-51.7704
+(S1 (S (VP (VB Freeze) (PP (RB overnight))) (. .)))
+-51.7789
+(S1 (FRAG (NP (NN Freeze)) (ADJP (RB overnight)) (. .)))
+-51.9583
+(S1 (S (VP (VB Freeze) (FRAG (ADVP (RB overnight)))) (. .)))
+-52.0563
+(S1 (FRAG (ADVP (VB Freeze) (JJ overnight)) (. .)))
+-52.5749
+(S1 (FRAG (S (VP (VB Freeze) (ADVP (RB overnight)))) (. .)))
+-52.8931
+(S1 (FRAG (NP (NN Freeze) (JJ overnight)) (. .)))
+-53.1281
+(S1 (SQ (VP (VB Freeze) (S (ADJP (JJ overnight)))) (. .)))
+-53.291
+(S1 (S (VP (VB Freeze) (VP (JJ overnight))) (. .)))
+-53.3102
+(S1 (FRAG (VP (VB Freeze) (ADVP (RB overnight))) (. .)))
+-53.435
+(S1 (S (VP (VB Freeze) (S (VP (JJ overnight)))) (. .)))
+-53.4693
+(S1 (SQ (VP (VB Freeze) (ADJP (JJ overnight))) (. .)))
+-53.5933
+(S1 (FRAG (ADVP (VB Freeze) (RB overnight)) (. .)))
+-53.5984
+(S1 (S (NP (NN Freeze)) (ADJP (RB overnight)) (. .)))
+-53.7598
+(S1 (NP (NP (NN Freeze)) (ADJP (JJ overnight)) (. .)))
+-53.8583
+(S1 (FRAG (ADJP (NN Freeze) (JJ overnight)) (. .)))
+-54.0079
+(S1 (S (ADJP (NN Freeze) (JJ overnight)) (. .)))
+-54.0538
+(S1 (S (VP (VB Freeze) (PP (JJ overnight))) (. .)))
+-54.0694
+(S1 (S (S (VP (VB Freeze) (ADVP (RB overnight)))) (. .)))
+-54.1779
+(S1 (FRAG (NP (NN Freeze)) (ADVP (JJ overnight)) (. .)))
+-54.3949
+(S1 (FRAG (NP (NP (NN Freeze)) (ADVP (RB overnight))) (. .)))
+-54.525
+(S1 (FRAG (NP (NN Freeze)) (NP (RB overnight)) (. .)))
+-54.5562
+(S1 (INTJ (NN Freeze) (JJ overnight) (. .)))
+-54.6576
+(S1 (S (VP (VB Freeze) (S (VP (ADVP (RB overnight))))) (. .)))
+-54.7288
+(S1 (NP (NP (NN Freeze)) (ADJP (RB overnight)) (. .)))
+-55.1743
+(S1 (FRAG (NP (NN Freeze)) (S (ADJP (JJ overnight))) (. .)))
+-55.252
+(S1 (FRAG (ADJP (NP (NN Freeze)) (JJ overnight)) (. .)))
+
+50	8
+-221.921
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-221.943
+(S1 (S (VP (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-222.841
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-223.685
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-223.786
+(S1 (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-224.779
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-224.96
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-225.242
+(S1 (S (VP (TO To) (VP (VP (VB serve) (, ,) (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-225.333
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-225.355
+(S1 (S (VP (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-225.936
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-226.006
+(S1 (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-226.253
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-226.859
+(S1 (S (S (TO To) (VP (VB serve))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-226.868
+(S1 (S (ADVP (TO To) (VB serve)) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-226.875
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-226.897
+(S1 (S (VP (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-227.055
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (NP (NN scoop)) (VP (VP (VBD desired) (NP (NP (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-227.163
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass)))))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-227.198
+(S1 (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-227.795
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-227.803
+(S1 (S (VP (TO To) (VP (VP (VB serve) (PRN (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,))) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-227.999
+(S1 (S (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.053
+(S1 (S (VP (TO To) (VP (VP (VB serve) (, ,) (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-228.117
+(S1 (S (VP (TO To) (VP (VB serve) (PRN (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,)) (CC and) (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.151
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (NP (NN scoop)) (VP (VP (VBD desired) (NP (NP (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VBP fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.191
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-228.21
+(S1 (S (S (TO To) (VP (VB serve))) (PRN (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,)) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.363
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.382
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.385
+(S1 (S (VP (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-228.438
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass)))))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.488
+(S1 (S (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-228.528
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .))))))
+-228.639
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-228.74
+(S1 (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.092
+(S1 (S (ADVP (TO To) (VB serve)) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.267
+(S1 (S (S (TO To) (VP (VB serve))) (, ,) (S (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-229.283
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.348
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass))))))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-229.485
+(S1 (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (NP (JJ frozen) (NN mixture)) (PP (IN into) (NP (DT a) (NN glass)))))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.687
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (NP (NN scoop)) (VP (VBD desired) (NP (NP (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (NP (DT a) (NN glass) (, ,) (CC and) (NN fill)) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-229.729
+(S1 (SINV (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.733
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+-229.913
+(S1 (S (PP (TO To) (NP (VB serve))) (, ,) (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (VBN frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.953
+(S1 (S (S (SBAR (S (VP (TO To) (VP (VB serve))))) (, ,) (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.958
+(S1 (S (S (VP (TO To) (VP (VB serve)))) (, ,) (VP (VP (VB scoop) (NP (NP (VBD desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-229.98
+(S1 (S (VP (TO To) (VP (VP (VB serve)) (, ,) (VP (VB scoop) (NP (NP (VBD desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))) (. .)))
+-230.1
+(S1 (S (VP (TO To) (VP (VB serve))) (, ,) (VP (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture)))) (PP (IN into) (NP (DT a) (NN glass)))) (, ,) (CC and) (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda))))) (. .)))
+-230.193
+(S1 (S (VP (TO To) (VP (VB serve) (, ,) (S (S (VP (VB scoop) (NP (NP (VBN desired) (NN amount)) (PP (IN of) (NP (JJ frozen) (NN mixture))) (PP (IN into) (NP (DT a) (NN glass)))))) (, ,) (CC and) (S (VP (VB fill) (PP (IN with) (NP (JJ lemon-lime) (NN soda)))))))) (. .)))
+
