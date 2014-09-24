@@ -6,6 +6,29 @@
 from lxml import etree
 from re import compile
 
+PATTERN = compile(r"""((?:[^\,"']|"[^"]*"|'[^']*')+)""")
+
+def MILK_parse_command(unparsed_command):
+  command_name, unparsed_command = unparsed_command.split("(", 1)
+
+  unparsed_command = unparsed_command.rstrip(")")
+
+  arguments = PATTERN.split(unparsed_command)[1::2]
+
+  arguments = [arg.replace("\"", "").strip() for arg in arguments]
+
+  if arguments[0].startswith("{"):
+    end = (i for i, v in enumerate(arguments) if v.endswith("}")).next()
+    arguments = [{arg.lstrip("{").rstrip("}") for arg in arguments[0:end + 1]}] + arguments[end + 1:]
+
+  arguments = [None if (arg == "null" or arg == "") else arg for arg in arguments]
+
+  if isinstance(arguments[0], set):
+    arguments[0] = [None if (arg == "null" or arg == "") else arg for arg in arguments[0]]
+
+  return (command_name, arguments)
+
+
 def MILK_parse(filename):
   """Parses a MILK XML file into a list of commands.
 
@@ -20,25 +43,7 @@ def MILK_parse(filename):
 
   unparsed_commands = [command.text for command in tree.findall(".//annotation")]
 
-  PATTERN = compile(r"""((?:[^\,"']|"[^"]*"|'[^']*')+)""")
-
-  commands = []
-  for unparsed_command in unparsed_commands:
-    command_name, unparsed_command = unparsed_command.split("(", 1)
-
-    unparsed_command = unparsed_command.rstrip(")")
-
-    arguments = PATTERN.split(unparsed_command)[1::2]
-
-    arguments = [arg.replace("\"", "").strip() for arg in arguments]
-
-    if arguments[0].startswith("{"):
-      end = (i for i, v in enumerate(arguments) if v.endswith("}")).next()
-      arguments = [{arg.lstrip("{").rstrip("}") for arg in arguments[0:end + 1]}] + arguments[end + 1:]
-
-    arguments = [None if arg == "null" else arg for arg in arguments]
-
-    commands.append((command_name, arguments))
+  commands = [MILK_parse_command(c) for c in unparsed_commands]
 
   return commands
 

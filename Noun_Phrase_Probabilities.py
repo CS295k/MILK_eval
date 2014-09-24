@@ -8,6 +8,7 @@ totalCount = 0
 completeNameCount = 0
 lastWordOfNameCount = 0
 elidedNameCount = 0
+mightBePronounCount = 0
 otherCount = 0
 
 def cleanString(str):
@@ -20,7 +21,7 @@ def cleanString(str):
 	return str
 
 def addToProbabilities(ingredients, sentence, descriptions):
-	global totalCount, completeNameCount, lastWordOfNameCount, elidedNameCount, otherCount
+	global totalCount, completeNameCount, lastWordOfNameCount, elidedNameCount, mightBePronounCount, otherCount
 	for ing in ingredients:
 		name = descriptions[ing]
 		sentence = cleanString(sentence)
@@ -36,12 +37,16 @@ def addToProbabilities(ingredients, sentence, descriptions):
 				lastWordOfNameCount += 1
 				match = "Last Word"
 			else:
-				if any(re.search(token, sentence) is not None for token in nameTokens):
-					otherCount += 1
-					match = "Other"
+				if any(re.search("\\b"+pronoun+"\\b", sentence) is not None for pronoun in ["it", "they", "them"]):
+					mightBePronounCount += 1
+					match = "Pronoun"
 				else:
-					elidedNameCount += 1
-					match = "Elided"
+					if any(re.search(token, sentence) is not None for token in nameTokens):
+						otherCount += 1
+						match = "Other"
+					else:
+						elidedNameCount += 1
+						match = "Elided"
 		if match == "Elided":
 			print(match + ": " + str((name, sentence)))
 		totalCount += 1
@@ -88,8 +93,9 @@ print("============== PROBABILITIES ==============")
 print("Complete Name: %f" % (completeNameCount / totalCount))
 print("Last Word of Name: %f" % (lastWordOfNameCount / totalCount))
 print("Elided Name: %f" % (elidedNameCount / totalCount))
+print("Potential Pronoun: %f" % (mightBePronounCount / totalCount))
 print("Other: %f" % (otherCount / totalCount))
 try:
-	assert(sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, elidedNameCount/totalCount, otherCount/totalCount]) == 1)
+	assert(sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, elidedNameCount/totalCount, mightBePronounCount/totalCount, otherCount/totalCount]) == 1)
 except:
 	print("Sum should add to 1, instead added to: " + str(sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, elidedNameCount/totalCount, otherCount/totalCount])))
