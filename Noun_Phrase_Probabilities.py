@@ -47,7 +47,7 @@ def addToProbabilities(ingredients, sentence, descriptions):
 					else:
 						elidedNameCount += 1
 						match = "Elided"
-		if match == "Elided":
+		if match == "Pronoun":
 			print(match + ": " + str((name, sentence)))
 		totalCount += 1
 
@@ -74,7 +74,7 @@ for file in [f for f in files if f not in ["annotated_recipes\Bakers-Secret-Pie-
 			ingredientDescriptions[commandArgs[1]] = commandArgs[2]
 			ingredientDescriptions[commandArgs[3]] = commandArgs[4]
 		elif commandName in ["put", "remove"]:
-			if type(commandArgs[0]) == type(set()):
+			if type(commandArgs[0]) in [type(set()), type([])]:
 				ingredients = list(commandArgs[0])
 			else:
 				ingredients = [commandArgs[0]]
