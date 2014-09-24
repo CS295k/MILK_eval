@@ -25,7 +25,15 @@ def parse_sexpr(s):
     return read_from(tokenize(s))
 
 def parse_parse(p):
-    return p[1][1:]
+    # p = p[1][1:]
+    # comma = next((i for i, v in enumerate(p) if v[0] == ","), -1)
+
+    # if comma >= 0:
+    #     p = p[:comma]
+
+    # p = filter(lambda sp: True, p)
+
+    return p
 
 for recipe_file, parse_file in zip(glob("../annotated_recipes/*.xml"), glob("../data/parsed_recipes/*.txt")):
     with open(recipe_file) as rf:
