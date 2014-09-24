@@ -1,0 +1,816 @@
+50	1
+-196.296
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-197.063
+(S1 (NP (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NNP powder)))
+-197.278
+(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-197.371
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-198.323
+(S1 (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (NP (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))))
+-198.344
+(S1 (S (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-198.649
+(S1 (NP (NP (NP (CD 4) (ADJP (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NNP powder)))
+-198.749
+(S1 (NP (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NNP powder)))
+-198.852
+(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NNP powder)))
+-198.865
+(S1 (NP (NP (CD 4) (ADJP (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-198.964
+(S1 (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-199.529
+(S1 (S (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-199.721
+(S1 (S (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-200.031
+(S1 (NP (NP (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NNP powder)))
+-200.246
+(S1 (NP (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-200.583
+(S1 (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NNP powder)))
+-200.756
+(S1 (S (NP (CD 4) (ADJP (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-200.797
+(S1 (NP (NP (CD 4) (ADJP (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NNP powder)))
+-201.46
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-201.685
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-201.745
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-201.786
+(S1 (NP (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NP (NNP powder))))
+-201.81
+(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-201.82
+(S1 (NP (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NNP powder)))
+-201.9
+(S1 (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-201.914
+(S1 (S (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (NP (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-202.054
+(S1 (S (NP (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-202.056
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBN unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-202.129
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-202.212
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-202.33
+(S1 (NP (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink))) (NN mix) (NNP powder)))
+-202.334
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBP unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-202.655
+(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix) (NNP powder)))
+-202.696
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (S (NP (JJ strawberry-flavored) (NN drink)) (VP (VB mix) (NP (NNP powder)))))))
+-202.745
+(S1 (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix) (NNP powder)))
+-202.769
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-202.82
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-202.995
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-203.079
+(S1 (NP (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (SBAR (S (NP (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))))
+-203.095
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-203.204
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBD unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-203.365
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-203.373
+(S1 (NP (NP (NP (CD 4) (ADJP (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NP (NNP powder))))
+-203.399
+(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-203.467
+(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))
+-203.473
+(S1 (NP (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix))) (NP (NNP powder))))
+-203.489
+(S1 (NP (NP (ADJP (CD 4) (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBN unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (S (NP (NNP powder))))))
+-203.549
+(S1 (S (ADVP (LS 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NP (NNS packages)) (VP (VBP unsweetened) (S (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-203.578
+(S1 (S (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (S (NP (JJ unsweetened) (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))
+-203.699
+(S1 (S (NP (NP (CD 4)) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (SBAR (S (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder))))))))
+
+50	2
+-132.5
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-133.459
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-135.408
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-136.936
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-137.713
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (ADJP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-137.961
+(S1 (FRAG (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-138.036
+(S1 (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-138.606
+(S1 (S (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-138.794
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (QP (CD 46) (JJ fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-138.805
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-139.559
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-139.762
+(S1 (FRAG (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-140.102
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-140.427
+(S1 (NP (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-140.438
+(S1 (NP (CD 2) (NP (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-140.444
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (ADJP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-140.6
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (QP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-140.629
+(S1 (NP (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple)) (NP (NN juice))))
+-140.869
+(S1 (FRAG (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-140.944
+(S1 (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-141.009
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NP (NN pineapple) (NN juice))))
+-141.168
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-))) (VP (NNS cans) (NP (NN pineapple) (NN juice)))))
+-141.514
+(S1 (S (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-141.649
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-141.717
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (QP (CD 46) (JJ fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-141.774
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NP (NN pineapple) (NN juice))))
+-141.965
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (ADJP (JJ fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-142.018
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple)) (NP (NN juice))))
+-142.125
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NP (NNS cans) (NN pineapple) (NN juice))))
+-142.232
+(S1 (NP (NP (CD 2)) (NP (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-142.282
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-142.372
+(S1 (NP (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple)) (NN juice)))
+-142.46
+(S1 (NP (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NP (NN pineapple) (NN juice))))
+-142.462
+(S1 (S (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (VP (NNS cans) (NP (NN pineapple) (NN juice)))))
+-142.557
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NP (NN pineapple) (NN juice))))
+-142.91
+(S1 (NP (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NP (NN pineapple) (NN juice))))
+-143.036
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-143.109
+(S1 (NP (NP (CD 2)) (NP (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-143.174
+(S1 (FRAG (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (ADJP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-143.193
+(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (NP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-143.239
+(S1 (FRAG (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-143.243
+(S1 (NP (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-143.249
+(S1 (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (ADJP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-143.327
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (QP (CD 46) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))
+-143.335
+(S1 (NP (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-143.441
+(S1 (FRAG (NP (ADJP (CD 2) (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+-143.537
+(S1 (NP (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple)) (NP (NN juice))))
+-143.579
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 46) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (NN pineapple) (NN juice)))
+-143.594
+(S1 (S (ADVP (LS 2)) (PRN (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NP (NNS cans)) (NP (NN pineapple) (NN juice))))
+-143.617
+(S1 (X (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice))))
+
+50	3
+-56.126
+(S1 (NP (QP (CD 3) (NNS cups)) (JJ white) (NN sugar)))
+-64.5409
+(S1 (NP (CD 3) (NNS cups) (JJ white) (NN sugar)))
+-65.3008
+(S1 (FRAG (NP (QP (CD 3) (NNS cups)) (JJ white) (NN sugar))))
+-65.6645
+(S1 (S (NP (QP (CD 3) (NNS cups)) (JJ white) (NN sugar))))
+-66.4121
+(S1 (S (NP (QP (CD 3) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-68.0777
+(S1 (NP (ADJP (CD 3) (NNS cups) (JJ white)) (NN sugar)))
+-68.3569
+(S1 (NP (NP (QP (CD 3) (NNS cups)) (JJ white)) (NN sugar)))
+-69.9456
+(S1 (S (NP (QP (CD 3) (NNS cups)) (JJ white)) (VP (NN sugar))))
+-70.3905
+(S1 (NP (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar))))
+-70.5032
+(S1 (NP (ADJP (NP (CD 3) (NNS cups)) (JJ white)) (NN sugar)))
+-70.5394
+(S1 (NP (NP (QP (CD 3) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-70.8904
+(S1 (X (NP (QP (CD 3) (NNS cups)) (JJ white) (NN sugar))))
+-72.0328
+(S1 (NP (NP (CD 3) (NNS cups)) (JJ white) (NN sugar)))
+-72.3106
+(S1 (NP (NP (QP (CD 3) (NNS cups))) (JJ white) (NN sugar)))
+-72.394
+(S1 (S (NP (CD 3) (NNS cups) (JJ white) (NN sugar))))
+-73.099
+(S1 (S (ADJP (CD 3) (NNS cups) (JJ white)) (NP (NN sugar))))
+-73.1497
+(S1 (FRAG (NP (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-73.9909
+(S1 (FRAG (NP (ADJP (CD 3) (NNS cups) (JJ white)) (NN sugar))))
+-74.3268
+(S1 (S (ADJP (NP (CD 3) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-74.6577
+(S1 (NP (ADJP (CD 3) (NNS cups)) (JJ white) (NN sugar)))
+-75.1996
+(S1 (S (NP (ADJP (CD 3) (NNS cups) (JJ white)) (NN sugar))))
+-75.2091
+(S1 (FRAG (NP (CD 3) (NNS cups) (JJ white) (NN sugar))))
+-75.883
+(S1 (FRAG (NP (NP (QP (CD 3) (NNS cups)) (JJ white)) (NP (NN sugar)))))
+-76.3075
+(S1 (S (NP (NP (QP (CD 3) (NNS cups)) (JJ white)) (NN sugar))))
+-76.4164
+(S1 (FRAG (NP (ADJP (NP (CD 3) (NNS cups)) (JJ white)) (NN sugar))))
+-76.5394
+(S1 (S (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar))))
+-76.5888
+(S1 (FRAG (NP (NP (QP (CD 3) (NNS cups)) (JJ white)) (NN sugar))))
+-76.6013
+(S1 (S (NP (QP (CD 3) (NNS cups))) (NP (JJ white) (NN sugar))))
+-76.8464
+(S1 (FRAG (NP (ADJP (CD 3) (NNS cups)) (JJ white) (NN sugar))))
+-77.6216
+(S1 (NP (CD 3) (NP (NNS cups)) (JJ white) (NN sugar)))
+-77.6252
+(S1 (S (NP (ADJP (NP (CD 3) (NNS cups)) (JJ white)) (NN sugar))))
+-77.9881
+(S1 (S (NP (NP (QP (CD 3) (NNS cups))) (ADJP (JJ white))) (NP (NN sugar))))
+-78.2942
+(S1 (S (NP (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-78.3141
+(S1 (NP (NP (NP (QP (CD 3) (NNS cups))) (JJ white)) (NN sugar)))
+-78.4144
+(S1 (S (NP (CD 3)) (VP (NNS cups) (NP (JJ white) (NN sugar)))))
+-79.0116
+(S1 (NP (ADJP (QP (CD 3) (NNS cups))) (JJ white) (NN sugar)))
+-79.0817
+(S1 (S (NP (NP (CD 3) (NNS cups)) (ADJP (JJ white))) (NP (NN sugar))))
+-79.115
+(S1 (NP (NP (NP (CD 3) (NNS cups)) (JJ white)) (NN sugar)))
+-79.287
+(S1 (X (NP (ADJP (CD 3) (NNS cups) (JJ white)) (NN sugar))))
+-79.2881
+(S1 (S (NP (CD 3)) (NP (NNS cups) (JJ white) (NN sugar))))
+-79.299
+(S1 (NP (NP (CD 3) (NNS cups) (JJ white)) (NP (NN sugar))))
+-79.3554
+(S1 (X (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar))))
+-79.4727
+(S1 (S (NP (NP (QP (CD 3) (NNS cups))) (JJ white)) (NP (NN sugar))))
+-79.5158
+(S1 (NP (CD 3) (NNS cups) (NP (JJ white) (NN sugar))))
+-79.6384
+(S1 (S (ADJP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar))))
+-79.6897
+(S1 (X (NP (NP (CD 3) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-79.7287
+(S1 (S (NP (CD 3) (NNS cups)) (ADJP (JJ white)) (NP (NN sugar))))
+-79.7906
+(S1 (S (NP (QP (CD 3) (NNS cups))) (ADJP (JJ white)) (NP (NN sugar))))
+-79.9959
+(S1 (NP (NP (CD 3) (NNS cups)) (ADVP (JJ white) (NN sugar))))
+-80.225
+(S1 (NP (NP (QP (CD 3) (NNS cups))) (ADVP (JJ white) (NN sugar))))
+
+50	4
+-55.51
+(S1 (NP (CD 4) (NNS quarts) (NN water)))
+-60.764
+(S1 (NP (QP (CD 4) (NNS quarts)) (NN water)))
+-60.9977
+(S1 (NP (CD 4) (NN quarts) (NN water)))
+-62.1639
+(S1 (NP (CD 4) (JJ quarts) (NN water)))
+-63.9188
+(S1 (NP (NP (CD 4)) (NNS quarts) (NN water)))
+-64.6311
+(S1 (NP (NP (CD 4) (NNS quarts)) (NN water)))
+-64.8951
+(S1 (NP (ADJP (CD 4) (NN quarts)) (NN water)))
+-65.0925
+(S1 (NP (NP (CD 4) (NNS quarts)) (NP (NN water))))
+-65.1663
+(S1 (FRAG (NP (QP (CD 4) (NNS quarts)) (NN water))))
+-65.9222
+(S1 (FRAG (NP (CD 4) (NNS quarts) (NN water))))
+-66.0668
+(S1 (S (NP (CD 4) (NNS quarts) (NN water))))
+-67.2151
+(S1 (NP (ADJP (CD 4) (JJ quarts)) (NN water)))
+-67.2797
+(S1 (S (NP (CD 4) (JJ quarts) (NN water))))
+-67.4676
+(S1 (S (NP (CD 4) (NNS quarts)) (NP (NN water))))
+-67.7969
+(S1 (FRAG (NP (NP (CD 4) (NNS quarts)) (NP (NN water)))))
+-67.9117
+(S1 (S (NP (QP (CD 4) (NNS quarts)) (NN water))))
+-67.9218
+(S1 (NP (ADJP (CD 4) (NNS quarts)) (NN water)))
+-67.9613
+(S1 (S (NP (CD 4)) (VP (VBZ quarts) (NP (NN water)))))
+-68.0471
+(S1 (FRAG (NP (CD 4) (JJ quarts) (NN water))))
+-68.3279
+(S1 (NP (QP (CD 4) (NN quarts)) (NN water)))
+-68.8198
+(S1 (NP (CD 4) (NNS quarts) (NP (NN water))))
+-69.2281
+(S1 (NP (NP (CD 4) (NN quarts)) (NN water)))
+-69.2495
+(S1 (S (ADVP (LS 4)) (VP (VBZ quarts) (NP (NN water)))))
+-69.2758
+(S1 (S (NP (CD 4) (NNS quarts)) (VP (NN water))))
+-69.2791
+(S1 (NP (NP (CD 4)) (NN quarts) (NN water)))
+-69.5704
+(S1 (NP (NP (CD 4)) (JJ quarts) (NN water)))
+-69.7504
+(S1 (FRAG (NP (CD 4) (NN quarts) (NN water))))
+-69.7902
+(S1 (NP (CD 4) (NP (NNS quarts)) (NN water)))
+-70.0958
+(S1 (FRAG (NP (ADJP (CD 4) (NN quarts)) (NN water))))
+-70.1726
+(S1 (NP (NP (QP (CD 4) (NNS quarts))) (NN water)))
+-70.2211
+(S1 (NP (NP (CD 4) (NN quarts)) (NP (NN water))))
+-70.2852
+(S1 (FRAG (NP (CD 4) (NNS quarts)) (NP (NN water))))
+-70.578
+(S1 (S (NP (CD 4) (NN quarts) (NN water))))
+-70.7213
+(S1 (FRAG (NP (CD 4)) (VP (VBZ quarts) (NP (NN water)))))
+-70.8929
+(S1 (NP (CD 4) (NNS quarts) (VB water)))
+-70.9765
+(S1 (NP (NP (CD 4) (NNS quarts)) (ADVP (NN water))))
+-71.0212
+(S1 (S (NP (CD 4) (NN quarts)) (NP (NN water))))
+-71.4306
+(S1 (FRAG (NP (CD 4) (NN quarts)) (NP (NN water))))
+-72.1543
+(S1 (NP (NP (CD 4) (NNS quarts)) (VP (NN water))))
+-72.2088
+(S1 (S (ADJP (CD 4) (NNS quarts)) (NP (NN water))))
+-72.2839
+(S1 (FRAG (NP (ADJP (CD 4) (JJ quarts)) (NN water))))
+-72.4801
+(S1 (S (NP (CD 4) (NNS quarts)) (ADVP (NN water))))
+-72.5148
+(S1 (S (NP (ADJP (CD 4) (NN quarts)) (NN water))))
+-72.622
+(S1 (NP (NP (CD 4)) (NP (JJ quarts) (NN water))))
+-72.7643
+(S1 (FRAG (NP (ADJP (CD 4) (NNS quarts)) (NN water))))
+-72.8294
+(S1 (S (NP (CD 4) (NN quarts)) (VP (NN water))))
+-72.9051
+(S1 (S (NP (NP (CD 4) (NNS quarts)) (NP (NN water)))))
+-73.1916
+(S1 (S (NP (QP (CD 4) (NNS quarts))) (NP (NN water))))
+-73.2744
+(S1 (S (ADJP (CD 4) (JJ quarts)) (NP (NN water))))
+-73.3052
+(S1 (S (NP (CD 4)) (VP (NNS quarts) (NP (NN water)))))
+
+50	5
+-72.5524
+(S1 (NP (CD 2) (NNS liters) (NN ginger) (NN ale)))
+-72.6915
+(S1 (NP (QP (CD 2) (NNS liters)) (NN ginger) (NN ale)))
+-74.5337
+(S1 (NP (NP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale))))
+-76.1495
+(S1 (NP (NP (CD 2) (NNS liters)) (NN ginger) (NN ale)))
+-76.7647
+(S1 (NP (CD 2) (JJ liters) (NN ginger) (NN ale)))
+-77.3064
+(S1 (FRAG (NP (NP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale)))))
+-77.7633
+(S1 (FRAG (NP (CD 2) (NNS liters) (NN ginger) (NN ale))))
+-77.7857
+(S1 (NP (CD 2) (NN liters) (NN ginger) (NN ale)))
+-77.8717
+(S1 (S (NP (CD 2) (NNS liters) (NN ginger) (NN ale))))
+-79.3822
+(S1 (NP (ADJP (CD 2) (NN liters)) (NN ginger) (NN ale)))
+-79.4131
+(S1 (NP (NP (CD 2) (NN liters)) (NP (NN ginger) (NN ale))))
+-79.8713
+(S1 (S (NP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale))))
+-80.4727
+(S1 (NP (CD 2) (NNS liters) (NP (NN ginger) (NN ale))))
+-80.6909
+(S1 (S (NP (CD 2) (JJ liters) (NN ginger) (NN ale))))
+-80.8115
+(S1 (NP (ADJP (CD 2) (NNS liters)) (NN ginger) (NN ale)))
+-80.8608
+(S1 (NP (NP (CD 2) (NN liters)) (NN ginger) (NN ale)))
+-80.9176
+(S1 (S (NP (CD 2)) (VP (VBZ liters) (NP (NN ginger) (NN ale)))))
+-80.9959
+(S1 (NP (NP (CD 2)) (NNS liters) (NN ginger) (NN ale)))
+-81.2309
+(S1 (NP (CD 2) (NP (NNS liters)) (NN ginger) (NN ale)))
+-81.7882
+(S1 (FRAG (NP (QP (CD 2) (NNS liters)) (NN ginger) (NN ale))))
+-81.9053
+(S1 (NP (NP (QP (CD 2) (NNS liters))) (NN ginger) (NN ale)))
+-82.401
+(S1 (S (NP (NP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale)))))
+-82.6486
+(S1 (S (ADVP (LS 2)) (VP (VBZ liters) (NP (NN ginger) (NN ale)))))
+-82.6581
+(S1 (FRAG (NP (CD 2) (JJ liters) (NN ginger) (NN ale))))
+-82.7927
+(S1 (S (NP (QP (CD 2) (NNS liters)) (NN ginger) (NN ale))))
+-82.8628
+(S1 (S (NP (CD 2) (NN liters) (NN ginger) (NN ale))))
+-83.3097
+(S1 (FRAG (NP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale))))
+-83.4921
+(S1 (FRAG (NP (NP (CD 2) (NN liters)) (NP (NN ginger) (NN ale)))))
+-83.8689
+(S1 (NP (NP (CD 2)) (JJ liters) (NN ginger) (NN ale)))
+-84.1402
+(S1 (S (NP (CD 2) (NN liters)) (NP (NN ginger) (NN ale))))
+-84.1629
+(S1 (S (NP (CD 2)) (VP (NNS liters) (NP (NN ginger) (NN ale)))))
+-84.4744
+(S1 (FRAG (NP (CD 2) (NN liters) (NN ginger) (NN ale))))
+-84.867
+(S1 (NP (NP (NP (CD 2)) (NNS liters)) (NN ginger) (NN ale)))
+-85.1939
+(S1 (S (ADJP (CD 2) (NNS liters)) (NP (NN ginger) (NN ale))))
+-85.4343
+(S1 (FRAG (NP (ADJP (CD 2) (NN liters)) (NN ginger) (NN ale))))
+-85.5176
+(S1 (FRAG (NP (CD 2) (NN liters)) (NP (NN ginger) (NN ale))))
+-86.093
+(S1 (NP (NP (CD 2)) (NP (NNS liters) (NN ginger) (NN ale))))
+-86.188
+(S1 (NP (NP (CD 2)) (NN liters) (NN ginger) (NN ale)))
+-86.5055
+(S1 (FRAG (NP (ADJP (CD 2) (NNS liters)) (NN ginger) (NN ale))))
+-86.5982
+(S1 (S (NP (CD 2)) (VP (VBZ liters) (S (NP (NN ginger) (NN ale))))))
+-86.7267
+(S1 (NP (NP (CD 2)) (NP (NNS liters)) (NN ginger) (NN ale)))
+-86.7486
+(S1 (NP (NP (CD 2)) (NP (JJ liters) (NN ginger) (NN ale))))
+-86.8422
+(S1 (S (ADVP (LS 2)) (NP (NNS liters)) (NP (NN ginger) (NN ale))))
+-87.0706
+(S1 (S (NP (QP (CD 2) (NNS liters))) (NP (NN ginger) (NN ale))))
+-87.1389
+(S1 (NP (NP (NP (CD 2)) (NNS liters)) (NP (NN ginger) (NN ale))))
+-87.4581
+(S1 (S (NP (CD 2)) (NP (JJ liters) (NN ginger) (NN ale))))
+-87.6468
+(S1 (S (NP (NP (CD 2)) (NNS liters)) (NP (NN ginger) (NN ale))))
+-87.7182
+(S1 (FRAG (NP (NP (CD 2) (NNS liters)) (NN ginger) (NN ale))))
+-88.028
+(S1 (NP (NP (CD 2)) (NP (NN liters) (NN ginger) (NN ale))))
+-88.1353
+(S1 (FRAG (NP (CD 2)) (NP (NNS liters) (NN ginger) (NN ale))))
+
+50	6
+-172.076
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+-173.61
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+-174.027
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-174.657
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-176.385
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (NP (VB combine)) (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-176.711
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar) (CC and) (NN water))) (. .)))
+-176.949
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar))) (CC and) (NP (NN water))) (. .)))
+-176.994
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (NP (VBP combine)) (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-177.516
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-177.607
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (S (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-177.861
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (VB drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+-177.983
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-178.245
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar) (CC and) (NN water))) (. .)))
+-178.395
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar))) (CC and) (NP (NN water))) (. .)))
+-178.508
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-178.707
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VB combine))) (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-178.893
+(S1 (S (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.03
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.05
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.395
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (VB drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+-179.517
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.523
+(S1 (S (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-179.616
+(S1 (FRAG (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VB combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))))) (. .)))
+-179.748
+(S1 (S (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VB combine)))) (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.812
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (NP (NP (VB drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-179.886
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (NP (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar))) (CC and) (NP (NN water)))) (. .)))
+-180.139
+(S1 (FRAG (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VB combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-180.345
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (NP (VB combine)) (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-180.41
+(S1 (FRAG (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-180.424
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (SBAR (S (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))))) (. .)))
+-180.469
+(S1 (FRAG (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VB combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))))) (. .)))
+-180.819
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (VBP drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+-180.991
+(S1 (FRAG (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VB combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))) (. .)))
+-181.007
+(S1 (S (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VB combine)))) (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-181.041
+(S1 (FRAG (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))))) (. .)))
+-181.044
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))))) (. .)))
+-181.369
+(S1 (FRAG (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-181.424
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NN water))))))) (. .)))
+-181.449
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VB combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))))) (. .)))
+-181.469
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NN water))))) (. .)))
+-181.549
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (NP (VBP combine)) (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-181.666
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar) (CC and) (NN water)))))) (. .)))
+-181.71
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar) (CC and) (NN water)))) (. .)))
+-181.713
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (VB drink) (NN mix)) (, ,) (NP (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-181.887
+(S1 (SINV (SBAR (IN In) (S (NP (DT a) (JJ large) (NN punch) (NN bowl)) (VP (VB combine) (S (VP (VB drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))))) (. .)))
+-181.971
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VB combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))) (. .)))
+-182.018
+(S1 (FRAG (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (S (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))))) (. .)))
+-182.183
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (SBAR (S (VP (VBP drink) (NP (NP (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))))) (. .)))
+-182.243
+(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN punch))) (NP (NN bowl)) (VP (VBP combine) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water)))) (. .)))
+-182.353
+(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VB combine)) (NP (NP (VBP drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))
+
+50	7
+-51.8552
+(S1 (S (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))
+-54.6752
+(S1 (S (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved))))) (. .)))
+-56.2699
+(S1 (S (VP (VB Stir) (PP (IN until) (ADJP (VBN dissolved)))) (. .)))
+-57.7016
+(S1 (S (VP (VB Stir) (SBAR (IN until) (FRAG (ADJP (VBN dissolved))))) (. .)))
+-58.4904
+(S1 (S (VP (VB Stir) (SBAR (IN until) (S (ADJP (VBN dissolved))))) (. .)))
+-58.6525
+(S1 (S (VP (VB Stir) (PP (IN until) (NP (VBN dissolved)))) (. .)))
+-59.8365
+(S1 (S (VP (VB Stir) (IN until) (VP (VBN dissolved))) (. .)))
+-59.9974
+(S1 (S (VP (VB Stir) (PP (IN until) (SBAR (S (VP (VBN dissolved)))))) (. .)))
+-60.5412
+(S1 (S (VP (VB Stir) (PP (IN until) (S (VP (VBN dissolved))))) (. .)))
+-60.5863
+(S1 (S (VP (VBP Stir) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))
+-60.9644
+(S1 (S (NP (VB Stir) (IN until)) (VP (VBN dissolved)) (. .)))
+-61.0351
+(S1 (SQ (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))
+-61.5471
+(S1 (S (VP (VB Stir) (PP (IN until) (FRAG (VP (VBN dissolved))))) (. .)))
+-62.7794
+(S1 (S (VP (VB Stir) (SBAR (IN until) (ADJP (VBN dissolved)))) (. .)))
+-62.7865
+(S1 (S (VP (VB Stir) (VP (ADVP (IN until)) (VBN dissolved))) (. .)))
+-62.9482
+(S1 (S (VP (VB Stir) (S (NP (IN until)) (VP (VBN dissolved)))) (. .)))
+-63.5559
+(S1 (S (VP (VB Stir) (IN until) (S (VP (VBN dissolved)))) (. .)))
+-63.753
+(S1 (S (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved)) (. .))))))
+-63.8552
+(S1 (SQ (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved))))) (. .)))
+-63.9129
+(S1 (S (VP (VBP Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved))))) (. .)))
+-64.3785
+(S1 (S (VP (VB Stir) (SBAR (S (NP (IN until)) (VP (VBN dissolved))))) (. .)))
+-64.4659
+(S1 (S (VP (VB Stir) (PP (IN until) (VP (VBN dissolved)))) (. .)))
+-65.1409
+(S1 (S (VP (VB Stir) (PP (IN until) (SBAR (S (ADJP (VBN dissolved)))))) (. .)))
+-65.174
+(S1 (S (VP (VB Stir) (IN until) (S (ADJP (VBN dissolved)))) (. .)))
+-65.2669
+(S1 (SQ (VP (VB Stir) (PP (IN until) (ADJP (VBN dissolved)))) (. .)))
+-65.2963
+(S1 (S (VP (VB Stir) (PP (IN until) (S (ADJP (VBN dissolved))))) (. .)))
+-65.4377
+(S1 (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved)) (. .)))))
+-65.4426
+(S1 (S (VP (VB Stir) (SBAR (IN until) (SBAR (S (VP (VBN dissolved)))))) (. .)))
+-65.5496
+(S1 (S (VP (VB Stir) (PP (IN until) (FRAG (ADJP (VBN dissolved))))) (. .)))
+-65.7331
+(S1 (S (VP (VB Stir) (SBAR (WHNP (IN until)) (S (VP (VBN dissolved))))) (. .)))
+-66.0716
+(S1 (FRAG (S (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-66.1089
+(S1 (FRAG (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))
+-66.1109
+(S1 (S (VP (VP (VB Stir)) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))
+-66.7236
+(S1 (S (VP (VB Stir) (SBAR (IN until) (FRAG (S (VP (VBN dissolved)))))) (. .)))
+-66.8539
+(S1 (S (VP (VBP Stir) (PP (IN until) (ADJP (VBN dissolved)))) (. .)))
+-66.8816
+(S1 (SQ (VP (VB Stir) (SBAR (IN until) (FRAG (ADJP (VBN dissolved))))) (. .)))
+-66.9392
+(S1 (S (VP (VBP Stir) (SBAR (IN until) (FRAG (ADJP (VBN dissolved))))) (. .)))
+-67.1456
+(S1 (S (VP (VB Stir) (ADVP (IN until)) (VP (VBN dissolved))) (. .)))
+-67.1799
+(S1 (S (VP (VB Stir) (PP (IN until) (NP (ADJP (VBN dissolved))))) (. .)))
+-67.2216
+(S1 (S (VP (VBP Stir) (SBAR (IN until) (S (ADJP (VBN dissolved))))) (. .)))
+-67.3546
+(S1 (S (VP (VB Stir) (S (VP (ADVP (IN until)) (VBN dissolved)))) (. .)))
+-67.4513
+(S1 (S (VP (VB Stir) (SBAR (WHADVP (IN until)) (S (VP (VBN dissolved))))) (. .)))
+-67.6495
+(S1 (SQ (VP (VB Stir) (PP (IN until) (NP (VBN dissolved)))) (. .)))
+-67.6704
+(S1 (SQ (VP (VB Stir) (SBAR (IN until) (S (ADJP (VBN dissolved))))) (. .)))
+-67.7149
+(S1 (S (S (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-67.9085
+(S1 (S (VP (VB Stir) (PRT (IN until)) (S (VP (VBN dissolved)))) (. .)))
+-67.9696
+(S1 (S (VP (VB Stir) (PP (IN until)) (S (VP (VBN dissolved)))) (. .)))
+-68.3176
+(S1 (S (VP (VB Stir) (PP (IN until) (ADJP (VBN dissolved))) (. .))))
+-68.8917
+(S1 (FRAG (S (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-68.929
+(S1 (FRAG (VP (VB Stir) (SBAR (IN until) (FRAG (VP (VBN dissolved))))) (. .)))
+
+50	8
+-50.6641
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-56.5341
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-57.6356
+(S1 (S (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-59.5868
+(S1 (SQ (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-60.9039
+(S1 (S (VP (VB Stir) (PP (RP in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-62.7118
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .))))
+-63.7498
+(S1 (S (VP (VB Stir) (PRT (IN in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-64.1687
+(S1 (S (VP (VB Stir)) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-64.804
+(S1 (S (VP (VB Stir) (PP (IN in) (S (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-64.8805
+(S1 (FRAG (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-65.1707
+(S1 (S (VP (VBP Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-65.5046
+(S1 (FRAG (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-65.7276
+(S1 (S (VP (VP (VB Stir)) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-65.8336
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (DT the)) (NN ginger) (NN ale)))) (. .)))
+-66.1602
+(S1 (S (VP (VB Stir) (PRT (RP in)) (S (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-66.5238
+(S1 (S (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-66.8957
+(S1 (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-67.146
+(S1 (SQ (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-67.7958
+(S1 (S (VP (VB Stir) (PRT (RP in))) (NP (DT the) (NN ginger) (NN ale)) (. .)))
+-68.4318
+(S1 (S (VP (VB Stir) (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-68.6389
+(S1 (S (VP (VB Stir) (FRAG (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))))
+-68.9081
+(S1 (FRAG (S (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-69.0162
+(S1 (S (NP (VB Stir)) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-69.0673
+(S1 (S (VP (VB Stir) (ADVP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-69.24
+(S1 (S (VP (VBP Stir) (PRT (IN in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-69.5046
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NP (DT the)) (NN ginger) (NN ale))) (. .)))
+-69.6269
+(S1 (SQ (VP (VB Stir) (PP (RP in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-70.391
+(S1 (S (VP (VBP Stir) (PP (RP in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-70.625
+(S1 (FRAG (SBAR (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))))) (. .)))
+-70.626
+(S1 (VP (VB Stir) (FRAG (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .))))
+-70.6653
+(S1 (S (VP (VBP Stir)) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-70.7505
+(S1 (FRAG (S (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-70.8191
+(S1 (SBARQ (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-71.0445
+(S1 (SQ (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-71.2615
+(S1 (S (S (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-71.2828
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale)) (. .))))
+-71.2952
+(S1 (FRAG (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-71.3498
+(S1 (SINV (SBAR (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))))) (. .)))
+-71.3533
+(S1 (SBARQ (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-71.3697
+(S1 (FRAG (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-71.6887
+(S1 (S (VP (VB Stir) (SBAR (IN in) (S (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-71.9365
+(S1 (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale)) (. .)))
+-71.9453
+(S1 (S (VP (VBP Stir) (PP (IN in) (S (NP (DT the) (NN ginger) (NN ale))))) (. .)))
+-72.0296
+(S1 (S (VP (VB Stir) (FRAG (IN in) (NP (DT the) (NN ginger) (NN ale)) (. .)))))
+-72.3938
+(S1 (S (S (VP (VB Stir) (PRT (RP in)) (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+-72.8051
+(S1 (S (VP (VBP Stir) (PP (IN in) (NP (NP (DT the)) (NN ginger) (NN ale)))) (. .)))
+-72.9516
+(S1 (S (VP (VB Stir) (PP (RP in) (NP (DT the) (NN ginger) (NN ale))) (. .))))
+-73.0386
+(S1 (FRAG (SBAR (S (VP (VBP Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))))) (. .)))
+-73.1868
+(S1 (S (NP (VBP Stir)) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))) (. .)))
+-73.3759
+(S1 (S (VP (VB Stir) (PRT (IN in)) (S (NP (DT the) (NN ginger) (NN ale)))) (. .)))
+

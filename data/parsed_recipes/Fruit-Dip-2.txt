@@ -1,0 +1,714 @@
+50	1
+-73.2744
+(S1 (NP (QP (CD 8) (NNS ounces)) (NN cream) (NN cheese)))
+-75.9902
+(S1 (NP (CD 8) (NNS ounces) (NN cream) (NN cheese)))
+-76.055
+(S1 (NP (NP (QP (CD 8) (NNS ounces)) (NN cream)) (NP (NN cheese))))
+-77.3519
+(S1 (NP (NP (CD 8) (NNS ounces)) (NP (NN cream) (NN cheese))))
+-79.2738
+(S1 (NP (NP (CD 8) (NNS ounces)) (NN cream) (NN cheese)))
+-80.0122
+(S1 (NP (NP (CD 8) (NNS ounces) (NN cream)) (NP (NN cheese))))
+-80.1246
+(S1 (FRAG (NP (NP (CD 8) (NNS ounces)) (NP (NN cream) (NN cheese)))))
+-80.1887
+(S1 (FRAG (NP (NP (QP (CD 8) (NNS ounces)) (NN cream)) (NP (NN cheese)))))
+-80.9842
+(S1 (S (NP (CD 8) (NNS ounces)) (VP (VB cream) (NP (NN cheese)))))
+-81.2011
+(S1 (FRAG (NP (CD 8) (NNS ounces) (NN cream) (NN cheese))))
+-81.8719
+(S1 (NP (NP (QP (CD 8) (NNS ounces))) (NN cream) (NN cheese)))
+-82.3711
+(S1 (FRAG (NP (QP (CD 8) (NNS ounces)) (NN cream) (NN cheese))))
+-82.4827
+(S1 (NP (NP (QP (CD 8) (NNS ounces)) (NN cream)) (NN cheese)))
+-82.8981
+(S1 (S (NP (CD 8) (NNS ounces)) (VP (NN cream) (NP (NN cheese)))))
+-83.655
+(S1 (S (NP (CD 8) (NNS ounces) (NN cream) (NN cheese))))
+-83.7842
+(S1 (S (NP (QP (CD 8) (NNS ounces)) (NN cream) (NN cheese))))
+-83.8723
+(S1 (NP (NP (CD 8) (NNS ounces)) (NP (VB cream) (NN cheese))))
+-84.1222
+(S1 (FRAG (NP (CD 8) (NNS ounces)) (VP (VB cream) (NP (NN cheese)))))
+-84.1459
+(S1 (FRAG (NP (NP (CD 8) (NNS ounces) (NN cream)) (NP (NN cheese)))))
+-84.6007
+(S1 (NP (CD 8) (NNS ounces) (NP (NN cream) (NN cheese))))
+-84.8444
+(S1 (S (NP (NP (CD 8) (NNS ounces)) (NP (NN cream) (NN cheese)))))
+-84.9379
+(S1 (S (NP (CD 8) (NNS ounces)) (NP (NN cream) (NN cheese))))
+-85.0751
+(S1 (NP (NP (CD 8) (NNS ounces) (NN cream)) (NN cheese)))
+-85.1227
+(S1 (FRAG (S (NP (CD 8) (NNS ounces)) (VP (VB cream) (NP (NN cheese))))))
+-85.2853
+(S1 (FRAG (NP (CD 8) (NNS ounces)) (NP (NN cream) (NN cheese))))
+-85.9297
+(S1 (NP (NP (CD 8)) (NNS ounces) (NN cream) (NN cheese)))
+-86.3694
+(S1 (S (NP (NP (QP (CD 8) (NNS ounces)) (NN cream)) (NP (NN cheese)))))
+-86.6449
+(S1 (FRAG (NP (NP (CD 8) (NNS ounces)) (NP (VB cream) (NN cheese)))))
+-86.7285
+(S1 (S (NP (QP (CD 8) (NNS ounces))) (VP (VB cream) (NP (NN cheese)))))
+-87.1442
+(S1 (S (NP (NP (CD 8)) (NNS ounces)) (VP (VB cream) (NP (NN cheese)))))
+-87.5985
+(S1 (S (NP (QP (CD 8) (NNS ounces))) (VP (NN cream) (NP (NN cheese)))))
+-87.6121
+(S1 (S (NP (QP (CD 8) (NNS ounces)) (NN cream)) (VP (NN cheese))))
+-87.6724
+(S1 (NP (NP (NP (CD 8)) (NNS ounces)) (NN cream) (NN cheese)))
+-87.9441
+(S1 (S (NP (QP (CD 8) (NNS ounces)) (NN cream)) (NP (NN cheese))))
+-88.6587
+(S1 (S (NP (CD 8) (NNS ounces) (NN cream)) (VP (NN cheese))))
+-88.8153
+(S1 (S (NP (CD 8) (NNS ounces)) (VP (VB cream) (ADVP (NN cheese)))))
+-88.9907
+(S1 (S (NP (CD 8) (NNS ounces) (NN cream)) (NP (NN cheese))))
+-89.1001
+(S1 (FRAG (NP (QP (CD 8) (NNS ounces))) (VP (VB cream) (NP (NN cheese)))))
+-89.4171
+(S1 (NP (NP (NP (CD 8) (NNS ounces)) (NN cream)) (NP (NN cheese))))
+-89.4704
+(S1 (FRAG (NP (CD 8) (NNS ounces)) (NP (VB cream) (NN cheese))))
+-89.6382
+(S1 (NP (NP (NP (CD 8)) (NNS ounces)) (NP (NN cream) (NN cheese))))
+-89.6383
+(S1 (S (NP (QP (CD 8) (NNS ounces))) (NP (NN cream) (NN cheese))))
+-89.905
+(S1 (S (NP (NP (CD 8)) (NNS ounces)) (VP (NN cream) (NP (NN cheese)))))
+-90.2192
+(S1 (NP (NP (CD 8) (NNS ounces) (VB cream)) (NP (NN cheese))))
+-90.2632
+(S1 (FRAG (NP (QP (CD 8) (NNS ounces))) (NP (NN cream) (NN cheese))))
+-90.3174
+(S1 (FRAG (S (NP (QP (CD 8) (NNS ounces))) (VP (VB cream) (NP (NN cheese))))))
+-90.3266
+(S1 (S (NP (NP (CD 8) (NNS ounces) (NN cream)) (NP (NN cheese)))))
+-90.8331
+(S1 (FRAG (NP (NP (CD 8) (NNS ounces)) (NN cream) (NN cheese))))
+-90.9038
+(S1 (FRAG (NP (CD 8) (NNS ounces)) (VP (NN cream) (NP (NN cheese)))))
+-91.1029
+(S1 (NP (NP (QP (CD 8) (NNS ounces))) (NP (NN cream) (NN cheese))))
+
+50	2
+-86.6556
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NN creme))))
+-88.2009
+(S1 (NP (QP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme)))
+-90.4911
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (JJ creme))))
+-94.262
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NP (NN marshmallow)) (NN creme))))
+-94.7441
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme)))
+-95.6572
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NN creme)))))
+-96.1119
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow)) (ADVP (RB creme))))
+-96.6139
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NNS creme))))
+-97.2469
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow))) (NP (NN creme))))
+-97.4231
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow)) (ADVP (JJ creme))))
+-97.5516
+(S1 (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (NP (NN creme))))
+-97.6813
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NP (NN marshmallow)) (NP (NN creme)))))
+-98.1258
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (ADJP (JJ creme))))
+-98.2501
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (ADJP (JJ creme))))
+-98.3553
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow))) (JJ creme)))
+-99.1045
+(S1 (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (NN creme)))
+-99.2096
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow))) (ADVP (RB creme))))
+-99.2868
+(S1 (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme)))
+-99.3555
+(S1 (ADJP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme)))
+-99.4389
+(S1 (S (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (ADJP (JJ creme))))
+-99.4927
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (JJ creme)))))
+-99.883
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (NP (NN creme))))
+-99.9203
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (ADJP (JJ creme))))
+-99.9204
+(S1 (NP (CD 1/2) (NN cup) (NN marshmallow) (NN creme)))
+-99.9252
+(S1 (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (ADVP (RB creme))))
+-100.216
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (NN creme)))
+-100.254
+(S1 (NP (NP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme)))
+-100.399
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme)))
+-100.521
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow))) (ADVP (JJ creme))))
+-100.787
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme))))
+-100.874
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (VP (VBD creme))))
+-100.926
+(S1 (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (ADVP (JJ creme))))
+-101.037
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (ADVP (RB creme))))
+-101.067
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme))))
+-101.204
+(S1 (ADJP (CD 1/2) (NN cup) (NN marshmallow) (JJ creme)))
+-101.31
+(S1 (NP (ADJP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme)))
+-101.631
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (NP (NN creme)))))
+-101.646
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow) (NNS creme)))
+-101.648
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow))) (ADJP (JJ creme))))
+-101.806
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (NP (NN creme))))
+-101.897
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NN creme)))))
+-101.917
+(S1 (S (ADJP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme))))
+-102.038
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (ADVP (JJ creme))))
+-102.137
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN marshmallow) (NN creme))))
+-102.316
+(S1 (S (ADJP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJR creme))))
+-102.338
+(S1 (S (NP (ADJP (CD 1/2) (NN cup)) (NN marshmallow)) (VP (VBD creme))))
+-102.385
+(S1 (S (ADJP (CD 1/2) (NN cup) (NN marshmallow) (JJ creme))))
+-102.431
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NP (NN marshmallow)) (NP (JJ creme)))))
+-102.446
+(S1 (FRAG (ADJP (NP (QP (CD 1/2) (NN cup)) (NN marshmallow)) (JJ creme))))
+-102.509
+(S1 (FRAG (ADJP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NN creme))))
+
+50	3
+-131.983
+(S1 (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed))))
+-136.91
+(S1 (NP (NP (QP (CD 2) (NNS cups))) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed))))
+-137.469
+(S1 (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBD thawed))))
+-137.727
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBN thawed))))
+-139.581
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBD thawed))))
+-139.833
+(S1 (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (PP (VBN whipped) (NP (VBG topping)))) (, ,) (VP (VBN thawed))))
+-140.411
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (VP (VBN thawed))))))
+-140.506
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (VP (VBN thawed))))))
+-140.701
+(S1 (NP (NP (NP (CD 2)) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed))))
+-140.755
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBN thawed))))
+-140.92
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping)) (, ,) (S (VP (VBN thawed))))))
+-141.263
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed)))))
+-141.534
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBN thawed))))
+-141.623
+(S1 (NP (NP (NP (QP (CD 2) (NNS cups))) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBN thawed))))
+-141.69
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))
+-141.785
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))
+-141.86
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (NP (VBN whipped) (VBG topping)) (, ,) (VP (VBN thawed))))))
+-142.199
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping)) (, ,) (S (ADJP (JJ thawed))))))
+-142.218
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (S (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (VP (VBN thawed))))))))
+-142.344
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,)) (VP (VBD thawed))))
+-142.395
+(S1 (NP (NP (QP (CD 2) (NNS cups))) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBD thawed))))
+-142.488
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (VP (VBG topping))) (, ,) (S (VP (VBN thawed))))))
+-142.523
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (NP (VBG topping)) (, ,) (S (VP (VBN thawed))))))
+-142.561
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (S (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (VP (VBN thawed))))))))
+-142.583
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (VP (VBG topping))) (, ,) (S (VP (VBN thawed))))))
+-142.618
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (NP (VBG topping)) (, ,) (S (VP (VBN thawed))))))
+-142.674
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (NP (VBN whipped) (VBG topping)) (, ,) (VP (VBN thawed))))))
+-142.691
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (ADJP (VBG topping)))) (, ,) (VP (VBD thawed))))
+-142.809
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VP (VBN frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed)))))
+-142.979
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VP (VBN frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed)))))
+-143.027
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (VBN whipped)) (VP (VBG topping)) (, ,)) (VP (VBD thawed))))
+-143.185
+(S1 (S (NP (NP (QP (CD 2) (NNS cups))) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBD thawed))))
+-143.213
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBD thawed))))
+-143.422
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen)) (VP (VBN whipped) (S (VP (VBG topping)))) (, ,)) (VP (VBD thawed))))
+-143.445
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (S (VP (VBN whipped) (S (ADJP (VBG topping))))) (, ,) (S (VP (VBN thawed))))))
+-143.455
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (VBN thawed))))))
+-143.465
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBD thawed))))
+-143.497
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (S (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))))
+-143.55
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (VBN thawed))))))
+-143.564
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed))))
+-143.575
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (ADJP (JJ thawed)))))
+-143.654
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,)) (VP (VBN thawed))))
+-143.67
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (ADJP (JJ thawed)))))
+-143.678
+(S1 (S (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBD thawed))))
+-143.735
+(S1 (NP (NP (CD 2) (NNS cups)) (ADJP (VBN frozen) (PP (VBN whipped) (NP (VBG topping)))) (, ,) (VP (VBN thawed))))
+-143.767
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (S (VP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))
+-143.802
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen))) (VP (VBN whipped) (NP (VBG topping)) (, ,) (S (ADJP (JJ thawed))))))
+-143.84
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VBN frozen) (S (VP (VBN whipped) (S (ADJP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))))
+-143.862
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen))) (VP (VBN whipped) (S (VP (VBG topping))) (, ,) (S (ADJP (JJ thawed))))))
+-143.87
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VBN frozen) (NP (VBN whipped) (VBG topping)))) (, ,) (VP (VBN thawed))))
+
+50	4
+-105.734
+(S1 (NP (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-109.039
+(S1 (NP (NP (CD 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-112.592
+(S1 (NP (NP (QP (CD 1/4) (NN cup))) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-113.259
+(S1 (NP (QP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice)))
+-114.735
+(S1 (FRAG (NP (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice)))))
+-115.057
+(S1 (NP (ADJP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice)))
+-115.897
+(S1 (NP (NP (QP (CD 1/4) (NN cup))) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-116.406
+(S1 (NP (NP (CD 1/4) (NN cup)) (NP (ADJP (JJ unsweetened)) (NN pineapple) (NN juice))))
+-116.568
+(S1 (NP (ADJP (CD 1/4) (NN cup)) (VBN unsweetened) (NN pineapple) (NN juice)))
+-116.714
+(S1 (NP (NP (JJ 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-117.992
+(S1 (NP (NP (NN 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-118.04
+(S1 (FRAG (NP (NP (CD 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice)))))
+-118.099
+(S1 (NP (CD 1/4) (NN cup) (JJ unsweetened) (NN pineapple) (NN juice)))
+-118.162
+(S1 (NP (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (NP (NN pineapple) (NN juice)))))
+-118.251
+(S1 (NP (NP (CD 1/4) (NN cup)) (NP (ADJP (VBN unsweetened)) (NN pineapple) (NN juice))))
+-119.107
+(S1 (FRAG (NP (ADJP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice))))
+-119.351
+(S1 (NP (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (S (NP (NN pineapple) (NN juice))))))
+-119.909
+(S1 (NP (NP (VBG 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-120.019
+(S1 (NP (NP (JJ 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-120.514
+(S1 (NP (NP (NNP 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-120.933
+(S1 (NP (NP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice)))
+-120.943
+(S1 (NP (NP (VBN 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-121.025
+(S1 (S (NP (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice)))))
+-121.297
+(S1 (NP (NP (NN 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-121.298
+(S1 (FRAG (NP (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (NP (NN pineapple) (NN juice))))))
+-121.347
+(S1 (NP (NP (CD 1/4) (NN cup)) (VP (VBD unsweetened) (NP (NN pineapple) (NN juice)))))
+-121.503
+(S1 (S (NP (CD 1/4) (NN cup)) (VP (VBD unsweetened) (NP (NN pineapple) (NN juice)))))
+-121.679
+(S1 (FRAG (ADJP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-122.194
+(S1 (S (NP (ADJP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice))))
+-122.309
+(S1 (FRAG (NP (QP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice))))
+-122.397
+(S1 (NP (NP (CD 1/4) (NN cup)) (VBN unsweetened) (NN pineapple) (NN juice)))
+-122.456
+(S1 (FRAG (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-122.486
+(S1 (FRAG (NP (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (S (NP (NN pineapple) (NN juice)))))))
+-122.679
+(S1 (FRAG (NP (NP (QP (CD 1/4) (NN cup))) (NP (JJ unsweetened) (NN pineapple) (NN juice)))))
+-122.926
+(S1 (S (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-123.214
+(S1 (NP (NP (VBG 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-123.264
+(S1 (NP (NP (QP (CD 1/4) (NN cup))) (NP (ADJP (JJ unsweetened)) (NN pineapple) (NN juice))))
+-123.321
+(S1 (S (NP (QP (CD 1/4) (NN cup)) (JJ unsweetened) (NN pineapple) (NN juice))))
+-123.413
+(S1 (NP (ADJP (CD 1/4) (NN cup) (VBN unsweetened)) (NN pineapple) (NN juice)))
+-123.671
+(S1 (FRAG (NP (ADJP (CD 1/4) (NN cup)) (VBN unsweetened) (NN pineapple) (NN juice))))
+-123.819
+(S1 (NP (NP (NNP 1/4) (NN cup)) (NP (VBN unsweetened) (NN pineapple) (NN juice))))
+-123.847
+(S1 (S (NP (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (NP (NN pineapple) (NN juice))))))
+-123.85
+(S1 (S (NP (CD 1/4)) (VP (NN cup) (NP (JJ unsweetened) (NN pineapple) (NN juice)))))
+-123.868
+(S1 (S (NP (CD 1/4) (NN cup)) (VP (VBN unsweetened) (NP (NN pineapple) (NN juice)))))
+-123.884
+(S1 (NP (NP (QP (CD 1/4) (NN cup))) (VP (VBN unsweetened) (NP (NN pineapple) (NN juice)))))
+-123.944
+(S1 (S (NP (QP (CD 1/4) (NN cup))) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-123.946
+(S1 (NP (NP (NP (CD 1/4)) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-123.949
+(S1 (S (ADJP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))
+-124.219
+(S1 (S (NP (ADJP (CD 1/4) (NN cup)) (VBN unsweetened) (NN pineapple) (NN juice))))
+-124.243
+(S1 (NP (JJ 1/4) (NN cup) (JJ unsweetened) (NN pineapple) (NN juice)))
+
+50	5
+-171.96
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping))))) (. .)))
+-173.638
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping)))) (. .)))
+-175.308
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (S (VP (VBG topping))))) (. .)))
+-175.542
+(S1 (S (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping))))) (. .)))
+-175.635
+(S1 (S (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping))))) (. .)))
+-175.637
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (NP (VBG topping)))) (. .)))
+-175.836
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream) (CC and) (VBN thawed) (VBG topping))) (. .)))
+-176.306
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (VBN thawed) (VBG topping)))) (. .)))
+-176.324
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (VP (VBG topping)))) (. .)))
+-176.502
+(S1 (S (VP (VB Blend) (ADVP (RB together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping)))) (. .)))
+-176.811
+(S1 (S (VP (VB Blend) (NP (RB together) (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping))))) (. .)))
+-176.906
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (NP (VBG topping)))) (. .)))
+-177.22
+(S1 (S (VP (VB Blend) (PRT (RB together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping)))) (. .)))
+-177.424
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (S (VP (VBG topping))))) (. .)))
+-178.002
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBN thawed) (VP (VBG topping)))) (. .)))
+-178.205
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBN thawed) (S (VP (VBG topping))))) (. .)))
+-178.249
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese))) (, ,) (VP (NN marshmallow) (NP (NN cream))) (CC and) (VP (VBD thawed) (S (VP (VBG topping))))) (. .)))
+-178.297
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBN thawed) (NP (VBG topping)))) (. .)))
+-178.579
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese))) (, ,) (VP (NN marshmallow) (NP (NN cream))) (CC and) (VP (VB thawed) (NP (VBG topping)))) (. .)))
+-178.638
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (VP (VBG topping)))) (. .)))
+-178.647
+(S1 (S (VP (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (S (VP (VBG topping))))) (. .)))
+-178.976
+(S1 (S (VP (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (NP (VBG topping)))) (. .)))
+-179.041
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NP (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping))))) (. .)))
+-179.169
+(S1 (S (VP (VB Blend) (ADVP (RB together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (VBN thawed) (VBG topping)))) (. .)))
+-179.232
+(S1 (S (VP (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (S (VP (VBG topping))))) (. .)))
+-179.245
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBN thawed) (ADJP (VBG topping)))) (. .)))
+-179.265
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese))) (, ,) (VP (NN marshmallow) (NP (NN cream))) (CC and) (VP (VBD thawed) (VP (VBG topping)))) (. .)))
+-179.418
+(S1 (S (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream) (CC and) (VBN thawed) (VBG topping))) (. .)))
+-179.489
+(S1 (S (VP (VB Blend) (ADVP (RB together))) (NP (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping)))) (. .)))
+-179.562
+(S1 (S (VP (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (NP (VBG topping)))) (. .)))
+-179.579
+(S1 (S (VP (VB Blend) (NP (NP (RB together) (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping)))) (. .)))
+-179.663
+(S1 (S (VP (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (VP (VBG topping)))) (. .)))
+-179.831
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream) (CC and) (JJ thawed) (VBG topping))) (. .)))
+-179.847
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese))) (, ,) (VP (NN marshmallow) (NP (NN cream))) (CC and) (VP (VBD thawed) (NP (VBG topping)))) (. .)))
+-179.888
+(S1 (S (VP (VB Blend) (PRT (RB together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (VBN thawed) (VBG topping)))) (. .)))
+-179.981
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBN thawed) (S (ADJP (VBG topping))))) (. .)))
+-180.162
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream)) (CC and) (NP (JJ thawed) (VBG topping)))) (. .)))
+-180.209
+(S1 (S (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream) (CC and) (VBN thawed) (VBG topping))) (. .)))
+-180.245
+(S1 (S (VP (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (NP (VBG topping)))) (. .)))
+-180.248
+(S1 (S (VP (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (VP (VBG topping)))) (. .)))
+-180.256
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream)) (CC and) (NP (NN thawed) (VBG topping)))) (. .)))
+-180.277
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (ADJP (VBG topping)))) (. .)))
+-180.288
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (ADVP (RB thawed)) (VBG topping))) (. .)))
+-180.31
+(S1 (S (S (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese)))) (, ,) (NP (NN marshmallow)) (VP (VB cream) (CC and) (VBD thawed) (NP (VBG topping))) (. .)))
+-180.366
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese))) (, ,) (VP (NN marshmallow) (NP (NN cream))) (CC and) (VP (VB thawed) (S (VP (VBG topping))))) (. .)))
+-180.583
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (ADJP (VBG topping)))) (. .)))
+-180.591
+(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NP (NN marshmallow) (NN cream)) (CC and) (NP (VBN thawed) (VBG topping))))) (. .)))
+-180.62
+(S1 (S (VP (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NN cream) (NN cheese)) (, ,) (NP (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (S (VP (VBG topping))))) (. .)))
+-180.763
+(S1 (S (VP (VP (VB Blend) (ADVP (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VB thawed) (S (VP (VBG topping))))) (. .)))
+-180.83
+(S1 (S (VP (VP (VB Blend) (PRT (RB together)) (NP (DT the) (NN cream) (NN cheese) (, ,) (NN marshmallow) (NN cream))) (CC and) (VP (VBD thawed) (NP (VBG topping)))) (. .)))
+
+50	6
+-124.407
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-127.067
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))) (. .)))
+-127.888
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))))) (. .)))
+-127.928
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))) (. .)))
+-128.613
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-128.956
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))))) (. .)))
+-129.166
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-129.533
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-129.946
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))))) (. .)))
+-130.455
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it))))))) (PP (VBG dipping) (NP (NN consistency)))) (. .)))
+-130.548
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))))) (. .)))
+-130.56
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it))))))) (S (VP (VBG dipping) (NP (NN consistency))))) (. .)))
+-130.642
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (S (VP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-131.103
+(S1 (S (VP (VB Add) (S (NP (JJ enough) (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-131.274
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))) (. .)))
+-131.409
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))))) (. .)))
+-131.617
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-131.628
+(S1 (S (VP (VB Add) (NP (NN enough)) (S (NP (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-132.014
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-132.071
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (NP (PRP it)))))) (PP (VBG dipping) (NP (NN consistency)))) (. .)))
+-132.128
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple)) (S (NP (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-132.135
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))) (. .)))
+-132.176
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (NP (PRP it)))))) (S (VP (VBG dipping) (NP (NN consistency))))) (. .)))
+-132.21
+(S1 (S (VP (VB Add) (NP (RB enough)) (S (NP (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-132.21
+(S1 (S (VP (VB Add) (NP (ADJP (RB enough)) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-132.407
+(S1 (S (VP (VB Add) (NP (NP (RB enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))))) (. .)))
+-132.478
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-132.542
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-132.607
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-132.647
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency)))))))))) (. .)))
+-132.777
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (NP (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-133.014
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))))) (. .)))
+-133.163
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))))) (. .)))
+-133.344
+(S1 (S (VP (VB Add) (NP (JJ enough)) (S (NP (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-133.35
+(S1 (S (VP (VB Add) (ADVP (RB enough)) (S (NP (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-133.373
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-133.468
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-133.716
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency))))))))) (. .)))
+-133.74
+(S1 (S (VP (VB Add) (NP (RB enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency)))))))) (. .)))
+-133.764
+(S1 (S (VP (VB Add) (S (NP (JJ enough) (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))) (. .)))
+-134.032
+(S1 (S (VP (VB Add) (NP (ADJP (JJ enough)) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-134.083
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))))) (. .)))
+-134.123
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it)) (S (VP (VBG dipping) (NP (NN consistency)))))))))) (. .)))
+-134.124
+(S1 (S (VP (VB Add) (S (NP (RB enough) (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-134.276
+(S1 (S (VP (VB Add) (NP (ADJP (RB enough) (NN pineapple)) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-134.289
+(S1 (S (VP (VB Add) (NP (NN enough)) (S (NP (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (VBG dipping) (NP (NN consistency))))))) (. .)))
+-134.314
+(S1 (S (VP (VB Add) (NP (NP (JJ enough) (NN pineapple) (NN juice)) (SBAR (S (VP (TO to) (VP (VB make) (NP (PRP it))))))) (NP (VBG dipping) (NN consistency))) (. .)))
+-134.625
+(S1 (S (VP (VB Add) (S (NP (JJ enough) (NN pineapple) (NN juice)) (VP (TO to) (VP (VB make) (NP (PRP it)) (NP (VBG dipping) (NN consistency)))))) (. .)))
+-134.65
+(S1 (S (VP (VB Add) (NP (ADJP (JJ enough) (NN pineapple)) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))
+-134.706
+(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (VP (VBG dipping) (NP (NN consistency))))))))) (. .)))
+
+50	7
+-55.5333
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-60.7011
+(S1 (NP (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-61.8646
+(S1 (S (VP (NN Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-63.3281
+(S1 (SQ (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-63.3871
+(S1 (NP (NP (VB Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-63.7714
+(S1 (S (VP (NNP Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-64.3733
+(S1 (FRAG (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-64.4279
+(S1 (NP (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-64.5515
+(S1 (FRAG (NP (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-64.5954
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (QP (CD 1) (NN hour))))) (. .)))
+-64.8719
+(S1 (FRAG (NP (NN Chill)) (ADVP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-65.3098
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (NP (CD 1)) (NN hour)))) (. .)))
+-65.998
+(S1 (FRAG (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-66.1425
+(S1 (S (VP (VB Chill) (PP (IN for) (ADJP (CD 1) (NN hour)))) (. .)))
+-66.2917
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour))) (. .))))
+-66.4578
+(S1 (S (VP (VB Chill) (ADVP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-67.0543
+(S1 (FRAG (NP (NNP Chill)) (ADVP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-67.0589
+(S1 (S (VP (VB Chill) (PRT (RP for)) (NP (CD 1) (NN hour))) (. .)))
+-67.7092
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (NP (CD 1)) (NP (NN hour))))) (. .)))
+-68.191
+(S1 (S (VP (VB Chill) (NP (QP (IN for) (CD 1)) (NN hour))) (. .)))
+-68.6022
+(S1 (FRAG (S (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour))))) (. .)))
+-68.6431
+(S1 (S (VP (VB Chill) (PP (IN for) (NP (ADJP (CD 1) (NN hour))))) (. .)))
+-68.8368
+(S1 (X (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-69.3644
+(S1 (S (VP (VB Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-69.3845
+(S1 (X (NNP Chill) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-69.5478
+(S1 (S (VP (VB Chill) (PRT (IN for)) (NP (CD 1) (NN hour))) (. .)))
+-69.5887
+(S1 (NP (NP (NN Chill)) (PP (IN for) (NP (QP (CD 1) (NN hour)))) (. .)))
+-69.5909
+(S1 (FRAG (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-69.6611
+(S1 (FRAG (NP (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-69.7026
+(S1 (S (VP (VB Chill) (VP (PP (IN for) (NP (CD 1) (NN hour))))) (. .)))
+-69.898
+(S1 (X (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-69.9305
+(S1 (S (VP (VB Chill) (PP (IN for) (S (NP (CD 1) (NN hour))))) (. .)))
+-70.0967
+(S1 (S (S (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour))))) (. .)))
+-70.2518
+(S1 (X (NN Chill) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-70.4776
+(S1 (NP (NP (NN Chill)) (PP (IN for) (NP (NP (CD 1)) (NN hour))) (. .)))
+-70.4908
+(S1 (S (VP (VB Chill) (PP (IN for) (S (ADJP (CD 1) (NN hour))))) (. .)))
+-70.5577
+(S1 (S (NP (NN Chill)) (VP (ADVP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-70.5672
+(S1 (X (NP (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-70.7917
+(S1 (S (NP (NN Chill)) (VP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-70.9266
+(S1 (S (VP (NN Chill) (PP (IN for) (NP (QP (CD 1) (NN hour))))) (. .)))
+-70.9821
+(S1 (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-71.4651
+(S1 (FRAG (NP (VB Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+-71.6411
+(S1 (S (VP (NN Chill) (PP (IN for) (NP (NP (CD 1)) (NN hour)))) (. .)))
+-71.7089
+(S1 (S (VP (VB Chill) (ADJP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-71.8046
+(S1 (NP (NP (NP (NN Chill)) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-71.8751
+(S1 (FRAG (VP (NN Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-71.9831
+(S1 (X (NP (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-72.0764
+(S1 (S (NP (NN Chill)) (VP (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-72.1134
+(S1 (S (NP (NNP Chill)) (VP (ADVP (IN for) (NP (CD 1) (NN hour)))) (. .)))
+-72.1751
+(S1 (S (NP (NNP Chill)) (PP (IN for) (NP (CD 1) (NN hour))) (. .)))
+

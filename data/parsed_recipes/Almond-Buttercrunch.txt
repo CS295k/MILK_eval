@@ -1,0 +1,1122 @@
+50	1
+-54.0263
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (NN butter))))
+-58.5722
+(S1 (NP (QP (CD 3/4) (NN cup)) (NN butter)))
+-60.6516
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (NP (NN butter))))
+-62.978
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (NP (NN butter)))))
+-63.3328
+(S1 (NP (ADJP (CD 3/4) (NN cup)) (NN butter)))
+-65.3485
+(S1 (NP (CD 3/4) (NN cup) (NN butter)))
+-65.833
+(S1 (FRAG (NP (QP (CD 3/4) (NN cup)) (NN butter))))
+-66.7113
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (VB butter))))
+-67.613
+(S1 (FRAG (NP (ADJP (CD 3/4) (NN cup)) (NN butter))))
+-67.7116
+(S1 (S (NP (CD 3/4)) (VP (NN cup) (NP (NN butter)))))
+-67.817
+(S1 (S (NP (NP (CD 3/4) (NN cup)) (NP (NN butter)))))
+-68.1961
+(S1 (S (NP (CD 3/4) (NN cup)) (VP (VB butter))))
+-68.3088
+(S1 (S (NP (QP (CD 3/4) (NN cup)) (NN butter))))
+-68.6685
+(S1 (NP (CD 3/4) (NN cup) (VB butter)))
+-69.3638
+(S1 (FRAG (NP (CD 3/4) (NN cup)) (VP (VB butter))))
+-69.7064
+(S1 (S (NP (ADJP (CD 3/4) (NN cup)) (NN butter))))
+-69.9834
+(S1 (FRAG (ADJP (CD 3/4) (NN cup)) (NP (NN butter))))
+-70.5636
+(S1 (S (ADJP (CD 3/4) (NN cup)) (NP (VB butter))))
+-70.689
+(S1 (FRAG (NP (NP (QP (CD 3/4) (NN cup))) (NP (NN butter)))))
+-70.8953
+(S1 (NP (NP (NP (CD 3/4)) (NN cup)) (NP (NN butter))))
+-71.3483
+(S1 (NP (NP (CD 3/4)) (NN cup) (NN butter)))
+-71.4179
+(S1 (NP (ADJP (CD 3/4) (NN cup)) (VB butter)))
+-71.4237
+(S1 (FRAG (NP (CD 3/4) (NN cup)) (NP (NN butter))))
+-71.5912
+(S1 (FRAG (S (NP (CD 3/4) (NN cup)) (VP (VB butter)))))
+-71.6445
+(S1 (S (ADJP (CD 3/4) (NN cup)) (VP (VB butter))))
+-71.7795
+(S1 (NP (NP (CD 3/4) (NN cup)) (NN butter)))
+-72.0004
+(S1 (NP (NP (CD 3/4) (NN cup)) (VP (NN butter))))
+-73.0432
+(S1 (S (NP (CD 3/4) (NN cup)) (VP (NN butter))))
+-73.0819
+(S1 (S (NP (CD 3/4) (NN cup)) (NP (VB butter))))
+-73.1314
+(S1 (NP (ADJP (QP (CD 3/4) (NN cup))) (NN butter)))
+-73.3365
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (NP (VB butter))))
+-73.3752
+(S1 (S (NP (CD 3/4) (NN cup)) (NP (NN butter))))
+-73.3837
+(S1 (FRAG (NP (CD 3/4) (NN cup) (VB butter))))
+-73.4441
+(S1 (FRAG (ADJP (CD 3/4) (NN cup)) (NP (VB butter))))
+-73.4687
+(S1 (FRAG (NP (CD 3/4) (NN cup) (NN butter))))
+-73.6951
+(S1 (S (ADJP (CD 3/4) (NN cup)) (NP (NN butter))))
+-73.847
+(S1 (S (NP (QP (CD 3/4) (NN cup))) (VP (NN butter))))
+-73.9541
+(S1 (S (NP (CD 3/4) (NN cup) (NN butter))))
+-74.179
+(S1 (S (NP (QP (CD 3/4) (NN cup))) (NP (NN butter))))
+-74.2534
+(S1 (NP (NP (ADJP (CD 3/4) (NN cup))) (NP (NN butter))))
+-74.5314
+(S1 (FRAG (NP (CD 3/4) (NN cup)) (NP (VB butter))))
+-74.7557
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (VP (NN butter)))))
+-74.8684
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (NP (VB butter)))))
+-75.1433
+(S1 (NP (NP (CD 3/4)) (NP (NN cup) (NN butter))))
+-75.8711
+(S1 (S (NP (NP (QP (CD 3/4) (NN cup))) (NP (NN butter)))))
+-75.9447
+(S1 (S (NP (CD 3/4) (NN cup) (VB butter))))
+-76.5978
+(S1 (S (NP (CD 3/4)) (NP (NN cup) (NN butter))))
+-76.9587
+(S1 (S (NP (QP (CD 3/4) (NN cup))) (VP (VB butter))))
+-76.9949
+(S1 (FRAG (NP (QP (CD 3/4) (NN cup))) (VP (VB butter))))
+-77.185
+(S1 (S (NP (NP (CD 3/4) (NN cup)) (VP (NN butter)))))
+
+50	2
+-61.0463
+(S1 (NP (QP (CD 2) (NNS cups)) (JJ white) (NN sugar)))
+-64.1103
+(S1 (NP (CD 2) (NNS cups) (JJ white) (NN sugar)))
+-66.6011
+(S1 (NP (ADJP (CD 2) (NNS cups) (JJ white)) (NN sugar)))
+-70.0969
+(S1 (NP (ADJP (NP (CD 2) (NNS cups)) (JJ white)) (NN sugar)))
+-70.2211
+(S1 (FRAG (NP (QP (CD 2) (NNS cups)) (JJ white) (NN sugar))))
+-70.5848
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ white) (NN sugar))))
+-70.614
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar))))
+-71.2482
+(S1 (S (NP (CD 2) (NNS cups) (JJ white) (NN sugar))))
+-71.3324
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-71.7923
+(S1 (S (ADJP (CD 2) (NNS cups) (JJ white)) (NP (NN sugar))))
+-72.2563
+(S1 (NP (NP (CD 2) (NNS cups)) (JJ white) (NN sugar)))
+-72.5143
+(S1 (FRAG (NP (ADJP (CD 2) (NNS cups) (JJ white)) (NN sugar))))
+-73.2773
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (JJ white)) (NN sugar)))
+-73.3731
+(S1 (FRAG (NP (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-73.723
+(S1 (S (NP (ADJP (CD 2) (NNS cups) (JJ white)) (NN sugar))))
+-73.9204
+(S1 (S (ADJP (NP (CD 2) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-74.0509
+(S1 (NP (ADJP (CD 2) (NNS cups)) (JJ white) (NN sugar)))
+-74.8331
+(S1 (FRAG (NP (CD 2) (NNS cups) (JJ white) (NN sugar))))
+-74.8659
+(S1 (S (NP (QP (CD 2) (NNS cups)) (JJ white)) (VP (NN sugar))))
+-75.1035
+(S1 (S (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar))))
+-75.4597
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-75.8107
+(S1 (X (NP (QP (CD 2) (NNS cups)) (JJ white) (NN sugar))))
+-76.0101
+(S1 (FRAG (NP (ADJP (NP (CD 2) (NNS cups)) (JJ white)) (NN sugar))))
+-76.2396
+(S1 (FRAG (NP (ADJP (CD 2) (NNS cups)) (JJ white) (NN sugar))))
+-77.1561
+(S1 (S (NP (CD 2)) (VP (NNS cups) (NP (JJ white) (NN sugar)))))
+-77.191
+(S1 (NP (CD 2) (NP (NNS cups)) (JJ white) (NN sugar)))
+-77.2188
+(S1 (S (NP (ADJP (NP (CD 2) (NNS cups)) (JJ white)) (NN sugar))))
+-77.2309
+(S1 (NP (NP (QP (CD 2) (NNS cups))) (JJ white) (NN sugar)))
+-77.2414
+(S1 (NP (CD 2) (NNS cups) (NP (JJ white) (NN sugar))))
+-77.8104
+(S1 (X (NP (ADJP (CD 2) (NNS cups) (JJ white)) (NN sugar))))
+-78.0298
+(S1 (S (NP (CD 2)) (NP (NNS cups) (JJ white) (NN sugar))))
+-78.2928
+(S1 (S (NP (CD 2) (NNS cups)) (ADJP (JJ white)) (NP (NN sugar))))
+-78.5176
+(S1 (S (NP (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-78.9491
+(S1 (X (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar))))
+-79.0316
+(S1 (S (ADJP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar))))
+-79.3052
+(S1 (S (NP (NP (CD 2) (NNS cups)) (ADJP (JJ white))) (NP (NN sugar))))
+-79.3385
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (JJ white)) (NN sugar)))
+-79.5224
+(S1 (NP (NP (CD 2) (NNS cups) (JJ white)) (NP (NN sugar))))
+-79.9131
+(S1 (X (NP (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar)))))
+-79.9332
+(S1 (S (NP (CD 2) (NNS cups)) (ADVP (JJ white) (NN sugar))))
+-79.97
+(S1 (FRAG (NP (CD 2) (NNS cups)) (NP (JJ white) (NN sugar))))
+-80.0887
+(S1 (X (NP (CD 2) (NNS cups) (JJ white) (NN sugar))))
+-80.2193
+(S1 (NP (NP (CD 2) (NNS cups)) (ADVP (JJ white) (NN sugar))))
+-80.5975
+(S1 (NP (NP (CD 2) (NNS cups) (JJ white)) (NN sugar)))
+-80.7897
+(S1 (S (NP (NP (CD 2) (NNS cups)) (JJ white)) (NP (NN sugar))))
+-80.8033
+(S1 (FRAG (NP (NP (QP (CD 2) (NNS cups)) (JJ white)) (NP (NN sugar)))))
+-80.9738
+(S1 (NP (NP (NP (CD 2)) (NNS cups)) (JJ white) (NN sugar)))
+-81.2278
+(S1 (S (NP (NP (QP (CD 2) (NNS cups)) (JJ white)) (NN sugar))))
+-81.2755
+(S1 (S (NP (CD 2) (NNS cups) (JJ white)) (NP (NN sugar))))
+-81.3062
+(S1 (X (NP (ADJP (NP (CD 2) (NNS cups)) (JJ white)) (NN sugar))))
+
+50	3
+-65.9089
+(S1 (NP (NP (CD 1) (NN cup)) (NP (JJ chopped) (NNS almonds))))
+-66.2195
+(S1 (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))
+-67.3142
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))
+-67.9564
+(S1 (NP (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (NP (NNS almonds))))
+-68.5498
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds)))))
+-68.5715
+(S1 (NP (NP (CD 1) (NN cup)) (NP (VBN chopped) (NNS almonds))))
+-69.4156
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (NP (NNS almonds))))))
+-70.3543
+(S1 (NP (ADJP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))
+-70.557
+(S1 (S (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (VP (VBZ almonds))))
+-71.2436
+(S1 (NP (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped))) (NP (NNS almonds))))
+-71.5134
+(S1 (NP (NP (CD 1) (NN cup)) (NP (RB chopped) (NNS almonds))))
+-71.9583
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds))))))
+-72.5273
+(S1 (S (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped))) (VP (VBZ almonds))))
+-73.1585
+(S1 (NP (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped))) (NP (NNS almonds))))
+-73.1617
+(S1 (NP (NP (QP (CD 1) (NN cup))) (NP (JJ chopped) (NNS almonds))))
+-73.1939
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds))))))
+-73.2164
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (ADJP (JJ almonds))))))
+-73.4309
+(S1 (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (NP (NNS almonds)))))
+-73.539
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (ADJP (RB almonds))))))
+-74.0597
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (NP (NNS almonds)))))))
+-74.2085
+(S1 (NP (NP (CD 1) (NN cup)) (NP (ADJP (JJ chopped)) (NNS almonds))))
+-74.3845
+(S1 (S (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (NP (NNS almonds))))
+-74.5214
+(S1 (S (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds))))))
+-74.6415
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (UH almonds)))))
+-74.6665
+(S1 (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (ADVP (RB almonds)))))
+-74.8051
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (NP (JJ chopped) (NNS almonds)))))
+-74.8217
+(S1 (NP (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (NP (VBZ almonds))))
+-74.9256
+(S1 (S (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped))) (VP (VBZ almonds))))
+-75.1757
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (VBZ almonds)))))
+-75.3504
+(S1 (NP (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (NP (UH almonds))))
+-75.5323
+(S1 (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (S (NP (NNS almonds))))))
+-75.5674
+(S1 (NP (NP (CD 1) (NN cup)) (NP (ADJP (VBN chopped)) (NNS almonds))))
+-75.757
+(S1 (S (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds))))))
+-75.8243
+(S1 (NP (NP (QP (CD 1) (NN cup))) (NP (VBN chopped) (NNS almonds))))
+-76.046
+(S1 (S (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped))) (NP (NNS almonds))))
+-76.1437
+(S1 (S (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds))))
+-76.1571
+(S1 (NP (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))) (NNS almonds)))
+-76.1882
+(S1 (NP (NP (CD 1) (NN cup) (RB chopped)) (NP (NNS almonds))))
+-76.3829
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (UH almonds)))))
+-76.3882
+(S1 (NP (QP (CD 1) (NN cup)) (VBN chopped) (NNS almonds)))
+-76.4457
+(S1 (NP (NP (NP (QP (CD 1) (NN cup))) (ADVP (RB chopped))) (NP (NNS almonds))))
+-76.5807
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (ADVP (RB almonds))))))
+-76.6228
+(S1 (S (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (NP (NNS almonds)))))))
+-76.7688
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (PRT (RB almonds)))))
+-76.7797
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADJP (JJ almonds)))))
+-76.8328
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (SBAR (S (VP (VBZ almonds)))))))
+-76.8959
+(S1 (S (NP (NP (QP (CD 1) (NN cup))) (ADVP (RB chopped))) (VP (VBZ almonds))))
+-77.1722
+(S1 (NP (ADJP (CD 1) (NN cup)) (VBN chopped) (NNS almonds)))
+-77.3303
+(S1 (NP (NP (CD 1) (NN cup)) (NP (ADJP (RB chopped)) (NNS almonds))))
+-77.3551
+(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (VP (VBZ almonds))))))
+
+50	4
+-80.296
+(S1 (NP (QP (CD 2) (NNS cups)) (NN milk) (NN chocolate) (NNS chips)))
+-83.0812
+(S1 (NP (CD 2) (NNS cups) (NN milk) (NN chocolate) (NNS chips)))
+-85.3866
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-86.8502
+(S1 (S (NP (QP (CD 2) (NNS cups)) (NN milk) (NN chocolate) (NNS chips))))
+-88.1397
+(S1 (S (NP (QP (CD 2) (NNS cups)) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-88.1704
+(S1 (S (NP (CD 2) (NNS cups) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-89.0887
+(S1 (S (NP (CD 2) (NNS cups) (NN milk) (NN chocolate) (NNS chips))))
+-89.4885
+(S1 (NP (NP (CD 2)) (NNS cups) (NN milk) (NN chocolate) (NNS chips)))
+-89.789
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (NN milk) (NN chocolate) (NNS chips))))
+-90.4796
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN milk)) (NN chocolate) (NNS chips)))
+-90.7094
+(S1 (NP (NP (CD 2) (NNS cups)) (NN milk) (NN chocolate) (NNS chips)))
+-91.0021
+(S1 (NP (NP (CD 2) (NNS cups) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-91.7842
+(S1 (S (NP (CD 2) (NNS cups)) (NP (NN milk) (NN chocolate) (NNS chips))))
+-92.6295
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VB milk) (NP (NN chocolate) (NNS chips)))))
+-94.3009
+(S1 (S (NP (CD 2) (NNS cups)) (VP (NN milk) (NP (NN chocolate) (NNS chips)))))
+-94.6007
+(S1 (NP (CD 2) (NNS cups) (NP (NN milk) (NN chocolate) (NNS chips))))
+-94.7304
+(S1 (NP (NP (CD 2) (NNS cups) (NN milk)) (NN chocolate) (NNS chips)))
+-95.5996
+(S1 (S (NP (NP (QP (CD 2) (NNS cups)) (NN milk)) (NP (NN chocolate) (NNS chips)))))
+-95.6354
+(S1 (NP (NP (QP (CD 2) (NNS cups))) (NN milk) (NN chocolate) (NNS chips)))
+-96.1083
+(S1 (S (NP (NP (QP (CD 2) (NNS cups)) (NN milk)) (NN chocolate) (NNS chips))))
+-96.8319
+(S1 (S (NP (NP (CD 2) (NNS cups)) (NP (NN milk) (NN chocolate) (NNS chips)))))
+-96.877
+(S1 (S (NP (NP (CD 2)) (NNS cups) (NN milk) (NN chocolate) (NNS chips))))
+-97.843
+(S1 (NP (NP (CD 2) (NNS cups)) (NP (VB milk) (NN chocolate) (NNS chips))))
+-98.1567
+(S1 (S (NP (NP (CD 2) (NNS cups)) (NN milk) (NN chocolate) (NNS chips))))
+-98.37
+(S1 (S (NP (CD 2) (NNS cups)) (NP (VB milk) (NN chocolate) (NNS chips))))
+-98.9119
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (VB milk) (NP (NN chocolate) (NNS chips)))))
+-99.4269
+(S1 (NP (NP (NP (CD 2)) (NNS cups)) (NN milk) (NN chocolate) (NNS chips)))
+-99.558
+(S1 (S (NP (NP (CD 2)) (NNS cups)) (VP (VB milk) (NP (NN chocolate) (NNS chips)))))
+-100.091
+(S1 (S (NP (QP (CD 2) (NNS cups))) (VP (VB milk) (NP (NN chocolate) (NNS chips)))))
+-100.359
+(S1 (S (NP (NP (CD 2) (NNS cups) (NN milk)) (NN chocolate) (NNS chips))))
+-100.719
+(S1 (S (NP (QP (CD 2) (NNS cups))) (VP (NN milk) (NP (NN chocolate) (NNS chips)))))
+-100.741
+(S1 (S (NP (NP (CD 2)) (NNS cups) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-100.748
+(S1 (NP (NP (CD 2) (NNS cups)) (VP (NN milk) (NP (NN chocolate) (NNS chips)))))
+-100.955
+(S1 (NP (NP (QP (CD 2) (NNS cups)) (NN milk)) (NP (NP (NN chocolate)) (NP (NNS chips)))))
+-101.215
+(S1 (S (NP (NP (CD 2) (NNS cups) (NN milk)) (NP (NN chocolate) (NNS chips)))))
+-101.303
+(S1 (S (NP (NP (CD 2)) (NNS cups)) (NP (NN milk) (NN chocolate) (NNS chips))))
+-101.76
+(S1 (S (NP (NP (QP (CD 2) (NNS cups))) (NN milk) (NN chocolate) (NNS chips))))
+-101.784
+(S1 (S (NP (QP (CD 2) (NNS cups))) (NP (NN milk) (NN chocolate) (NNS chips))))
+-101.831
+(S1 (NP (CD 2) (NNS cups) (NP (VB milk) (NN chocolate) (NNS chips))))
+-102.076
+(S1 (S (NP (NP (CD 2)) (NNS cups)) (VP (NN milk) (NP (NN chocolate) (NNS chips)))))
+-102.077
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (VB milk) (NP (NN chocolate) (NNS chips))))))
+-102.394
+(S1 (NP (NP (NP (CD 2)) (NNS cups)) (NP (NN milk) (NN chocolate) (NNS chips))))
+-102.973
+(S1 (NP (NP (NP (CD 2)) (NNS cups) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-103.172
+(S1 (S (NP (NP (CD 2) (NNS cups)) (VP (NN milk) (NP (NN chocolate) (NNS chips))))))
+-103.335
+(S1 (NP (NP (NP (CD 2)) (NP (NNS cups))) (NN milk) (NN chocolate) (NNS chips)))
+-103.544
+(S1 (S (NP (CD 2)) (NP (NNS cups)) (VP (VB milk) (NP (NN chocolate) (NNS chips)))))
+-103.559
+(S1 (S (NP (CD 2) (NNS cups)) (VP (VB milk) (S (NP (NN chocolate) (NNS chips))))))
+-103.688
+(S1 (S (NP (CD 2) (NNS cups)) (VP (NP (NN milk) (NN chocolate) (NNS chips)))))
+-103.779
+(S1 (NP (NP (NP (CD 2) (NNS cups)) (NN milk)) (NP (NN chocolate) (NNS chips))))
+-103.798
+(S1 (S (NP (NP (CD 2) (NNS cups)) (NN milk)) (NP (NN chocolate) (NNS chips))))
+
+50	5
+-97.7989
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds))))
+-100.643
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (RB finely) (JJ chopped) (NNS almonds))))
+-101.585
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NNS almonds)))))
+-101.776
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NNS almonds))))))
+-102.11
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (ADVP (RB almonds)))))
+-102.212
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds))))
+-102.574
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped))) (NP (NNS almonds))))
+-104.136
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (RB finely) (VBN chopped) (NNS almonds))))
+-104.424
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds))))
+-105.175
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped))) (VP (VBZ almonds))))
+-105.392
+(S1 (NP (NP (CD 1/2) (NN cup) (RB finely)) (NP (JJ chopped) (NNS almonds))))
+-105.425
+(S1 (NP (QP (CD 1/2) (NN cup)) (RB finely) (JJ chopped) (NNS almonds)))
+-105.453
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (ADVP (RB finely) (RB chopped))) (NP (NNS almonds))))
+-105.945
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NNS almonds)))
+-106.229
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NNS almonds))))))
+-106.42
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NNS almonds)))))))
+-106.447
+(S1 (NP (QP (CD 1/2) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NNS almonds)))
+-106.588
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (VP (RB finely) (VBN chopped))) (NP (NNS almonds))))
+-106.695
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)))))
+-106.723
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (ADVP (RB finely)) (VBN chopped)) (NNS almonds))))
+-106.736
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (ADVP (RB finely) (RB chopped))) (VP (VBZ almonds))))
+-106.754
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (ADVP (RB almonds))))))
+-106.853
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (RB finely) (RB chopped)) (NNS almonds))))
+-107.074
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (NP (NNS almonds)))))
+-107.108
+(S1 (NP (NP (CD 1/2) (NN cup)) (ADVP (RB finely)) (VP (VBN chopped) (NP (NNS almonds)))))
+-107.149
+(S1 (NP (NP (NP (QP (CD 1/2) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped))) (NP (NNS almonds))))
+-107.265
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NNS almonds))))))
+-107.268
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (RB finely) (JJ chopped) (NNS almonds))))
+-107.599
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (ADVP (RB almonds)))))
+-108.055
+(S1 (NP (NP (CD 1/2) (NN cup) (RB finely)) (NP (VBN chopped) (NNS almonds))))
+-108.343
+(S1 (NP (NP (CD 1/2) (NN cup)) (ADVP (RB finely)) (VP (VBN chopped) (ADVP (RB almonds)))))
+-108.703
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADVP (RB finely)) (JJ chopped) (NNS almonds))))
+-108.792
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NNS almonds))))))
+-108.838
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds))))
+-108.891
+(S1 (NP (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped))) (ADVP (RB almonds))))
+-108.916
+(S1 (S (NP (NP (QP (CD 1/2) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped))) (VP (VBZ almonds))))
+-108.983
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NNS almonds)))))))
+-109.002
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped))) (NP (NNS almonds))))
+-109.189
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (RB finely) (VBN chopped))) (VP (VBZ almonds))))
+-109.209
+(S1 (NP (NP (CD 1/2) (NN cup)) (ADVP (RB finely)) (VP (VBN chopped) (S (NP (NNS almonds))))))
+-109.317
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (ADVP (RB almonds))))))
+-109.539
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (RB finely) (JJ chopped) (NNS almonds)))))
+-109.595
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (SBAR (S (VP (VBZ almonds)))))))
+-109.601
+(S1 (NP (QP (CD 1/2) (NN cup)) (ADJP (RB finely) (JJ chopped)) (NNS almonds)))
+-109.67
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (RB finely) (VBN chopped) (NP (NNS almonds)))))
+-109.716
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (VP (VBZ almonds))))))
+-110.027
+(S1 (NP (NP (NP (QP (CD 1/2) (NN cup))) (ADVP (RB finely) (RB chopped))) (NP (NNS almonds))))
+-110.069
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (RB finely) (VBN chopped) (ADVP (RB almonds)))))
+-110.151
+(S1 (NP (NP (CD 1/2) (NN cup) (RB finely)) (VP (VBN chopped) (NP (NNS almonds)))))
+-110.195
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (ADVP (RB finely)) (JJ chopped)) (NNS almonds))))
+
+50	6
+-185.857
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-187.093
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds)))))) (. .)))
+-187.665
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))) (. .)))
+-187.959
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (NP (NNS almonds))))))) (. .)))
+-188.148
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (ADVP (RB almonds))) (. .)))
+-188.178
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (NP (JJ chopped) (NNS almonds))))) (. .)))
+-188.614
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)) (NP (NNS almonds))))) (. .)))
+-188.663
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (SBAR (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (VP (VBZ almonds))))) (. .)))
+-189.019
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (NP (NNS almonds))) (. .)))
+-189.219
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (ADVP (RB almonds))) (. .)))
+-189.304
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped) (NP (NNS almonds)))))) (. .)))
+-189.559
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (ADJP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))) (. .)))
+-189.734
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (SBAR (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (VP (VBZ almonds))))) (. .)))
+-189.896
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped))))) (NP (NNS almonds)) (. .)))
+-190.09
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (NP (NNS almonds))) (. .)))
+-190.499
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-190.841
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (NP (VBN chopped) (NNS almonds))))) (. .)))
+-190.967
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped))))) (NP (NNS almonds)) (. .)))
+-191.059
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-191.092
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (NP (NNS almonds)))) (. .)))
+-191.234
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (NNS almonds))) (. .)))
+-191.735
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds)))))) (. .)))
+-192.002
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VB combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-192.163
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (NP (NNS almonds)))) (. .)))
+-192.295
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (ADVP (RB almonds)))))) (. .)))
+-192.306
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (NNS almonds))) (. .)))
+-192.314
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds))))))) (. .)))
+-192.601
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (NP (NNS almonds))))))) (. .)))
+-192.79
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (ADVP (RB almonds))) (. .)))
+-192.82
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (NP (JJ chopped) (NNS almonds))))) (. .)))
+-192.972
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (RB almonds)))))) (. .)))
+-193.028
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (S (VP (NNS almonds))))))) (. .)))
+-193.068
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))) (. .)))
+-193.161
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped) (S (NP (NNS almonds))))))) (. .)))
+-193.238
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VB combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds)))))) (. .)))
+-193.256
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)) (NP (NNS almonds))))) (. .)))
+-193.258
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VP (VBP combine) (NP (DT the) (NN butter))) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-193.332
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (SBAR (S (NP (NP (DT the) (NN butter) (, ,) (NN sugar) (CC and) (CD 1) (NN cup)) (VP (VBN chopped))) (VP (VBZ almonds))))) (. .)))
+-193.35
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped)))) (ADVP (RB almonds))) (. .)))
+-193.367
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (PP (IN over) (NP (JJ low) (NN heat))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds)))))) (. .)))
+-193.476
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (ADJP (CD 1) (NN cup)) (VBN chopped) (NNS almonds)))) (. .)))
+-193.49
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (NNS almonds))))))) (. .)))
+-193.498
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds))))) (. .)))
+-193.549
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (ADVP (RB almonds))))))) (. .)))
+-193.661
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (VP (VBN chopped)))) (NP (NNS almonds))) (. .)))
+-193.726
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (CD 1) (NN cup))) (NP (JJ chopped) (NNS almonds))) (. .)))
+-193.783
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (NP (RB chopped) (NNS almonds))))) (. .)))
+-193.81
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VB combine) (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (QP (CD 1) (NN cup)) (JJ chopped) (NNS almonds)))) (. .)))
+-193.861
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NN butter) (, ,) (NN sugar)) (CC and) (NP (NP (CD 1) (NN cup)) (ADVP (RB chopped)))) (ADVP (RB almonds))) (. .)))
+-193.865
+(S1 (S (PP (IN In) (NP (NP (DT a) (NN saucepan)) (PP (IN over) (NP (JJ low) (NN heat))))) (, ,) (VP (VBP combine) (SBAR (S (NP (NP (DT the) (NN butter)) (, ,) (NP (NN sugar)) (CC and) (NP (NP (QP (CD 1) (NN cup))) (VP (VBN chopped)))) (VP (VBZ almonds))))) (. .)))
+
+50	7
+-155.288
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-156.855
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-157.261
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-157.944
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.08
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils))))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.656
+(S1 (S (S (VP (VB Stir) (SBAR (RB constantly) (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.71
+(S1 (S (S (VP (VB Stir) (PP (ADVP (RB constantly)) (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.79
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture) (NNS boils)) (, ,) (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))) (. .)))
+-159.916
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.925
+(S1 (S (S (VP (VB Stir) (SBAR (ADVP (RB constantly)) (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-159.978
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VB shake)))) (. .)))
+-160.162
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))) (, ,) (S (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake))))) (. .)))
+-160.33
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils) (, ,) (S (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))))) (. .)))
+-160.514
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VP (VB stir)) (CC or) (VP (VB shake))))) (. .)))
+-160.996
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (VBZ boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-161.545
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VB shake)))) (. .)))
+-161.929
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NP (NN mixture) (NNS boils)) (, ,) (ADVP (RB then))) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))) (. .)))
+-161.95
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VB shake)))) (. .)))
+-162.126
+(S1 (S (VP (VP (VB Stir) (PRT (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.135
+(S1 (S (VP (VP (VB Stir) (PP (ADVP (RB constantly)) (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.186
+(S1 (S (VP (VB Stir) (SBAR (RB constantly) (IN until) (S (NP (NN mixture) (NNS boils)) (, ,) (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))) (. .)))
+-162.222
+(S1 (S (S (VP (VB Stir) (PRT (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.248
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils) (, ,) (S (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))))) (. .)))
+-162.312
+(S1 (S (S (VP (VB Stir) (SBAR (RB constantly) (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.366
+(S1 (S (S (VP (VB Stir) (PP (ADVP (RB constantly)) (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.454
+(S1 (S (VP (VB Stir) (SBAR (ADVP (RB constantly)) (IN until) (S (NP (NN mixture) (NNS boils)) (, ,) (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))) (. .)))
+-162.486
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VP (VB stir)) (CC or) (VP (VB shake))))) (. .)))
+-162.563
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (VBZ boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.58
+(S1 (S (S (VP (VB Stir) (SBAR (ADVP (RB constantly)) (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-162.634
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VB shake)))) (. .)))
+-162.684
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))) (, ,) (S (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake))))) (. .)))
+-162.726
+(S1 (S (VP (VB Stir) (SBAR (RB constantly) (IN until) (S (NP (NN mixture)) (VP (VBZ boils) (, ,) (S (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))))) (. .)))
+-162.994
+(S1 (S (VP (VB Stir) (SBAR (ADVP (RB constantly)) (IN until) (S (NP (NN mixture)) (VP (VBZ boils) (, ,) (S (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))))))) (. .)))
+-163.087
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VBP shake)))) (. .)))
+-163.17
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VP (VB stir)) (CC or) (VP (VB shake))))) (. .)))
+-163.217
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.234
+(S1 (S (VP (VP (VB Stir) (SBAR (RB constantly) (IN until) (S (NP (NN mixture)) (VP (VBZ boils))))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.269
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (S (NP (NN mixture)) (VP (VBZ boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.441
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VP (VB stir)) (CC or) (VP (VB shake))))) (. .)))
+-163.495
+(S1 (S (S (VP (VB Stir) (NP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.503
+(S1 (S (VP (VP (VB Stir) (SBAR (ADVP (RB constantly)) (IN until) (S (NP (NN mixture)) (VP (VBZ boils))))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.525
+(S1 (S (S (VP (VB Stir) (PP (RB constantly) (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.651
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (VBZ boils))))) (, ,) (ADVP (RB then)) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-163.734
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir)))) (CC or) (S (VP (VB shake))) (. .)))
+-163.77
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils))))) (, ,) (RB then) (VP (AUX do) (RB not) (VP (VBP stir) (CC or) (VB shake)))) (. .)))
+-163.876
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture))) (NP (NNS boils)))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-164.204
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (RB then) (VP (VP (AUX do) (RB not) (VP (VB stir))) (CC or) (VP (VB shake)))) (. .)))
+-164.227
+(S1 (S (VP (VB Stir) (ADVP (RB constantly)) (SBAR (IN until) (S (NP (NN mixture)) (VP (VBZ boils) (, ,) (SBAR (S (ADVP (RB then)) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake))))))))) (. .)))
+-164.292
+(S1 (S (S (VP (VB Stir) (ADVP (RB constantly) (PP (IN until) (NP (NN mixture) (NNS boils)))))) (, ,) (RB then) (S (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake)))) (. .)))
+-164.299
+(S1 (S (VP (VP (VB Stir) (ADVP (RB constantly)) (PP (IN until) (NP (NN mixture) (NNS boils)))) (, ,) (S (RB then) (VP (AUX do) (RB not) (VP (VB stir) (CC or) (VB shake))))) (. .)))
+
+50	8
+-386.22
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-387.266
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-387.764
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-388.272
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-388.483
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water))) (SBAR (S (VP (VBZ forms) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))))) (. .)))
+-388.726
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms)) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))) (. .)))
+-388.824
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-388.929
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-389.318
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))) (. .)))
+-389.359
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-389.42
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-389.427
+(S1 (S (S (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (S (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))) (VP (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))) (. .)))
+-389.648
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-389.918
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-389.959
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NP (NN syrup)) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))))) (. .)))
+-390.181
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-390.231
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-390.467
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-390.468
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (ADJP (JJ hard) (, ,) (JJ brittle)) (NNS threads)))))) (. .)))
+-390.532
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-390.535
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water))) (SBAR (S (VP (VBZ forms) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-390.539
+(S1 (S (VP (VB Heat) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NP (NN syrup)) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))))) (. .)))
+-390.734
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NP (NN syrup)) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))))) (. .)))
+-390.752
+(S1 (S (S (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (S (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))) (. .)))
+-390.758
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))) (. .)))
+-390.762
+(S1 (S (VP (VB Heat) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))) (. .)))
+-390.777
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms)) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))) (. .)))
+-390.801
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (NP (NNP F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-390.914
+(S1 (S (S (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))) (. .)))
+-390.918
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water))) (SBAR (S (VP (VBZ forms) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))))) (. .)))
+-390.956
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-390.964
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-390.965
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.182
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.256
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-391.278
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-391.314
+(S1 (S (VP (VB Heat) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NP (NN syrup)) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))))))))) (. .)))
+-391.39
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F)))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.462
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.523
+(S1 (S (S (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (S (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))) (. .)))
+-391.537
+(S1 (S (VP (VB Heat) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))) (VP (VBN dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))))))) (. .)))
+-391.684
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water))) (SBAR (S (VP (VBZ forms) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads))))))))) (. .)))
+-391.695
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (VBZ forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.713
+(S1 (S (NP (NNP Heat)) (PP (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-391.754
+(S1 (S (NP (NP (NN Heat)) (PP (PP (TO to) (NP (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))) (, ,) (CC or) (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard)) (, ,) (NP (JJ brittle) (NNS threads))) (. .)))
+-391.763
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water))) (SBAR (S (VP (VBZ forms) (NP (ADJP (JJ hard) (, ,) (JJ brittle)) (NNS threads))))))))) (. .)))
+-391.775
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F))) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (ADVP (RB hard))) (, ,) (NP (JJ brittle) (NNS threads)))))) (. .)))
+-391.798
+(S1 (S (S (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (S (PP (IN until) (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup))))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))) (. .)))
+-391.847
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310)) (NNS degrees)) (NP (NP (NNP F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water) (NNS forms))) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))) (. .)))
+-391.855
+(S1 (S (VP (VP (VB Heat) (PP (TO to) (NP (NP (QP (CD 300) (TO to) (CD 310) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 149) (TO to) (CD 154) (NNS degrees)) (NN C)) (-RRB- -RRB-))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NP (DT a) (JJ small) (NN amount)) (PP (IN of) (NP (NN syrup)))) (VP (VBD dropped) (PP (IN into) (NP (JJ cold) (NN water))) (S (VP (VBZ forms) (NP (JJ hard) (, ,) (JJ brittle) (NNS threads)))))))) (. .)))
+
+50	9
+-103.232
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-106.061
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-107.45
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-108.049
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-109.993
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (NN buttered) (NN cookie) (NN sheet)))) (. .)))
+-110.278
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-111.103
+(S1 (SQ (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-112.267
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-112.726
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (ADJP (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-113.077
+(S1 (S (VP (VB Pour) (PRT (IN onto)) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))) (. .)))
+-113.19
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (RB large) (VBN buttered)) (NN cookie) (NN sheet)))) (. .)))
+-113.842
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (ADJP (VBN buttered)) (NN cookie) (NN sheet)))) (. .)))
+-113.931
+(S1 (SQ (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-114.21
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (NN buttered) (NN cookie) (NN sheet)))) (. .)))
+-114.492
+(S1 (S (VP (VB Pour) (PRT (IN onto)) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet))) (. .)))
+-114.739
+(S1 (S (VP (VB Pour) (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))) (. .)))
+-115.128
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (RB large) (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-115.235
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large)) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-115.546
+(S1 (S (VP (VB Pour) (ADVP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-115.741
+(S1 (S (VP (VB Pour) (NP (IN onto) (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))) (. .)))
+-115.92
+(S1 (SQ (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-116.154
+(S1 (S (VP (VB Pour) (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet))) (. .)))
+-116.277
+(S1 (S (VP (VB Pour) (NP (IN onto) (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet))) (. .)))
+-116.301
+(S1 (FRAG (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-116.592
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (NX (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-116.789
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (NP (DT a) (JJ large) (JJ buttered) (NN cookie)) (NP (NN sheet))))) (. .)))
+-116.943
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (ADJP (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-117.001
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (RB large) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-117.163
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (NP (DT a) (JJ large) (NN buttered)) (NP (NN cookie) (NN sheet))))) (. .)))
+-117.22
+(S1 (FRAG (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-117.341
+(S1 (S (VP (VB Pour) (PRT (IN onto)) (NP (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet))) (. .)))
+-117.407
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (ADJP (RB large) (VBN buttered)) (NN cookie) (NN sheet)))) (. .)))
+-117.597
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (NP (DT a) (JJ large)) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-117.796
+(S1 (S (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-117.863
+(S1 (SQ (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (NN buttered) (NN cookie) (NN sheet)))) (. .)))
+-117.869
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (RB large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-118.059
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (ADJP (VBN buttered)) (NN cookie) (NN sheet)))) (. .)))
+-118.122
+(S1 (S (VP (VB Pour) (NP (IN onto) (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet))) (. .)))
+-118.305
+(S1 (S (VP (VB Pour) (PP (IN onto) (S (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-118.426
+(S1 (S (VP (VBP Pour) (ADVP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-118.722
+(S1 (FRAG (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-118.742
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large)) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-118.882
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (NX (JJ large) (JJ buttered) (NN cookie) (NN sheet))))) (. .)))
+-118.949
+(S1 (S (VP (VB Pour) (PP (IN onto) (NP (NP (DT a)) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-119.003
+(S1 (S (VP (VB Pour) (IN onto) (NP (DT a) (ADJP (JJ large) (JJ buttered)) (NN cookie) (NN sheet))) (. .)))
+-119.109
+(S1 (S (VP (VB Pour) (NP (IN onto) (NP (DT a) (JJ large) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+-119.13
+(S1 (FRAG (S (VP (VB Pour) (PP (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet))))) (. .)))
+-119.345
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (ADJP (RB large) (JJ buttered)) (NN cookie) (NN sheet)))) (. .)))
+-119.392
+(S1 (S (VP (VB Pour) (ADVP (IN onto) (NP (DT a) (JJ large) (VBN buttered) (NN cookie) (NN sheet)))) (. .)))
+-119.452
+(S1 (S (VP (VBP Pour) (PP (IN onto) (NP (DT a) (ADJP (JJ large)) (JJ buttered) (NN cookie) (NN sheet)))) (. .)))
+
+50	10
+-277.637
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-277.893
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-278.306
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-278.378
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-278.621
+(S1 (S (ADVP (ADVP (RB Immediately) (NP (NN press) (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy)))))) (. .)))
+-278.651
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-279.047
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-279.233
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-279.32
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-279.596
+(S1 (S (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-279.727
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-279.92
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.307
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN coating))) (PP (IN over) (NP (DT the) (NN candy))))) (. .)))
+-280.485
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.508
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NN candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.589
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.634
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.661
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-280.827
+(S1 (S (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-281
+(S1 (S (ADVP (ADVP (RB Immediately) (NP (NN press) (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy)))))) (. .)))
+-281.048
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN coating))) (PP (IN over) (NP (DT the) (NN candy))))) (. .)))
+-281.153
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.167
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.177
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NN candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.249
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NN candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.296
+(S1 (S (RB Immediately) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.303
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.321
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN coating))) (PP (IN over) (NP (DT the) (NN candy))))) (. .)))
+-281.33
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.516
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-281.834
+(S1 (S (RB Immediately) (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-281.836
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.864
+(S1 (S (VP (ADVP (RB Immediately)) (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.879
+(S1 (S (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-281.908
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.918
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NN candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.92
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NNS candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-281.964
+(S1 (S (RB Immediately) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.168
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN coating))) (PP (IN over) (NP (DT the) (NN candy))))) (. .)))
+-282.191
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (SBAR (S (VP (VBP spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy)))))))))))) (. .)))
+-282.415
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (CD candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.44
+(S1 (S (ADVP (RB Immediately)) (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.)))) (SBAR (IN As) (S (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))) (. .)))
+-282.468
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.)))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.533
+(S1 (S (VP (ADVP (RB Immediately)) (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.552
+(S1 (FRAG (RB Immediately) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.577
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.589
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NNS candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+-282.59
+(S1 (S (VP (VP (ADVP (RB Immediately)) (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NNS candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN coating))) (PP (IN over) (NP (DT the) (NN candy))))) (. .)))
+-282.641
+(S1 (FRAG (RB Immediately) (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (DT the) (JJ hot) (NN candy.))) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts) (, ,) (S (VP (VB spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))))))) (. .)))
+-282.661
+(S1 (S (ADVP (RB Immediately)) (VP (VP (VB press) (NP (NN chocolate) (NNS chips)) (PP (IN onto) (NP (NP (DT the) (JJ hot) (NNS candy.)) (SBAR (IN As) (S (NP (DT the) (NN chocolate)) (VP (VBZ melts))))))) (, ,) (VP (VBD spread) (NP (PRP it)) (PP (IN into) (NP (NP (DT a) (NN coating)) (PP (IN over) (NP (DT the) (NN candy))))))) (. .)))
+
+50	11
+-195.449
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-197.845
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-199.277
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VB cool)) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-199.443
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-199.939
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-200.034
+(S1 (S (S (VP (VBP Sprinkle) (NP (RB finely) (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-200.14
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (S (VP (VB cool))) (, ,) (CC and) (S (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-200.723
+(S1 (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))))) (. .)))
+-200.953
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VBP cool)) (, ,) (CC and) (VP (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.103
+(S1 (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.342
+(S1 (S (S (VP (VBP Sprinkle) (ADVP (RB finely)) (NP (NP (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.439
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (RB finely) (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.528
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VBP cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.612
+(S1 (S (S (VP (VBP Sprinkle) (NP (RB finely) (VBN chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.658
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (ADJP (JJ uneven)) (NNS pieces)))))) (. .)))
+-201.673
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VP (VB cool)) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-201.925
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VBP cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-202.259
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-202.335
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-202.381
+(S1 (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))))) (. .)))
+-202.537
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (S (VP (VB cool))) (, ,) (CC and) (S (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.156
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (RB finely) (VBN chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.194
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VBP cool)) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.271
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VB cool)) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.349
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VP (VBP cool)) (, ,) (CC and) (VP (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.393
+(S1 (S (S (VP (VBP Sprinkle) (ADVP (RB finely) (NP (JJ chopped) (NNS almonds))) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.41
+(S1 (S (S (VP (VBP Sprinkle) (ADJP (RB finely) (VBN chopped) (S (VP (VBZ almonds) (PP (IN over) (NP (DT the) (NN top)))))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.5
+(S1 (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.508
+(S1 (S (S (VP (VBP Sprinkle) (S (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.683
+(S1 (S (S (VP (VBP Sprinkle) (PP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.857
+(S1 (S (S (VP (VBP Sprinkle) (ADVP (RB finely) (RB chopped) (RB almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.863
+(S1 (S (S (VP (VBP Sprinkle) (NP (RB finely) (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VB cool)) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.924
+(S1 (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))) (: ;) (S (S (VP (VB cool))) (, ,) (CC and) (S (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.924
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VBP cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-203.933
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-204.054
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (ADJP (JJ uneven)) (NNS pieces)))))) (. .)))
+-204.055
+(S1 (S (S (VP (VBP Sprinkle) (ADVP (RB finely)) (NP (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.131
+(S1 (S (S (VP (VBP Sprinkle) (RB finely) (NP (NP (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.134
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (S (VP (VB cool))) (, ,) (CC and) (S (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.227
+(S1 (S (S (VP (VBP Sprinkle) (ADVP (RB finely) (RB chopped)) (NP (NP (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.321
+(S1 (S (S (VP (VBP Sprinkle) (NP (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VBP cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-204.353
+(S1 (S (S (VP (VBP Sprinkle) (SBAR (S (ADVP (RB finely) (RB chopped)) (VP (VBZ almonds) (PP (IN over) (NP (DT the) (NN top)))))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.373
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (ADVP (RB finely)) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.424
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-204.524
+(S1 (S (S (VP (VBP Sprinkle) (NP (RB finely) (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-204.609
+(S1 (S (S (VP (VBP Sprinkle) (RB finely) (VP (VBN chopped) (NP (NNS almonds)) (PP (IN over) (NP (DT the) (NN top)))))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.616
+(S1 (S (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (VP (VP (VB cool)) (, ,) (CC and) (VP (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+-204.696
+(S1 (S (VP (VP (VBP Sprinkle) (NP (ADJP (RB finely) (VBN chopped)) (NNS almonds)) (PP (IN over) (NP (NP (DT the) (NN top)) (: ;) (JJ cool)))) (, ,) (CC and) (VP (VBP break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))) (. .)))
+-204.717
+(S1 (S (VP (VBP Sprinkle) (NP (ADJP (RB finely) (JJ chopped)) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))) (: ;) (S (VP (VB cool) (, ,) (CC and) (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces))))))) (. .)))
+-204.726
+(S1 (S (S (VP (VBP Sprinkle) (NP (RB finely) (JJ chopped) (NNS almonds)) (PP (IN over) (NP (DT the) (NN top))))) (: ;) (S (S (VP (VB cool))) (, ,) (CC and) (S (VP (VB break) (PP (IN into) (NP (JJ uneven) (NNS pieces)))))) (. .)))
+

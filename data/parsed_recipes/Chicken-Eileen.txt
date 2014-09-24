@@ -1,0 +1,918 @@
+50	1
+-140.813
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-146.026
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread) (VBG stuffing) (NN mix))))
+-149.831
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-150.764
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (VBN herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-152.394
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-152.693
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (JJ herb-seasoned) (JJ dry) (NN bread)) (VBG stuffing) (NN mix))))
+-152.919
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-153.968
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (ADJP (JJ dry)) (NN bread) (VBG stuffing) (NN mix))))
+-154.251
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-154.83
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned)) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-154.867
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-156.104
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread)) (VBG stuffing) (NN mix))))
+-156.596
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-156.678
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-157.201
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))))
+-158.133
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread) (VBG stuffing) (NN mix))))
+-158.749
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (VBN herb-seasoned) (JJ dry) (NN bread)) (VBG stuffing) (NN mix))))
+-159.03
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread) (S (VP (VBG stuffing) (NP (NN mix))))))
+-159.736
+(S1 (NP (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-159.752
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (JJ herb-seasoned) (JJ dry) (NN bread)) (VP (VBG stuffing) (NP (NN mix))))))
+-160.08
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread) (VBG stuffing) (NN mix))))
+-160.164
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread)) (NP (VBG stuffing) (NN mix))))
+-160.205
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (VBN herb-seasoned) (JJ dry) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-160.768
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 6)) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-160.78
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread) (VBG stuffing) (NN mix)))
+-160.878
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned)) (NP (JJ dry) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-160.969
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (JJ herb-seasoned) (JJ dry) (NN bread)) (NP (VBG stuffing) (NN mix)))))
+-161.473
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (VP (VBN herb-seasoned) (NP (JJ dry) (NN bread) (VBG stuffing) (NN mix)))))
+-161.808
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (VP (VBD herb-seasoned) (NP (JJ dry) (NN bread) (VBG stuffing) (NN mix)))))
+-161.893
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (ADJP (JJ herb-seasoned)) (JJ dry) (NN bread)) (VBG stuffing) (NN mix))))
+-161.938
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-162.414
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread) (VBG stuffing) (NN mix)))))
+-162.468
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (ADJP (VBN herb-seasoned)) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-162.58
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-162.87
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package)) (NP (VBN herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-162.952
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned)) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-163.163
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (ADJP (JJ herb-seasoned) (JJ dry)) (NN bread)) (VP (VBG stuffing) (NP (NN mix))))))
+-163.184
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (ADJP (JJ herb-seasoned)) (JJ dry) (NN bread) (VBG stuffing) (NN mix)))
+-163.325
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NP (JJ herb-seasoned) (ADJP (JJ dry)) (NN bread)) (VBG stuffing) (NN mix))))
+-163.451
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (VP (VBD herb-seasoned) (NP (JJ dry) (NN bread)) (S (VP (VBG stuffing) (NP (NN mix)))))))
+-163.523
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread) (S (VP (VBG stuffing) (NP (NN mix))))))
+-163.779
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (VP (JJ herb-seasoned) (NP (JJ dry) (NN bread) (VBG stuffing) (NN mix)))))
+-163.808
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (JJ herb-seasoned) (JJ dry) (NN bread)) (NP (VBG stuffing) (NN mix))))
+-164.375
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (S (VP (VBG stuffing) (NP (NN mix)))))))
+-164.5
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-164.672
+(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ herb-seasoned) (ADJP (JJ dry)) (NN bread))) (NP (VBG stuffing) (NN mix))))
+-164.701
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package)) (VP (VBN herb-seasoned) (NP (JJ dry) (NN bread) (VBG stuffing) (NN mix)))))
+-164.728
+(S1 (NP (NP (CD 1) (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-) (NN package)) (NP (JJ herb-seasoned) (JJ dry) (NN bread) (VBG stuffing) (NN mix))))
+-164.753
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN package) (JJ herb-seasoned) (JJ dry) (NN bread)) (VP (VBG stuffing) (NP (NN mix)))))
+-164.8
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 6) (NN ounce))) (-RRB- -RRB-)) (NN package)) (NP (NP (JJ herb-seasoned) (JJ dry) (NN bread)) (VBG stuffing) (NN mix))))
+
+50	2
+-109.323
+(S1 (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-111.05
+(S1 (NP (NP (CD 8)) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-111.181
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-112.482
+(S1 (S (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-113.217
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NNS halves)))
+-114.978
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-115.232
+(S1 (FRAG (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves)))))
+-115.592
+(S1 (S (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-115.991
+(S1 (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-117.38
+(S1 (FRAG (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves)))))
+-118.091
+(S1 (NP (CD 8) (ADJP (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-118.258
+(S1 (NP (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast)) (NP (NNS halves))))
+-119.117
+(S1 (S (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken)) (NP (NN breast) (NNS halves))))
+-119.173
+(S1 (S (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-119.331
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (ADJP (JJ boneless)) (NN chicken) (NN breast)) (NP (NNS halves))))
+-119.833
+(S1 (S (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves))))
+-120.153
+(S1 (FRAG (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves))))
+-120.16
+(S1 (S (S (ADJP (CD 8) (JJ skinless))) (, ,) (NP (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-120.449
+(S1 (S (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves)))))
+-120.519
+(S1 (S (ADJP (CD 8) (JJ skinless)) (, ,) (NP (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-120.606
+(S1 (NP (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-120.691
+(S1 (S (NP (CD 8)) (NP (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves))))
+-120.783
+(S1 (S (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NNS halves))))
+-120.791
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken)) (NP (NN breast) (NNS halves))))
+-120.817
+(S1 (NP (NP (CD 8) (ADJP (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-120.835
+(S1 (FRAG (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NNS halves))))
+-121.014
+(S1 (NP (CD 8) (NP (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NNS halves)))
+-121.119
+(S1 (S (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-121.324
+(S1 (FRAG (S (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves)))))
+-121.472
+(S1 (NP (CD 8) (JJ skinless) (, ,) (ADJP (JJ boneless)) (NN chicken) (NN breast) (NNS halves)))
+-121.891
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken)) (NN breast) (NNS halves)))
+-121.94
+(S1 (NP (NP (CD 8)) (ADJP (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-121.959
+(S1 (S (NP (CD 8) (ADJP (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-122.025
+(S1 (S (NP (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves)))))
+-122.228
+(S1 (FRAG (NP (CD 8) (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-122.266
+(S1 (NP (ADJP (NP (CD 8)) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves)))
+-122.282
+(S1 (S (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NP (NNS halves))))
+-122.309
+(S1 (FRAG (NP (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast)) (NP (NNS halves)))))
+-122.385
+(S1 (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast) (NNS halves)))
+-122.43
+(S1 (S (NP (CD 8) (JJ skinless) (, ,) (ADJP (JJ boneless)) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-122.611
+(S1 (NP (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (NNS halves)))
+-122.735
+(S1 (NP (NP (CD 8)) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast) (NNS halves)))
+-123.382
+(S1 (FRAG (NP (NP (CD 8) (JJ skinless) (, ,) (ADJP (JJ boneless)) (NN chicken) (NN breast)) (NP (NNS halves)))))
+-123.78
+(S1 (NP (NP (CD 8)) (NP (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves))))
+-124.07
+(S1 (S (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast) (NNS halves))))
+-124.093
+(S1 (NP (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken)) (NP (NN breast) (NNS halves))))
+-124.257
+(S1 (NP (NP (NP (CD 8)) (NP (JJ skinless) (, ,) (JJ boneless) (NN chicken) (NN breast))) (NNS halves)))
+-124.268
+(S1 (NP (NP (CD 8) (JJ skinless) (, ,) (ADJP (JJ boneless)) (NN chicken) (NN breast)) (NNS halves)))
+-124.372
+(S1 (NP (NP (ADJP (CD 8) (JJ skinless)) (, ,) (JJ boneless) (NN chicken) (NN breast)) (VP (VBZ halves))))
+-124.481
+(S1 (NP (NP (CD 8) (ADJP (JJ skinless) (, ,) (JJ boneless)) (NN chicken) (NN breast)) (NNS halves)))
+
+50	3
+-110.591
+(S1 (NP (CD 16) (JJ medium) (NNS slices) (NN mozzarella) (NN cheese)))
+-110.957
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (NN mozzarella) (NN cheese)))))
+-111.582
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (JJ mozzarella) (NN cheese)))))
+-111.878
+(S1 (NP (CD 16) (NN medium) (NNS slices) (NN mozzarella) (NN cheese)))
+-112.166
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices)) (NN mozzarella) (NN cheese)))
+-112.914
+(S1 (NP (CD 16) (NN medium) (JJ slices) (NN mozzarella) (NN cheese)))
+-113.547
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices)) (NN mozzarella) (NN cheese)))
+-113.939
+(S1 (NP (ADJP (CD 16) (NN medium)) (NNS slices) (NN mozzarella) (NN cheese)))
+-113.977
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-114.093
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese))))
+-115.013
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-115.129
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese))))
+-115.264
+(S1 (NP (NP (ADJP (CD 16) (NN medium)) (NNS slices)) (NN mozzarella) (NN cheese)))
+-115.747
+(S1 (FRAG (NP (CD 16) (JJ medium) (NNS slices) (NN mozzarella) (NN cheese))))
+-116.224
+(S1 (NP (CD 16) (JJ medium) (JJ slices) (NN mozzarella) (NN cheese)))
+-116.633
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices)) (JJ mozzarella) (NN cheese)))
+-116.739
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (S (NP (NN mozzarella) (NN cheese))))))
+-116.75
+(S1 (FRAG (NP (NP (CD 16) (JJ medium) (NNS slices)) (NP (NN mozzarella) (NN cheese)))))
+-116.79
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (CD mozzarella) (NN cheese)))))
+-116.8
+(S1 (NP (NP (CD 16) (NN medium)) (NP (JJ slices) (NN mozzarella) (NN cheese))))
+-116.865
+(S1 (FRAG (NP (NP (CD 16) (JJ medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese)))))
+-116.93
+(S1 (FRAG (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (NN mozzarella) (NN cheese)))))
+-116.993
+(S1 (NP (NP (NP (CD 16) (NN medium)) (NP (NNS slices))) (NN mozzarella) (NN cheese)))
+-117.034
+(S1 (FRAG (NP (CD 16) (NN medium) (NNS slices) (NN mozzarella) (NN cheese))))
+-117.22
+(S1 (S (NP (CD 16) (NN medium) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-117.302
+(S1 (NP (ADJP (CD 16) (NN medium)) (JJ slices) (NN mozzarella) (NN cheese)))
+-117.499
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices)) (NP (CD mozzarella) (NN cheese))))
+-117.554
+(S1 (FRAG (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (JJ mozzarella) (NN cheese)))))
+-117.702
+(S1 (S (NP (CD 16) (JJ medium) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-117.786
+(S1 (FRAG (NP (NP (CD 16) (NN medium) (NNS slices)) (NP (NN mozzarella) (NN cheese)))))
+-117.821
+(S1 (NP (NP (ADJP (CD 16) (NN medium)) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-117.825
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (NP (NN mozzarella)) (NP (NN cheese)))))
+-117.901
+(S1 (FRAG (NP (NP (CD 16) (NN medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese)))))
+-117.936
+(S1 (NP (NP (ADJP (CD 16) (NN medium)) (NNS slices)) (NP (JJ mozzarella) (NN cheese))))
+-118.014
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices)) (JJ mozzarella) (NN cheese)))
+-118.146
+(S1 (S (NP (CD 16) (JJ medium) (NNS slices) (NN mozzarella) (NN cheese))))
+-118.296
+(S1 (S (NP (CD 16) (NN medium)) (VP (VBZ slices) (S (NP (JJ mozzarella) (NN cheese))))))
+-118.332
+(S1 (S (NP (ADJP (CD 16) (NN medium)) (NNS slices)) (NP (NN mozzarella) (NN cheese))))
+-118.535
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices)) (NP (CD mozzarella) (NN cheese))))
+-118.658
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices) (NN mozzarella)) (NP (NN cheese))))
+-118.764
+(S1 (S (NP (CD 16) (NN medium) (NNS slices)) (VP (NN mozzarella) (NP (NN cheese)))))
+-118.777
+(S1 (S (NP (CD 16) (NN medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese))))
+-119.03
+(S1 (NP (NP (CD 16) (NN medium)) (NNS slices) (NN mozzarella) (NN cheese)))
+-119.113
+(S1 (NP (NP (CD 16) (NN medium)) (NP (NNS slices) (NN mozzarella) (NN cheese))))
+-119.131
+(S1 (NP (CD 16) (JJ medium) (NP (NNS slices)) (NN mozzarella) (NN cheese)))
+-119.245
+(S1 (S (NP (CD 16) (JJ medium) (NNS slices)) (VP (NN mozzarella) (NP (NN cheese)))))
+-119.259
+(S1 (S (NP (CD 16) (JJ medium) (NNS slices)) (NP (JJ mozzarella) (NN cheese))))
+-119.307
+(S1 (NP (NP (CD 16) (NN medium) (NNS slices) (NN mozzarella)) (NP (NN cheese))))
+-119.334
+(S1 (NP (NP (CD 16) (JJ medium) (NNS slices) (NN mozzarella)) (NN cheese)))
+-119.344
+(S1 (FRAG (NP (ADJP (CD 16) (NN medium)) (NNS slices) (NN mozzarella) (NN cheese))))
+
+50	4
+-177.709
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-178.335
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-178.405
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-179.003
+(S1 (S (NP (NP (NN Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-179.069
+(S1 (S (NP (NP (JJ Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-179.57
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.197
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.266
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.551
+(S1 (S (NP (NP (JJR Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.553
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))))) (. .)))
+-180.641
+(S1 (S (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))))) (. .)))
+-180.822
+(S1 (S (NP (NP (JJR Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.865
+(S1 (S (NP (NP (NN Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.93
+(S1 (S (NP (NP (JJ Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-180.93
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (. .)))
+-181
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))
+-181.003
+(S1 (S (NP (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-181.127
+(S1 (S (NP (NP (NNP Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-181.408
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-181.495
+(S1 (S (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-181.557
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (. .)))
+-181.626
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))
+-181.626
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (. .)))
+-181.696
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))
+-182.018
+(S1 (S (NP (NP (NNP Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-182.225
+(S1 (S (NP (NP (NN Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (. .)))
+-182.29
+(S1 (S (NP (NP (JJ Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (. .)))
+-182.294
+(S1 (S (NP (NP (NN Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))
+-182.36
+(S1 (S (NP (NP (JJ Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))
+-182.37
+(S1 (S (NP (NNP Preheat)) (VP (NNS oven) (PP (TO to) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))))) (. .)))
+-182.413
+(S1 (S (NP (NP (JJR Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-182.414
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))))) (. .)))
+-182.502
+(S1 (S (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))))) (. .)))
+-182.512
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (. .)))
+-182.619
+(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (NNP C)) (-RRB- -RRB-))) (. .)))
+-182.684
+(S1 (S (NP (NP (JJR Preheat) (NN oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-182.865
+(S1 (S (NP (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-182.871
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))) (. .)))
+-182.918
+(S1 (S (NP (NP (NN Preheat) (CD oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))
+-182.958
+(S1 (S (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))) (. .)))
+-182.988
+(S1 (S (NP (NP (NNP Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (. .)))
+-183.058
+(S1 (S (VP (VB Preheat) (NP (NP (QP (CD oven) (TO to) (CD 350) (NNS degrees)) (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))) (. .)))
+-183.139
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (. .)))
+-183.169
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-183.208
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-))) (. .)))
+-183.224
+(S1 (S (NP (NNP Preheat)) (VP (NNS oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-183.245
+(S1 (S (NP (NP (JJ Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (NNP C)) (-RRB- -RRB-))) (. .)))
+-183.256
+(S1 (S (NP (NNP Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-183.269
+(S1 (S (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)))))) (. .)))
+-183.315
+(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (NNP C)) (-RRB- -RRB-))) (. .)))
+
+50	5
+-89.4318
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-90.5982
+(S1 (S (VP (VB Prepare) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-91.4938
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-92.0241
+(S1 (S (VP (VBP Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-93.5708
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-95.0081
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))))) (. .)))
+-95.2035
+(S1 (S (VP (VB Prepare) (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-95.4549
+(S1 (S (VP (VBP Prepare) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-95.9179
+(S1 (S (VP (VB Prepare) (NP (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-96.1745
+(S1 (S (VP (VB Prepare) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions)))))) (. .)))
+-96.4212
+(S1 (SQ (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-96.5898
+(S1 (S (VP (VBP Prepare) (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-97.0701
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions)))))) (. .)))
+-97.1231
+(S1 (S (VP (VBP Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-97.6004
+(S1 (S (VP (VBP Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))))) (. .)))
+-99.1471
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))) (. .)))
+-99.2002
+(S1 (S (VP (VBP Prepare) (PP (VBG stuffing) (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-99.267
+(S1 (S (VP (VB Prepare) (ADJP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-99.7196
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (NP (VBG according)) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-99.8959
+(S1 (SQ (VP (VB Prepare) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-100.09
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (S (VP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-100.241
+(S1 (S (VP (VBP Prepare) (S (VP (VBG stuffing))) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-100.627
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (S (VP (VBG according) (S (VP (TO to) (VP (VB package) (NP (NNS directions))))))))) (. .)))
+-100.78
+(S1 (S (VP (VB Prepare) (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))) (. .)))
+-100.969
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package)))) (NP (NNS directions))))) (. .)))
+-101.031
+(S1 (S (VP (VBP Prepare) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions)))))) (. .)))
+-101.368
+(S1 (SQ (VP (VB Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-101.434
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (S (VP (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))))) (. .)))
+-101.494
+(S1 (S (VP (VB Prepare) (NP (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions)))))) (. .)))
+-101.758
+(S1 (S (VP (VB Prepare) (SBAR (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))))) (. .)))
+-101.806
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing))) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-101.826
+(S1 (FRAG (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-101.941
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (S (VP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))))) (. .)))
+-101.997
+(S1 (SQ (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))))) (. .)))
+-102.166
+(S1 (S (VP (VBP Prepare) (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions))))) (. .)))
+-102.261
+(S1 (S (S (VP (VB Prepare))) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-102.306
+(S1 (SQ (VP (VB Prepare) (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-102.312
+(S1 (S (VP (VBP Prepare) (S (VP (VBG stuffing) (NP (VBG according)) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-102.394
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (NP (NP (VBG according)) (PP (TO to) (NP (NN package) (NNS directions))))))) (. .)))
+-102.478
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (S (VP (VBG according) (S (VP (TO to) (VP (VB package) (NP (NNS directions)))))))))) (. .)))
+-102.486
+(S1 (S (NP (VBP Prepare)) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-102.501
+(S1 (FRAG (S (VP (VB Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))))) (. .)))
+-102.543
+(S1 (S (VP (VBP Prepare) (NP (NP (VBG stuffing)) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))) (. .)))
+-102.684
+(S1 (S (NP (VB Prepare)) (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+-102.699
+(S1 (S (VP (VBP Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (VB package) (NNS directions)))))) (. .)))
+-102.701
+(S1 (S (VP (VB Prepare) (PP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .))))
+-102.814
+(S1 (S (VP (VB Prepare) (S (VP (VBG stuffing) (VP (VBG according) (S (VP (TO to) (VP (VB package) (NP (NNS directions))))))))) (. .)))
+-103.175
+(S1 (S (VP (VB Prepare) (VP (VBG stuffing) (S (VP (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))))) (. .)))
+-103.297
+(S1 (FRAG (S (VP (VBP Prepare) (S (VP (VBG stuffing) (PP (VBG according) (PP (TO to) (NP (NN package) (NNS directions)))))))) (. .)))
+-103.445
+(S1 (SQ (VP (VB Prepare) (PP (VBG stuffing) (VBG according) (PP (TO to) (NP (NN package) (NNS directions))))) (. .)))
+
+50	6
+-197.885
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-197.976
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-198.259
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-198.35
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-199.197
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch) (NN thickness))))) (. .)))
+-199.233
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-199.57
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch) (NN thickness))))) (. .)))
+-199.607
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-199.937
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.031
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2)) (NN inch) (NN thickness))))) (. .)))
+-200.067
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-200.106
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.198
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.305
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PP (IN out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.311
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.355
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.397
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PP (IN out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.405
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2)) (NN inch) (NN thickness))))) (. .)))
+-200.418
+(S1 (S (S (VP (VB Wash) (NP (DT the) (NN chicken)))) (, ,) (S (VP (VB pat) (ADJP (JJ dry)))) (CC and) (S (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.441
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (RB about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-200.48
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.509
+(S1 (S (S (VP (VB Wash) (NP (DT the) (NN chicken)))) (, ,) (S (VP (VB pat) (ADJP (JJ dry)))) (CC and) (S (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.572
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.618
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PP (IN out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.62
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RB out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.679
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PP (IN out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.709
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PP (IN out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.712
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RB out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.729
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.77
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch)))) (NP (NN thickness))) (. .)))
+-200.77
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PP (IN out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.843
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADVP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.935
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADVP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-200.992
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (NN pound) (PP (IN out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-200.994
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (ADVP (RB out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-201.059
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-201.083
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (NN pound) (PP (IN out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-201.086
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (ADVP (RB out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-201.144
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch)))) (NP (NN thickness))) (. .)))
+-201.208
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RB out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-201.224
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RP out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-201.299
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RB out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-201.316
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (RP out) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+-201.397
+(S1 (S (S (VP (VB Wash) (NP (DT the) (NN chicken)))) (, ,) (S (VP (VB pat) (S (ADJP (JJ dry))))) (CC and) (S (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-201.418
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch) (NN thickness))))) (. .)))
+-201.42
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch)) (NP (NN thickness)))))) (. .)))
+-201.433
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (S (ADJP (JJ dry)))) (CC and) (VP (NN pound) (PRT (RP out)) (PP (TO to) (NP (QP (IN about) (DT a) (CD 1/2)) (NN inch))) (NP (NN thickness)))) (. .)))
+-201.488
+(S1 (S (S (VP (VB Wash) (NP (DT the) (NN chicken)))) (, ,) (S (VP (VB pat) (S (ADJP (JJ dry))))) (CC and) (S (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (IN about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-201.549
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (NP (JJ dry))) (CC and) (VP (VB pound) (PRT (RP out)) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness))))) (. .)))
+-201.55
+(S1 (S (VP (VP (VB Wash) (NP (DT the) (NN chicken))) (, ,) (VP (VB pat) (ADJP (JJ dry))) (CC and) (VP (VB pound) (ADVP (IN out) (PP (TO to) (NP (RB about) (DT a) (ADJP (CD 1/2) (NN inch)) (NN thickness)))))) (. .)))
+
+50	7
+-190.764
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing))))))))) (. .)))
+-190.973
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing)))))))))))) (. .)))
+-191.692
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing))))))))) (. .)))
+-192.109
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing)))))))))))) (. .)))
+-194.046
+(S1 (S (VP (VBP Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing))))))))) (. .)))
+-194.255
+(S1 (S (VP (VBP Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing)))))))))))) (. .)))
+-194.352
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (S (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))) (. .)))
+-194.561
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (S (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))) (. .)))
+-194.974
+(S1 (S (VP (VBP Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing))))))))) (. .)))
+-195.28
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (S (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing)))))))) (. .)))
+-195.392
+(S1 (S (VP (VBP Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing)))))))))))) (. .)))
+-195.698
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (S (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing))))))))))) (. .)))
+-195.714
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing))))))) (. .)))
+-195.923
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing)))))))))) (. .)))
+-195.961
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (ADJP (VBG stuffing))))))))))) (. .)))
+-196.141
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing))))))) (. .)))
+-196.35
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing)))))))))) (. .)))
+-196.41
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (ADJP (JJ prepared) (VBG stuffing))))))))) (. .)))
+-196.413
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (NP (VBG stuffing))))))))))) (. .)))
+-196.642
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing))))))) (. .)))
+-197.059
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing)))))))))) (. .)))
+-197.069
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing))))))) (. .)))
+-197.142
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))) (. .)))
+-197.169
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing))))))))) (. .)))
+-197.351
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))) (. .)))
+-197.378
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing)))))))))))) (. .)))
+-197.386
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (S (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))))) (. .)))
+-197.487
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing)))))))))) (. .)))
+-197.544
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))))) (. .)))
+-197.595
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (S (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))))) (. .)))
+-197.753
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))))) (. .)))
+-197.89
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (S (NP (NP (DT a) (NN scoop)) (PP (IN of) (ADJP (JJ prepared)))) (VP (VBG stuffing)))))))) (. .)))
+-198.07
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing)))))))) (. .)))
+-198.097
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing))))))))) (. .)))
+-198.169
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))))))) (. .)))
+-198.314
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (S (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing)))))))))) (. .)))
+-198.378
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))))))) (. .)))
+-198.472
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing)))))))))) (. .)))
+-198.487
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing))))))))))) (. .)))
+-198.514
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (PP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing)))))))))))) (. .)))
+-198.574
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))))) (. .)))
+-198.621
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (S (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared))))) (VP (VBG stuffing)))))))) (. .)))
+-198.731
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (S (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing))))))))))))) (. .)))
+-198.783
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (ADJP (VBG stuffing))))))))))))) (. .)))
+-198.818
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (ADJP (JJ prepared)) (VBG stuffing))))))))) (. .)))
+-198.889
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBN prepared) (S (VP (VBG stuffing))))))))))))) (. .)))
+-198.975
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (DT each) (NN breast))))) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))) (. .)))
+-199.007
+(S1 (S (VP (VBP Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (DT each) (NN breast))) (, ,) (S (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (JJ prepared) (VBG stuffing)))))))) (. .)))
+-199.097
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (NP (VBN prepared) (VBG stuffing)))))))))))) (. .)))
+-199.114
+(S1 (S (VP (VB Place) (NP (NP (DT a) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN on) (NP (NP (DT each) (NN breast)) (, ,) (VP (VBN followed) (PP (IN by) (NP (NP (DT a) (NN scoop)) (PP (IN of) (S (VP (VBD prepared) (S (VP (VBG stuffing)))))))))))) (. .)))
+
+50	8
+-207.34
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-207.698
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish)))) (. .)))
+-207.807
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish))))) (. .)))
+-208.165
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish)))) (. .)))
+-208.24
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch)))) (VP (VBG baking) (NP (NN dish))))) (. .)))
+-208.253
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch)))) (S (VP (VBG baking) (NP (NN dish))))) (. .)))
+-208.286
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch)))) (PP (VBG baking) (NP (NN dish)))) (. .)))
+-208.86
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch))) (PP (VBG baking) (NP (NN dish))))) (. .)))
+-208.995
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch))) (PP (VBG baking) (NP (NN dish)))) (. .)))
+-209.175
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (VBG baking) (NN dish))))) (. .)))
+-209.451
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-209.495
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch))) (VP (VBG baking) (NP (NN dish))))) (. .)))
+-209.534
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (VBG baking) (NN dish)))) (. .)))
+-209.599
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish))))) (. .)))
+-209.809
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish)))) (. .)))
+-209.919
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish))))) (. .)))
+-209.957
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish)))) (. .)))
+-210.277
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish)))) (. .)))
+-210.351
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (CD 9x13) (NN inch)))) (VP (VBG baking) (NP (NN dish))))) (. .)))
+-210.364
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (CD 9x13) (NN inch)))) (S (VP (VBG baking) (NP (NN dish))))) (. .)))
+-210.367
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch)))) (NP (JJ baking) (NN dish))) (. .)))
+-210.398
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (CD 9x13) (NN inch)))) (PP (VBG baking) (NP (NN dish)))) (. .)))
+-210.511
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch)) (VP (VBG baking) (NP (NN dish))))))) (. .)))
+-210.515
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (SBAR (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly)))) (VP (VBD greased) (NP (CD 9x13) (NN inch)) (PP (VBG baking) (NP (NN dish))))))) (. .)))
+-210.555
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (SBAR (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly)))) (VP (VBD greased) (NP (CD 9x13) (NN inch)) (S (VP (VBG baking) (NP (NN dish)))))))) (. .)))
+-210.775
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (VBN greased) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish))))) (. .)))
+-210.79
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch))) (S (VP (VBG baking) (NP (NN dish))))) (. .)))
+-210.813
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-210.971
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (CD 9x13) (NN inch))) (PP (VBG baking) (NP (NN dish))))) (. .)))
+-210.987
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch)))) (VP (VBG baking) (NP (NN dish))))) (. .)))
+-211
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch)))) (S (VP (VBG baking) (NP (NN dish))))) (. .)))
+-211.033
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch)))) (PP (VBG baking) (NP (NN dish)))) (. .)))
+-211.098
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (CD 9x13) (NN inch) (NN baking) (NN dish))))) (. .)))
+-211.106
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (CD 9x13) (NN inch))) (PP (VBG baking) (NP (NN dish)))) (. .)))
+-211.133
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (VBN greased) (ADJP (CD 9x13) (NN inch)) (NN baking) (NN dish)))) (. .)))
+-211.151
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch) (VBG baking) (NN dish))))) (. .)))
+-211.171
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish)))) (. .)))
+-211.174
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch) (VBG baking) (NN dish))))) (. .)))
+-211.271
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (VBN greased) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-211.287
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (JJ greased)) (ADJP (CD 9x13) (NN inch)) (VBG baking) (NN dish))))) (. .)))
+-211.321
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch) (NN baking) (NN dish))))) (. .)))
+-211.335
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch)) (VP (VBG baking) (NP (NN dish)))))) (. .)))
+-211.361
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (NP (DT a) (RB lightly) (JJ greased) (CD 9x13) (NN inch)) (VP (VBG baking) (NP (NN dish))))))) (. .)))
+-211.425
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (VBN greased) (CD 9x13) (NN inch) (NN baking) (NN dish))))) (. .)))
+-211.456
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (RB lightly) (JJ greased) (CD 9x13) (NN inch) (NN baking) (NN dish)))) (. .)))
+-211.464
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (ADVP (RB lightly)) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-211.472
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (S (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13)))) (VP (VB inch) (S (VP (VBG baking) (NP (NN dish))))))) (. .)))
+-211.473
+(S1 (S (NP (VB Place)) (VP (VBD stuffed) (NP (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (ADJP (CD 9x13) (NN inch)) (JJ baking) (NN dish))))) (. .)))
+-211.509
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (CD 9x13) (NN inch) (VBG baking) (NN dish)))) (. .)))
+-211.532
+(S1 (S (NP (NN Place)) (VP (VBD stuffed) (NP (NNS breasts)) (PP (IN in) (NP (DT a) (ADJP (RB lightly) (VBN greased)) (NN 9x13) (NN inch) (VBG baking) (NN dish)))) (. .)))
+
+50	9
+-526.449
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-527.162
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-527.81
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-528.182
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))))) (. .)))
+-528.252
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-528.523
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-528.804
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.043
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VB run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.051
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.201
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.327
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (CD 350) (NNS degrees)) (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.447
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (RB bubbly))))))) (. .)))
+-529.517
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.543
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))))) (. .)))
+-529.607
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (SBAR (SBAR (S (NP (SYM F)) (VP (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.612
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.649
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)))) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.746
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (S (ADJP (JJ clear))))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.756
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VB run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.832
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))))) (. .)))
+-529.862
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (S (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-529.872
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly))))))))))))))) (. .)))
+-529.928
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken))))))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-529.967
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADJP (RB bubbly)))))))) (. .)))
+-530.103
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NP (NN cheese)) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken))))))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.16
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (RB bubbly))))))) (. .)))
+-530.163
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (S (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))) (, ,) (ADVP (RB then)) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-530.168
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly))))))))))) (. .)))
+-530.237
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.26
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.292
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADVP (RB clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.32
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (SBAR (SBAR (S (NP (SYM F)) (VP (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.356
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese))) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-530.391
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly))))))))))) (. .)))
+-530.403
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VB run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.405
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)))) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (S (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-530.412
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.414
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))))) (. .)))
+-530.427
+(S1 (S (VP (VP (VB Bake) (UCP (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken))))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.459
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (S (ADJP (JJ clear))))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.537
+(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VP (VBP run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese) (SBAR (SBAR (IN over) (S (NP (DT each)) (VP (VP (VBD stuffed) (NP (NN chicken))) (, ,) (CC and) (VP (VB bake) (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))))) (. .)))
+-530.561
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (CD 350) (NNS degrees)) (NP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.618
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VB run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.674
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (SBAR (SBAR (S (NP (NNP F)) (VP (PRN (-LRB- -LRB-) (NP (QP (CD 175) (NNS degrees)) (NN C)) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.68
+(S1 (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (VP (ADVP (RB then)) (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADJP (RB bubbly)))))))) (. .)))
+-530.687
+(S1 (S (S (VP (VB Bake) (UCP (PP (IN at) (NP (NP (CD 350) (NNS degrees)) (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (NNP C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)))))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.706
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (NP (NP (CD 350) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)))) (PP (IN for) (NP (CD 25) (NNS minutes))))) (, ,) (CC or) (S (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))) (, ,) (ADVP (RB then)) (VP (VBP place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-530.717
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear))))))) (, ,) (RB then) (S (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)) (, ,) (CC and) (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))))))) (. .)))
+-530.766
+(S1 (S (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (S (NP (NP (NP (SYM F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-))) (PP (IN for) (NP (CD 25) (NNS minutes)) (, ,) (CC or) (PP (IN until) (NP (NN chicken) (NNS juices))))) (VP (VP (VB run) (ADJP (JJ clear))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (NP (DT each)) (VP (VBD stuffed) (NP (NN chicken)))))))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+-530.767
+(S1 (S (S (VP (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (NP (NP (NN F)) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (X (SYM C))) (-RRB- -RRB-)) (PP (IN for) (NP (CD 25) (NNS minutes)))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN chicken) (NNS juices)) (VP (VBP run) (ADJP (JJ clear)))))) (, ,) (RB then) (VP (VB place) (NP (NP (DT a) (JJ second) (NN slice)) (PP (IN of) (NP (NN cheese)))) (PP (IN over) (NP (DT each) (VBD stuffed) (NN chicken)))))) (, ,) (CC and) (S (VP (VB bake) (UCP (PP (IN for) (NP (QP (CD 2) (JJR more)) (NNS minutes))) (, ,) (CC or) (SBAR (IN until) (S (NP (NN cheese)) (VP (AUX is) (ADVP (RB bubbly)))))))) (. .)))
+

@@ -31,6 +31,7 @@
 <line><originaltext>Bake for about 50 minutes. </originaltext><annotation>cook(ing19, t0, ing20, "baked batter", "bake 50 minutes")</annotation></line>
 <line><originaltext>Test with toothpick. </originaltext><annotation>create_tool(t4, "toothpick")</annotation></line>
 <line><originaltext>Test with toothpick. </originaltext><annotation>do(ing20, t4, ing21, "tested batter", "test with toothpick")</annotation></line>
+<line><originaltext>Test with toothpick. </originaltext><annotation>put(ing21, t4)</annotation></line>
 <line><originaltext>When inserted it should come out clean. </originaltext><annotation>chefcheck(ing21,"toothpick came out clean")</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>create_tool(t5, "rack")</annotation></line>
 <line><originaltext>Remove bread from pan to rack to cool. </originaltext><annotation>remove(ing21,t4)</annotation></line>

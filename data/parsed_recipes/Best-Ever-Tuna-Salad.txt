@@ -1,0 +1,1790 @@
+27	1
+-31.9996
+(S1 (NP (CD 2) (NNS eggs)))
+-39.5704
+(S1 (S (NP (CD 2) (NNS eggs))))
+-40.8365
+(S1 (NP (QP (CD 2) (NNS eggs))))
+-41.2064
+(S1 (FRAG (NP (CD 2) (NNS eggs))))
+-41.3044
+(S1 (NP (NP (CD 2)) (NNS eggs)))
+-43.7866
+(S1 (X (NP (CD 2) (NNS eggs))))
+-45.4697
+(S1 (S (NP (CD 2)) (VP (NNS eggs))))
+-45.722
+(S1 (S (NP (CD 2)) (NP (NNS eggs))))
+-46.4327
+(S1 (S (NP (NP (CD 2)) (NNS eggs))))
+-47.5513
+(S1 (FRAG (NP (QP (CD 2) (NNS eggs)))))
+-48.8108
+(S1 (FRAG (NP (NP (CD 2)) (NNS eggs))))
+-49.7151
+(S1 (S (NP (QP (CD 2) (NNS eggs)))))
+-50.3789
+(S1 (NP (NP (CD 2)) (NP (NNS eggs))))
+-50.4498
+(S1 (FRAG (NP (CD 2)) (NP (NNS eggs))))
+-53.3139
+(S1 (X (NP (QP (CD 2) (NNS eggs)))))
+-53.9735
+(S1 (S (NP (CD 2)) (VP (NP (NNS eggs)))))
+-53.9772
+(S1 (X (NP (NP (CD 2)) (NNS eggs))))
+-55.0298
+(S1 (FRAG (S (NP (CD 2) (NNS eggs)))))
+-57.873
+(S1 (FRAG (NP (NP (CD 2)) (NP (NNS eggs)))))
+-59.099
+(S1 (FRAG (S (NP (CD 2)) (VP (NNS eggs)))))
+-60.9247
+(S1 (FRAG (S (NP (CD 2)) (NP (NNS eggs)))))
+-61.7027
+(S1 (S (NP (NP (CD 2)) (NP (NNS eggs)))))
+-61.8921
+(S1 (FRAG (S (NP (NP (CD 2)) (NNS eggs)))))
+-65.2939
+(S1 (FRAG (S (NP (QP (CD 2) (NNS eggs))))))
+-67.0421
+(S1 (X (NP (NP (CD 2)) (NP (NNS eggs)))))
+-67.6028
+(S1 (FRAG (S (NP (CD 2)) (VP (NP (NNS eggs))))))
+-69.3111
+(S1 (FRAG (S (NP (NP (CD 2)) (NP (NNS eggs))))))
+
+50	2
+-78.63
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-86.4444
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna)))
+-87.3568
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-88.104
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-88.7883
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna)))
+-90.864
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna)))
+-91.3592
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-93.4775
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-96.1909
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna))))
+-96.4025
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-96.788
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-97.5566
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna)))))
+-97.6597
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-98.0727
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna))))
+-98.2415
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (JJ white) (NP (NN tuna)))))
+-99.1736
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna)))
+-99.6823
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna))))
+-100.086
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-100.404
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna))))
+-100.833
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-101.517
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna)))
+-101.667
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-103.243
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna)))))
+-103.54
+(S1 (S (VP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))))
+-103.593
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna)))
+-103.626
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12)) (NN ounce) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-103.951
+(S1 (FRAG (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))))
+-105.129
+(S1 (FRAG (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-105.158
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ white)) (NN tuna))))
+-105.474
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna)))
+-105.876
+(S1 (S (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-106.207
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-106.387
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-106.561
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-))) (NN can) (JJ white) (NN tuna)))
+-106.561
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna)))
+-107.134
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna))))
+-107.337
+(S1 (FRAG (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna))))
+-107.35
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ white) (NN tuna))))
+-107.791
+(S1 (FRAG (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (JJ white) (NP (NN tuna))))))
+-107.818
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna)))
+-107.913
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-108.148
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (NP (JJ white) (NN tuna)))))
+-108.772
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-))) (VP (NN can) (NP (JJ white) (NN tuna)))))
+-108.92
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (ADJP (JJ white)) (NN tuna))))
+-109.025
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (JJ white) (NP (NN tuna))))))
+-109.132
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ white) (NN tuna)))
+-109.237
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ white)) (NN tuna)))))
+-109.25
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ white)) (NN tuna))))
+-109.508
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+-109.517
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (NP (JJ white) (NN tuna))))
+
+50	3
+-122.758
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))
+-124.264
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADJP (JJ shredded)))))))
+-124.43
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (VP (VBD shredded))))
+-125.223
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))
+-125.3
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (ADJP (JJ shredded)))))))
+-126.132
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat))) (, ,) (VP (VBD shredded))))
+-126.314
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (FRAG (ADJP (JJ shredded)))))
+-126.549
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (NP (JJ shredded))))))
+-126.729
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADJP (JJ shredded)))))))
+-126.819
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (JJ shredded))))))
+-126.928
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))))
+-127.268
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))
+-127.765
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (ADJP (JJ shredded)))))))
+-128.012
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (ADVP (JJ shredded))))
+-128.434
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADJP (JJ shredded)))))))))
+-128.774
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADJP (JJ shredded)))))))
+-128.817
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VB crabmeat)) (, ,) (FRAG (ADJP (JJ shredded)))))))
+-129.014
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (NP (JJ shredded))))))
+-129.225
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (FRAG (JJ shredded))))
+-129.284
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (JJ shredded))))))
+-129.47
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (ADJP (JJ shredded)))))))))
+-129.478
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (PP (VBD shredded))))))
+-129.66
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat))) (, ,) (ADVP (JJ shredded))))
+-129.762
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat))) (, ,) (S (ADJP (JJ shredded)))))
+-129.81
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (ADJP (JJ shredded)))))))
+-130.066
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADVP (JJ shredded)))))))
+-130.154
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (ADJP (JJ shredded))))
+-130.335
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VB crabmeat)) (, ,) (FRAG (JJ shredded))))))
+-130.427
+(S1 (S (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat)))) (, ,) (VP (VBD shredded))))
+-130.5
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (S (NP (JJ shredded)))))))
+-130.594
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (VBD shredded))))))
+-130.664
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (NP (VBD shredded))))
+-130.719
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat) (, ,) (NP (JJ shredded))))))))
+-130.989
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (JJ shredded))))))))
+-131.059
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (NP (JJ shredded))))))
+-131.282
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VP (VB crabmeat)) (, ,) (FRAG (ADJP (JJ shredded)))))))
+-131.285
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VB crabmeat)) (, ,) (VP (VBD shredded))))))
+-131.328
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (JJ shredded))))))
+-131.481
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (FRAG (ADVP (JJ shredded)))))
+-131.539
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))
+-131.573
+(S1 (S (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat)))) (, ,) (FRAG (ADJP (JJ shredded)))))
+-131.755
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VB crabmeat))))) (, ,)) (VP (VBD shredded))))
+-131.896
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (FRAG (ADVP (JJ shredded)))))))
+-131.938
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (S (VP (VBD shredded)))))
+-131.943
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (PP (VBD shredded))))))
+-132.219
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat)))) (, ,) (NP (JJ shredded))))
+-132.287
+(S1 (S (NP (CD 1)) (VP (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (MD can) (VP (VB crabmeat) (, ,) (ADVP (JJ shredded))))))
+-132.391
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB crabmeat) (, ,) (PP (JJ shredded))))))
+-132.531
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VB crabmeat) (, ,) (S (ADVP (JJ shredded)))))))
+-132.801
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VP (VB crabmeat)) (, ,) (FRAG (JJ shredded))))))
+
+50	4
+-57.6187
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-59.9991
+(S1 (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-64.2439
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-64.7598
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-66.6202
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-66.6482
+(S1 (NP (CD 1/2) (NN cup) (NN mayonnaise)))
+-67.2599
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.0399
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.7086
+(S1 (X (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-69.7105
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-71.1081
+(S1 (S (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-71.4103
+(S1 (FRAG (ADJP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-71.6021
+(S1 (X (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-72.2265
+(S1 (NP (NP (CD 1/2) (NN cup)) (NN mayonnaise)))
+-72.3315
+(S1 (NP (NP (CD 1/2)) (NN cup) (NN mayonnaise)))
+-72.5179
+(S1 (S (NP (CD 1/2)) (VP (NN cup) (NP (NN mayonnaise)))))
+-72.8506
+(S1 (FRAG (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-72.8602
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise)))))
+-73.9105
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise))))
+-73.9855
+(S1 (S (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-74.3055
+(S1 (S (ADJP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-74.3312
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-74.3524
+(S1 (X (NP (ADJP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-74.4701
+(S1 (S (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise))))
+-74.4877
+(S1 (NP (NP (NP (CD 1/2)) (NN cup)) (NP (NN mayonnaise))))
+-74.5583
+(S1 (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise)))
+-74.7684
+(S1 (FRAG (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-74.7894
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-74.8999
+(S1 (S (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-75.2739
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise))))
+-76.6658
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-77.5436
+(S1 (S (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-77.7157
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NN mayonnaise)))
+-77.8182
+(S1 (X (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))
+-77.8458
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup))) (NP (NN mayonnaise))))
+-78.0284
+(S1 (NP (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-78.5722
+(S1 (X (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-78.8385
+(S1 (FRAG (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise))))
+-79.0951
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-79.3997
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise))))
+-79.7981
+(S1 (FRAG (NP (CD 1/2)) (NP (NN cup) (NN mayonnaise))))
+-80.0717
+(S1 (X (NP (CD 1/2) (NN cup) (NN mayonnaise))))
+-80.5791
+(S1 (NP (CD 1/2) (NP (NN cup)) (NN mayonnaise)))
+-80.6838
+(S1 (NP (NP (CD 1/2)) (VP (NN cup) (NP (NN mayonnaise)))))
+-80.8342
+(S1 (X (NP (NP (CD 1/2) (NN cup)) (VP (NN mayonnaise)))))
+-80.9142
+(S1 (S (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN mayonnaise)))))
+-81.4634
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NN mayonnaise))))
+-81.7828
+(S1 (S (NP (ADJP (QP (CD 1/2) (NN cup))) (NN mayonnaise))))
+-81.8555
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup))) (VP (NN mayonnaise)))))
+-82.0593
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup))) (NN mayonnaise)))
+
+50	5
+-71.0422
+(S1 (NP (QP (CD 1) (NN teaspoon)) (JJ sour) (NN cream)))
+-71.7461
+(S1 (NP (QP (CD 1) (CD teaspoon)) (JJ sour) (NN cream)))
+-74.176
+(S1 (NP (CD 1) (JJ teaspoon) (JJ sour) (NN cream)))
+-74.7919
+(S1 (NP (CD 1) (NN teaspoon) (JJ sour) (NN cream)))
+-75.5243
+(S1 (NP (ADJP (CD 1) (NN teaspoon)) (JJ sour) (NN cream)))
+-77.5493
+(S1 (NP (NP (CD 1) (NN teaspoon)) (JJ sour) (NN cream)))
+-78.0145
+(S1 (NP (ADJP (CD 1) (NN teaspoon) (JJ sour)) (NN cream)))
+-78.8154
+(S1 (FRAG (NP (ADJP (CD 1) (NN teaspoon)) (JJ sour) (NN cream))))
+-78.8223
+(S1 (NP (NP (CD 1)) (JJ teaspoon) (JJ sour) (NN cream)))
+-79.0353
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream))))
+-79.6411
+(S1 (NP (NP (CD 1)) (NN teaspoon) (JJ sour) (NN cream)))
+-80.6138
+(S1 (FRAG (NP (CD 1) (JJ teaspoon) (JJ sour) (NN cream))))
+-81.1611
+(S1 (NP (CD 1) (CD teaspoon) (JJ sour) (NN cream)))
+-81.2661
+(S1 (S (NP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream))))
+-81.5602
+(S1 (NP (ADJP (NP (CD 1) (NN teaspoon)) (JJ sour)) (NN cream)))
+-82.2174
+(S1 (NP (CD 1) (ADJP (JJ teaspoon)) (JJ sour) (NN cream)))
+-82.7047
+(S1 (S (NP (CD 1) (NN teaspoon) (JJ sour) (NN cream))))
+-82.7752
+(S1 (NP (ADJP (QP (CD 1) (NN teaspoon))) (JJ sour) (NN cream)))
+-83.0832
+(S1 (FRAG (NP (ADJP (CD 1) (NN teaspoon) (JJ sour)) (NN cream))))
+-83.1124
+(S1 (FRAG (NP (CD 1) (NN teaspoon) (JJ sour) (NN cream))))
+-83.1143
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream)))))
+-83.1266
+(S1 (S (NP (CD 1) (JJ teaspoon) (JJ sour) (NN cream))))
+-83.6176
+(S1 (NP (NP (QP (CD 1) (CD teaspoon))) (JJ sour) (NN cream)))
+-83.6264
+(S1 (FRAG (NP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream))))
+-84.1117
+(S1 (S (ADJP (CD 1) (NN teaspoon) (JJ sour)) (NP (NN cream))))
+-84.4625
+(S1 (S (NP (QP (CD 1) (NN teaspoon))) (NP (JJ sour) (NN cream))))
+-84.5251
+(S1 (NP (CD 1) (NP (NN teaspoon)) (JJ sour) (NN cream)))
+-84.6976
+(S1 (S (NP (ADJP (CD 1) (NN teaspoon)) (JJ sour) (NN cream))))
+-84.7213
+(S1 (NP (NP (CD 1) (NN teaspoon)) (ADJP (JJ sour)) (NN cream)))
+-84.7245
+(S1 (NP (ADJP (CD 1) (NN teaspoon)) (ADJP (JJ sour)) (NN cream)))
+-84.8561
+(S1 (NP (NP (CD 1) (CD teaspoon)) (JJ sour) (NN cream)))
+-84.9547
+(S1 (S (NP (CD 1) (NN teaspoon)) (ADJP (JJ sour)) (NP (NN cream))))
+-85.3414
+(S1 (S (NP (ADJP (CD 1) (NN teaspoon) (JJ sour)) (NN cream))))
+-85.4797
+(S1 (NP (CD 1) (NN teaspoon) (ADJP (JJ sour)) (NN cream)))
+-86.0268
+(S1 (FRAG (NP (QP (CD 1) (CD teaspoon)) (JJ sour) (NN cream))))
+-86.0478
+(S1 (FRAG (ADJP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream))))
+-86.0663
+(S1 (FRAG (NP (ADJP (QP (CD 1) (NN teaspoon))) (JJ sour) (NN cream))))
+-86.0955
+(S1 (NP (NP (CD 1)) (ADJP (JJ teaspoon)) (JJ sour) (NN cream)))
+-86.1125
+(S1 (S (ADJP (CD 1) (NN teaspoon) (JJ sour)) (NP (VB cream))))
+-86.1534
+(S1 (S (ADJP (CD 1) (NN teaspoon)) (NP (JJ sour) (NN cream))))
+-86.2917
+(S1 (NP (CD 1) (ADJP (NN teaspoon)) (JJ sour) (NN cream)))
+-86.3535
+(S1 (NP (NP (CD 1)) (CD teaspoon) (JJ sour) (NN cream)))
+-86.4557
+(S1 (S (NP (CD 1) (NN teaspoon)) (VP (JJ sour) (NP (NN cream)))))
+-86.6289
+(S1 (FRAG (NP (ADJP (NP (CD 1) (NN teaspoon)) (JJ sour)) (NN cream))))
+-86.6704
+(S1 (FRAG (NP (NP (CD 1)) (JJ teaspoon) (JJ sour) (NN cream))))
+-86.75
+(S1 (S (ADJP (NP (CD 1) (NN teaspoon)) (JJ sour)) (NP (NN cream))))
+-86.7861
+(S1 (NP (ADJP (NP (CD 1) (NNS teaspoon)) (JJ sour)) (NN cream)))
+-86.8523
+(S1 (NP (NP (QP (CD 1) (NN teaspoon))) (NP (JJ sour) (NN cream))))
+-87.0918
+(S1 (NP (NP (QP (CD 1) (NN teaspoon))) (JJ sour) (NN cream)))
+-87.1526
+(S1 (S (NP (QP (CD 1) (CD teaspoon)) (JJ sour) (NN cream))))
+
+50	6
+-79.1242
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard))))
+-80.1407
+(S1 (NP (CD 1) (JJ teaspoon) (JJ yellow) (NN mustard)))
+-80.7566
+(S1 (NP (CD 1) (NN teaspoon) (JJ yellow) (NN mustard)))
+-81.4878
+(S1 (NP (QP (CD 1) (CD teaspoon)) (JJ yellow) (NN mustard)))
+-81.8177
+(S1 (NP (ADJP (CD 1) (NN teaspoon)) (JJ yellow) (NN mustard)))
+-82.4845
+(S1 (NP (CD 1) (NN teaspoon) (NN yellow) (NN mustard)))
+-83.1618
+(S1 (FRAG (NP (ADJP (CD 1) (NN teaspoon)) (JJ yellow) (NN mustard))))
+-83.2032
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard)))))
+-83.3796
+(S1 (NP (QP (CD 1) (NN teaspoon)) (JJ yellow) (NN mustard)))
+-83.749
+(S1 (NP (NP (CD 1) (NN teaspoon)) (JJ yellow) (NN mustard)))
+-84.1729
+(S1 (NP (CD 1) (JJ teaspoon) (NN yellow) (NN mustard)))
+-84.5542
+(S1 (S (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard))))
+-84.7581
+(S1 (NP (QP (CD 1) (CD teaspoon)) (NN yellow) (NN mustard)))
+-84.787
+(S1 (NP (NP (CD 1)) (JJ teaspoon) (JJ yellow) (NN mustard)))
+-84.9602
+(S1 (FRAG (NP (CD 1) (JJ teaspoon) (JJ yellow) (NN mustard))))
+-85.2781
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (NN yellow) (NN mustard))))
+-85.6058
+(S1 (NP (NP (CD 1)) (NN teaspoon) (JJ yellow) (NN mustard)))
+-85.9928
+(S1 (S (NP (CD 1) (NN teaspoon) (JJ yellow) (NN mustard))))
+-86.4147
+(S1 (S (NP (CD 1) (JJ teaspoon) (JJ yellow) (NN mustard))))
+-86.6499
+(S1 (NP (QP (CD 1) (NN teaspoon)) (NN yellow) (NN mustard)))
+-86.6718
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NN yellow) (NN mustard)))
+-86.9143
+(S1 (NP (ADJP (CD 1) (NN teaspoon)) (NN yellow) (NN mustard)))
+-86.9412
+(S1 (NP (NP (QP (CD 1) (NN teaspoon))) (NP (JJ yellow) (NN mustard))))
+-87.2378
+(S1 (NP (ADJP (CD 1) (NN teaspoon) (JJ yellow)) (NN mustard)))
+-87.3608
+(S1 (NP (CD 1) (CD teaspoon) (JJ yellow) (NN mustard)))
+-87.4588
+(S1 (FRAG (NP (CD 1) (NN teaspoon) (JJ yellow) (NN mustard))))
+-87.503
+(S1 (NP (NP (CD 1)) (NN teaspoon) (NN yellow) (NN mustard)))
+-87.7506
+(S1 (S (NP (QP (CD 1) (NN teaspoon))) (NP (JJ yellow) (NN mustard))))
+-87.8932
+(S1 (NP (NP (CD 1)) (JJ teaspoon) (NN yellow) (NN mustard)))
+-87.9728
+(S1 (FRAG (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard))))
+-87.9857
+(S1 (S (NP (ADJP (CD 1) (NN teaspoon)) (JJ yellow) (NN mustard))))
+-88.275
+(S1 (NP (CD 1) (ADJP (JJ teaspoon) (JJ yellow)) (NN mustard)))
+-88.5108
+(S1 (NP (CD 1) (ADJP (JJ teaspoon)) (JJ yellow) (NN mustard)))
+-88.7007
+(S1 (NP (NP (QP (CD 1) (CD teaspoon))) (NP (JJ yellow) (NN mustard))))
+-89.0029
+(S1 (NP (NP (CD 1) (NN teaspoon) (NN yellow)) (NP (NN mustard))))
+-89.0427
+(S1 (S (NP (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard)))))
+-89.0668
+(S1 (X (NP (NP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard)))))
+-89.0686
+(S1 (NP (ADJP (QP (CD 1) (NN teaspoon))) (JJ yellow) (NN mustard)))
+-89.3571
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (NN yellow) (NN mustard)))))
+-89.3932
+(S1 (FRAG (NP (QP (CD 1) (CD teaspoon)) (JJ yellow) (NN mustard))))
+-89.4415
+(S1 (S (ADJP (CD 1) (NN teaspoon)) (NP (JJ yellow) (NN mustard))))
+-89.4608
+(S1 (S (NP (QP (CD 1) (CD teaspoon)) (JJ yellow) (NN mustard))))
+-89.5702
+(S1 (S (NP (CD 1) (NN teaspoon) (NN yellow) (NN mustard))))
+-89.8173
+(S1 (NP (NP (QP (CD 1) (CD teaspoon))) (JJ yellow) (NN mustard)))
+-90.1077
+(S1 (S (NP (CD 1) (JJ teaspoon) (NN yellow) (NN mustard))))
+-90.1436
+(S1 (S (NP (CD 1) (NN teaspoon)) (VP (JJ yellow) (NP (NN mustard)))))
+-90.1912
+(S1 (S (NP (CD 1)) (VP (NN teaspoon) (NP (JJ yellow) (NN mustard)))))
+-90.237
+(S1 (NP (NP (CD 1)) (ADJP (JJ teaspoon) (JJ yellow)) (NN mustard)))
+-90.3001
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (ADJP (JJ yellow)) (NN mustard))))
+-90.3152
+(S1 (NP (NP (CD 1)) (NP (JJ teaspoon) (JJ yellow) (NN mustard))))
+
+50	7
+-121.316
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed)))))
+-122.857
+(S1 (NP (CD 1/2) (NN teaspoon) (VBD dried) (JJ dill) (NN weed)))
+-123.632
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (NN dill) (NN weed)))))
+-123.766
+(S1 (NP (ADJP (CD 1/2) (NN teaspoon)) (VBN dried) (NN dill) (NN weed)))
+-125.623
+(S1 (NP (CD 1/2) (NN teaspoon) (VBD dried) (NN dill) (NN weed)))
+-126.28
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VBN dried) (NN dill) (NN weed)))
+-126.692
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (VP (VB dill) (NP (NN weed)))))))
+-126.727
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (CD dill) (NN weed)))))
+-126.915
+(S1 (NP (CD 1/2) (NN teaspoon) (VBN dried) (NN dill) (NN weed)))
+-127.53
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (NN dill)) (NP (NN weed)))))
+-127.743
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (VP (VB dill) (NP (NN weed))))))
+-127.743
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (NP (JJ dill) (NN weed)))))
+-127.768
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (NP (JJ dill) (NN weed)))))
+-128.061
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed)))))
+-128.581
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (NP (NN dill) (NN weed))))))
+-128.683
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (ADVP (RB dill)) (NP (NN weed)))))
+-128.818
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (NP (JJ dill) (NN weed))))))
+-129.116
+(S1 (S (NP (CD 1/2) (NN teaspoon) (VBD dried) (JJ dill) (NN weed))))
+-129.228
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (SBAR (S (VP (VBP dill) (NP (NN weed))))))))
+-129.291
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (RB dill) (NN weed)))))
+-129.35
+(S1 (NP (CD 1/2) (NN teaspoon) (VBN dried) (JJ dill) (NN weed)))
+-129.876
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (NP (NN dill) (NN weed)))))
+-129.902
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (NP (NN dill) (NN weed)))))
+-129.906
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (VB dill) (NN weed)))))
+-130.099
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (VP (NN dill) (NP (NN weed)))))))
+-130.226
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (ADJP (JJ dill)) (NP (NN weed)))))
+-130.278
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (SBAR (S (VP (VB dill) (NP (NN weed))))))))
+-130.378
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (NN dill) (NN weed)))))
+-130.423
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VBN dried) (JJ dill) (NN weed)))
+-130.954
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (NNP dill) (NN weed)))))
+-131.059
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (S (NP (NN dill) (NN weed))))))
+-131.297
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (S (NP (JJ dill) (NN weed))))))
+-131.377
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (ADJP (JJ dill)) (NN weed)))))
+-131.409
+(S1 (S (NP (ADJP (CD 1/2) (NN teaspoon)) (VBN dried) (NN dill) (NN weed))))
+-131.537
+(S1 (S (NP (NP (CD 1/2)) (NN teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed)))))
+-131.624
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (S (NP (NN dill) (NN weed))))))
+-131.861
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (S (NP (JJ dill) (NN weed))))))
+-132.112
+(S1 (S (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (NP (JJ dill) (NN weed))))))
+-132.329
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (NP (NN dill)) (NP (NN weed))))))
+-132.542
+(S1 (S (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed))))))
+-132.558
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (VBP dill) (NN weed)))))
+-132.649
+(S1 (S (NP (CD 1/2) (NN teaspoon) (VBD dried) (NN dill) (NN weed))))
+-132.809
+(S1 (S (NP (CD 1/2) (NNS teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed)))))
+-132.819
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (SBAR (S (NP (NN dill) (NN weed)))))))
+-132.889
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBN dried) (ADVP (RB dill)) (NP (NN weed)))))
+-132.963
+(S1 (S (ADJP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (JJ dill) (NN weed)))))
+-132.965
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (ADVP (RB dill)) (NN weed)))))
+-133.028
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (S (ADJP (JJ dill)) (NP (NN weed))))))
+-133.057
+(S1 (S (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (SBAR (S (NP (JJ dill) (NN weed)))))))
+-133.473
+(S1 (NP (NP (CD 1/2) (NN teaspoon)) (VP (VBD dried) (NP (CD dill) (NN weed)))))
+
+50	8
+-121.613
+(S1 (NP (CD 1/8) (JJ teaspoon) (NNP lemon) (NN pepper)))
+-122.432
+(S1 (NP (NNP 1/8) (NN teaspoon) (NNP lemon) (NN pepper)))
+-122.748
+(S1 (NP (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper))))
+-123.168
+(S1 (NP (ADJP (CD 1/8) (NN teaspoon)) (NNP lemon) (NN pepper)))
+-123.266
+(S1 (NP (NNP 1/8) (FW teaspoon) (NNP lemon) (NN pepper)))
+-123.284
+(S1 (NP (NNP 1/8) (NN teaspoon) (NNP lemon) (NNP pepper)))
+-123.379
+(S1 (NP (JJ 1/8) (NN teaspoon) (NNP lemon) (NN pepper)))
+-123.911
+(S1 (NP (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NNP pepper))))
+-123.962
+(S1 (NP (NN 1/8) (NN teaspoon) (NNP lemon) (NN pepper)))
+-124.343
+(S1 (NP (NNP 1/8) (FW teaspoon) (NNP lemon) (NNP pepper)))
+-124.46
+(S1 (NP (NNP 1/8) (NNP teaspoon) (NNP lemon) (NN pepper)))
+-124.469
+(S1 (NP (JJ 1/8) (NN teaspoon) (NNP lemon) (NNP pepper)))
+-124.551
+(S1 (NP (JJ 1/8) (JJ teaspoon) (NNP lemon) (NN pepper)))
+-124.655
+(S1 (NP (CD 1/8) (NN teaspoon) (NNP lemon) (NN pepper)))
+-124.734
+(S1 (NP (NN 1/8) (NN teaspoon) (NNP lemon) (NNP pepper)))
+-125.282
+(S1 (NP (NP (NNP 1/8) (NN teaspoon) (NNP lemon)) (NP (NN pepper))))
+-125.594
+(S1 (NP (NP (NNP 1/8)) (NP (NN teaspoon) (NNP lemon) (NN pepper))))
+-125.645
+(S1 (NP (NNP 1/8) (NNP teaspoon) (NNP lemon) (NNP pepper)))
+-125.826
+(S1 (NP (NP (JJ 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper))))
+-125.872
+(S1 (FRAG (NP (CD 1/8) (JJ teaspoon) (NNP lemon) (NN pepper))))
+-125.982
+(S1 (NP (NP (CD 1/8) (NN teaspoon)) (NNP lemon) (NN pepper)))
+-126.024
+(S1 (NP (FW 1/8) (FW teaspoon) (NNP lemon) (NN pepper)))
+-126.115
+(S1 (S (NP (CD 1/8) (JJ teaspoon) (NNP lemon) (NN pepper))))
+-126.163
+(S1 (NP (CD 1/8) (NN teaspoon) (NNP lemon) (NNP pepper)))
+-126.691
+(S1 (FRAG (NP (NNP 1/8) (NN teaspoon) (NNP lemon) (NN pepper))))
+-126.75
+(S1 (FRAG (NP (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NNP pepper)))))
+-126.827
+(S1 (FRAG (NP (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper)))))
+-126.872
+(S1 (NP (DT 1/8) (JJ teaspoon) (NNP lemon) (NN pepper)))
+-126.989
+(S1 (NP (NP (JJ 1/8) (NN teaspoon)) (NP (NNP lemon) (NNP pepper))))
+-126.995
+(S1 (NP (NP (JJ 1/8) (NN teaspoon)) (NNP lemon) (NN pepper)))
+-127.081
+(S1 (NP (ADJP (RB 1/8) (JJ teaspoon)) (NNP lemon) (NN pepper)))
+-127.143
+(S1 (S (NP (JJ 1/8) (NN teaspoon) (NNP lemon) (NN pepper))))
+-127.192
+(S1 (NP (FW 1/8) (FW teaspoon) (NNP lemon) (NNP pepper)))
+-127.225
+(S1 (FRAG (NP (NNP 1/8) (FW teaspoon) (NNP lemon) (NN pepper))))
+-127.242
+(S1 (NP (VBG 1/8) (NN teaspoon) (NNP lemon) (NN pepper)))
+-127.249
+(S1 (NP (NP (NN 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper))))
+-127.251
+(S1 (NP (NP (NNP 1/8)) (NP (JJ teaspoon) (NNP lemon) (NN pepper))))
+-127.252
+(S1 (NP (RB 1/8) (JJ teaspoon) (NNP lemon) (NN pepper)))
+-127.376
+(S1 (FRAG (NP (ADJP (CD 1/8) (NN teaspoon)) (NNP lemon) (NN pepper))))
+-127.45
+(S1 (NP (NP (CD 1/8) (NN teaspoon) (NNP lemon)) (NP (NN pepper))))
+-127.516
+(S1 (NP (JJ 1/8) (NNP teaspoon) (NNP lemon) (NN pepper)))
+-127.546
+(S1 (S (NP (NNP 1/8)) (VP (NN teaspoon) (NP (NNP lemon) (NN pepper)))))
+-127.604
+(S1 (NP (NP (NNP 1/8) (FW teaspoon) (NNP lemon)) (NP (NN pepper))))
+-127.638
+(S1 (FRAG (NP (JJ 1/8) (NN teaspoon) (NNP lemon) (NN pepper))))
+-127.921
+(S1 (S (NP (NNP 1/8) (NN teaspoon) (NNP lemon) (NN pepper))))
+-127.97
+(S1 (S (NP (NNP 1/8) (FW teaspoon) (NNP lemon) (NN pepper))))
+-128.069
+(S1 (S (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper))))
+-128.1
+(S1 (NP (CD 1/8) (NNP teaspoon) (NNP lemon) (NN pepper)))
+-128.118
+(S1 (NP (NP (JJ 1/8) (NN teaspoon)) (NNP lemon) (NNP pepper)))
+-128.128
+(S1 (FRAG (NP (CD 1/8) (NN teaspoon)) (NP (NNP lemon) (NN pepper))))
+
+50	9
+-120.697
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (NP (JJ pickle) (NN relish)))))
+-122.501
+(S1 (NP (CD 2) (NNS tablespoons) (NN dill) (NN pickle) (NN relish)))
+-122.518
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ dill) (JJ pickle) (NN relish))))
+-123.687
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (NP (NN pickle) (NN relish)))))
+-123.944
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NN dill) (NN pickle) (NN relish))))
+-124.255
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ dill) (NN pickle) (NN relish))))
+-125.01
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NN dill) (JJ pickle) (NN relish))))
+-125.087
+(S1 (NP (CD 2) (NNS tablespoons) (NN dill) (JJ pickle) (NN relish)))
+-125.427
+(S1 (NP (NP (CD 2) (NNS tablespoons) (NN dill)) (NP (JJ pickle) (NN relish))))
+-125.509
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VB dill) (NP (JJ pickle) (NN relish)))))
+-125.562
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (RB dill) (JJ pickle) (NN relish))))
+-126.587
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (ADJP (RB dill) (JJ pickle)) (NN relish))))
+-126.614
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (JJ dill) (JJ pickle) (NN relish)))
+-126.629
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (JJ dill) (NN pickle) (NN relish)))
+-126.867
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NP (NN dill)) (NP (JJ pickle) (NN relish)))))
+-126.955
+(S1 (S (NP (CD 2) (NNS tablespoons)) (NP (JJ dill) (JJ pickle) (NN relish))))
+-126.955
+(S1 (S (NP (CD 2) (NNS tablespoons) (NN dill)) (NP (JJ pickle) (NN relish))))
+-126.989
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (NP (JJR pickle) (NN relish)))))
+-127.108
+(S1 (NP (NP (CD 2) (NNS tablespoons) (JJ dill)) (NP (JJ pickle) (NN relish))))
+-127.13
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (S (NP (JJ pickle) (NN relish))))))
+-127.275
+(S1 (NP (NP (CD 2) (NNS tablespoons) (NN dill)) (NN pickle) (NN relish)))
+-127.384
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (NP (CD pickle) (NN relish)))))
+-127.443
+(S1 (NP (NP (CD 2) (NNS tablespoons) (NN dill)) (JJ pickle) (NN relish)))
+-127.555
+(S1 (S (NP (CD 2) (NNS tablespoons)) (ADVP (RB dill)) (VP (VBP pickle) (NP (NN relish)))))
+-127.732
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (S (VP (VB pickle) (NP (NN relish)))))))
+-127.744
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NN dill) (NN pickle) (NN relish)))
+-127.772
+(S1 (NP (CD 2) (NNS tablespoons) (NP (JJ dill) (JJ pickle) (NN relish))))
+-127.871
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (ADJP (JJ dill) (JJ pickle)) (NN relish))))
+-127.88
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NP (NN dill)) (JJ pickle) (NN relish))))
+-127.896
+(S1 (S (NP (CD 2)) (VP (VBZ tablespoons) (NP (JJ dill) (JJ pickle) (NN relish)))))
+-127.903
+(S1 (NP (CD 2) (NNS tablespoons) (NP (NP (NN dill)) (NP (JJ pickle) (NN relish)))))
+-127.952
+(S1 (S (NP (NP (CD 2)) (NNS tablespoons)) (VP (VBP dill) (NP (JJ pickle) (NN relish)))))
+-127.953
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (NN dill) (NP (JJ pickle) (NN relish)))))
+-128.06
+(S1 (NP (NP (NP (CD 2) (NNS tablespoons)) (NP (NN dill))) (NN pickle) (NN relish)))
+-128.125
+(S1 (S (NP (CD 2) (NNS tablespoons) (NN dill) (NN pickle) (NN relish))))
+-128.135
+(S1 (S (NP (CD 2) (NNS tablespoons) (NN dill)) (VP (VBD pickle) (NP (NN relish)))))
+-128.228
+(S1 (NP (NP (NP (CD 2) (NNS tablespoons)) (NP (NN dill))) (JJ pickle) (NN relish)))
+-128.328
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (ADVP (RB dill)) (VBP pickle) (NP (NN relish)))))
+-128.517
+(S1 (S (NP (CD 2) (NNS tablespoons)) (NP (JJ dill) (NN pickle) (NN relish))))
+-128.522
+(S1 (NP (NP (CD 2) (NNS tablespoons) (NN dill)) (NP (NN pickle) (NN relish))))
+-128.937
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NN dill) (JJ pickle) (NN relish)))
+-128.975
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VB dill) (NP (NN pickle) (NN relish)))))
+-128.985
+(S1 (S (NP (NP (CD 2) (NNS tablespoons)) (ADVP (RB dill))) (VP (VBP pickle) (NP (NN relish)))))
+-128.999
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (SBAR (S (VP (VBP pickle) (NP (NN relish))))))))
+-129.065
+(S1 (S (NP (CD 2) (NNS tablespoons) (RB dill)) (VP (VBP pickle) (NP (NN relish)))))
+-129.067
+(S1 (NP (NP (CD 2) (NNS tablespoons) (NN dill) (NN pickle)) (NN relish)))
+-129.113
+(S1 (S (NP (CD 2)) (VP (VBZ tablespoons) (NP (JJ dill) (NN pickle) (NN relish)))))
+-129.134
+(S1 (NP (NP (NP (CD 2) (NNS tablespoons)) (NP (NN dill))) (NP (JJ pickle) (NN relish))))
+-129.199
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (VBP dill) (NP (NN pickle)) (NP (NN relish)))))
+-129.332
+(S1 (NP (CD 2) (NNS tablespoons) (NP (JJ dill) (NN pickle) (NN relish))))
+
+50	10
+-105.004
+(S1 (NP (QP (CD 2) (NNS tablespoons)) (JJ sweet) (JJ pickle) (NN relish)))
+-109.276
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (JJ pickle) (NN relish))))
+-110.145
+(S1 (NP (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (JJ pickle) (NN relish)))
+-110.414
+(S1 (NP (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (JJ pickle) (NN relish)))
+-111.013
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (NN pickle) (NN relish))))
+-111.357
+(S1 (FRAG (NP (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (JJ pickle) (NN relish))))
+-111.626
+(S1 (FRAG (NP (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (JJ pickle) (NN relish))))
+-112.048
+(S1 (FRAG (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-112.152
+(S1 (NP (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (NN pickle) (NN relish)))
+-112.42
+(S1 (NP (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (NN pickle) (NN relish)))
+-112.613
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (ADJP (JJ sweet) (JJ pickle)) (NN relish))))
+-113.695
+(S1 (NP (CD 2) (JJ tablespoons) (JJ sweet) (JJ pickle) (NN relish)))
+-113.72
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (JJ sweet) (JJ pickle) (NN relish)))
+-113.736
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (JJ sweet) (NN pickle) (NN relish)))
+-113.786
+(S1 (FRAG (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (NN pickle) (NN relish)))))
+-113.956
+(S1 (NP (CD 2) (JJ tablespoons) (JJ sweet) (NN pickle) (NN relish)))
+-114.006
+(S1 (S (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (NP (JJ pickle) (NN relish))))
+-114.332
+(S1 (S (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (JJ pickle) (NN relish))))
+-114.424
+(S1 (NP (QP (CD 2) (NNS tablespoons)) (JJ sweet) (NN pickle) (NN relish)))
+-114.53
+(S1 (NP (CD 2) (NNS tablespoons) (NP (JJ sweet) (JJ pickle) (NN relish))))
+-114.597
+(S1 (S (NP (CD 2)) (VP (VBZ tablespoons) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-114.811
+(S1 (S (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (NP (JJ pickle) (NN relish))))
+-115.386
+(S1 (FRAG (NP (NP (CD 2) (NNS tablespoons)) (NP (ADJP (JJ sweet) (JJ pickle)) (NN relish)))))
+-115.515
+(S1 (S (NP (NP (CD 2) (NNS tablespoons)) (ADJP (JJ sweet) (JJ pickle))) (NP (NN relish))))
+-115.646
+(S1 (NP (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (NN pickle))) (NN relish)))
+-115.751
+(S1 (FRAG (NP (QP (CD 2) (NNS tablespoons)) (JJ sweet) (JJ pickle) (NN relish))))
+-115.785
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (ADJP (JJ sweet) (JJ pickle)) (NN relish)))
+-115.814
+(S1 (S (NP (CD 2)) (VP (VBZ tablespoons) (NP (JJ sweet) (NN pickle) (NN relish)))))
+-115.841
+(S1 (NP (NP (CD 2) (NNS tablespoons) (JJ sweet)) (NP (JJ pickle) (NN relish))))
+-115.894
+(S1 (S (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (NN pickle) (NN relish))))
+-116.09
+(S1 (NP (CD 2) (NNS tablespoons) (NP (JJ sweet) (NN pickle) (NN relish))))
+-116.142
+(S1 (S (NP (NP (CD 2) (NNS tablespoons)) (ADJP (JJ sweet) (JJ pickle))) (VP (VB relish))))
+-116.241
+(S1 (S (NP (CD 2) (NNS tablespoons)) (VP (JJ sweet) (NP (JJ pickle) (NN relish)))))
+-116.328
+(S1 (S (ADVP (LS 2)) (VP (VBZ tablespoons) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-116.486
+(S1 (S (NP (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (JJ pickle) (NN relish))))
+-116.605
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NP (JJ sweet) (NN pickle)) (NP (NN relish)))))
+-116.629
+(S1 (FRAG (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (JJ pickle) (NN relish))))
+-116.65
+(S1 (S (NP (NP (CD 2) (NNS tablespoons)) (ADJP (JJ sweet))) (VP (VBP pickle) (NP (NN relish)))))
+-116.749
+(S1 (S (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (NP (NN pickle) (NN relish))))
+-116.755
+(S1 (S (NP (ADJP (NP (CD 2) (NNS tablespoons)) (JJ sweet)) (JJ pickle) (NN relish))))
+-117.143
+(S1 (S (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-117.314
+(S1 (S (NP (CD 2)) (VP (VBZ tablespoons) (NP (ADJP (JJ sweet) (JJ pickle)) (NN relish)))))
+-117.421
+(S1 (S (NP (CD 2)) (VP (NNS tablespoons) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-117.545
+(S1 (S (ADVP (LS 2)) (VP (VBZ tablespoons) (NP (JJ sweet) (NN pickle) (NN relish)))))
+-117.554
+(S1 (S (ADJP (CD 2) (NNS tablespoons) (JJ sweet)) (NP (NN pickle) (NN relish))))
+-117.582
+(S1 (FRAG (NP (CD 2) (JJ tablespoons) (JJ sweet) (JJ pickle) (NN relish))))
+-117.642
+(S1 (NP (CD 2) (NNS tablespoons) (NP (NP (JJ sweet) (NN pickle)) (NP (NN relish)))))
+-117.66
+(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NP (JJ sweet)) (NP (JJ pickle) (NN relish)))))
+-117.799
+(S1 (FRAG (NP (CD 2)) (VP (VBZ tablespoons) (NP (JJ sweet) (JJ pickle) (NN relish)))))
+-117.822
+(S1 (NP (CD 2) (NNS tablespoons) (NP (ADJP (JJ sweet) (JJ pickle)) (NN relish))))
+
+50	11
+-92.4169
+(S1 (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely) (RB chopped)) (NP (NN onion))))
+-94.6293
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADJP (RB finely) (VBN chopped)) (NN onion))))
+-95.4349
+(S1 (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NN onion))))))
+-95.8819
+(S1 (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NN onion)))))
+-96.8907
+(S1 (NP (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NN onion)))
+-97.7245
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (RB finely) (JJ chopped) (NN onion))))
+-97.7645
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADJP (RB finely) (JJ chopped)) (NN onion))))
+-97.9165
+(S1 (NP (QP (CD 3/4) (NN cup)) (RB finely) (JJ chopped) (NN onion)))
+-98.7769
+(S1 (NP (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely) (RB chopped))) (NP (NN onion))))
+-99.0421
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (ADVP (RB finely) (RB chopped)) (NP (NN onion))))
+-99.5156
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (RB finely) (VBN chopped) (NN onion))))
+-100.079
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NN onion)))))))
+-100.459
+(S1 (NP (NP (CD 3/4) (NN cup) (RB finely)) (NP (JJ chopped) (NN onion))))
+-100.526
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NN onion))))))
+-100.924
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NN onion))))))
+-100.97
+(S1 (NP (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (JJ chopped)) (NN onion)))
+-101.045
+(S1 (FRAG (NP (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NN onion))))
+-101.046
+(S1 (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (ADVP (NN onion)))))
+-101.255
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (NP (ADJP (RB finely) (VBN chopped)) (NN onion))))
+-101.288
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely) (RB chopped)) (NP (NN onion)))))
+-101.371
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (NP (NN onion)))))
+-101.405
+(S1 (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely)) (VP (VBN chopped) (NP (NN onion)))))
+-101.842
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADVP (RB finely) (RB chopped)) (NN onion))))
+-102.049
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADJP (RB finely) (RB chopped)) (NN onion))))
+-102.642
+(S1 (S (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NN onion)))))))
+-102.77
+(S1 (S (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely) (RB chopped))) (NP (NN onion))))
+-102.868
+(S1 (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely)) (VP (VBN chopped) (S (NP (NN onion))))))
+-102.934
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (RB finely) (RB chopped) (NN onion))))
+-103.089
+(S1 (S (NP (NP (CD 3/4) (NN cup)) (VP (ADVP (RB finely)) (VBN chopped) (NP (NN onion))))))
+-103.352
+(S1 (NP (NP (NP (QP (CD 3/4) (NN cup))) (ADVP (RB finely) (RB chopped))) (NP (NN onion))))
+-103.555
+(S1 (NP (NP (CD 3/4) (NN cup) (RB finely)) (NP (VBN chopped) (NN onion))))
+-103.571
+(S1 (NP (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely) (RB chopped))) (NN onion)))
+-103.609
+(S1 (S (NP (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NN onion))))
+-103.631
+(S1 (FRAG (NP (NP (CD 3/4) (NN cup)) (NP (ADJP (RB finely) (VBN chopped)) (NN onion)))))
+-103.74
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADJP (ADVP (RB finely)) (VBN chopped)) (NN onion))))
+-103.967
+(S1 (NP (NP (CD 3/4) (NN cup)) (VP (RB finely) (VBN chopped) (NP (NN onion)))))
+-103.979
+(S1 (NP (NP (CD 3/4) (NN cup)) (ADVP (ADVP (RB finely)) (RB chopped)) (NP (NN onion))))
+-104.35
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (NP (RB finely) (JJ chopped) (NN onion))))
+-104.355
+(S1 (NP (NP (CD 3/4) (NN cup)) (CONJP (RB finely) (RB chopped)) (NP (NN onion))))
+-104.39
+(S1 (NP (NP (QP (CD 3/4) (NN cup))) (NP (ADJP (RB finely) (JJ chopped)) (NN onion))))
+-104.449
+(S1 (NP (NP (CD 3/4) (NN cup) (RB finely)) (VP (VBN chopped) (NP (NN onion)))))
+-104.624
+(S1 (NP (NP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NN onion)))
+-104.735
+(S1 (NP (NP (NP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped))) (NP (NN onion))))
+-104.86
+(S1 (FRAG (ADJP (CD 3/4) (NN cup)) (NP (ADJP (RB finely) (VBN chopped)) (NN onion))))
+-104.97
+(S1 (NP (NP (NP (CD 3/4) (NN cup)) (ADVP (RB finely))) (VP (VBN chopped) (NP (NN onion)))))
+-105.155
+(S1 (NP (NP (CD 3/4) (NN cup)) (NP (ADVP (RB finely)) (JJ chopped) (NN onion))))
+-105.25
+(S1 (FRAG (NP (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (JJ chopped)) (NN onion))))
+-105.269
+(S1 (FRAG (NP (NP (QP (CD 3/4) (NN cup))) (VP (ADVP (RB finely)) (VBN chopped) (S (NP (NN onion)))))))
+-105.346
+(S1 (FRAG (ADJP (CD 3/4) (NN cup)) (ADJP (RB finely) (VBN chopped)) (NP (NN onion))))
+-105.446
+(S1 (NP (NP (NP (CD 3/4) (NN cup)) (RB finely)) (VP (VBN chopped) (NP (NN onion)))))
+
+50	12
+-103.631
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-107.687
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-108.343
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-108.361
+(S1 (S (VP (VBP Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-109.571
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-109.625
+(S1 (S (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover)))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-109.752
+(S1 (S (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-110.786
+(S1 (S (VP (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-111.464
+(S1 (S (VP (NN Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-112.174
+(S1 (S (NP (NN Place)) (VP (NNS eggs) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-112.578
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (NN cold) (NN water)))))) (. .)))
+-112.758
+(S1 (S (S (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))))) (CC and) (S (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-113.194
+(S1 (S (NP (NN Place)) (VP (NNS eggs) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-113.527
+(S1 (SQ (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-113.807
+(S1 (S (VP (VBP Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover)))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-114.075
+(S1 (S (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-114.814
+(S1 (S (VP (VBP Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-114.885
+(S1 (S (VP (VBP Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-114.974
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan)) (CC and) (NP (NP (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-114.987
+(S1 (S (VP (NN Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-115.273
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (VB cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-115.294
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VB cover) (PRT (RP with)) (NP (JJ cold) (NN water)))) (. .)))
+-115.362
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VBP cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-115.614
+(S1 (S (VP (VP (NN Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-115.845
+(S1 (S (VP (NN Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-116.092
+(S1 (FRAG (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-116.204
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VB cover) (PRT (IN with)) (NP (JJ cold) (NN water)))) (. .)))
+-116.237
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PRT (RP with)) (NP (JJ cold) (NN water)))) (. .)))
+-116.279
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan)) (CC and) (NP (NP (VB cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-116.458
+(S1 (S (VP (VP (VBP Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VBP cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-116.53
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VBP cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-116.532
+(S1 (FRAG (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-116.634
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VB cover) (PP (IN with) (NP (NN cold) (NN water))))) (. .)))
+-116.735
+(S1 (S (VP (VB Place) (NP (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover)))) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-116.843
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (NP (DT a) (NN saucepan)) (CC and) (NP (NN cover))) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-116.879
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-117.094
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (NN cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-117.121
+(S1 (S (NP (NN Place)) (VP (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water)))))) (. .)))
+-117.164
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (S (VP (VB cover) (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-117.259
+(S1 (S (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (JJ cold) (NN water))))))) (. .)))
+-117.289
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PP (IN with) (NP (NN cold) (NN water))))) (. .)))
+-117.308
+(S1 (S (VP (VBP Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan) (CC and) (NN cover)) (PP (IN with) (NP (NN cold) (NN water)))))) (. .)))
+-117.334
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover)) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-117.402
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-117.418
+(S1 (S (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PRT (IN with)) (NP (JJ cold) (NN water)))) (. .)))
+-117.492
+(S1 (S (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan)) (CC and) (NP (NN cover))))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-117.5
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (NP (DT a) (NN saucepan)) (CC and) (NP (NN cover)))) (PP (IN with) (NP (JJ cold) (NN water)))) (. .)))
+-117.547
+(S1 (FRAG (VP (VP (VB Place) (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan)))) (CC and) (VP (VB cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-117.74
+(S1 (S (VP (VB Place) (NP (NNS eggs)) (PP (PP (IN in) (NP (DT a) (NN saucepan) (CC and) (NN cover))) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+-117.805
+(S1 (S (VP (VP (VB Place) (NP (NP (NNS eggs)) (PP (IN in) (NP (DT a) (NN saucepan))))) (CC and) (VP (VBP cover) (PP (IN with) (NP (JJ cold) (NN water))))) (. .)))
+
+50	13
+-107.025
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-109.338
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-110.809
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (S (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-112.398
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (ADVP (RB immediately)) (S (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-113.038
+(S1 (S (VP (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-113.083
+(S1 (FRAG (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-114.339
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (RB immediately) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-114.467
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (S (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-114.515
+(S1 (S (S (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (S (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-114.95
+(S1 (S (VP (VP (VB Bring) (ADVP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-115.187
+(S1 (FRAG (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-115.35
+(S1 (S (VP (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-115.588
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-116.104
+(S1 (S (S (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (ADVP (RB immediately)) (S (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-116.186
+(S1 (S (VP (VP (VBP Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-116.313
+(S1 (S (VP (VP (VBP Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-116.371
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (RB immediately) (S (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-116.544
+(S1 (FRAG (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-116.691
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (NP (IN from) (NN heat)))) (. .)))
+-116.951
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (RB immediately) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-117.218
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (NP (QP (IN from) (NN heat))))) (. .)))
+-117.262
+(S1 (S (VP (VP (VB Bring) (ADVP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-117.266
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (S (VP (NN heat)))))) (. .)))
+-117.699
+(S1 (S (VP (VP (VB Bring) (NP (VB water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-118.002
+(S1 (S (VP (VB Bring) (VP (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-118.174
+(S1 (S (S (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (S (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-118.343
+(S1 (S (VP (VP (VB Bring) (S (VP (NN water) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-118.392
+(S1 (S (VP (VB Bring) (S (VP (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))))) (. .)))
+-118.588
+(S1 (S (VP (VP (VB Bring) (ADJP (NN water) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-118.717
+(S1 (SQ (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-118.819
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (VB heat))))) (. .)))
+-118.856
+(S1 (FRAG (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-118.977
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (S (RB immediately) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.095
+(S1 (FRAG (VP (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.113
+(S1 (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat)))) (. .)))
+-119.137
+(S1 (S (VP (VB Bring) (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.163
+(S1 (S (S (VP (VB Bring) (ADVP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (S (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.222
+(S1 (S (VP (VP (VB Bring) (S (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (VP (ADVP (RB immediately)) (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.224
+(S1 (S (S (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil))))) (CC and) (S (VP (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-119.338
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (NP (IN from) (NN heat)))) (. .)))
+-119.437
+(S1 (S (VP (VB Bring) (VP (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-119.579
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (S (VP (NN heat)))))) (. .)))
+-119.859
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CONJP (CC and) (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-119.865
+(S1 (S (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (NP (QP (IN from) (NN heat))))) (. .)))
+-120.011
+(S1 (S (VP (VP (VB Bring) (NP (VB water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-120.036
+(S1 (S (VP (VB Bring) (S (VP (VP (VB water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))))) (. .)))
+-120.065
+(S1 (FRAG (VP (VP (VB Bring) (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (RB immediately) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-120.073
+(S1 (S (VP (VB Bring) (VP (NN water) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (ADVP (RB immediately)) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-120.078
+(S1 (S (S (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))))) (CC and) (RB immediately) (S (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-120.125
+(S1 (S (VP (VB Bring) (NP (NP (NN water)) (PP (TO to) (NP (DT a) (NN boil)))) (CC and) (RB immediately) (VP (VB remove) (PP (IN from) (NP (NN heat))))) (. .)))
+
+50	14
+-127.659
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-128.517
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-130.011
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-130.765
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-132.167
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-132.87
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-133.462
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-133.937
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs)) (S (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-134.03
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))))) (. .)))
+-134.081
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PRT (IN in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-134.165
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-134.734
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-134.835
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PRT (IN in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-134.882
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-135.18
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-135.232
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs)) (S (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-135.319
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))))) (. .)))
+-135.497
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-135.637
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-135.801
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs)) (S (VP (VB stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-136.022
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-136.155
+(S1 (S (NP (ADJP (VB Cover) (CC and) (VB let)) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-136.281
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-136.474
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-136.779
+(S1 (S (NP (NN Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-136.87
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))))) (. .)))
+-137.014
+(S1 (S (NP (ADJP (VB Cover) (CC and) (VB let)) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-137.043
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))))) (. .)))
+-137.089
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs)) (S (VP (VB stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))))) (. .)))
+-137.638
+(S1 (S (NP (NN Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-137.716
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NP (NNS eggs) (NN stand)) (PP (IN in) (NP (JJ hot) (NN water)))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-137.733
+(S1 (S (VP (VB Cover) (CC and) (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-138.069
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water)))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))) (. .)))
+-138.254
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))))) (. .)))
+-138.31
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-138.331
+(S1 (S (S (VP (VB Cover))) (CC and) (S (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))))) (. .)))
+-138.347
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (S (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-138.452
+(S1 (S (VP (VB Cover) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-138.508
+(S1 (S (NP (ADJP (VB Cover) (CC and) (VB let)) (NNS eggs)) (VP (VBP stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-138.561
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (NP (NNS eggs)) (S (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-138.832
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (NN stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-139.021
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (CD 10))) (PP (TO to) (NP (CD 12) (NNS minutes)))))) (. .)))
+-139.028
+(S1 (S (VP (VB Cover) (CC and) (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-139.064
+(S1 (S (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VB stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-139.091
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs) (NN stand)) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+-139.113
+(S1 (S (VP (VP (VB Cover)) (CC and) (VP (VB let) (S (NP (NNS eggs)) (VP (VBP stand) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))))) (. .)))
+-139.132
+(S1 (S (NP (NN Cover) (CC and) (VB let) (NNS eggs)) (VP (VBP stand) (PRT (RP in)) (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-139.152
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NNS eggs) (NN stand)) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))) (. .)))
+-139.177
+(S1 (S (VP (VB Cover) (CC and) (VB let) (NP (NP (NNS eggs) (NN stand)) (PP (IN in) (NP (JJ hot) (NN water))) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes))))) (. .)))
+-139.239
+(S1 (S (NP (VB Cover) (CC and) (VB let) (NNS eggs)) (VP (NN stand) (PP (IN in) (NP (NP (JJ hot) (NN water)) (PP (IN for) (NP (QP (CD 10) (TO to) (CD 12)) (NNS minutes)))))) (. .)))
+
+50	15
+-136.144
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-137.749
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-140.429
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-141.858
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (NP (RB finely)))) (. .)))
+-142.052
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADJP (JJ cool))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-142.573
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (JJ peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-143.038
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-143.092
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (NN peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-143.249
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADVP (JJ cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-143.323
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-143.463
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (NP (RB finely)))) (. .)))
+-143.562
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel) (CC and) (VB chop) (NP (RB finely)))) (. .)))
+-143.726
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VBP peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-143.874
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (PRT (RB finely)))) (. .)))
+-144.192
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))))) (, ,) (S (VP (VB cool))) (, ,) (VP (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-144.395
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VBP cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-145.479
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (PRT (RB finely)))) (. .)))
+-145.707
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADVP (JJ cool))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-145.751
+(S1 (S (VP (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel))) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-145.964
+(S1 (S (VP (VP (VB Remove) (PRT (IN from)) (NP (JJ hot) (NN water))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-145.99
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VBP cool) (, ,) (VBP peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-146.172
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel) (CC and) (VB chop) (NP (RB finely)))) (. .)))
+-146.407
+(S1 (S (VP (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool) (, ,) (VB peel))) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-146.429
+(S1 (S (VP (VB Remove) (VP (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-146.448
+(S1 (S (VP (VB Remove) (S (VP (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely))))) (. .)))
+-146.463
+(S1 (S (VP (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-146.719
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (S (VP (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))))) (. .)))
+-146.827
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VBP cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-147.052
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)) (, ,) (ADVP (JJ cool)))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.326
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (S (VP (VB cool)))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.433
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADVP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.468
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely))))) (. .)))
+-147.548
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VP (VB cool))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.564
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (S (VP (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))))) (. .)))
+-147.569
+(S1 (S (VP (VP (VB Remove) (PRT (IN from)) (NP (JJ hot) (NN water))) (, ,) (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.621
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (S (VP (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely))))) (. .)))
+-147.704
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VP (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely))))) (. .)))
+-147.766
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADJP (JJ cool))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (NP (RB finely)))) (. .)))
+-147.813
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))))) (, ,) (S (VP (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely))))) (. .)))
+-147.819
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VP (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-147.843
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))))) (, ,) (S (VP (VB cool))) (, ,) (VP (VB peel) (CC and) (VB chop) (ADVP (RB finely))) (. .)))
+-147.912
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (S (ADJP (JJ cool)))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-147.921
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (VP (VP (VB cool) (, ,) (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely))))) (. .)))
+-148.215
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VBP peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-148.287
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (JJ peel)) (CC and) (VP (VB chop) (NP (RB finely)))) (. .)))
+-148.481
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))) (, ,) (ADJP (JJ cool))) (, ,) (VP (JJ peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-148.575
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water))))) (, ,) (S (VP (VB cool) (, ,) (VB peel) (CC and) (VB chop) (ADVP (RB finely)))) (. .)))
+-148.617
+(S1 (FRAG (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+-148.805
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (JJ hot) (NN water)))) (, ,) (VP (VB cool)) (, ,) (VP (NN peel)) (CC and) (VP (VB chop) (NP (RB finely)))) (. .)))
+-148.864
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (NP (JJ hot) (NN water)) (, ,) (ADJP (JJ cool))))) (, ,) (VP (VB peel)) (CC and) (VP (VB chop) (ADVP (RB finely)))) (. .)))
+
+50	16
+-198.603
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream) (CC and) (NN mustard))) (. .)))
+-200.561
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-201.647
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-204.62
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-204.964
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream) (CC and) (NN mustard))) (. .)))
+-205.501
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-205.712
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-206.154
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-206.577
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-206.861
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat)) (, ,) (NP (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-206.904
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-206.996
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.033
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream))) (CC and) (NP (NN mustard)))) (. .)))
+-207.065
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise))) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.209
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.272
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.356
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-207.484
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.501
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-207.516
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VP (VBP combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream))) (CC and) (VP (NN mustard))) (. .)))
+-207.995
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (ADJP (JJ sour)) (NN cream) (CC and) (NN mustard))) (. .)))
+-208.085
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream) (CC and) (NN mustard)))) (. .)))
+-208.103
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream))) (CC and) (NP (NN mustard)))) (. .)))
+-208.26
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-208.587
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (ADJP (JJ sour)) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-208.598
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream) (CC and) (NN mustard)))) (. .)))
+-209.024
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-209.6
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise))) (, ,) (NP (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-209.601
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream) (CC and) (NN mustard)))) (. .)))
+-209.827
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NN tuna) (, ,) (JJ crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream) (CC and) (NN mustard))) (. .)))
+-209.906
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-209.928
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,)) (NP (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-210.231
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VP (VBP combine) (NP (NN tuna))) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-210.266
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream))) (CC and) (NP (NN mustard)))) (. .)))
+-210.454
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna) (, ,) (NN crabmeat) (, ,) (NN mayonnaise)) (, ,) (NP (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))))) (. .)))
+-210.471
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-210.668
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-210.684
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-210.758
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-210.777
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (JJ crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-210.873
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat))) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-210.934
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NP (NN tuna) (, ,) (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream))) (CC and) (NP (NN mustard)))) (. .)))
+-211.061
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna) (, ,) (NN crabmeat)) (, ,) (NP (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-211.086
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream) (CC and) (NN mustard))))) (. .)))
+-211.247
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (JJ crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+-211.393
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-211.46
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat) (, ,) (NN mayonnaise) (, ,) (JJ sour) (NN cream)) (CC and) (NP (NN mustard))))) (. .)))
+-211.481
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (S (NP (NP (NN tuna) (, ,) (NN crabmeat)) (, ,) (NP (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))))) (. .)))
+-211.562
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NN tuna)) (, ,) (NP (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream))) (CC and) (NP (NN mustard)))) (. .)))
+-211.594
+(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB combine) (NP (NP (NP (NN tuna)) (, ,) (NP (NN crabmeat)) (, ,) (NP (NN mayonnaise))) (, ,) (NP (JJ sour) (NN cream)) (CC and) (NP (NN mustard)))) (. .)))
+
+50	17
+-273.647
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-274.026
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-274.244
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-274.623
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-274.883
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+-274.89
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-275.262
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+-275.269
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-275.487
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-275.866
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-275.931
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (JJ chopped) (NN onion))))) (. .)))
+-276.05
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-276.31
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (JJ chopped) (NN onion))))) (. .)))
+-276.429
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-276.486
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-276.646
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-276.865
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-277.025
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-277.082
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-277.252
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-277.461
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-277.611
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-277.631
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-277.702
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (VBN chopped) (NN onion))))))) (. .)))
+-277.84
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-277.99
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.082
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (VBN chopped) (NN onion))))))) (. .)))
+-278.207
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-278.215
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.219
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))))) (. .)))
+-278.288
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (JJ chopped) (NN onion)))) (. .)))
+-278.299
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (VBN chopped) (NN onion)))))) (. .)))
+-278.364
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.495
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (VBN chopped) (NX (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.586
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion))))) (. .)))
+-278.594
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.667
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (JJ chopped) (NN onion)))) (. .)))
+-278.678
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (VBN chopped) (NN onion)))))) (. .)))
+-278.744
+(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (NX (JJ sweet) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.745
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (JJ chopped) (NN egg)) (, ,) (NP (JJ dill) (NX (NX (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (JJ chopped) (NN onion))))) (. .)))
+-278.854
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+-278.874
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (VBN chopped) (NX (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-278.945
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (VBN chopped) (NN onion)))))) (. .)))
+-279.004
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+-279.038
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (ADJP (JJ dill) (CC and) (JJ sweet)) (NN relish)) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-279.083
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (RB chopped) (NX (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (JJ chopped) (NN onion)))))) (. .)))
+-279.126
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (JJ chopped) (NX (NX (NN egg)) (, ,) (NX (NN dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish)))) (CC and) (NP (VBN chopped) (NN onion))))) (. .)))
+-279.234
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (RB chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+-279.325
+(S1 (S (VP (VB Stir) (PP (IN in) (NP (JJ chopped) (NX (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))) (CC and) (NX (VBN chopped) (NN onion)))))) (. .)))
+-279.383
+(S1 (S (VP (VP (VB Stir) (PRT (RP in)) (NP (VBN chopped) (NX (NX (NN egg)) (, ,) (NX (JJ dill) (NN weed)) (, ,) (NX (NNP lemon) (NN pepper)) (, ,) (NX (NN dill)) (CC and) (NX (JJ sweet) (NN relish))))) (CC and) (VP (VBN chopped) (NP (NN onion)))) (. .)))
+
+50	18
+-42.0054
+(S1 (S (VP (VB Mix) (ADVP (RB thoroughly))) (. .)))
+-46.4936
+(S1 (FRAG (NP (NN Mix)) (ADVP (RB thoroughly)) (. .)))
+-47.9561
+(S1 (S (VP (NN Mix) (ADVP (RB thoroughly))) (. .)))
+-48.5058
+(S1 (FRAG (NP (NN Mix) (RB thoroughly)) (. .)))
+-49.1901
+(S1 (S (VP (VB Mix) (ADJP (RB thoroughly))) (. .)))
+-49.5925
+(S1 (S (VP (VB Mix) (NP (RB thoroughly))) (. .)))
+-49.745
+(S1 (FRAG (NP (NN Mix)) (ADJP (RB thoroughly)) (. .)))
+-50.1326
+(S1 (S (VP (VB Mix) (RB thoroughly)) (. .)))
+-50.3485
+(S1 (FRAG (NP (NNP Mix)) (ADVP (RB thoroughly)) (. .)))
+-50.8491
+(S1 (S (VP (VB Mix) (PRT (RB thoroughly))) (. .)))
+-51.8658
+(S1 (S (VP (VB Mix) (S (ADJP (RB thoroughly)))) (. .)))
+-52.3943
+(S1 (S (NP (NN Mix)) (ADJP (RB thoroughly)) (. .)))
+-52.491
+(S1 (FRAG (NP (NN Mix)) (NP (RB thoroughly)) (. .)))
+-52.6831
+(S1 (FRAG (ADVP (NN Mix)) (RB thoroughly) (. .)))
+-53.3239
+(S1 (NP (NP (NN Mix)) (ADJP (RB thoroughly)) (. .)))
+-53.4348
+(S1 (FRAG (NP (NP (NN Mix)) (ADVP (RB thoroughly))) (. .)))
+-53.5
+(S1 (NP (NP (NNP Mix)) (NP (RB thoroughly)) (. .)))
+-53.5999
+(S1 (FRAG (NP (NNP Mix)) (ADJP (RB thoroughly)) (. .)))
+-53.7053
+(S1 (SQ (VP (VB Mix) (ADVP (RB thoroughly))) (. .)))
+-53.7567
+(S1 (S (VP (VB Mix) (FRAG (ADVP (RB thoroughly)))) (. .)))
+-53.8793
+(S1 (S (VP (VB Mix) (S (ADVP (RB thoroughly)))) (. .)))
+-54.2787
+(S1 (S (VP (NN Mix) (NP (RB thoroughly))) (. .)))
+-54.6563
+(S1 (NP (NN Mix) (RB thoroughly) (. .)))
+-54.7811
+(S1 (S (NP (NNP Mix)) (ADJP (RB thoroughly)) (. .)))
+-55.0743
+(S1 (FRAG (S (VP (VB Mix) (ADVP (RB thoroughly)))) (. .)))
+-55.581
+(S1 (FRAG (NP (NN Mix) (RB thoroughly) (. .))))
+-55.664
+(S1 (FRAG (ADJP (NN Mix)) (ADVP (RB thoroughly)) (. .)))
+-55.8095
+(S1 (FRAG (VP (VB Mix) (ADVP (RB thoroughly))) (. .)))
+-56.0218
+(S1 (NP (NP (NN Mix)) (NP (RB thoroughly)) (. .)))
+-56.3459
+(S1 (FRAG (NP (NNP Mix)) (NP (RB thoroughly)) (. .)))
+-56.4618
+(S1 (FRAG (ADVP (NP (NN Mix)) (RB thoroughly)) (. .)))
+-56.5688
+(S1 (S (S (VP (VB Mix) (ADVP (RB thoroughly)))) (. .)))
+-56.6042
+(S1 (FRAG (ADVP (NN Mix)) (ADVP (RB thoroughly)) (. .)))
+-56.6423
+(S1 (S (VP (NNP Mix) (PRT (RB thoroughly))) (. .)))
+-56.7277
+(S1 (S (VP (VB Mix) (S (VP (ADVP (RB thoroughly))))) (. .)))
+-56.7418
+(S1 (S (VP (NN Mix) (PRT (RB thoroughly))) (. .)))
+-56.8874
+(S1 (FRAG (ADVP (NNP Mix)) (RB thoroughly) (. .)))
+-57.2243
+(S1 (FRAG (ADVP (NN Mix) (RB thoroughly)) (. .)))
+-57.4489
+(S1 (S (VP (VB Mix) (VP (ADVP (RB thoroughly)))) (. .)))
+-57.4895
+(S1 (NP (NP (NNP Mix)) (ADJP (RB thoroughly)) (. .)))
+-57.5562
+(S1 (S (VP (NN Mix) (S (ADJP (RB thoroughly)))) (. .)))
+-57.6067
+(S1 (S (NP (NN Mix)) (VP (ADVP (RB thoroughly))) (. .)))
+-57.6747
+(S1 (FRAG (NP (VB Mix)) (ADVP (RB thoroughly)) (. .)))
+-57.7955
+(S1 (S (VP (NN Mix) (ADJP (RB thoroughly))) (. .)))
+-58.0458
+(S1 (FRAG (ADVP (NN Mix)) (NP (RB thoroughly)) (. .)))
+-58.0596
+(S1 (FRAG (VP (NN Mix) (ADVP (RB thoroughly))) (. .)))
+-58.0932
+(S1 (FRAG (NP (NP (NN Mix)) (ADJP (RB thoroughly))) (. .)))
+-58.1163
+(S1 (S (VP (VB Mix) (S (VP (RB thoroughly)))) (. .)))
+-58.1655
+(S1 (FRAG (ADVP (VB Mix) (RB thoroughly)) (. .)))
+-58.3443
+(S1 (X (NP (NN Mix)) (NP (RB thoroughly)) (. .)))
+

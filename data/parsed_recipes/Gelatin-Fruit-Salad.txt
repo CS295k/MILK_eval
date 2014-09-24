@@ -1,0 +1,816 @@
+50	1
+-48.607
+(S1 (NP (NP (CD 1) (NN cup)) (NP (NN applesauce))))
+-52.3414
+(S1 (NP (QP (CD 1) (NN cup)) (NN applesauce)))
+-55.8597
+(S1 (NP (NP (QP (CD 1) (NN cup))) (NP (NN applesauce))))
+-56.81
+(S1 (NP (NP (CD 1) (NN cup)) (NP (NNS applesauce))))
+-57.3886
+(S1 (NP (NP (CD 1) (NN cup)) (NP (JJ applesauce))))
+-57.6085
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (NP (NN applesauce)))))
+-57.8868
+(S1 (NP (ADJP (CD 1) (NN cup)) (NN applesauce)))
+-59.3961
+(S1 (NP (QP (CD 1) (NN cup)) (NNS applesauce)))
+-59.6023
+(S1 (FRAG (NP (QP (CD 1) (NN cup)) (NN applesauce))))
+-60.5835
+(S1 (NP (NP (CD 1) (NN cup)) (NP (VB applesauce))))
+-60.5918
+(S1 (NP (ADJP (CD 1) (NN cup)) (JJ applesauce)))
+-61.1594
+(S1 (NP (CD 1) (NN cup) (VB applesauce)))
+-61.5544
+(S1 (NP (NP (CD 1) (NN cup)) (JJ applesauce)))
+-61.8668
+(S1 (NP (ADJP (CD 1) (NN cup)) (NNS applesauce)))
+-61.9515
+(S1 (NP (CD 1) (NN cup) (NN applesauce)))
+-62.0528
+(S1 (S (NP (QP (CD 1) (NN cup)) (NN applesauce))))
+-62.167
+(S1 (FRAG (NP (ADJP (CD 1) (NN cup)) (NN applesauce))))
+-62.978
+(S1 (NP (NP (CD 1) (NN cup)) (ADVP (RB applesauce))))
+-63.6345
+(S1 (FRAG (ADJP (CD 1) (NN cup)) (ADJP (JJ applesauce))))
+-63.7198
+(S1 (NP (NP (CD 1) (NN cup)) (ADVP (JJ applesauce))))
+-63.8485
+(S1 (S (NP (NP (CD 1) (NN cup)) (NP (NN applesauce)))))
+-63.9413
+(S1 (NP (NP (CD 1) (NN cup)) (NN applesauce)))
+-64.0628
+(S1 (NP (NP (QP (CD 1) (NN cup))) (NP (NNS applesauce))))
+-64.2352
+(S1 (S (NP (ADJP (CD 1) (NN cup)) (NN applesauce))))
+-64.3791
+(S1 (FRAG (ADJP (CD 1) (NN cup)) (NP (NN applesauce))))
+-64.4416
+(S1 (NP (NP (CD 1) (NN cup)) (ADVP (NN applesauce))))
+-64.487
+(S1 (S (NP (QP (CD 1) (NN cup)) (NNS applesauce))))
+-64.6414
+(S1 (NP (NP (QP (CD 1) (NN cup))) (NP (JJ applesauce))))
+-64.6841
+(S1 (FRAG (NP (CD 1) (NN cup)) (ADJP (JJ applesauce))))
+-64.7846
+(S1 (S (NP (CD 1) (NN cup)) (ADJP (JJ applesauce))))
+-64.9604
+(S1 (FRAG (NP (CD 1) (NN cup)) (NP (NN applesauce))))
+-65.4854
+(S1 (NP (NP (CD 1) (NN cup)) (VP (NN applesauce))))
+-65.7062
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (NP (NNS applesauce)))))
+-65.7395
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (NP (JJ applesauce)))))
+-65.8533
+(S1 (S (NP (CD 1) (NN cup)) (NP (NN applesauce))))
+-65.947
+(S1 (FRAG (NP (NP (QP (CD 1) (NN cup))) (NP (NN applesauce)))))
+-66.239
+(S1 (NP (ADJP (QP (CD 1) (NN cup))) (NN applesauce)))
+-66.2792
+(S1 (NP (ADJP (CD 1) (NN cup)) (VB applesauce)))
+-66.3379
+(S1 (S (NP (CD 1) (NN cup)) (VP (NN applesauce))))
+-66.595
+(S1 (FRAG (NP (QP (CD 1) (NN cup)) (NNS applesauce))))
+-66.6365
+(S1 (NP (NP (CD 1)) (NN cup) (NN applesauce)))
+-66.7069
+(S1 (ADJP (NP (CD 1) (NN cup)) (JJ applesauce)))
+-66.8018
+(S1 (S (NP (ADJP (CD 1) (NN cup)) (NNS applesauce))))
+-66.9791
+(S1 (FRAG (NP (ADJP (CD 1) (NN cup)) (JJ applesauce))))
+-67.1317
+(S1 (S (NP (QP (CD 1) (NN cup))) (NP (NN applesauce))))
+-67.2277
+(S1 (FRAG (NP (CD 1) (NN cup) (VB applesauce))))
+-67.2878
+(S1 (S (ADJP (CD 1) (NN cup)) (NP (NN applesauce))))
+-67.5491
+(S1 (FRAG (NP (NP (CD 1) (NN cup)) (ADVP (RB applesauce)))))
+-67.6163
+(S1 (S (NP (QP (CD 1) (NN cup))) (VP (NN applesauce))))
+-67.6711
+(S1 (NP (NP (QP (CD 1) (NN cup))) (JJ applesauce)))
+
+50	2
+-120.041
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))
+-120.363
+(S1 (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry) (NN gelatin)))
+-121.376
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (NP (JJ cherry) (NN gelatin)))))
+-122.567
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ cherry) (NN gelatin))))
+-122.669
+(S1 (S (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (NNS packages) (NP (JJ cherry) (NN gelatin)))))
+-123.189
+(S1 (S (ADVP (LS 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))
+-123.99
+(S1 (S (ADVP (LS 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (NNS packages) (NP (JJ cherry) (NN gelatin)))))
+-124.128
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ cherry) (NN gelatin))))
+-124.442
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ cherry) (NN gelatin))))
+-124.538
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (NN cherry) (NN gelatin)))))
+-125.176
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (JJ cherry) (NN gelatin)))
+-125.335
+(S1 (S (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))
+-125.645
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (S (NP (JJ cherry) (NN gelatin))))))
+-125.693
+(S1 (NP (CD 2) (NP (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (JJ cherry) (NN gelatin)))
+-125.711
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry) (NN gelatin))))
+-125.941
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NN cherry) (NN gelatin)))
+-126.132
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry)) (NP (NN gelatin))))
+-126.277
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry)) (VP (VBN gelatin))))
+-126.318
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry)) (NN gelatin)))
+-126.362
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NP (NP (NNS packages)) (NP (JJ cherry) (NN gelatin)))))
+-126.442
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))
+-126.463
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry) (NN gelatin)))
+-126.597
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NP (NP (NNS packages)) (JJ cherry) (NN gelatin))))
+-127.051
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (JJ cherry) (NN gelatin)))
+-127.188
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (JJ cherry) (FW gelatin)))))
+-127.296
+(S1 (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))))
+-127.33
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (NP (NN cherry) (NN gelatin)))))
+-127.379
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry)) (NP (NN gelatin))))
+-127.432
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NN cherry) (NN gelatin))))
+-127.484
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (NP (JJ cherry) (FW gelatin)))))
+-127.553
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (JJ cherry) (NNS gelatin)))))
+-127.599
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (ADJP (JJ cherry) (JJ gelatin))))
+-127.686
+(S1 (S (ADVP (LS 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (NP (NN cherry) (NN gelatin)))))
+-127.692
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NN cherry) (NN gelatin))))
+-127.72
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ cherry) (NN gelatin))))
+-127.816
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NN cherry) (NN gelatin)))
+-128.144
+(S1 (NP (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (JJ cherry) (FW gelatin))))
+-128.476
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (NP (JJ cherry) (NNS gelatin)))))
+-128.624
+(S1 (S (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (NNS packages) (NP (NN cherry) (NN gelatin)))))
+-128.72
+(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages) (NN cherry)) (VP (VB gelatin))))
+-128.778
+(S1 (S (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (NNS packages) (NP (JJ cherry) (FW gelatin)))))
+-128.794
+(S1 (S (ADVP (LS 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VP (VBZ packages) (S (NP (JJ cherry) (NN gelatin))))))
+-128.809
+(S1 (NP (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (NNS packages)) (NP (JJ cherry) (NN gelatin))))
+-128.97
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (NP (NP (NNS packages)) (JJ cherry) (NN gelatin))))
+-129.044
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (NNS packages) (NP (JJ cherry) (NNP gelatin)))))
+-129.209
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (S (NP (NN cherry) (NN gelatin))))))
+-129.28
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (JJ cherry) (NNP gelatin)))))
+-129.307
+(S1 (NP (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (NP (NN cherry) (NN gelatin))))
+-129.395
+(S1 (S (NP (CD 2)) (VP (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-)) (VBZ packages) (NP (JJ cherry) (NN gelatin)))))
+-129.402
+(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (ADJP (JJ cherry) (JJ gelatin)))))
+
+50	3
+-84.4532
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-92.2676
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+-93.1801
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-93.5105
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda)))
+-94.1766
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-96.6872
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+-97.1824
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-98.2708
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-100.913
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda))))
+-102.226
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-102.3
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda)))))
+-102.861
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-103.263
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda))))
+-103.483
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-104.997
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+-105.755
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda))))
+-105.909
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-106.227
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda))))
+-106.24
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda)))
+-106.906
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-107.49
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-107.607
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (JJ lemon-lime) (NP (NN soda)))))
+-107.986
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda)))))
+-109.056
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ lemon-lime)) (NN soda))))
+-109.416
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+-109.449
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12)) (NN ounce) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-109.549
+(S1 (S (VP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))))
+-110.023
+(S1 (FRAG (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))))
+-110.953
+(S1 (FRAG (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-111
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-111.283
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda)))
+-111.297
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+-111.949
+(S1 (S (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-112.21
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-112.384
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-))) (NN can) (JJ lemon-lime) (NN soda)))
+-112.54
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda)))
+-112.706
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-113.085
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ lemon-lime)) (NN soda)))))
+-113.16
+(S1 (FRAG (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda))))
+-113.206
+(S1 (S (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda))))
+-113.422
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda))))
+-113.642
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (ADJP (JJ lemon-lime)) (NN soda))))
+-114.156
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (VP (NP (JJ lemon-lime) (NN soda)))))
+-114.44
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ lemon-lime)) (NN soda))))
+-114.955
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))
+-115.029
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda)))))
+-115.58
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-115.587
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NP (ADJP (JJ lemon-lime)) (NN soda))))
+-115.59
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 12) (NN ounce))) (-RRB- -RRB-)) (NN can)) (NP (JJ lemon-lime) (NN soda))))
+-115.717
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (NP (CD 12)) (NN ounce)) (-RRB- -RRB-)) (NN can) (JJ lemon-lime) (NN soda)))
+
+50	4
+-141.853
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained))))))
+-143.132
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (JJ undrained))))))
+-143.337
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained)))))))
+-143.573
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBN undrained)))))
+-144.897
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (VBN undrained))))))
+-145.391
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained))))))
+-145.549
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (ADVP (RB undrained)))))
+-146.175
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained))))))))
+-146.344
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained)))))))
+-146.346
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBN undrained))))))
+-147.048
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VP (VBN crushed) (S (NP (NN pineapple)))) (, ,) (VP (VBN undrained)))))
+-147.069
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (JJ undrained)))))))
+-147.093
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (ADVP (JJ undrained)))))
+-147.903
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (SBAR (NN pineapple) (, ,) (S (VP (VBD undrained)))))))
+-147.915
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBD undrained)))))))
+-147.924
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBD undrained)))))
+-148.269
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VP (VBN crushed) (ADVP (NN pineapple))) (, ,) (VP (VBN undrained)))))
+-148.501
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (VP (VBN undrained)))))
+-148.617
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained)))))))
+-148.641
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained))))))))
+-148.769
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (ADVP (JJ undrained))))))
+-148.81
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained)))))))
+-148.811
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBN undrained))))))
+-148.961
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBD undrained))))))
+-148.988
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (VBN undrained)))))))
+-149.053
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple))))) (, ,) (VP (VBD undrained))))
+-149.274
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)))) (, ,) (VP (VBN undrained))))
+-149.535
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (JJ undrained)))))))
+-149.544
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (SBAR (S (VP (VBN undrained)))))))
+-149.73
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (VP (VBD undrained))))))
+-149.821
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VBN crushed) (S (NP (NN pineapple)))) (, ,) (VP (VBN undrained))))))
+-150.006
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (NP (JJ undrained)))))))
+-150.345
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained))))))))))
+-150.514
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained)))))))))
+-150.516
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBN undrained))))))))
+-150.523
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (ADVP (RB undrained))))))
+-150.619
+(S1 (S (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (S (NP (NN pineapple)))))) (, ,) (VP (VBD undrained))))
+-150.682
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)))) (, ,) (VP (VBD undrained))))
+-150.685
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained))))))))
+-150.753
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (S (NP (NP (NN pineapple)) (, ,) (VP (VBD undrained))))))))
+-150.757
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (S (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained))))))))
+-150.84
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN crushed) (S (NP (NN pineapple))))) (, ,) (VP (VBN undrained))))
+-150.854
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained)))))))
+-150.855
+(S1 (S (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBN undrained))))))
+-150.967
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (ADVP (NN pineapple)) (, ,) (SBAR (S (VP (VBN undrained)))))))
+-151.042
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VBN crushed) (ADVP (NN pineapple))) (, ,) (VP (VBN undrained))))))
+-151.083
+(S1 (S (ADVP (LS 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (VP (MD can) (VP (VBN crushed) (NP (NP (NN pineapple)) (, ,) (VP (VBN undrained)))))))
+-151.151
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (VP (VBD undrained))))))
+-151.24
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-)) (SBAR (S (VP (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (ADJP (JJ undrained)))))))))
+-151.389
+(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VP (VBN crushed) (NP (NN pineapple))) (, ,) (S (VP (VBN undrained))))))
+
+50	5
+-102.173
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-102.209
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-104.5
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADJP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-105.203
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-105.814
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADJP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-105.9
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-106.727
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-106.77
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (S (VP (VB applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-107.199
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADJP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-107.211
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (VP (VB applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-107.263
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-107.411
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (RB applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-107.857
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (NNS applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-107.868
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NNS applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-108.007
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (S (ADJP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-108.435
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADJP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-108.926
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADVP (RB applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-109.333
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-109.536
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADJP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-109.548
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (FW applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-109.642
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (VB applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-109.8
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (RB applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-109.86
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-109.978
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (S (ADJP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-110.008
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (S (VP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-110.05
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADVP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.119
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (PP (JJ applesauce) (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.314
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADVP (JJ applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-110.319
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (VB applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.398
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (INTJ (VB bring)) (VP (VB applesauce) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.411
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NP (NNS applesauce)) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-110.613
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (JJ applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.633
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (NP (VBP bring)) (VP (VBP applesauce) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.801
+(S1 (FRAG (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.81
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (S (VP (VB bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-110.855
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (FW applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-110.886
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (S (VP (VB applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-110.891
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (PP (JJ applesauce) (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.003
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-111.007
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADVP (FW applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.04
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (NP (NP (VB applesauce)) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-111.146
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (ADVP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.18
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (NP (VB bring)) (VP (VBP applesauce) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.268
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADJP (RB applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-111.279
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (PP (ADVP (RB applesauce)) (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.648
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (VP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil))))) (. .)))
+-111.666
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (S (VP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-111.728
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (S (ADJP (NN applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+-111.78
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (ADJP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))
+-111.793
+(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB bring) (S (ADJP (VB applesauce) (PP (TO to) (NP (DT a) (NN boil)))))) (. .)))
+
+50	6
+-132.236
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-134.891
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (VBG gelatin) (SBAR (IN until) (S (VP (VBN dissolved))))))))) (. .)))
+-135.056
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-136.208
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (PP (IN until) (ADJP (VBN dissolved))))) (. .)))
+-136.768
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (FW gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-137.044
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NN gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-137.284
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin) (SBAR (IN until) (S (VP (VBN dissolved)))))))) (. .)))
+-137.915
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (ADJP (JJ gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-138.082
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (FRAG (ADJP (VBN dissolved)))))) (. .)))
+-138.113
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (S (VP (VBG gelatin) (SBAR (IN until) (S (VP (VBN dissolved)))))))) (. .)))
+-138.155
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (VBG gelatin) (SBAR (IN until) (FRAG (VP (VBN dissolved))))))))) (. .)))
+-138.243
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (SBAR (RB gelatin) (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-138.287
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (S (VP (VB gelatin) (SBAR (IN until) (S (VP (VBN dissolved)))))))) (. .)))
+-138.556
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NNP gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-138.591
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (PP (IN until) (NP (VBN dissolved))))) (. .)))
+-138.643
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NN gelatin)) (PP (IN until) (ADJP (VBN dissolved))))) (. .)))
+-138.653
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (NN gelatin) (SBAR (IN until) (S (VP (VBN dissolved))))))))) (. .)))
+-138.871
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (S (ADJP (VBN dissolved)))))) (. .)))
+-138.998
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (ADVP (RB gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-139.149
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (JJ gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-139.561
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NP (NN gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))))) (. .)))
+-139.588
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (FW gelatin))) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-139.668
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))))) (. .)))
+-139.797
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NP (NN gelatin)) (SBAR (WHNP (IN until)) (S (VP (VBN dissolved)))))))) (. .)))
+-139.805
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat)))) (: ;) (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-139.864
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NN gelatin)) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-139.936
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (PP (IN until) (SBAR (S (VP (VBN dissolved))))))) (. .)))
+-139.952
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (VBG gelatin) (PP (IN until) (ADJP (VBN dissolved)))))))) (. .)))
+-140.312
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NN gelatin) (SBAR (IN until) (S (VP (VBN dissolved))))))) (. .)))
+-140.379
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (NP (IN in) (NN gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-140.479
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (PP (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-140.735
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (VBG gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-140.735
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (ADJP (JJ gelatin))) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-140.741
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (FW gelatin))) (PP (IN until) (ADJP (VBN dissolved))))) (. .)))
+-141.026
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NN gelatin)) (PP (IN until) (NP (VBN dissolved))))) (. .)))
+-141.107
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (S (VP (VB gelatin) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))))) (. .)))
+-141.181
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (VBG gelatin) (SBAR (IN until) (FRAG (ADJP (VBN dissolved))))))))) (. .)))
+-141.376
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NNP gelatin))) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-141.377
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (S (VP (VBG gelatin) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))))) (. .)))
+-141.467
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat)))) (: ;) (VP (VB stir) (PRT (RP in)) (NP (NN gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-141.485
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (PP (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-141.526
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (S (VP (VBG gelatin) (SBAR (IN until) (S (ADJP (VBN dissolved))))))))) (. .)))
+-141.559
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (RB gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-141.593
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (FW gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-141.597
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (ADVP (RB in)) (SBAR (RB gelatin) (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-141.674
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (NP (NP (NN gelatin)) (SBAR (IN until) (S (VP (VBN dissolved))))))) (. .)))
+-141.818
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PRT (RP in)) (ADVP (RB gelatin)) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))) (. .)))
+-141.849
+(S1 (S (VP (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat)))) (: ;) (VP (VB stir) (PRT (RP in)) (ADVP (RB gelatin)) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))
+-141.887
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (ADJP (JJ gelatin))) (PP (IN until) (ADJP (VBN dissolved))))) (. .)))
+-141.945
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NP (NN gelatin)) (SBAR (IN until) (FRAG (VP (VBN dissolved)))))))) (. .)))
+
+50	7
+-76.9791
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-80.473
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-81.655
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-81.9089
+(S1 (S (RB Slowly) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-83.709
+(S1 (FRAG (RB Slowly) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-83.937
+(S1 (SINV (ADVP (RB Slowly)) (VP (VB add)) (NP (NN soda) (CC and) (NN pineapple)) (. .)))
+-83.9398
+(S1 (S (RB Slowly) (VP (VBP add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-84.3704
+(S1 (S (VP (ADVP (RB Slowly)) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-84.5622
+(S1 (SQ (VP (ADVP (RB Slowly)) (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-84.6442
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (ADVP (NN soda) (CC and) (NN pineapple))) (. .)))
+-84.6677
+(S1 (SINV (ADVP (RB Slowly)) (VP (VBP add)) (NP (NN soda) (CC and) (NN pineapple)) (. .)))
+-84.8927
+(S1 (S (VP (RB Slowly) (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-85.1489
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-85.373
+(S1 (S (NP (RB Slowly)) (VP (VBP add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-85.4028
+(S1 (S (RB Slowly) (VP (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-85.8421
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (S (NP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-85.9048
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (S (ADJP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-86.0174
+(S1 (S (NP (RB Slowly)) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-86.2485
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (ADVP (NN soda) (CC and) (NN pineapple))) (. .)))
+-86.355
+(S1 (FRAG (RB Slowly) (VP (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-86.5024
+(S1 (S (RB Slowly) (VP (VB add) (ADVP (NN soda) (CC and) (NN pineapple))) (. .)))
+-86.5783
+(S1 (S (VP (ADVP (RB Slowly)) (VBP add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-86.6074
+(S1 (SINV (ADVP (RB Slowly)) (VP (VB add)) (NP (NP (NN soda)) (CC and) (NP (NN pineapple))) (. .)))
+-86.6871
+(S1 (S (RB Slowly) (VP (VBP add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-86.7797
+(S1 (S (ADVP (RB Slowly)) (VP (VBP add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-87.1093
+(S1 (SINV (ADVP (RB Slowly)) (VP (VBP add)) (NP (NP (NN soda)) (CC and) (NP (NN pineapple))) (. .)))
+-87.616
+(S1 (S (RB Slowly) (VP (VP (VB add) (NP (NN soda))) (CC and) (VP (NN pineapple))) (. .)))
+-87.7293
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (UCP (NN soda) (CC and) (NN pineapple))) (. .)))
+-87.8213
+(S1 (S (VP (ADVP (RB Slowly)) (VP (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple))))) (. .)))
+-87.9342
+(S1 (SQ (ADVP (RB Slowly)) (VP (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))
+-87.9832
+(S1 (S (RB Slowly) (VP (VB add) (UCP (NN soda) (CC and) (NN pineapple))) (. .)))
+-88.0598
+(S1 (S (ADVP (RB Slowly)) (S (VP (VB add) (NP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-88.1203
+(S1 (S (NP (RB Slowly)) (VP (VBP add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-88.1275
+(S1 (SINV (RB Slowly) (VP (VB add)) (NP (NN soda) (CC and) (NN pineapple)) (. .)))
+-88.1284
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (S (NP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-88.1303
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (S (NP (NP (NN soda)) (CC and) (NP (NN pineapple))))) (. .)))
+-88.1812
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (UCP (NN soda) (CC and) (NN pineapple))) (. .)))
+-88.1911
+(S1 (S (ADVP (RB Slowly)) (VP (VB add) (S (ADJP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-88.222
+(S1 (SQ (VP (ADVP (RB Slowly)) (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-88.3823
+(S1 (S (RB Slowly) (VP (VB add) (S (NP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-88.3851
+(S1 (S (ADVP (RB Slowly)) (VP (VP (VB add) (NP (NN soda))) (CC and) (VP (NN pineapple))) (. .)))
+-88.3866
+(S1 (S (VP (RB Slowly) (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-88.445
+(S1 (S (RB Slowly) (VP (VB add) (S (ADJP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-89.1184
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (NP (ADJP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-89.3257
+(S1 (S (VP (ADVP (RB Slowly)) (VBP add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-89.3867
+(S1 (S (VP (ADVP (RB Slowly)) (VB add) (S (UCP (NN soda) (CC and) (NN pineapple)))) (. .)))
+-89.5113
+(S1 (S (NP (RB Slowly)) (VP (VB add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-89.5271
+(S1 (S (ADVP (RB Slowly)) (VP (VBP add) (NP (NP (NN soda)) (CC and) (NP (NN pineapple)))) (. .)))
+-89.7324
+(S1 (SINV (RB Slowly) (VP (VBP add)) (NP (NN soda) (CC and) (NN pineapple)) (. .)))
+-89.7427
+(S1 (FRAG (RB Slowly) (VP (VB add) (ADVP (NN soda) (CC and) (NN pineapple))) (. .)))
+
+50	8
+-57.8952
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-60.1073
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (ADJP (JJ firm)))) (. .)))
+-60.4277
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (ADJP (JJ firm))))) (. .)))
+-62.2524
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (NP (JJ firm)))) (. .)))
+-64.1946
+(S1 (S (VP (VB Refrigerate) (NP (IN until) (NN firm))) (. .)))
+-65.0791
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (ADJP (NN firm)))) (. .)))
+-65.2696
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (NN firm))) (. .)))
+-65.5447
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (VP (NN firm))))) (. .)))
+-65.5862
+(S1 (S (VP (VB Refrigerate) (ADVP (IN until) (NN firm))) (. .)))
+-65.6532
+(S1 (S (VP (VBP Refrigerate) (SBAR (IN until) (S (ADJP (JJ firm))))) (. .)))
+-65.7437
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (S (VP (NN firm))))) (. .)))
+-65.7851
+(S1 (S (VP (VBP Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-65.8967
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (VP (JJ firm))))) (. .)))
+-66.1387
+(S1 (SQ (VP (VB Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-67.0551
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (S (VP (JJ firm))))) (. .)))
+-67.1691
+(S1 (S (VP (VB Refrigerate) (ADJP (IN until) (NN firm))) (. .)))
+-67.3557
+(S1 (NP (NP (VB Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-67.4036
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (VP (VB firm))))) (. .)))
+-67.5225
+(S1 (S (VP (VBD Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-67.6619
+(S1 (S (VP (VBP Refrigerate) (PP (IN until) (ADJP (JJ firm)))) (. .)))
+-67.7499
+(S1 (NP (NP (JJ Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-67.7697
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (ADJP (JJ firm)))) (. .)))
+-67.786
+(S1 (S (VP (VB Refrigerate) (NP (IN until) (JJ firm))) (. .)))
+-68.234
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (S (ADJP (JJ firm))))) (. .)))
+-68.3508
+(S1 (SQ (VP (VB Refrigerate) (PP (IN until) (ADJP (JJ firm)))) (. .)))
+-68.5222
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (NP (NN firm))))) (. .)))
+-68.6483
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (NP (JJ firm))))) (. .)))
+-68.6537
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (NP (NN firm))) (. .))))
+-68.6888
+(S1 (S (VP (NN Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-68.6972
+(S1 (NP (NP (NNP Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-68.8257
+(S1 (NP (NP (NN Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-68.8519
+(S1 (S (VP (NNP Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))
+-68.8542
+(S1 (SQ (VP (VB Refrigerate) (SBAR (IN until) (S (ADJP (JJ firm))))) (. .)))
+-69.0993
+(S1 (S (VP (VBD Refrigerate) (SBAR (IN until) (S (ADJP (JJ firm))))) (. .)))
+-69.2503
+(S1 (S (VP (VB Refrigerate) (ADJP (IN until) (JJ firm))) (. .)))
+-69.3137
+(S1 (S (VP (VB Refrigerate) (SBAR (IN until) (S (ADJP (NN firm))))) (. .)))
+-69.5111
+(S1 (FRAG (NP (NNP Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-69.5506
+(S1 (S (VP (VB Refrigerate) (PRT (IN until)) (NP (NN firm))) (. .)))
+-69.7513
+(S1 (S (VP (VBD Refrigerate) (PP (IN until) (ADJP (JJ firm)))) (. .)))
+-70.0051
+(S1 (FRAG (NP (NN Refrigerate)) (PP (IN until) (NP (NN firm))) (. .)))
+-70.0326
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (S (NP (NN firm))))) (. .)))
+-70.1004
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (NN firm))) (. .)))
+-70.1166
+(S1 (S (VP (VB Refrigerate) (ADVP (IN until) (JJ firm))) (. .)))
+-70.1422
+(S1 (S (VP (VBP Refrigerate) (PP (IN until) (NP (JJ firm)))) (. .)))
+-70.2183
+(S1 (FRAG (ADJP (JJ Refrigerate)) (SBAR (IN until) (S (ADJP (JJ firm)))) (. .)))
+-70.3781
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (S (ADJP (NN firm))))) (. .)))
+-70.4178
+(S1 (S (VP (VBP Refrigerate) (NP (IN until) (NN firm))) (. .)))
+-70.4761
+(S1 (S (VP (VB Refrigerate) (PP (IN until) (NP (VB firm)))) (. .)))
+-70.4959
+(S1 (SQ (VP (VB Refrigerate) (PP (IN until) (NP (JJ firm)))) (. .)))
+-70.7701
+(S1 (S (VP (VBP Refrigerate) (SBAR (IN until) (S (VP (NN firm))))) (. .)))
+

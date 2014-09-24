@@ -1,0 +1,714 @@
+50	1
+-85.3709
+(S1 (NP (CD 1) (JJ pint) (JJ heavy) (VBG whipping) (NN cream)))
+-87.5078
+(S1 (NP (CD 1) (NN pint) (JJ heavy) (VBG whipping) (NN cream)))
+-88.9167
+(S1 (NP (QP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-89.9471
+(S1 (NP (QP (CD 1) (CD pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-90.3774
+(S1 (NP (NP (CD 1)) (JJ pint) (JJ heavy) (VBG whipping) (NN cream)))
+-91.5403
+(S1 (NP (NP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-91.8009
+(S1 (NP (NP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-91.9169
+(S1 (NP (ADJP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-91.937
+(S1 (NP (NP (CD 1)) (JJS pint) (JJ heavy) (VBG whipping) (NN cream)))
+-92.5076
+(S1 (FRAG (NP (CD 1) (JJ pint) (JJ heavy) (VBG whipping) (NN cream))))
+-92.7363
+(S1 (NP (NP (CD 1)) (NN pint) (JJ heavy) (VBG whipping) (NN cream)))
+-93.256
+(S1 (NP (CD 1) (JJS pint) (JJ heavy) (VBG whipping) (NN cream)))
+-93.3973
+(S1 (S (NP (CD 1) (JJ pint) (JJ heavy) (VBG whipping) (NN cream))))
+-93.709
+(S1 (FRAG (NP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-93.9601
+(S1 (NP (CD 1) (CD pint) (JJ heavy) (VBG whipping) (NN cream)))
+-94.2949
+(S1 (NP (CD 1) (JJ pint) (NN heavy) (VBG whipping) (NN cream)))
+-94.3888
+(S1 (NP (CD 1) (NN pint) (NN heavy) (VBG whipping) (NN cream)))
+-94.6446
+(S1 (FRAG (NP (CD 1) (NN pint) (JJ heavy) (VBG whipping) (NN cream))))
+-95.2207
+(S1 (S (NP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-95.6641
+(S1 (FRAG (NP (QP (CD 1) (CD pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-95.88
+(S1 (FRAG (NP (NP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream)))))
+-96.0685
+(S1 (NP (CD 1) (ADJP (JJ pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-96.1304
+(S1 (FRAG (ADJP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-96.7597
+(S1 (NP (NP (CD 1)) (JJ pint) (NN heavy) (VBG whipping) (NN cream)))
+-97.5668
+(S1 (NP (CD 1) (ADJP (JJ pint) (JJ heavy)) (VBG whipping) (NN cream)))
+-97.6301
+(S1 (FRAG (NP (QP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-97.6844
+(S1 (NP (ADJP (CD 1) (NN pint)) (NN heavy) (VBG whipping) (NN cream)))
+-97.9351
+(S1 (NP (NP (QP (CD 1) (CD pint))) (JJ heavy) (VBG whipping) (NN cream)))
+-97.9592
+(S1 (FRAG (NP (ADJP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-98.0638
+(S1 (S (NP (CD 1) (NN pint) (JJ heavy) (VBG whipping) (NN cream))))
+-98.417
+(S1 (S (NP (QP (CD 1) (NN pint))) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-98.9102
+(S1 (S (NP (QP (CD 1) (CD pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-99.1679
+(S1 (NP (ADJP (QP (CD 1) (NN pint))) (JJ heavy) (VBG whipping) (NN cream)))
+-99.2182
+(S1 (NP (NP (CD 1)) (NN pint) (NN heavy) (VBG whipping) (NN cream)))
+-99.5742
+(S1 (S (NP (CD 1)) (NP (JJ pint) (JJ heavy) (VBG whipping) (NN cream))))
+-99.618
+(S1 (NP (NP (QP (CD 1) (NN pint))) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-99.9721
+(S1 (NP (NP (CD 1) (NN pint)) (NN heavy) (VBG whipping) (NN cream)))
+-100.028
+(S1 (FRAG (NP (NP (CD 1)) (JJ pint) (JJ heavy) (VBG whipping) (NN cream))))
+-100.029
+(S1 (FRAG (NP (CD 1)) (NP (JJ pint) (JJ heavy) (VBG whipping) (NN cream))))
+-100.034
+(S1 (FRAG (NP (NP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-100.108
+(S1 (S (ADJP (CD 1) (NN pint)) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-100.393
+(S1 (FRAG (NP (CD 1) (JJS pint) (JJ heavy) (VBG whipping) (NN cream))))
+-100.449
+(S1 (FRAG (NP (CD 1) (JJ pint) (NN heavy) (VBG whipping) (NN cream))))
+-100.505
+(S1 (NP (NP (CD 1)) (JJS pint) (NN heavy) (VBG whipping) (NN cream)))
+-100.578
+(S1 (NP (NP (CD 1)) (ADJP (JJ pint)) (JJ heavy) (VBG whipping) (NN cream)))
+-100.636
+(S1 (S (NP (QP (CD 1) (NN pint)) (JJ heavy) (VBG whipping) (NN cream))))
+-100.805
+(S1 (NP (CD 1) (JJS pint) (NN heavy) (VBG whipping) (NN cream)))
+-101.025
+(S1 (FRAG (NP (QP (CD 1) (CD pint))) (NP (JJ heavy) (VBG whipping) (NN cream))))
+-101.079
+(S1 (NP (NP (CD 1)) (ADJP (JJ pint) (JJ heavy)) (VBG whipping) (NN cream)))
+-101.082
+(S1 (FRAG (NP (CD 1) (NN pint) (NN heavy) (VBG whipping) (NN cream))))
+
+50	2
+-54.0263
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN butter))))
+-58.5722
+(S1 (NP (QP (CD 1/2) (NN cup)) (NN butter)))
+-60.6516
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN butter))))
+-62.978
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (NN butter)))))
+-63.3328
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (NN butter)))
+-65.3485
+(S1 (NP (CD 1/2) (NN cup) (NN butter)))
+-65.833
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup)) (NN butter))))
+-66.7113
+(S1 (NP (NP (CD 1/2) (NN cup)) (NP (VB butter))))
+-67.613
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN cup)) (NN butter))))
+-67.7116
+(S1 (S (NP (CD 1/2)) (VP (NN cup) (NP (NN butter)))))
+-67.817
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (NP (NN butter)))))
+-68.1961
+(S1 (S (NP (CD 1/2) (NN cup)) (VP (VB butter))))
+-68.3088
+(S1 (S (NP (QP (CD 1/2) (NN cup)) (NN butter))))
+-68.6685
+(S1 (NP (CD 1/2) (NN cup) (VB butter)))
+-69.3638
+(S1 (FRAG (NP (CD 1/2) (NN cup)) (VP (VB butter))))
+-69.7064
+(S1 (S (NP (ADJP (CD 1/2) (NN cup)) (NN butter))))
+-69.9834
+(S1 (FRAG (ADJP (CD 1/2) (NN cup)) (NP (NN butter))))
+-70.5636
+(S1 (S (ADJP (CD 1/2) (NN cup)) (NP (VB butter))))
+-70.689
+(S1 (FRAG (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN butter)))))
+-70.8953
+(S1 (NP (NP (NP (CD 1/2)) (NN cup)) (NP (NN butter))))
+-71.3483
+(S1 (NP (NP (CD 1/2)) (NN cup) (NN butter)))
+-71.4179
+(S1 (NP (ADJP (CD 1/2) (NN cup)) (VB butter)))
+-71.4237
+(S1 (FRAG (NP (CD 1/2) (NN cup)) (NP (NN butter))))
+-71.5912
+(S1 (FRAG (S (NP (CD 1/2) (NN cup)) (VP (VB butter)))))
+-71.6445
+(S1 (S (ADJP (CD 1/2) (NN cup)) (VP (VB butter))))
+-71.7795
+(S1 (NP (NP (CD 1/2) (NN cup)) (NN butter)))
+-72.0004
+(S1 (NP (NP (CD 1/2) (NN cup)) (VP (NN butter))))
+-73.0432
+(S1 (S (NP (CD 1/2) (NN cup)) (VP (NN butter))))
+-73.0819
+(S1 (S (NP (CD 1/2) (NN cup)) (NP (VB butter))))
+-73.1314
+(S1 (NP (ADJP (QP (CD 1/2) (NN cup))) (NN butter)))
+-73.3365
+(S1 (NP (NP (QP (CD 1/2) (NN cup))) (NP (VB butter))))
+-73.3752
+(S1 (S (NP (CD 1/2) (NN cup)) (NP (NN butter))))
+-73.3837
+(S1 (FRAG (NP (CD 1/2) (NN cup) (VB butter))))
+-73.4441
+(S1 (FRAG (ADJP (CD 1/2) (NN cup)) (NP (VB butter))))
+-73.4687
+(S1 (FRAG (NP (CD 1/2) (NN cup) (NN butter))))
+-73.6951
+(S1 (S (ADJP (CD 1/2) (NN cup)) (NP (NN butter))))
+-73.847
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (VP (NN butter))))
+-73.9541
+(S1 (S (NP (CD 1/2) (NN cup) (NN butter))))
+-74.179
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (NP (NN butter))))
+-74.2534
+(S1 (NP (NP (ADJP (CD 1/2) (NN cup))) (NP (NN butter))))
+-74.5314
+(S1 (FRAG (NP (CD 1/2) (NN cup)) (NP (VB butter))))
+-74.7557
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (VP (NN butter)))))
+-74.8684
+(S1 (FRAG (NP (NP (CD 1/2) (NN cup)) (NP (VB butter)))))
+-75.1433
+(S1 (NP (NP (CD 1/2)) (NP (NN cup) (NN butter))))
+-75.8711
+(S1 (S (NP (NP (QP (CD 1/2) (NN cup))) (NP (NN butter)))))
+-75.9447
+(S1 (S (NP (CD 1/2) (NN cup) (VB butter))))
+-76.5978
+(S1 (S (NP (CD 1/2)) (NP (NN cup) (NN butter))))
+-76.9587
+(S1 (S (NP (QP (CD 1/2) (NN cup))) (VP (VB butter))))
+-76.9949
+(S1 (FRAG (NP (QP (CD 1/2) (NN cup))) (VP (VB butter))))
+-77.185
+(S1 (S (NP (NP (CD 1/2) (NN cup)) (VP (NN butter)))))
+
+50	3
+-120.137
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))
+-121.665
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))
+-121.952
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (NNP Parmesan) (NN cheese))))
+-122.176
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))
+-122.37
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese)))))
+-122.778
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (VBN grated) (NNP Parmesan) (NN cheese))))
+-123.945
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese))))))
+-124.342
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese)))))
+-124.594
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (NNP Parmesan)) (NP (NN cheese)))))
+-124.694
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))
+-124.853
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese)))))
+-124.921
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (JJ Parmesan) (NN cheese))))
+-125.283
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (JJ grated) (NNP Parmesan) (NN cheese)))
+-125.765
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan) (NN cheese))))))
+-126.101
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (VBN grated) (JJ Parmesan) (NN cheese))))
+-126.485
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (S (NP (NNP Parmesan)) (NP (NN cheese))))))
+-126.622
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese))))))
+-126.784
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (PP (NNP Parmesan) (NP (NN cheese))))))
+-126.803
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese))))))
+-126.923
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (NP (NNP Parmesan)) (NP (NN cheese)))))
+-126.927
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese)))))
+-127.142
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (S (NP (NNP Parmesan)) (VP (NN cheese))))))
+-127.231
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan)) (NP (NN cheese))))))
+-127.337
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (JJ Parmesan) (NN cheese))))))
+-127.406
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (SBAR (S (NP (NNP Parmesan)) (VP (NN cheese)))))))
+-127.569
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan) (NN cheese))))))
+-127.799
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (NNP Parmesan) (NN cheese))))
+-128.046
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan) (NN cheese)))))))
+-128.078
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (JJ grated) (JJ Parmesan) (NN cheese)))
+-128.238
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (S (NP (NNP Parmesan) (NN cheese))))))
+-128.266
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (NN Parmesan) (NN cheese))))
+-128.651
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBP grated) (NP (NNP Parmesan) (NN cheese)))))
+-128.804
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (VBN grated) (NNP Parmesan) (NN cheese))))
+-128.835
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan)) (VP (NN cheese))))))
+-128.928
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (JJ Parmesan) (NN cheese))))
+-129.036
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan)) (NP (NN cheese))))))
+-129.037
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese))))))
+-129.042
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (PP (NNP Parmesan) (NP (NN cheese))))))
+-129.065
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (PP (NNP Parmesan) (NP (NN cheese)))))))
+-129.141
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (JJ Parmesan) (NN cheese))))))
+-129.271
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (S (NP (NNP Parmesan)) (NP (NN cheese))))))
+-129.275
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (NP (NN Parmesan) (NN cheese)))))
+-129.378
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (JJ grated) (NP (NNP Parmesan) (NN cheese)))))
+-129.383
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBP grated) (NP (JJ Parmesan) (NN cheese)))))
+-129.512
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (NNP Parmesan)) (NP (NN cheese)))))))
+-129.617
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBN grated) (S (NP (JJ Parmesan) (NN cheese)))))))
+-129.701
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (JJ grated) (NN Parmesan) (NN cheese)))
+-129.809
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (S (NP (JJ Parmesan) (NN cheese))))))
+-129.819
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))
+-130.046
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS cups)) (VP (VBD grated) (PP (NNP Parmesan) (NP (NN cheese))))))
+
+50	4
+-228.639
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-229.439
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-230.026
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-230.361
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-230.867
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (JJ Parmesan) (NN cheese)))))) (. .)))
+-231.317
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese)))))) (. .)))
+-231.672
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese)))))) (. .)))
+-231.941
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-232.595
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese)))) (. .)))
+-232.611
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-232.74
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-232.902
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-233.028
+(S1 (S (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VB grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-233.061
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (S (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-233.298
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (VBN grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-233.327
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-233.464
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-233.636
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream)) (, ,) (NP (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-233.637
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (S (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VB grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-233.673
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (S (NP (NNP Parmesan) (NN cheese))))))) (. .)))
+-233.966
+(S1 (S (PP (IN In) (NP (DT a) (NN medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-234.078
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-234.11
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine) (, ,) (CC and) (JJ grated) (NNP Parmesan) (NN cheese))))) (. .)))
+-234.127
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (VBN grated) (JJ Parmesan) (NN cheese)))))) (. .)))
+-234.168
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (JJ Parmesan) (NN cheese)))))) (. .)))
+-234.405
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan)) (NP (NN cheese)))))) (. .)))
+-234.476
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream)) (, ,) (NP (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (JJ Parmesan) (NN cheese)))))) (. .)))
+-234.529
+(S1 (S (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-234.618
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese)))))) (. .)))
+-234.631
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (NN Parmesan) (NN cheese)))))) (. .)))
+-234.714
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VB combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-234.765
+(S1 (S (PP (IN In) (NP (DT a) (NN medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-234.845
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan)) (NP (NN cheese)))))) (. .)))
+-234.974
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (JJ Parmesan) (NN cheese)))))) (. .)))
+-234.989
+(S1 (S (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-235.025
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NP (NN cream)) (, ,) (NP (NN butter)) (CC or) (NP (NN margarine)))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.053
+(S1 (S (S (PP (IN In) (NP (DT a) (NN medium) (NN saucepan))) (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VB grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-235.117
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine) (, ,)) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.138
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (S (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-235.139
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (S (NP (NNP Parmesan)) (NP (NN cheese))))))) (. .)))
+-235.153
+(S1 (S (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))))) (, ,) (CC and) (S (VP (VB grated) (NP (JJ Parmesan) (NN cheese)))) (. .)))
+-235.171
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.236
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NP (NN cream)) (, ,) (NP (NN butter)) (CC or) (NP (NN margarine))) (, ,) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.245
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (S (NP (JJ Parmesan) (NN cheese))))))) (. .)))
+-235.288
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VBP combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (VP (VBN grated) (NP (JJ Parmesan) (NN cheese)))))) (. .)))
+-235.304
+(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN saucepan))) (VP (VB combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBN grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.309
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VP (VBP combine) (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-235.352
+(S1 (S (PP (IN In) (NP (DT a) (NN medium) (NN saucepan))) (VP (VBP combine) (S (VP (VBG whipping) (NP (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine)) (, ,) (CC and) (NP (JJ grated) (NNP Parmesan) (NN cheese)))))) (. .)))
+-235.38
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VP (VB combine) (S (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))) (. .)))
+-235.513
+(S1 (S (PP (IN In) (NP (DT a) (NN medium))) (NP (NN saucepan)) (VP (VB combine) (S (VP (VP (VBG whipping) (NP (NN cream) (, ,) (NN butter) (CC or) (NN margarine))) (, ,) (CC and) (VP (VBD grated) (NP (NNP Parmesan) (NN cheese)))))) (. .)))
+
+50	5
+-90.2487
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-90.4032
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-92.3649
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (VP (VB smooth))))) (. .)))
+-92.7886
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (ADJP (JJ smooth))))) (. .)))
+-94.7419
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADVP (JJ smooth)))) (. .)))
+-95.0593
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (NP (JJ smooth)))) (. .)))
+-95.9841
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (ADJP (JJ smooth)))) (. .)))
+-96.1029
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (JJ smooth)))) (. .)))
+-97.5874
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (VP (JJ smooth))))) (. .)))
+-98.8131
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (NN low) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-98.857
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (NP (JJ smooth))))) (. .)))
+-98.9677
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (NN low) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-99.1773
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (VP (VB smooth)))) (. .)))
+-99.3509
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (NP (VB smooth)))) (. .)))
+-99.3852
+(S1 (S (VP (VB Cook) (PRT (RP over)) (NP (JJ medium) (JJ low) (NN heat)) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-99.6621
+(S1 (SQ (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-99.9624
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (ADJP (VB smooth))))) (. .)))
+-99.9695
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (ADJP (JJ low)) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-100.124
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (ADJP (JJ low)) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-100.141
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (VP (VB smooth))))) (. .)))
+-100.378
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (JJ medium) (JJ low)) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-100.533
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (JJ medium) (JJ low)) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-100.731
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (ADVP (JJ smooth))))) (. .)))
+-100.841
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (NP (VB smooth))))) (. .)))
+-100.929
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (NN low) (NN heat))) (SBAR (IN until) (S (VP (VB smooth))))) (. .)))
+-101.122
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-101.234
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (S (VP (JJ smooth))))) (. .)))
+-101.353
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (NN low) (NN heat))) (SBAR (IN until) (S (ADJP (JJ smooth))))) (. .)))
+-101.688
+(S1 (SQ (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-101.755
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (NP (JJ medium) (JJ low) (NN heat)) (PP (IN until) (ADJP (JJ smooth)))))) (. .)))
+-101.778
+(S1 (SQ (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (VP (VB smooth))))) (. .)))
+-101.862
+(S1 (S (VP (VB Cook) (PRT (RP over)) (NP (JJ medium) (JJ low) (NN heat)) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-101.916
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (FRAG (JJ smooth)))) (. .)))
+-101.963
+(S1 (S (VP (VB Cook) (PP (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADVP (JJ smooth))))) (. .)))
+-102
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (NN medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-102.04
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (FRAG (NP (JJ smooth))))) (. .)))
+-102.083
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (ADVP (IN until) (JJ smooth))) (. .)))
+-102.086
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (ADJP (JJ low)) (NN heat))) (SBAR (IN until) (S (VP (VB smooth))))) (. .)))
+-102.092
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADJP (VB smooth)))) (. .)))
+-102.114
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (NN medium) (JJ low)) (NN heat))) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))) (. .)))
+-102.154
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (NN medium) (JJ low) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-102.202
+(S1 (SQ (VP (VB Cook) (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (SBAR (IN until) (S (ADJP (JJ smooth))))) (. .)))
+-102.216
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (NP (JJ medium) (JJ low) (NN heat)) (PP (IN until) (NP (JJ smooth)))))) (. .)))
+-102.269
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (NN medium) (JJ low)) (NN heat))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-102.479
+(S1 (S (VP (VB Cook) (NP (IN over) (JJ medium) (JJ low) (NN heat)) (PP (IN until) (ADJP (JJ smooth)))) (. .)))
+-102.495
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (JJ medium) (JJ low)) (NN heat))) (SBAR (IN until) (S (VP (VB smooth))))) (. .)))
+-102.509
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (JJ medium) (ADJP (JJ low)) (NN heat))) (SBAR (IN until) (S (ADJP (JJ smooth))))) (. .)))
+-102.578
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (NP (JJ medium) (JJ low) (NN heat)) (SBAR (IN until) (FRAG (ADJP (JJ smooth))))))) (. .)))
+-102.625
+(S1 (S (VP (VB Cook) (PP (PP (IN over) (NP (JJ medium) (JJ low) (NN heat))) (PP (IN until) (ADJP (JJ smooth))))) (. .)))
+-102.918
+(S1 (S (VP (VB Cook) (PP (IN over) (NP (ADJP (JJ medium) (JJ low)) (NN heat))) (SBAR (IN until) (S (ADJP (JJ smooth))))) (. .)))
+
+50	6
+-39.8191
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (NN heat)))) (. .)))
+-47.972
+(S1 (SQ (VP (VB Remove) (PP (IN from) (NP (NN heat)))) (. .)))
+-49.5474
+(S1 (S (VP (VB Remove) (PP (IN from) (VP (VB heat)))) (. .)))
+-50.0602
+(S1 (S (VP (VB Remove) (PP (IN from) (S (VP (NN heat))))) (. .)))
+-51.6131
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (VB heat)))) (. .)))
+-51.8668
+(S1 (S (VP (VB Remove) (PP (IN from) (NP (NN heat))) (. .))))
+-51.9734
+(S1 (S (VP (VB Remove) (NP (IN from) (NN heat))) (. .)))
+-52.8386
+(S1 (S (VP (VB Remove) (IN from) (NP (NN heat))) (. .)))
+-52.8937
+(S1 (S (VP (VB Remove) (PRT (IN from)) (NP (NN heat))) (. .)))
+-53.1737
+(S1 (S (VP (VB Remove) (PP (IN from)) (NP (NN heat))) (. .)))
+-53.7423
+(S1 (S (VP (VB Remove) (NP (QP (IN from) (NN heat)))) (. .)))
+-53.9283
+(S1 (FRAG (VP (VB Remove) (PP (IN from) (NP (NN heat)))) (. .)))
+-54.0355
+(S1 (FRAG (S (VP (VB Remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-54.2206
+(S1 (S (VP (VB Remove) (PP (IN from) (S (NP (NN heat))))) (. .)))
+-54.8852
+(S1 (S (VP (VB Remove) (ADVP (IN from) (NN heat))) (. .)))
+-55.3194
+(S1 (VP (VB Remove) (PP (IN from) (NP (NN heat))) (. .)))
+-55.6302
+(S1 (S (VP (VB Remove) (PP (IN from) (NN heat))) (. .)))
+-55.6788
+(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-57.2539
+(S1 (S (VP (VB Remove) (PP (IN from) (S (VP (VB heat))))) (. .)))
+-57.7003
+(S1 (SQ (VP (VB Remove) (PP (IN from) (VP (VB heat)))) (. .)))
+-57.806
+(S1 (S (VP (VP (VB Remove)) (PP (IN from) (NP (NN heat)))) (. .)))
+-58.1536
+(S1 (S (VP (VB Remove) (IN from) (S (VP (VB heat)))) (. .)))
+-58.1858
+(S1 (S (VP (VB Remove) (PP (IN from) (VP (NN heat)))) (. .)))
+-58.2132
+(S1 (SQ (VP (VB Remove) (PP (IN from) (S (VP (NN heat))))) (. .)))
+-58.2583
+(S1 (FRAG (NP (VB Remove)) (PP (IN from) (NP (NN heat))) (. .)))
+-58.2725
+(S1 (FRAG (VP (VB Remove)) (PP (IN from) (NP (NN heat))) (. .)))
+-58.65
+(S1 (SINV (VB Remove) (PP (IN from) (NP (NN heat))) (. .)))
+-58.8675
+(S1 (S (VP (VB Remove) (PP (IN from))) (NP (NN heat)) (. .)))
+-59.0583
+(S1 (S (VP (VB Remove)) (PP (IN from) (NP (NN heat))) (. .)))
+-59.766
+(S1 (SQ (VP (VB Remove) (PP (IN from) (NP (VB heat)))) (. .)))
+-59.777
+(S1 (SBARQ (VP (VB Remove) (PP (IN from) (NP (NN heat)))) (. .)))
+-59.8585
+(S1 (S (VP (VB Remove) (ADVP (IN from)) (NP (NN heat))) (. .)))
+-59.9741
+(S1 (SBARQ (S (VP (VB Remove) (PP (IN from) (NP (NN heat))))) (. .)))
+-60.6739
+(S1 (S (VP (VB Remove) (IN from) (S (NP (VB heat)))) (. .)))
+-60.7207
+(S1 (FRAG (SBAR (S (VP (VB Remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-61.2093
+(S1 (S (VP (VB Remove) (IN from) (S (VP (NN heat)))) (. .)))
+-61.2886
+(S1 (SQ (VP (VB Remove) (NP (IN from) (NN heat))) (. .)))
+-61.4455
+(S1 (SINV (SBAR (S (VP (VB Remove) (PP (IN from) (NP (NN heat)))))) (. .)))
+-61.4892
+(S1 (S (VP (VB Remove) (IN from) (NP (VB heat))) (. .)))
+-61.5341
+(S1 (SQ (VP (VB Remove) (PP (IN from)) (NP (NN heat))) (. .)))
+-61.5951
+(S1 (S (VP (VB Remove) (PP (IN from) (VP (VB heat))) (. .))))
+-61.6013
+(S1 (S (VP (VB Remove) (NP (ADVP (IN from)) (NN heat))) (. .)))
+-61.7087
+(S1 (S (VP (VB Remove) (IN from) (S (NP (NN heat)))) (. .)))
+-62.1079
+(S1 (S (VP (VB Remove) (PP (IN from) (S (VP (NN heat)))) (. .))))
+-62.2966
+(S1 (S (NP (VB Remove) (IN from)) (VP (VB heat)) (. .)))
+-62.3736
+(S1 (SQ (VP (VB Remove) (PP (IN from) (S (NP (NN heat))))) (. .)))
+-62.3968
+(S1 (SQ (VP (VB Remove) (PRT (IN from)) (NP (NN heat))) (. .)))
+-62.5117
+(S1 (S (VP (VB Remove) (PRT (IN from)) (NP (VB heat))) (. .)))
+-62.583
+(S1 (SQ (VP (VB Remove) (NP (QP (IN from) (NN heat)))) (. .)))
+-62.9544
+(S1 (S (VP (VB Remove) (PP (IN from)) (NP (VB heat))) (. .)))
+
+50	7
+-87.2397
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (NP (NN standing))))) (. .)))
+-88.835
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (VP (VBG standing)))))) (. .)))
+-89.9394
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (NP (NN standing)))) (. .)))
+-90.2262
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (NP (VBG standing))))) (. .)))
+-90.5047
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (IN upon) (NN standing)))) (. .)))
+-93.6795
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (NP (VBG standing)))) (. .)))
+-93.8168
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (ADJP (JJ standing))))) (. .)))
+-94.2029
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (VP (NN standing)))))) (. .)))
+-94.6641
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (RP upon) (NP (NN standing))))) (. .)))
+-94.8722
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (S (VP (VBG standing))))) (. .)))
+-95.3551
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (NP (JJ standing))))) (. .)))
+-95.9643
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (ADJP (VBG standing))))) (. .)))
+-96.0115
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (RB upon) (NN standing)))) (. .)))
+-96.1196
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (VP (VBG standing))))) (. .)))
+-96.3778
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (RB upon) (NP (NN standing))))) (. .)))
+-97.0018
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (IN upon)) (NP (NN standing)))) (. .)))
+-97.2903
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADJP (RB upon) (VBG standing)))) (. .)))
+-97.3969
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (RP upon) (NP (VBG standing))))) (. .)))
+-97.456
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADVP (RB upon)) (NP (NN standing)))) (. .)))
+-97.7237
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADVP (RP upon)) (NP (NN standing)))) (. .)))
+-97.7507
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (S (VP (NN standing))))) (. .)))
+-97.7651
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (ADJP (JJ standing)))) (. .)))
+-97.7874
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (NP (NN standing)))))) (. .)))
+-98.1524
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (ADJP (NN standing))))) (. .)))
+-98.1549
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADVP (IN upon) (NN standing)))) (. .)))
+-98.3084
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADJP (RB upon) (JJ standing)))) (. .)))
+-98.8911
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (S (ADJP (JJ standing))))) (. .)))
+-98.9913
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (SBAR (IN upon) (S (VP (NN standing)))))) (. .)))
+-99.1726
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (ADJP (NN standing)))))) (. .)))
+-99.2479
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADVP (IN upon)) (NP (NN standing)))) (. .)))
+-99.3946
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (ADVP (RB upon)) (NN standing)))) (. .)))
+-99.5315
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (VP (JJ standing)))))) (. .)))
+-99.8174
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (SBAR (IN upon) (S (VP (VBG standing)))))) (. .)))
+-99.9538
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (NP (JJ standing)))) (. .)))
+-100.079
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (ADVP (RP upon)) (NN standing)))) (. .)))
+-100.236
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (ADJP (VBG standing)))))) (. .)))
+-100.285
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (ADJP (VBG standing)))) (. .)))
+-100.31
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (RB upon) (NP (VBG standing))))) (. .)))
+-100.742
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (IN upon)) (NP (VBG standing)))) (. .)))
+-100.753
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VBN thicken) (PP (IN upon) (NP (NN standing))))) (. .)))
+-100.851
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (ADVP (IN upon)) (NN standing)))) (. .)))
+-100.96
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (IN upon) (JJ standing)))) (. .)))
+-101.063
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (S (ADJP (VBG standing))))) (. .)))
+-101.162
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PRT (RP upon)) (S (NP (NN standing))))) (. .)))
+-101.23
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (IN upon) (NP (NN standing)))) (. .)))
+-101.264
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (SBAR (IN upon) (S (NP (NN standing)))))) (. .)))
+-101.381
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (PP (IN upon) (S (ADJP (JJ standing)))))) (. .)))
+-101.417
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (NP (RB upon) (VBG standing)))) (. .)))
+-101.496
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (JJ thicken) (PP (IN upon) (NP (NN standing))))) (. .)))
+-101.534
+(S1 (S (NP (NN Sauce)) (VP (MD will) (VP (VB thicken) (ADVP (RB upon)) (VP (NN standing)))) (. .)))
+
