@@ -13,6 +13,7 @@
 <line><originaltext>Fill a large resealable bag with the mixture. </originaltext><annotation>put(ing7, t1)</annotation></line>
 <line><originaltext>Place swordfish steaks into the bag with mixture, and shake to coat. </originaltext><annotation>put(ing5, t1)</annotation></line>
 <line><originaltext>Place swordfish steaks into the bag with mixture, and shake to coat. </originaltext><annotation>combine({ing5, ing7}, ing8, "marinating steaks", "shake bag to coat steaks")</annotation></line>
+<line><originaltext>Place swordfish steaks into the bag with mixture, and shake to coat. </originaltext><annotation>put(ing8, t1)</annotation></line>
 <line><originaltext>Place bag in the refrigerator, and allow the steaks to marinate at least 4 hours. </originaltext><annotation>set(t1,"placed in refrigerator")</annotation></line>
 <line><originaltext>Place bag in the refrigerator, and allow the steaks to marinate at least 4 hours. </originaltext><annotation>leave(ing8,"marinate at least 4 hours")</annotation></line>
 <line><originaltext>Preheat an outdoor grill for high heat and lightly oil grate. </originaltext><annotation>create_tool(t2, "outdoor grill")</annotation></line>

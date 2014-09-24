@@ -15,6 +15,7 @@
 <line><originaltext>In a large bowl, combine dates, brown sugar, margarine and boiling water. </originaltext><annotation>put(ing7, t2)</annotation></line>
 <line><originaltext>Let stand 15 minutes. </originaltext><annotation>leave(ing7,"let stand 15 minutes")</annotation></line>
 <line><originaltext>Stir in flour, soda and vanilla. </originaltext><annotation>combine({ing4, ing5, ing6, ing7}, ing8, "stirred things in bowl", "stir in flour, soda, and vanilla")</annotation></line>
+<line><originaltext>Stir in flour, soda and vanilla. </originaltext><annotation>put(ing8, t2)</annotation></line>
 <line><originaltext>Pour batter into prepared pan. </originaltext><annotation>remove(ing8,t2)</annotation></line>
 <line><originaltext>Pour batter into prepared pan. </originaltext><annotation>put(ing8, t1)</annotation></line>
 <line><originaltext>Bake in the preheated oven for 45 minutes. </originaltext><annotation>cook(ing8, t0, ing9, "date loaf cake", "bake 45 minutes")</annotation></line>
