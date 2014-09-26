@@ -7,6 +7,7 @@ from Get_Sentence_List import getSentenceList
 totalCount = 0
 completeNameCount = 0
 lastWordOfNameCount = 0
+onlyLastWordOfNameCount = 0
 elidedNameCount = 0
 mightBePronounCount = 0
 otherCount = 0
@@ -21,33 +22,35 @@ def cleanString(str):
 	return str
 
 def addToProbabilities(ingredients, sentence, descriptions):
-	global totalCount, completeNameCount, lastWordOfNameCount, elidedNameCount, mightBePronounCount, otherCount
+	global totalCount, completeNameCount, lastWordOfNameCount, onlyLastWordOfNameCount, elidedNameCount, mightBePronounCount, otherCount
 	for ing in ingredients:
 		name = descriptions[ing]
-		sentence = cleanString(sentence)
-		name = cleanString(name)
-		result = re.search(name, sentence)
-		if result is not None:
+		cleanedSentence = cleanString(sentence)
+		cleanedName = cleanString(name)
+		if re.search(cleanedName, cleanedSentence) is not None:
 			completeNameCount += 1
 			match = "Complete"
 		else:
-			nameTokens = name.split()
-			result = re.search(nameTokens[-1], sentence)
-			if result is not None:
-				lastWordOfNameCount += 1
-				match = "Last Word"
+			nameTokens = cleanedName.split()
+			if re.search(nameTokens[-1], cleanedSentence) is not None:
+				if len(nameTokens) >= 2 and re.search(nameTokens[-2] + " " + nameTokens[-1], cleanedSentence) is not None:
+					lastWordOfNameCount += 1
+					match = "Last Word"
+				else:
+					onlyLastWordOfNameCount += 1
+					match = "Only Last Word"
 			else:
-				if any(re.search("\\b"+pronoun+"\\b", sentence) is not None for pronoun in ["it", "they", "them"]):
+				if any(re.search("\\b"+pronoun+"\\b", cleanedSentence) is not None for pronoun in ["it", "they", "them"]):
 					mightBePronounCount += 1
 					match = "Pronoun"
 				else:
-					if any(re.search(token, sentence) is not None for token in nameTokens):
+					if any(re.search(token, cleanedSentence) is not None for token in nameTokens):
 						otherCount += 1
 						match = "Other"
 					else:
 						elidedNameCount += 1
 						match = "Elided"
-		if match == "Pronoun":
+		if match == "Only Last Word":
 			print(match + ": " + str((name, sentence)))
 		totalCount += 1
 
@@ -91,11 +94,13 @@ for file in [f for f in files if f not in ["annotated_recipes\Bakers-Secret-Pie-
 
 print("============== PROBABILITIES ==============")
 print("Complete Name: %f" % (completeNameCount / totalCount))
+print("Only Last Word of Name: %f" % (onlyLastWordOfNameCount / totalCount))
 print("Last Word of Name: %f" % (lastWordOfNameCount / totalCount))
 print("Elided Name: %f" % (elidedNameCount / totalCount))
 print("Potential Pronoun: %f" % (mightBePronounCount / totalCount))
 print("Other: %f" % (otherCount / totalCount))
+summ = sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, onlyLastWordOfNameCount/totalCount, elidedNameCount/totalCount, mightBePronounCount/totalCount, otherCount/totalCount])
 try:
-	assert(sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, elidedNameCount/totalCount, mightBePronounCount/totalCount, otherCount/totalCount]) == 1)
+	assert(summ == 1)
 except:
-	print("Sum should add to 1, instead added to: " + str(sum([completeNameCount/totalCount, lastWordOfNameCount/totalCount, elidedNameCount/totalCount, otherCount/totalCount])))
+	print("Sum should add to 1, instead added to: " + str(summ))
