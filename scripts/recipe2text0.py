@@ -8,7 +8,7 @@ import MILK_eval
 def IsNull(value):
   return value is None or value == '' or value == 'null'
 
-for recipe_file in glob('annotated_recipes/*.xml'):
+for recipe_file in glob('../annotated_recipes/*.xml'):
   print recipe_file
 
   try:
@@ -31,6 +31,8 @@ for recipe_file in glob('annotated_recipes/*.xml'):
 
         recipe_text += ', '.join([world.I_d[ing] for ing in arguments[0]])
 
+        recipe_text += ' to create %s' % arguments[2]
+
         if not IsNull(arguments[3]):
           recipe_text += ', %s' % arguments[3]
 
@@ -39,6 +41,8 @@ for recipe_file in glob('annotated_recipes/*.xml'):
       elif command == 'separate':
         recipe_text += 'Separate '
         recipe_text += '%s and %s' % (world.I_d[arguments[0]], next_world.I_d[arguments[1]])
+
+        recipe_text += ' to create %s and %s' % (arguments[2], arguments[4])
 
         if not IsNull(arguments[5]):
           recipe_text += ', %s' % arguments[5]
@@ -56,6 +60,8 @@ for recipe_file in glob('annotated_recipes/*.xml'):
 
         if not IsNull(arguments[1]):
           recipe_text += ' with %s' % world.T_d[arguments[1]]
+
+        
 
         if not IsNull(arguments[4]):
           recipe_text += ', %s' % arguments[4]

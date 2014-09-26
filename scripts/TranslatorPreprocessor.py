@@ -163,7 +163,7 @@ def main():
                     numCorrect +=1
                     #print "\tcorrect"
                 elif (rand > prob and prevText != curText):
-                    numCorrect +=1
+                    numCorrect +=1469C
                     #print "\tcorrect"
 
             prevprevCmd = prevCmd
