@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "set(t3,\"preheat\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Preheat"];
+	Node5 [label="NP"];
+	Node6 [label="NN"];
+	Node7 [label="broiler"];
+	Node8 [label="."];
+	Node9 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node8;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node8 -- Node9;
+}

@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "create_ing(ing1, \"15 slices bacon, cut in half\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="QP"];
+	Node4 [label="CD"];
+	Node5 [label="15"];
+	Node6 [label="NNS"];
+	Node7 [label="slices"];
+	Node8 [label="NN"];
+	Node9 [label="bacon"];
+	Node10 [label=","];
+	Node11 [label=","];
+	Node12 [label="VP"];
+	Node13 [label="VBN"];
+	Node14 [label="cut"];
+	Node15 [label="PP"];
+	Node16 [label="IN"];
+	Node17 [label="in"];
+	Node18 [label="NP"];
+	Node19 [label="NN"];
+	Node20 [label="half"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node10;
+	Node1 -- Node12;
+	Node2 -- Node3;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node15 -- Node18;
+	Node16 -- Node17;
+	Node18 -- Node19;
+	Node19 -- Node20;
+}

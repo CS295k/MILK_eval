@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "create_tool(t0, \"slow cooker\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Place"];
+	Node5 [label="NP"];
+	Node6 [label="NN"];
+	Node7 [label="beef"];
+	Node8 [label="PP"];
+	Node9 [label="IN"];
+	Node10 [label="in"];
+	Node11 [label="NP"];
+	Node12 [label="DT"];
+	Node13 [label="a"];
+	Node14 [label="JJ"];
+	Node15 [label="slow"];
+	Node16 [label="NN"];
+	Node17 [label="cooker"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node14;
+	Node11 -- Node16;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

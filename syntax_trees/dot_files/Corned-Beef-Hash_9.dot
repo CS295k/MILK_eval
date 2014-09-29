@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "mix(ing6, t0, ing7, \"mixed hash\", \"mix well\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="S"];
+	Node3 [label="VP"];
+	Node4 [label="VB"];
+	Node5 [label="Mix"];
+	Node6 [label="ADVP"];
+	Node7 [label="RB"];
+	Node8 [label="well"];
+	Node9 [label=","];
+	Node10 [label=","];
+	Node11 [label="CC"];
+	Node12 [label="and"];
+	Node13 [label="S"];
+	Node14 [label="VP"];
+	Node15 [label="VB"];
+	Node16 [label="serve"];
+	Node17 [label="."];
+	Node18 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node1 -- Node11;
+	Node1 -- Node13;
+	Node1 -- Node17;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node14 -- Node15;
+	Node15 -- Node16;
+	Node17 -- Node18;
+}

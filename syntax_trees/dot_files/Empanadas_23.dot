@@ -1,0 +1,33 @@
+graph SyntaxGraph {
+	label = "do(ing11, , ing12, \"rolled dough\", \"thin\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NNP"];
+	Node4 [label="Roll"];
+	Node5 [label="VP"];
+	Node6 [label="VBD"];
+	Node7 [label="chilled"];
+	Node8 [label="NP"];
+	Node9 [label="NN"];
+	Node10 [label="dough"];
+	Node11 [label="JJ"];
+	Node12 [label="thin"];
+	Node13 [label="."];
+	Node14 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node5;
+	Node1 -- Node13;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+}

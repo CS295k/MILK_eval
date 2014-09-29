@@ -1,0 +1,33 @@
+graph SyntaxGraph {
+	label = "cook(ing8, t0, ing9, \"boiled potatoes\", \"boil for 15 minutes, until tender but firm\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Bring"];
+	Node5 [label="PP"];
+	Node6 [label="TO"];
+	Node7 [label="to"];
+	Node8 [label="NP"];
+	Node9 [label="DT"];
+	Node10 [label="a"];
+	Node11 [label="NN"];
+	Node12 [label="boil"];
+	Node13 [label="."];
+	Node14 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node13;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+}

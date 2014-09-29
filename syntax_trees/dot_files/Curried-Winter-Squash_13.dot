@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "combine({ing82, ing85}, ing86, \"winter squash\", \"sprinkle (if desired)\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VBP"];
+	Node4 [label="Sprinkle"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="on"];
+	Node8 [label="NP"];
+	Node9 [label="NN"];
+	Node10 [label="coconut"];
+	Node11 [label=","];
+	Node12 [label=","];
+	Node13 [label="SBAR"];
+	Node14 [label="IN"];
+	Node15 [label="if"];
+	Node16 [label="S"];
+	Node17 [label="VP"];
+	Node18 [label="VBN"];
+	Node19 [label="desired"];
+	Node20 [label="."];
+	Node21 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node11;
+	Node2 -- Node13;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node13 -- Node16;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node17 -- Node18;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

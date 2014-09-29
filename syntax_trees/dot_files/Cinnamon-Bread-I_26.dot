@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "combine({ing15, ing17}, ing18, \"everything in pan\", \"sprinkle topping over batter\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VBP"];
+	Node4 [label="Sprinkle"];
+	Node5 [label="S"];
+	Node6 [label="VP"];
+	Node7 [label="VBG"];
+	Node8 [label="topping"];
+	Node9 [label="VP"];
+	Node10 [label="ADVP"];
+	Node11 [label="RB"];
+	Node12 [label="over"];
+	Node13 [label="VBN"];
+	Node14 [label="smoothed"];
+	Node15 [label="NP"];
+	Node16 [label="NN"];
+	Node17 [label="batter"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node6 -- Node9;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node13;
+	Node9 -- Node15;
+	Node10 -- Node11;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

@@ -1,0 +1,27 @@
+graph SyntaxGraph {
+	label = "create_ing(ing4, \"1/2 teaspoon Hungarian sweet paprika\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="1/2"];
+	Node4 [label="NN"];
+	Node5 [label="teaspoon"];
+	Node6 [label="JJ"];
+	Node7 [label="Hungarian"];
+	Node8 [label="JJ"];
+	Node9 [label="sweet"];
+	Node10 [label="NNS"];
+	Node11 [label="paprika"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node6;
+	Node1 -- Node8;
+	Node1 -- Node10;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+}

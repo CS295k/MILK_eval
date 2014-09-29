@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "create_ing(ing0, \"40 rectangular shortbread cookies\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="40"];
+	Node4 [label="JJ"];
+	Node5 [label="rectangular"];
+	Node6 [label="NN"];
+	Node7 [label="shortbread"];
+	Node8 [label="NNS"];
+	Node9 [label="cookies"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node6;
+	Node1 -- Node8;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+}

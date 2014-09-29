@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "create_ing(ing2, \"2 large onions, chopped\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="2"];
+	Node5 [label="JJ"];
+	Node6 [label="large"];
+	Node7 [label="NNS"];
+	Node8 [label="onions"];
+	Node9 [label=","];
+	Node10 [label=","];
+	Node11 [label="VP"];
+	Node12 [label="VBN"];
+	Node13 [label="chopped"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node1 -- Node11;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+}

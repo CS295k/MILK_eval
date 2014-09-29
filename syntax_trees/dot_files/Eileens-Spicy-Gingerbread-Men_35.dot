@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "chefcheck(ing38,\"Decorate or frost as you like\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NNP"];
+	Node4 [label="Frost"];
+	Node5 [label="VP"];
+	Node6 [label="CC"];
+	Node7 [label="or"];
+	Node8 [label="VP"];
+	Node9 [label="VB"];
+	Node10 [label="decorate"];
+	Node11 [label="SBAR"];
+	Node12 [label="WHADVP"];
+	Node13 [label="WRB"];
+	Node14 [label="when"];
+	Node15 [label="FRAG"];
+	Node16 [label="ADJP"];
+	Node17 [label="JJ"];
+	Node18 [label="cool"];
+	Node19 [label="."];
+	Node20 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node5;
+	Node1 -- Node19;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node15;
+	Node12 -- Node13;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node17 -- Node18;
+	Node19 -- Node20;
+}

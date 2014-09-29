@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "do(ing2, , ing11, \"unrolled rolls\", \"unroll\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VBP"];
+	Node4 [label="Unroll"];
+	Node5 [label="NP"];
+	Node6 [label="CD"];
+	Node7 [label="4"];
+	Node8 [label="JJ"];
+	Node9 [label="large"];
+	Node10 [label="NN"];
+	Node11 [label="crescent"];
+	Node12 [label="NNS"];
+	Node13 [label="rolls"];
+	Node14 [label="."];
+	Node15 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node14;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node10;
+	Node5 -- Node12;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+}

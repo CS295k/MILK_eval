@@ -50,7 +50,7 @@ def addToProbabilities(ingredients, sentence, descriptions):
 					else:
 						elidedNameCount += 1
 						match = "Elided"
-		if match == "Only Last Word":
+		if match == "Last Word":
 			print(match + ": " + str((name, sentence)))
 		totalCount += 1
 

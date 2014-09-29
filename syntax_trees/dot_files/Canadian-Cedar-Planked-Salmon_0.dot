@@ -1,0 +1,27 @@
+graph SyntaxGraph {
+	label = "create_ing(ing6, \"24x8x1 inch untreated cedar plank\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="24x8x1"];
+	Node4 [label="NN"];
+	Node5 [label="inch"];
+	Node6 [label="JJ"];
+	Node7 [label="untreated"];
+	Node8 [label="NN"];
+	Node9 [label="cedar"];
+	Node10 [label="NN"];
+	Node11 [label="plank"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node6;
+	Node1 -- Node8;
+	Node1 -- Node10;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+}

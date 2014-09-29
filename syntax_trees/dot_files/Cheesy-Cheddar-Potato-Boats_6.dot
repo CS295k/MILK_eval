@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "combine({ing12, ing14}, ing15, \"potatoes with dressing\", \"put middles back into skins\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Place"];
+	Node5 [label="ADVP"];
+	Node6 [label="RB"];
+	Node7 [label="back"];
+	Node8 [label="PP"];
+	Node9 [label="IN"];
+	Node10 [label="into"];
+	Node11 [label="NP"];
+	Node12 [label="NNS"];
+	Node13 [label="skins"];
+	Node14 [label="."];
+	Node15 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node14;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+	Node14 -- Node15;
+}

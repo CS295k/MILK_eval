@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "create_ing(ing105, \"1 pound bulk pork sausage\")";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="NP"];
+	Node3 [label="NP"];
+	Node4 [label="CD"];
+	Node5 [label="1"];
+	Node6 [label="NN"];
+	Node7 [label="pound"];
+	Node8 [label="NP"];
+	Node9 [label="JJ"];
+	Node10 [label="bulk"];
+	Node11 [label="NN"];
+	Node12 [label="pork"];
+	Node13 [label="ADJP"];
+	Node14 [label="JJ"];
+	Node15 [label="sausage"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node13;
+	Node2 -- Node3;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node14 -- Node15;
+}

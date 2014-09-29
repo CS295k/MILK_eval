@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "create_ing(ing77, \"1 (12 ounce) package corn tortillas\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="1"];
+	Node5 [label="PRN"];
+	Node6 [label="-LRB-"];
+	Node7 [label="-LRB-"];
+	Node8 [label="NP"];
+	Node9 [label="CD"];
+	Node10 [label="12"];
+	Node11 [label="NN"];
+	Node12 [label="ounce"];
+	Node13 [label="-RRB-"];
+	Node14 [label="-RRB-"];
+	Node15 [label="NN"];
+	Node16 [label="package"];
+	Node17 [label="NP"];
+	Node18 [label="NN"];
+	Node19 [label="corn"];
+	Node20 [label="NNS"];
+	Node21 [label="tortillas"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node17;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node15;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node13;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node17 -- Node18;
+	Node17 -- Node20;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

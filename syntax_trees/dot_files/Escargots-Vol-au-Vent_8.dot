@@ -1,0 +1,25 @@
+graph SyntaxGraph {
+	label = "create_ing(ing8, \"12 puff pastry shells\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="ADJP"];
+	Node3 [label="CD"];
+	Node4 [label="12"];
+	Node5 [label="NN"];
+	Node6 [label="puff"];
+	Node7 [label="NN"];
+	Node8 [label="pastry"];
+	Node9 [label="NNS"];
+	Node10 [label="shells"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node1 -- Node9;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+}

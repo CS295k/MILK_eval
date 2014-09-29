@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "combine({ing12, ing8}, ing13, \"final mixture\", \"add mixed hot stuff to the dry ingredients\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Add"];
+	Node5 [label="NP"];
+	Node6 [label="NN"];
+	Node7 [label="butter"];
+	Node8 [label="NN"];
+	Node9 [label="mixture"];
+	Node10 [label="PP"];
+	Node11 [label="TO"];
+	Node12 [label="to"];
+	Node13 [label="NP"];
+	Node14 [label="DT"];
+	Node15 [label="the"];
+	Node16 [label="JJ"];
+	Node17 [label="dry"];
+	Node18 [label="NNS"];
+	Node19 [label="ingredients"];
+	Node20 [label="."];
+	Node21 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node10;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node10 -- Node13;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node13 -- Node16;
+	Node13 -- Node18;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

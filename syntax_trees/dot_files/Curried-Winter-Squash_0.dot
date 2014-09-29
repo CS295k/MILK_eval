@@ -1,0 +1,39 @@
+graph SyntaxGraph {
+	label = "create_ing(ing76, \"3 cups cooked, mashed winter squash\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="3"];
+	Node5 [label="NNS"];
+	Node6 [label="cups"];
+	Node7 [label="NP"];
+	Node8 [label="VBN"];
+	Node9 [label="cooked"];
+	Node10 [label=","];
+	Node11 [label=","];
+	Node12 [label="JJ"];
+	Node13 [label="mashed"];
+	Node14 [label="NN"];
+	Node15 [label="winter"];
+	Node16 [label="NN"];
+	Node17 [label="squash"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node7 -- Node12;
+	Node7 -- Node14;
+	Node7 -- Node16;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+}

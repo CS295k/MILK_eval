@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "create_ing(ing2, \"1 (15 ounce) container part-skim ricotta cheese\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="1"];
+	Node4 [label="PRN"];
+	Node5 [label="-LRB-"];
+	Node6 [label="-LRB-"];
+	Node7 [label="NP"];
+	Node8 [label="CD"];
+	Node9 [label="15"];
+	Node10 [label="NN"];
+	Node11 [label="ounce"];
+	Node12 [label="-RRB-"];
+	Node13 [label="-RRB-"];
+	Node14 [label="NN"];
+	Node15 [label="container"];
+	Node16 [label="JJ"];
+	Node17 [label="part-skim"];
+	Node18 [label="NN"];
+	Node19 [label="ricotta"];
+	Node20 [label="NN"];
+	Node21 [label="cheese"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node14;
+	Node1 -- Node16;
+	Node1 -- Node18;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node4 -- Node7;
+	Node4 -- Node12;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

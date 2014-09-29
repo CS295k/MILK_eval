@@ -1,0 +1,39 @@
+graph SyntaxGraph {
+	label = "combine({ing26, ing31}, ing32, \"frosted cake\", \"spread frosting over cake\")";
+	Node0 [label="S1"];
+	Node1 [label="SQ"];
+	Node2 [label="VP"];
+	Node3 [label="ADVP"];
+	Node4 [label="RB"];
+	Node5 [label="Carefully"];
+	Node6 [label="VB"];
+	Node7 [label="spread"];
+	Node8 [label="PRT"];
+	Node9 [label="RP"];
+	Node10 [label="over"];
+	Node11 [label="NP"];
+	Node12 [label="JJ"];
+	Node13 [label="hot"];
+	Node14 [label="NN"];
+	Node15 [label="cake"];
+	Node16 [label="."];
+	Node17 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node16;
+	Node2 -- Node3;
+	Node2 -- Node6;
+	Node2 -- Node8;
+	Node2 -- Node11;
+	Node3 -- Node4;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node14;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+}

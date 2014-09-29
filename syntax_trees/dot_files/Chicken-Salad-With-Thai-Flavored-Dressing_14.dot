@@ -1,0 +1,19 @@
+graph SyntaxGraph {
+	label = "create_ing(ing42, \"chopped honey-roasted peanuts\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="JJ"];
+	Node3 [label="chopped"];
+	Node4 [label="JJ"];
+	Node5 [label="honey-roasted"];
+	Node6 [label="NNS"];
+	Node7 [label="peanuts"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node6;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node6 -- Node7;
+}

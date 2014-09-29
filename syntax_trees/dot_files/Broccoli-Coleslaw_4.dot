@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "create_ing(ing4, \"1 large head fresh broccoli, diced\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="1"];
+	Node5 [label="JJ"];
+	Node6 [label="large"];
+	Node7 [label="NN"];
+	Node8 [label="head"];
+	Node9 [label="ADJP"];
+	Node10 [label="JJ"];
+	Node11 [label="fresh"];
+	Node12 [label="JJ"];
+	Node13 [label="broccoli"];
+	Node14 [label=","];
+	Node15 [label=","];
+	Node16 [label="VP"];
+	Node17 [label="VBN"];
+	Node18 [label="diced"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node1 -- Node14;
+	Node1 -- Node16;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node12;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node17 -- Node18;
+}

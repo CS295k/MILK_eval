@@ -1,0 +1,29 @@
+graph SyntaxGraph {
+	label = "create_ing(ing2, \"garlic powder to taste\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="NNP"];
+	Node4 [label="garlic"];
+	Node5 [label="NNP"];
+	Node6 [label="powder"];
+	Node7 [label="PP"];
+	Node8 [label="TO"];
+	Node9 [label="to"];
+	Node10 [label="NP"];
+	Node11 [label="NN"];
+	Node12 [label="taste"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node11 -- Node12;
+}

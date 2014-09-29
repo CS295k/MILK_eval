@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "create_tool(t3, \"medium sized bowl\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Pour"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="into"];
+	Node8 [label="NP"];
+	Node9 [label="NP"];
+	Node10 [label="NN"];
+	Node11 [label="medium"];
+	Node12 [label="VP"];
+	Node13 [label="VBD"];
+	Node14 [label="sized"];
+	Node15 [label="NP"];
+	Node16 [label="NN"];
+	Node17 [label="bowl"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node12;
+	Node9 -- Node10;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

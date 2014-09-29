@@ -1,0 +1,29 @@
+graph SyntaxGraph {
+	label = "create_ing(ing26, \"1 teaspoon baking soda\")";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="NP"];
+	Node3 [label="NP"];
+	Node4 [label="CD"];
+	Node5 [label="1"];
+	Node6 [label="NN"];
+	Node7 [label="teaspoon"];
+	Node8 [label="NP"];
+	Node9 [label="VBG"];
+	Node10 [label="baking"];
+	Node11 [label="NN"];
+	Node12 [label="soda"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node2 -- Node3;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+}

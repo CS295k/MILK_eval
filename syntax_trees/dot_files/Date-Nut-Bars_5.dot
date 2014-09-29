@@ -1,0 +1,33 @@
+graph SyntaxGraph {
+	label = "create_ing(ing5, \"2 cups chopped walnuts or pecans\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="QP"];
+	Node3 [label="CD"];
+	Node4 [label="2"];
+	Node5 [label="NNS"];
+	Node6 [label="cups"];
+	Node7 [label="JJ"];
+	Node8 [label="chopped"];
+	Node9 [label="NNS"];
+	Node10 [label="walnuts"];
+	Node11 [label="CC"];
+	Node12 [label="or"];
+	Node13 [label="NNS"];
+	Node14 [label="pecans"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node1 -- Node9;
+	Node1 -- Node11;
+	Node1 -- Node13;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+}

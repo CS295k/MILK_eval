@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "create_ing(ing4, \"1 tablespoon dried basil\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="QP"];
+	Node4 [label="CD"];
+	Node5 [label="1"];
+	Node6 [label="CD"];
+	Node7 [label="tablespoon"];
+	Node8 [label="VP"];
+	Node9 [label="VBD"];
+	Node10 [label="dried"];
+	Node11 [label="NP"];
+	Node12 [label="NNP"];
+	Node13 [label="basil"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node8;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+}

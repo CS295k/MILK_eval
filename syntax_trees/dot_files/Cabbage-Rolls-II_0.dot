@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "create_ing(ing0, \"12 leaves cabbage\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="12"];
+	Node5 [label="NNS"];
+	Node6 [label="leaves"];
+	Node7 [label="NP"];
+	Node8 [label="NNP"];
+	Node9 [label="cabbage"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node8 -- Node9;
+}

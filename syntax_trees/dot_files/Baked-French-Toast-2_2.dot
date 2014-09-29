@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "create_ing(ing2, \"2 cups milk\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="2"];
+	Node5 [label="NNS"];
+	Node6 [label="cups"];
+	Node7 [label="NP"];
+	Node8 [label="VB"];
+	Node9 [label="milk"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node8 -- Node9;
+}

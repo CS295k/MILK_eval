@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "cut(ing32, , ing33, \"divided dough\", \"into four sections\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="VBP"];
+	Node4 [label="Divide"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="into"];
+	Node8 [label="NP"];
+	Node9 [label="CD"];
+	Node10 [label="4"];
+	Node11 [label="VP"];
+	Node12 [label="VBP"];
+	Node13 [label="equal"];
+	Node14 [label="NP"];
+	Node15 [label="NNS"];
+	Node16 [label="portions"];
+	Node17 [label="."];
+	Node18 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node1 -- Node17;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node14;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node15 -- Node16;
+	Node17 -- Node18;
+}

@@ -1,0 +1,37 @@
+graph SyntaxGraph {
+	label = "combine({ing18, ing6, ing7}, ing19, \"butter, flour, salt, broth, cream\", \"gradually add broth and cream\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="ADVP"];
+	Node4 [label="RB"];
+	Node5 [label="Gradually"];
+	Node6 [label="VB"];
+	Node7 [label="add"];
+	Node8 [label="NP"];
+	Node9 [label="NN"];
+	Node10 [label="broth"];
+	Node11 [label="CC"];
+	Node12 [label="and"];
+	Node13 [label="NN"];
+	Node14 [label="cream"];
+	Node15 [label="."];
+	Node16 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node15;
+	Node2 -- Node3;
+	Node2 -- Node6;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node8 -- Node13;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+}

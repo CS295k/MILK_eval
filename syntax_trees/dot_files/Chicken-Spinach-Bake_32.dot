@@ -1,0 +1,37 @@
+graph SyntaxGraph {
+	label = "combine({ing34, ing36}, ing37, \"sauce\", \"stir mushrooms into cheese mixture\")";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="SBAR"];
+	Node3 [label="S"];
+	Node4 [label="VP"];
+	Node5 [label="VB"];
+	Node6 [label="Stir"];
+	Node7 [label="PP"];
+	Node8 [label="IN"];
+	Node9 [label="into"];
+	Node10 [label="NP"];
+	Node11 [label="NN"];
+	Node12 [label="cheese"];
+	Node13 [label="NN"];
+	Node14 [label="mixture"];
+	Node15 [label="."];
+	Node16 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node15;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node4 -- Node5;
+	Node4 -- Node7;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node10 -- Node13;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+}

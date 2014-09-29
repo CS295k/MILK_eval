@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "set(t0,\"covered\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="NN"];
+	Node4 [label="Store"];
+	Node5 [label=","];
+	Node6 [label=","];
+	Node7 [label="VP"];
+	Node8 [label="VBN"];
+	Node9 [label="covered"];
+	Node10 [label=","];
+	Node11 [label=","];
+	Node12 [label="PP"];
+	Node13 [label="IN"];
+	Node14 [label="in"];
+	Node15 [label="NP"];
+	Node16 [label="DT"];
+	Node17 [label="the"];
+	Node18 [label="NN"];
+	Node19 [label="refrigerator"];
+	Node20 [label="."];
+	Node21 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node5;
+	Node1 -- Node7;
+	Node1 -- Node10;
+	Node1 -- Node12;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node15 -- Node18;
+	Node16 -- Node17;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

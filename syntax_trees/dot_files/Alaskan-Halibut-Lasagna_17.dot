@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "leave(ing15,\"\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VP"];
+	Node4 [label="VB"];
+	Node5 [label="Remove"];
+	Node6 [label="CC"];
+	Node7 [label="and"];
+	Node8 [label="VP"];
+	Node9 [label="VB"];
+	Node10 [label="set"];
+	Node11 [label="PRT"];
+	Node12 [label="RP"];
+	Node13 [label="aside"];
+	Node14 [label="."];
+	Node15 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node14;
+	Node2 -- Node3;
+	Node2 -- Node6;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+	Node14 -- Node15;
+}

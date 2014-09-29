@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "create_ing(ing18, \"pine nuts\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="NNP"];
+	Node4 [label="pine"];
+	Node5 [label="NNS"];
+	Node6 [label="nuts"];
+	Node7 [label=","];
+	Node8 [label=","];
+	Node9 [label="PP"];
+	Node10 [label="IN"];
+	Node11 [label="for"];
+	Node12 [label="S"];
+	Node13 [label="NP"];
+	Node14 [label="NN"];
+	Node15 [label="decoration"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node1 -- Node9;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node12;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node13 -- Node14;
+	Node14 -- Node15;
+}

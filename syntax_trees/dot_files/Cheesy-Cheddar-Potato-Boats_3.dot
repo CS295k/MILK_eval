@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "create_ing(ing11, \"Bacon pieces (optional)\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="NN"];
+	Node4 [label="Bacon"];
+	Node5 [label="NNS"];
+	Node6 [label="pieces"];
+	Node7 [label="PRN"];
+	Node8 [label="-LRB-"];
+	Node9 [label="-LRB-"];
+	Node10 [label="JJ"];
+	Node11 [label="optional"];
+	Node12 [label="-RRB-"];
+	Node13 [label="-RRB-"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node7 -- Node12;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+}

@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "mix(ing15, t1, ing16, \"Salad\", \"Mix thoroughly\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NNP"];
+	Node4 [label="Mix"];
+	Node5 [label="ADJP"];
+	Node6 [label="RB"];
+	Node7 [label="thoroughly"];
+	Node8 [label="."];
+	Node9 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node5;
+	Node1 -- Node8;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node8 -- Node9;
+}

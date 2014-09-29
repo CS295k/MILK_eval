@@ -1,0 +1,15 @@
+graph SyntaxGraph {
+	label = "create_ing(ing10, \"4 eggs\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="4"];
+	Node4 [label="NNS"];
+	Node5 [label="eggs"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node2 -- Node3;
+	Node4 -- Node5;
+}

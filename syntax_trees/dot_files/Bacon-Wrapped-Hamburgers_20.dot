@@ -1,0 +1,39 @@
+graph SyntaxGraph {
+	label = "create_tool(t2, \"toothpicks\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Secure"];
+	Node5 [label="S"];
+	Node6 [label="NP"];
+	Node7 [label="NP"];
+	Node8 [label="NN"];
+	Node9 [label="bacon"];
+	Node10 [label="PP"];
+	Node11 [label="IN"];
+	Node12 [label="with"];
+	Node13 [label="NP"];
+	Node14 [label="NNS"];
+	Node15 [label="toothpicks"];
+	Node16 [label="."];
+	Node17 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node16;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node6 -- Node10;
+	Node7 -- Node8;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node10 -- Node13;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node14 -- Node15;
+	Node16 -- Node17;
+}

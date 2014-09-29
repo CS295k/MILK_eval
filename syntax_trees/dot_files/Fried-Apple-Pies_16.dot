@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "combine({ing20, ing31}, ing32, \"wet shortning\", \"add\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Add"];
+	Node5 [label="NP"];
+	Node6 [label="NP"];
+	Node7 [label="NN"];
+	Node8 [label="water"];
+	Node9 [label="CC"];
+	Node10 [label="and"];
+	Node11 [label="NP"];
+	Node12 [label="NN"];
+	Node13 [label="mix"];
+	Node14 [label="PP"];
+	Node15 [label="IN"];
+	Node16 [label="with"];
+	Node17 [label="NP"];
+	Node18 [label="NNS"];
+	Node19 [label="fork"];
+	Node20 [label="."];
+	Node21 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node14;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node9;
+	Node5 -- Node11;
+	Node6 -- Node7;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node14 -- Node17;
+	Node15 -- Node16;
+	Node17 -- Node18;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "create_ing(ing12, \"1/2 cup butter or margarine\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NP"];
+	Node4 [label="QP"];
+	Node5 [label="CD"];
+	Node6 [label="1/2"];
+	Node7 [label="NN"];
+	Node8 [label="cup"];
+	Node9 [label="NN"];
+	Node10 [label="butter"];
+	Node11 [label="CC"];
+	Node12 [label="or"];
+	Node13 [label="NP"];
+	Node14 [label="NN"];
+	Node15 [label="margarine"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node2 -- Node3;
+	Node2 -- Node11;
+	Node2 -- Node13;
+	Node3 -- Node4;
+	Node3 -- Node9;
+	Node4 -- Node5;
+	Node4 -- Node7;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node14 -- Node15;
+}

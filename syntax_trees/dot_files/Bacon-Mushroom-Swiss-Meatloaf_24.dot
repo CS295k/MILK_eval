@@ -1,0 +1,29 @@
+graph SyntaxGraph {
+	label = "remove(ing12,t1)";
+	Node0 [label="S1"];
+	Node1 [label="SQ"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Remove"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="from"];
+	Node8 [label="VP"];
+	Node9 [label="VB"];
+	Node10 [label="heat"];
+	Node11 [label="."];
+	Node12 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+}

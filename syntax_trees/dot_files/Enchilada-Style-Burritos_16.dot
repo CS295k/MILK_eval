@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "cook(ing1, t1, ing12, \"melted butter\", \"melt\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="PP"];
+	Node3 [label="IN"];
+	Node4 [label="In"];
+	Node5 [label="NP"];
+	Node6 [label="DT"];
+	Node7 [label="a"];
+	Node8 [label="NN"];
+	Node9 [label="saucepan"];
+	Node10 [label=","];
+	Node11 [label=","];
+	Node12 [label="VP"];
+	Node13 [label="VB"];
+	Node14 [label="melt"];
+	Node15 [label="NP"];
+	Node16 [label="NN"];
+	Node17 [label="butter"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node10;
+	Node1 -- Node12;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

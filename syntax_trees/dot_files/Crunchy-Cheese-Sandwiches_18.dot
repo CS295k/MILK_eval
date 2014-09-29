@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "chefcheck(ing11,\"no burning\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Watch"];
+	Node5 [label="ADVP"];
+	Node6 [label="RB"];
+	Node7 [label="closely"];
+	Node8 [label="S"];
+	Node9 [label="VP"];
+	Node10 [label="TO"];
+	Node11 [label="to"];
+	Node12 [label="VP"];
+	Node13 [label="VB"];
+	Node14 [label="prevent"];
+	Node15 [label="NP"];
+	Node16 [label="NN"];
+	Node17 [label="burning"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node9 -- Node12;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

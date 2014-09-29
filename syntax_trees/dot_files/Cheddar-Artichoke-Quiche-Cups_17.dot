@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "put(ing17, t3)";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Fill"];
+	Node5 [label="S"];
+	Node6 [label="NP"];
+	Node7 [label="JJ"];
+	Node8 [label="miniature"];
+	Node9 [label="NNP"];
+	Node10 [label="muffin"];
+	Node11 [label="NNS"];
+	Node12 [label="cups"];
+	Node13 [label="NNS"];
+	Node14 [label="three-fourths"];
+	Node15 [label="ADJP"];
+	Node16 [label="JJ"];
+	Node17 [label="full"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node15;
+	Node6 -- Node7;
+	Node6 -- Node9;
+	Node6 -- Node11;
+	Node6 -- Node13;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

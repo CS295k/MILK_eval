@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "chefcheck(ing73,\"bubbly\")";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="NP"];
+	Node3 [label="NP"];
+	Node4 [label="NN"];
+	Node5 [label="Microwave"];
+	Node6 [label="NP"];
+	Node7 [label="CD"];
+	Node8 [label="4"];
+	Node9 [label="NNS"];
+	Node10 [label="minutes"];
+	Node11 [label=","];
+	Node12 [label=","];
+	Node13 [label="PP"];
+	Node14 [label="IN"];
+	Node15 [label="until"];
+	Node16 [label="NP"];
+	Node17 [label="RB"];
+	Node18 [label="bubbly"];
+	Node19 [label="."];
+	Node20 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node1 -- Node13;
+	Node1 -- Node19;
+	Node2 -- Node3;
+	Node2 -- Node6;
+	Node3 -- Node4;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node6 -- Node9;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node13 -- Node16;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node17 -- Node18;
+	Node19 -- Node20;
+}

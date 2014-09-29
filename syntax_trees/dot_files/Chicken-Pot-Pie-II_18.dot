@@ -1,0 +1,47 @@
+graph SyntaxGraph {
+	label = "separate(ing16, ing17, \"chicken\", ing18, \"broth mixture\", \"\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VP"];
+	Node4 [label="VB"];
+	Node5 [label="Remove"];
+	Node6 [label="NP"];
+	Node7 [label="DT"];
+	Node8 [label="the"];
+	Node9 [label="NN"];
+	Node10 [label="chicken"];
+	Node11 [label="CC"];
+	Node12 [label="and"];
+	Node13 [label="VP"];
+	Node14 [label="VB"];
+	Node15 [label="let"];
+	Node16 [label="S"];
+	Node17 [label="VP"];
+	Node18 [label="VB"];
+	Node19 [label="cool"];
+	Node20 [label="."];
+	Node21 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node20;
+	Node2 -- Node3;
+	Node2 -- Node11;
+	Node2 -- Node13;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node6 -- Node9;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node13 -- Node16;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node17 -- Node18;
+	Node18 -- Node19;
+	Node20 -- Node21;
+}

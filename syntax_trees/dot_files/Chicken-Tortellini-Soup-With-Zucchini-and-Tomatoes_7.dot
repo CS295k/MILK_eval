@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "do(ing89, , ing96, \"prepared base\", \"prepare\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Prepare"];
+	Node5 [label="NP"];
+	Node6 [label="JJ"];
+	Node7 [label="Fast"];
+	Node8 [label="NNP"];
+	Node9 [label="Chicken"];
+	Node10 [label="NNP"];
+	Node11 [label="Soup"];
+	Node12 [label="NNP"];
+	Node13 [label="Base"];
+	Node14 [label="."];
+	Node15 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node14;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node10;
+	Node5 -- Node12;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+}

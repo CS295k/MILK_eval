@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "create_ing(ing9, \"1 kiwi, peeled and finely diced\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="1"];
+	Node5 [label="NN"];
+	Node6 [label="kiwi"];
+	Node7 [label=","];
+	Node8 [label=","];
+	Node9 [label="VP"];
+	Node10 [label="VP"];
+	Node11 [label="VBN"];
+	Node12 [label="peeled"];
+	Node13 [label="CC"];
+	Node14 [label="and"];
+	Node15 [label="VP"];
+	Node16 [label="ADVP"];
+	Node17 [label="RB"];
+	Node18 [label="finely"];
+	Node19 [label="VBN"];
+	Node20 [label="diced"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node7;
+	Node1 -- Node9;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node13;
+	Node9 -- Node15;
+	Node10 -- Node11;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node15 -- Node19;
+	Node16 -- Node17;
+	Node17 -- Node18;
+	Node19 -- Node20;
+}

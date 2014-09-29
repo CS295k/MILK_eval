@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "create_ing(ing29, \"1 pound fresh mushrooms, stems removed\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NP"];
+	Node4 [label="CD"];
+	Node5 [label="1"];
+	Node6 [label="NN"];
+	Node7 [label="pound"];
+	Node8 [label="NP"];
+	Node9 [label="JJ"];
+	Node10 [label="fresh"];
+	Node11 [label="NNS"];
+	Node12 [label="mushrooms"];
+	Node13 [label=","];
+	Node14 [label=","];
+	Node15 [label="VP"];
+	Node16 [label="VBZ"];
+	Node17 [label="stems"];
+	Node18 [label="ADJP"];
+	Node19 [label="VBN"];
+	Node20 [label="removed"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node13;
+	Node1 -- Node15;
+	Node2 -- Node3;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node3 -- Node6;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node15 -- Node18;
+	Node16 -- Node17;
+	Node18 -- Node19;
+	Node19 -- Node20;
+}

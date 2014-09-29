@@ -1,0 +1,25 @@
+graph SyntaxGraph {
+	label = "leave(ing11,\"cool\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Cool"];
+	Node5 [label="CC"];
+	Node6 [label="and"];
+	Node7 [label="VB"];
+	Node8 [label="crumble"];
+	Node9 [label="."];
+	Node10 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+}

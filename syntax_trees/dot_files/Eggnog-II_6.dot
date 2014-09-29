@@ -1,0 +1,23 @@
+graph SyntaxGraph {
+	label = "create_ing(ing21, \"1 pinch ground nutmeg\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="CD"];
+	Node3 [label="1"];
+	Node4 [label="NN"];
+	Node5 [label="pinch"];
+	Node6 [label="NN"];
+	Node7 [label="ground"];
+	Node8 [label="NNP"];
+	Node9 [label="nutmeg"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node6;
+	Node1 -- Node8;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node6 -- Node7;
+	Node8 -- Node9;
+}

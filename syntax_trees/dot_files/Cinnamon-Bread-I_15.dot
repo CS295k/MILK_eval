@@ -1,0 +1,39 @@
+graph SyntaxGraph {
+	label = "create_tool(t1, \"9x5 inch loaf pan\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Grease"];
+	Node5 [label="NP"];
+	Node6 [label="CD"];
+	Node7 [label="one"];
+	Node8 [label="NN"];
+	Node9 [label="9x5"];
+	Node10 [label="NN"];
+	Node11 [label="inch"];
+	Node12 [label="JJ"];
+	Node13 [label="loaf"];
+	Node14 [label="NN"];
+	Node15 [label="pan"];
+	Node16 [label="."];
+	Node17 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node16;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node10;
+	Node5 -- Node12;
+	Node5 -- Node14;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+}

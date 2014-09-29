@@ -1,0 +1,15 @@
+graph SyntaxGraph {
+	label = "create_ing(ing41, \"grated carrots\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="JJ"];
+	Node3 [label="grated"];
+	Node4 [label="NNS"];
+	Node5 [label="carrots"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node2 -- Node3;
+	Node4 -- Node5;
+}

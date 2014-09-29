@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "combine({ing18, ing6}, ing19, \"Pavlova\", \"top pies with fruit\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="NN"];
+	Node4 [label="Top"];
+	Node5 [label="VP"];
+	Node6 [label="VBN"];
+	Node7 [label="whipped"];
+	Node8 [label="NP"];
+	Node9 [label="NN"];
+	Node10 [label="cream"];
+	Node11 [label="PP"];
+	Node12 [label="IN"];
+	Node13 [label="with"];
+	Node14 [label="NP"];
+	Node15 [label="JJ"];
+	Node16 [label="kiwifruit"];
+	Node17 [label="NNS"];
+	Node18 [label="slices"];
+	Node19 [label="."];
+	Node20 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node5;
+	Node1 -- Node19;
+	Node2 -- Node3;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node11;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node14;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node14 -- Node17;
+	Node15 -- Node16;
+	Node17 -- Node18;
+	Node19 -- Node20;
+}

@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "cut(ing12, t5, ing13, \"1/2 inch pieces\", \"cut rope\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Cut"];
+	Node5 [label="NP"];
+	Node6 [label="DT"];
+	Node7 [label="the"];
+	Node8 [label="NN"];
+	Node9 [label="rope"];
+	Node10 [label="PP"];
+	Node11 [label="IN"];
+	Node12 [label="into"];
+	Node13 [label="NP"];
+	Node14 [label="JJ"];
+	Node15 [label="1/2-inch"];
+	Node16 [label="NNS"];
+	Node17 [label="pieces"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node10;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node10 -- Node13;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node13 -- Node16;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

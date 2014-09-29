@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "create_ing(ing35, \"1/4 teaspoon garlic powder (optional)\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="1/4"];
+	Node5 [label="NN"];
+	Node6 [label="teaspoon"];
+	Node7 [label="JJ"];
+	Node8 [label="garlic"];
+	Node9 [label="NNP"];
+	Node10 [label="powder"];
+	Node11 [label="PRN"];
+	Node12 [label="-LRB-"];
+	Node13 [label="-LRB-"];
+	Node14 [label="FRAG"];
+	Node15 [label="ADJP"];
+	Node16 [label="JJ"];
+	Node17 [label="optional"];
+	Node18 [label="-RRB-"];
+	Node19 [label="-RRB-"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node2 -- Node9;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node11 -- Node14;
+	Node11 -- Node18;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

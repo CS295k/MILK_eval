@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "combine({ing13, ing14}, ing16, \"hot oily garlic\", \"\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Add"];
+	Node5 [label="NP"];
+	Node6 [label="NP"];
+	Node7 [label="CD"];
+	Node8 [label="1/2"];
+	Node9 [label="PP"];
+	Node10 [label="IN"];
+	Node11 [label="of"];
+	Node12 [label="NP"];
+	Node13 [label="DT"];
+	Node14 [label="the"];
+	Node15 [label="NN"];
+	Node16 [label="garlic"];
+	Node17 [label="."];
+	Node18 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node17;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node9;
+	Node6 -- Node7;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node12;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node17 -- Node18;
+}

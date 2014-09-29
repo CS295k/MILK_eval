@@ -1,0 +1,33 @@
+graph SyntaxGraph {
+	label = "mix(ing17, t2, ing18, \"caramel square\", \"cover the layer completely\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Cover"];
+	Node5 [label="NP"];
+	Node6 [label="DT"];
+	Node7 [label="the"];
+	Node8 [label="NN"];
+	Node9 [label="layer"];
+	Node10 [label="ADVP"];
+	Node11 [label="RB"];
+	Node12 [label="completely"];
+	Node13 [label="."];
+	Node14 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node13;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node10;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node11 -- Node12;
+	Node13 -- Node14;
+}

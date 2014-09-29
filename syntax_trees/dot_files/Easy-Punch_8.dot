@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "mix(ing40, t10, ing41, \"homogenous protopunch\", \"until dissolved\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Stir"];
+	Node5 [label="SBAR"];
+	Node6 [label="IN"];
+	Node7 [label="until"];
+	Node8 [label="S"];
+	Node9 [label="VP"];
+	Node10 [label="VBN"];
+	Node11 [label="dissolved"];
+	Node12 [label="."];
+	Node13 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node12;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node10 -- Node11;
+	Node12 -- Node13;
+}

@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "combine({ing18, ing30}, ing31, \"dry with shortening\", \"cut\")";
+	Node0 [label="S1"];
+	Node1 [label="VP"];
+	Node2 [label="VBN"];
+	Node3 [label="Cut"];
+	Node4 [label="PP"];
+	Node5 [label="IN"];
+	Node6 [label="in"];
+	Node7 [label="NP"];
+	Node8 [label="DT"];
+	Node9 [label="the"];
+	Node10 [label="NN"];
+	Node11 [label="shortening"];
+	Node12 [label="."];
+	Node13 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node12;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node4 -- Node7;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+}

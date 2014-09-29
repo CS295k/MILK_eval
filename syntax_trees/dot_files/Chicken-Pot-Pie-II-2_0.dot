@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "create_ing(ing0, \"3 bone-in chicken breast halves, skinless\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="NP"];
+	Node3 [label="CD"];
+	Node4 [label="3"];
+	Node5 [label="JJ"];
+	Node6 [label="bone-in"];
+	Node7 [label="NN"];
+	Node8 [label="chicken"];
+	Node9 [label="NN"];
+	Node10 [label="breast"];
+	Node11 [label="NP"];
+	Node12 [label="NNS"];
+	Node13 [label="halves"];
+	Node14 [label=","];
+	Node15 [label=","];
+	Node16 [label="ADVP"];
+	Node17 [label="JJ"];
+	Node18 [label="skinless"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node1 -- Node14;
+	Node1 -- Node16;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node2 -- Node9;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node16 -- Node17;
+	Node17 -- Node18;
+}

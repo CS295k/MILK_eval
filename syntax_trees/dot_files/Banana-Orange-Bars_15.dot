@@ -1,0 +1,29 @@
+graph SyntaxGraph {
+	label = "combine({ing78, ing79}, ing80, \"bar batter\", \"fold dry ingredients into blended banana mix until well mixed\")";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="ADJP"];
+	Node3 [label="VBN"];
+	Node4 [label="Spread"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="over"];
+	Node8 [label="NP"];
+	Node9 [label="NNS"];
+	Node10 [label="bars"];
+	Node11 [label="."];
+	Node12 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node11;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node9 -- Node10;
+	Node11 -- Node12;
+}

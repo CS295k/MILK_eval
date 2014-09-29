@@ -1,0 +1,45 @@
+graph SyntaxGraph {
+	label = "combine({ing10, ing12, ing5}, ing13, \"chocolate and vanilla\", \"stir in\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Stir"];
+	Node5 [label="PRT"];
+	Node6 [label="RP"];
+	Node7 [label="in"];
+	Node8 [label="NP"];
+	Node9 [label="DT"];
+	Node10 [label="the"];
+	Node11 [label="NN"];
+	Node12 [label="melted"];
+	Node13 [label="NN"];
+	Node14 [label="chocolate"];
+	Node15 [label="CC"];
+	Node16 [label="and"];
+	Node17 [label="NN"];
+	Node18 [label="vanilla"];
+	Node19 [label="."];
+	Node20 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node19;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node8;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node11;
+	Node8 -- Node13;
+	Node8 -- Node15;
+	Node8 -- Node17;
+	Node9 -- Node10;
+	Node11 -- Node12;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node17 -- Node18;
+	Node19 -- Node20;
+}

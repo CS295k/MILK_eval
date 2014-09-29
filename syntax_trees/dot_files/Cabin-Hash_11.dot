@@ -1,0 +1,41 @@
+graph SyntaxGraph {
+	label = "combine({ing39, ing44}, ing45, \"seasoned stuff\", \"season\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Season"];
+	Node5 [label="PP"];
+	Node6 [label="IN"];
+	Node7 [label="with"];
+	Node8 [label="NP"];
+	Node9 [label="NP"];
+	Node10 [label="NN"];
+	Node11 [label="salt"];
+	Node12 [label="CC"];
+	Node13 [label="and"];
+	Node14 [label="NP"];
+	Node15 [label="NN"];
+	Node16 [label="pepper"];
+	Node17 [label="."];
+	Node18 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node17;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node8 -- Node12;
+	Node8 -- Node14;
+	Node9 -- Node10;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+	Node15 -- Node16;
+	Node17 -- Node18;
+}

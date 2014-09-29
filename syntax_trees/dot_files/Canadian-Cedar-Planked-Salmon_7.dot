@@ -1,0 +1,43 @@
+graph SyntaxGraph {
+	label = "combine({ing12, ing6}, ing13, \"submerged plank\", \"submerge plank in water\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="NP"];
+	Node3 [label="JJ"];
+	Node4 [label="Submerge"];
+	Node5 [label="JJ"];
+	Node6 [label="untreated"];
+	Node7 [label="NN"];
+	Node8 [label="cedar"];
+	Node9 [label="VP"];
+	Node10 [label="VBD"];
+	Node11 [label="plank"];
+	Node12 [label="PP"];
+	Node13 [label="IN"];
+	Node14 [label="in"];
+	Node15 [label="NP"];
+	Node16 [label="NN"];
+	Node17 [label="water"];
+	Node18 [label="."];
+	Node19 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node1 -- Node18;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node9 -- Node12;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node12 -- Node15;
+	Node13 -- Node14;
+	Node15 -- Node16;
+	Node16 -- Node17;
+	Node18 -- Node19;
+}

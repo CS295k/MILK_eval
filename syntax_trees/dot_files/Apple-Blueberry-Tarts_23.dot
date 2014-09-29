@@ -1,0 +1,31 @@
+graph SyntaxGraph {
+	label = "serve(ing34,\"warm or cool\")";
+	Node0 [label="S1"];
+	Node1 [label="S"];
+	Node2 [label="VP"];
+	Node3 [label="VB"];
+	Node4 [label="Serve"];
+	Node5 [label="ADJP"];
+	Node6 [label="JJ"];
+	Node7 [label="warm"];
+	Node8 [label="CC"];
+	Node9 [label="or"];
+	Node10 [label="JJ"];
+	Node11 [label="cool"];
+	Node12 [label="."];
+	Node13 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node12;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node5 -- Node8;
+	Node5 -- Node10;
+	Node6 -- Node7;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+}

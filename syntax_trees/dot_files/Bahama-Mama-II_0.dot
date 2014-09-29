@@ -1,0 +1,29 @@
+graph SyntaxGraph {
+	label = "create_ing(ing0, \"1 fluid ounce dark rum\")";
+	Node0 [label="S1"];
+	Node1 [label="NP"];
+	Node2 [label="ADJP"];
+	Node3 [label="CD"];
+	Node4 [label="1"];
+	Node5 [label="JJ"];
+	Node6 [label="fluid"];
+	Node7 [label="NN"];
+	Node8 [label="ounce"];
+	Node9 [label="JJ"];
+	Node10 [label="dark"];
+	Node11 [label="NN"];
+	Node12 [label="rum"];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node9;
+	Node1 -- Node11;
+	Node2 -- Node3;
+	Node2 -- Node5;
+	Node2 -- Node7;
+	Node3 -- Node4;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node9 -- Node10;
+	Node11 -- Node12;
+}

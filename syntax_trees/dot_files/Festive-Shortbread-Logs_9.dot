@@ -1,0 +1,35 @@
+graph SyntaxGraph {
+	label = "put(ing12, t1)";
+	Node0 [label="S1"];
+	Node1 [label="FRAG"];
+	Node2 [label="RB"];
+	Node3 [label="apart"];
+	Node4 [label="PP"];
+	Node5 [label="IN"];
+	Node6 [label="on"];
+	Node7 [label="NP"];
+	Node8 [label="JJ"];
+	Node9 [label="ungreased"];
+	Node10 [label="NN"];
+	Node11 [label="baking"];
+	Node12 [label="NNS"];
+	Node13 [label="sheets"];
+	Node14 [label="."];
+	Node15 [label="."];
+
+	Node0 -- Node1;
+	Node1 -- Node2;
+	Node1 -- Node4;
+	Node1 -- Node14;
+	Node2 -- Node3;
+	Node4 -- Node5;
+	Node4 -- Node7;
+	Node5 -- Node6;
+	Node7 -- Node8;
+	Node7 -- Node10;
+	Node7 -- Node12;
+	Node8 -- Node9;
+	Node10 -- Node11;
+	Node12 -- Node13;
+	Node14 -- Node15;
+}
