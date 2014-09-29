@@ -12,7 +12,6 @@
 <line><originaltext>In a large skillet over medium heat, brown chicken and potatoes in oil for 10-15 minutes. </originaltext><annotation>put(ing9, t0)</annotation></line>
 <line><originaltext>In a large skillet over medium heat, brown chicken and potatoes in oil for 10-15 minutes. </originaltext><annotation>cook(ing9, t0, ing10, "cooked things in pan", "brown chicken and potatoes in oil for 10-15 minutes")</annotation></line>
 <line><originaltext>Remove chicken and potatoes; set aside. </originaltext><annotation>separate(ing10, ing11, "drippings", ing12, "chicken and potatoes", "")</annotation></line>
-<line><originaltext>Remove chicken and potatoes; set aside. </originaltext><annotation>remove(ing12,t0)</annotation></line>
 <line><originaltext>Remove chicken and potatoes; set aside. </originaltext><annotation>leave(ing12,"set aside")</annotation></line>
 <line><originaltext>Discard all but 1 tablespoon drippings. </originaltext><annotation>do(ing11, , ing13, "1 tablespoon drippings", "discard all but 1 tablespoon")</annotation></line>
 <line><originaltext>To drippings, add cream, salt and pepper; stir to mix. </originaltext><annotation>combine({ing13, ing3, ing4, ing5}, ing14, "sauce", "")</annotation></line>

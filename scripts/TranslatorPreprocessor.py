@@ -172,10 +172,20 @@ def main():
             prevText = curText
 
         recipeScores.append(float(numCorrect)/numLines)
-    x = sorted(bigramTogetherCounts.iteritems(), key=operator.itemgetter(1))
-    total = sum(bigramTogetherCounts.values())
-    x = [(k,float(v)/total) for k, v in x]
+
+    probs = []
+    tmp = defaultdict(float)
+
+    for k,v in bigramTogetherCounts.iteritems():
+        prob = float(v)/bigramCounts[k]
+        probs.append(prob)
+        #print(str(k) + ", " + str(prob))
+        tmp[k] = prob
+        
+    #print(str(sorted(probs)))
+    for i in sorted(tmp, key=tmp.get):
+        print i,tmp[i]
+
     print "avg accuracy from line-to-line:",sum(recipeScores)/len(recipeScores)
-    print "raw bigram accuracy", x
 
 main()

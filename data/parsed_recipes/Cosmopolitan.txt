@@ -1,0 +1,816 @@
+50	1
+-114.401
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-117.75
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-117.878
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-118.125
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-119.192
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-119.372
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-120.658
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-121.033
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-121.615
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-121.651
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-122.229
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NN vodka)))
+-122.25
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-122.568
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka))))
+-122.589
+(S1 (FRAG (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka))))
+-122.593
+(S1 (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-122.669
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-122.85
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-123.286
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (QP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-123.443
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka))))
+-123.506
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-))) (NN jigger) (NN vodka)))
+-123.662
+(S1 (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (QP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-123.837
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-123.98
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NP (JJ jigger) (NN vodka))))
+-124.779
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-))) (NP (JJ jigger) (NN vodka))))
+-125.026
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (ADJP (JJ fluid)) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-125.083
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NP (NN jigger) (NN vodka))))
+-125.092
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-125.146
+(S1 (FRAG (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka))))
+-125.164
+(S1 (NP (NP (CD 1)) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-125.497
+(S1 (FRAG (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka))))
+-125.501
+(S1 (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-125.524
+(S1 (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NN vodka)))
+-125.707
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NN vodka)))
+-125.728
+(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-125.881
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-))) (NP (NN jigger) (NN vodka))))
+-126.046
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka))))
+-126.234
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid)) (NP (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-126.243
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-126.33
+(S1 (FRAG (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka)))))
+-126.443
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (QP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-126.492
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 1.5) (NN fluid)) (NP (NN ounce))) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-126.551
+(S1 (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NP (JJR jigger) (NN vodka))))
+-126.623
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (QP (CD 1.5) (NN fluid)) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka)))
+-126.672
+(S1 (FRAG (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka)))))
+-126.718
+(S1 (S (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger)) (NP (NN vodka))))
+-126.825
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 1.5)) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+-126.921
+(S1 (S (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka))))
+-126.983
+(S1 (NP (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 1.5) (JJ fluid) (NN ounce)) (-RRB- -RRB-))) (NN jigger) (NN vodka)))
+-127.008
+(S1 (FRAG (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (JJ jigger) (NN vodka))))
+-127.076
+(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (NP (CD 1.5)) (JJ fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))
+
+50	2
+-98.4689
+(S1 (NP (CD 1/2) (JJ fluid) (NN ounce) (NN cointreau)))
+-98.8644
+(S1 (NP (CD 1/2) (NN fluid) (NN ounce) (NN cointreau)))
+-100.054
+(S1 (NP (ADJP (CD 1/2) (JJ fluid) (NN ounce)) (NN cointreau)))
+-100.326
+(S1 (NP (CD 1/2) (JJ fluid) (NN ounce) (NNS cointreau)))
+-100.715
+(S1 (NP (ADJP (CD 1/2) (NN fluid) (NN ounce)) (NN cointreau)))
+-100.734
+(S1 (NP (CD 1/2) (NN fluid) (NN ounce) (NNS cointreau)))
+-102.094
+(S1 (NP (ADJP (CD 1/2) (JJ fluid)) (NN ounce) (NN cointreau)))
+-102.304
+(S1 (S (NP (CD 1/2) (JJ fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-102.339
+(S1 (S (NP (CD 1/2) (NN fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-102.606
+(S1 (NP (NP (CD 1/2) (NN fluid) (NN ounce)) (NP (NN cointreau))))
+-102.614
+(S1 (NP (ADJP (CD 1/2) (NN fluid)) (NN ounce) (NN cointreau)))
+-102.839
+(S1 (NP (NP (CD 1/2) (NN fluid)) (NP (NN ounce) (NN cointreau))))
+-102.936
+(S1 (NP (NP (CD 1/2) (JJ fluid) (NN ounce)) (NN cointreau)))
+-103.041
+(S1 (FRAG (NP (CD 1/2) (NN fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-103.187
+(S1 (NP (NP (CD 1/2)) (JJ fluid) (NN ounce) (NN cointreau)))
+-103.265
+(S1 (NP (NP (CD 1/2) (NN fluid) (NN ounce)) (NN cointreau)))
+-103.287
+(S1 (NP (ADJP (CD 1/2) (NN fluid)) (NN ounce) (NNS cointreau)))
+-103.446
+(S1 (FRAG (NP (CD 1/2) (JJ fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-103.646
+(S1 (NP (QP (CD 1/2) (NN fluid)) (NN ounce) (NN cointreau)))
+-103.71
+(S1 (S (NP (CD 1/2) (JJ fluid) (NN ounce) (NN cointreau))))
+-103.755
+(S1 (NP (ADJP (CD 1/2) (NN fluid) (NN ounce)) (NNS cointreau)))
+-103.921
+(S1 (NP (NP (CD 1/2) (NN fluid)) (NN ounce) (NN cointreau)))
+-104.211
+(S1 (FRAG (NP (ADJP (CD 1/2) (JJ fluid) (NN ounce)) (NN cointreau))))
+-104.217
+(S1 (NP (ADJP (CD 1/2) (JJ fluid)) (NN ounce) (NNS cointreau)))
+-104.344
+(S1 (FRAG (NP (CD 1/2) (JJ fluid) (NN ounce) (NN cointreau))))
+-104.507
+(S1 (NP (NP (CD 1/2) (JJ fluid) (NN ounce)) (JJ cointreau)))
+-104.526
+(S1 (NP (NP (CD 1/2) (NN fluid)) (NP (NN ounce) (NNS cointreau))))
+-104.579
+(S1 (NP (NP (CD 1/2) (JJ fluid) (NN ounce)) (NP (NN cointreau))))
+-104.792
+(S1 (NP (ADJP (CD 1/2) (JJ fluid) (NN ounce)) (NNS cointreau)))
+-104.837
+(S1 (NP (NP (CD 1/2) (NN fluid) (NN ounce)) (JJ cointreau)))
+-104.881
+(S1 (NP (NP (CD 1/2)) (NN fluid) (NN ounce) (NN cointreau)))
+-104.882
+(S1 (NP (NP (CD 1/2)) (JJ fluid) (NN ounce) (NNS cointreau)))
+-104.916
+(S1 (S (NP (CD 1/2) (NN fluid) (NN ounce)) (VP (VBZ cointreau))))
+-104.995
+(S1 (FRAG (NP (ADJP (CD 1/2) (NN fluid) (NN ounce)) (NN cointreau))))
+-105.149
+(S1 (S (NP (CD 1/2) (JJ fluid) (NN ounce)) (VP (VBZ cointreau))))
+-105.163
+(S1 (FRAG (ADJP (CD 1/2) (NN fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-105.2
+(S1 (S (NP (CD 1/2) (NN fluid) (NN ounce) (NN cointreau))))
+-105.259
+(S1 (FRAG (NP (NP (CD 1/2) (NN fluid)) (NP (NN ounce))) (ADJP (JJ cointreau))))
+-105.276
+(S1 (NP (NP (ADJP (CD 1/2) (NN fluid)) (NN ounce)) (NP (NN cointreau))))
+-105.292
+(S1 (FRAG (NP (CD 1/2) (NN fluid) (NN ounce)) (NP (NN cointreau))))
+-105.378
+(S1 (S (NP (CD 1/2) (NN fluid)) (VP (NN ounce) (NP (NN cointreau)))))
+-105.492
+(S1 (NP (NP (NP (CD 1/2)) (NP (JJ fluid) (NN ounce))) (NN cointreau)))
+-105.535
+(S1 (FRAG (NP (CD 1/2) (NN fluid) (NN ounce) (NN cointreau))))
+-105.565
+(S1 (NP (NP (NP (CD 1/2) (NN fluid)) (NP (NN ounce))) (NN cointreau)))
+-105.636
+(S1 (FRAG (NP (ADJP (CD 1/2) (JJ fluid)) (NN ounce)) (ADJP (JJ cointreau))))
+-105.684
+(S1 (NP (ADJP (NP (CD 1/2)) (JJ fluid)) (NN ounce) (NN cointreau)))
+-105.736
+(S1 (NP (NP (ADJP (CD 1/2) (NN fluid)) (NN ounce)) (NN cointreau)))
+-105.793
+(S1 (NP (NP (CD 1/2)) (NN fluid) (NN ounce) (NNS cointreau)))
+-105.837
+(S1 (FRAG (ADJP (CD 1/2) (JJ fluid) (NN ounce)) (ADJP (JJ cointreau))))
+-105.866
+(S1 (FRAG (NP (CD 1/2) (JJ fluid) (NN ounce)) (NP (NN cointreau))))
+
+50	3
+-108.213
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice))))
+-109.948
+(S1 (NP (CD 1) (JJ teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-111.598
+(S1 (NP (ADJP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-111.782
+(S1 (NP (CD 1) (NN teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-112.044
+(S1 (NP (QP (CD 1) (CD teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-112.292
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice)))))
+-112.561
+(S1 (NP (NP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-113.936
+(S1 (NP (QP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-114.252
+(S1 (FRAG (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice))))
+-114.495
+(S1 (NP (CD 1) (CD teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-114.894
+(S1 (S (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice))))
+-115.152
+(S1 (NP (ADJP (CD 1) (NN teaspoon) (JJ fresh)) (NNP lime) (NN juice)))
+-115.335
+(S1 (S (NP (ADJP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice))))
+-115.56
+(S1 (FRAG (NP (CD 1) (JJ teaspoon) (JJ fresh) (NNP lime) (NN juice))))
+-115.816
+(S1 (NP (NP (CD 1) (NN teaspoon) (JJ fresh) (NNP lime)) (NN juice)))
+-115.918
+(S1 (NP (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime))) (NN juice)))
+-116.03
+(S1 (NP (NP (QP (CD 1) (NN teaspoon))) (NP (JJ fresh) (NNP lime) (NN juice))))
+-116.116
+(S1 (FRAG (NP (ADJP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice))))
+-116.232
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime))) (NP (NN juice))))
+-116.237
+(S1 (FRAG (NP (QP (CD 1) (CD teaspoon)) (JJ fresh) (NNP lime) (NN juice))))
+-116.457
+(S1 (NP (CD 1) (ADJP (JJ teaspoon) (JJ fresh)) (NNP lime) (NN juice)))
+-116.476
+(S1 (NP (NP (CD 1)) (JJ teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-116.542
+(S1 (NP (NP (CD 1) (NN teaspoon)) (JJ fresh) (NP (NNP lime)) (NN juice)))
+-116.673
+(S1 (FRAG (ADJP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice))))
+-116.896
+(S1 (S (NP (QP (CD 1) (CD teaspoon)) (JJ fresh) (NNP lime) (NN juice))))
+-117.394
+(S1 (FRAG (NP (CD 1) (NN teaspoon) (JJ fresh) (NNP lime) (NN juice))))
+-117.525
+(S1 (NP (NP (CD 1)) (NN teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-117.7
+(S1 (S (NP (CD 1) (JJ teaspoon) (JJ fresh) (NNP lime) (NN juice))))
+-118.091
+(S1 (S (NP (QP (CD 1) (NN teaspoon))) (NP (JJ fresh) (NNP lime) (NN juice))))
+-118.102
+(S1 (S (NP (CD 1)) (VP (NN teaspoon) (NP (JJ fresh) (NNP lime) (NN juice)))))
+-118.159
+(S1 (NP (CD 1) (ADJP (JJ teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-118.182
+(S1 (S (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice)))))
+-118.274
+(S1 (NP (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime))) (NP (NN juice))))
+-118.321
+(S1 (NP (NP (CD 1)) (CD teaspoon) (JJ fresh) (NNP lime) (NN juice)))
+-118.446
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (ADJP (JJ fresh) (NP (NNP lime))) (NN juice))))
+-118.507
+(S1 (NP (NP (CD 1)) (ADJP (JJ teaspoon) (JJ fresh)) (NNP lime) (NN juice)))
+-118.629
+(S1 (NP (NP (QP (CD 1) (CD teaspoon))) (JJ fresh) (NNP lime) (NN juice)))
+-118.697
+(S1 (NP (ADJP (NP (CD 1) (NN teaspoon)) (JJ fresh)) (NNP lime) (NN juice)))
+-118.739
+(S1 (NP (CD 1) (NP (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice)))
+-118.849
+(S1 (NP (ADJP (QP (CD 1) (NN teaspoon))) (JJ fresh) (NNP lime) (NN juice)))
+-119.037
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (NP (JJ fresh) (NNP lime)) (NN juice))))
+-119.043
+(S1 (S (NP (CD 1) (NN teaspoon) (JJ fresh) (NNP lime) (NN juice))))
+-119.119
+(S1 (S (NP (CD 1) (NN teaspoon)) (VP (JJ fresh) (NP (NNP lime) (NN juice)))))
+-119.227
+(S1 (FRAG (NP (ADJP (CD 1) (NN teaspoon) (JJ fresh)) (NNP lime) (NN juice))))
+-119.373
+(S1 (NP (CD 1) (ADJP (NN teaspoon) (JJ fresh)) (NNP lime) (NN juice)))
+-119.53
+(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (JJ fresh) (NNP lime) (NN juice))))
+-119.725
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (ADJP (JJ fresh)) (NNP lime) (NN juice))))
+-119.727
+(S1 (NP (NP (QP (CD 1) (CD teaspoon))) (NP (JJ fresh) (NNP lime) (NN juice))))
+-119.734
+(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (ADJP (JJ fresh) (NNP lime)) (NN juice))))
+-119.742
+(S1 (NP (NP (ADJP (CD 1) (NN teaspoon)) (JJ fresh)) (NP (NNP lime) (NN juice))))
+
+50	4
+-108.801
+(S1 (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry) (NN juice)))
+-111.762
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-111.958
+(S1 (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces) (NN cranberry) (NN juice)))
+-112.924
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NN cranberry) (NN juice)))
+-113.592
+(S1 (NP (QP (CD 1) (CD 1/2)) (NP (JJ fluid) (NNS ounces)) (NN cranberry) (NN juice)))
+-113.927
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-114.482
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (NN cranberry) (NN juice))))
+-114.535
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice)))))
+-114.555
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (JJ cranberry) (NN juice)))
+-114.58
+(S1 (NP (QP (CD 1) (CD 1/2)) (NP (NN fluid) (NNS ounces)) (NN cranberry) (NN juice)))
+-115.262
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NN cranberry) (NN juice)))
+-116.491
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (VP (VBP cranberry) (NP (NN juice)))))
+-116.648
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (NN cranberry) (NN juice))))
+-116.7
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice)))))
+-116.715
+(S1 (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (JJ cranberry) (NN juice)))
+-116.894
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (JJ cranberry) (NN juice)))
+-117.139
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-117.255
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (NN cranberry) (NN juice)))))
+-117.937
+(S1 (FRAG (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry) (NN juice))))
+-117.954
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-118.127
+(S1 (NP (QP (CD 1) (CD 1/2)) (ADJP (JJ fluid)) (NNS ounces) (NN cranberry) (NN juice)))
+-118.255
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (VP (VBP cranberry) (NP (NN juice)))))
+-118.418
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (NN cranberry) (NN juice))))
+-118.703
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid)) (VP (NNS ounces) (NP (JJ cranberry) (NN juice)))))
+-118.886
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid)) (NP (NNS ounces))) (NN cranberry) (NN juice)))
+-119.055
+(S1 (NP (NP (ADJP (QP (CD 1) (CD 1/2)) (NN fluid)) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-119.164
+(S1 (NP (NP (ADJP (QP (CD 1) (CD 1/2)) (NN fluid)) (NNS ounces)) (NN cranberry) (NN juice)))
+-119.233
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (NN cranberry) (NN juice))))
+-119.255
+(S1 (S (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice)))))
+-119.266
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (VP (VB cranberry) (NP (NN juice)))))
+-119.348
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry)) (NP (NN juice))))
+-119.421
+(S1 (FRAG (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (NP (NN cranberry) (NN juice)))))
+-119.444
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid)) (NP (NP (NNS ounces)) (NP (JJ cranberry) (NN juice)))))
+-119.68
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (ADJP (JJ fluid)) (NNS ounces)) (NN cranberry) (NN juice)))
+-119.685
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry) (NN juice))))
+-119.716
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (NN cranberry))) (NN juice)))
+-119.851
+(S1 (FRAG (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (NN cranberry) (NN juice))))
+-120.018
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (VP (JJ cranberry) (NP (NN juice)))))
+-120.205
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (VP (NN cranberry) (NP (NN juice)))))
+-120.327
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (JJ cranberry)) (NN juice)))
+-120.487
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NP (JJ fluid) (NNS ounces))) (NN cranberry) (NN juice)))
+-120.517
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid)) (NP (NNS ounces))) (JJ cranberry) (NN juice)))
+-120.587
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (ADJP (JJ fluid)) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-120.634
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry)) (NN juice)))
+-120.795
+(S1 (NP (NP (ADJP (QP (CD 1) (CD 1/2)) (NN fluid)) (NNS ounces)) (JJ cranberry) (NN juice)))
+-120.863
+(S1 (FRAG (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces)) (NP (JJ cranberry) (NN juice))))
+-120.932
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (VP (VB cranberry) (NP (NN juice)))))
+-120.963
+(S1 (NP (NP (NP (QP (CD 1) (CD 1/2)) (NN fluid)) (NP (NNS ounces))) (NP (JJ cranberry) (NN juice))))
+-121.02
+(S1 (S (NP (QP (CD 1) (CD 1/2)) (NN fluid) (NNS ounces)) (VP (NN cranberry) (NP (NN juice)))))
+-121.087
+(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NP (NN fluid) (NNS ounces))) (NN cranberry) (NN juice)))
+
+50	5
+-131.237
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (ADVP (JJ garnish))))
+-133.034
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NNP zest)) (, ,) (ADVP (JJ garnish))))
+-133.197
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime))) (ADJP (JJ zest) (, ,) (JJ garnish))))
+-134.422
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (NP (NN garnish))))
+-134.634
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (CD zest)) (, ,) (ADVP (JJ garnish))))
+-134.83
+(S1 (NP (NP (CD 1) (NN twist) (NNP lime)) (NP (NN zest) (, ,) (NN garnish))))
+-135.293
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (CD zest) (, ,) (CD garnish))))
+-135.517
+(S1 (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (NP (NN garnish))))
+-135.787
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest))) (, ,) (NP (NN garnish))))
+-136.345
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NNP zest))) (, ,) (NP (NN garnish))))
+-136.611
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NP (NNP lime) (NN zest)) (, ,) (NP (NN garnish)))))
+-136.899
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest))) (, ,) (ADJP (JJ garnish))))
+-136.99
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest))) (, ,) (NP (NN garnish))))
+-137.065
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime))) (ADJP (JJ zest)) (, ,) (VP (VB garnish))))
+-137.159
+(S1 (FRAG (NP (CD 1) (NN twist)) (NP (NNP lime)) (ADJP (JJ zest) (, ,) (JJ garnish))))
+-137.332
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (ADVP (VB garnish))))
+-137.457
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NNP zest))) (, ,) (ADJP (JJ garnish))))
+-137.568
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest))) (, ,) (VP (VB garnish))))
+-137.719
+(S1 (FRAG (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (VP (VB garnish))))
+-137.733
+(S1 (NP (NP (ADJP (CD 1) (NN twist)) (NNP lime) (NN zest)) (, ,) (ADVP (JJ garnish))))
+-137.79
+(S1 (NP (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest))) (, ,) (ADVP (JJ garnish))))
+-137.882
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NP (NNP lime) (NNP zest)) (, ,) (NP (NN garnish)))))
+-137.945
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (CD zest))) (, ,) (NP (NN garnish))))
+-138.081
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime))) (ADJP (JJ zest)) (, ,) (NP (NN garnish))))
+-138.099
+(S1 (FRAG (NP (CD 1) (NN twist) (NNP lime)) (ADJP (JJ zest) (, ,) (JJ garnish))))
+-138.126
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NNP zest))) (, ,) (VP (VB garnish))))
+-138.133
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (CD zest) (, ,) (CD garnish)))))
+-138.299
+(S1 (FRAG (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (NP (NN garnish))))
+-138.31
+(S1 (NP (NP (CD 1) (NN twist) (NNP lime)) (NP (NN zest)) (, ,) (ADVP (JJ garnish))))
+-138.403
+(S1 (FRAG (NP (ADJP (CD 1) (NN twist)) (NNP lime) (NN zest)) (, ,) (NP (NN garnish))))
+-138.432
+(S1 (NP (NP (ADJP (CD 1) (NN twist)) (NNP lime) (NN zest)) (, ,) (NP (NN garnish))))
+-138.575
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NP (NNP lime) (NN zest)) (, ,) (ADVP (JJ garnish)))))
+-138.58
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (NP (JJ garnish))))
+-138.665
+(S1 (NP (NP (CD 1) (NN twist) (NNP lime) (NNP zest)) (, ,) (ADVP (JJ garnish))))
+-138.814
+(S1 (NP (NP (CD 1) (NN twist) (NNP lime)) (NP (NP (JJS zest)) (, ,) (ADVP (JJ garnish)))))
+-138.854
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest))) (, ,) (ADJP (JJ garnish))))
+-138.979
+(S1 (FRAG (ADJP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (VP (VB garnish))))
+-139.01
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (NP (NN garnish)))))
+-139.024
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (JJ zest)) (, ,) (ADVP (JJ garnish))))
+-139.057
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (CD zest))) (, ,) (ADJP (JJ garnish))))
+-139.069
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest))) (, ,) (ADVP (JJ garnish))))
+-139.107
+(S1 (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (NP (JJ garnish))))
+-139.13
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NNP zest)) (, ,) (ADVP (VB garnish))))
+-139.169
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NP (NNP lime)) (JJS zest)) (, ,) (ADVP (JJ garnish))))
+-139.181
+(S1 (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest)) (, ,) (VP (VB garnish))))
+-139.236
+(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (VP (VB garnish))))
+-139.289
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (NP (NNP lime))) (ADJP (JJS zest)) (, ,) (VP (VB garnish))))
+-139.325
+(S1 (NP (NP (CD 1) (NN twist) (NNP lime)) (NP (JJS zest)) (, ,) (ADVP (JJ garnish))))
+-139.461
+(S1 (S (NP (CD 1) (NN twist) (NNP lime)) (ADJP (JJ zest) (, ,) (JJ garnish))))
+-139.522
+(S1 (FRAG (NP (NP (CD 1) (NN twist)) (ADJP (NNP lime) (JJ zest))) (, ,) (VP (VB garnish))))
+
+50	6
+-134.103
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-134.639
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-136.31
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-137.381
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-138.687
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-139.386
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-139.459
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-140.186
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-140.229
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (NNP a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-140.445
+(S1 (S (VP (VB Pour) (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-140.697
+(S1 (S (VP (VBP Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-140.981
+(S1 (S (VP (VB Pour) (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-141.73
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NNS lots))) (PP (IN of) (NP (NN ice)))))) (. .)))
+-141.801
+(S1 (S (VP (VBP Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-141.857
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-142.156
+(S1 (S (VP (VB Pour) (NP (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-142.6
+(S1 (S (VP (VB Pour) (NP (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-142.614
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-142.73
+(S1 (SQ (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-142.849
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-143.153
+(S1 (S (VP (VB Pour) (NP (PDT all) (NP (DT the) (NNS ingredients))) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-143.507
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (NNP a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-143.67
+(S1 (S (VP (VB Pour) (NP (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-143.689
+(S1 (S (VP (VB Pour) (NP (PDT all) (NP (DT the) (NNS ingredients))) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-143.73
+(S1 (S (VP (VBP Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-144.005
+(S1 (SQ (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-144.012
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NNS lots)))) (PP (IN of) (NP (NN ice)))))) (. .)))
+-144.719
+(S1 (SQ (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-144.813
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (NNP a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-144.933
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-144.955
+(S1 (S (VP (VB Pour) (NP (RB all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-145.006
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-145.008
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NNS lots))) (PP (IN of) (NP (NN ice))))))) (. .)))
+-145.079
+(S1 (S (VP (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-145.145
+(S1 (S (VP (VB Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-145.449
+(S1 (S (VP (VB Pour) (ADVP (RB all)) (NP (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-145.46
+(S1 (S (VP (VB Pour) (NP (NP (RB all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-145.491
+(S1 (S (VP (VB Pour) (NP (RB all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-145.678
+(S1 (FRAG (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-145.748
+(S1 (S (VP (VB Pour) (NP (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-145.87
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NX (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))
+-145.893
+(S1 (FRAG (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-146.001
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NP (NP (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-146.244
+(S1 (S (VP (VBP Pour) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-146.314
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NNS lots))) (PP (IN of) (NP (NN ice)))))) (. .)))
+-146.375
+(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NX (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-146.397
+(S1 (S (VP (VBP Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (PP (IN into) (NP (DT a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))) (. .)))
+-146.528
+(S1 (S (VP (VB Pour) (NP (DT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NNP a) (NNP shaker))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))) (. .)))
+-146.531
+(S1 (S (VP (VB Pour) (NP (NP (RB all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))))))) (. .)))
+-146.559
+(S1 (SINV (VP (VBP Pour)) (NP (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (DT a) (NNP shaker)))) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice))))) (. .)))
+
+50	7
+-125.549
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-131.277
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-133.303
+(S1 (S (VP (VP (VB Shake) (PP (ADVP (RB vigorously)) (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-133.471
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (S (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.196
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (NN strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.353
+(S1 (S (VP (VP (VB Shake) (PP (RB vigorously) (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.567
+(S1 (S (VP (VP (VB Shake) (NP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.576
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain)) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-134.689
+(S1 (S (VP (VP (VB Shake) (PRT (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.847
+(S1 (S (VP (VP (VB Shake) (NP (NP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-134.867
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VBP strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-135.044
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NN strain)))) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-135.1
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail))) (NP (NN glass)))) (. .)))
+-135.173
+(S1 (S (VP (VP (VB Shake) (ADVP (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-135.217
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail)))) (NP (NN glass))) (. .)))
+-135.378
+(S1 (FRAG (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-135.396
+(S1 (S (VP (VP (VB Shake) (ADJP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-135.584
+(S1 (S (VP (VP (VBP Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VBP strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-135.896
+(S1 (S (VP (VP (VB Shake) (ADJP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-136.404
+(S1 (SQ (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-136.592
+(S1 (S (VP (VP (VB Shake) (NP (QP (RB vigorously) (IN for) (JJ several)) (NNS seconds))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-136.974
+(S1 (S (VP (VP (VBP Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-137.092
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NP (NN strain)) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))))) (. .)))
+-137.361
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (NP (VB strain)) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-137.378
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (NP (DT a) (NN cocktail)) (NP (NN glass)))))) (. .)))
+-137.417
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (NP (NN strain)) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-137.985
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (NP (DT a) (NN cocktail)) (VP (NN glass)))))) (. .)))
+-138.233
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-138.297
+(S1 (S (VP (VP (VB Shake) (PP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-138.355
+(S1 (FRAG (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))))) (. .)))
+-138.418
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NN strain))))) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-138.505
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NX (NN cocktail) (NN glass)))))) (. .)))
+-138.616
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NX (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-138.747
+(S1 (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NN strain))) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))))) (. .)))
+-138.785
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds)))))) (CC and) (S (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-139.336
+(S1 (S (S (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (S (VP (VBP strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-139.548
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (NP (DT a) (NN cocktail)) (NN glass))))) (. .)))
+-139.644
+(S1 (S (S (VP (VB Shake) (NP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (S (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-139.795
+(S1 (S (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))))) (. .)))
+-139.882
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (S (NP (DT a) (NN cocktail) (NN glass)))))) (. .)))
+-139.924
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (NN strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-140.288
+(S1 (S (S (VP (VB Shake) (PP (ADVP (RB vigorously)) (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (S (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-140.299
+(S1 (S (VP (VB Shake) (PP (ADVP (RB vigorously)) (IN for) (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NN strain)))) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-140.305
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain)) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-140.375
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail)) (NN glass)))) (. .)))
+-140.508
+(S1 (S (VP (VBP Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (NP (JJ several) (NNS seconds)) (CC and) (NP (NN strain)))) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass)))) (. .)))
+-140.596
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VBP strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-140.605
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (ADJP (JJ several)) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-140.792
+(S1 (S (VP (VP (VBP Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (NN strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))
+-140.828
+(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously) (PP (IN for) (NP (JJ several) (NNS seconds))))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail))) (NP (NN glass)))) (. .)))
+
+50	8
+-85.9482
+(S1 (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-91.1206
+(S1 (S (VP (VBP Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-93.2164
+(S1 (FRAG (ADJP (JJ Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-93.4963
+(S1 (NP (NP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-93.4965
+(S1 (NP (NP (NN Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-93.8424
+(S1 (S (ADJP (JJ Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-93.8578
+(S1 (SQ (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-94.0014
+(S1 (NP (NP (NNP Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-94.1498
+(S1 (NP (NP (VB Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-94.8132
+(S1 (S (VP (NN Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-95.1682
+(S1 (NP (NP (NNS Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-95.2247
+(S1 (S (VP (NNP Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-95.9594
+(S1 (S (ADJP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-96.028
+(S1 (S (ADJP (NNP Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-96.0376
+(S1 (S (VP (NNS Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-96.3451
+(S1 (S (VP (JJ Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-96.4066
+(S1 (FRAG (NP (NP (NN Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-96.7066
+(S1 (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .))))
+-96.8686
+(S1 (FRAG (NP (NN Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-97.0621
+(S1 (S (VP (VB Garnish) (PRT (RP with)) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-97.2658
+(S1 (FRAG (PP (JJ Garnish) (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-97.3369
+(S1 (FRAG (NP (NNP Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-97.5716
+(S1 (S (VP (VB Garnish) (PRT (IN with)) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-97.6003
+(S1 (S (VP (VBN Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-97.8496
+(S1 (FRAG (ADJP (ADJP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-98.5988
+(S1 (S (VP (VB Garnish) (PP (IN with) (NP (NNP a) (NNP lime) (NN twist)))) (. .)))
+-98.8033
+(S1 (FRAG (NP (NP (NNS Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-99.0171
+(S1 (FRAG (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))))) (. .)))
+-99.2141
+(S1 (S (VP (VB Garnish) (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-99.3284
+(S1 (S (ADJP (ADJP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-99.4693
+(S1 (FRAG (JJ Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-99.7514
+(S1 (FRAG (NP (NP (NNP Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-99.9822
+(S1 (FRAG (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-100.086
+(S1 (FRAG (ADJP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-100.411
+(S1 (FRAG (PP (JJ Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-100.479
+(S1 (S (VP (VB Garnish) (PP (IN with) (S (NP (DT a) (NNP lime) (NN twist))))) (. .)))
+-100.512
+(S1 (S (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))))) (. .)))
+-101.18
+(S1 (FRAG (NP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-101.373
+(S1 (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-101.408
+(S1 (X (NP (NNP Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-101.543
+(S1 (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NP (NNP lime)) (NN twist)))) (. .)))
+-101.649
+(S1 (FRAG (NP (NP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-101.903
+(S1 (S (VP (ADJP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-101.955
+(S1 (X (NNP Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-102.01
+(S1 (FRAG (ADJP (JJ Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-102.072
+(S1 (S (VP (VB Garnish) (SBAR (IN with) (S (NP (DT a) (NNP lime) (NN twist))))) (. .)))
+-102.073
+(S1 (X (NP (NP (NNP Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-102.109
+(S1 (S (VP (VB Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+-102.113
+(S1 (NP (NP (NP (NNS Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))
+-102.279
+(S1 (FRAG (NP (VB Garnish)) (PP (IN with) (NP (DT a) (NNP lime) (NN twist))) (. .)))
+

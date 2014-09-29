@@ -19,6 +19,7 @@
 <line><originaltext>Add eggs and vanilla; mix well. </originaltext><annotation>mix(ing15, t0, ing16, "mixed things", "mix well")</annotation></line>
 <line><originaltext>Add flour, salt, baking soda, cinnamon and cream of tartar. </originaltext><annotation>combine({ing10, ing16, ing6, ing7, ing8, ing9}, ing17, "things in bowl", "")</annotation></line>
 <line><originaltext>Stir in the pecans if desired. </originaltext><annotation>combine({ing11, ing17}, ing18, "dough", "stir in pecans")</annotation></line>
+<line><originaltext>Stir in the pecans if desired. </originaltext><annotation>put(ing18, t0)</annotation></line>
 <line><originaltext>Roll into 1-in. </originaltext><annotation>remove(ing18,t0)</annotation></line>
 <line><originaltext>Roll into 1-in. </originaltext><annotation>do(ing18, , ing19, "dough balls", "roll into 1-in. balls")</annotation></line>
 <line><originaltext>Place on greased baking sheets; flatten with the bottom of a glass dipped in sugar. </originaltext><annotation>create_tool(t1, "baking sheets")</annotation></line>
