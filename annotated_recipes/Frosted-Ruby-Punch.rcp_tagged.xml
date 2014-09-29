@@ -4,7 +4,7 @@
 <line><originaltext>1 cup orange juice</originaltext><annotation>create_ing(ing32, "1 cup orange juice")</annotation></line>
 <line><originaltext>4 cups ginger ale, chilled</originaltext><annotation>create_ing(ing33, "4 cups ginger ale, chilled")</annotation></line>
 <line><originaltext>1 quart raspberry sherbet</originaltext><annotation>create_ing(ing34, "1 quart raspberry sherbet")</annotation></line>
-<line><originaltext>Pour cranberry juice into a 5-cup ring mold. </originaltext><annotation>create_tool(t9, "5 cup ring mold")</annotation></line>
+<line><originaltext>Pour cranberry juice into a 5-cup ring mold.</originaltext><annotation>create_tool(t9, "5 cup ring mold")</annotation></line>
 <line><originaltext>Pour cranberry juice into a 5-cup ring mold.</originaltext><annotation>put(ing29, t9)</annotation></line>
 <line><originaltext>Freeze over night. </originaltext><annotation>leave(ing29,"freeze over night")</annotation></line>
 <line><originaltext>In a punch bowl, combine sugar, lemon juice and orange juice until sugar is dissolved; stir in the ginger ale. </originaltext><annotation>combine({ing30, ing31, ing32, ing33}, ing35, "sugary jucies", "in a punch bowl, mix until sugar is disolved")</annotation></line>
