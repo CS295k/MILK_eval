@@ -3,8 +3,13 @@ from MILK_parse import MILK_parse_originaltext
 from glob import glob
 from sys import argv
 import os, sys
-from nltk import Tree
 
+try:
+	from nltk import Tree
+except ImportError:
+	print("Importing nltk failed. Install it with pip")
+	print("sudo pip install -U nltk")
+	sys.exit(0)
 
 
 def read_parse_file(filename, num_parses_to_return = 1):
@@ -37,6 +42,7 @@ def read_parse_file(filename, num_parses_to_return = 1):
 				continue
 				#print(str(num_parses) + ", " + str(current_line))
 
+			# If the parse was read, proceed until the next sentence
 			if was_added or have_parse:
 				continue
 
