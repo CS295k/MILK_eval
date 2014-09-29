@@ -31,6 +31,10 @@ class Sexpr(object):
 
 
 def create_recipe_generator(recipe_file = "../annotated_recipes/*.xml", parse_file = "../data/parsed_recipes/*.txt"):
+    def chunks(l, n):
+        for i in xrange(0, len(l), n):
+            yield l[i:i + n]
+
     for recipe, parse in zip(glob(recipe_file), glob(parse_file)):
         with open(recipe) as r:
             elt = etree.XML(r.read())
@@ -39,27 +43,34 @@ def create_recipe_generator(recipe_file = "../annotated_recipes/*.xml", parse_fi
             last_create_ing = next((i for i, v in enumerate(annotation_cmd) if v != "create_ing"), -1)
             create_ing = originaltext[:last_create_ing]
             with open(parse) as p:
-                originaltext_parse = p.read().splitlines()
-                for originaltext, originaltext_parse in zip(create_ing, [Sexpr(parse).to_list() for parse in originaltext_parse[4::102]]):
-                    yield (originaltext, originaltext_parse)
+
+                originaltext_parses = list(chunks(p.read().splitlines(), 102))
+
+                for originaltext, originaltext_parses in zip(create_ing, originaltext_parses):
+                    yield (originaltext, [Sexpr(parse).to_list() for parse in originaltext_parses[2:-1:2]])
 
 
 class Ingredient(object):
 
-    def __init__(self, sexpr):
-        self.sexpr = sexpr
+    def __init__(self, sexprs):
+        self.sexprs = sexprs
 
     def simplify(self):
         # Get left-most NP
-        leftest = self.sexpr
-        while True:
-            if len(leftest) > 1 and isinstance(leftest[1], list):
-                if leftest[0] == "NP":
+
+        stack = self.sexprs
+
+        leftest = None
+        while stack and leftest is None:
+            leftest = stack.pop(0)
+            while True:
+                if len(leftest) > 1 and isinstance(leftest[1], list):
+                    if leftest[0] == "NP":
+                        break
+                    leftest = leftest[1]
+                else:
+                    leftest = None
                     break
-                leftest = leftest[1]
-            else:
-                leftest = None
-                break
 
         # Get right-most NN, NNS, NNP, or NNPS
         rightest = leftest
@@ -77,5 +88,5 @@ class Ingredient(object):
 
 
 if __name__ == "__main__":
-    for originaltext, originaltext_parse in create_recipe_generator():
-        print "%s -> %s" % (originaltext, Ingredient(originaltext_parse).simplify())
+    for originaltext, originaltext_parses in create_recipe_generator():
+        print "%s -> %s" % (originaltext, Ingredient(originaltext_parses).simplify())
