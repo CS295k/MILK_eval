@@ -52,14 +52,13 @@ class Ingredient(object):
     def simplify(self):
         # Get left-most NP
         leftest = self.sexpr
-        bottom_leftest = None
         while True:
             if len(leftest) > 1 and isinstance(leftest[1], list):
                 if leftest[0] == "NP":
-                    bottom_leftest = leftest
+                    break
                 leftest = leftest[1]
             else:
-                leftest = bottom_leftest
+                leftest = None
                 break
 
         # Get right-most NN, NNS, NNP, or NNPS
