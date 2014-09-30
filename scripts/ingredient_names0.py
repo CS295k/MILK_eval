@@ -56,37 +56,33 @@ class Ingredient(object):
         self.sexprs = sexprs
 
     def simplify(self):
-        # Get left-most NP
 
-        stack = self.sexprs
+        # sexpr: top ranked parse with a top-level NP
+        for sexpr in self.sexprs:
+            if "NP" in [s[0] for s in sexpr[1:]]: break
+        else:
+            return None
 
-        leftest = None
-        while stack and leftest is None:
-            leftest = stack.pop(0)
-            while True:
-                if len(leftest) > 1 and isinstance(leftest[1], list):
-                    if leftest[0] == "NP":
-                        break
-                    leftest = leftest[1]
-                else:
-                    leftest = None
-                    break
+        # NPs: all NPs in parse tree found by pre-order DFS
+        NPs = [sexpr]
+        stack = sexpr[1:]
+        while stack:
+            node = stack.pop(0)
+            if node[0] == "NP":
+                NPs.append(node)
+            
+            if isinstance(node, list):
+                stack = node[1:] + stack
 
-        # Get right-most NN, NNS, NNP, or NNPS
-        rightest = leftest
-        while True and (rightest is not None):
-            if len(rightest) > 1 and isinstance(rightest[-1], list):
-                if rightest[-1][0] in {"NN", "NNS", "NNP", "NNPS"}:
-                    rightest = rightest[-1]
-                    break
-                rightest = rightest[-1]
-            else:
-                rightest = None
-                break
-
-        return None if rightest is None else rightest[1]
+        # r: all NN, NNS, NNP, NNPS found
+        for NP in NPs[::-1]:
+            r = [p[1] for p in NP[1:] if p[0] in {"NN", "NNS", "NNP", "NNPS"}]
+            if r:
+                return r[-1]
+        else:
+            return None
 
 
 if __name__ == "__main__":
     for originaltext, originaltext_parses in create_recipe_generator():
-        print "%s -> %s" % (originaltext, Ingredient(originaltext_parses).simplify())
+        print "%s\t%s" % (originaltext, Ingredient(originaltext_parses).simplify())
