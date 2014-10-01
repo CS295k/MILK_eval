@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>1 3/4 cups all-purpose flour</originaltext><annotation>create_ing(ing20, "1 3/4 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing21, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>1 tablespoon baking powder</originaltext><annotation>create_ing(ing22, "1 tablespoon baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing23, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 cup semisweet chocolate chips</originaltext><annotation>create_ing(ing24, "1/2 cup semisweet chocolate chips")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing25, "1 egg")</annotation></line>
+<line><originaltext>1/4 cup vegetable oil</originaltext><annotation>create_ing(ing26, "1/4 cup vegetable oil")</annotation></line>
+<line><originaltext>1/4 cup milk</originaltext><annotation>create_ing(ing27, "1/4 cup milk")</annotation></line>
+<line><originaltext>1 cup mashed bananas</originaltext><annotation>create_ing(ing28, "1 cup mashed bananas")</annotation></line>
+<line><originaltext>Measure flour, sugar, baking powder, salt, and chocolate chips into a large bowl.  </originaltext><annotation>combine({ing20, ing21, ing22, ing23, ing24}, ing29, "dry ingredients", "")</annotation></line>
+<line><originaltext>Measure flour, sugar, baking powder, salt, and chocolate chips into a large bowl.  </originaltext><annotation>create_tool(t3, "large bowl")</annotation></line>
+<line><originaltext>Mix thoroughly, and make a well in the center.</originaltext><annotation>mix(ing29, t3, ing30, "mixed dry ingredients", "mix thoroughly and make a well in the center")</annotation></line>
+<line><originaltext>Beat the egg in a small bowl until frothy.  </originaltext><annotation>create_tool(t4, "small bowl")</annotation></line>
+<line><originaltext>Beat the egg in a small bowl until frothy.  </originaltext><annotation>mix(ing25, t4, ing31, "beaten egg", "beat until frothy")</annotation></line>
+<line><originaltext>Beat the egg in a small bowl until frothy.  </originaltext><annotation>chefcheck(ing31,"frothy")</annotation></line>
+<line><originaltext>Mix in cooking oil, milk, and bananas.  </originaltext><annotation>combine({ing26, ing27, ing28, ing31}, ing32, "mixed wet ingredients", "")</annotation></line>
+<line><originaltext>Pour mixture into the well.  </originaltext><annotation>combine({ing30, ing32}, ing33, "batter", "pour mixture into the well")</annotation></line>
+<line><originaltext>Stir only to moisten.  </originaltext><annotation>mix(ing33, t3, ing34, "moistened batter", "stir only to moisten")</annotation></line>
+<line><originaltext>Fill greased muffin cups 3/4 full.</originaltext><annotation>create_tool(t5, "greased muffin cups")</annotation></line>
+<line><originaltext>Fill greased muffin cups 3/4 full.</originaltext><annotation>put(ing34, t5)</annotation></line>
+<line><originaltext>Bake at 400 degrees F (205 degrees C) for 20 to 25 minutes.</originaltext><annotation>create_tool(t6, "oven")</annotation></line>
+<line><originaltext>Bake at 400 degrees F (205 degrees C) for 20 to 25 minutes.</originaltext><annotation>cook(ing34, t6, ing35, "muffins", "bake at 400 degrees F (205 degrees C) for 20 to 25 minutes")</annotation></line>
+</recipe>

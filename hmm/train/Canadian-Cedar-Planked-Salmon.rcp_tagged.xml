@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>24x8x1 inch untreated cedar plank</originaltext><annotation>create_ing(ing6, "24x8x1 inch untreated cedar plank")</annotation></line>
+<line><originaltext>6 (4 ounce) fillets salmon</originaltext><annotation>create_ing(ing7, "6 (4 ounce) fillets salmon")</annotation></line>
+<line><originaltext>1/2 cup extra virgin olive oil</originaltext><annotation>create_ing(ing8, "1/2 cup extra virgin olive oil")</annotation></line>
+<line><originaltext>1 large red onion, chopped</originaltext><annotation>create_ing(ing9, "1 large red onion, chopped")</annotation></line>
+<line><originaltext>1 lemon, sliced</originaltext><annotation>create_ing(ing10, "1 lemon, sliced")</annotation></line>
+<line><originaltext>1/2 tablespoon black peppercorns, crushed</originaltext><annotation>create_ing(ing11, "1/2 tablespoon black peppercorns, crushed")</annotation></line>
+<line><originaltext>Submerge untreated cedar plank in water. </originaltext><annotation>create_ing(ing12, "water")</annotation></line>
+<line><originaltext>Submerge untreated cedar plank in water. </originaltext><annotation>combine({ing12, ing6}, ing13, "submerged plank", "submerge plank in water")</annotation></line>
+<line><originaltext>Soak approximately 12 hours, or overnight.</originaltext><annotation>leave(ing13,"soak approximately 12 hours or overnight")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for high heat. </originaltext><annotation>create_tool(t2, "outdoor grill")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for high heat. </originaltext><annotation>set(t2,"high heat")</annotation></line>
+<line><originaltext>Place prepared plank on the grill, and sprinkle with coarse salt. </originaltext><annotation>put(ing13, t2)</annotation></line>
+<line><originaltext>Place prepared plank on the grill, and sprinkle with coarse salt. </originaltext><annotation>create_ing(ing14, "coarse salt")</annotation></line>
+<line><originaltext>Place prepared plank on the grill, and sprinkle with coarse salt. </originaltext><annotation>combine({ing13, ing14}, ing15, "salted plank", "sprinkle plank with coarse salt")</annotation></line>
+<line><originaltext>Cover grill and heat plank 2 to 3 minutes, until dry. </originaltext><annotation>cook(ing15, t2, ing16, "cooked plank", "heat 2 to 3 minutes, until dry")</annotation></line>
+<line><originaltext>Cover grill and heat plank 2 to 3 minutes, until dry. </originaltext><annotation>chefcheck(ing16,"until dry")</annotation></line>
+<line><originaltext>Adjust grill temperature for medium heat.</originaltext><annotation>set(t2,"medium heat")</annotation></line>
+<line><originaltext>Rub salmon filets with olive oil. </originaltext><annotation>combine({ing7, ing8}, ing17, "oiled salmon", "rub fillets with oil")</annotation></line>
+<line><originaltext>Arrange on the plank. </originaltext><annotation>combine({ing16, ing17}, ing18, "plank with salmon", "arrange salmon on plank")</annotation></line>
+<line><originaltext>Top salmon with red onion, lemon slices and black peppercorns.</originaltext><annotation>combine({ing10, ing11, ing18, ing9}, ing19, "seasoned salmon", "top salmon with red onion, lemon slices and black peppercorns")</annotation></line>
+<line><originaltext>Cook salmon, covered, 10 to 12 minutes, or until opaque and easily flaked with a fork.</originaltext><annotation>cook(ing19, t2, ing20, "cooked salmon", "covered, 10 to 12 minutes or until opaque and easily flaked with a fork")</annotation></line>
+<line><originaltext>Cook salmon, covered, 10 to 12 minutes, or until opaque and easily flaked with a fork.</originaltext><annotation>chefcheck(ing20,"opaque and easily flaked with a fork")</annotation></line>
+</recipe>

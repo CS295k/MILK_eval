@@ -1,0 +1,9 @@
+<recipe version="1.1"><line><originaltext>1 (10 ounce) package frozen mixed berries</originaltext><annotation>create_ing(ing18, "1 (10 ounce) package frozen mixed berries")</annotation></line>
+<line><originaltext>1 (15 ounce) can sliced peaches, drained</originaltext><annotation>create_ing(ing19, "1 (15 ounce) can sliced peaches, drained")</annotation></line>
+<line><originaltext>2 tablespoons honey</originaltext><annotation>create_ing(ing20, "2 tablespoons honey")</annotation></line>
+<line><originaltext>In a blender, combine frozen fruit, canned fruit and honey. </originaltext><annotation>create_tool(t4, "blender")</annotation></line>
+<line><originaltext>In a blender, combine frozen fruit, canned fruit and honey. </originaltext><annotation>combine({ing18, ing19, ing20}, ing21, "fruit and honey", "")</annotation></line>
+<line><originaltext>In a blender, combine frozen fruit, canned fruit and honey. </originaltext><annotation>put(ing21, t4)</annotation></line>
+<line><originaltext>Blend until smooth.</originaltext><annotation>mix(ing21, t4, ing22, "smoothie", "blend")</annotation></line>
+<line><originaltext>Blend until smooth.</originaltext><annotation>chefcheck(ing22,"smooth")</annotation></line>
+</recipe>

@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>1 eggplant, seeded and cut lengthwise into 1/4 inch slices</originaltext><annotation>create_ing(ing31, "1 eggplant, seeded and cut lengthwise into 1/4 inch slices")</annotation></line>
+<line><originaltext>1 red bell pepper, sliced into thin strips</originaltext><annotation>create_ing(ing32, "1 red bell pepper, sliced into thin strips")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing33, "salt and pepper to taste")</annotation></line>
+<line><originaltext>1 French baguette</originaltext><annotation>create_ing(ing34, "1 French baguette")</annotation></line>
+<line><originaltext>2 ounces soft goat cheese</originaltext><annotation>create_ing(ing35, "2 ounces soft goat cheese")</annotation></line>
+<line><originaltext>1/4 cup tapenade (olive spread)</originaltext><annotation>create_ing(ing36, "1/4 cup tapenade (olive spread)")</annotation></line>
+<line><originaltext>1/4 cup grated Parmesan cheese</originaltext><annotation>create_ing(ing37, "1/4 cup grated Parmesan cheese")</annotation></line>
+<line><originaltext>Preheat the oven broiler. </originaltext><annotation>create_tool(t6, "oven")</annotation></line>
+<line><originaltext>Preheat the oven broiler. </originaltext><annotation>set(t6,"broil")</annotation></line>
+<line><originaltext>Place the eggplant and red bell pepper on a medium baking sheet, and season with salt and pepper. </originaltext><annotation>create_tool(t7, "baking sheet")</annotation></line>
+<line><originaltext>Place the eggplant and red bell pepper on a medium baking sheet, and season with salt and pepper. </originaltext><annotation>put(ing31, t7)</annotation></line>
+<line><originaltext>Place the eggplant and red bell pepper on a medium baking sheet, and season with salt and pepper. </originaltext><annotation>put(ing32, t7)</annotation></line>
+<line><originaltext>Place the eggplant and red bell pepper on a medium baking sheet, and season with salt and pepper. </originaltext><annotation>combine({ing31, ing32}, ing38, "vegetables on a baking sheet", "container logic")</annotation></line>
+<line><originaltext>Place the eggplant and red bell pepper on a medium baking sheet, and season with salt and pepper. </originaltext><annotation>combine({ing33, ing38}, ing39, "seasoned eggplant and pepper", "season the vegetables")</annotation></line>
+<line><originaltext>Broil 5 to 10 minutes, until tender and slightly browned. </originaltext><annotation>cook(ing39, t6, ing40, "broiled eggplant and peppers", "for 5 to 10 minutes")</annotation></line>
+<line><originaltext>Cut baguette in half lengthwise. </originaltext><annotation>create_tool(t8, "bread knife")</annotation></line>
+<line><originaltext>Cut baguette in half lengthwise. </originaltext><annotation>cut(ing34, t8, ing41, "cut-in-half baguette", "in half, lengthwise")</annotation></line>
+<line><originaltext>Spread bottom half with goat cheese, followed by tapenade. </originaltext><annotation>combine({ing35, ing41}, ing42, "cheesed baguette", "spread cheese on lower half of baguette")</annotation></line>
+<line><originaltext>Spread bottom half with goat cheese, followed by tapenade. </originaltext><annotation>combine({ing36, ing42}, ing43, "olived, cheesed baguette", "spread over goat cheese on baguette")</annotation></line>
+<line><originaltext>Layer with eggplant and red pepper, then sprinkle with Parmesan cheese. </originaltext><annotation>combine({ing40, ing43}, ing44, "veggiespreadbread", "layer the vegetables onto the spreads on the bread")</annotation></line>
+<line><originaltext>Layer with eggplant and red pepper, then sprinkle with Parmesan cheese. </originaltext><annotation>combine({ing37, ing44}, ing45, "open face veggiespreadbread with cheese", "sprinkle cheese on top of veggies")</annotation></line>
+<line><originaltext>Cover with top half of baguette. </originaltext><annotation>do(ing45, , ing46, "sandwiches", "put top half back on")</annotation></line>
+<line><originaltext>Cut into 4 pieces. </originaltext><annotation>cut(ing46, t8, ing47, "four sandwiches", "into four pieces")</annotation></line>
+<line><originaltext>Serve hot or cold. </originaltext><annotation>serve(ing47,"hot or cold")</annotation></line>
+</recipe>

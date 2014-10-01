@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>4 medium baked potatoes, quartered lengthwise</originaltext><annotation>create_ing(ing7, "4 medium baked potatoes, quartered lengthwise")</annotation></line>
+<line><originaltext>1/3 cup Hidden Valley&#174; Original Ranch&#174; Salad Dressing</originaltext><annotation>create_ing(ing8, "1/3 cup Hidden Valley&#174; Original Ranch&#174; Salad Dressing")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing9, "1 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>Sliced green onions (optional)</originaltext><annotation>create_ing(ing10, "Sliced green onions (optional)")</annotation></line>
+<line><originaltext>Bacon pieces (optional)</originaltext><annotation>create_ing(ing11, "Bacon pieces (optional)")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F.</originaltext><annotation>set(t2,"preheat 375 degrees F")</annotation></line>
+<line><originaltext>Scoop the potato out of skins; coat inside of skins with Ranch.  </originaltext><annotation>separate(ing7, ing12, "potato middles ", ing13, "potato skins", "")</annotation></line>
+<line><originaltext>Scoop the potato out of skins; coat inside of skins with Ranch.  </originaltext><annotation>combine({ing13, ing8}, ing14, "coated skins", "coat skins with dressing")</annotation></line>
+<line><originaltext>Place back into skins.  </originaltext><annotation>combine({ing12, ing14}, ing15, "potatoes with dressing", "put middles back into skins")</annotation></line>
+<line><originaltext>Sprinkle with cheese.</originaltext><annotation>combine({ing15, ing9}, ing16, "potatoes with cheese", "sprinkle")</annotation></line>
+<line><originaltext>Bake for 10 minutes or until cheese is melted.  </originaltext><annotation>cook(ing16, t2, ing17, "baked potatoes", "for 10 minutesor until cheese is melted")</annotation></line>
+<line><originaltext>Garnish with green onions and/or bacon bits, if desired.</originaltext><annotation>combine({ing10, ing11, ing17}, ing18, "baked potatoes with garnish", "garnish")</annotation></line>
+<line><originaltext>Garnish with green onions and/or bacon bits, if desired.</originaltext><annotation>serve(ing18,"")</annotation></line>
+</recipe>

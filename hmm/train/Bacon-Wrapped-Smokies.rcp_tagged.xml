@@ -1,0 +1,16 @@
+<recipe version="1.1"><line><originaltext>1 pound sliced bacon, cut into thirds</originaltext><annotation>create_ing(ing0, "1 pound sliced bacon, cut into thirds")</annotation></line>
+<line><originaltext>1 (14 ounce) package beef cocktail wieners</originaltext><annotation>create_ing(ing1, "1 (14 ounce) package beef cocktail wieners")</annotation></line>
+<line><originaltext>3/4 cup brown sugar, or to taste</originaltext><annotation>create_ing(ing2, "3/4 cup brown sugar, or to taste")</annotation></line>
+<line><originaltext>Preheat the oven to 325 degrees F (165 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat the oven to 325 degrees F (165 degrees C).</originaltext><annotation>set(t0,"325 degrees F (165 degrees C)")</annotation></line>
+<line><originaltext>Refrigerate 2/3 of the bacon until needed. </originaltext><annotation>separate(ing0, ing3, "2/3 bacon", ing4, "1/2 bacon", "refridgerate 2/3 bacon")</annotation></line>
+<line><originaltext>Wrap each cocktail wiener with a piece of bacon and secure with a toothpick. </originaltext><annotation>combine({ing1, ing3}, ing5, "wrapped wieners", "wrap with bacon")</annotation></line>
+<line><originaltext>Wrap each cocktail wiener with a piece of bacon and secure with a toothpick. </originaltext><annotation>combine({ing4, ing5}, ing6, "wrapped weiners", "wrap with bacon")</annotation></line>
+<line><originaltext>Wrap each cocktail wiener with a piece of bacon and secure with a toothpick. </originaltext><annotation>create_tool(t1, "toothpicks")</annotation></line>
+<line><originaltext>Wrap each cocktail wiener with a piece of bacon and secure with a toothpick. </originaltext><annotation>do(ing6, t1, ing7, "secured weiners", "secure with toothpicks")</annotation></line>
+<line><originaltext>Place on a large baking sheet. </originaltext><annotation>create_tool(t2, "large baking sheet")</annotation></line>
+<line><originaltext>Sprinkle brown sugar generously over all.</originaltext><annotation>combine({ing2, ing7}, ing8, "sugary weiners", "sprinkle")</annotation></line>
+<line><originaltext>Bake for 40 minutes in the preheated oven, until the sugar is bubbly. </originaltext><annotation>cook(ing8, t0, ing9, "baked weiners", "40 minutes")</annotation></line>
+<line><originaltext>Bake for 40 minutes in the preheated oven, until the sugar is bubbly. </originaltext><annotation>chefcheck(ing9,"sugar is bubbly")</annotation></line>
+<line><originaltext>To serve, place the wieners in a slow cooker and keep on the low setting.</originaltext><annotation>serve(ing9,"in a slow cooker")</annotation></line>
+</recipe>

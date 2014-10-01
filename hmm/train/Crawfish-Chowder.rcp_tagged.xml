@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>1/4 cup butter</originaltext><annotation>create_ing(ing83, "1/4 cup butter")</annotation></line>
+<line><originaltext>1/2 bunch green onions, chopped</originaltext><annotation>create_ing(ing84, "1/2 bunch green onions, chopped")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing85, "1/2 cup butter")</annotation></line>
+<line><originaltext>2 pounds frozen crawfish, cleaned</originaltext><annotation>create_ing(ing86, "2 pounds frozen crawfish, cleaned")</annotation></line>
+<line><originaltext>2 (10.75 ounce) cans condensed cream of potato soup</originaltext><annotation>create_ing(ing87, "2 (10.75 ounce) cans condensed cream of potato soup")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can condensed cream of mushroom soup</originaltext><annotation>create_ing(ing88, "1 (10.75 ounce) can condensed cream of mushroom soup")</annotation></line>
+<line><originaltext>1 (15.25 ounce) can whole kernel corn, drained</originaltext><annotation>create_ing(ing89, "1 (15.25 ounce) can whole kernel corn, drained")</annotation></line>
+<line><originaltext>4 ounces cream cheese, softened</originaltext><annotation>create_ing(ing90, "4 ounces cream cheese, softened")</annotation></line>
+<line><originaltext>2 cups half-and-half cream</originaltext><annotation>create_ing(ing91, "2 cups half-and-half cream")</annotation></line>
+<line><originaltext>1/2 teaspoon cayenne pepper</originaltext><annotation>create_ing(ing92, "1/2 teaspoon cayenne pepper")</annotation></line>
+<line><originaltext>Melt 1/4 cup of butter in a large skillet over medium heat. </originaltext><annotation>create_tool(t16, "large skillet")</annotation></line>
+<line><originaltext>Melt 1/4 cup of butter in a large skillet over medium heat. </originaltext><annotation>set(t16,"medium heat")</annotation></line>
+<line><originaltext>Melt 1/4 cup of butter in a large skillet over medium heat. </originaltext><annotation>cook(ing83, t16, ing93, "melted butter", "melt")</annotation></line>
+<line><originaltext>Saute green onions in butter until tender. </originaltext><annotation>cook(ing84, t16, ing94, "sauted onions", "saute")</annotation></line>
+<line><originaltext>Remove from pan, and set aside. </originaltext><annotation>remove(ing94,t16)</annotation></line>
+<line><originaltext>In the same skillet, melt 1/2 cup of butter, and saute the crawfish for 5 minutes; set aside. </originaltext><annotation>cook(ing85, t16, ing95, "more melted butter", "melt")</annotation></line>
+<line><originaltext>In the same skillet, melt 1/2 cup of butter, and saute the crawfish for 5 minutes; set aside. </originaltext><annotation>cook(ing86, t16, ing96, "sauted crawfish", "saute")</annotation></line>
+<line><originaltext>In a large pot over medium heat, combine potato soup, mushroom soup, corn, and cream cheese. </originaltext><annotation>create_tool(t17, "large pot")</annotation></line>
+<line><originaltext>In a large pot over medium heat, combine potato soup, mushroom soup, corn, and cream cheese. </originaltext><annotation>set(t17,"medium heat")</annotation></line>
+<line><originaltext>In a large pot over medium heat, combine potato soup, mushroom soup, corn, and cream cheese. </originaltext><annotation>combine({ing87, ing88, ing89, ing90}, ing97, "cheesy soup", "in the pot")</annotation></line>
+<line><originaltext>Mix well, and bring to a slow boil. </originaltext><annotation>cook(ing97, t17, ing98, "hot soup stuff", "slowly boil")</annotation></line>
+<line><originaltext>Stir in half-and-half, sauteed green onions, and crawfish. </originaltext><annotation>combine({ing91, ing94, ing96, ing98}, ing99, "soupiness", "stir in")</annotation></line>
+<line><originaltext>Season with cayenne pepper. </originaltext><annotation>combine({ing92, ing99}, ing100, "seasoned soup", "season")</annotation></line>
+<line><originaltext>Bring to a low boil, and simmer 5 minutes to blend flavors. </originaltext><annotation>cook(ing100, t17, ing101, "chowder", "low boil, simmer 5 minutes")</annotation></line>
+</recipe>

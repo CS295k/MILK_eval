@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1/2 cup flaked coconut</originaltext><annotation>create_ing(ing0, "1/2 cup flaked coconut")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing1, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>2 cups packed brown sugar</originaltext><annotation>create_ing(ing2, "2 cups packed brown sugar")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing3, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 1/2 teaspoons baking powder</originaltext><annotation>create_ing(ing4, "1 1/2 teaspoons baking powder")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing5, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>2. Add: 3/4 cup butter or margarine, softened at room temperature. </originaltext><annotation>create_ing(ing6, "3/4 cup butter or margarine")</annotation></line>
+<line><originaltext>Mix in 2 eggs, slightly beaten and 2 teaspoons vanilla.</originaltext><annotation>create_ing(ing7, "2 eggs")</annotation></line>
+<line><originaltext>Mix in 2 eggs, slightly beaten and 2 teaspoons vanilla.</originaltext><annotation>create_ing(ing8, "2 teaspoons vanilla")</annotation></line>
+<line><originaltext>Mix together flour, salt and baking powder.  </originaltext><annotation>create_tool(t0, "bowl")</annotation></line>
+<line><originaltext>Mix together flour, salt and baking powder.  </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing9, "dry ingredients", "mix")</annotation></line>
+<line><originaltext>2. Add: 3/4 cup butter or margarine, softened at room temperature. </originaltext><annotation>combine({ing6, ing9}, ing10, "dry ingredients with butter", "")</annotation></line>
+<line><originaltext>DO NOT USE DIET MARGARINE. </originaltext><annotation>chefcheck(ing10,"if using margarine, do not use diet")</annotation></line>
+<line><originaltext>Mix in 2 eggs, slightly beaten and 2 teaspoons vanilla.</originaltext><annotation>combine({ing10, ing7, ing8}, ing11, "batter", "eggs slightly beaten")</annotation></line>
+<line><originaltext>4. Spread batter into a sprayed 9 x 13 inch metal pan.</originaltext><annotation>create_tool(t1, "sprayed 9 x13 inch metal pan")</annotation></line>
+<line><originaltext>4. Spread batter into a sprayed 9 x 13 inch metal pan.</originaltext><annotation>put(ing11, t1)</annotation></line>
+<line><originaltext>5. Bake at 375 degrees F (190 degrees C) for 25 minutes. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>5. Bake at 375 degrees F (190 degrees C) for 25 minutes. </originaltext><annotation>put(ing11, t2)</annotation></line>
+<line><originaltext>5. Bake at 375 degrees F (190 degrees C) for 25 minutes. </originaltext><annotation>cook(ing11, t2, ing12, "brownies", "375 degrees F for 25 minutes")</annotation></line>
+<line><originaltext>Cool 15 minutes in baking pan. </originaltext><annotation>leave(ing12,"cool for 15 minutes")</annotation></line>
+<line><originaltext>Cut brownies into 1 1/2 inch squares. </originaltext><annotation>create_tool(t3, "knife")</annotation></line>
+<line><originaltext>Cut brownies into 1 1/2 inch squares. </originaltext><annotation>cut(ing12, t3, ing13, "brownie squares", "1 1/2 inch squares")</annotation></line>
+<line><originaltext>Cool completely in pan. </originaltext><annotation>leave(ing13,"cool completely")</annotation></line>
+<line><originaltext>Makes 2 dozen brownies.</originaltext><annotation>chefcheck(ing13,"makes 2 dozen brownies")</annotation></line>
+<line><originaltext>Makes 2 dozen brownies.</originaltext><annotation>serve(ing13,"")</annotation></line>
+</recipe>

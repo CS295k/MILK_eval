@@ -1,6 +1,8 @@
 # Group Tagger #
 # By Qi Xin
 
+import math
+
 def getCmdStr(cmds, i, j):
 
     # From i (inclusive), take j+1 commands
@@ -34,8 +36,8 @@ def group_tagging(n, cmds, sigmas, taus):
     len_states = n
     len_cmds = len(cmds)
 
-    # Matrix Initialize
-    # mu: len_states x len_cmds
+    # Matrix Initialization
+    # mu: log(len_states x len_cmds)
     mus = [[ 0 for j in xrange(len_states) ] for i in xrange(len_cmds)]
     labels = [[ (-1,-1) for j in xrange(len_states)] for i in xrange(len_cmds)]
 
@@ -45,25 +47,33 @@ def group_tagging(n, cmds, sigmas, taus):
             # Get tau
             cmdStr = getCmdStr(cmds, i, j)
             if cmdStr is None:
-                tau_j_i = 0.0
+                #tau_j_i = 0.0
+                log_tau_j_i = float('-Inf')
             else:
                 # Assume (j, cmdStr) contains
-                tau_j_i = taus[(j, cmdStr)]
+                if (j, cmdStr) not in taus:
+                    #tau_j_i = 1e-5
+                    log_tau_j_i = math.log(1e-5)
+                else:
+                    #tau_j_i = taus[(j, cmdStr)]
+                    log_tau_j_i = math.log(taus[(j, cmdStr)])
 
             if (i == 0):
-                mus[i][j] = 1.0 * tau_j_i
+                #mus[i][j] = 1.0 * tau_j_i
+                mus[i][j] = log_tau_j_i
                 # The start symbol
                 labels[i][j] = (-1,-1)
                 
             else:
                 # possible moves from the most recent
-                best_mu = -1
+                #best_mu = 0
+                best_mu = float('-Inf')
                 best_last = (-1,-1)
                 for k in xrange(len_states):
                     last_i = i-k-1
 
                     # Get last mu & the sigma
-                    mu_lasti_k = 0
+                    mu_lasti_k = float('-Inf')
                     sigma_k_j = 0
                     if (last_i < 0):
                         # Can't move by k+1
@@ -71,10 +81,15 @@ def group_tagging(n, cmds, sigmas, taus):
                     else:
                         # States from k to j
                         mu_lasti_k = mus[last_i][k]
-                        sigma_k_j = sigmas[(k, j)]
+                        #sigma_k_j = sigmas[(k, j)]
+                        if (k, j) not in sigmas:
+                            log_sigma_k_j = math.log(1e-5)
+                        else:
+                            log_sigma_k_j = math.log(sigmas[(k, j)])
                     # End of else
 
-                    current_mu = mu_lasti_k * sigma_k_j * tau_j_i
+                    #current_mu = mu_lasti_k * sigma_k_j * tau_j_i
+                    current_mu = mu_lasti_k + log_sigma_k_j + log_tau_j_i
                     if (current_mu > best_mu):
                         best_mu = current_mu
                         best_last = (last_i, k)
@@ -90,7 +105,7 @@ def group_tagging(n, cmds, sigmas, taus):
     # End of Cmd loop
 
     # Trace back
-    best_end_mu = -1
+    best_end_mu = float('-Inf')
     best_end_k = -1
     for k in xrange(len_states):
         i = len_cmds - k - 1

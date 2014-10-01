@@ -1,0 +1,24 @@
+<recipe version="1.1"><line><originaltext>6 Yukon Gold potatoes, peeled and cubed</originaltext><annotation>create_ing(ing0, "6 Yukon Gold potatoes, peeled and cubed")</annotation></line>
+<line><originaltext>2 sweet potatoes, peeled and cubed</originaltext><annotation>create_ing(ing1, "2 sweet potatoes, peeled and cubed")</annotation></line>
+<line><originaltext>2 tablespoons butter</originaltext><annotation>create_ing(ing2, "2 tablespoons butter")</annotation></line>
+<line><originaltext>1/2 cup heavy cream</originaltext><annotation>create_ing(ing3, "1/2 cup heavy cream")</annotation></line>
+<line><originaltext>1 tablespoon chicken bouillon granules</originaltext><annotation>create_ing(ing4, "1 tablespoon chicken bouillon granules")</annotation></line>
+<line><originaltext>1 2/3 tablespoons brown sugar</originaltext><annotation>create_ing(ing5, "1 2/3 tablespoons brown sugar")</annotation></line>
+<line><originaltext>2 teaspoons black pepper</originaltext><annotation>create_ing(ing6, "2 teaspoons black pepper")</annotation></line>
+<line><originaltext>2 cups shredded Monterey Jack cheese</originaltext><annotation>create_ing(ing7, "2 cups shredded Monterey Jack cheese")</annotation></line>
+<line><originaltext>Place the potatoes and sweet potatoes in a large pot with enough water to cover. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Place the potatoes and sweet potatoes in a large pot with enough water to cover. </originaltext><annotation>combine({ing0, ing1}, ing8, "all potatoes", "")</annotation></line>
+<line><originaltext>Place the potatoes and sweet potatoes in a large pot with enough water to cover. </originaltext><annotation>put(ing8, t0)</annotation></line>
+<line><originaltext>Place the potatoes and sweet potatoes in a large pot with enough water to cover. </originaltext><annotation>chefcheck(ing8,"with enough water to cover the potatoes")</annotation></line>
+<line><originaltext>Bring to a boil. </originaltext><annotation>cook(ing8, t0, ing9, "boiled potatoes", "boil for 15 minutes, until tender but firm")</annotation></line>
+<line><originaltext>Remove from heat, and drain.</originaltext><annotation>do(ing9, t0, ing10, "drained potatoes", "remove from heat and drain")</annotation></line>
+<line><originaltext>Preheat the oven broiler.</originaltext><annotation>create_tool(t1, "broiler")</annotation></line>
+<line><originaltext>In a large bowl, mash the potatoes. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mash the potatoes. </originaltext><annotation>do(ing10, t2, ing11, "mashed potatoes ", "mash")</annotation></line>
+<line><originaltext>Gradually mix in butter, heavy cream, chicken bouillon, brown sugar, and pepper. </originaltext><annotation>combine({ing11, ing2, ing3, ing4, ing5, ing6}, ing12, "potatoes with ingredients", "gradually mix in")</annotation></line>
+<line><originaltext>Transfer the mixture to a medium baking dish, and top with Monterey Jack cheese.</originaltext><annotation>create_tool(t3, "medium baking dish")</annotation></line>
+<line><originaltext>Transfer the mixture to a medium baking dish, and top with Monterey Jack cheese.</originaltext><annotation>put(ing12, t3)</annotation></line>
+<line><originaltext>Transfer the mixture to a medium baking dish, and top with Monterey Jack cheese.</originaltext><annotation>combine({ing12, ing7}, ing13, "potatoes with all ingredients", "top with the cheese")</annotation></line>
+<line><originaltext>Broil uncovered in the preheated oven 10 minutes, or until the cheese is melted and lightly browned.</originaltext><annotation>cook(ing13, t1, ing14, "broiled potatoes", "for 10 minutes, or until cheese is melted and lightly brown")</annotation></line>
+<line><originaltext>Broil uncovered in the preheated oven 10 minutes, or until the cheese is melted and lightly browned.</originaltext><annotation>serve(ing14,"")</annotation></line>
+</recipe>

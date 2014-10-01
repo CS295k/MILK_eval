@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>4 pounds boneless chuck roast</originaltext><annotation>create_ing(ing20, "4 pounds boneless chuck roast")</annotation></line>
+<line><originaltext>2 cups water</originaltext><annotation>create_ing(ing21, "2 cups water")</annotation></line>
+<line><originaltext>1 (1 ounce) package dry onion and mushroom soup mix</originaltext><annotation>create_ing(ing22, "1 (1 ounce) package dry onion and mushroom soup mix")</annotation></line>
+<line><originaltext>1 tablespoon Worcestershire sauce</originaltext><annotation>create_ing(ing23, "1 tablespoon Worcestershire sauce")</annotation></line>
+<line><originaltext>3 potatoes, peeled and chopped</originaltext><annotation>create_ing(ing24, "3 potatoes, peeled and chopped")</annotation></line>
+<line><originaltext>2 stalks celery, chopped</originaltext><annotation>create_ing(ing25, "2 stalks celery, chopped")</annotation></line>
+<line><originaltext>2 carrots, chopped</originaltext><annotation>create_ing(ing26, "2 carrots, chopped")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t6, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t6,"350 degrees F")</annotation></line>
+<line><originaltext>Score roast on top and sides, and place in a medium sized oven bag. </originaltext><annotation>create_tool(t7, "oven bag")</annotation></line>
+<line><originaltext>Score roast on top and sides, and place in a medium sized oven bag. </originaltext><annotation>create_tool(t8, "knife")</annotation></line>
+<line><originaltext>Score roast on top and sides, and place in a medium sized oven bag. </originaltext><annotation>do(ing20, t8, ing27, "scored roast", "score it")</annotation></line>
+<line><originaltext>Score roast on top and sides, and place in a medium sized oven bag. </originaltext><annotation>put(ing27, t7)</annotation></line>
+<line><originaltext>Combine water, soup mix, and Worcestershire sauce; pour over roast. </originaltext><annotation>combine({ing21, ing22, ing23}, ing28, "sauce", "in an implicit bowl and stirred with an implicit utensil")</annotation></line>
+<line><originaltext>Combine water, soup mix, and Worcestershire sauce; pour over roast. </originaltext><annotation>combine({ing27, ing28}, ing29, "sauced roast", "pour over meat in bag")</annotation></line>
+<line><originaltext>Arrange vegetables around meat. </originaltext><annotation>combine({ing24, ing25, ing26}, ing30, "vegetables", "Consolidate for greater efficiency")</annotation></line>
+<line><originaltext>Arrange vegetables around meat. </originaltext><annotation>put(ing30, t7)</annotation></line>
+<line><originaltext>Arrange vegetables around meat. </originaltext><annotation>do(ing30, t7, ing31, "vegetable arranged around meat", "arrange neatly")</annotation></line>
+<line><originaltext>Arrange vegetables around meat. </originaltext><annotation>combine({ing29, ing31}, ing32, "roast, suace and vegetables", "container logic")</annotation></line>
+<line><originaltext>Place oven bag on a roasting pan. </originaltext><annotation>create_tool(t9, "roasting pan")</annotation></line>
+<line><originaltext>Place oven bag on a roasting pan. </originaltext><annotation>do(ing32, t9, ing33, "roast ready to cook", "they're in the bag, so put the bag in the pan")</annotation></line>
+<line><originaltext>Place roast in oven, and immediately reduce heat to 300 degrees F (150 degrees C). </originaltext><annotation>put(ing33, t6)</annotation></line>
+<line><originaltext>Place roast in oven, and immediately reduce heat to 300 degrees F (150 degrees C). </originaltext><annotation>set(t6,"300 degrees F")</annotation></line>
+<line><originaltext>Bake for 1 1/2 hours for medium well done, or adjust time for desired doneness. </originaltext><annotation>cook(ing33, t6, ing34, "medium-well roast", "1 1/2 hours")</annotation></line>
+<line><originaltext>Bake for 1 1/2 hours for medium well done, or adjust time for desired doneness. </originaltext><annotation>chefcheck(ing34,"adjust time for desired doneness")</annotation></line>
+</recipe>

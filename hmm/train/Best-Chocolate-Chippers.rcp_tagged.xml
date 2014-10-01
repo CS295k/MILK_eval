@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>1 cup butter</originaltext><annotation>create_ing(ing0, "1 cup butter")</annotation></line>
+<line><originaltext>1 cup vegetable oil</originaltext><annotation>create_ing(ing1, "1 cup vegetable oil")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing2, "1 cup white sugar")</annotation></line>
+<line><originaltext>1 cup packed brown sugar</originaltext><annotation>create_ing(ing3, "1 cup packed brown sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing4, "2 eggs")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing5, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>4 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing6, "4 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>2 teaspoons baking soda</originaltext><annotation>create_ing(ing7, "2 teaspoons baking soda")</annotation></line>
+<line><originaltext>4 teaspoons cream of tartar</originaltext><annotation>create_ing(ing8, "4 teaspoons cream of tartar")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing9, "1 teaspoon salt")</annotation></line>
+<line><originaltext>2 cups semisweet chocolate chips</originaltext><annotation>create_ing(ing10, "2 cups semisweet chocolate chips")</annotation></line>
+<line><originaltext>1 cup chopped walnuts (optional)</originaltext><annotation>create_ing(ing11, "1 cup chopped walnuts (optional)")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "Oven")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"Preahed to 350 degrees F")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, oil, brown sugar, and white sugar until smooth. </originaltext><annotation>create_tool(t1, "Large Bowl")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, oil, brown sugar, and white sugar until smooth. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing12, "Creamed butter", "Creame until smooth")</annotation></line>
+<line><originaltext>Beat in the eggs and vanilla. </originaltext><annotation>combine({ing12, ing4, ing5}, ing13, "Butter mixture", "Beat in")</annotation></line>
+<line><originaltext>Combine the flour, baking soda, cream of tartar, and salt; stir into the creamed mixture. </originaltext><annotation>combine({ing13, ing6, ing7, ing8, ing9}, ing14, "Dough", "Combine and stir")</annotation></line>
+<line><originaltext>Mix in the chocolate chips and walnuts. </originaltext><annotation>combine({ing10, ing11, ing14}, ing15, "Dough", "Mix in")</annotation></line>
+<line><originaltext>Drop dough by rounded teaspoons onto ungreased cookie sheets.</originaltext><annotation>create_tool(t2, "Cookie Sheets")</annotation></line>
+<line><originaltext>Drop dough by rounded teaspoons onto ungreased cookie sheets.</originaltext><annotation>create_tool(t3, "Rouded Teaspoons")</annotation></line>
+<line><originaltext>Drop dough by rounded teaspoons onto ungreased cookie sheets.</originaltext><annotation>cut(ing15, , ing16, "cookie drops", "drop dough with Rounded teaspoons onto ungreased cookie sheet")</annotation></line>
+<line><originaltext>Bake for 12 to 15 minutes in the preheated oven, or until light brown. </originaltext><annotation>cook(ing16, t0, ing17, "cookies", "until light brown")</annotation></line>
+<line><originaltext>Allow cookies to cool on the baking sheets for a couple of minutes before transferring to wire racks to cool completely.</originaltext><annotation>chefcheck(ing17,"Allow to cool")</annotation></line>
+</recipe>

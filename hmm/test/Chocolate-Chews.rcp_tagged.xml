@@ -1,0 +1,30 @@
+<recipe version="1.1"><line><originaltext>1 cup semisweet chocolate chips</originaltext><annotation>create_ing(ing0, "1 cup semisweet chocolate chips")</annotation></line>
+<line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing1, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing2, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing3, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing4, "2 eggs")</annotation></line>
+<line><originaltext>1/2 teaspoon vanilla extract</originaltext><annotation>create_ing(ing5, "1/2 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing6, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 teaspoon baking powder</originaltext><annotation>create_ing(ing7, "1/2 teaspoon baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon baking soda</originaltext><annotation>create_ing(ing8, "1/2 teaspoon baking soda")</annotation></line>
+<line><originaltext>Melt the chocolate chips in a heavy saucepan over very low heat. </originaltext><annotation>create_tool(t0, "heavy saucepan")</annotation></line>
+<line><originaltext>Melt the chocolate chips in a heavy saucepan over very low heat. </originaltext><annotation>cook(ing0, t0, ing9, "melted chocolate", "melt over very low heat")</annotation></line>
+<line><originaltext>Stir to evenly melt. </originaltext><annotation>mix(ing9, t0, ing10, "melted chocolate", "stir to evenly melt")</annotation></line>
+<line><originaltext>Cream together the butter and sugars until light. </originaltext><annotation>combine({ing1, ing2, ing3}, ing11, "butter mix", "cream together until light")</annotation></line>
+<line><originaltext>Beat in the eggs, one at a time. </originaltext><annotation>combine({ing11, ing4}, ing12, "egg butter mix", "beat in the eggs, one at a time")</annotation></line>
+<line><originaltext>Stir in the melted chocolate and vanilla. </originaltext><annotation>combine({ing10, ing12, ing5}, ing13, "chocolate and vanilla", "stir in")</annotation></line>
+<line><originaltext>In a bowl, whisk together the flour, baking powder and baking soda. </originaltext><annotation>create_tool(t1, "bowl")</annotation></line>
+<line><originaltext>In a bowl, whisk together the flour, baking powder and baking soda. </originaltext><annotation>combine({ing6, ing7, ing8}, ing14, "dry ingredients", "whisk together")</annotation></line>
+<line><originaltext>In a bowl, whisk together the flour, baking powder and baking soda. </originaltext><annotation>put(ing14, t1)</annotation></line>
+<line><originaltext>Add to the butter mixture slowly. </originaltext><annotation>combine({ing13, ing14}, ing15, "dough", "add dry ingredients to butter mixture slowly")</annotation></line>
+<line><originaltext>Blend thoroughly. </originaltext><annotation>mix(ing15, t0, ing16, "blended dough", "blend thoroughly")</annotation></line>
+<line><originaltext>Shape into 1-inch balls and place on a greased cookie sheet. </originaltext><annotation>create_tool(t2, "greased cookie sheet")</annotation></line>
+<line><originaltext>Shape into 1-inch balls and place on a greased cookie sheet. </originaltext><annotation>do(ing16, , ing17, "dough balls", "shape into 1-inch balls")</annotation></line>
+<line><originaltext>Shape into 1-inch balls and place on a greased cookie sheet. </originaltext><annotation>put(ing17, t2)</annotation></line>
+<line><originaltext>Bake at 350 degrees F (180 degrees C) for 12 to 14 minutes. </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (180 degrees C) for 12 to 14 minutes. </originaltext><annotation>cook(ing17, t3, ing18, "cookies", "bake at 350 degrees F for 12 to 14 minutes")</annotation></line>
+<line><originaltext>Let sit on cookie sheet for a minute or two before removing to a rack to cool. </originaltext><annotation>leave(ing18,"let sit for a minute or two")</annotation></line>
+<line><originaltext>Let sit on cookie sheet for a minute or two before removing to a rack to cool. </originaltext><annotation>create_tool(t4, "rack")</annotation></line>
+<line><originaltext>Let sit on cookie sheet for a minute or two before removing to a rack to cool. </originaltext><annotation>put(ing18, t4)</annotation></line>
+<line><originaltext>Let sit on cookie sheet for a minute or two before removing to a rack to cool. </originaltext><annotation>leave(ing18,"cool")</annotation></line>
+</recipe>

@@ -1,0 +1,24 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons peanut oil</originaltext><annotation>create_ing(ing219, "2 tablespoons peanut oil")</annotation></line>
+<line><originaltext>6 cloves garlic, minced</originaltext><annotation>create_ing(ing220, "6 cloves garlic, minced")</annotation></line>
+<line><originaltext>1 teaspoon grated fresh ginger</originaltext><annotation>create_ing(ing221, "1 teaspoon grated fresh ginger")</annotation></line>
+<line><originaltext>1 bunch green onions, chopped</originaltext><annotation>create_ing(ing222, "1 bunch green onions, chopped")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing223, "1 teaspoon salt")</annotation></line>
+<line><originaltext>1 pound boneless skinless chicken breasts, cut into strips</originaltext><annotation>create_ing(ing224, "1 pound boneless skinless chicken breasts, cut into strips")</annotation></line>
+<line><originaltext>2 onions, thinly sliced</originaltext><annotation>create_ing(ing225, "2 onions, thinly sliced")</annotation></line>
+<line><originaltext>1 cup sliced cabbage</originaltext><annotation>create_ing(ing226, "1 cup sliced cabbage")</annotation></line>
+<line><originaltext>1 red bell pepper, thinly sliced</originaltext><annotation>create_ing(ing227, "1 red bell pepper, thinly sliced")</annotation></line>
+<line><originaltext>2 cups sugar snap peas</originaltext><annotation>create_ing(ing228, "2 cups sugar snap peas")</annotation></line>
+<line><originaltext>1 cup chicken broth</originaltext><annotation>create_ing(ing229, "1 cup chicken broth")</annotation></line>
+<line><originaltext>2 tablespoons soy sauce</originaltext><annotation>create_ing(ing230, "2 tablespoons soy sauce")</annotation></line>
+<line><originaltext>2 tablespoons white sugar</originaltext><annotation>create_ing(ing231, "2 tablespoons white sugar")</annotation></line>
+<line><originaltext>2 tablespoons cornstarch</originaltext><annotation>create_ing(ing232, "2 tablespoons cornstarch")</annotation></line>
+<line><originaltext>Heat peanut oil in a wok or large skillet. </originaltext><annotation>create_tool(t21, "wok")</annotation></line>
+<line><originaltext>Heat peanut oil in a wok or large skillet. </originaltext><annotation>cook(ing219, t21, ing233, "hot oil", "heat")</annotation></line>
+<line><originaltext>When oil begins to smoke, quickly stir in 2 cloves minced garlic, ginger root, green onions and salt. </originaltext><annotation>combine({ing220, ing221, ing222, ing223, ing233}, ing234, "vegies in oil", "stir when oil is smoking")</annotation></line>
+<line><originaltext>Stir fry until onion becomes translucent, about 2 minutes. </originaltext><annotation>leave(ing234,"stirfry until onions are transluscent")</annotation></line>
+<line><originaltext>Add chicken and stir until opaque, about 3 minutes. </originaltext><annotation>combine({ing224, ing234}, ing235, "chicken in vegies in oil", "stir until opaque (roughly 3 mins)")</annotation></line>
+<line><originaltext>Add sweet onions, cabbage, bell pepper, peas and 1/2 cup of the broth/water and cover. </originaltext><annotation>separate(ing229, ing236, "1/2 cup chicken broth", ing237, "1/2 cup chicken broth", "separate")</annotation></line>
+<line><originaltext>In a small bowl, mix the remaining 1/2 cup broth/water, soy sauce, sugar and cornstarch. </originaltext><annotation>combine({ing230, ing231, ing232, ing236}, ing238, "sauce", "in a small bowl")</annotation></line>
+<line><originaltext>Add sauce mixture to wok/skillet and stir until chicken and vegetables are coated with the thickened sauce. </originaltext><annotation>combine({ing235, ing238}, ing239, "final", "stir until covered thickly")</annotation></line>
+<line><originaltext>Serve immediately, over hot rice if desired. </originaltext><annotation>serve(ing239,"immediately, over hot rice")</annotation></line>
+</recipe>

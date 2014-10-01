@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>4 skinless, boneless chicken breast halves, cut into bite size pieces</originaltext><annotation>create_ing(ing27, "4 skinless, boneless chicken breast halves, cut into bite size pieces")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing28, "1 onion, chopped")</annotation></line>
+<line><originaltext>1/2 pound baby carrots</originaltext><annotation>create_ing(ing29, "1/2 pound baby carrots")</annotation></line>
+<line><originaltext>4 potatoes</originaltext><annotation>create_ing(ing30, "4 potatoes")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing31, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/4 teaspoon ground turmeric</originaltext><annotation>create_ing(ing32, "1/4 teaspoon ground turmeric")</annotation></line>
+<line><originaltext>3 tablespoons tomato paste</originaltext><annotation>create_ing(ing33, "3 tablespoons tomato paste")</annotation></line>
+<line><originaltext>1/2 cup water</originaltext><annotation>create_ing(ing34, "1/2 cup water")</annotation></line>
+<line><originaltext>1/4 teaspoon garlic powder (optional)</originaltext><annotation>create_ing(ing35, "1/4 teaspoon garlic powder (optional)")</annotation></line>
+<line><originaltext>1/2 teaspoon ground black pepper (optional)</originaltext><annotation>create_ing(ing36, "1/2 teaspoon ground black pepper (optional)")</annotation></line>
+<line><originaltext>In a large pot, put the chopped onion, chicken breast meat, carrots and potatoes. </originaltext><annotation>create_tool(t2, "large pot")</annotation></line>
+<line><originaltext>In a large pot, put the chopped onion, chicken breast meat, carrots and potatoes. </originaltext><annotation>combine({ing27, ing28, ing29, ing30}, ing37, "pot mix", "")</annotation></line>
+<line><originaltext>In a large pot, put the chopped onion, chicken breast meat, carrots and potatoes. </originaltext><annotation>mix(ing37, t2, ing38, "potted mix", "")</annotation></line>
+<line><originaltext>Add the salt and turmeric. </originaltext><annotation>combine({ing31, ing32, ing38}, ing39, "seasoned mix", "")</annotation></line>
+<line><originaltext>Dissolve the tomato paste in water and add. </originaltext><annotation>combine({ing33, ing34}, ing40, "pasty water", "dissolve the tomato paste in water")</annotation></line>
+<line><originaltext>Dissolve the tomato paste in water and add. </originaltext><annotation>combine({ing39, ing40}, ing41, "pasty mix", "")</annotation></line>
+<line><originaltext>If desired, add garlic powder and ground black pepper to season.</originaltext><annotation>combine({ing35, ing36, ing41}, ing42, "seasoned pasty mix", "if desired, add garlic powder and ground black pepper to season")</annotation></line>
+<line><originaltext>Cook for 1 to 1 1/2 hours on medium low heat. </originaltext><annotation>set(t2,"medium low heat")</annotation></line>
+<line><originaltext>Cook for 1 to 1 1/2 hours on medium low heat. </originaltext><annotation>cook(ing42, t2, ing43, "cooked food", "1 to 1 1/2 hours")</annotation></line>
+<line><originaltext>Serve.</originaltext><annotation>serve(ing43,"")</annotation></line>
+</recipe>

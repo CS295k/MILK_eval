@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>1 (16 ounce) package macaroni</originaltext><annotation>create_ing(ing0, "1 (16 ounce) package macaroni")</annotation></line>
+<line><originaltext>1/2 cup mayonnaise</originaltext><annotation>create_ing(ing1, "1/2 cup mayonnaise")</annotation></line>
+<line><originaltext>1 cup cucumber - peeled, seeded and chopped</originaltext><annotation>create_ing(ing2, "1 cup cucumber - peeled, seeded and chopped")</annotation></line>
+<line><originaltext>1 tablespoon dried minced onion</originaltext><annotation>create_ing(ing3, "1 tablespoon dried minced onion")</annotation></line>
+<line><originaltext>1 cup diced ham</originaltext><annotation>create_ing(ing4, "1 cup diced ham")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing5, "1 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>3 tablespoons olive oil</originaltext><annotation>create_ing(ing6, "3 tablespoons olive oil")</annotation></line>
+<line><originaltext>3 tablespoons white wine vinegar</originaltext><annotation>create_ing(ing7, "3 tablespoons white wine vinegar")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing8, "salt and pepper to taste")</annotation></line>
+<line><originaltext>In a large pot of salted boiling water, cook pasta until al dente, rinse under cold water and drain.</originaltext><annotation>create_tool(t0, "large pot of salted boiling water")</annotation></line>
+<line><originaltext>In a large pot of salted boiling water, cook pasta until al dente, rinse under cold water and drain.</originaltext><annotation>cook(ing0, t0, ing9, "cooked pasta", "Cook until al dente")</annotation></line>
+<line><originaltext>In a large pot of salted boiling water, cook pasta until al dente, rinse under cold water and drain.</originaltext><annotation>do(ing9, t0, ing15, "rinsed pasta", "rinse under cold water and drain")</annotation></line>
+<line><originaltext>In a large bowl, combine the pasta, mayonnaise and mix well. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the pasta, mayonnaise and mix well. </originaltext><annotation>combine({ing1, ing15}, ing10, "pasta mix", "combine")</annotation></line>
+<line><originaltext>In a large bowl, combine the pasta, mayonnaise and mix well. </originaltext><annotation>mix(ing10, t1, ing11, "mixed pasta", "mix well")</annotation></line>
+<line><originaltext>Stir in cucumber, onion, ham and cheese. </originaltext><annotation>combine({ing11, ing2, ing3, ing4, ing5}, ing12, "pasta mix", "stir in")</annotation></line>
+<line><originaltext>Mix well. </originaltext><annotation>mix(ing12, t1, ing13, "pasta mix", "mix well")</annotation></line>
+<line><originaltext>Drizzle oil and vinegar over top and toss. </originaltext><annotation>combine({ing13, ing6, ing7}, ing14, "pasta salad", "drizzle over")</annotation></line>
+<line><originaltext>Refrigerate for at least 4 hours.</originaltext><annotation>leave(ing14, "refrigerate for at least 4 hours")</annotation></line>
+</recipe>

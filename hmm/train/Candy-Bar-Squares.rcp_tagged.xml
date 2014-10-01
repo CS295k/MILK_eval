@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>1 cup butter, softened</originaltext><annotation>create_ing(ing21, "1 cup butter, softened")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing22, "1 cup white sugar")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing23, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing24, "2 eggs")</annotation></line>
+<line><originaltext>3 cups all-purpose flour</originaltext><annotation>create_ing(ing25, "3 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing26, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing27, "1 teaspoon salt")</annotation></line>
+<line><originaltext>6 (2.1 ounce) bars chocolate-coated peanut and nougat candy, eg: Baby</originaltext><annotation>create_ing(ing28, "6 (2.1 ounce) bars chocolate-coated peanut and nougat candy, eg: Baby")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t3,"350 degrees F")</annotation></line>
+<line><originaltext>Beat the butter or margarine with the white and brown sugars until light and fluffy. </originaltext><annotation>combine({ing21, ing22, ing23}, ing29, "butter and sugar", "beat until ight and fluffy")</annotation></line>
+<line><originaltext>Beat the butter or margarine with the white and brown sugars until light and fluffy. </originaltext><annotation>chefcheck(ing29,"light and fluffy")</annotation></line>
+<line><originaltext>Blend in the eggs, mixing well.</originaltext><annotation>combine({ing24, ing29}, ing30, "butter sugar eggs", "blend, mixing well")</annotation></line>
+<line><originaltext>Mix in the flour, baking soda and salt to the egg mixture. </originaltext><annotation>combine({ing25, ing26, ing27, ing30}, ing31, "butter mix with dry ", "")</annotation></line>
+<line><originaltext>Reserve 1/2 cup of the chopped candy bars for the topping. </originaltext><annotation>separate(ing28, ing32, "1/2 cup chopped candy bar", ing33, "remaining candy", "reserve 1/2 cup of the chopped candy for topping")</annotation></line>
+<line><originaltext>Stir the remaining candy into the flour mixture. </originaltext><annotation>combine({ing31, ing33}, ing34, "batter", "")</annotation></line>
+<line><originaltext>Spread the batter into one 13x9 inch baking pan. </originaltext><annotation>create_tool(t4, "13x9 inch baking pan")</annotation></line>
+<line><originaltext>Spread the batter into one 13x9 inch baking pan. </originaltext><annotation>put(ing34, t4)</annotation></line>
+<line><originaltext>Sprinkle the reserved candy on top.</originaltext><annotation>combine({ing32, ing34}, ing35, "prebaked cake", "sprinkle reserved candy on top")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 25 to 30 minutes or until lightly browned. </originaltext><annotation>cook(ing35, t3, ing36, "baked cake", "25 to 30 minutes or unti light browned")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for 25 to 30 minutes or until lightly browned. </originaltext><annotation>chefcheck(ing36,"lightly browned")</annotation></line>
+<line><originaltext>Cool in pan on a wire rack then cut into squares.</originaltext><annotation>create_tool(t5, "pan on a wire rack")</annotation></line>
+<line><originaltext>Cool in pan on a wire rack then cut into squares.</originaltext><annotation>remove(ing36,t3)</annotation></line>
+<line><originaltext>Cool in pan on a wire rack then cut into squares.</originaltext><annotation>put(ing36, t5)</annotation></line>
+<line><originaltext>Cool in pan on a wire rack then cut into squares.</originaltext><annotation>leave(ing36,"cool")</annotation></line>
+<line><originaltext>Cool in pan on a wire rack then cut into squares.</originaltext><annotation>cut(ing36, , ing37, "cut cake", "into squares")</annotation></line>
+</recipe>

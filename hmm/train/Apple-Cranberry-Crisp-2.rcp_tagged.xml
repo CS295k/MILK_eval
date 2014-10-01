@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>2 pounds Granny Smith apples - peeled, cored and thinly sliced</originaltext><annotation>create_ing(ing12, "2 pounds Granny Smith apples - peeled, cored and thinly sliced")</annotation></line>
+<line><originaltext>3/4 cup cranberries</originaltext><annotation>create_ing(ing13, "3/4 cup cranberries")</annotation></line>
+<line><originaltext>1/4 cup white sugar</originaltext><annotation>create_ing(ing14, "1/4 cup white sugar")</annotation></line>
+<line><originaltext>3 teaspoons ground cinnamon</originaltext><annotation>create_ing(ing15, "3 teaspoons ground cinnamon")</annotation></line>
+<line><originaltext>1 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing16, "1 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>1/3 cup quick-cooking oats</originaltext><annotation>create_ing(ing17, "1/3 cup quick-cooking oats")</annotation></line>
+<line><originaltext>1/3 cup all-purpose flour</originaltext><annotation>create_ing(ing18, "1/3 cup all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup packed light brown sugar</originaltext><annotation>create_ing(ing19, "1/2 cup packed light brown sugar")</annotation></line>
+<line><originaltext>1/4 cup butter, cut into pieces</originaltext><annotation>create_ing(ing20, "1/4 cup butter, cut into pieces")</annotation></line>
+<line><originaltext>1/2 cup chopped pecans</originaltext><annotation>create_ing(ing21, "1/2 cup chopped pecans")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C.) Butter an 8 inch square baking dish.</originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C.) Butter an 8 inch square baking dish.</originaltext><annotation>set(t2,"Preheat to 375 degrees F (190 degrees C.)")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C.) Butter an 8 inch square baking dish.</originaltext><annotation>create_tool(t3, "8 inch square baking dish")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C.) Butter an 8 inch square baking dish.</originaltext><annotation>set(t3,"butter")</annotation></line>
+<line><originaltext>In a large bowl, mix together apples, cranberries, white sugar, cinnamon and nutmeg. </originaltext><annotation>create_tool(t4, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix together apples, cranberries, white sugar, cinnamon and nutmeg. </originaltext><annotation>combine({ing12, ing13, ing14, ing15, ing16}, ing22, "apple mixture", "")</annotation></line>
+<line><originaltext>In a large bowl, mix together apples, cranberries, white sugar, cinnamon and nutmeg. </originaltext><annotation>mix(ing22, t4, ing23, "mixed apple stuff", "mix together")</annotation></line>
+<line><originaltext>Place evenly into baking dish.</originaltext><annotation>put(ing23, t3)</annotation></line>
+<line><originaltext>In the same bowl, combine oats, flour and brown sugar. </originaltext><annotation>combine({ing17, ing18, ing19}, ing24, "oat mixture", "in the same bowl")</annotation></line>
+<line><originaltext>With a fork, mix in butter until crumbly. </originaltext><annotation>combine({ing20, ing24}, ing25, "buttered oats", "with a fork, mix in butter until crumbly")</annotation></line>
+<line><originaltext>Stir in pecans. Sprinkle over apples.</originaltext><annotation>combine({ing21, ing25}, ing26, "topping", "stir in pecans")</annotation></line>
+<line><originaltext>Stir in pecans. Sprinkle over apples.</originaltext><annotation>combine({ing23, ing26}, ing27, "uncooked crisp", "sprinkle topping over mixed apple stuff")</annotation></line>
+<line><originaltext>Bake in preheated oven for 40 to 50 minutes, or until topping is golden brown, and apples are tender.</originaltext><annotation>cook(ing27, t2, ing28, "finished crisp", "Bake for 40 to 50 minutes or until toppong is golden brown, and apples are tender")</annotation></line>
+<line><originaltext>Bake in preheated oven for 40 to 50 minutes, or until topping is golden brown, and apples are tender.</originaltext><annotation>chefcheck(ing28,"topping is golden brown and apples are tender")</annotation></line>
+</recipe>

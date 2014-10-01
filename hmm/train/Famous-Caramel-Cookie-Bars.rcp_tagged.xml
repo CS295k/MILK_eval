@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>40 rectangular shortbread cookies</originaltext><annotation>create_ing(ing0, "40 rectangular shortbread cookies")</annotation></line>
+<line><originaltext>35 individually wrapped caramels, unwrapped</originaltext><annotation>create_ing(ing1, "35 individually wrapped caramels, unwrapped")</annotation></line>
+<line><originaltext>1/4 cup water</originaltext><annotation>create_ing(ing2, "1/4 cup water")</annotation></line>
+<line><originaltext>4 cups milk chocolate chips</originaltext><annotation>create_ing(ing3, "4 cups milk chocolate chips")</annotation></line>
+<line><originaltext>Place shortbread cookies on a baking sheet or tray. </originaltext><annotation>create_tool(t0, "baking tray")</annotation></line>
+<line><originaltext>Place shortbread cookies on a baking sheet or tray. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>In a small saucepan over medium-low heat, melt caramels in water, stirring frequently. </originaltext><annotation>create_tool(t1, "small saucepan")</annotation></line>
+<line><originaltext>In a small saucepan over medium-low heat, melt caramels in water, stirring frequently. </originaltext><annotation>combine({ing1, ing2}, ing4, "water and caramel", "")</annotation></line>
+<line><originaltext>In a small saucepan over medium-low heat, melt caramels in water, stirring frequently. </originaltext><annotation>put(ing4, t1)</annotation></line>
+<line><originaltext>In a small saucepan over medium-low heat, melt caramels in water, stirring frequently. </originaltext><annotation>cook(ing4, t1, ing5, "melted caramel", "medium heat")</annotation></line>
+<line><originaltext>In a small saucepan over medium-low heat, melt caramels in water, stirring frequently. </originaltext><annotation>cook(ing5, t1, ing6, "melted caramel", "stir frequently")</annotation></line>
+<line><originaltext>Spoon a thin line of caramel over each cookie. </originaltext><annotation>combine({ing0, ing6}, ing7, "topped cookies", "thin line of caramel on each cookie")</annotation></line>
+<line><originaltext>Place cookies in refrigerator until caramel is set. </originaltext><annotation>create_tool(t2, "refrigerator")</annotation></line>
+<line><originaltext>Place cookies in refrigerator until caramel is set. </originaltext><annotation>put(ing7, t2)</annotation></line>
+<line><originaltext>Place cookies in refrigerator until caramel is set. </originaltext><annotation>leave(ing7,"until set")</annotation></line>
+<line><originaltext>Place cookies in refrigerator until caramel is set. </originaltext><annotation>chefcheck(ing7,"set")</annotation></line>
+<line><originaltext>Line baking sheets or trays with waxed paper. </originaltext><annotation>create_ing(ing8, "waxed paper. ")</annotation></line>
+<line><originaltext>Line baking sheets or trays with waxed paper. </originaltext><annotation>create_tool(t3, "more baking trays")</annotation></line>
+<line><originaltext>Line baking sheets or trays with waxed paper. </originaltext><annotation>put(ing8, t3)</annotation></line>
+<line><originaltext>In a double boiler over simmering water, melt chocolate. </originaltext><annotation>create_tool(t4, "double boiler")</annotation></line>
+<line><originaltext>In a double boiler over simmering water, melt chocolate. </originaltext><annotation>cook(ing3, t4, ing9, "melted chocolate", "over simmering water")</annotation></line>
+<line><originaltext>In a double boiler over simmering water, melt chocolate. </originaltext><annotation>chefcheck(ing9,"melted")</annotation></line>
+<line><originaltext>Dip cookies in chocolate one at a time, tapping against the side of the bowl to remove excess. </originaltext><annotation>combine({ing7, ing9}, ing10, "dipped cookies", "dip, tapping side on bowl")</annotation></line>
+<line><originaltext>Place on prepared sheets and let rest at room temperature several hours, until set. </originaltext><annotation>put(ing10, t3)</annotation></line>
+<line><originaltext>Place on prepared sheets and let rest at room temperature several hours, until set. </originaltext><annotation>leave(ing10,"at room temperature")</annotation></line>
+<line><originaltext>Place on prepared sheets and let rest at room temperature several hours, until set. </originaltext><annotation>chefcheck(ing10,"set")</annotation></line>
+<line><originaltext>Place on prepared sheets and let rest at room temperature several hours, until set. </originaltext><annotation>serve(ing10,"")</annotation></line>
+</recipe>

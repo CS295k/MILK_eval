@@ -1,0 +1,28 @@
+<recipe><line><originaltext>1 1/2 cups boiling chicken broth</originaltext><annotation>create_ing(ing0, "1 1/2 cups boiling chicken broth")</annotation></line>
+<line><originaltext>1/2 cup uncooked long grain rice</originaltext><annotation>create_ing(ing1, "1/2 cup uncooked long grain rice")</annotation></line>
+<line><originaltext>1/4 teaspoon Italian seasoning</originaltext><annotation>create_ing(ing2, "1/4 teaspoon Italian seasoning")</annotation></line>
+<line><originaltext>1/4 teaspoon garlic powder</originaltext><annotation>create_ing(ing3, "1/4 teaspoon garlic powder")</annotation></line>
+<line><originaltext>1 (10 ounce) package frozen chopped broccoli, thawed and drained</originaltext><annotation>create_ing(ing4, "1 (10 ounce) package frozen chopped broccoli, thawed and drained")</annotation></line>
+<line><originaltext>1 tablespoon grated Parmesan cheese</originaltext><annotation>create_ing(ing5, "1 tablespoon grated Parmesan cheese")</annotation></line>
+<line><originaltext>1 (2.8 ounce) can French-fried onions, divided</originaltext><annotation>create_ing(ing6, "1 (2.8 ounce) can French-fried onions, divided")</annotation></line>
+<line><originaltext>1 pound fresh or frozen fish fillets, thawed</originaltext><annotation>create_ing(ing7, "1 pound fresh or frozen fish fillets, thawed")</annotation></line>
+<line><originaltext>1 dash paprika</originaltext><annotation>create_ing(ing8, "1 dash paprika")</annotation></line>
+<line><originaltext>1/2 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing9, "1/2 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>In a greased 11-in. x 7-in. x 2-in. baking dish, combine the broth, rice, Italian seasoning and garlic powder. </originaltext><annotation>create_tool(t0, "11 in x 7 in x 2 in baking dish")</annotation></line>
+<line><originaltext>In a greased 11-in. x 7-in. x 2-in. baking dish, combine the broth, rice, Italian seasoning and garlic powder. </originaltext><annotation>set(t0,"grease")</annotation></line>
+<line><originaltext>In a greased 11-in. x 7-in. x 2-in. baking dish, combine the broth, rice, Italian seasoning and garlic powder. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing10, "broth and rice", "")</annotation></line>
+<line><originaltext>In a greased 11-in. x 7-in. x 2-in. baking dish, combine the broth, rice, Italian seasoning and garlic powder. </originaltext><annotation>put({ing10}, t0)</annotation></line>
+<line><originaltext>Cover and bake at 375 degrees F for 10 minutes. </originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Cover and bake at 375 degrees F for 10 minutes. </originaltext><annotation>set(t1,"375 degrees")</annotation></line>
+<line><originaltext>Cover and bake at 375 degrees F for 10 minutes. </originaltext><annotation>set(t0,"cover")</annotation></line>
+<line><originaltext>Cover and bake at 375 degrees F for 10 minutes. </originaltext><annotation>cook(ing10, t1, ing11, "cooked broth and rice", "10 minutes")</annotation></line>
+<line><originaltext>Add the broccoli, Parmesan cheese and half of the onions. </originaltext><annotation>separate(ing6, ing12, "onions 1", ing13, "onions 2", "")</annotation></line>
+<line><originaltext>Add the broccoli, Parmesan cheese and half of the onions. </originaltext><annotation>combine({ing11, ing12, ing4, ing5}, ing14, "broth, rice, broccoli", "")</annotation></line>
+<line><originaltext>Top with fish fillets; sprinkle with paprika.</originaltext><annotation>combine({ing14, ing7}, ing15, "fish fillets with rice", "top with fish fillets")</annotation></line>
+<line><originaltext>Top with fish fillets; sprinkle with paprika.</originaltext><annotation>combine({ing15, ing8}, ing16, "fish fillets", "sprinkle with paprika")</annotation></line>
+<line><originaltext>Cover and bake 20-25 minutes longer or until the fish flakes easily with a fork. </originaltext><annotation>set(t0,"cover")</annotation></line>
+<line><originaltext>Cover and bake 20-25 minutes longer or until the fish flakes easily with a fork. </originaltext><annotation>cook(ing16, t1, ing17, "baked fish fillets", "20-25 minutes or until the fish flakes easily with a fork")</annotation></line>
+<line><originaltext>Uncover; sprinkle with cheddar cheese and remaining onions. </originaltext><annotation>set(t0,"uncover")</annotation></line>
+<line><originaltext>Uncover; sprinkle with cheddar cheese and remaining onions. </originaltext><annotation>combine({ing13, ing17, ing9}, ing18, "fish fillets topped with cheese", "sprinkle with cheddar cheese and onions")</annotation></line>
+<line><originaltext>Return to the oven for 3 minutes or until cheese is melted.</originaltext><annotation>cook(ing18, t1, ing19, "baked fish and rice", "3 minutes or until cheese is melted")</annotation></line>
+</recipe>

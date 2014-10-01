@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>1 1/2 cups dried black-eyed peas, soaked overnight</originaltext><annotation>create_ing(ing0, "1 1/2 cups dried black-eyed peas, soaked overnight")</annotation></line>
+<line><originaltext>1/3 cup chopped celery, with leaves</originaltext><annotation>create_ing(ing1, "1/3 cup chopped celery, with leaves")</annotation></line>
+<line><originaltext>1 1/2 cups shredded carrot</originaltext><annotation>create_ing(ing2, "1 1/2 cups shredded carrot")</annotation></line>
+<line><originaltext>3/4 cup chopped fresh parsley</originaltext><annotation>create_ing(ing3, "3/4 cup chopped fresh parsley")</annotation></line>
+<line><originaltext>1/2 cup chopped white onion</originaltext><annotation>create_ing(ing4, "1/2 cup chopped white onion")</annotation></line>
+<line><originaltext>1/8 cup chopped fresh mint</originaltext><annotation>create_ing(ing5, "1/8 cup chopped fresh mint")</annotation></line>
+<line><originaltext>1/4 cup olive oil</originaltext><annotation>create_ing(ing6, "1/4 cup olive oil")</annotation></line>
+<line><originaltext>2 oranges, juiced</originaltext><annotation>create_ing(ing7, "2 oranges, juiced")</annotation></line>
+<line><originaltext>1/2 lemon, juiced</originaltext><annotation>create_ing(ing8, "1/2 lemon, juiced")</annotation></line>
+<line><originaltext>1 garlic clove, pressed</originaltext><annotation>create_ing(ing9, "1 garlic clove, pressed")</annotation></line>
+<line><originaltext>1/2 teaspoon ground coriander</originaltext><annotation>create_ing(ing10, "1/2 teaspoon ground coriander")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing11, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/8 teaspoon freshly ground black pepper</originaltext><annotation>create_ing(ing12, "1/8 teaspoon freshly ground black pepper")</annotation></line>
+<line><originaltext>1 teaspoon brown sugar</originaltext><annotation>create_ing(ing13, "1 teaspoon brown sugar")</annotation></line>
+<line><originaltext>Place the beans in a saucepan with enough water to cover them by one inch. </originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>Place the beans in a saucepan with enough water to cover them by one inch. </originaltext><annotation>set(t0,"fill with water")</annotation></line>
+<line><originaltext>Place the beans in a saucepan with enough water to cover them by one inch. </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Bring beans to a slow boil. </originaltext><annotation>cook(ing0, t0, ing14, "boiled beans", "slow boil")</annotation></line>
+<line><originaltext>Reduce heat to low, and simmer until tender but not mushy (about 35 minutes). </originaltext><annotation>cook(ing14, t0, ing15, "simmered beans", "simmer 35 minutes")</annotation></line>
+<line><originaltext>Reduce heat to low, and simmer until tender but not mushy (about 35 minutes). </originaltext><annotation>chefcheck(ing15,"tender but not mushy")</annotation></line>
+<line><originaltext>Set aside to cool.</originaltext><annotation>leave(ing15,"cool")</annotation></line>
+<line><originaltext>When the beans have cooled, place them in a large bowl. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>When the beans have cooled, place them in a large bowl. </originaltext><annotation>put(ing15, t1)</annotation></line>
+<line><originaltext>Add the celery, carrots, parsley, white onion, and mint; toss to blend.</originaltext><annotation>combine({ing1, ing15, ing2, ing3, ing4, ing5}, ing16, "salad", "add")</annotation></line>
+<line><originaltext>Add the celery, carrots, parsley, white onion, and mint; toss to blend.</originaltext><annotation>mix(ing16, t1, ing17, "tossed salad", "toss together")</annotation></line>
+<line><originaltext>For dressing, blend olive oil, orange and lemon juice, garlic, coriander, salt, pepper, and brown sugar in a blender for 6 seconds. </originaltext><annotation>create_tool(t2, "blender")</annotation></line>
+<line><originaltext>For dressing, blend olive oil, orange and lemon juice, garlic, coriander, salt, pepper, and brown sugar in a blender for 6 seconds. </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing6, ing7, ing8, ing9}, ing18, "dressing", "in blender")</annotation></line>
+<line><originaltext>For dressing, blend olive oil, orange and lemon juice, garlic, coriander, salt, pepper, and brown sugar in a blender for 6 seconds. </originaltext><annotation>mix(ing18, t2, ing19, "blended dressing", "6 seconds")</annotation></line>
+<line><originaltext>Transfer to a small saucepan, and simmer over low heat for five minutes. </originaltext><annotation>create_tool(t3, "small saucepan")</annotation></line>
+<line><originaltext>Transfer to a small saucepan, and simmer over low heat for five minutes. </originaltext><annotation>cook(ing19, t3, ing20, "cooked dressing", "simmer over low heat for five minutes")</annotation></line>
+<line><originaltext>Remove from heat, and cool. </originaltext><annotation>leave(ing20,"let cool")</annotation></line>
+<line><originaltext>Pour dressing over the bean salad, and refrigerate for at least 1 hour before serving.</originaltext><annotation>combine({ing17, ing20}, ing21, "dressed salad", "pour over")</annotation></line>
+<line><originaltext>Pour dressing over the bean salad, and refrigerate for at least 1 hour before serving.</originaltext><annotation>serve(ing21,"after refridgerating for an hour")</annotation></line>
+</recipe>

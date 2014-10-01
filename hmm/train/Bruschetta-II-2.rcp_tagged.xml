@@ -1,0 +1,19 @@
+<recipe version="1.1"><line><originaltext>10 slices Italian bread</originaltext><annotation>create_ing(ing6, "10 slices Italian bread")</annotation></line>
+<line><originaltext>2 1/2 teaspoons olive oil</originaltext><annotation>create_ing(ing7, "2 1/2 teaspoons olive oil")</annotation></line>
+<line><originaltext>4 vine-ripened tomatoes</originaltext><annotation>create_ing(ing8, "4 vine-ripened tomatoes")</annotation></line>
+<line><originaltext>1 teaspoon chopped fresh basil</originaltext><annotation>create_ing(ing9, "1 teaspoon chopped fresh basil")</annotation></line>
+<line><originaltext>Preheat broiler.</originaltext><annotation>create_tool(t3, "broiler")</annotation></line>
+<line><originaltext>Preheat broiler.</originaltext><annotation>set(t3,"preheat")</annotation></line>
+<line><originaltext>Cover a medium sized baking sheet with a single layer of bread slices. </originaltext><annotation>create_tool(t4, "baking pan")</annotation></line>
+<line><originaltext>Cover a medium sized baking sheet with a single layer of bread slices. </originaltext><annotation>put(ing6, t4)</annotation></line>
+<line><originaltext>Brush the slices with olive oil.</originaltext><annotation>do(ing6, , ing15, "brushed slices", "brush with olive oil")</annotation></line>
+<line><originaltext>Dice the tomatoes. </originaltext><annotation>cut(ing8, , ing10, "diced tomatoes", "dice")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the tomatoes, olive oil and basil. </originaltext><annotation>create_tool(t5, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the tomatoes, olive oil and basil. </originaltext><annotation>combine({ing10, ing7, ing9}, ing11, "topping", "")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the tomatoes, olive oil and basil. </originaltext><annotation>put(ing11, t5)</annotation></line>
+<line><originaltext>Mix for two minutes.</originaltext><annotation>mix(ing11, t5, ing12, "topping", "for 2 minutes")</annotation></line>
+<line><originaltext>Place bread under broiler until lightly browned. </originaltext><annotation>cook(ing15, t3, ing13, "browned bread", "until lightly brown")</annotation></line>
+<line><originaltext>Remove from broiler and top with the tomato mixture.</originaltext><annotation>remove(ing13,t3)</annotation></line>
+<line><originaltext>Remove from broiler and top with the tomato mixture.</originaltext><annotation>combine({ing12, ing13}, ing14, "bruschetta", "spread topping on top of bread")</annotation></line>
+<line><originaltext>Remove from broiler and top with the tomato mixture.</originaltext><annotation>serve(ing14,"")</annotation></line>
+</recipe>

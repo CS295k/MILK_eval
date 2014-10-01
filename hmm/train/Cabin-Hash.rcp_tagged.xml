@@ -1,0 +1,16 @@
+<recipe version="1.1"><line><originaltext>12 medium potatoes - peeled, cooked and cubed</originaltext><annotation>create_ing(ing34, "12 medium potatoes - peeled, cooked and cubed")</annotation></line>
+<line><originaltext>3 cups cubed fully cooked ham</originaltext><annotation>create_ing(ing35, "3 cups cubed fully cooked ham")</annotation></line>
+<line><originaltext>1/2 cup chopped onion</originaltext><annotation>create_ing(ing36, "1/2 cup chopped onion")</annotation></line>
+<line><originaltext>1/2 cup butter or margarine</originaltext><annotation>create_ing(ing37, "1/2 cup butter or margarine")</annotation></line>
+<line><originaltext>1 (10 ounce) package frozen chopped broccoli, thawed</originaltext><annotation>create_ing(ing38, "1 (10 ounce) package frozen chopped broccoli, thawed")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing39, "salt and pepper to taste")</annotation></line>
+<line><originaltext>Sour cream</originaltext><annotation>create_ing(ing40, "Sour cream")</annotation></line>
+<line><originaltext>In a large skillet, cook potatoes, ham and onion in butter, stirring frequently, until potatoes are lightly browned. </originaltext><annotation>create_tool(t5, "large skillet")</annotation></line>
+<line><originaltext>In a large skillet, cook potatoes, ham and onion in butter, stirring frequently, until potatoes are lightly browned. </originaltext><annotation>combine({ing34, ing35, ing36, ing37}, ing41, "skillet stuff", "")</annotation></line>
+<line><originaltext>In a large skillet, cook potatoes, ham and onion in butter, stirring frequently, until potatoes are lightly browned. </originaltext><annotation>cook(ing41, t5, ing42, "cooked skillet stuff", "stir frequently")</annotation></line>
+<line><originaltext>In a large skillet, cook potatoes, ham and onion in butter, stirring frequently, until potatoes are lightly browned. </originaltext><annotation>chefcheck(ing42,"potatoes are lightly browned")</annotation></line>
+<line><originaltext>Add broccoli; heat through. </originaltext><annotation>combine({ing38, ing42}, ing43, "skillet stuff and brocolli", "")</annotation></line>
+<line><originaltext>Add broccoli; heat through. </originaltext><annotation>cook(ing43, t5, ing44, "cook stuff", "heat through")</annotation></line>
+<line><originaltext>Season with salt and pepper. </originaltext><annotation>combine({ing39, ing44}, ing45, "seasoned stuff", "season")</annotation></line>
+<line><originaltext>Serve with sour cream if desired.</originaltext><annotation>serve(ing45,"with sour cream if desired")</annotation></line>
+</recipe>

@@ -1,0 +1,22 @@
+<recipe version="1.1"><line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing0, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 1/2 tablespoons baking powder</originaltext><annotation>create_ing(ing1, "1 1/2 tablespoons baking powder")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing2, "1/4 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 cup flaked coconut</originaltext><annotation>create_ing(ing3, "1/2 cup flaked coconut")</annotation></line>
+<line><originaltext>3/4 cup chopped pecans</originaltext><annotation>create_ing(ing4, "3/4 cup chopped pecans")</annotation></line>
+<line><originaltext>2 cups packed brown sugar</originaltext><annotation>create_ing(ing5, "2 cups packed brown sugar")</annotation></line>
+<line><originaltext>Add 3/4 cup softened butter, 2 beaten eggs, and 2 teaspoons of vanilla extract; mix until well blended. </originaltext><annotation>create_ing(ing6, "3/4 cup softened butter")</annotation></line>
+<line><originaltext>Add 3/4 cup softened butter, 2 beaten eggs, and 2 teaspoons of vanilla extract; mix until well blended. </originaltext><annotation>create_ing(ing7, "2 beaten eggs ")</annotation></line>
+<line><originaltext>Add 3/4 cup softened butter, 2 beaten eggs, and 2 teaspoons of vanilla extract; mix until well blended. </originaltext><annotation>create_ing(ing8, "2 teaspoons vanilla extract ")</annotation></line>
+<line><originaltext>1.  Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>1.  Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>set(t0,"375 degrees F")</annotation></line>
+<line><originaltext>Grease a 9x13 inch baking pan.  </originaltext><annotation>create_tool(t1, "greased 9 x 13 inch baking pan")</annotation></line>
+<line><originaltext>2.  Empty jar of brownie mix into a large mixing bowl; stir to break up lumps. </originaltext><annotation>create_tool(t2, "large mixing bowl")</annotation></line>
+<line><originaltext>2.  Empty jar of brownie mix into a large mixing bowl; stir to break up lumps. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing9, "dry ingredients", "mix")</annotation></line>
+<line><originaltext>Add 3/4 cup softened butter, 2 beaten eggs, and 2 teaspoons of vanilla extract; mix until well blended. </originaltext><annotation>combine({ing6, ing7, ing8, ing9}, ing10, "batter", "mix until well blended")</annotation></line>
+<line><originaltext>Spread batter evenly in the prepared pan.  </originaltext><annotation>put(ing10, t1)</annotation></line>
+<line><originaltext>3.  Bake for 25 minutes. </originaltext><annotation>cook(ing10, t0, ing11, "brownies", "for 25 minutes")</annotation></line>
+<line><originaltext>Allow to cool in the pan some before cutting into squares.</originaltext><annotation>leave(ing11,"cool in pan")</annotation></line>
+<line><originaltext>Allow to cool in the pan some before cutting into squares.</originaltext><annotation>create_tool(t3, "knife")</annotation></line>
+<line><originaltext>Allow to cool in the pan some before cutting into squares.</originaltext><annotation>cut(ing11, t3, ing12, "brownie squares", "")</annotation></line>
+<line><originaltext>Allow to cool in the pan some before cutting into squares.</originaltext><annotation>serve(ing12,"")</annotation></line>
+</recipe>

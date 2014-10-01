@@ -1,0 +1,22 @@
+<recipe version="1.1"><line><originaltext>2 teaspoons olive oil</originaltext><annotation>create_ing(ing0, "2 teaspoons olive oil")</annotation></line>
+<line><originaltext>4 boneless, skinless chicken breast halves</originaltext><annotation>create_ing(ing1, "4 boneless, skinless chicken breast halves")</annotation></line>
+<line><originaltext>1 (10 ounce) can refrigerated large crescent roll dough</originaltext><annotation>create_ing(ing2, "1 (10 ounce) can refrigerated large crescent roll dough")</annotation></line>
+<line><originaltext>8 ounces Brie cheese</originaltext><annotation>create_ing(ing3, "8 ounces Brie cheese")</annotation></line>
+<line><originaltext>1 bunch fresh spinach, rinsed and stems removed</originaltext><annotation>create_ing(ing4, "1 bunch fresh spinach, rinsed and stems removed")</annotation></line>
+<line><originaltext>4 (1/2 ounce) slices prosciutto</originaltext><annotation>create_ing(ing5, "4 (1/2 ounce) slices prosciutto")</annotation></line>
+<line><originaltext>Heat oil in a heavy skillet; or spray a nonstick frying pan with cooking spray. </originaltext><annotation>create_tool(t0, "skillet")</annotation></line>
+<line><originaltext>Heat oil in a heavy skillet; or spray a nonstick frying pan with cooking spray. </originaltext><annotation>cook(ing0, t0, ing6, "hot oil", "heat")</annotation></line>
+<line><originaltext>Saute chicken breasts until no longer pink, and juices run clear; set aside. </originaltext><annotation>combine({ing1, ing6}, ing7, "sauteed chicken", "saute")</annotation></line>
+<line><originaltext>Saute chicken breasts until no longer pink, and juices run clear; set aside. </originaltext><annotation>leave(ing7,"aside")</annotation></line>
+<line><originaltext>Preheat oven to 375  degrees F (190 degrees C.)</originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375  degrees F (190 degrees C.)</originaltext><annotation>set(t1,"preheat 375 degrees F")</annotation></line>
+<line><originaltext>Unroll 4 large crescent rolls. </originaltext><annotation>do(ing2, , ing11, "unrolled rolls", "unroll")</annotation></line>
+<line><originaltext>Layer each with 3 thin slices brie, 3 leaves spinach and 1 slice prosciutto. </originaltext><annotation>combine({ing11, ing3, ing4, ing5}, ing8, "dough with stuff", "layer 3 slices brie, 3 leaves spinach, 1 slice prosciutto")</annotation></line>
+<line><originaltext>Place chicken breast in the center of dough. </originaltext><annotation>combine({ing7, ing8}, ing9, "bundled chicken", "put in center of dough")</annotation></line>
+<line><originaltext>Wrap and tuck dough around chicken until completely enclosed. </originaltext><annotation>do(ing9, , ing12, "chicken in dough", "wrap and tuck dough around chicken")</annotation></line>
+<line><originaltext>Place seam side down on baking sheet.</originaltext><annotation>create_tool(t2, "baking sheet")</annotation></line>
+<line><originaltext>Place seam side down on baking sheet.</originaltext><annotation>put(ing12, t2)</annotation></line>
+<line><originaltext>Bake in preheated oven for 10 to 15 minutes, or until golden brown.</originaltext><annotation>cook(ing12, t1, ing10, "baked chicken bundles", "for 10 to 15 minutes")</annotation></line>
+<line><originaltext>Bake in preheated oven for 10 to 15 minutes, or until golden brown.</originaltext><annotation>chefcheck(ing10,"golden brown")</annotation></line>
+<line><originaltext>Bake in preheated oven for 10 to 15 minutes, or until golden brown.</originaltext><annotation>serve(ing10,"")</annotation></line>
+</recipe>

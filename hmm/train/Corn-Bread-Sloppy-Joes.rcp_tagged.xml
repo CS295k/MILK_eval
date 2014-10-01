@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>1 (8.5 ounce) package corn bread/muffin mix</originaltext><annotation>create_ing(ing0, "1 (8.5 ounce) package corn bread/muffin mix")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing1, "1 egg")</annotation></line>
+<line><originaltext>1/3 cup milk</originaltext><annotation>create_ing(ing2, "1/3 cup milk")</annotation></line>
+<line><originaltext>2 pounds ground beef</originaltext><annotation>create_ing(ing3, "2 pounds ground beef")</annotation></line>
+<line><originaltext>1/2 cup chopped onion</originaltext><annotation>create_ing(ing4, "1/2 cup chopped onion")</annotation></line>
+<line><originaltext>1 (26 ounce) jar meatless spaghetti sauce</originaltext><annotation>create_ing(ing5, "1 (26 ounce) jar meatless spaghetti sauce")</annotation></line>
+<line><originaltext>1 cup frozen corn</originaltext><annotation>create_ing(ing6, "1 cup frozen corn")</annotation></line>
+<line><originaltext>1 (4 ounce) can chopped green chilies, drained</originaltext><annotation>create_ing(ing7, "1 (4 ounce) can chopped green chilies, drained")</annotation></line>
+<line><originaltext>2 (1.3 ounce) envelopes sloppy joe mix</originaltext><annotation>create_ing(ing8, "2 (1.3 ounce) envelopes sloppy joe mix")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing9, "1 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>Prepare and bake corn bread according to package directions, using the egg and milk. </originaltext><annotation>combine({ing0, ing1, ing2}, ing10, "cornbread mix", "prepare corn bread according to package")</annotation></line>
+<line><originaltext>Prepare and bake corn bread according to package directions, using the egg and milk. </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Prepare and bake corn bread according to package directions, using the egg and milk. </originaltext><annotation>cook(ing10, t0, ing11, "cornbread", "bake according to package")</annotation></line>
+<line><originaltext>Meanwhile, in a large skillet, cook beef and onion over medium heat until meat is no longer pink; drain. </originaltext><annotation>create_tool(t1, "large skillet")</annotation></line>
+<line><originaltext>Meanwhile, in a large skillet, cook beef and onion over medium heat until meat is no longer pink; drain. </originaltext><annotation>combine({ing3, ing4}, ing12, "beef and onion", "")</annotation></line>
+<line><originaltext>Meanwhile, in a large skillet, cook beef and onion over medium heat until meat is no longer pink; drain. </originaltext><annotation>cook(ing12, t1, ing13, "cooked beef and onion", "cook beef and onion over medium heat until meat is no longer pink")</annotation></line>
+<line><originaltext>Meanwhile, in a large skillet, cook beef and onion over medium heat until meat is no longer pink; drain. </originaltext><annotation>separate(ing13, ing14, "beef and onion", ing15, "juices", "drain")</annotation></line>
+<line><originaltext>Stir in the spaghetti sauce, corn, chilies and sloppy joe mix. </originaltext><annotation>combine({ing14, ing5, ing6, ing7, ing8}, ing16, "sloppy joe mix", "stir in")</annotation></line>
+<line><originaltext>Bring to a boil. </originaltext><annotation>cook(ing16, t1, ing17, "boiled joe mix", "bring to a boil")</annotation></line>
+<line><originaltext>Reduce heat; simmer, uncovered, for 10 minutes. </originaltext><annotation>cook(ing17, t1, ing18, "simmering joe mix", "reduce heat; simmer, uncovered, for 10 minutes")</annotation></line>
+<line><originaltext>Sprinkle with cheese; cover and cook for 1 minute or until cheese is melted. </originaltext><annotation>combine({ing18, ing9}, ing19, "joe mix with cheese", "sprinkle with cheese")</annotation></line>
+<line><originaltext>Sprinkle with cheese; cover and cook for 1 minute or until cheese is melted. </originaltext><annotation>cook(ing19, t1, ing20, "melted cheese joe mix", "cover and cook for 1 minute")</annotation></line>
+<line><originaltext>Sprinkle with cheese; cover and cook for 1 minute or until cheese is melted. </originaltext><annotation>chefcheck(ing20,"cheese is melted")</annotation></line>
+<line><originaltext>Cut corn bread into six pieces; cut each piece in half. </originaltext><annotation>cut(ing11, , ing21, "6 pieces", "")</annotation></line>
+<line><originaltext>Cut corn bread into six pieces; cut each piece in half. </originaltext><annotation>cut(ing21, , ing22, "6 halved pieces corn bread", "cut each piece in half")</annotation></line>
+<line><originaltext>Top with sloppy joe mixture. </originaltext><annotation>combine({ing20, ing22}, ing23, "corn bread sloppy joes", "top with sloppy joe mixture")</annotation></line>
+</recipe>

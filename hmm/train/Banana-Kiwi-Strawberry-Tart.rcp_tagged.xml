@@ -1,0 +1,56 @@
+<recipe version="1.1"><line><originaltext>1/2 cup all-purpose flour</originaltext><annotation>create_ing(ing76, "1/2 cup all-purpose flour")</annotation></line>
+<line><originaltext>1 tablespoon light brown sugar</originaltext><annotation>create_ing(ing77, "1 tablespoon light brown sugar")</annotation></line>
+<line><originaltext>1/4 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing78, "1/4 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/8 teaspoon salt</originaltext><annotation>create_ing(ing79, "1/8 teaspoon salt")</annotation></line>
+<line><originaltext>2 tablespoons unsalted butter</originaltext><annotation>create_ing(ing80, "2 tablespoons unsalted butter")</annotation></line>
+<line><originaltext>1 1/2 tablespoons ice water</originaltext><annotation>create_ing(ing81, "1 1/2 tablespoons ice water")</annotation></line>
+<line><originaltext>1 cup skim milk</originaltext><annotation>create_ing(ing82, "1 cup skim milk")</annotation></line>
+<line><originaltext>3 egg whites</originaltext><annotation>create_ing(ing83, "3 egg whites")</annotation></line>
+<line><originaltext>2 tablespoons white sugar</originaltext><annotation>create_ing(ing84, "2 tablespoons white sugar")</annotation></line>
+<line><originaltext>1/4 teaspoon vanilla extract</originaltext><annotation>create_ing(ing85, "1/4 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1 bananas, peeled and sliced</originaltext><annotation>create_ing(ing86, "1 bananas, peeled and sliced")</annotation></line>
+<line><originaltext>1 kiwi, peeled and sliced</originaltext><annotation>create_ing(ing87, "1 kiwi, peeled and sliced")</annotation></line>
+<line><originaltext>1 cup sliced fresh strawberries</originaltext><annotation>create_ing(ing88, "1 cup sliced fresh strawberries")</annotation></line>
+<line><originaltext>In a bowl, sift together the flour, light brown sugar, cinnamon, and salt. </originaltext><annotation>create_tool(t11, "bowl")</annotation></line>
+<line><originaltext>In a bowl, sift together the flour, light brown sugar, cinnamon, and salt. </originaltext><annotation>combine({ing76, ing77, ing78, ing79}, ing89, "dry stuff", "")</annotation></line>
+<line><originaltext>In a bowl, sift together the flour, light brown sugar, cinnamon, and salt. </originaltext><annotation>mix(ing89, t11, ing90, "sifted dry stuff", "sift together")</annotation></line>
+<line><originaltext>Cut in the butter until the mixture resembles coarse crumbs. </originaltext><annotation>combine({ing80, ing90}, ing91, "buttery dry stuff", "cut in the butter until the mixture resembles coarse crumbs")</annotation></line>
+<line><originaltext>Cut in the butter until the mixture resembles coarse crumbs. </originaltext><annotation>chefcheck(ing91,"resembles coarse crumbs")</annotation></line>
+<line><originaltext>Sprinkle with the ice water, and toss the mixture with a fork until evenly moistened. </originaltext><annotation>combine({ing81, ing91}, ing92, "wet buttery stuff", "sprinkle with ice water")</annotation></line>
+<line><originaltext>Sprinkle with the ice water, and toss the mixture with a fork until evenly moistened. </originaltext><annotation>create_tool(t12, "fork")</annotation></line>
+<line><originaltext>Sprinkle with the ice water, and toss the mixture with a fork until evenly moistened. </originaltext><annotation>mix(ing92, t12, ing93, "dough", "toss with a fork until evenly moistened")</annotation></line>
+<line><originaltext>Pat into a round, and wrap in plastic. </originaltext><annotation>create_tool(t13, "round")</annotation></line>
+<line><originaltext>Pat into a round, and wrap in plastic. </originaltext><annotation>put(ing93, t13)</annotation></line>
+<line><originaltext>Pat into a round, and wrap in plastic. </originaltext><annotation>set(t13,"wrap in plastic")</annotation></line>
+<line><originaltext>Refrigerate for 30 minutes.</originaltext><annotation>leave(ing93,"refrigerate for 30 minutes")</annotation></line>
+<line><originaltext>In the top half of a double boiler, heat the milk until it begins to bubble. </originaltext><annotation>create_tool(t14, "double boiler")</annotation></line>
+<line><originaltext>In the top half of a double boiler, heat the milk until it begins to bubble. </originaltext><annotation>cook(ing82, t14, ing94, "bubbling milk", "in top half of double boiler, heat until it begins to bubble")</annotation></line>
+<line><originaltext>In a bowl, beat together the egg whites, sugar, and 1 tablespoon of the hot milk. </originaltext><annotation>create_tool(t15, "second bowl")</annotation></line>
+<line><originaltext>In a bowl, beat together the egg whites, sugar, and 1 tablespoon of the hot milk. </originaltext><annotation>separate(ing94, ing95, "1 tablespoon of milk", ing96, "rest of milk", "")</annotation></line>
+<line><originaltext>In a bowl, beat together the egg whites, sugar, and 1 tablespoon of the hot milk. </originaltext><annotation>combine({ing83, ing84, ing95}, ing97, "sweet milk", "")</annotation></line>
+<line><originaltext>In a bowl, beat together the egg whites, sugar, and 1 tablespoon of the hot milk. </originaltext><annotation>mix(ing97, t15, ing98, "egg mixture", "beat together")</annotation></line>
+<line><originaltext>Whisk the egg white mixture into the remaining hot milk. </originaltext><annotation>combine({ing96, ing98}, ing99, "milky egg mix", "whisk egg white mixture into milk")</annotation></line>
+<line><originaltext>Cook and stir without boiling about 10 minutes, until the mixture is thick enough to coat the back of a metal spoon. </originaltext><annotation>cook(ing99, t14, ing100, "hot milky egg mixture", "cook and stir without boiling for 10 minutes, until the mixture is thick enough to coat the back of a metal spoon")</annotation></line>
+<line><originaltext>Cook and stir without boiling about 10 minutes, until the mixture is thick enough to coat the back of a metal spoon. </originaltext><annotation>chefcheck(ing100,"thick enough to coat the back of a metal spoon")</annotation></line>
+<line><originaltext>Remove from heat, and stir in the vanilla. </originaltext><annotation>remove(ing100,t14)</annotation></line>
+<line><originaltext>Remove from heat, and stir in the vanilla. </originaltext><annotation>combine({ing100, ing85}, ing101, "filling", "stir in vanilla")</annotation></line>
+<line><originaltext>Cool to room temperature.</originaltext><annotation>leave(ing101,"cool to room temperature")</annotation></line>
+<line><originaltext>Preheat oven to 375  degrees F (190 degrees C). </originaltext><annotation>create_tool(t16, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375  degrees F (190 degrees C). </originaltext><annotation>set(t16,"preheat to 375 degrees F (190 degrees C)")</annotation></line>
+<line><originaltext>Lightly grease an 8 inch tart pan with a removable bottom.</originaltext><annotation>create_tool(t17, "8 inch tart pan with a removable bottom")</annotation></line>
+<line><originaltext>Lightly grease an 8 inch tart pan with a removable bottom.</originaltext><annotation>set(t17,"lightly grease")</annotation></line>
+<line><originaltext>On a floured surface, roll the tart dough out to 1/4 inch thickness. </originaltext><annotation>do(ing93, , ing108, "rolled dough", "on floured surface, roll out to 1/4 inch thickness")</annotation></line>
+<line><originaltext>Press the chilled dough into the prepared tart pan. </originaltext><annotation>put(ing108, t17)</annotation></line>
+<line><originaltext>Trim the edges, and pierce the bottom with a fork. </originaltext><annotation>cut(ing108, , ing102, "trimmed dough", "trim the edges")</annotation></line>
+<line><originaltext>Trim the edges, and pierce the bottom with a fork. </originaltext><annotation>create_tool(t18, "fork")</annotation></line>
+<line><originaltext>Trim the edges, and pierce the bottom with a fork. </originaltext><annotation>do(ing102, t18, ing107, "trimmed dough pierced with fork", "pierce bottom with a fork")</annotation></line>
+<line><originaltext>Bake 15 to 18 minutes in the preheated oven, until golden brown. </originaltext><annotation>cook(ing107, t16, ing103, "crust", "bake 15 to 18 minutes, until golden brown")</annotation></line>
+<line><originaltext>Bake 15 to 18 minutes in the preheated oven, until golden brown. </originaltext><annotation>chefcheck(ing103,"golden brown")</annotation></line>
+<line><originaltext>Remove to a wire rack, and cool completely.</originaltext><annotation>remove(ing103,t16)</annotation></line>
+<line><originaltext>Remove to a wire rack, and cool completely.</originaltext><annotation>leave(ing103,"cool completely on wire rack")</annotation></line>
+<line><originaltext>Spoon the filling mixture into the crust. </originaltext><annotation>combine({ing101, ing103}, ing104, "crust with filling", "spoon filling into crust")</annotation></line>
+<line><originaltext>Bake 18 to 20 minutes in the preheated oven. </originaltext><annotation>cook(ing104, t16, ing105, "baked crust and filling", "bake 18 to 20 minutes")</annotation></line>
+<line><originaltext>Cool to room temperature on a wire rack. </originaltext><annotation>leave(ing105,"cool to room temperature on a wire rack")</annotation></line>
+<line><originaltext>Refrigerate 8 hours. </originaltext><annotation>leave(ing105,"refrigerate 8 hours")</annotation></line>
+<line><originaltext>Refrigerate 8 hours. </originaltext><annotation>combine({ing105, ing86, ing87, ing88}, ing106, "fruit tart", "arrange fruit over the filling just before serving")</annotation></line>
+</recipe>

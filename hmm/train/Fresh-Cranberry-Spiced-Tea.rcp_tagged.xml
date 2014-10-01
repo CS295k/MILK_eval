@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>1 pound fresh or frozen cranberries</originaltext><annotation>create_ing(ing0, "1 pound fresh or frozen cranberries")</annotation></line>
+<line><originaltext>3 quarts cold water</originaltext><annotation>create_ing(ing1, "3 quarts cold water")</annotation></line>
+<line><originaltext>2 cups orange juice</originaltext><annotation>create_ing(ing2, "2 cups orange juice")</annotation></line>
+<line><originaltext>2 1/8 cups pineapple juice</originaltext><annotation>create_ing(ing3, "2 1/8 cups pineapple juice")</annotation></line>
+<line><originaltext>1/4 cup lemon juice</originaltext><annotation>create_ing(ing4, "1/4 cup lemon juice")</annotation></line>
+<line><originaltext>2 cups white sugar, or to taste</originaltext><annotation>create_ing(ing5, "2 cups white sugar, or to taste")</annotation></line>
+<line><originaltext>1 (3 inch) cinnamon stick</originaltext><annotation>create_ing(ing6, "1 (3 inch) cinnamon stick")</annotation></line>
+<line><originaltext>1 teaspoon whole cloves</originaltext><annotation>create_ing(ing7, "1 teaspoon whole cloves")</annotation></line>
+<line><originaltext>1/2 teaspoon whole allspice berries</originaltext><annotation>create_ing(ing8, "1/2 teaspoon whole allspice berries")</annotation></line>
+<line><originaltext>Place the cranberries and water into a large pot. </originaltext><annotation>combine({ing0, ing1}, ing9, "water and berries", "in a large pot")</annotation></line>
+<line><originaltext>Bring to a boil and cook just until the berries pop, about 5 minutes. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Bring to a boil and cook just until the berries pop, about 5 minutes. </originaltext><annotation>set(t0,"to a boil")</annotation></line>
+<line><originaltext>Bring to a boil and cook just until the berries pop, about 5 minutes. </originaltext><annotation>cook(ing9, t0, ing10, "berry water mix", "until berries pop")</annotation></line>
+<line><originaltext>Remove from the heat and let stand at room temperature until cold, several hours. </originaltext><annotation>leave(ing10,"until cool")</annotation></line>
+<line><originaltext>Strain out the cranberries and stir the orange juice, pineapple juice, lemon juice and sugar into the liquid. </originaltext><annotation>separate(ing10, ing11, "cranberry husks", ing12, "liquid", "strain")</annotation></line>
+<line><originaltext>Strain out the cranberries and stir the orange juice, pineapple juice, lemon juice and sugar into the liquid. </originaltext><annotation>combine({ing12, ing2, ing3, ing4, ing5}, ing13, "liquid", "stir")</annotation></line>
+<line><originaltext>Add the cinnamon stick, whole cloves and allspice berries. </originaltext><annotation>do(ing13, "", ing14, "spiced liquid", "add")</annotation></line>
+<line><originaltext>Bring to a low boil. </originaltext><annotation>combine({ing14, ing6, ing7, ing8}, ing15, "spiced liquid", "add")</annotation></line>
+<line><originaltext>Bring to a low boil. </originaltext><annotation>cook(ing15, t0, ing16, "finished tea", "low boil")</annotation></line>
+</recipe>
