@@ -52,15 +52,19 @@ class Dist(dict):
   def __getitem__(self, key):
     return float(self.numer(key)) / float(self.denom(key))
 
-def get_sigma(recipes):
+def get_sigma(recipes, zero_index=False):
   """Takes a list of recipes each of which should be stripped to predicates and
   without create_ing's and returns the transition probability matrix sigma."""
   just_counts = [[c for (ot, c) in r] for r in map(strip_to_counts, recipes)]
   transition_counts = Counter([tr for r in just_counts for tr in zip(r, r[1:])])
   marginal_counts = Counter([c for r in just_counts for c in r])
 
-  return Dist(lambda (x1, x2): transition_counts[(x1, x2)],
-              lambda (x1, x2): marginal_counts[x1])
+  if zero_index:
+    return Dist(lambda (x1, x2): transition_counts[(x1 + 1, x2 + 1)],
+                lambda (x1, x2): marginal_counts[x1 + 1])
+  else:
+    return Dist(lambda (x1, x2): transition_counts[(x1, x2)],
+                lambda (x1, x2): marginal_counts[x1])
 
 def get_sigma_independent(recipes):
   """Behaves the same as get_sigma with the exception that states are assumed to
@@ -74,11 +78,16 @@ def get_sigma_independent(recipes):
 # recipes = map(remove_create_ing, map(strip_to_predicate, load_recipes()))
 # for x in [1, 2, 3, 4, 5]: print get_sigma(recipes)[(1, x)]
 
-def get_tau(recipes):
+def get_tau(recipes, zero_index=False):
   """Takes a list of each of which should be stripped to predicates and
   without create_ing's and returns the emmission probability matrix tau."""
   joint = Counter([(len(anns), '_'.join(anns)) for r in recipes for (ot, anns) in r])
   just_counts = [[c for (ot, c) in r] for r in map(strip_to_counts, recipes)]
   marginal_counts = Counter([c for r in just_counts for c in r])
 
-  return Dist(lambda (c, anns): joint[(c, anns)], lambda (c, anns): marginal_counts[c])
+  if zero_index:
+    return Dist(lambda (c, anns): joint[(c + 1, anns + 1)],
+                lambda (c, anns): marginal_counts[c + 1])
+  else:
+    return Dist(lambda (c, anns): joint[(c, anns)],
+                lambda (c, anns): marginal_counts[c])
