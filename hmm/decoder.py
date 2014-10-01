@@ -29,7 +29,7 @@ def group_tagging(n, cmds, sigmas, taus):
     # "combine_put_do" for multiple commands
 
     # RETURN:
-    # tags: a list of groupping labels
+    # tags: a list of grouping labels
 
     len_states = n
     len_cmds = len(cmds)
