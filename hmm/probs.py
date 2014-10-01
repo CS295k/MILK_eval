@@ -1,8 +1,12 @@
+"""Fits transition and emmission distributions for the HMM model."""
+
 from collections import Counter
 from glob import glob
 from lxml import etree
 
 def load_recipes():
+  """Loads recipes from the data directory. Recipes are represented as
+  [(orginaltext, [annotation])]. Returns a list of recipes."""
   recipes = []
   for recipe_file in glob('../annotated_recipes/*.xml'):
     with open(recipe_file, 'r') as recipe_xml:
@@ -27,12 +31,17 @@ def load_recipes():
   return recipes
 
 def strip_to_predicate(recipe):
+  """Takes a recipe and strips all annotations to their corresponding
+  predicates."""
   return [(ot, [x.split('(')[0] for x in anns]) for ot, anns in recipe]
 
 def strip_to_counts(recipe):
+  """Takes a recipe and replaces each list of annotations with its length."""
   return [(ot, len(anns)) for ot, anns in recipe]
 
 def remove_create_ing(recipe):
+  """Takes a recipe that has been stripped to predicates and removes any lines
+  corresponding to only create_ing's."""
   return [(ot, anns) for (ot, anns) in recipe if set(anns) != set(['create_ing'])]
 
 class Dist(dict):
@@ -41,9 +50,11 @@ class Dist(dict):
     self.denom = denom
 
   def __getitem__(self, key):
-    return float(self.numer(key)) / self.denom(key)
+    return float(self.numer(key)) / float(self.denom(key))
 
 def get_sigma(recipes):
+  """Takes a list of recipes each of which should be stripped to predicates and
+  without create_ing's and returns the transition probability matrix sigma."""
   just_counts = [[c for (ot, c) in r] for r in map(strip_to_counts, recipes)]
   transition_counts = Counter([tr for r in just_counts for tr in zip(r, r[1:])])
   marginal_counts = Counter([c for r in just_counts for c in r])
@@ -52,6 +63,8 @@ def get_sigma(recipes):
               lambda (x1, x2): marginal_counts[x1])
 
 def get_sigma_independent(recipes):
+  """Behaves the same as get_sigma with the exception that states are assumed to
+  be independent."""
   just_counts = [[c for (ot, c) in r] for r in map(strip_to_counts, recipes)]
   marginal_counts = Counter([c for r in just_counts for c in r])
   total_lines = sum([len(r) for r in recipes])
@@ -62,7 +75,9 @@ def get_sigma_independent(recipes):
 # for x in [1, 2, 3, 4, 5]: print get_sigma(recipes)[(1, x)]
 
 def get_tau(recipes):
-  joint = Counter([(len(anns), '_'.join(anns)) for (ot, anns) in r] for r in recipes]
+  """Takes a list of each of which should be stripped to predicates and
+  without create_ing's and returns the emmission probability matrix tau."""
+  joint = Counter([(len(anns), '_'.join(anns)) for r in recipes for (ot, anns) in r])
   just_counts = [[c for (ot, c) in r] for r in map(strip_to_counts, recipes)]
   marginal_counts = Counter([c for r in just_counts for c in r])
 
