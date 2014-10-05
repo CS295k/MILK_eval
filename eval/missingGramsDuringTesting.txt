@@ -1,0 +1,23 @@
+multiple runs: training = 90%; test = 10%
+
+
+
+we saw 15 quadgrams: 7 missing ( 3 back-off tris missing)
+we saw 47 trigrams: 6 missing ( 1 back-off bis missing)
+we saw 75 bigrams: 0 missing
+-------
+we saw 12 quadgrams: 2 missing ( 0 back-off tris missing)
+we saw 30 trigrams: 1 missing ( 0 back-off bis missing)
+we saw 75 bigrams: 0 missing
+-------
+we saw 13 quadgrams: 5 missing ( 3 back-off tris missing)
+we saw 44 trigrams: 3 missing ( 0 back-off bis missing)
+we saw 58 bigrams: 0 missing
+-------
+we saw 8 quadgrams: 1 missing ( 0 back-off tris missing)
+we saw 32 trigrams: 2 missing ( 0 back-off bis missing)
+we saw 43 bigrams: 0 missing
+-------
+we saw 21 quadgrams: 8 missing ( 2 back-off tris missing)
+we saw 51 trigrams: 6 missing ( 2 back-off bis missing)
+we saw 77 bigrams: 1 missing
