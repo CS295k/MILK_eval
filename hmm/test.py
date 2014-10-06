@@ -6,6 +6,7 @@ from probs_new import get_taus
 from decoder import group_tagging
 from EM import forward_algorithm
 from EM import backward_algorithm
+from eval import getFScore
 
 if __name__ == "__main__":
 
@@ -40,6 +41,21 @@ if __name__ == "__main__":
     print "Generated tags"
     print tagss1
 
+    fscore = getFScore(tagss0, tagss1)
+    print "F-Score"
+    print fscore
+
+    '''
+    for cmd in test_cmds:
+        alphas = forward_algorithm(4, cmd, sigmas_for_decoding, taus_for_decoding)
+        print alphas
+    '''
+
+    '''
+    for cmd in test_cmds:
+        betas = backward_algorithm(4, cmd, sigmas_for_decoding, taus_for_decoding)
+        print betas
+    '''
 
 
 
