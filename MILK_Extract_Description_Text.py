@@ -19,7 +19,7 @@ for file in [f for f in files]:
 
 			if commandName == "create_ing":
 				if verbose == 1:
-					print(commandName + ': ' + commandArgs[1])
+					print(commandName + ': ' + commandArgs[0] + ': ' + commandArgs[1])
 				else:
 					print(commandArgs[1])
 			elif commandName == "create_tool":

@@ -85,4 +85,8 @@ class Ingredient(object):
 
 if __name__ == "__main__":
     for originaltext, originaltext_parses in create_recipe_generator():
-        print "%s\t%s" % (originaltext, Ingredient(originaltext_parses).simplify())
+        try:
+            print "%s -> %s" % (originaltext, Ingredient(originaltext_parses).simplify())
+        except UnicodeEncodeError:
+            pass
+
