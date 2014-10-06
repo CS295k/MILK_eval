@@ -11,6 +11,7 @@ except ImportError:
   print("sudo pip install -U nltk")
   sys.exit(0)
 
+TEST_SENTENCE = "Serve with pasta sauce."
 
 def find_tree_in_list(parses, tree):
   
@@ -97,6 +98,8 @@ def read_milk_commands(recipe_files):
   for recipe in recipe_files:
     try:
       milked_commands = MILK_eval(recipe)
+      #Skip first because command is null, but not sentence
+      milked_commands = milked_commands[1:]
       milked_sentences = MILK_parse_originaltext(recipe)
       key = os.path.basename(recipe).replace(".rcp_tagged.xml", "")
       commands[key] = zip(milked_commands, milked_sentences)
@@ -108,21 +111,20 @@ def read_milk_commands(recipe_files):
 def condense_commands(commands):
   condensed_commands = dict()
   for recipe, recipe_commands in commands.iteritems():
-    condensed_lines = []
+    condensed_lines = dict()
     for line in recipe_commands:
       
-      predicate = line[0][0]
-      params = line[0][1]
+      #Don't want initial state line
+      if (line[0][0]) is None:
+        continue
+      predicate = line[0][0][0]
+      params = line[0][0][1]
       sentence = clean_sentence(line[1])
 
-      index = find_sentence_in_list(condensed_lines, line[1])
+      if sentence not in condensed_lines.keys():
+        condensed_lines[sentence] = []
+      condensed_lines[sentence].append((predicate, params))
 
-      if index >= 0:
-        condensed_lines[index][0].append(predicate)
-        condensed_lines[index][1].append(params)
-      else:
-        condensed_lines.append(([predicate], [params], sentence))
-      
     condensed_commands[recipe] = condensed_lines
   return condensed_commands
 
@@ -133,47 +135,57 @@ def find_sentence_in_list(lines, sentence):
   return -1
 
 def get_verbs(parses):
-  verb_types = ["VB", "VBP", "VBD", "VBN", "VBG"]
+  verb_types = ["VB", "VBP", "VBD", "VBN"]
   all_verbs = dict()
   for recipe, recipe_parses in parses.iteritems():
-    recipe_verbs = []
+    recipe_verbs = dict()
     for sentence, parse in recipe_parses.iteritems():
       verbs = []
       for subtree in parse.subtrees(lambda t: t.label() in verb_types):
         label = subtree.label()
         leaf = subtree.leaves()[0]
         verbs.append(leaf)
-      recipe_verbs.append(verbs)
+      recipe_verbs[sentence] = verbs
     all_verbs[recipe] = recipe_verbs
   return all_verbs
 
 def get_probability(commands, verbs):
   counts = dict()
+  sentences_not_used = 0
+    
   for recipe, annotation in commands.iteritems():
     if recipe not in verbs:
-      #print("Recipe " + recipe + " not in verbs")
+      print("Recipe " + recipe + " not in verbs")
       continue
 
     recipe_verbs = verbs[recipe]
-    if len(annotation) != len(recipe_verbs):
-      print("Annotation length not equal for recipe " + recipe)
-      for line in recipe_verbs:
-        print(str(recipe_verbs))
-      print("Length annotation: " + str(len(annotation)) + ", "  + str(len(recipe_verbs)))
-      for line in annotation:
-        print(str(line))
-      continue
-    for i in range(len(annotation)):
+    #if len(annotation) != len(recipe_verbs):
+    #  print("Annotation length not equal for recipe " + recipe)
+      #for line in recipe_verbs:
+      #  print(str(recipe_verbs))
+      #print("Length annotation: " + str(len(annotation)) + ", "  + str(len(recipe_verbs)))
+      #for line in annotation:
+      #  print(str(line))
+    #  continue
+    
+    for sentence, commands in annotation.iteritems():
+      if sentence not in recipe_verbs.keys():
+        sentences_not_used += 1
+        #print("Skipping '" + sentence + "' because it was not found in " + recipe)
+        continue
 
-      predicates = annotation[i][0]
-      words = recipe_verbs[i]
+      words = recipe_verbs[sentence]
+
+      if sentence == TEST_SENTENCE:
+        print(str(words))
+        print(str(commands))
 
       for word in words:
-        for command in predicates:
-          if command is None:
-            continue
-          #print(word)
+        for command in commands:
+
           predicate = command[0]
+          params = command[1]
+          word = word.lower()
 
           if predicate not in counts.keys():
             counts[predicate] = dict()
@@ -190,17 +202,17 @@ def get_probability(commands, verbs):
       #   print(predicate + ", "  + word  + ", " + str(count))
       summed_counts[predicate] += count
 
-  for word, count in counts["serve"].iteritems():
-    print(word + ": " + str(count))
+  #for word, count in counts["serve"].iteritems():
+  #  print(word + ": " + str(count))
 
 
   probabilities = []
-  print(str(len(counts)))
+  #print(str(len(counts)))
   for predicate, word_counts in counts.iteritems():
     for word, count in word_counts.iteritems():
       prob = float(count) / summed_counts[predicate]
       probabilities.append((predicate, word, prob ))
-
+  #print("Could not make use of " + str(sentences_not_used) + " sentences due to poor alignment between corpuses")
   return sorted(sorted(probabilities, key=lambda probability: probability[2]), key=lambda probability: probability[0])
   
 def check_sentences(condensed_commands, parses):
@@ -252,7 +264,7 @@ if __name__ == "__main__":
   verbs = get_verbs(parses)
   #print(str(verbs))
 
-  check_sentences(condensed_commands, parses)
+  #check_sentences(condensed_commands, parses)
   probabilities = get_probability(condensed_commands, verbs)
-  #for prob in probabilities:
-  #  print(str(prob))
+  for prob in probabilities:
+    print(str(prob))
