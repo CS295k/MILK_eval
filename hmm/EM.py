@@ -1,6 +1,6 @@
 # Forward & Backward Algorithms #
 # EM Algorithm #
-# By Qi Xin
+# By Qi Xin #
 
 import math
 
@@ -45,7 +45,7 @@ def forward_algorithm(n, cmds, sigmas, taus):
    # "combine_put_do" for multiple commands
    
    # RETURN:
-   # tags: a list of grouping labels
+   # alphas: alpha_y(i)
 
    len_states = n
    len_cmds = len(cmds)
@@ -125,3 +125,126 @@ def backward_algorithm(n, cmds, sigmas, taus):
     return betas
 
 # End of Func
+
+def get_forward_end_prob(n, cmds, alphas):
+
+    # INPUT:
+    # alphas: forward probabilities
+    # OUTPUT:
+    # alpha_{end}(len_cmds+1)
+
+    alpha_end = 0
+    len_cmds = len(cmds)
+    for k in xrange(n):
+        i = len_cmds - k - 1
+        # i<0: impossible move
+        if (i >= 0):
+            alpha_end += alphas[i][k] * 1.0
+    return alpha_end
+    
+
+def get_label_prob(i, y_i, alphas, betas, alpha_end):
+
+    # INPUT:
+    # i: cmd index
+    # y_i: label index
+    # alphas: forward probabilities
+    # betas: backward probabilities
+    # alpha_end: alpha_{end}(len_cmds+1)
+    #
+    # OUTPUT:
+    # p(Y_i=y|x), which is
+    # alpha_y(i) x beta_y(i) / alpha_{end}(n+1)
+
+    return alphas[i][y_i] * betas[i][y_i] / alpha_end
+
+def E_Step(n, cmdss, sigmas, taus):
+
+    # INPUT:
+    # n: number of states
+    # cmdss: all the commands
+    # sigmas
+    # taus
+    # 
+    # OUTPUT:
+    # (Dict_y_y', Dict_y_x)
+
+    dict1 = {}
+    dict2 = {}
+    
+    for cmds in cmdss:
+        
+        alphas = forward_algorithm(n, cmds, sigmas, taus)
+        betas = backward_algorithm(n, cmds, sigmas, taus)
+        alpha_end = get_forward_end_prob(n, cmds, alphas)
+
+        len_cmds = len(cmds)
+        for i in xrange(len_cmds):
+            for j in xrange(n):
+                # Valid move
+                if (i+j+1 <= len_cmds):
+
+                    # Compute E[n_{i,y,x}|x]
+                    cmd = "_".join(cmds[ i : i+j+1 ])
+                    # prob2: p(y_i=j | x)
+                    prob2 = alphas[i][j] * betas[i][j] / alpha_end
+                    # Update dict2
+                    if (j, cmd) not in dict2:
+                        dict2[(j, cmd)] = prob2
+                    else:
+                        dict2[(j, cmd)] += prob2
+
+                    # Compute E[n_{i,y,y'}|x]
+                    if (i+j+1 < len_cmds):
+                        # y' is not the end symbol
+                        for k in xrange(n):
+                            # y = j, y' = k
+                            # prob1: p(y,y'|x)
+                            prob1 = alphas[i][j] * sigmas[(j, k)] * \
+                                    get_tau(taus, i+j+1, k, cmds) * betas[i+j+1][k] / \
+                                    alpha_end
+                            if (j, k) not in dict1:
+                                dict1[(j, k)] = prob1
+                            else:
+                                dict1[(j, k)] += prob1
+        
+        # End of iterating cmds
+
+        return (dict1, dict2)
+                    
+def M_Step(n, dict1, dict2):
+    
+    # INPUT:
+    # dict1: Dict_y_y'
+    # dict2: Dict_y_x
+    #
+    # OUTPUT:
+    # sigmas, taus
+
+    sigmas = {}
+    taus = {}
+
+    dict1o = {}
+    dict2o = {}
+
+    # Count sums
+    for (s1, s2), c in dict1o.iteritems():
+        if (s1 not in dict1o):
+            dict1o[s1] = c
+        else:
+            dict1o[s1] += c
+
+    for (s, cmd), c in dict2o.iteritems():
+        if (s not in dict2o):
+            dict2o[s] = c
+        else:
+            dict2o[s] += c
+
+    # Build up sigmas & taus
+    for (s1, s2), c in dict1o.iteritems():
+        sigmas[(s1, s2)] = float(c) / float(dict1o[s1])
+
+    for (s, cmd), c in dict2o.iteritems():
+        taus[(s, cmd)] = float(c) / float(dict2o[s])
+
+    return (sigmas, taus)
