@@ -1,0 +1,8 @@
+multiple runs: training = 90%; test = 10%
+
+
+
+we saw 15 quadgrams: 7 missing ( 3 back-off tris missing)
+we saw 47 trigrams: 6 missing ( 1 back-off bis missing)
+we saw 75 bigrams: 0 missing
+-------
