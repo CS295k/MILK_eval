@@ -50,9 +50,7 @@ if __name__ == "__main__":
   for fn, true, pred in zip(glob(test_path), tagss0, tagss1):
     print fn
     print "True tags", true
-    # print true
     print "Pred tags", pred
-    # print pred
     print
 
   fscore = getFScore(tagss0, tagss1)
