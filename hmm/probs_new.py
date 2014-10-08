@@ -35,6 +35,9 @@ def strip_to_counts(recipe):
 def remove_create_ing(recipe):
   return [(ot, anns) for (ot, anns) in recipe if set(anns) != set(['create_ing'])]
 
+def remove_create_tool(recipe):
+  return [(ot, [a for a in anns if a != 'create_tool']) for (ot, anns) in recipe]
+
 class Dist(dict):
   def __init__(self, numer, denom):
     self.numer = numer
@@ -61,7 +64,7 @@ def get_sigmas(recipes):
   for (s1, s2), c1 in transition_counts.iteritems():
     c2 = marginal_counts[s1]
     sigmas[(s1,s2)] = float(c1) / float(c2)
-  
+
   return sigmas
 
 '''
@@ -93,7 +96,5 @@ def get_taus(recipes):
   for (state, cmd), c1 in joint.iteritems():
     c2 = marginal_counts[state]
     taus[(state,cmd)] = float(c1) / float(c2)
-  
+
   return taus
-
-
