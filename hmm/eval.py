@@ -1,16 +1,8 @@
 def get_common_segment_nums(seg_tags0, seg_tags1):
 
-    len0 = len(seg_tags0)
-    len1 = len(seg_tags1)
-    if (len0 < len1):
-        leng = len0
-    else:
-        leng = len1
-        
+    assert(len(seg_tags0) == len(seg_tags1))
     common = 0
-    for i in xrange(leng):
-        a = seg_tags0[i]
-        b = seg_tags1[i]
+    for a, b in zip(seg_tags0, seg_tags1):
         if (a=="|" and b=="|"):
             common += 1
     return common
@@ -33,9 +25,11 @@ def segment(tags):
         if (count == tag):
             seg_tags.append("|")
             count = 0
+        else:
+            seg_tags.append(" ")
     return seg_tags
         
-def getFScore(tagss0, tagss1):
+def getFScore0(tagss0, tagss1):
 
     seg_tagss0 = [segment(tags0) for tags0 in tagss0]
     seg_tagss1 = [segment(tags1) for tags1 in tagss1]

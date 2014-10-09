@@ -6,6 +6,9 @@ from probs_new import get_taus
 from decoder import group_tagging
 from EM import forward_algorithm
 from EM import backward_algorithm
+####################
+from eval import getFScore0
+####################
 from eval2 import getFScore
 from glob import glob
 
@@ -47,12 +50,19 @@ if __name__ == "__main__":
   # print "Generated tags"
   # print tagss1
 
+
   for fn, true, pred in zip(glob(test_path), tagss0, tagss1):
     print fn
     print "True tags", true
     print "Pred tags", pred
     print
-
+  
   fscore = getFScore(tagss0, tagss1)
-  print "F-Score"
-  print fscore
+  print "F-Scores"
+  print fscore  
+  ####################
+  fscore0 = getFScore0(tagss0, tagss1)
+  print fscore0
+  ####################
+  
+
