@@ -12,6 +12,7 @@ except ImportError:
   sys.exit(0)
 
 TEST_SENTENCE = "Serve with pasta sauce."
+MIN_COUNT_REQUIRED = 5
 
 def find_tree_in_list(parses, tree):
   
@@ -120,10 +121,11 @@ def condense_commands(commands):
       predicate = line[0][0][0]
       params = line[0][0][1]
       sentence = clean_sentence(line[1])
+      state = line[0][1]
 
       if sentence not in condensed_lines.keys():
         condensed_lines[sentence] = []
-      condensed_lines[sentence].append((predicate, params))
+      condensed_lines[sentence].append((predicate, params, state))
 
     condensed_commands[recipe] = condensed_lines
   return condensed_commands
@@ -135,7 +137,7 @@ def find_sentence_in_list(lines, sentence):
   return -1
 
 def get_verbs(parses):
-  verb_types = ["VB", "VBP", "VBD", "VBN"]
+  verb_types = ["VB", "VBP", "VBN"]
   all_verbs = dict()
   for recipe, recipe_parses in parses.iteritems():
     recipe_verbs = dict()
@@ -149,11 +151,57 @@ def get_verbs(parses):
     all_verbs[recipe] = recipe_verbs
   return all_verbs
 
-def get_probability(commands, verbs):
+def get_params_to_use(predicate, params, state, dictionary_to_use):
+  params_to_use = {
+    "combine": [0,1],
+    "separate": [0,1,3],
+    "put":[0,1],
+    "remove":[0,1],
+    "cut": [0,1,2],
+    "mix": [0,1,2],
+    "cook": [0,1,2],
+    "do": [0,1,2],
+    "serve": [0],
+    "set":[1],
+    "leave":[0],
+    "chefcheck":[0]
+  }
+
+  dictionaries = {
+    "tool": state.T_d,
+    "ingredient": state.I_d,
+  }
+
+  indices = []
+  if predicate in params_to_use:
+    indices = params_to_use[predicate]
+
+  params_to_use = [params[i] for i in indices]
+
+
+
+  param_names = []
+  
+  if dictionary_to_use not in dictionaries.keys():
+    print("Dictionary choice must be in " + str(dictionary_to_use.keys()))
+    return[]
+
+  d = dictionaries[dictionary_to_use]
+  for param in params_to_use:
+    if param in d.keys():
+      param_names.append(d[param])
+  return param_names
+
+def get_probability(commands, verbs, dictionary_to_use):
   counts = dict()
   sentences_not_used = 0
-    
+  
+  progress = 0
   for recipe, annotation in commands.iteritems():
+    progress += 1.0 / len(commands)
+    print("Count progress " + str(progress)) 
+    
+
     if recipe not in verbs:
       print("Recipe " + recipe + " not in verbs")
       continue
@@ -176,44 +224,66 @@ def get_probability(commands, verbs):
 
       words = recipe_verbs[sentence]
 
-      if sentence == TEST_SENTENCE:
-        print(str(words))
-        print(str(commands))
-
       for word in words:
         for command in commands:
 
           predicate = command[0]
           params = command[1]
+          state = command[2]
+          print(str(state))
           word = word.lower()
 
           if predicate not in counts.keys():
             counts[predicate] = dict()
+
           if word not in counts[predicate].keys():
-            counts[predicate][word] = 0
-          counts[predicate][word] += 1
+              counts[predicate][word] = dict()
+            
+          params = get_params_to_use(predicate, params, state, dictionary_to_use)
+          for param in params:
+            set_params = []
+            if param != None:
+              if isinstance(param, basestring):
+                set_params.append(param)
+              else:
+                set_params.extend(param)
+            for sparam in set_params:
+              if sparam not in counts[predicate][word].keys():
+                counts[predicate][word][sparam] = 0
+              counts[predicate][word][sparam] += 1
 
   summed_counts = dict()
+  progress = 0
   for predicate, word_counts in counts.iteritems():
-    for word, count in word_counts.iteritems():
-      if predicate not in summed_counts:
-        summed_counts[predicate] = 0
-      #if count > 0:
-      #   print(predicate + ", "  + word  + ", " + str(count))
-      summed_counts[predicate] += count
-
-  #for word, count in counts["serve"].iteritems():
-  #  print(word + ": " + str(count))
+    progress += 1.0 / len(counts)
+    print("Sum count progress: " + str(progress))
+    for word, param_counts in word_counts.iteritems():
+      for param, count in param_counts.iteritems():
+        if predicate not in summed_counts:
+          summed_counts[predicate] = dict()
+        if param not in summed_counts[predicate]:
+          summed_counts[predicate][param] = 0  
+        summed_counts[predicate][param] += count
 
 
   probabilities = []
   #print(str(len(counts)))
+  progress = 0
   for predicate, word_counts in counts.iteritems():
-    for word, count in word_counts.iteritems():
-      prob = float(count) / summed_counts[predicate]
-      probabilities.append((predicate, word, prob ))
+    progress += 1.0 / len(counts)
+    print("Probability count progress: " + str(progress))
+    for word, param_counts in word_counts.iteritems():
+      for param, count in param_counts.iteritems():
+        if summed_counts[predicate][param] > MIN_COUNT_REQUIRED:
+          prob = float(count) / summed_counts[predicate][param]
+          probabilities.append((predicate, word, param, prob ))
   #print("Could not make use of " + str(sentences_not_used) + " sentences due to poor alignment between corpuses")
-  return sorted(sorted(probabilities, key=lambda probability: probability[2]), key=lambda probability: probability[0])
+  sorted_by_probability = sorted(probabilities, key=lambda probability: probability[3])
+  sorted_by_param = sorted(sorted_by_probability, key=lambda probability: probability[2])
+  sorted_by_predicate = sorted(sorted_by_param, key=lambda probability: probability[0])
+
+
+  return sorted_by_predicate
   
 def check_sentences(condensed_commands, parses):
   for recipe, condensed_lines in condensed_commands.iteritems():
@@ -238,8 +308,8 @@ def check_sentences(condensed_commands, parses):
 if __name__ == "__main__":
   parse_files = []
   recipe_files = []
-  if (len(argv) != 3):
-    print("Usage: python get_verb_command_stats.py <recipe_dir> <parses_dir>")
+  if (len(argv) != 4):
+    print("Usage: python get_verb_command_stats.py <recipe_dir> <parses_dir> <object_type>")
     sys.exit(0)
 
   recipe_files = glob(argv[1] + "/*.xml")
@@ -264,7 +334,9 @@ if __name__ == "__main__":
   verbs = get_verbs(parses)
   #print(str(verbs))
 
+
+
   #check_sentences(condensed_commands, parses)
-  probabilities = get_probability(condensed_commands, verbs)
+  probabilities = get_probability(condensed_commands, verbs, argv[3])
   for prob in probabilities:
     print(str(prob))
