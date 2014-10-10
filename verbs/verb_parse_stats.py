@@ -192,10 +192,11 @@ def get_frame_types(data, types = ["NP", "PP", ], verb_types=["VB", "VBP", "VBN"
             frame.append(subtree.label())
         verbs = []
         for vb_tree in vp_tree.subtrees(lambda t: t.label() in verb_types):
-          verbs.append(vb_tree.leaves()[0])
-          break
-        frame_item = [verbs[0], frame, sentence]
-        frame_types.append(frame_item)
+          for leaf in vb_tree.leaves():
+            verbs.append(leaf.lower())
+        if len(verbs) > 0:
+          frame_item = [verbs[0], frame, sentence]
+          frame_types.append(frame_item)
   return frame_types
 
 def count_frame_types(frame_types):
