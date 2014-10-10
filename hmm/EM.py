@@ -3,6 +3,7 @@
 # By Qi Xin #
 
 import math
+import random
 
 def get_log(val):
 
@@ -13,16 +14,30 @@ def get_log(val):
         return math.log(val)
     
 
+def get_cmd(cmds, i, j):
+
+    # From i (inclusive), take j+1 commands
+    # Return the string concatenated by "_"
+    # If impossible, return None
+    
+    len_cmds = len(cmds)
+    cmd = None
+    if (i+j+1 <= len_cmds):
+        cmd = "_".join(cmds[ i : i+j+1 ])
+    return cmd
+    
 def get_tau(taus, i, j, cmds):
 
     # From i (inclusive), take j+1 commands
     # Create the string concatenated by "_"
     # Then look up the value of tau
+    #
+    # If impossible, return 0
+    # If unseen, return 1e-5
 
     tau = 0
-    len_cmds = len(cmds)
-    if (i+j+1 <= len_cmds):
-        cmd = "_".join(cmds[ i : i+j+1 ])
+    cmd = get_cmd(cmds, i, j)
+    if not (cmd is None):
         if (j, cmd) not in taus:
             tau = 1e-5
         else:
@@ -67,6 +82,12 @@ def forward_algorithm(n, cmds, sigmas, taus):
                    if (i-k-1 < 0):
                        alphas[i][j] = 0
                    else:
+                       ##############
+                       '''
+                       print k, j
+                       print ((k,j) in sigmas)
+                       '''
+                       ##############
                        sigma = sigmas[(k,j)]
                        alphas[i][j] += alphas[i-k-1][k] * sigma * tau
                # End of iterating k
@@ -208,9 +229,9 @@ def E_Step(n, cmdss, sigmas, taus):
                             else:
                                 dict1[(j, k)] += prob1
         
-        # End of iterating cmds
+    # End of iterating cmds
 
-        return (dict1, dict2)
+    return (dict1, dict2)
                     
 def M_Step(n, dict1, dict2):
     
@@ -228,23 +249,86 @@ def M_Step(n, dict1, dict2):
     dict2o = {}
 
     # Count sums
-    for (s1, s2), c in dict1o.iteritems():
+    for (s1, s2), c in dict1.iteritems():
         if (s1 not in dict1o):
             dict1o[s1] = c
         else:
             dict1o[s1] += c
 
-    for (s, cmd), c in dict2o.iteritems():
+    for (s, cmd), c in dict2.iteritems():
         if (s not in dict2o):
             dict2o[s] = c
         else:
             dict2o[s] += c
 
     # Build up sigmas & taus
-    for (s1, s2), c in dict1o.iteritems():
+    for (s1, s2), c in dict1.iteritems():
         sigmas[(s1, s2)] = float(c) / float(dict1o[s1])
 
-    for (s, cmd), c in dict2o.iteritems():
+    for (s, cmd), c in dict2.iteritems():
         taus[(s, cmd)] = float(c) / float(dict2o[s])
 
     return (sigmas, taus)
+
+def init_sigmas(n, init_val):
+
+    # INPUT:
+    # n: number of states
+    # init_val: default value
+    # 
+    # OUTPUT:
+    # initialized sigmas with random probs
+
+    sigmas = {}
+    for i in xrange(n):
+        for j in xrange(n):
+            # In case of saddle point
+            r = random.random() * 0.1 + 0.95
+            sigmas[(i,j)] = r * init_val
+    return sigmas
+
+def init_taus(n, cmdss, init_val):
+    
+    # INPUT:
+    # n: number of states
+    # cmdss: all the commands
+    # init_val: default value
+    #
+    # OUTPUT:
+    # initialized taus with random probs
+
+    taus = {}
+    for cmds in cmdss:
+        len_cmds = len(cmds)
+        for i in xrange(len_cmds):
+            for j in xrange(n):
+                cmd = get_cmd(cmds, i, j)
+                # Possible move
+                if not (cmd is None):
+                    if (j, cmd) not in taus:
+                        # In case of saddle point
+                        r = random.random() * 0.1 + 0.95
+                        taus[(j, cmd)] = r * init_val
+    return taus
+
+def EM(n, cmdss):
+
+    # INPUT:
+    # n: number of states
+    # cmdss: all the commands
+
+    # OUTPUT:
+    # sigmas, taus
+
+    sigmas = init_sigmas(n, 0.1)
+    taus = init_taus(n, cmdss, 0.1)
+    for iter in xrange(40):
+        ###########
+        print iter
+        ###########
+        dict1, dict2 = E_Step(n, cmdss, sigmas, taus)
+        sigmas, taus = M_Step(n, dict1, dict2)
+    return (sigmas, taus)
+
+
+    
