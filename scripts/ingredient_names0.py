@@ -1,16 +1,15 @@
-from collections import defaultdict
+from collections import defaultdict, Counter
 from lxml import etree
 from glob import glob
-
 
 def create_annotated_recipe_generator(n = None):
     i = 0
     for annotated_recipe in glob("../annotated_recipes/*.xml"):
-        with open(recipe) as r:
+        with open(annotated_recipe) as r:
             elt = etree.XML(r.read())
             originaltexts = [line.text for line in elt.findall(".//originaltext")]
             annotations = [line.text for line in elt.findall(".//annotation")]
-            yield (originaltexts, annotations)
+            yield (annotated_recipe, originaltexts, annotations)
             i += 1
             if n and i >= n: break
 
@@ -46,17 +45,21 @@ def create_parsed_recipe_generator(n = None):
     for parsed_recipe in glob("../data/parsed_recipes/*.txt"):
         with open(parsed_recipe) as r:
             originaltext_parses = list(chunks(r.read().splitlines(), 102))
-            yield [[parse(p) for p in op[2:-1:2]] for op in originaltext_parses]
+            yield [[parse(p)[1] for p in op[2:-1:2]] for op in originaltext_parses]
             i += 1
             if n and i >= n: break
+
+
+def count_create_ing(annotations):
+    return next((i for i, v in enumerate(annotations) if not v.startswith("create_ing")), -1)
 
 
 def find_head(parses):
     for p in parses:
         if "NP" in [p_[0] for p_ in p[1:]]:
             break
-        else:
-            return None
+    else:
+        return None
 
     NPs = [p]
     stack = p[1:]
@@ -65,8 +68,8 @@ def find_head(parses):
         if node[0] == "NP":
             NPs.append(node)
 
-            if isinstance(node, list):
-                stack = node[1:] + stack
+        if isinstance(node, list):
+            stack = node[1:] + stack
 
     for NP in NPs[::-1]:
         r = [p[1] for p in NP[1:] if p[0] in {"NN", "NNS", "NNP", "NNPS"}]
@@ -77,4 +80,35 @@ def find_head(parses):
 
 
 if __name__ == "__main__":
-    # WIP
+
+    gc = Counter()
+
+    n = 10
+    for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
+        limit = count_create_ing(r[2])
+        originaltexts = r[1]
+        annotations = r[2]
+        data = zip([a.split("(", 1)[1].split(",", 1)[0] for a in r[2][:limit]],
+                    r[1][:limit], [find_head(p_) for p_ in p[:limit]])
+        for datum in data:
+            ing = datum[0]
+            full = datum[1]
+            short = datum[2]
+
+            if not short: continue
+
+            sentences = [o.strip() for o, a in zip(originaltexts, annotations) if ing in a and o != full]
+            sentences = [[w.replace(",", "").replace(".", "").lower() for w in s.split()] for s in sentences]
+            sentences = sum(sentences, [])
+
+            words = [w.replace(",", "").replace(".", "").lower() for w in full.split()]
+
+            all_sentences = " ".join(sentences)
+
+            for n in range(len(words)):
+                phrase = " ".join(words[n:])
+                if phrase in all_sentences:
+                    short = phrase
+                    break
+
+            print "%s -> %s" % (full, short)
