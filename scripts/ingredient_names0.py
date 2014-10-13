@@ -1,6 +1,11 @@
 from collections import defaultdict, Counter
 from lxml import etree
 from glob import glob
+from string import punctuation
+
+import re
+
+regex = re.compile('[%s]' % re.escape(punctuation))
 
 def create_annotated_recipe_generator(n = None):
     i = 0
@@ -79,12 +84,22 @@ def find_head(parses):
             return None
 
 
+def words_around(sentence, head):
+    head = head.lower()
+    sentence = regex.sub("", sentence.lower().strip())
+
+    words = sentence.split()
+    n = words.index(head) + 1
+
+    return sorted(set([" ".join(p + words[n:n+i]) for p in [words[j:n] for j in range(n)] for i in range(n)]), key = len)[::-1]
+
+
 if __name__ == "__main__":
 
     gc = Counter()
 
     n = 10
-    for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
+    for r, p in zip(create_annotated_recipe_generator(), create_parsed_recipe_generator()):
         limit = count_create_ing(r[2])
         originaltexts = r[1]
         annotations = r[2]
@@ -100,15 +115,14 @@ if __name__ == "__main__":
             sentences = [o.strip() for o, a in zip(originaltexts, annotations) if ing in a and o != full]
             sentences = [[w.replace(",", "").replace(".", "").lower() for w in s.split()] for s in sentences]
             sentences = sum(sentences, [])
-
-            words = [w.replace(",", "").replace(".", "").lower() for w in full.split()]
-
             all_sentences = " ".join(sentences)
 
-            for n in range(len(words)):
-                phrase = " ".join(words[n:])
-                if phrase in all_sentences:
-                    short = phrase
-                    break
+            try:
+                for phrase in words_around(full, short):
+                    if phrase in all_sentences:
+                        short = phrase
+                        break
 
-            print "%s -> %s" % (full, short)
+                print ("%s -> %s" % (full, short)).encode("utf-8")
+            except Exception, e:
+                print "ERROR:", e
