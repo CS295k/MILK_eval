@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>2 cups sugar</originaltext><annotation>create_ing(ing0, "sugar")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing1, "flour")</annotation></line>
+<line><originaltext>2 teaspoons baking powder</originaltext><annotation>create_ing(ing2, "powder")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing3, "salt")</annotation></line>
+<line><originaltext>2 cups chopped dates</originaltext><annotation>create_ing(ing4, "dates")</annotation></line>
+<line><originaltext>2 cups chopped walnuts or pecans</originaltext><annotation>create_ing(ing5, "pecans")</annotation></line>
+<line><originaltext>4 eggs, lightly beaten</originaltext><annotation>create_ing(ing6, "eggs")</annotation></line>
+<line><originaltext>2 tablespoons butter, melted</originaltext><annotation>create_ing(ing7, "butter")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing8, "extract")</annotation></line>
+<line><originaltext>confectioners' sugar</originaltext><annotation>create_ing(ing9, "confectioners")</annotation></line>
+<line><originaltext>In a large bowl, combine the sugar, flour, baking powder, salt, dates and nuts. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the sugar, flour, baking powder, salt, dates and nuts. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing10, "things in bowl", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the sugar, flour, baking powder, salt, dates and nuts. </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>Add the eggs, butter and vanilla; stir just until dry ingredients are moistened (batter will be very stiff). </originaltext><annotation>combine({ing10, ing6, ing7, ing8}, ing11, "things in bowl", "")</annotation></line>
+<line><originaltext>Add the eggs, butter and vanilla; stir just until dry ingredients are moistened (batter will be very stiff). </originaltext><annotation>mix(ing11, t0, ing12, "batter", "stir until dry ingredients are moistened")</annotation></line>
+<line><originaltext>Add the eggs, butter and vanilla; stir just until dry ingredients are moistened (batter will be very stiff). </originaltext><annotation>chefcheck(ing12,"very stiff")</annotation></line>
+<line><originaltext>Spread in a greased 15-in. </originaltext><annotation>create_tool(t1, "15-in x 10-in x 1-in baking pan")</annotation></line>
+<line><originaltext>Spread in a greased 15-in. </originaltext><annotation>set(t1,"greased")</annotation></line>
+<line><originaltext>Spread in a greased 15-in. </originaltext><annotation>put(ing12, t1)</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 20-25 minutes or until golden brown. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 20-25 minutes or until golden brown. </originaltext><annotation>set(t2,"350 degrees F")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 20-25 minutes or until golden brown. </originaltext><annotation>cook(ing12, t2, ing13, "baked bars", "bake for 20-25 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 20-25 minutes or until golden brown. </originaltext><annotation>chefcheck(ing13,"golden brown")</annotation></line>
+<line><originaltext>Cool bars on a wire rack. </originaltext><annotation>create_tool(t3, "wire rack")</annotation></line>
+<line><originaltext>Cool bars on a wire rack. </originaltext><annotation>put(ing13, t3)</annotation></line>
+<line><originaltext>Cool bars on a wire rack. </originaltext><annotation>leave(ing13,"to cool on rack")</annotation></line>
+<line><originaltext>Dust with confectioners' sugar. </originaltext><annotation>combine({ing13, ing9}, ing14, "date nut bars", "dust bars with sugar")</annotation></line>
+<line><originaltext>Dust with confectioners' sugar. </originaltext><annotation>serve(ing14,"")</annotation></line>
+</recipe>

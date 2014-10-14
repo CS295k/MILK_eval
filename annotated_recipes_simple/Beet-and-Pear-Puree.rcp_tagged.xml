@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>8 medium beets</originaltext><annotation>create_ing(ing0, "8 medium beets")</annotation></line>
+<line><originaltext>1 pound unsalted butter</originaltext><annotation>create_ing(ing1, "1 pound unsalted butter")</annotation></line>
+<line><originaltext>1 1/2 cups minced Vidalia onions</originaltext><annotation>create_ing(ing2, "1 1/2 cups minced Vidalia onions")</annotation></line>
+<line><originaltext>4 Bosc pears - peeled, cored and minced</originaltext><annotation>create_ing(ing3, "4 Bosc pears - peeled, cored and minced")</annotation></line>
+<line><originaltext>2 tablespoons white sugar</originaltext><annotation>create_ing(ing4, "2 tablespoons white sugar")</annotation></line>
+<line><originaltext>1/2 cup cranberry vinegar</originaltext><annotation>create_ing(ing5, "1/2 cup cranberry vinegar")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing6, "1 teaspoon salt")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>create_tool(t0, "Oven")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>set(t0,"Preheat to 400 Degrees F")</annotation></line>
+<line><originaltext>Wash beets, and place in a roasting pan. </originaltext><annotation>do(ing0, , ing19, "Washed beets", "Wash")</annotation></line>
+<line><originaltext>Wash beets, and place in a roasting pan. </originaltext><annotation>create_tool(t1, "Roasting Pan")</annotation></line>
+<line><originaltext>Wash beets, and place in a roasting pan. </originaltext><annotation>put(ing19, t1)</annotation></line>
+<line><originaltext>Bake for 45 minutes to 1 hour, or until tender. Set aside to cool.</originaltext><annotation>cook(ing19, t0, ing7, "Cooked Beats", "Bake for 1 Hour or until tender")</annotation></line>
+<line><originaltext>Bake for 45 minutes to 1 hour, or until tender. Set aside to cool.</originaltext><annotation>leave(ing7,"Set aside to cool")</annotation></line>
+<line><originaltext>Melt butter in a large skillet over medium heat. </originaltext><annotation>create_tool(t2, "Large Skillet")</annotation></line>
+<line><originaltext>Melt butter in a large skillet over medium heat. </originaltext><annotation>cook(ing1, t2, ing8, "Melted Butter", "Melt over Medium Heat")</annotation></line>
+<line><originaltext>Stir in onion, pears, sugar, and vinegar; cook, stirring frequently, for 20 minutes.</originaltext><annotation>combine({ing2, ing3, ing4, ing5, ing8}, ing9, "Mixed Veggies", "Stir")</annotation></line>
+<line><originaltext>Stir in onion, pears, sugar, and vinegar; cook, stirring frequently, for 20 minutes.</originaltext><annotation>cook(ing9, t2, ing10, "Cooked Veggies", "Stir frequently")</annotation></line>
+<line><originaltext>When the beets are cool enough to handle, peel and coursely chop.</originaltext><annotation>chefcheck(ing7,"When cool enough")</annotation></line>
+<line><originaltext>When the beets are cool enough to handle, peel and coursely chop.</originaltext><annotation>do(ing7, , ing20, "peeled beets", "Peel")</annotation></line>
+<line><originaltext>When the beets are cool enough to handle, peel and coursely chop.</originaltext><annotation>cut(ing20, , ing11, "Chopped Beats", "Coarsely chop")</annotation></line>
+<line><originaltext>Puree onion mixture in a food processor with metal blade. </originaltext><annotation>create_tool(t3, "Food Processor")</annotation></line>
+<line><originaltext>Puree onion mixture in a food processor with metal blade. </originaltext><annotation>mix(ing10, t3, ing12, "Pureed Veggies", "Puree")</annotation></line>
+<line><originaltext>Add salt and 1/2 of the beets; pulse 4 to 5 times. </originaltext><annotation>separate(ing11, ing13, "First half of beets", ing14, "second half of beets", "Seperate")</annotation></line>
+<line><originaltext>Add salt and 1/2 of the beets; pulse 4 to 5 times. </originaltext><annotation>combine({ing12, ing13, ing6}, ing15, "Puree", "Add")</annotation></line>
+<line><originaltext>Add salt and 1/2 of the beets; pulse 4 to 5 times. </originaltext><annotation>mix(ing15, t3, ing16, "Puree", "Pulse 4 to 5 times")</annotation></line>
+<line><originaltext>Add remaining beets, and pulse 2 to 3 times.</originaltext><annotation>combine({ing14, ing16}, ing17, "Mix", "Add")</annotation></line>
+<line><originaltext>Add remaining beets, and pulse 2 to 3 times.</originaltext><annotation>mix(ing17, t3, ing18, "Puree", "Pulse 2 to 3 times")</annotation></line>
+</recipe>

@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>8 red apples, cored</originaltext><annotation>create_ing(ing0, "apples")</annotation></line>
+<line><originaltext>1/4 cup butter</originaltext><annotation>create_ing(ing1, "butter")</annotation></line>
+<line><originaltext>1/3 cup maple syrup</originaltext><annotation>create_ing(ing2, "syrup")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing3, "cinnamon")</annotation></line>
+<line><originaltext>1/3 teaspoon ground ginger</originaltext><annotation>create_ing(ing4, "ginger")</annotation></line>
+<line><originaltext>1/2 lemon, juiced</originaltext><annotation>create_ing(ing5, "1/2 lemon, juiced")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing6, "extract")</annotation></line>
+<line><originaltext>1/3 cup coarsely chopped walnuts (optional)</originaltext><annotation>create_ing(ing7, "walnuts")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t0,"preheat to 350 degrees")</annotation></line>
+<line><originaltext>Place apples in a 9x13 inch baking dish. </originaltext><annotation>create_tool(t1, "9 x 13 inch baking dish")</annotation></line>
+<line><originaltext>Place apples in a 9x13 inch baking dish. </originaltext><annotation>put(ing0, t1)</annotation></line>
+<line><originaltext>In a small saucepan over medium heat, combine butter, maple syrup, cinnamon, ginger, lemon juice and vanilla. </originaltext><annotation>create_tool(t2, "small saucepan")</annotation></line>
+<line><originaltext>In a small saucepan over medium heat, combine butter, maple syrup, cinnamon, ginger, lemon juice and vanilla. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6}, ing8, "topping", "")</annotation></line>
+<line><originaltext>In a small saucepan over medium heat, combine butter, maple syrup, cinnamon, ginger, lemon juice and vanilla. </originaltext><annotation>cook(ing8, t2, ing9, "warm topping", "medium heat")</annotation></line>
+<line><originaltext>Bring to a boil, and drizzle equally over apples. </originaltext><annotation>chefcheck(ing9,"boil")</annotation></line>
+<line><originaltext>Bring to a boil, and drizzle equally over apples. </originaltext><annotation>combine({ing0, ing9}, ing10, "topped apples", "drizzle topping on apples")</annotation></line>
+<line><originaltext>Cover with foil, and bake in preheated oven for 20 minutes. </originaltext><annotation>create_tool(t3, "foil")</annotation></line>
+<line><originaltext>Cover with foil, and bake in preheated oven for 20 minutes. </originaltext><annotation>put(ing10, t3)</annotation></line>
+<line><originaltext>Cover with foil, and bake in preheated oven for 20 minutes. </originaltext><annotation>cook(ing10, t0, ing11, "cooked apples", "20 minutes")</annotation></line>
+<line><originaltext>Remove cover, and continue to bake for 10 minutes, or until apples are tender. </originaltext><annotation>do(ing11, t3, ing12, "uncovered apples", "remove foil cover")</annotation></line>
+<line><originaltext>Remove cover, and continue to bake for 10 minutes, or until apples are tender. </originaltext><annotation>cook(ing12, t0, ing13, "fully cooked apples", "10 minutes")</annotation></line>
+<line><originaltext>Remove cover, and continue to bake for 10 minutes, or until apples are tender. </originaltext><annotation>chefcheck(ing13,"tender")</annotation></line>
+<line><originaltext>Serve warm. </originaltext><annotation>serve(ing13,"warm")</annotation></line>
+</recipe>

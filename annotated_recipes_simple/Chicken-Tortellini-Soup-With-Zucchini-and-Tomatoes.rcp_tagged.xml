@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>1 recipe Fast Chicken Soup Base</originaltext><annotation>create_ing(ing89, "1 recipe Fast Chicken Soup Base")</annotation></line>
+<line><originaltext>1 (9 ounce) package refrigerated small cheese tortellini</originaltext><annotation>create_ing(ing90, "1 (9 ounce) package refrigerated small cheese tortellini")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can diced tomatoes</originaltext><annotation>create_ing(ing91, "1 (14.5 ounce) can diced tomatoes")</annotation></line>
+<line><originaltext>2 medium zucchini, diced</originaltext><annotation>create_ing(ing92, "2 medium zucchini, diced")</annotation></line>
+<line><originaltext>1 teaspoon dried basil</originaltext><annotation>create_ing(ing93, "1 teaspoon dried basil")</annotation></line>
+<line><originaltext>1/2 cup chopped fresh parsley</originaltext><annotation>create_ing(ing94, "1/2 cup chopped fresh parsley")</annotation></line>
+<line><originaltext>Salt and freshly ground black pepper</originaltext><annotation>create_ing(ing95, "Salt and freshly ground black pepper")</annotation></line>
+<line><originaltext>Prepare Fast Chicken Soup Base. </originaltext><annotation>do(ing89, , ing96, "prepared base", "prepare")</annotation></line>
+<line><originaltext>Bring to a simmer.</originaltext><annotation>cook(ing96, , ing97, "simmering base", "bring to simmer")</annotation></line>
+<line><originaltext>Add these, then simmer until tender, 10-20 minutes: 1 9-ounce package refrigerated small cheese tortellini; 1 14.5-ounce can diced tomatoes; 2 medium zucchini, diced; 1 tsp. dried basil.</originaltext><annotation>combine({ing90, ing91, ing92, ing93, ing97}, ing98, "soup mix", "")</annotation></line>
+<line><originaltext>Add these, then simmer until tender, 10-20 minutes: 1 9-ounce package refrigerated small cheese tortellini; 1 14.5-ounce can diced tomatoes; 2 medium zucchini, diced; 1 tsp. dried basil.</originaltext><annotation>cook(ing98, , ing99, "simmered mix", "simmer until tender, 10-20 minutes")</annotation></line>
+<line><originaltext>Add these, then simmer until tender, 10-20 minutes: 1 9-ounce package refrigerated small cheese tortellini; 1 14.5-ounce can diced tomatoes; 2 medium zucchini, diced; 1 tsp. dried basil.</originaltext><annotation>chefcheck(ing99,"tender")</annotation></line>
+<line><originaltext>Before removing from heat, stir in: 1/2 cup chopped fresh parsley.</originaltext><annotation>combine({ing94, ing99}, ing100, "parslied mix", "stir in parsley")</annotation></line>
+<line><originaltext>Final touch: Add salt and pepper, to taste.</originaltext><annotation>combine({ing100, ing95}, ing101, "seasoned", "to taste")</annotation></line>
+</recipe>

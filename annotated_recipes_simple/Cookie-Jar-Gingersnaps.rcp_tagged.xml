@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>3/4 cup shortening</originaltext><annotation>create_ing(ing0, "3/4 cup shortening")</annotation></line>
+<line><originaltext>1 cup sugar</originaltext><annotation>create_ing(ing1, "1 cup sugar")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing2, "1 egg")</annotation></line>
+<line><originaltext>1/4 cup molasses</originaltext><annotation>create_ing(ing3, "1/4 cup molasses")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing4, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>2 teaspoons baking soda</originaltext><annotation>create_ing(ing5, "2 teaspoons baking soda")</annotation></line>
+<line><originaltext>1 1/2 teaspoons ground ginger</originaltext><annotation>create_ing(ing6, "1 1/2 teaspoons ground ginger")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing7, "1 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing8, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>Additional sugar</originaltext><annotation>create_ing(ing9, "Additional sugar")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream the shortening and sugar. </originaltext><annotation>create_tool(t0, "large mixing bowl")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream the shortening and sugar. </originaltext><annotation>combine({ing0, ing1}, ing10, "sugar shortening", "")</annotation></line>
+<line><originaltext>In a large mixing bowl, cream the shortening and sugar. </originaltext><annotation>mix(ing10, t0, ing11, "creamed sugar shortening", "cream")</annotation></line>
+<line><originaltext>Beat in the egg and molasses. </originaltext><annotation>combine({ing11, ing2, ing3}, ing12, "molasses mix", "beat in")</annotation></line>
+<line><originaltext>Combine flour, baking soda, ginger, cinnamon and salt; gradually add to creamed mixture. </originaltext><annotation>combine({ing4, ing5, ing6, ing7, ing8}, ing13, "powder mix", "")</annotation></line>
+<line><originaltext>Combine flour, baking soda, ginger, cinnamon and salt; gradually add to creamed mixture. </originaltext><annotation>combine({ing12, ing13}, ing14, "sweet mix", "gradually add")</annotation></line>
+<line><originaltext>Roll teaspoonfuls of dough into balls. </originaltext><annotation>do(ing14, , ing15, "dough balls", "roll teaspoonfuls of dough into balls")</annotation></line>
+<line><originaltext>Dip one side of each ball into sugar; place with sugar side up on a greased baking sheet. </originaltext><annotation>combine({ing15, ing9}, ing16, "sugared cookies", "dip one side of each ball into sugar")</annotation></line>
+<line><originaltext>Dip one side of each ball into sugar; place with sugar side up on a greased baking sheet. </originaltext><annotation>create_tool(t1, "greased baking sheet")</annotation></line>
+<line><originaltext>Dip one side of each ball into sugar; place with sugar side up on a greased baking sheet. </originaltext><annotation>put(ing16, t1)</annotation></line>
+<line><originaltext>Dip one side of each ball into sugar; place with sugar side up on a greased baking sheet. </originaltext><annotation>chefcheck(ing16,"sugar side up")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 12-15 minutes or until lightly browned and crinkly. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 12-15 minutes or until lightly browned and crinkly. </originaltext><annotation>cook(ing16, t2, ing17, "baked cookies", "bake at 350 degrees F for 12-15 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 12-15 minutes or until lightly browned and crinkly. </originaltext><annotation>chefcheck(ing17,"lightly browned and crinkly")</annotation></line>
+</recipe>

@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>6 russet potatoes</originaltext><annotation>create_ing(ing0, "potatoes")</annotation></line>
+<line><originaltext>1 cup all-purpose flour</originaltext><annotation>create_ing(ing1, "flour")</annotation></line>
+<line><originaltext>1 egg, lightly beaten</originaltext><annotation>create_ing(ing2, "egg")</annotation></line>
+<line><originaltext>1 tablespoon olive oil</originaltext><annotation>create_ing(ing3, "oil")</annotation></line>
+<line><originaltext>1 pinch salt</originaltext><annotation>create_ing(ing4, "salt")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to a boil. </originaltext><annotation>create_tool(t0, "large pot of salted water")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to a boil. </originaltext><annotation>set(t0,"boil")</annotation></line>
+<line><originaltext>Drop in potatoes and cook until tender but still firm, about 15 minutes. </originaltext><annotation>cook(ing0, t0, ing5, "cooked potatoes", "drop in for about 15 minutes")</annotation></line>
+<line><originaltext>Drop in potatoes and cook until tender but still firm, about 15 minutes. </originaltext><annotation>chefcheck(ing5,"tender but still firm")</annotation></line>
+<line><originaltext>Drain, cool slightly, and peel. </originaltext><annotation>do(ing5, t0, ing6, "cooked potatoes", "drain")</annotation></line>
+<line><originaltext>Drain, cool slightly, and peel. </originaltext><annotation>leave(ing6,"cool slightly")</annotation></line>
+<line><originaltext>Drain, cool slightly, and peel. </originaltext><annotation>create_tool(t1, "potato peeler")</annotation></line>
+<line><originaltext>Drain, cool slightly, and peel. </originaltext><annotation>cut(ing6, t1, ing7, "peeled potatoes", "peel")</annotation></line>
+<line><originaltext>Season with salt, then mash potatoes with fork, masher, or in ricer. </originaltext><annotation>combine({ing4, ing7}, ing8, "salted potatoes", "season")</annotation></line>
+<line><originaltext>Season with salt, then mash potatoes with fork, masher, or in ricer. </originaltext><annotation>create_tool(t2, "potato masher")</annotation></line>
+<line><originaltext>Season with salt, then mash potatoes with fork, masher, or in ricer. </originaltext><annotation>do(ing8, t2, ing9, "mashed potatoes", "mash")</annotation></line>
+<line><originaltext>Place in large bowl, and stir in egg and olive oil. </originaltext><annotation>create_tool(t3, "large bowl")</annotation></line>
+<line><originaltext>Place in large bowl, and stir in egg and olive oil. </originaltext><annotation>put(ing9, t3)</annotation></line>
+<line><originaltext>Place in large bowl, and stir in egg and olive oil. </originaltext><annotation>combine({ing2, ing3, ing9}, ing10, "potato mixture", "stir in")</annotation></line>
+<line><originaltext>Knead in enough flour to make a soft dough. </originaltext><annotation>combine({ing1, ing10}, ing11, "dough", "knead in")</annotation></line>
+<line><originaltext>On a floured surface, roll dough into a long rope. </originaltext><annotation>create_tool(t4, "floured surface")</annotation></line>
+<line><originaltext>On a floured surface, roll dough into a long rope. </originaltext><annotation>do(ing11, t4, ing12, "dough rope", "roll dough")</annotation></line>
+<line><originaltext>Cut the rope into 1/2-inch pieces. </originaltext><annotation>create_tool(t5, "knife")</annotation></line>
+<line><originaltext>Cut the rope into 1/2-inch pieces. </originaltext><annotation>cut(ing12, t5, ing13, "1/2 inch pieces", "cut rope")</annotation></line>
+<line><originaltext>Bring a large pot of lightly salted water to a boil. </originaltext><annotation>set(t0,"boil")</annotation></line>
+<line><originaltext>Drop in gnocchi, and cook until they float to the top, about 3 to 5 minutes. </originaltext><annotation>cook(ing13, t0, ing14, "gnocchi", "cook about 3 minutes")</annotation></line>
+<line><originaltext>Drop in gnocchi, and cook until they float to the top, about 3 to 5 minutes. </originaltext><annotation>chefcheck(ing14,"floating")</annotation></line>
+<line><originaltext>Serve with pasta sauce. </originaltext><annotation>serve(ing14,"with pasta sauce")</annotation></line>
+</recipe>

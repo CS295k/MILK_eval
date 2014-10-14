@@ -1,0 +1,33 @@
+<recipe version="1.1"><line><originaltext>1 cup unsalted butter</originaltext><annotation>create_ing(ing0, "1 cup unsalted butter")</annotation></line>
+<line><originaltext>1 cup crunchy peanut butter</originaltext><annotation>create_ing(ing1, "1 cup crunchy peanut butter")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing2, "1 cup white sugar")</annotation></line>
+<line><originaltext>1 cup packed brown sugar</originaltext><annotation>create_ing(ing3, "1 cup packed brown sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing4, "2 eggs")</annotation></line>
+<line><originaltext>2 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing5, "2 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking powder</originaltext><annotation>create_ing(ing6, "1 teaspoon baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing7, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1 1/2 teaspoons baking soda</originaltext><annotation>create_ing(ing8, "1 1/2 teaspoons baking soda")</annotation></line>
+<line><originaltext>Cream together butter, peanut butter and sugars. </originaltext><annotation>create_tool(t0, "mixing bowl")</annotation></line>
+<line><originaltext>Cream together butter, peanut butter and sugars. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing9, "things in mixing bowl", "")</annotation></line>
+<line><originaltext>Cream together butter, peanut butter and sugars. </originaltext><annotation>mix(ing9, t0, ing10, "creamed things", "cream together")</annotation></line>
+<line><originaltext>Beat in eggs. </originaltext><annotation>combine({ing10, ing4}, ing11, "things with eggs", "beat in eggs")</annotation></line>
+<line><originaltext>In a separate bowl, sift together flour, baking powder, baking soda, and salt. </originaltext><annotation>create_tool(t1, "bowl")</annotation></line>
+<line><originaltext>In a separate bowl, sift together flour, baking powder, baking soda, and salt. </originaltext><annotation>combine({ing5, ing6, ing7, ing8}, ing12, "dry ingredients", "sift together")</annotation></line>
+<line><originaltext>In a separate bowl, sift together flour, baking powder, baking soda, and salt. </originaltext><annotation>put(ing12, t1)</annotation></line>
+<line><originaltext>Stir into batter. </originaltext><annotation>put(ing12, t0)</annotation></line>
+<line><originaltext>Stir into batter. </originaltext><annotation>combine({ing11, ing12}, ing13, "batter", "stir dry ingredients into batter")</annotation></line>
+<line><originaltext>Put batter in refrigerator for 1 hour. </originaltext><annotation>create_tool(t2, "refrigerator")</annotation></line>
+<line><originaltext>Put batter in refrigerator for 1 hour. </originaltext><annotation>put(ing13, t2)</annotation></line>
+<line><originaltext>Put batter in refrigerator for 1 hour. </originaltext><annotation>leave(ing13,"for 1 hour")</annotation></line>
+<line><originaltext>Roll into 1 inch balls and put on baking sheets. </originaltext><annotation>create_tool(t3, "baking sheets")</annotation></line>
+<line><originaltext>Roll into 1 inch balls and put on baking sheets. </originaltext><annotation>do(ing13, , ing14, "batter balls", "roll into 1 inch balls")</annotation></line>
+<line><originaltext>Roll into 1 inch balls and put on baking sheets. </originaltext><annotation>put(ing14, t3)</annotation></line>
+<line><originaltext>Flatten each ball with a fork, making a criss-cross pattern. </originaltext><annotation>create_tool(t4, "fork")</annotation></line>
+<line><originaltext>Flatten each ball with a fork, making a criss-cross pattern. </originaltext><annotation>do(ing14, t4, ing15, "flattened", "flatten balls with fork, making criss-cross pattern")</annotation></line>
+<line><originaltext>Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown. </originaltext><annotation>create_tool(t5, "oven")</annotation></line>
+<line><originaltext>Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown. </originaltext><annotation>set(t5,"preheat to 375 degrees")</annotation></line>
+<line><originaltext>Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown. </originaltext><annotation>cook(ing15, t5, ing16, "cookies", "bake for 10 minutes")</annotation></line>
+<line><originaltext>Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown. </originaltext><annotation>chefcheck(ing16,"begin to brown")</annotation></line>
+<line><originaltext>Do not over-bake. </originaltext><annotation>chefcheck(ing16,"not over-baked")</annotation></line>
+<line><originaltext>Do not over-bake. </originaltext><annotation>serve(ing16,"")</annotation></line>
+</recipe>

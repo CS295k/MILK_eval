@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>4 cups rotisserie chicken, skinned and boned, meat shredded into bite-sized pieces</originaltext><annotation>create_ing(ing28, "pieces")</annotation></line>
+<line><originaltext>2 medium celery ribs, cut into small dice</originaltext><annotation>create_ing(ing29, "dice")</annotation></line>
+<line><originaltext>2 medium green onions, sliced thin</originaltext><annotation>create_ing(ing30, "onions")</annotation></line>
+<line><originaltext>1/4 cup chopped honey-roasted peanuts</originaltext><annotation>create_ing(ing31, "peanuts")</annotation></line>
+<line><originaltext>2 tablespoons lime juice</originaltext><annotation>create_ing(ing32, "juice")</annotation></line>
+<line><originaltext>2 tablespoons Asian fish sauce</originaltext><annotation>create_ing(ing33, "sauce")</annotation></line>
+<line><originaltext>1 teaspoon ground ginger</originaltext><annotation>create_ing(ing34, "ginger")</annotation></line>
+<line><originaltext>2 teaspoons white sugar</originaltext><annotation>create_ing(ing35, "sugar")</annotation></line>
+<line><originaltext>1/2 teaspoon hot red pepper flakes</originaltext><annotation>create_ing(ing36, "flakes")</annotation></line>
+<line><originaltext>2 tablespoons minced fresh cilantro leaves</originaltext><annotation>create_ing(ing37, "leaves")</annotation></line>
+<line><originaltext>2 tablespoons chopped fresh mint leaves</originaltext><annotation>create_ing(ing38, "leaves")</annotation></line>
+<line><originaltext>Boston lettuce</originaltext><annotation>create_ing(ing39, "lettuce")</annotation></line>
+<line><originaltext>sliced cucumbers</originaltext><annotation>create_ing(ing40, "cucumbers")</annotation></line>
+<line><originaltext>grated carrots</originaltext><annotation>create_ing(ing41, "carrots")</annotation></line>
+<line><originaltext>chopped honey-roasted peanuts</originaltext><annotation>create_ing(ing42, "peanuts")</annotation></line>
+<line><originaltext>In a medium bowl, mix chicken, celery, green onions and peanuts. </originaltext><annotation>create_tool(t2, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix chicken, celery, green onions and peanuts. </originaltext><annotation>combine({ing28, ing29, ing30, ing31}, ing43, "chicken mix", "")</annotation></line>
+<line><originaltext>In a medium bowl, mix chicken, celery, green onions and peanuts. </originaltext><annotation>mix(ing43, t2, ing44, "chicken in bowl", "")</annotation></line>
+<line><originaltext>In a small bowl, whisk lime juice, fish sauce, ginger, sugar, red pepper, cilantro and mint, plus 2 Tbs. water.</originaltext><annotation>create_tool(t3, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, whisk lime juice, fish sauce, ginger, sugar, red pepper, cilantro and mint, plus 2 Tbs. water.</originaltext><annotation>combine({ing32, ing33, ing34, ing35, ing36, ing37, ing38}, ing45, "liquid mix", "with 2 Tbs. water")</annotation></line>
+<line><originaltext>In a small bowl, whisk lime juice, fish sauce, ginger, sugar, red pepper, cilantro and mint, plus 2 Tbs. water.</originaltext><annotation>mix(ing45, t3, ing46, "liquid in bowl", "whisk")</annotation></line>
+<line><originaltext>Toss dressing with chicken mixture and serve on a bed of Boston lettuce with the suggested accompaniments.</originaltext><annotation>combine({ing44, ing46}, ing47, "sauced chicken mix", "toss")</annotation></line>
+<line><originaltext>Toss dressing with chicken mixture and serve on a bed of Boston lettuce with the suggested accompaniments.</originaltext><annotation>combine({ing39, ing47}, ing48, "chicken lettuce", "put chicken mixture on a bed of Boston lettuce")</annotation></line>
+<line><originaltext>Toss dressing with chicken mixture and serve on a bed of Boston lettuce with the suggested accompaniments.</originaltext><annotation>combine({ing40, ing41, ing42, ing48}, ing49, "final mixture", "put on suggested accompaniments")</annotation></line>
+<line><originaltext>Toss dressing with chicken mixture and serve on a bed of Boston lettuce with the suggested accompaniments.</originaltext><annotation>serve(ing49,"")</annotation></line>
+</recipe>

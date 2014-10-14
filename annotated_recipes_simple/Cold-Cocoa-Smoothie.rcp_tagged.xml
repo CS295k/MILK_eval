@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>1 1/2 scoops vanilla ice cream</originaltext><annotation>create_ing(ing0, "1 1/2 scoops vanilla ice cream")</annotation></line>
+<line><originaltext>1 1/2 cups milk</originaltext><annotation>create_ing(ing1, "1 1/2 cups milk")</annotation></line>
+<line><originaltext>1/4 cup whipped cream</originaltext><annotation>create_ing(ing2, "1/4 cup whipped cream")</annotation></line>
+<line><originaltext>2 tablespoons instant hot chocolate mix</originaltext><annotation>create_ing(ing3, "2 tablespoons instant hot chocolate mix")</annotation></line>
+<line><originaltext>5 chocolate sandwich cookies, crushed</originaltext><annotation>create_ing(ing4, "5 chocolate sandwich cookies, crushed")</annotation></line>
+<line><originaltext>In a blender, combine ice cream, milk, whipped cream, hot chocolate mix and crushed cookies. </originaltext><annotation>create_tool(t0, "blender")</annotation></line>
+<line><originaltext>In a blender, combine ice cream, milk, whipped cream, hot chocolate mix and crushed cookies. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing5, "smoothie mix", "")</annotation></line>
+<line><originaltext>In a blender, combine ice cream, milk, whipped cream, hot chocolate mix and crushed cookies. </originaltext><annotation>put(ing5, t0)</annotation></line>
+<line><originaltext>Blend until smooth. </originaltext><annotation>mix(ing5, t0, ing6, "smoothie", "blend until smooth")</annotation></line>
+<line><originaltext>Pour into a large chilled glass. </originaltext><annotation>create_tool(t1, "large chilled glass")</annotation></line>
+<line><originaltext>Pour into a large chilled glass. </originaltext><annotation>put(ing6, t1)</annotation></line>
+</recipe>

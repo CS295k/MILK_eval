@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>3 cups all-purpose flour</originaltext><annotation>create_ing(ing33, "flour")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing34, "soda")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing35, "cinnamon")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing36, "salt")</annotation></line>
+<line><originaltext>3 apples - peeled, cored and sliced</originaltext><annotation>create_ing(ing37, "apples")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing38, "sugar")</annotation></line>
+<line><originaltext>1 cup brown sugar</originaltext><annotation>create_ing(ing39, "sugar")</annotation></line>
+<line><originaltext>1 1/4 cups vegetable oil</originaltext><annotation>create_ing(ing40, "oil")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing41, "eggs")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing42, "extract")</annotation></line>
+<line><originaltext>1 cup chopped walnuts</originaltext><annotation>create_ing(ing43, "walnuts")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t3,"350 F")</annotation></line>
+<line><originaltext>Grease and flour a 9x13 inch pan. </originaltext><annotation>create_tool(t4, "9x13 pan")</annotation></line>
+<line><originaltext>Grease and flour a 9x13 inch pan. </originaltext><annotation>set(t4,"greased and floured")</annotation></line>
+<line><originaltext>Sift together the flour, baking soda, cinnamon and salt. </originaltext><annotation>combine({ing33, ing34, ing35, ing36}, ing44, "dry", "sift")</annotation></line>
+<line><originaltext>Combine the apples and the white sugar; set aside. </originaltext><annotation>combine({ing37, ing38}, ing45, "apples", "combine")</annotation></line>
+<line><originaltext>In a large bowl, mix together the brown sugar, oil, eggs and vanilla. </originaltext><annotation>combine({ing39, ing40, ing41, ing42}, ing46, "wet", "mix in a large bowl")</annotation></line>
+<line><originaltext>Stir in the apple mixture, then the flour mixture. </originaltext><annotation>combine({ing45, ing46}, ing47, "wet apples", "stir")</annotation></line>
+<line><originaltext>Stir in the apple mixture, then the flour mixture. </originaltext><annotation>combine({ing44, ing47}, ing48, "batter", "stir")</annotation></line>
+<line><originaltext>Fold in the walnuts. </originaltext><annotation>combine({ing43, ing48}, ing49, "batter", "fold")</annotation></line>
+<line><originaltext>Pour batter into prepared pan. </originaltext><annotation>put(ing49, t4)</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes, or until a toothpick inserted into the center of the cake comes out clean. </originaltext><annotation>cook(ing49, t3, ing50, "cake", "bake for 45 mins")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes, or until a toothpick inserted into the center of the cake comes out clean. </originaltext><annotation>chefcheck(ing50,"toothpick in the center comes out clean")</annotation></line>
+<line><originaltext>Allow to cool. </originaltext><annotation>chefcheck(ing50,"cooled")</annotation></line>
+</recipe>

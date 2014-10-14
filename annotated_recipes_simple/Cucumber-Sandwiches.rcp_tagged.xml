@@ -1,0 +1,14 @@
+<recipe version="1.1"><line><originaltext>1 (8 ounce) package cream cheese spread</originaltext><annotation>create_ing(ing38, "1 (8 ounce) package cream cheese spread")</annotation></line>
+<line><originaltext>2 teaspoons ranch salad dressing mix</originaltext><annotation>create_ing(ing39, "2 teaspoons ranch salad dressing mix")</annotation></line>
+<line><originaltext>12 slices pumpernickel rye bread</originaltext><annotation>create_ing(ing40, "12 slices pumpernickel rye bread")</annotation></line>
+<line><originaltext>2 medium cucumbers</originaltext><annotation>create_ing(ing41, "2 medium cucumbers")</annotation></line>
+<line><originaltext>In a bowl, combine cream cheese and dressing mix. </originaltext><annotation>create_tool(t10, "bowl")</annotation></line>
+<line><originaltext>In a bowl, combine cream cheese and dressing mix. </originaltext><annotation>combine({ing38, ing39}, ing42, "spread", "in bowl")</annotation></line>
+<line><originaltext>In a bowl, combine cream cheese and dressing mix. </originaltext><annotation>mix(ing42, t10, ing43, "spread", "mix")</annotation></line>
+<line><originaltext>Spread on one side of each slice of bread. </originaltext><annotation>combine({ing40, ing43}, ing44, "bread with spread", "spread on each slice")</annotation></line>
+<line><originaltext>Peel cucumbers if desired thinly slice and place on six slices of bread. </originaltext><annotation>create_tool(t11, "knife")</annotation></line>
+<line><originaltext>Peel cucumbers if desired thinly slice and place on six slices of bread. </originaltext><annotation>cut(ing41, t11, ing45, "cucumber slices", "peel if desired and thinly slice")</annotation></line>
+<line><originaltext>Peel cucumbers if desired thinly slice and place on six slices of bread. </originaltext><annotation>combine({ing44, ing45}, ing46, "half sandwiches", "place on half the slices of bread")</annotation></line>
+<line><originaltext>Top with remaining bread. </originaltext><annotation>do(ing46, "", ing47, "sandwich", "top with remaining slices")</annotation></line>
+<line><originaltext>Serve immediately. </originaltext><annotation>serve(ing47,"immediately")</annotation></line>
+</recipe>

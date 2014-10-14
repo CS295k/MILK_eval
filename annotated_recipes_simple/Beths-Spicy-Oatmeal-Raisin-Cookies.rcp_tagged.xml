@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing15, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1/2 cup butter flavored shortening</originaltext><annotation>create_ing(ing16, "1/2 cup butter flavored shortening")</annotation></line>
+<line><originaltext>1 cup packed light brown sugar</originaltext><annotation>create_ing(ing17, "1 cup packed light brown sugar")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing18, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing19, "2 eggs")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing20, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing21, "1 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing22, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing23, "1 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cloves</originaltext><annotation>create_ing(ing24, "1/2 teaspoon ground cloves")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing25, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>3 cups rolled oats</originaltext><annotation>create_ing(ing26, "3 cups rolled oats")</annotation></line>
+<line><originaltext>1 cup raisins</originaltext><annotation>create_ing(ing27, "1 cup raisins")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t2, "Oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t2,"Preheat to 350 Degrees F")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, butter flavored shortening, brown sugar, white sugar, eggs, and vanilla until smooth. </originaltext><annotation>create_tool(t3, "Large Bowl")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, butter flavored shortening, brown sugar, white sugar, eggs, and vanilla until smooth. </originaltext><annotation>combine({ing15, ing16, ing17, ing18, ing19, ing20}, ing28, "Mixture of butter", "Mix")</annotation></line>
+<line><originaltext>In a large bowl, cream together the butter, butter flavored shortening, brown sugar, white sugar, eggs, and vanilla until smooth. </originaltext><annotation>mix(ing28, t3, ing29, "mixed butter", "cream")</annotation></line>
+<line><originaltext>Combine the flour, baking soda, cinnamon, cloves, and salt; stir into the sugar mixture. </originaltext><annotation>combine({ing21, ing22, ing23, ing24, ing25, ing29}, ing30, "dough", "")</annotation></line>
+<line><originaltext>Combine the flour, baking soda, cinnamon, cloves, and salt; stir into the sugar mixture. </originaltext><annotation>mix(ing30, t3, ing31, "dough", "stir")</annotation></line>
+<line><originaltext>Stir in the oats and raisins. </originaltext><annotation>combine({ing26, ing27, ing31}, ing32, "finished dough", "stir in")</annotation></line>
+<line><originaltext>Drop by rounded teaspoonfuls onto ungreased cookie sheets.</originaltext><annotation>create_tool(t4, "cookie sheet")</annotation></line>
+<line><originaltext>Drop by rounded teaspoonfuls onto ungreased cookie sheets.</originaltext><annotation>put(ing32, t4)</annotation></line>
+<line><originaltext>Bake 10 to 12 minutes until light and golden. </originaltext><annotation>cook(ing32, t2, ing33, "baked cookies", "bake for 10 to 12 minutes")</annotation></line>
+<line><originaltext>Do not overbake. </originaltext><annotation>chefcheck(ing33,"Do not overbake")</annotation></line>
+<line><originaltext>Let them cool for 2 minutes before removing from cookie sheets to cool completely.</originaltext><annotation>chefcheck(ing33,"Let cool")</annotation></line>
+<line><originaltext>Store in airtight container. </originaltext><annotation>leave(ing33, "Store in airtight container")</annotation></line>
+</recipe>

@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons vegetable oil</originaltext><annotation>create_ing(ing0, "2 tablespoons vegetable oil")</annotation></line>
+<line><originaltext>2 skinless chicken leg quarters</originaltext><annotation>create_ing(ing1, "2 skinless chicken leg quarters")</annotation></line>
+<line><originaltext>1/2 cup chopped onion</originaltext><annotation>create_ing(ing2, "1/2 cup chopped onion")</annotation></line>
+<line><originaltext>2 quarts water</originaltext><annotation>create_ing(ing3, "2 quarts water")</annotation></line>
+<line><originaltext>3 cubes  chicken bouillon, crumbled</originaltext><annotation>create_ing(ing4, "3 cubes  chicken bouillon, crumbled")</annotation></line>
+<line><originaltext>1 stalk celery, chopped</originaltext><annotation>create_ing(ing5, "1 stalk celery, chopped")</annotation></line>
+<line><originaltext>3 carrots, chopped</originaltext><annotation>create_ing(ing6, "3 carrots, chopped")</annotation></line>
+<line><originaltext>1 clove roasted garlic, minced</originaltext><annotation>create_ing(ing7, "1 clove roasted garlic, minced")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing8, "salt and pepper to taste")</annotation></line>
+<line><originaltext>1 (12 ounce) package thin egg noodles</originaltext><annotation>create_ing(ing9, "1 (12 ounce) package thin egg noodles")</annotation></line>
+<line><originaltext>In a large pot over medium heat, cook chicken pieces in oil until browned on both sides.  </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>In a large pot over medium heat, cook chicken pieces in oil until browned on both sides.  </originaltext><annotation>combine({ing0, ing1}, ing10, "chicken pieces in oil", "")</annotation></line>
+<line><originaltext>In a large pot over medium heat, cook chicken pieces in oil until browned on both sides.  </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>In a large pot over medium heat, cook chicken pieces in oil until browned on both sides.  </originaltext><annotation>cook(ing10, t0, ing11, "cooked chicken pieces", "medium heat until browned on both sides")</annotation></line>
+<line><originaltext>Stir in onion and cook 2 minutes more.  </originaltext><annotation>combine({ing11, ing2}, ing12, "chicken, onion", "")</annotation></line>
+<line><originaltext>Stir in onion and cook 2 minutes more.  </originaltext><annotation>mix(ing12, t0, ing13, "chicken, onion", "Stir")</annotation></line>
+<line><originaltext>Stir in onion and cook 2 minutes more.  </originaltext><annotation>cook(ing13, t0, ing14, "cooked chicken, onion", "2 minutes")</annotation></line>
+<line><originaltext>Pour in water and chicken bouillon and bring to a boil.  </originaltext><annotation>combine({ing14, ing3, ing4}, ing15, "chicken, onion, water, bouillon", "")</annotation></line>
+<line><originaltext>Pour in water and chicken bouillon and bring to a boil.  </originaltext><annotation>cook(ing15, t0, ing16, "Boiled stuff", "bring to a boil")</annotation></line>
+<line><originaltext>Reduce heat and simmer 45 minutes.</originaltext><annotation>set(t0,"reduce heat")</annotation></line>
+<line><originaltext>Reduce heat and simmer 45 minutes.</originaltext><annotation>cook(ing16, t0, ing17, "stuff in pot", "simmer 45 minutes")</annotation></line>
+<line><originaltext>Stir in celery, carrots, garlic, salt and pepper.  </originaltext><annotation>combine({ing17, ing5, ing6, ing7, ing8}, ing18, "soup", "")</annotation></line>
+<line><originaltext>Stir in celery, carrots, garlic, salt and pepper.  </originaltext><annotation>mix(ing18, t0, ing19, "Stirred soup", "stir")</annotation></line>
+<line><originaltext>Simmer until carrots are just tender.  </originaltext><annotation>cook(ing19, t0, ing20, "soup", "simmer until carrots are tender")</annotation></line>
+<line><originaltext>Remove chicken pieces and pull the meat from the bone.  </originaltext><annotation>separate(ing20, ing21, "chicken pieces", ing22, "rest of soup", "")</annotation></line>
+<line><originaltext>Remove chicken pieces and pull the meat from the bone.  </originaltext><annotation>separate(ing21, ing23, "meat", ing24, "bones", "pull the meat from the bone")</annotation></line>
+<line><originaltext>Stir the noodles into the pot and cook until tender, 10 minutes.  </originaltext><annotation>combine({ing22, ing9}, ing25, "meatless soup", "")</annotation></line>
+<line><originaltext>Stir the noodles into the pot and cook until tender, 10 minutes.  </originaltext><annotation>cook(ing25, t0, ing26, "meatless soup", "cook until tender, 10 minutes")</annotation></line>
+<line><originaltext>Return chicken meat to pot just before serving.</originaltext><annotation>combine({ing23, ing26}, ing27, "soup", "")</annotation></line>
+<line><originaltext>Return chicken meat to pot just before serving.</originaltext><annotation>serve(ing27,"")</annotation></line>
+</recipe>

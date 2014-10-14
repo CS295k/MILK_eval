@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>4 cups milk</originaltext><annotation>create_ing(ing0, "4 cups milk")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing1, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>2 teaspoons butter or margarine</originaltext><annotation>create_ing(ing2, "2 teaspoons butter or margarine")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing3, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing4, "1/2 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>2 cups old-fashioned oats</originaltext><annotation>create_ing(ing5, "2 cups old-fashioned oats")</annotation></line>
+<line><originaltext>2 cups chopped, peeled apples</originaltext><annotation>create_ing(ing6, "2 cups chopped, peeled apples")</annotation></line>
+<line><originaltext>1 cup chopped walnuts</originaltext><annotation>create_ing(ing7, "1 cup chopped walnuts")</annotation></line>
+<line><originaltext>1 cup raisins</originaltext><annotation>create_ing(ing8, "1 cup raisins")</annotation></line>
+<line><originaltext>1 cup wheat germ</originaltext><annotation>create_ing(ing9, "1 cup wheat germ")</annotation></line>
+<line><originaltext>In a saucepan, heat milk, brown sugar, butter, salt and cinnamon. </originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan, heat milk, brown sugar, butter, salt and cinnamon. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing10, "spicy mix", "")</annotation></line>
+<line><originaltext>In a saucepan, heat milk, brown sugar, butter, salt and cinnamon. </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>In a saucepan, heat milk, brown sugar, butter, salt and cinnamon. </originaltext><annotation>cook(ing10, t0, ing11, "heated mix", "heat")</annotation></line>
+<line><originaltext>Add remaining ingredients; mix gently. </originaltext><annotation>combine({ing11, ing5, ing6, ing7, ing8, ing9}, ing12, "oatmeal", "mix gently")</annotation></line>
+<line><originaltext>Spoon into a greased 2-qt. casserole. </originaltext><annotation>create_tool(t1, "greased 2-qt. casserole")</annotation></line>
+<line><originaltext>Spoon into a greased 2-qt. casserole. </originaltext><annotation>put(ing12, t1)</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 45 minutes.</originaltext><annotation>set(t1,"cover")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 45 minutes.</originaltext><annotation>cook(ing12, t1, ing13, "cooked oatmeal", "baked at 350 degrees F for 45 minutes")</annotation></line>
+</recipe>

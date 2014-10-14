@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>1 1/4 cups all-purpose flour</originaltext><annotation>create_ing(ing0, "flour")</annotation></line>
+<line><originaltext>1/2 cup unsweetened cocoa powder</originaltext><annotation>create_ing(ing1, "powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing2, "salt")</annotation></line>
+<line><originaltext>1/4 cup sliced almonds</originaltext><annotation>create_ing(ing3, "almonds")</annotation></line>
+<line><originaltext>1/4 cup butter, softened</originaltext><annotation>create_ing(ing4, "butter")</annotation></line>
+<line><originaltext>2/3 cup white sugar</originaltext><annotation>create_ing(ing5, "sugar")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing6, "egg")</annotation></line>
+<line><originaltext>1/2 teaspoon vanilla extract</originaltext><annotation>create_ing(ing7, "extract")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t0,"preheat oven to 350 degrees F")</annotation></line>
+<line><originaltext>Turn a 9x5 inch loaf pan or metal bowl upside down and cover the outside with foil. </originaltext><annotation>create_tool(t1, "9x5 inch loaf pan or metal bowl")</annotation></line>
+<line><originaltext>Turn a 9x5 inch loaf pan or metal bowl upside down and cover the outside with foil. </originaltext><annotation>set(t1,"turn upside down and cover the outside with foil")</annotation></line>
+<line><originaltext>Place onto a cookie sheet. </originaltext><annotation>create_tool(t2, "cookie sheet")</annotation></line>
+<line><originaltext>Place onto a cookie sheet. </originaltext><annotation>set(t1,"place on cookie sheet")</annotation></line>
+<line><originaltext>Stir together the flour, cocoa, salt and almonds; set aside. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing8, "nut mix", "stir together")</annotation></line>
+<line><originaltext>In a medium bowl, cream together the butter and sugar until smooth. </originaltext><annotation>create_tool(t3, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, cream together the butter and sugar until smooth. </originaltext><annotation>combine({ing4, ing5}, ing9, "sugar butter", "")</annotation></line>
+<line><originaltext>In a medium bowl, cream together the butter and sugar until smooth. </originaltext><annotation>mix(ing9, t3, ing10, "creamed butter", "cream together until smooth")</annotation></line>
+<line><originaltext>Beat in the egg and vanilla. </originaltext><annotation>combine({ing10, ing6, ing7}, ing11, "egg vanilla mix", "beat in")</annotation></line>
+<line><originaltext>Gradually stir in the dry ingredients to form a fairly stiff dough. </originaltext><annotation>combine({ing11, ing8}, ing12, "dough", "gradually stir in")</annotation></line>
+<line><originaltext>Gradually stir in the dry ingredients to form a fairly stiff dough. </originaltext><annotation>chefcheck(ing12,"fairly stiff")</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch in thickness. </originaltext><annotation>create_tool(t4, "lightly floured surface")</annotation></line>
+<line><originaltext>Cut into circles using a glass or cookie cutter. </originaltext><annotation>create_tool(t5, "glass or cookie cutter")</annotation></line>
+<line><originaltext>On a lightly floured surface, roll the dough out to 1/4 inch in thickness. </originaltext><annotation>do(ing12, t4, ing13, "rolled dough", "roll out dough to 1/4 inch in thickness")</annotation></line>
+<line><originaltext>Cut into circles using a glass or cookie cutter. </originaltext><annotation>do(ing13, t5, ing14, "circles", "cut into circles")</annotation></line>
+<line><originaltext>Starting at the top (bottom) of the pan or bowl, arrange cookies so they are overlapping. </originaltext><annotation>do(ing14, t1, ing15, "partially covered pan", "start at the top of the pan, arranging cookies so they are overlapping")</annotation></line>
+<line><originaltext>Work toward the edges covering as much of the pan as you can. </originaltext><annotation>do(ing15, t1, ing16, "covered pan", "work toward the edges, covering the pan")</annotation></line>
+<line><originaltext>Be sure to press each cookie on so you will have a good solid bowl. </originaltext><annotation>chefcheck(ing16,"press each cookie to make bowl solid")</annotation></line>
+<line><originaltext>Bake for 10 to 15 minutes in the preheated oven, until cookies are firm. </originaltext><annotation>cook(ing16, t0, ing17, "baked bowl", "bake for 10 to 15 minutes")</annotation></line>
+<line><originaltext>Bake for 10 to 15 minutes in the preheated oven, until cookies are firm. </originaltext><annotation>chefcheck(ing17,"cookies are firm")</annotation></line>
+<line><originaltext>Cool completely. </originaltext><annotation>leave(ing17,"cool completely")</annotation></line>
+<line><originaltext>Carefully turn the pan over and remove the pan from the foil, then carefully remove the foil from inside the cookie structure. </originaltext><annotation>do(ing17, t1, ing18, "cookie bowl", "carefully turn the pan over and remove the pan from the foil, then carefully remove the foil from inside the cookie structure")</annotation></line>
+<line><originaltext>Fill with cookie or candy. </originaltext><annotation>serve(ing18,"fill with cookie or candy")</annotation></line>
+</recipe>

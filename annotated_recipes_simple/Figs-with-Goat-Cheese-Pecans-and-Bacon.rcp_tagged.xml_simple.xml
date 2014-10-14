@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>6 figs, halved</originaltext><annotation>create_ing(ing0, "figs")</annotation></line>
+<line><originaltext>6 ounces goat cheese</originaltext><annotation>create_ing(ing1, "cheese")</annotation></line>
+<line><originaltext>1/2 cup toasted, chopped pecans</originaltext><annotation>create_ing(ing2, "pecans")</annotation></line>
+<line><originaltext>3 slices bacon, cut in half</originaltext><annotation>create_ing(ing3, "half")</annotation></line>
+<line><originaltext>Preheat the broiler. </originaltext><annotation>create_tool(t0, "broiler")</annotation></line>
+<line><originaltext>Preheat the broiler. </originaltext><annotation>set(t0,"preheat")</annotation></line>
+<line><originaltext>Stuff fig halves with goat cheese. </originaltext><annotation>combine({ing0, ing1}, ing4, "stuffed figs", "stuff figs with cheese")</annotation></line>
+<line><originaltext>Press pecans into the cheese. </originaltext><annotation>combine({ing2, ing4}, ing5, "stuffed figs with nuts", "press pecans into cheese")</annotation></line>
+<line><originaltext>Wrap each stuffed fig half with half a slice of bacon, securing with toothpicks. </originaltext><annotation>combine({ing3, ing5}, ing6, "stuffed figs", "wrap each fig with a slice of bacon")</annotation></line>
+<line><originaltext>Arrange on a medium baking sheet. </originaltext><annotation>create_tool(t1, "medium baking sheet")</annotation></line>
+<line><originaltext>Arrange on a medium baking sheet. </originaltext><annotation>put(ing6, t1)</annotation></line>
+<line><originaltext>Broil 5 minutes, or until bacon is evenly brown and crisp and goat cheese is bubbly and lightly browned. </originaltext><annotation>cook(ing6, t0, ing7, "broiled figs", "broil 5 minutes")</annotation></line>
+<line><originaltext>Broil 5 minutes, or until bacon is evenly brown and crisp and goat cheese is bubbly and lightly browned. </originaltext><annotation>chefcheck(ing7,"bacon evenly brown or goat cheese bubbly and lightly browned")</annotation></line>
+<line><originaltext>Broil 5 minutes, or until bacon is evenly brown and crisp and goat cheese is bubbly and lightly browned. </originaltext><annotation>serve(ing7,"")</annotation></line>
+</recipe>

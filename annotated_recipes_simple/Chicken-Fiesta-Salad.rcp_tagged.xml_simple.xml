@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>2 skinless, boneless chicken breast halves</originaltext><annotation>create_ing(ing0, "halves")</annotation></line>
+<line><originaltext>1 (1.27 ounce) packet dry fajita seasoning, divided</originaltext><annotation>create_ing(ing1, "seasoning")</annotation></line>
+<line><originaltext>1 tablespoon vegetable oil</originaltext><annotation>create_ing(ing2, "oil")</annotation></line>
+<line><originaltext>1 (15 ounce) can black beans, rinsed and drained</originaltext><annotation>create_ing(ing3, "ounce")</annotation></line>
+<line><originaltext>1 (11 ounce) can Mexican-style corn</originaltext><annotation>create_ing(ing4, "ounce")</annotation></line>
+<line><originaltext>1/2 cup salsa</originaltext><annotation>create_ing(ing5, "cup")</annotation></line>
+<line><originaltext>1 (10 ounce) package mixed salad greens</originaltext><annotation>create_ing(ing6, "ounce")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing7, "onion")</annotation></line>
+<line><originaltext>1 tomato, cut into wedges</originaltext><annotation>create_ing(ing8, "wedges")</annotation></line>
+<line><originaltext>Rub chicken evenly with 1/2 the fajita seasoning. </originaltext><annotation>separate(ing1, ing9, "1/2 fajita seasoning", ing10, "1/2 fajita seasoning", "")</annotation></line>
+<line><originaltext>Rub chicken evenly with 1/2 the fajita seasoning. </originaltext><annotation>combine({ing0, ing10}, ing11, "seasoned chicken", "rub chicken with seasoning")</annotation></line>
+<line><originaltext>Heat the oil in a skillet over medium heat, and cook the chicken 8 minutes on each side, or until juices run clear; set aside.</originaltext><annotation>create_tool(t0, "skillet")</annotation></line>
+<line><originaltext>Heat the oil in a skillet over medium heat, and cook the chicken 8 minutes on each side, or until juices run clear; set aside.</originaltext><annotation>cook(ing2, t0, ing12, "hot oil", "")</annotation></line>
+<line><originaltext>Heat the oil in a skillet over medium heat, and cook the chicken 8 minutes on each side, or until juices run clear; set aside.</originaltext><annotation>combine({ing11, ing12}, ing13, "cooked chicken", "8 minutes on each side or until juices run clear")</annotation></line>
+<line><originaltext>In a large saucepan, mix beans, corn, salsa and other 1/2 of fajita seasoning. </originaltext><annotation>create_tool(t1, "large saucepan")</annotation></line>
+<line><originaltext>In a large saucepan, mix beans, corn, salsa and other 1/2 of fajita seasoning. </originaltext><annotation>combine({ing3, ing4, ing5, ing9}, ing14, "beans, corn, salsa, seasoned", "")</annotation></line>
+<line><originaltext>Heat over medium heat until warm.</originaltext><annotation>cook(ing14, t1, ing15, "warmed beans, corn, salsa", "")</annotation></line>
+<line><originaltext>Prepare the salad by tossing the greens, onion and tomato. </originaltext><annotation>combine({ing6, ing7, ing8}, ing16, "salad", "toss")</annotation></line>
+<line><originaltext>Top salad with chicken and dress with the bean and corn mixture.</originaltext><annotation>combine({ing13, ing15, ing16}, ing17, "chicken fiesta salad", "toss together")</annotation></line>
+<line><originaltext>Top salad with chicken and dress with the bean and corn mixture.</originaltext><annotation>serve(ing17,"")</annotation></line>
+</recipe>

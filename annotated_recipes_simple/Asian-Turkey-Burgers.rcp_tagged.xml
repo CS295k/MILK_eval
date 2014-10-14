@@ -1,0 +1,19 @@
+<recipe version="1.1"><line><originaltext>1 egg white</originaltext><annotation>create_ing(ing62, "1 egg white")</annotation></line>
+<line><originaltext>1 tablespoon soy sauce</originaltext><annotation>create_ing(ing63, "1 tablespoon soy sauce")</annotation></line>
+<line><originaltext>1/2 cup dry bread crumbs</originaltext><annotation>create_ing(ing64, "1/2 cup dry bread crumbs")</annotation></line>
+<line><originaltext>1 tablespoon finely chopped onion</originaltext><annotation>create_ing(ing65, "1 tablespoon finely chopped onion")</annotation></line>
+<line><originaltext>1 garlic clove, minced</originaltext><annotation>create_ing(ing66, "1 garlic clove, minced")</annotation></line>
+<line><originaltext>1/4 teaspoon ground ginger</originaltext><annotation>create_ing(ing67, "1/4 teaspoon ground ginger")</annotation></line>
+<line><originaltext>1/8 teaspoon pepper</originaltext><annotation>create_ing(ing68, "1/8 teaspoon pepper")</annotation></line>
+<line><originaltext>12 ounces ground turkey</originaltext><annotation>create_ing(ing69, "12 ounces ground turkey")</annotation></line>
+<line><originaltext>In a bowl, combine the first seven ingredients. </originaltext><annotation>create_tool(t12, "bowl")</annotation></line>
+<line><originaltext>In a bowl, combine the first seven ingredients. </originaltext><annotation>combine({ing62, ing63, ing64, ing65, ing66, ing67, ing68}, ing70, "mixture", "")</annotation></line>
+<line><originaltext>In a bowl, combine the first seven ingredients. </originaltext><annotation>put(ing70, t12)</annotation></line>
+<line><originaltext>Crumble turkey over mixture and mix just until combined. </originaltext><annotation>cut(ing69, , ing71, "crumbled turkey", "crumble with fingers")</annotation></line>
+<line><originaltext>Crumble turkey over mixture and mix just until combined. </originaltext><annotation>combine({ing70, ing71}, ing72, "turkey mixture", "")</annotation></line>
+<line><originaltext>Crumble turkey over mixture and mix just until combined. </originaltext><annotation>mix(ing72, t12, ing73, "mixed turkey mixture", "mix")</annotation></line>
+<line><originaltext>Shape into four patties. </originaltext><annotation>cut(ing73, , ing74, "turkey patties", "divide into four patties")</annotation></line>
+<line><originaltext>Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink.</originaltext><annotation>create_tool(t13, "nonstick skillet coated with cooking spray")</annotation></line>
+<line><originaltext>Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink.</originaltext><annotation>cook(ing74, t13, ing75, "cooked patties", "")</annotation></line>
+<line><originaltext>Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink.</originaltext><annotation>chefcheck(ing75,"no longer pink")</annotation></line>
+</recipe>

@@ -1,0 +1,14 @@
+<recipe version="1.1"><line><originaltext>1 (11 ounce) can mandarin oranges, drained</originaltext><annotation>create_ing(ing0, "1 (11 ounce) can mandarin oranges, drained")</annotation></line>
+<line><originaltext>1 (8 ounce) can crushed pineapple, drained</originaltext><annotation>create_ing(ing1, "1 (8 ounce) can crushed pineapple, drained")</annotation></line>
+<line><originaltext>3 1/2 cups frozen whipped topping, thawed</originaltext><annotation>create_ing(ing2, "3 1/2 cups frozen whipped topping, thawed")</annotation></line>
+<line><originaltext>2 cups shredded coconut</originaltext><annotation>create_ing(ing3, "2 cups shredded coconut")</annotation></line>
+<line><originaltext>2 cups miniature marshmallows</originaltext><annotation>create_ing(ing4, "2 cups miniature marshmallows")</annotation></line>
+<line><originaltext>1/2 cup milk</originaltext><annotation>create_ing(ing5, "1/2 cup milk")</annotation></line>
+<line><originaltext>1 cup maraschino cherries</originaltext><annotation>create_ing(ing6, "1 cup maraschino cherries")</annotation></line>
+<line><originaltext>In a large bowl, combine the oranges, pineapple, whipped topping, coconut, marshmallows and milk. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the oranges, pineapple, whipped topping, coconut, marshmallows and milk. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing7, "fruit mix", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the oranges, pineapple, whipped topping, coconut, marshmallows and milk. </originaltext><annotation>put(ing7, t0)</annotation></line>
+<line><originaltext>Mix together well and chill 1 hour before serving. </originaltext><annotation>mix(ing7, t0, ing8, "mixed fruit", "mix well")</annotation></line>
+<line><originaltext>Mix together well and chill 1 hour before serving. </originaltext><annotation>leave(ing8,"chill 1 hour")</annotation></line>
+<line><originaltext>Garnish with cherries. </originaltext><annotation>combine({ing6, ing8}, ing9, "coconut ambrosia salad", "garnish")</annotation></line>
+</recipe>

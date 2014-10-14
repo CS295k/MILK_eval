@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>1 cup packed brown sugar</originaltext><annotation>create_ing(ing35, "1 cup packed brown sugar")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing36, "1 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/2 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing37, "1/2 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>1/2 cup chopped pecans</originaltext><annotation>create_ing(ing38, "1/2 cup chopped pecans")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing39, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking powder</originaltext><annotation>create_ing(ing40, "1 teaspoon baking powder")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing41, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing42, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing43, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing44, "1 cup white sugar")</annotation></line>
+<line><originaltext>3/4 cup apple butter</originaltext><annotation>create_ing(ing45, "3/4 cup apple butter")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing46, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1/2 cup whole bran cereal or wheat germ</originaltext><annotation>create_ing(ing47, "1/2 cup whole bran cereal or wheat germ")</annotation></line>
+<line><originaltext>1 cup sour cream</originaltext><annotation>create_ing(ing48, "1 cup sour cream")</annotation></line>
+<line><originaltext>2 eggs, beaten</originaltext><annotation>create_ing(ing49, "2 eggs, beaten")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). Spray or grease one 9x13 inch pan.</originaltext><annotation>create_tool(t9, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). Spray or grease one 9x13 inch pan.</originaltext><annotation>create_tool(t10, "9x13 inch pan")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). Spray or grease one 9x13 inch pan.</originaltext><annotation>set(t9,"preheat to 350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). Spray or grease one 9x13 inch pan.</originaltext><annotation>set(t10,"spray or grease")</annotation></line>
+<line><originaltext>Prepare the topping by mixing together the brown sugar, cinnamon, nutmeg and chopped pecans.</originaltext><annotation>combine({ing35, ing36, ing37, ing38}, ing50, "topping", "mix together")</annotation></line>
+<line><originaltext>Sift together the flour, baking powder, baking soda and salt.</originaltext><annotation>combine({ing39, ing40, ing41, ing42}, ing51, "flour mixture", "sift together")</annotation></line>
+<line><originaltext>Blend together butter and sugar; add eggs and beat well. Add apple butter, vanilla, wheat germ or bran cereal. Add sifted dry ingredients alternately with sour cream; mix well after each addition.</originaltext><annotation>combine({ing44, ing43}, ing52, "butter and sugar", "blend together")</annotation></line>
+<line><originaltext>Blend together butter and sugar; add eggs and beat well. Add apple butter, vanilla, wheat germ or bran cereal. Add sifted dry ingredients alternately with sour cream; mix well after each addition.</originaltext><annotation>combine({ing49, ing52}, ing53, "butter sugar and eggs", "")</annotation></line>
+<line><originaltext>Blend together butter and sugar; add eggs and beat well. Add apple butter, vanilla, wheat germ or bran cereal. Add sifted dry ingredients alternately with sour cream; mix well after each addition.</originaltext><annotation>mix(ing53, , ing54, "beaten butter sugar and eggs", "beat well")</annotation></line>
+<line><originaltext>Blend together butter and sugar; add eggs and beat well. Add apple butter, vanilla, wheat germ or bran cereal. Add sifted dry ingredients alternately with sour cream; mix well after each addition.</originaltext><annotation>combine({ing45, ing46, ing47, ing54}, ing55, "butters, egg, spices and wheat germ", "mix well")</annotation></line>
+<line><originaltext>Bake for 40 minutes.</originaltext><annotation>combine({ing48, ing51, ing55}, ing56, "batter", "add flour mixture alternately with sour cream and mix well")</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>separate(ing56, ing57, "1/2 of batter", ing58, "remaining batter", "")</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>separate(ing50, ing59, "1/2 of topping", ing60, "remaining topping", "")</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>put(ing57, t10)</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>combine({ing57, ing59}, ing61, "bottom 1/2 of batter and topping", "sprinkle the topping over top")</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>combine({ing61, ing58}, ing62, "batter in pan", "pour remaining batter")</annotation></line>
+<line><originaltext>Pour 1/2 batter into pan, sprinkle 1/2 the topping over top. Pour remaining batter and top with remaining topping.</originaltext><annotation>combine({ing60, ing62}, ing63, "final cake mixture", "top with remaining topping")</annotation></line>
+<line><originaltext>Bake for 40 minutes.</originaltext><annotation>cook(ing63, t9, ing64, "apple butter spice cake", "bake for 40 minutes")</annotation></line>
+</recipe>

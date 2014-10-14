@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>1 cup all-purpose flour</originaltext><annotation>create_ing(ing15, "flour")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing16, "salt")</annotation></line>
+<line><originaltext>3 eggs, separated</originaltext><annotation>create_ing(ing18, "3 egg yolks")</annotation></line>
+<line><originaltext>3 eggs, separated</originaltext><annotation>create_ing(ing19, "whites")</annotation></line>
+<line><originaltext>1 cup heavy whipping cream</originaltext><annotation>create_ing(ing20, "cream")</annotation></line>
+<line><originaltext>In a large mixing bowl, combine flour and salt. </originaltext><annotation>create_tool(t2, "large mixing bowl")</annotation></line>
+<line><originaltext>In a large mixing bowl, combine flour and salt. </originaltext><annotation>put(ing15, t2)</annotation></line>
+<line><originaltext>In a large mixing bowl, combine flour and salt. </originaltext><annotation>put(ing16, t2)</annotation></line>
+<line><originaltext>In a large mixing bowl, combine flour and salt. </originaltext><annotation>combine({ing15, ing16}, ing21, "flalt", "combine in bowl")</annotation></line>
+<line><originaltext>In a small mixing bowl, beat egg yolks on low while adding cream. </originaltext><annotation>create_tool(t3, "small mixing bowl")</annotation></line>
+<line><originaltext>In a small mixing bowl, beat egg yolks on low while adding cream. </originaltext><annotation>put(ing18, t3)</annotation></line>
+<line><originaltext>In a small mixing bowl, beat egg yolks on low while adding cream. </originaltext><annotation>mix(ing18, t3, ing22, "mutilated egg yolks", "on low")</annotation></line>
+<line><originaltext>In a small mixing bowl, beat egg yolks on low while adding cream. </originaltext><annotation>combine({ing20, ing22}, ing23, "creamy beaten yolks", "as you beat the yolks")</annotation></line>
+<line><originaltext>Beat for 1 minute. </originaltext><annotation>mix(ing23, t3, ing24, "beaten creamy beaten yolks", "beat for one minute")</annotation></line>
+<line><originaltext>Add to flour mixture; combine on low speed, then beat on medium-high until smooth. </originaltext><annotation>put(ing24, t3)</annotation></line>
+<line><originaltext>Add to flour mixture; combine on low speed, then beat on medium-high until smooth. </originaltext><annotation>combine({ing21, ing24}, ing25, "flalty beaten creamy beaten yolks", "combine on low speed")</annotation></line>
+<line><originaltext>Add to flour mixture; combine on low speed, then beat on medium-high until smooth. </originaltext><annotation>mix(ing25, t2, ing26, "batter", "beat on medium-high speed")</annotation></line>
+<line><originaltext>Add to flour mixture; combine on low speed, then beat on medium-high until smooth. </originaltext><annotation>chefcheck(ing26,"Is it smooth?")</annotation></line>
+<line><originaltext>In another small mixing bowl and with clean beaters, beat egg whites on high until stiff peaks form. </originaltext><annotation>create_tool(t4, "small mixing bowl 2")</annotation></line>
+<line><originaltext>In another small mixing bowl and with clean beaters, beat egg whites on high until stiff peaks form. </originaltext><annotation>put(ing19, t4)</annotation></line>
+<line><originaltext>In another small mixing bowl and with clean beaters, beat egg whites on high until stiff peaks form. </originaltext><annotation>mix(ing19, t4, ing27, "stiff egg whites", "on high, until stiff")</annotation></line>
+<line><originaltext>In another small mixing bowl and with clean beaters, beat egg whites on high until stiff peaks form. </originaltext><annotation>chefcheck(ing27,"Can/does it form stiff peaks?")</annotation></line>
+<line><originaltext>Gently fold into batter. </originaltext><annotation>combine({ing26, ing27}, ing29, "eggy, stiffy batter", "gently fold in large mixing bowl")</annotation></line>
+<line><originaltext>Bake in a preheated waffle iron according to manufacturer's directions. </originaltext><annotation>create_tool(t5, "waffle iron")</annotation></line>
+<line><originaltext>Bake in a preheated waffle iron according to manufacturer's directions. </originaltext><annotation>set(t5,"according to manufacturer's directions")</annotation></line>
+<line><originaltext>Bake in a preheated waffle iron according to manufacturer's directions. </originaltext><annotation>cook(ing29, t5, ing30, "tasty waffles", "according to manufacturer's directions")</annotation></line>
+<line><originaltext>Serve with warm maple syrup or fresh fruit in season. </originaltext><annotation>serve(ing30,"with warm maple syrup or fresh fruit in season")</annotation></line>
+</recipe>

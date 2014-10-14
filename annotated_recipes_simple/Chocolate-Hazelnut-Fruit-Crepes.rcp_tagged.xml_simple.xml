@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>1 cup chocolate hazelnut spread</originaltext><annotation>create_ing(ing0, "spread")</annotation></line>
+<line><originaltext>4 crepes</originaltext><annotation>create_ing(ing1, "crepes")</annotation></line>
+<line><originaltext>4 bananas, sliced</originaltext><annotation>create_ing(ing2, "bananas")</annotation></line>
+<line><originaltext>1 (7 ounce) can pressurized whipped cream</originaltext><annotation>create_ing(ing3, "cream")</annotation></line>
+<line><originaltext>Spread 1/4 cup of chocolate hazelnut spread onto each crepe. </originaltext><annotation>combine({ing0, ing1}, ing4, "spread crepes", "Spread 1/4 cup of chocolate hazelnut spread onto each crepe")</annotation></line>
+<line><originaltext>Arrange 1 sliced banana down the center of each one. </originaltext><annotation>combine({ing2, ing4}, ing5, "banana crepes", "Arrange 1 sliced banana down the center of each one")</annotation></line>
+<line><originaltext>Roll up, and place in a warm skillet over medium heat. </originaltext><annotation>do(ing5, , ing6, "rolled crepes", "roll up")</annotation></line>
+<line><originaltext>Roll up, and place in a warm skillet over medium heat. </originaltext><annotation>create_tool(t0, "warm skillet")</annotation></line>
+<line><originaltext>Roll up, and place in a warm skillet over medium heat. </originaltext><annotation>put(ing6, t0)</annotation></line>
+<line><originaltext>Let them warm up for about 90 seconds. </originaltext><annotation>cook(ing6, t0, ing7, "warm crepes", "let them warm up for about 90 seconds")</annotation></line>
+<line><originaltext>Transfer to plates, and serve topped with whipped cream. </originaltext><annotation>create_tool(t1, "plates")</annotation></line>
+<line><originaltext>Transfer to plates, and serve topped with whipped cream. </originaltext><annotation>put(ing7, t1)</annotation></line>
+<line><originaltext>Transfer to plates, and serve topped with whipped cream. </originaltext><annotation>combine({ing3, ing7}, ing8, "crepes", "top with whipped cream")</annotation></line>
+<line><originaltext>Transfer to plates, and serve topped with whipped cream. </originaltext><annotation>serve(ing8,"")</annotation></line>
+</recipe>

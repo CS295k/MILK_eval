@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>3 cups crushed vanilla wafers</originaltext><annotation>create_ing(ing0, "wafers")</annotation></line>
+<line><originaltext>1/2 cup chopped pecans</originaltext><annotation>create_ing(ing1, "pecans")</annotation></line>
+<line><originaltext>2/3 cup butter, melted</originaltext><annotation>create_ing(ing2, "butter")</annotation></line>
+<line><originaltext>2 cups semisweet chocolate chips</originaltext><annotation>create_ing(ing3, "chips")</annotation></line>
+<line><originaltext>4 cups milk</originaltext><annotation>create_ing(ing4, "milk")</annotation></line>
+<line><originaltext>4 1/2 cups miniature marshmallows</originaltext><annotation>create_ing(ing5, "marshmallows")</annotation></line>
+<line><originaltext>2 (3.5 ounce) packages instant vanilla pudding mix</originaltext><annotation>create_ing(ing6, "ounce")</annotation></line>
+<line><originaltext>1 cup frozen whipped topping, thawed</originaltext><annotation>create_ing(ing7, "cup")</annotation></line>
+<line><originaltext>2 large bananas, sliced</originaltext><annotation>create_ing(ing8, "bananas")</annotation></line>
+<line><originaltext>1 (1.5 ounce) bar milk chocolate candy</originaltext><annotation>create_ing(ing9, "ounce")</annotation></line>
+<line><originaltext>Combine crushed cookie crumbs, pecans, and butter or margarine. </originaltext><annotation>combine({ing0, ing1, ing2}, ing10, "cookie pecan mix", "")</annotation></line>
+<line><originaltext>Press into a 9 x 13 inch pan. </originaltext><annotation>create_tool(t0, "9 x 13 inch pan")</annotation></line>
+<line><originaltext>Press into a 9 x 13 inch pan. </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>Press into a 9 x 13 inch pan. </originaltext><annotation>do(ing10, t0, ing11, "crust", "press into pan")</annotation></line>
+<line><originaltext>Bake at 375 degrees F (190 degrees C) for 5 minutes. </originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Bake at 375 degrees F (190 degrees C) for 5 minutes. </originaltext><annotation>cook(ing11, t1, ing12, "baked crust", "bake at 375 degrees F for 5 minutes")</annotation></line>
+<line><originaltext>Cool. </originaltext><annotation>leave(ing12,"cool")</annotation></line>
+<line><originaltext>Combine chocolate chips, 1 cup milk, and 2 cups marshmallows in a sauce pan. </originaltext><annotation>create_tool(t2, "sauce pan")</annotation></line>
+<line><originaltext>Combine chocolate chips, 1 cup milk, and 2 cups marshmallows in a sauce pan. </originaltext><annotation>separate(ing4, ing13, "milk", ing14, "3 cups milk", "")</annotation></line>
+<line><originaltext>Combine chocolate chips, 1 cup milk, and 2 cups marshmallows in a sauce pan. </originaltext><annotation>separate(ing5, ing15, "2 1/2 cups marshmallows", ing16, "2 cups marshmallows", "")</annotation></line>
+<line><originaltext>Combine chocolate chips, 1 cup milk, and 2 cups marshmallows in a sauce pan. </originaltext><annotation>combine({ing13, ing16, ing3}, ing17, "chocolate mix", "")</annotation></line>
+<line><originaltext>Combine chocolate chips, 1 cup milk, and 2 cups marshmallows in a sauce pan. </originaltext><annotation>put(ing17, t2)</annotation></line>
+<line><originaltext>Stir over low heat until melted. </originaltext><annotation>cook(ing17, t2, ing18, "melted chocolate mix", "stir over low heat until melted")</annotation></line>
+<line><originaltext>Pour over cooled crust. </originaltext><annotation>combine({ing12, ing18}, ing19, "pie layer 1", "pour over crust")</annotation></line>
+<line><originaltext>Chill for 1 hour. </originaltext><annotation>leave(ing19,"chill for 1 hour")</annotation></line>
+<line><originaltext>Arrange banana slices over chilled chocolate layer. </originaltext><annotation>combine({ing19, ing8}, ing20, "banana layer", "arrange banana slices over chocolate layer")</annotation></line>
+<line><originaltext>Prepare pudding mix as directed on box except use only 3 cups of milk. </originaltext><annotation>do(ing6, , ing21, "pudding", "Prepare pudding mix as directed on box except use only 3 cups of milk")</annotation></line>
+<line><originaltext>Prepare pudding mix as directed on box except use only 3 cups of milk. </originaltext><annotation>combine({ing14, ing21}, ing22, "pudding", "to make pudding")</annotation></line>
+<line><originaltext>Fold in nondairy whipped topping and remaining marshmallows. </originaltext><annotation>combine({ing15, ing22, ing7}, ing23, "pudding with marshmallows", "fold in")</annotation></line>
+<line><originaltext>Pour pudding mixture over bananas. </originaltext><annotation>combine({ing20, ing23}, ing24, "pie", "pour pudding mix over bananas")</annotation></line>
+<line><originaltext>Grate chocolate bar over the top. </originaltext><annotation>combine({ing24, ing9}, ing25, "chocolatey pie", "grate chocolate bar over top")</annotation></line>
+<line><originaltext>Chill for 2 to 3 hours before serving. </originaltext><annotation>leave(ing25,"chill for 2 to 3 hours")</annotation></line>
+<line><originaltext>Chill for 2 to 3 hours before serving. </originaltext><annotation>serve(ing25,"")</annotation></line>
+</recipe>

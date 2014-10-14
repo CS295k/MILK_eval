@@ -1,0 +1,14 @@
+<recipe version="1.1"><line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing102, "onion")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can condensed tomato soup</originaltext><annotation>create_ing(ing103, "ounce")</annotation></line>
+<line><originaltext>1 (10.75 ounce) can condensed cream of mushroom soup</originaltext><annotation>create_ing(ing104, "soup")</annotation></line>
+<line><originaltext>1 (10 ounce) can diced tomatoes with green chile peppers</originaltext><annotation>create_ing(ing105, "peppers")</annotation></line>
+<line><originaltext>1 1/2 pounds crawfish, peeled</originaltext><annotation>create_ing(ing106, "pounds")</annotation></line>
+<line><originaltext>In a large saucepan on medium heat, saute onion until clear. </originaltext><annotation>create_tool(t18, "large saucepan")</annotation></line>
+<line><originaltext>In a large saucepan on medium heat, saute onion until clear. </originaltext><annotation>set(t18,"medium heat")</annotation></line>
+<line><originaltext>In a large saucepan on medium heat, saute onion until clear. </originaltext><annotation>cook(ing102, t18, ing107, "sauted onion", "saute")</annotation></line>
+<line><originaltext>In a large saucepan on medium heat, saute onion until clear. </originaltext><annotation>chefcheck(ing107,"clear")</annotation></line>
+<line><originaltext>Add tomato soup, mushroom soup, and canned tomatoes. </originaltext><annotation>combine({ing103, ing104, ing105, ing107}, ing108, "soupiness", "add to saucepan")</annotation></line>
+<line><originaltext>Simmer for 15 minutes. </originaltext><annotation>cook(ing108, t18, ing109, "simmered soup", "simmer")</annotation></line>
+<line><originaltext>Place the crawfish into the pan and simmer for 25 minutes. </originaltext><annotation>combine({ing106, ing109}, ing110, "soup and crawfish", "in the pan")</annotation></line>
+<line><originaltext>Place the crawfish into the pan and simmer for 25 minutes. </originaltext><annotation>cook(ing110, t18, ing111, "etouffee", "simmer 25 minutes")</annotation></line>
+</recipe>

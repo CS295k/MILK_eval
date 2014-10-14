@@ -1,0 +1,27 @@
+<recipe version="1.1"><line><originaltext>1 1/2 cups vegetable oil</originaltext><annotation>create_ing(ing0, "1 1/2 cups vegetable oil")</annotation></line>
+<line><originaltext>2 cups white sugar</originaltext><annotation>create_ing(ing1, "2 cups white sugar")</annotation></line>
+<line><originaltext>3 eggs, beaten</originaltext><annotation>create_ing(ing2, "3 eggs, beaten")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing3, "2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>3 cups all-purpose flour</originaltext><annotation>create_ing(ing4, "3 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing5, "1 teaspoon baking soda")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing6, "1 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing7, "1/2 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/2 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing8, "1/2 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>2 1/2 cups apples - peeled, cored and diced</originaltext><annotation>create_ing(ing9, "2 1/2 cups apples - peeled, cored and diced")</annotation></line>
+<line><originaltext>1 cup chopped walnuts</originaltext><annotation>create_ing(ing10, "1 cup chopped walnuts")</annotation></line>
+<line><originaltext>1 cup raisins (optional)</originaltext><annotation>create_ing(ing11, "1 cup raisins (optional)")</annotation></line>
+<line><originaltext>1 (16 ounce) container cream cheese frosting</originaltext><annotation>create_ing(ing12, "1 (16 ounce) container cream cheese frosting")</annotation></line>
+<line><originaltext>1/4 cup finely chopped walnuts</originaltext><annotation>create_ing(ing13, "1/4 cup finely chopped walnuts")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 325 degrees F (165 degrees C). </originaltext><annotation>set(t0,"325 F")</annotation></line>
+<line><originaltext>Grease one 10 inch tube pan. </originaltext><annotation>create_tool(t1, "10 inch tube pan")</annotation></line>
+<line><originaltext>Grease one 10 inch tube pan. </originaltext><annotation>set(t1,"grease")</annotation></line>
+<line><originaltext>Beat together the oil, eggs, vanilla and sugar. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing14, "wet", "beat")</annotation></line>
+<line><originaltext>Sift together the flour, baking soda, salt, cinnamon and nutmeg. </originaltext><annotation>combine({ing4, ing5, ing6, ing7, ing8}, ing15, "dry", "sift")</annotation></line>
+<line><originaltext>Add to egg mixture; stir in apples, nuts and raisins. </originaltext><annotation>combine({ing10, ing11, ing14, ing15, ing9}, ing16, "batter", "stir")</annotation></line>
+<line><originaltext>Pour into prepared pan and bake at 325 degrees F (165 degrees C) for 1 1/2 hrs or until a cake tester inserted in the center comes out clean. </originaltext><annotation>cook(ing16, t1, ing17, "cake", "bake at 325 for 1.5 hours")</annotation></line>
+<line><originaltext>Pour into prepared pan and bake at 325 degrees F (165 degrees C) for 1 1/2 hrs or until a cake tester inserted in the center comes out clean. </originaltext><annotation>chefcheck(ing17,"cake tester comes out clean")</annotation></line>
+<line><originaltext>Cool and frost with cream cheese icing. </originaltext><annotation>leave(ing17,"cool")</annotation></line>
+<line><originaltext>Cool and frost with cream cheese icing. </originaltext><annotation>combine({ing12, ing17}, ing18, "frosted cake", "frost")</annotation></line>
+<line><originaltext>Sprinkle top with 1/4 cup fine chopped nuts. </originaltext><annotation>combine({ing13, ing18}, ing19, "finished frosted cake", "sprinkle on top")</annotation></line>
+</recipe>

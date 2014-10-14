@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons olive oil</originaltext><annotation>create_ing(ing0, "2 tablespoons olive oil")</annotation></line>
+<line><originaltext>3 garlic cloves, minced</originaltext><annotation>create_ing(ing1, "3 garlic cloves, minced")</annotation></line>
+<line><originaltext>2 (14.5 ounce) cans petite diced tomatoes</originaltext><annotation>create_ing(ing2, "2 (14.5 ounce) cans petite diced tomatoes")</annotation></line>
+<line><originaltext>1/4 cup tomato paste</originaltext><annotation>create_ing(ing3, "1/4 cup tomato paste")</annotation></line>
+<line><originaltext>1/2 teaspoon dried basil</originaltext><annotation>create_ing(ing4, "1/2 teaspoon dried basil")</annotation></line>
+<line><originaltext>1/4 teaspoon dried oregano</originaltext><annotation>create_ing(ing5, "1/4 teaspoon dried oregano")</annotation></line>
+<line><originaltext>Heat oil and garlic in a large saucepan or Dutch oven until garlic starts to sizzle and turn golden. </originaltext><annotation>create_tool(t0, "large saucepan/Dutch oven")</annotation></line>
+<line><originaltext>Heat oil and garlic in a large saucepan or Dutch oven until garlic starts to sizzle and turn golden. </originaltext><annotation>combine({ing0, ing1}, ing6, "oil and garlic", "")</annotation></line>
+<line><originaltext>Heat oil and garlic in a large saucepan or Dutch oven until garlic starts to sizzle and turn golden. </originaltext><annotation>cook(ing6, t0, ing7, "heated oil and garlic", "heat")</annotation></line>
+<line><originaltext>Heat oil and garlic in a large saucepan or Dutch oven until garlic starts to sizzle and turn golden. </originaltext><annotation>chefcheck(ing7,"garlic starts to sizzle and turns golden")</annotation></line>
+<line><originaltext>Add tomatoes, tomato paste, basil and oregano; bring to a simmer. </originaltext><annotation>combine({ing2, ing3, ing4, ing5, ing7}, ing8, "stuff in saucepan/Dutch oven", "add tomatoes, tomato paste, basil, oregano")</annotation></line>
+<line><originaltext>Add tomatoes, tomato paste, basil and oregano; bring to a simmer. </originaltext><annotation>cook(ing8, t0, ing9, "simmering sauce", "simmer")</annotation></line>
+<line><originaltext>Add tomatoes, tomato paste, basil and oregano; bring to a simmer. </originaltext><annotation>chefcheck(ing9,"simmer")</annotation></line>
+<line><originaltext>Simmer, uncovered, until sauce is thick enough for dipping, 15 to 20 minutes. </originaltext><annotation>set(t0,"uncovered")</annotation></line>
+<line><originaltext>Simmer, uncovered, until sauce is thick enough for dipping, 15 to 20 minutes. </originaltext><annotation>cook(ing9, t0, ing10, "cooked sauce", "simmer 15 to 20 minutes")</annotation></line>
+<line><originaltext>Simmer, uncovered, until sauce is thick enough for dipping, 15 to 20 minutes. </originaltext><annotation>chefcheck(ing10,"thick enough for dipping")</annotation></line>
+<line><originaltext>Cool and refrigerate. </originaltext><annotation>leave(ing10,"to cool")</annotation></line>
+<line><originaltext>Cool and refrigerate. </originaltext><annotation>leave(ing10,"refrigerate")</annotation></line>
+<line><originaltext>Cool and refrigerate. </originaltext><annotation>serve(ing10,"")</annotation></line>
+</recipe>

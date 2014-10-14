@@ -1,0 +1,46 @@
+<recipe version="1.1"><line><originaltext>1 pound ground pork</originaltext><annotation>create_ing(ing0, "pork")</annotation></line>
+<line><originaltext>4 cups shredded cabbage</originaltext><annotation>create_ing(ing1, "cabbage")</annotation></line>
+<line><originaltext>1 large carrot, shredded</originaltext><annotation>create_ing(ing2, "carrot")</annotation></line>
+<line><originaltext>1/2 green bell pepper, cut into thin strips</originaltext><annotation>create_ing(ing3, "strips")</annotation></line>
+<line><originaltext>1 medium onion, chopped</originaltext><annotation>create_ing(ing4, "onion")</annotation></line>
+<line><originaltext>3 cloves garlic, minced</originaltext><annotation>create_ing(ing5, "cloves")</annotation></line>
+<line><originaltext>3 teaspoons fresh ginger root, grated</originaltext><annotation>create_ing(ing6, "root")</annotation></line>
+<line><originaltext>1 tablespoon cornstarch</originaltext><annotation>create_ing(ing7, "cornstarch")</annotation></line>
+<line><originaltext>2 tablespoons soy sauce</originaltext><annotation>create_ing(ing8, "sauce")</annotation></line>
+<line><originaltext>1 1/2 tablespoons molasses</originaltext><annotation>create_ing(ing9, "molasses")</annotation></line>
+<line><originaltext>2 tablespoons vegetable oil</originaltext><annotation>create_ing(ing10, "oil")</annotation></line>
+<line><originaltext>1 quart oil for frying</originaltext><annotation>create_ing(ing11, "frying")</annotation></line>
+<line><originaltext>1 1/2 (14 ounce) packages egg roll wrappers</originaltext><annotation>create_ing(ing12, "ounce")</annotation></line>
+<line><originaltext>1 1/2 cups sweet and sour sauce</originaltext><annotation>create_ing(ing13, "sauce")</annotation></line>
+<line><originaltext>Cook pork in a large wok over medium-high heat. </originaltext><annotation>create_tool(t0, "large wok")</annotation></line>
+<line><originaltext>Cook pork in a large wok over medium-high heat. </originaltext><annotation>cook(ing0, t0, ing14, "cooked pork", "medium-high heat")</annotation></line>
+<line><originaltext>Drain and set aside. </originaltext><annotation>do(ing14, t0, ing15, "drained pork", "drain")</annotation></line>
+<line><originaltext>In a large bowl, mix the cabbage, carrot, green bell pepper, onion, garlic and ginger. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, mix the cabbage, carrot, green bell pepper, onion, garlic and ginger. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6}, ing16, "veggies", "")</annotation></line>
+<line><originaltext>In a large bowl, mix the cabbage, carrot, green bell pepper, onion, garlic and ginger. </originaltext><annotation>mix(ing16, t1, ing17, "mixed veggies", "")</annotation></line>
+<line><originaltext>In a small bowl, mix the cornstarch, soy sauce, and molasses until smooth. </originaltext><annotation>create_tool(t2, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, mix the cornstarch, soy sauce, and molasses until smooth. </originaltext><annotation>combine({ing7, ing8, ing9}, ing18, "sauce", "")</annotation></line>
+<line><originaltext>In a small bowl, mix the cornstarch, soy sauce, and molasses until smooth. </originaltext><annotation>mix(ing18, t2, ing19, "mixed sauce", "")</annotation></line>
+<line><originaltext>In a small bowl, mix the cornstarch, soy sauce, and molasses until smooth. </originaltext><annotation>chefcheck(ing19,"smooth")</annotation></line>
+<line><originaltext>Heat 2 tablespoons oil in wok. </originaltext><annotation>remove(ing15,t0)</annotation></line>
+<line><originaltext>Heat 2 tablespoons oil in wok. </originaltext><annotation>cook(ing10, t0, ing20, "heated oil", "heat")</annotation></line>
+<line><originaltext>Stir in cabbage mixture in batches, cooking each batch 3 to 4 minutes, just until tender. </originaltext><annotation>combine({ing17, ing20}, ing21, "oiled cabbage mixture", "stir in cabbage in batches")</annotation></line>
+<line><originaltext>Stir in cabbage mixture in batches, cooking each batch 3 to 4 minutes, just until tender. </originaltext><annotation>cook(ing21, t0, ing22, "cooked cabbage", "cook each batch 3-4 minutes")</annotation></line>
+<line><originaltext>Stir in cabbage mixture in batches, cooking each batch 3 to 4 minutes, just until tender. </originaltext><annotation>chefcheck(ing22,"tender")</annotation></line>
+<line><originaltext>Return vegetables to bowl, and mix in pork. </originaltext><annotation>put(ing22, t1)</annotation></line>
+<line><originaltext>Return vegetables to bowl, and mix in pork. </originaltext><annotation>combine({ing15, ing22}, ing23, "pork and cabbage", "mix in pork")</annotation></line>
+<line><originaltext>Stir in the cornstarch mixture. </originaltext><annotation>combine({ing19, ing23}, ing24, "stuff in bowl", "stir in cornstarch mixture")</annotation></line>
+<line><originaltext>Heat 1 quart oil in a deep fryer to 365 degrees F (185 degrees C). </originaltext><annotation>create_tool(t3, "deep fryer")</annotation></line>
+<line><originaltext>Heat 1 quart oil in a deep fryer to 365 degrees F (185 degrees C). </originaltext><annotation>cook(ing11, t3, ing25, "frying oil", "heat to 365 degrees")</annotation></line>
+<line><originaltext>Place about 1 tablespoon filling on each egg roll wrapper. </originaltext><annotation>combine({ing12, ing24}, ing26, "unwrapped rolls", "put 1 tablespoon filling in each egg roll wrapper")</annotation></line>
+<line><originaltext>Fold one corner of wrapper over filling. </originaltext><annotation>do(ing26, , ing27, "corner folded wrapper", "fold one corner of wrapper over filling")</annotation></line>
+<line><originaltext>Fold wrapper sides over filling. </originaltext><annotation>do(ing27, , ing28, "sides folded rolls", "fold wrapper sides over filling")</annotation></line>
+<line><originaltext>Roll wrappers to form egg rolls. </originaltext><annotation>do(ing28, , ing29, "egg rolls", "roll wrappers")</annotation></line>
+<line><originaltext>Fry egg rolls in batches in the hot oil until golden brown. </originaltext><annotation>combine({ing25, ing29}, ing30, "rolls and oil", "")</annotation></line>
+<line><originaltext>Fry egg rolls in batches in the hot oil until golden brown. </originaltext><annotation>cook(ing30, t3, ing31, "fried rolls", "fry rolls in oil")</annotation></line>
+<line><originaltext>Fry egg rolls in batches in the hot oil until golden brown. </originaltext><annotation>chefcheck(ing31,"golden brown")</annotation></line>
+<line><originaltext>Drain on paper towels and serve with sweet and sour sauce. </originaltext><annotation>create_tool(t4, "paper towels")</annotation></line>
+<line><originaltext>Drain on paper towels and serve with sweet and sour sauce. </originaltext><annotation>do(ing31, t4, ing32, "drained rolls", "drain rolls on towels")</annotation></line>
+<line><originaltext>Drain on paper towels and serve with sweet and sour sauce. </originaltext><annotation>combine({ing13, ing32}, ing33, "final egg rolls", "use sauce to taste")</annotation></line>
+<line><originaltext>Drain on paper towels and serve with sweet and sour sauce. </originaltext><annotation>serve(ing33,"serve with sweet and sour sauce")</annotation></line>
+</recipe>

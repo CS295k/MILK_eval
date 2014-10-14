@@ -1,0 +1,30 @@
+<recipe version="1.1"><line><originaltext>1 cup all-purpose flour</originaltext><annotation>create_ing(ing13, "flour")</annotation></line>
+<line><originaltext>2 cups Italian-style seasoned bread crumbs</originaltext><annotation>create_ing(ing14, "crumbs")</annotation></line>
+<line><originaltext>1/2 teaspoon ground black pepper</originaltext><annotation>create_ing(ing15, "pepper")</annotation></line>
+<line><originaltext>1/2 teaspoon cayenne pepper</originaltext><annotation>create_ing(ing16, "pepper")</annotation></line>
+<line><originaltext>2 eggs, beaten</originaltext><annotation>create_ing(ing17, "eggs")</annotation></line>
+<line><originaltext>2 tablespoons water</originaltext><annotation>create_ing(ing18, "water")</annotation></line>
+<line><originaltext>24 chicken tenderloins</originaltext><annotation>create_ing(ing19, "tenderloins")</annotation></line>
+<line><originaltext>2 quarts oil for frying</originaltext><annotation>create_ing(ing20, "frying")</annotation></line>
+<line><originaltext>1 cup mayonnaise</originaltext><annotation>create_ing(ing21, "mayonnaise")</annotation></line>
+<line><originaltext>3 tablespoons prepared horseradish</originaltext><annotation>create_ing(ing22, "horseradish")</annotation></line>
+<line><originaltext>1/2 cup sour cream</originaltext><annotation>create_ing(ing23, "cream")</annotation></line>
+<line><originaltext>1 dash Worcestershire sauce</originaltext><annotation>create_ing(ing24, "sauce")</annotation></line>
+<line><originaltext>3 tablespoons prepared mustard</originaltext><annotation>create_ing(ing25, "mustard")</annotation></line>
+<line><originaltext>Place flour in a shallow bowl. </originaltext><annotation>create_tool(t5, "shallow bowl")</annotation></line>
+<line><originaltext>Place flour in a shallow bowl. </originaltext><annotation>put(ing13, t5)</annotation></line>
+<line><originaltext>Place breadcrumbs in a separate shallow bowl, and mix with ground black pepper and cayenne pepper. </originaltext><annotation>create_tool(t6, "another shallow bowl")</annotation></line>
+<line><originaltext>Place breadcrumbs in a separate shallow bowl, and mix with ground black pepper and cayenne pepper. </originaltext><annotation>combine({ing14, ing15, ing16}, ing26, "spiced crumbs", "mix")</annotation></line>
+<line><originaltext>Place breadcrumbs in a separate shallow bowl, and mix with ground black pepper and cayenne pepper. </originaltext><annotation>put(ing26, t6)</annotation></line>
+<line><originaltext>Place eggs and water in a small bowl. </originaltext><annotation>create_tool(t7, "small bowl")</annotation></line>
+<line><originaltext>Place eggs and water in a small bowl. </originaltext><annotation>put(ing17, t7)</annotation></line>
+<line><originaltext>Place eggs and water in a small bowl. </originaltext><annotation>put(ing18, t7)</annotation></line>
+<line><originaltext>One piece at a time, coat the chicken in the flour, the eggs and the bread crumbs, and set aside. </originaltext><annotation>put(ing19, t5)</annotation></line>
+<line><originaltext>One piece at a time, coat the chicken in the flour, the eggs and the bread crumbs, and set aside. </originaltext><annotation>put(ing19, t7)</annotation></line>
+<line><originaltext>One piece at a time, coat the chicken in the flour, the eggs and the bread crumbs, and set aside. </originaltext><annotation>put(ing19, t6)</annotation></line>
+<line><originaltext>Heat oil in a deep fryer to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t8, "deep fryer")</annotation></line>
+<line><originaltext>Heat oil in a deep fryer to 375 degrees F (190 degrees C). </originaltext><annotation>put(ing20, t8)</annotation></line>
+<line><originaltext>Heat oil in a deep fryer to 375 degrees F (190 degrees C). </originaltext><annotation>set(t8,"375 F")</annotation></line>
+<line><originaltext>In small batches, fry chicken 6 to 8 minutes, or until golden brown. </originaltext><annotation>cook(ing19, t8, ing27, "fried chicken strips", "fry 6 or 8 at a time")</annotation></line>
+<line><originaltext>In a separate small bowl, combine the mayonnaise, horseradish, sour cream, Worcestershire sauce and mustard. </originaltext><annotation>combine({ing21, ing22, ing23, ing24, ing25}, ing28, "dipping sauce", "mix")</annotation></line>
+</recipe>

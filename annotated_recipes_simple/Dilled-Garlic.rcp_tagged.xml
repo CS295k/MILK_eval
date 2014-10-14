@@ -1,0 +1,20 @@
+<recipe version="1.1"><line><originaltext>2 pounds garlic, peeled</originaltext><annotation>create_ing(ing0, "2 pounds garlic, peeled")</annotation></line>
+<line><originaltext>1 sprig chopped fresh dill</originaltext><annotation>create_ing(ing1, "1 sprig chopped fresh dill")</annotation></line>
+<line><originaltext>cayenne pepper to taste</originaltext><annotation>create_ing(ing2, "cayenne pepper to taste")</annotation></line>
+<line><originaltext>4 1/2 cups distilled white vinegar</originaltext><annotation>create_ing(ing3, "4 1/2 cups distilled white vinegar")</annotation></line>
+<line><originaltext>4 tablespoons salt</originaltext><annotation>create_ing(ing4, "4 tablespoons salt")</annotation></line>
+<line><originaltext>Fill sterile containers with garlic, chopped fresh dill and cayenne pepper to within an inch of the top. </originaltext><annotation>create_tool(t0, "sterile containers")</annotation></line>
+<line><originaltext>Fill sterile containers with garlic, chopped fresh dill and cayenne pepper to within an inch of the top. </originaltext><annotation>combine({ing0, ing1, ing2}, ing5, "things in containers", "")</annotation></line>
+<line><originaltext>Fill sterile containers with garlic, chopped fresh dill and cayenne pepper to within an inch of the top. </originaltext><annotation>put(ing5, t0)</annotation></line>
+<line><originaltext>Fill sterile containers with garlic, chopped fresh dill and cayenne pepper to within an inch of the top. </originaltext><annotation>chefcheck(ing5,"container filled to within an inch of the top")</annotation></line>
+<line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>create_tool(t1, "medium saucepan")</annotation></line>
+<line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>combine({ing3, ing4}, ing6, "things in saucepan", "")</annotation></line>
+<line><originaltext>Mix the distilled white vinegar and salt in a medium saucepan. </originaltext><annotation>mix(ing6, t1, ing7, "salt and white vinegar", "")</annotation></line>
+<line><originaltext>Bring to a boil. </originaltext><annotation>cook(ing7, t1, ing8, "boiling things", "bring to a boil")</annotation></line>
+<line><originaltext>Pour the hot distilled white vinegar and salt mixture into the containers with the garlic mixture. </originaltext><annotation>combine({ing5, ing8}, ing9, "things in containers", "")</annotation></line>
+<line><originaltext>Pour the hot distilled white vinegar and salt mixture into the containers with the garlic mixture. </originaltext><annotation>put(ing9, t0)</annotation></line>
+<line><originaltext>Fill to approximately 1/4 inch from the top. </originaltext><annotation>chefcheck(ing9,"containers filled to 1/4 inch from top")</annotation></line>
+<line><originaltext>Seal and store in the refrigerator. </originaltext><annotation>set(t0,"sealed")</annotation></line>
+<line><originaltext>Seal and store in the refrigerator. </originaltext><annotation>leave(ing9,"store in refrigerator")</annotation></line>
+<line><originaltext>Seal and store in the refrigerator. </originaltext><annotation>serve(ing9,"")</annotation></line>
+</recipe>

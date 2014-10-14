@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>1 cup mayonnaise</originaltext><annotation>create_ing(ing154, "mayonnaise")</annotation></line>
+<line><originaltext>8 ounces sour cream</originaltext><annotation>create_ing(ing155, "cream")</annotation></line>
+<line><originaltext>1 (1 ounce) package garlic and mushroom soup mix</originaltext><annotation>create_ing(ing156, "mix")</annotation></line>
+<line><originaltext>1 (14 ounce) can artichoke hearts, drained and chopped</originaltext><annotation>create_ing(ing157, "hearts")</annotation></line>
+<line><originaltext>1 cup shredded Swiss cheese</originaltext><annotation>create_ing(ing158, "cheese")</annotation></line>
+<line><originaltext>1 (6 ounce) can crab meat, drained</originaltext><annotation>create_ing(ing159, "ounce")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t16, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t16,"350 F")</annotation></line>
+<line><originaltext>In a 1-1/2 quart casserole dish, combine mayonnaise, sour cream, soup mix, artichoke hearts, cheese and crab meat. </originaltext><annotation>combine({ing154, ing155, ing156, ing157, ing158, ing159}, ing160, "dip!", "in a casserole dish")</annotation></line>
+<line><originaltext>Bake uncovered for 30 minutes. </originaltext><annotation>cook(ing160, t16, ing161, "Dip!", "uncovered for 30 mins")</annotation></line>
+<line><originaltext>Serve immediately. </originaltext><annotation>serve(ing161,"immediately")</annotation></line>
+</recipe>

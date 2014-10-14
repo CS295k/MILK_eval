@@ -1,0 +1,52 @@
+<recipe version="1.1"><line><originaltext>1 cup warm water (110 degrees F)</originaltext><annotation>create_ing(ing0, "F")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing1, "egg")</annotation></line>
+<line><originaltext>3 cups bread flour</originaltext><annotation>create_ing(ing2, "flour")</annotation></line>
+<line><originaltext>1/4 cup white sugar</originaltext><annotation>create_ing(ing3, "sugar")</annotation></line>
+<line><originaltext>3 tablespoons instant powdered milk</originaltext><annotation>create_ing(ing4, "tablespoons")</annotation></line>
+<line><originaltext>1 1/2 teaspoons salt</originaltext><annotation>create_ing(ing5, "salt")</annotation></line>
+<line><originaltext>5 tablespoons butter, softened</originaltext><annotation>create_ing(ing6, "butter")</annotation></line>
+<line><originaltext>1 teaspoon instant yeast</originaltext><annotation>create_ing(ing7, "yeast")</annotation></line>
+<line><originaltext>1/3 cup butter</originaltext><annotation>create_ing(ing8, "butter")</annotation></line>
+<line><originaltext>1/2 cup vanilla ice cream</originaltext><annotation>create_ing(ing9, "vanilla")</annotation></line>
+<line><originaltext>1/2 cup brown sugar</originaltext><annotation>create_ing(ing10, "sugar")</annotation></line>
+<line><originaltext>1/2 cup butter, softened (for spreading)</originaltext><annotation>create_ing(ing11, "butter")</annotation></line>
+<line><originaltext>1 tablespoon ground cinnamon</originaltext><annotation>create_ing(ing12, "ground")</annotation></line>
+<line><originaltext>1/2 cup brown sugar</originaltext><annotation>create_ing(ing13, "sugar")</annotation></line>
+<line><originaltext>Place water, egg, bread flour, white sugar, powdered milk, salt, 5 tablespoons butter and yeast in bread machine in the order suggested by the manufacturer. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing14, "bread ingredients", "")</annotation></line>
+<line><originaltext>Place water, egg, bread flour, white sugar, powdered milk, salt, 5 tablespoons butter and yeast in bread machine in the order suggested by the manufacturer. </originaltext><annotation>create_tool(t0, "bread machine")</annotation></line>
+<line><originaltext>Place water, egg, bread flour, white sugar, powdered milk, salt, 5 tablespoons butter and yeast in bread machine in the order suggested by the manufacturer. </originaltext><annotation>put(ing14, t0)</annotation></line>
+<line><originaltext>Place water, egg, bread flour, white sugar, powdered milk, salt, 5 tablespoons butter and yeast in bread machine in the order suggested by the manufacturer. </originaltext><annotation>chefcheck(ing14,"added to machine in manufacturer's suggested order")</annotation></line>
+<line><originaltext>Select DOUGH setting, and turn machine on. </originaltext><annotation>set(t0,"DOUGH setting")</annotation></line>
+<line><originaltext>Select DOUGH setting, and turn machine on. </originaltext><annotation>set(t0,"on")</annotation></line>
+<line><originaltext>Meanwhile; in a small saucepan, melt 1/3 cup butter. </originaltext><annotation>create_tool(t1, "small saucepan")</annotation></line>
+<line><originaltext>Meanwhile; in a small saucepan, melt 1/3 cup butter. </originaltext><annotation>cook(ing8, t1, ing15, "melted butter", "melt")</annotation></line>
+<line><originaltext>Add 1/2 cup brown sugar and ice cream; bring to a boil, and cook for 2 minutes. </originaltext><annotation>combine({ing13, ing15, ing9}, ing16, "things in saucepan", "")</annotation></line>
+<line><originaltext>Add 1/2 cup brown sugar and ice cream; bring to a boil, and cook for 2 minutes. </originaltext><annotation>cook(ing16, t1, ing17, "boiling things", "bring to a boil")</annotation></line>
+<line><originaltext>Add 1/2 cup brown sugar and ice cream; bring to a boil, and cook for 2 minutes. </originaltext><annotation>cook(ing17, t1, ing18, "caramel", "cook for 2 minutes")</annotation></line>
+<line><originaltext>Pour caramel into the bottom of a lightly greased 9 x 13 inch pan. </originaltext><annotation>create_tool(t2, "9 x 13 inch pan")</annotation></line>
+<line><originaltext>Pour caramel into the bottom of a lightly greased 9 x 13 inch pan. </originaltext><annotation>set(t2,"lightly greased")</annotation></line>
+<line><originaltext>Pour caramel into the bottom of a lightly greased 9 x 13 inch pan. </originaltext><annotation>remove(ing18,t1)</annotation></line>
+<line><originaltext>Pour caramel into the bottom of a lightly greased 9 x 13 inch pan. </originaltext><annotation>put(ing18, t2)</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t3,"preheat to 350 degrees")</annotation></line>
+<line><originaltext>When machine has finished cycling remove dough from pan and turn it out onto a lightly floured surface. </originaltext><annotation>chefcheck(ing14,"machine has stopped cycling")</annotation></line>
+<line><originaltext>When machine has finished cycling remove dough from pan and turn it out onto a lightly floured surface. </originaltext><annotation>remove(ing14,t0)</annotation></line>
+<line><originaltext>When machine has finished cycling remove dough from pan and turn it out onto a lightly floured surface. </originaltext><annotation>create_tool(t4, "surface")</annotation></line>
+<line><originaltext>When machine has finished cycling remove dough from pan and turn it out onto a lightly floured surface. </originaltext><annotation>set(t4,"lightly floured")</annotation></line>
+<line><originaltext>When machine has finished cycling remove dough from pan and turn it out onto a lightly floured surface. </originaltext><annotation>put(ing14, t4)</annotation></line>
+<line><originaltext>Pat dough into a rectangle. </originaltext><annotation>do(ing14, , ing19, "dough rectangle", "pat dough into a rectangle")</annotation></line>
+<line><originaltext>Spread with softened butter and sprinkle lightly with cinnamon. </originaltext><annotation>combine({ing11, ing19}, ing20, "buttery dough", "spread dough with butter")</annotation></line>
+<line><originaltext>Spread with softened butter and sprinkle lightly with cinnamon. </originaltext><annotation>combine({ing12, ing20}, ing21, "dough with cinnamon", "sprinkle with cinnamon lightly")</annotation></line>
+<line><originaltext>Crumble 1/2 cup brown sugar over the top. </originaltext><annotation>combine({ing10, ing21}, ing22, "sugary dough", "crumble sugar over top of dough")</annotation></line>
+<line><originaltext>Roll up, and seal edge. </originaltext><annotation>do(ing22, , ing23, "rolled dough", "roll up")</annotation></line>
+<line><originaltext>Roll up, and seal edge. </originaltext><annotation>do(ing23, , ing24, "sealed dough", "seal edge")</annotation></line>
+<line><originaltext>Cut into 12 rolls, and place in prepared pan of caramel. </originaltext><annotation>create_tool(t5, "knife")</annotation></line>
+<line><originaltext>Cut into 12 rolls, and place in prepared pan of caramel. </originaltext><annotation>cut(ing24, t5, ing25, "dough rolls", "cut into 12 rolls")</annotation></line>
+<line><originaltext>Cut into 12 rolls, and place in prepared pan of caramel. </originaltext><annotation>put(ing25, t2)</annotation></line>
+<line><originaltext>Cut into 12 rolls, and place in prepared pan of caramel. </originaltext><annotation>combine({ing18, ing25}, ing26, "things in pan", "place rolls in pan of caramel")</annotation></line>
+<line><originaltext>Allow to rise until doubled in size, about 45 minutes. </originaltext><annotation>leave(ing26,"to rise about 45 minutes")</annotation></line>
+<line><originaltext>Allow to rise until doubled in size, about 45 minutes. </originaltext><annotation>chefcheck(ing26,"doubled in size")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for approximately 20 to 25 minutes, until golden brown. </originaltext><annotation>cook(ing26, t3, ing27, "cinnamon rolls", "bake for 20-25 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for approximately 20 to 25 minutes, until golden brown. </originaltext><annotation>chefcheck(ing27,"golden brown")</annotation></line>
+<line><originaltext>Bake at 350 degrees F (175 degrees C) for approximately 20 to 25 minutes, until golden brown. </originaltext><annotation>serve(ing27,"")</annotation></line>
+</recipe>

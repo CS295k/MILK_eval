@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 (21 ounce) can cherry pie filling</originaltext><annotation>create_ing(ing0, "1 (21 ounce) can cherry pie filling")</annotation></line>
+<line><originaltext>1 (16.5 ounce) can pitted dark sweet cherries</originaltext><annotation>create_ing(ing1, "1 (16.5 ounce) can pitted dark sweet cherries")</annotation></line>
+<line><originaltext>1 (18.25 ounce) package chocolate cake mix</originaltext><annotation>create_ing(ing2, "1 (18.25 ounce) package chocolate cake mix")</annotation></line>
+<line><originaltext>1 cup chopped walnuts</originaltext><annotation>create_ing(ing3, "1 cup chopped walnuts")</annotation></line>
+<line><originaltext>3/4 cup butter, cut into pieces</originaltext><annotation>create_ing(ing4, "3/4 cup butter, cut into pieces")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>set(t0,"preheat to 375 degrees F")</annotation></line>
+<line><originaltext>Spray 9x13 baking dish with cooking spray.</originaltext><annotation>create_tool(t1, "9x13 baking dish")</annotation></line>
+<line><originaltext>Spray 9x13 baking dish with cooking spray.</originaltext><annotation>set(t1,"spray with cooking spray")</annotation></line>
+<line><originaltext>Dump cherry pie filling into dish and spread evenly. </originaltext><annotation>put(ing0, t1)</annotation></line>
+<line><originaltext>Dump cherry pie filling into dish and spread evenly. </originaltext><annotation>do(ing0, , ing10, "filling spread evenly in dish", "spread evenly in dish")</annotation></line>
+<line><originaltext>Repeat with cherries, including juice. </originaltext><annotation>combine({ing10, ing1}, ing5, "2 layer cake", "spread cherries and juice evenly over filling")</annotation></line>
+<line><originaltext>Sprinkle cake mix over the top - DO NOT STIR. </originaltext><annotation>combine({ing2, ing5}, ing6, "3 layer cake", "sprinkle, do not stir")</annotation></line>
+<line><originaltext>Sprinkle with chopped nuts. </originaltext><annotation>combine({ing3, ing6}, ing7, "nutty cake", "sprinkle")</annotation></line>
+<line><originaltext>Distribute butter pieces evenly over the top.</originaltext><annotation>combine({ing4, ing7}, ing8, "buttery nut cake", "distribute evenly on top")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes.</originaltext><annotation>cook(ing8, t0, ing9, "baked cake", "for 45 minutes")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes.</originaltext><annotation>serve(ing9,"")</annotation></line>
+</recipe>

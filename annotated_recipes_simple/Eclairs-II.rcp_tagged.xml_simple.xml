@@ -1,0 +1,75 @@
+<recipe version="1.1"><line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing43, "cup")</annotation></line>
+<line><originaltext>1 cup water</originaltext><annotation>create_ing(ing44, "water")</annotation></line>
+<line><originaltext>1 cup all-purpose flour</originaltext><annotation>create_ing(ing45, "flour")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing46, "salt")</annotation></line>
+<line><originaltext>4 eggs</originaltext><annotation>create_ing(ing47, "eggs")</annotation></line>
+<line><originaltext>1 (5 ounce) package instant vanilla pudding mix</originaltext><annotation>create_ing(ing48, "ounce")</annotation></line>
+<line><originaltext>2 1/2 cups cold milk</originaltext><annotation>create_ing(ing49, "milk")</annotation></line>
+<line><originaltext>1 cup heavy cream</originaltext><annotation>create_ing(ing50, "cream")</annotation></line>
+<line><originaltext>1/4 cup confectioners' sugar</originaltext><annotation>create_ing(ing51, "sugar")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing52, "extract")</annotation></line>
+<line><originaltext>2 (1 ounce) squares semisweet chocolate</originaltext><annotation>create_ing(ing53, "chocolate")</annotation></line>
+<line><originaltext>2 tablespoons butter</originaltext><annotation>create_ing(ing54, "tablespoons")</annotation></line>
+<line><originaltext>1 cup confectioners' sugar</originaltext><annotation>create_ing(ing55, "confectioners")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing56, "extract")</annotation></line>
+<line><originaltext>3 tablespoons hot water</originaltext><annotation>create_ing(ing57, "water")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). </originaltext><annotation>create_tool(t11, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). </originaltext><annotation>set(t11,"450 degrees F")</annotation></line>
+<line><originaltext>Grease a cookie sheet. </originaltext><annotation>create_tool(t12, "cookie sheet")</annotation></line>
+<line><originaltext>Grease a cookie sheet. </originaltext><annotation>set(t12,"greased")</annotation></line>
+<line><originaltext>In a medium saucepan, combine 1/2 cup butter and 1 cup water. </originaltext><annotation>create_tool(t13, "medium saucepan")</annotation></line>
+<line><originaltext>In a medium saucepan, combine 1/2 cup butter and 1 cup water. </originaltext><annotation>put(ing43, t13)</annotation></line>
+<line><originaltext>In a medium saucepan, combine 1/2 cup butter and 1 cup water. </originaltext><annotation>put(ing44, t13)</annotation></line>
+<line><originaltext>In a medium saucepan, combine 1/2 cup butter and 1 cup water. </originaltext><annotation>combine({ing43, ing44}, ing58, "butter water", "they're both in the same pan, duh")</annotation></line>
+<line><originaltext>Bring to a boil, stirring until butter melts completely. </originaltext><annotation>cook(ing58, t13, ing59, "buttered water", "bring to a boil, melt butter completely")</annotation></line>
+<line><originaltext>Reduce heat to low, and add flour and salt. </originaltext><annotation>set(t13,"low heat")</annotation></line>
+<line><originaltext>Reduce heat to low, and add flour and salt. </originaltext><annotation>put(ing45, t13)</annotation></line>
+<line><originaltext>Reduce heat to low, and add flour and salt. </originaltext><annotation>put(ing46, t13)</annotation></line>
+<line><originaltext>Reduce heat to low, and add flour and salt. </originaltext><annotation>combine({ing45, ing46, ing59}, ing60, "buttered water with flalt", "in saucepan")</annotation></line>
+<line><originaltext>Stir vigorously until mixture leaves the sides of the pan and begins to form a stiff ball. </originaltext><annotation>mix(ing60, t13, ing61, "buttery flalt wad", "stir vigorously")</annotation></line>
+<line><originaltext>Stir vigorously until mixture leaves the sides of the pan and begins to form a stiff ball. </originaltext><annotation>chefcheck(ing61,"Does it leave the sides of the pan and begin to form a stiff ball?")</annotation></line>
+<line><originaltext>Remove from heat. </originaltext><annotation>set(t13,"remove from heat")</annotation></line>
+<line><originaltext>Add eggs, one at a time, beating well to incorporate completely after each addition. </originaltext><annotation>combine({ing47, ing61}, ing62, "eggy buttery flalt wad", "one egg at a time, beating well before the next egg")</annotation></line>
+<line><originaltext>Add eggs, one at a time, beating well to incorporate completely after each addition. </originaltext><annotation>mix(ing62, t13, ing63, "well-beaten eggy buttery flalt wad", "beat well")</annotation></line>
+<line><originaltext>With a spoon or a pastry bag fitted with a No. 10, or larger, tip, spoon or pipe dough onto cookie sheet in 1 1/2 x 4 inch strips. </originaltext><annotation>create_tool(t14, "spoon or pastry bag fitted with No. 10 or larger tip")</annotation></line>
+<line><originaltext>With a spoon or a pastry bag fitted with a No. 10, or larger, tip, spoon or pipe dough onto cookie sheet in 1 1/2 x 4 inch strips. </originaltext><annotation>do(ing63, t14, ing64, "1 1/2 x 4 inch strips of dough", "spoon or pipe 1 1/2 x 4 inch strips onto cookie sheet")</annotation></line>
+<line><originaltext>With a spoon or a pastry bag fitted with a No. 10, or larger, tip, spoon or pipe dough onto cookie sheet in 1 1/2 x 4 inch strips. </originaltext><annotation>put(ing64, t12)</annotation></line>
+<line><originaltext>Bake 15 minutes in the preheated oven, then reduce heat to 325 degrees F (165 degrees C) and bake 20 minutes more, until hollow sounding when lightly tapped on the bottom. </originaltext><annotation>cook(ing64, t11, ing65, "half-cooked dough", "bake 15 minutes")</annotation></line>
+<line><originaltext>Bake 15 minutes in the preheated oven, then reduce heat to 325 degrees F (165 degrees C) and bake 20 minutes more, until hollow sounding when lightly tapped on the bottom. </originaltext><annotation>set(t11,"325 degrees F")</annotation></line>
+<line><originaltext>Bake 15 minutes in the preheated oven, then reduce heat to 325 degrees F (165 degrees C) and bake 20 minutes more, until hollow sounding when lightly tapped on the bottom. </originaltext><annotation>cook(ing65, t11, ing66, "cooked dough strips", "bake 20 minutes")</annotation></line>
+<line><originaltext>Bake 15 minutes in the preheated oven, then reduce heat to 325 degrees F (165 degrees C) and bake 20 minutes more, until hollow sounding when lightly tapped on the bottom. </originaltext><annotation>chefcheck(ing66,"Do they sound hollow when lightly tapped on the bottom?")</annotation></line>
+<line><originaltext>Cool completely on a wire rack. </originaltext><annotation>create_tool(t15, "wire rack")</annotation></line>
+<line><originaltext>Cool completely on a wire rack. </originaltext><annotation>put(ing66, t15)</annotation></line>
+<line><originaltext>Cool completely on a wire rack. </originaltext><annotation>leave(ing66,"until completely cool")</annotation></line>
+<line><originaltext>For the filling, combine pudding mix and milk in medium bowl according to package directions. </originaltext><annotation>create_tool(t16, "medium bowl")</annotation></line>
+<line><originaltext>For the filling, combine pudding mix and milk in medium bowl according to package directions. </originaltext><annotation>put(ing48, t16)</annotation></line>
+<line><originaltext>For the filling, combine pudding mix and milk in medium bowl according to package directions. </originaltext><annotation>put(ing49, t16)</annotation></line>
+<line><originaltext>For the filling, combine pudding mix and milk in medium bowl according to package directions. </originaltext><annotation>combine({ing48, ing49}, ing67, "pudding", "according to directions")</annotation></line>
+<line><originaltext>In a separate bowl, beat the cream with an electric mixer until soft peaks form. </originaltext><annotation>create_tool(t17, "separate bowl")</annotation></line>
+<line><originaltext>In a separate bowl, beat the cream with an electric mixer until soft peaks form. </originaltext><annotation>create_tool(t18, "electric mixer")</annotation></line>
+<line><originaltext>In a separate bowl, beat the cream with an electric mixer until soft peaks form. </originaltext><annotation>put(ing50, t17)</annotation></line>
+<line><originaltext>In a separate bowl, beat the cream with an electric mixer until soft peaks form. </originaltext><annotation>mix(ing50, t18, ing68, "whipped cream", "until soft peaks form")</annotation></line>
+<line><originaltext>In a separate bowl, beat the cream with an electric mixer until soft peaks form. </originaltext><annotation>chefcheck(ing68,"does it form soft peaks?")</annotation></line>
+<line><originaltext>Beat in 1/4 cup confectioners' sugar and 1 teaspoon vanilla. </originaltext><annotation>combine({ing51, ing52, ing68}, ing69, "whipped cream with some junk", "in bowl")</annotation></line>
+<line><originaltext>Beat in 1/4 cup confectioners' sugar and 1 teaspoon vanilla. </originaltext><annotation>mix(ing69, t17, ing70, "tasty whipped cream", "beat")</annotation></line>
+<line><originaltext>Fold whipped cream into pudding. </originaltext><annotation>put(ing70, t16)</annotation></line>
+<line><originaltext>Fold whipped cream into pudding. </originaltext><annotation>combine({ing67, ing70}, ing71, "whipped-creamy pudding", "fold")</annotation></line>
+<line><originaltext>Cut tops off of cooled pastry shells with a sharp knife. </originaltext><annotation>create_tool(t19, "sharp knife")</annotation></line>
+<line><originaltext>Cut tops off of cooled pastry shells with a sharp knife. </originaltext><annotation>do(ing66, t19, ing72, "empty pastry shells, cut in half", "cut top off with knife")</annotation></line>
+<line><originaltext>Fill shells with pudding mixture and replace tops. </originaltext><annotation>combine({ing71, ing72}, ing73, "unfrosted eclairs", "fill the bottom parts of the shells, then put the tops back on")</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>create_tool(t20, "medium saucepan")</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>set(t20,"low heat")</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>put(ing53, t20)</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>put(ing54, t20)</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>combine({ing53, ing54}, ing74, "buttery chocolate", "in pan")</annotation></line>
+<line><originaltext>For the icing, melt the chocolate and 2 tablespoons butter in a medium saucepan over low heat. </originaltext><annotation>cook(ing74, t20, ing75, "melted chocolate", "slow melt")</annotation></line>
+<line><originaltext>Stir in 1 cup confectioners' sugar and 1 teaspoon vanilla. </originaltext><annotation>put(ing55, t20)</annotation></line>
+<line><originaltext>Stir in 1 cup confectioners' sugar and 1 teaspoon vanilla. </originaltext><annotation>put(ing56, t20)</annotation></line>
+<line><originaltext>Stir in 1 cup confectioners' sugar and 1 teaspoon vanilla. </originaltext><annotation>combine({ing55, ing56, ing75}, ing76, "basic chocolate icing", "stir in")</annotation></line>
+<line><originaltext>Stir in hot water, one tablespoon at a time, until icing is smooth and has reached desired consistency. </originaltext><annotation>combine({ing57, ing76}, ing77, "smooth chocolate icing", "stir in 1 tablespoon at a time")</annotation></line>
+<line><originaltext>Stir in hot water, one tablespoon at a time, until icing is smooth and has reached desired consistency. </originaltext><annotation>chefcheck(ing77,"Stop adding water when it's smooth")</annotation></line>
+<line><originaltext>Remove from heat, cool slightly, and drizzle over filled eclairs. </originaltext><annotation>set(t20,"remove from heat")</annotation></line>
+<line><originaltext>Remove from heat, cool slightly, and drizzle over filled eclairs. </originaltext><annotation>leave(ing77,"until it has cooled slightly")</annotation></line>
+<line><originaltext>Remove from heat, cool slightly, and drizzle over filled eclairs. </originaltext><annotation>combine({ing73, ing77}, ing78, "eclairs", "drizzle frosting over eclairs")</annotation></line>
+<line><originaltext>Refrigerate until serving. </originaltext><annotation>leave(ing78,"in refrigerator until served")</annotation></line>
+</recipe>

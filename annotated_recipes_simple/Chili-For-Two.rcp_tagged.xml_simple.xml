@@ -1,0 +1,19 @@
+<recipe version="1.1"><line><originaltext>1/4 pound ground beef</originaltext><annotation>create_ing(ing86, "beef")</annotation></line>
+<line><originaltext>1/4 cup chopped onion</originaltext><annotation>create_ing(ing87, "onion")</annotation></line>
+<line><originaltext>1 garlic clove, minced</originaltext><annotation>create_ing(ing88, "clove")</annotation></line>
+<line><originaltext>1 (15.5 ounce) can chili beans, undrained</originaltext><annotation>create_ing(ing89, "ounce")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can diced tomatoes, undrained</originaltext><annotation>create_ing(ing90, "tomatoes")</annotation></line>
+<line><originaltext>1 1/2 teaspoons chili powder</originaltext><annotation>create_ing(ing91, "teaspoons")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cumin</originaltext><annotation>create_ing(ing92, "cumin")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>create_tool(t6, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>set(t6,"medium heat")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>combine({ing86, ing87, ing88}, ing93, "beef mix", "")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>cook(ing93, t6, ing94, "cooked beef", "until meat is no longer pink")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>chefcheck(ing94,"meat is no longer pink")</annotation></line>
+<line><originaltext>In a saucepan, cook beef, onion and garlic over medium heat until meat is no longer pink; drain. </originaltext><annotation>leave(ing94,"drain")</annotation></line>
+<line><originaltext>Stir in the remaining ingredients; bring to a boil. </originaltext><annotation>combine({ing89, ing90, ing91, ing92, ing94}, ing95, "all ingred", "")</annotation></line>
+<line><originaltext>Stir in the remaining ingredients; bring to a boil. </originaltext><annotation>set(t6,"bring to a boil")</annotation></line>
+<line><originaltext>Reduce heat; cover and simmer for 10-15 minutes or until heated through.</originaltext><annotation>set(t6,"reduce heat, cover")</annotation></line>
+<line><originaltext>Reduce heat; cover and simmer for 10-15 minutes or until heated through.</originaltext><annotation>cook(ing95, t6, ing96, "cooked food", "simmer for 10-15 minutes or until heated through")</annotation></line>
+<line><originaltext>Reduce heat; cover and simmer for 10-15 minutes or until heated through.</originaltext><annotation>chefcheck(ing96,"heated through")</annotation></line>
+</recipe>

@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>1 1/2 cups broccoli florets</originaltext><annotation>create_ing(ing44, "1 1/2 cups broccoli florets")</annotation></line>
+<line><originaltext>1 1/2 cups cauliflower florets</originaltext><annotation>create_ing(ing45, "1 1/2 cups cauliflower florets")</annotation></line>
+<line><originaltext>1 green bell pepper, cut into 1 inch pieces</originaltext><annotation>create_ing(ing46, "1 green bell pepper, cut into 1 inch pieces")</annotation></line>
+<line><originaltext>1 cucumber - peeled, seeded and chopped</originaltext><annotation>create_ing(ing47, "1 cucumber - peeled, seeded and chopped")</annotation></line>
+<line><originaltext>1 carrot, coarsely chopped</originaltext><annotation>create_ing(ing48, "1 carrot, coarsely chopped")</annotation></line>
+<line><originaltext>1/4 cup Italian-style salad dressing</originaltext><annotation>create_ing(ing49, "1/4 cup Italian-style salad dressing")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>create_ing(ing50, "water")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>create_ing(ing51, "salt")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>create_tool(t15, "pot")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>put(ing50, t15)</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>combine({ing50, ing51}, ing52, "salt water", "put salt into water")</annotation></line>
+<line><originaltext>Bring a large pot of salted water to boil. </originaltext><annotation>cook(ing52, t15, ing53, "boiling saltwater", "bring to boil")</annotation></line>
+<line><originaltext>Place the broccoli and cauliflower florets into the boiling water for one minute. </originaltext><annotation>combine({ing44, ing45, ing53}, ing54, "boiling vegetables", "in pot")</annotation></line>
+<line><originaltext>Place the broccoli and cauliflower florets into the boiling water for one minute. </originaltext><annotation>cook(ing54, t15, ing55, "cooked broccoli and cauliflower", "for one minute")</annotation></line>
+<line><originaltext>Drain and rinse florets. </originaltext><annotation>remove(ing55,t15)</annotation></line>
+<line><originaltext>Drain and rinse florets. </originaltext><annotation>do(ing55, , ing56, "dry cooked florets", "drain and rinse")</annotation></line>
+<line><originaltext>Combine broccoli, cauliflower, bell pepper, cucumber, carrot and Italian salad dressing in a medium size mixing bowl. </originaltext><annotation>create_tool(t16, "medium size mixing bowl")</annotation></line>
+<line><originaltext>Combine broccoli, cauliflower, bell pepper, cucumber, carrot and Italian salad dressing in a medium size mixing bowl. </originaltext><annotation>combine({ing46, ing47, ing48, ing49, ing56}, ing57, "smeared vegetables in a bowl", "in the bowl")</annotation></line>
+<line><originaltext>Combine broccoli, cauliflower, bell pepper, cucumber, carrot and Italian salad dressing in a medium size mixing bowl. </originaltext><annotation>put(ing57, t16)</annotation></line>
+<line><originaltext>Cover the bowl and refrigerate the vegetables for one hour. </originaltext><annotation>leave(ing57,"in refrigerator for one hour")</annotation></line>
+</recipe>

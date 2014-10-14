@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1 cup rye flour</originaltext><annotation>create_ing(ing0, "1 cup rye flour")</annotation></line>
+<line><originaltext>3/4 cup all-purpose flour</originaltext><annotation>create_ing(ing1, "3/4 cup all-purpose flour")</annotation></line>
+<line><originaltext>1/4 cup sugar</originaltext><annotation>create_ing(ing2, "1/4 cup sugar")</annotation></line>
+<line><originaltext>2 1/2 teaspoons baking powder</originaltext><annotation>create_ing(ing3, "2 1/2 teaspoons baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing4, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1/2 teaspoon caraway seeds</originaltext><annotation>create_ing(ing5, "1/2 teaspoon caraway seeds")</annotation></line>
+<line><originaltext>3/4 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing6, "3/4 cup shredded Cheddar cheese")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing7, "1 egg, beaten")</annotation></line>
+<line><originaltext>3/4 cup milk</originaltext><annotation>create_ing(ing8, "3/4 cup milk")</annotation></line>
+<line><originaltext>1/3 cup vegetable oil</originaltext><annotation>create_ing(ing9, "1/3 cup vegetable oil")</annotation></line>
+<line><originaltext>In a large bowl, combine the flours, sugar, baking powder, salt and caraway seeds. </originaltext><annotation>create_tool(t0, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the flours, sugar, baking powder, salt and caraway seeds. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing10, "flour mix", "")</annotation></line>
+<line><originaltext>In a large bowl, combine the flours, sugar, baking powder, salt and caraway seeds. </originaltext><annotation>put(ing10, t0)</annotation></line>
+<line><originaltext>Stir in cheese. </originaltext><annotation>combine({ing10, ing6}, ing11, "cheese mix", "stir in cheese")</annotation></line>
+<line><originaltext>Combine the egg, milk and oil; stir into the dry ingredients just until moistened.</originaltext><annotation>combine({ing7, ing8, ing9}, ing12, "egg mix", "")</annotation></line>
+<line><originaltext>Combine the egg, milk and oil; stir into the dry ingredients just until moistened.</originaltext><annotation>combine({ing11, ing12}, ing13, "muffin mix", "stir in until just moistened")</annotation></line>
+<line><originaltext>Fill greased or paper-lined muffin cups two-thirds full. </originaltext><annotation>create_tool(t1, "greased or paper-lined muffin cups")</annotation></line>
+<line><originaltext>Fill greased or paper-lined muffin cups two-thirds full. </originaltext><annotation>put(ing13, t1)</annotation></line>
+<line><originaltext>Bake at 400 degrees F for 20-23 minutes or a toothpick inserted near the center comes out clean. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake at 400 degrees F for 20-23 minutes or a toothpick inserted near the center comes out clean. </originaltext><annotation>cook(ing13, t2, ing14, "baked muffins", "Bake at 400 degrees F for 20-23 minutes ")</annotation></line>
+<line><originaltext>Bake at 400 degrees F for 20-23 minutes or a toothpick inserted near the center comes out clean. </originaltext><annotation>chefcheck(ing14,"a toothpick inserted near the center comes out clean")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to a wire rack. </originaltext><annotation>leave(ing14,"cool for 5 minutes")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to a wire rack. </originaltext><annotation>create_tool(t3, "pan to a wire rack")</annotation></line>
+<line><originaltext>Cool for 5 minutes before removing from pan to a wire rack. </originaltext><annotation>put(ing14, t3)</annotation></line>
+<line><originaltext>Serve warm.</originaltext><annotation>serve(ing14,"warm")</annotation></line>
+</recipe>

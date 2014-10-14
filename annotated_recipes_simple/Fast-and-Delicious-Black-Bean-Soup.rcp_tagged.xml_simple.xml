@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons vegetable oil</originaltext><annotation>create_ing(ing0, "oil")</annotation></line>
+<line><originaltext>1 medium onion, chopped</originaltext><annotation>create_ing(ing1, "onion")</annotation></line>
+<line><originaltext>1 green bell pepper, chopped</originaltext><annotation>create_ing(ing2, "pepper")</annotation></line>
+<line><originaltext>1 large carrot, peeled and thinly sliced</originaltext><annotation>create_ing(ing3, "carrot")</annotation></line>
+<line><originaltext>3 cloves garlic, minced</originaltext><annotation>create_ing(ing4, "cloves")</annotation></line>
+<line><originaltext>2 (15 ounce) cans black beans</originaltext><annotation>create_ing(ing5, "ounce")</annotation></line>
+<line><originaltext>1 (14 ounce) can chicken broth</originaltext><annotation>create_ing(ing6, "ounce")</annotation></line>
+<line><originaltext>2 cups cubed cooked ham</originaltext><annotation>create_ing(ing7, "ham")</annotation></line>
+<line><originaltext>1/4 teaspoon cumin</originaltext><annotation>create_ing(ing8, "cumin")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing9, "salt")</annotation></line>
+<line><originaltext>ground black pepper to taste</originaltext><annotation>create_ing(ing10, "taste")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing11, "cheese")</annotation></line>
+<line><originaltext>1 cup sour cream</originaltext><annotation>create_ing(ing12, "cream")</annotation></line>
+<line><originaltext>Heat the oil in a large pot over medium heat. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Heat the oil in a large pot over medium heat. </originaltext><annotation>cook(ing0, t0, ing13, "warm oil", "over medium heat")</annotation></line>
+<line><originaltext>Stir in the onion, bell pepper, carrot, and garlic, and cook 5 minutes, until tender. </originaltext><annotation>combine({ing1, ing13, ing2, ing3, ing4}, ing14, "veggies", "")</annotation></line>
+<line><originaltext>Stir in the onion, bell pepper, carrot, and garlic, and cook 5 minutes, until tender. </originaltext><annotation>cook(ing14, t0, ing15, "cooked veggies", "5 minutes")</annotation></line>
+<line><originaltext>Stir in the onion, bell pepper, carrot, and garlic, and cook 5 minutes, until tender. </originaltext><annotation>chefcheck(ing15,"tender")</annotation></line>
+<line><originaltext>Mix in 1 can black beans and chicken broth. </originaltext><annotation>separate(ing5, ing16, "1 can beans", ing17, "1 can beans", "")</annotation></line>
+<line><originaltext>Mix in 1 can black beans and chicken broth. </originaltext><annotation>combine({ing15, ing17, ing6}, ing18, "veggies and broth", "")</annotation></line>
+<line><originaltext>Mix in 1 can black beans and chicken broth. </originaltext><annotation>mix(ing18, t0, ing19, "veggies and broth", "")</annotation></line>
+<line><originaltext>In a blender, puree remaining can of beans until smooth. </originaltext><annotation>create_tool(t1, "blender")</annotation></line>
+<line><originaltext>In a blender, puree remaining can of beans until smooth. </originaltext><annotation>cut(ing16, t1, ing20, "pureed beans", "puree")</annotation></line>
+<line><originaltext>In a blender, puree remaining can of beans until smooth. </originaltext><annotation>chefcheck(ing20,"smooth")</annotation></line>
+<line><originaltext>Mix into the pot. </originaltext><annotation>combine({ing19, ing20}, ing21, "pureed beans and veggies", "")</annotation></line>
+<line><originaltext>Mix into the pot. </originaltext><annotation>mix(ing21, t0, ing22, "mixed soup", "")</annotation></line>
+<line><originaltext>Bring soup to a boil. </originaltext><annotation>cook(ing22, t0, ing23, "boiled soup", "bring to boil")</annotation></line>
+<line><originaltext>Reduce heat to low. </originaltext><annotation>set(t0,"heat to low")</annotation></line>
+<line><originaltext>Mix in ham, cumin, salt, and pepper. </originaltext><annotation>combine({ing23, ing7, ing8, ing9, ing10}, ing24, "full soup", "")</annotation></line>
+<line><originaltext>Mix in ham, cumin, salt, and pepper. </originaltext><annotation>mix(ing24, t0, ing25, "full soup", "")</annotation></line>
+<line><originaltext>Simmer 20 minutes. </originaltext><annotation>cook(ing25, t0, ing26, "warmed soup", "simmer 20 minutes")</annotation></line>
+<line><originaltext>Garnish with Cheddar cheese and sour cream to serve. </originaltext><annotation>combine({ing11, ing12, ing26}, ing27, "topped soup", "garnish with sour cream and cheese")</annotation></line>
+<line><originaltext>Garnish with Cheddar cheese and sour cream to serve. </originaltext><annotation>serve(ing27,"")</annotation></line>
+</recipe>

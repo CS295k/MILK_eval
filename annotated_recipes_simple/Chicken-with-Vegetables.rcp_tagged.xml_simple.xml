@@ -1,0 +1,37 @@
+<recipe version="1.1"><line><originaltext>1 cup sliced fresh mushrooms</originaltext><annotation>create_ing(ing60, "mushrooms")</annotation></line>
+<line><originaltext>4 chicken drumsticks, skin removed</originaltext><annotation>create_ing(ing61, "skin")</annotation></line>
+<line><originaltext>4 chicken thighs, skin removed</originaltext><annotation>create_ing(ing62, "skin")</annotation></line>
+<line><originaltext>4 celery ribs, sliced</originaltext><annotation>create_ing(ing63, "ribs")</annotation></line>
+<line><originaltext>1 cup sliced zucchini</originaltext><annotation>create_ing(ing64, "zucchini")</annotation></line>
+<line><originaltext>1 cup sliced carrots</originaltext><annotation>create_ing(ing65, "carrots")</annotation></line>
+<line><originaltext>1 medium onion, sliced</originaltext><annotation>create_ing(ing66, "onion")</annotation></line>
+<line><originaltext>1 cup tomato juice</originaltext><annotation>create_ing(ing67, "juice")</annotation></line>
+<line><originaltext>1/2 cup chicken broth</originaltext><annotation>create_ing(ing68, "broth")</annotation></line>
+<line><originaltext>1 garlic clove, minced</originaltext><annotation>create_ing(ing69, "clove")</annotation></line>
+<line><originaltext>1/4 teaspoon paprika</originaltext><annotation>create_ing(ing70, "1/4 teaspoon paprika")</annotation></line>
+<line><originaltext>pepper to taste</originaltext><annotation>create_ing(ing71, "taste")</annotation></line>
+<line><originaltext>3 tablespoons cornstarch</originaltext><annotation>create_ing(ing72, "cornstarch")</annotation></line>
+<line><originaltext>3 tablespoons cold water</originaltext><annotation>create_ing(ing73, "water")</annotation></line>
+<line><originaltext>Hot cooked rice</originaltext><annotation>create_ing(ing74, "rice")</annotation></line>
+<line><originaltext>Place mushrooms and chicken in a slow cooker. </originaltext><annotation>combine({ing60, ing61, ing62}, ing75, "mush chicken", "")</annotation></line>
+<line><originaltext>Place mushrooms and chicken in a slow cooker. </originaltext><annotation>create_tool(t4, "slow cooker")</annotation></line>
+<line><originaltext>Place mushrooms and chicken in a slow cooker. </originaltext><annotation>put(ing75, t4)</annotation></line>
+<line><originaltext>Add the celery, zucchini, carrots, onion, tomato juice, broth, garlic, paprika and pepper. </originaltext><annotation>combine({ing63, ing64, ing65, ing66, ing67, ing68, ing69, ing70, ing71, ing75}, ing76, "chicken mix", "add to slow cooker")</annotation></line>
+<line><originaltext>Cover and cook on low for 5 hours or until meat juices run clear.</originaltext><annotation>set(t4,"low")</annotation></line>
+<line><originaltext>Cover and cook on low for 5 hours or until meat juices run clear.</originaltext><annotation>cook(ing76, t4, ing77, "cooked chicken", "cover and cook for 5 hours or until meat juices run clear")</annotation></line>
+<line><originaltext>Cover and cook on low for 5 hours or until meat juices run clear.</originaltext><annotation>chefcheck(ing77,"meat juices run clear")</annotation></line>
+<line><originaltext>Remove chicken and vegetables and keep warm. </originaltext><annotation>remove(ing77,t4)</annotation></line>
+<line><originaltext>Remove chicken and vegetables and keep warm. </originaltext><annotation>leave(ing77,"keep warm")</annotation></line>
+<line><originaltext>Remove chicken and vegetables and keep warm. </originaltext><annotation>separate(ing77, ing78, "chicken", ing79, "cooking juices", "")</annotation></line>
+<line><originaltext>Transfer cooking juices to a saucepan; skim fat. </originaltext><annotation>create_tool(t5, "saucepan")</annotation></line>
+<line><originaltext>Transfer cooking juices to a saucepan; skim fat. </originaltext><annotation>put(ing79, t5)</annotation></line>
+<line><originaltext>Transfer cooking juices to a saucepan; skim fat. </originaltext><annotation>do(ing79, , ing80, "skimmed juice", "skim fat")</annotation></line>
+<line><originaltext>Combine the cornstarch and water until smooth; add to the juices. </originaltext><annotation>combine({ing72, ing73}, ing81, "cornstarch mix", "until smooth")</annotation></line>
+<line><originaltext>Combine the cornstarch and water until smooth; add to the juices. </originaltext><annotation>combine({ing80, ing81}, ing82, "starched juice", "")</annotation></line>
+<line><originaltext>Bring to a boil; cook and stir for 2 minutes or until thickened. </originaltext><annotation>set(t5,"boil")</annotation></line>
+<line><originaltext>Bring to a boil; cook and stir for 2 minutes or until thickened. </originaltext><annotation>cook(ing82, t5, ing83, "gravy", "stir for 2 minutes or until thickened")</annotation></line>
+<line><originaltext>Bring to a boil; cook and stir for 2 minutes or until thickened. </originaltext><annotation>chefcheck(ing83,"thickened")</annotation></line>
+<line><originaltext>Pour over chicken and vegetables; serve over rice.</originaltext><annotation>combine({ing78, ing83}, ing84, "gravied chicked", "pour over chicken and vegetables")</annotation></line>
+<line><originaltext>Pour over chicken and vegetables; serve over rice.</originaltext><annotation>combine({ing74, ing84}, ing85, "for serving", "chicken and vegetables over rice")</annotation></line>
+<line><originaltext>Pour over chicken and vegetables; serve over rice.</originaltext><annotation>serve(ing85,"")</annotation></line>
+</recipe>

@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>3 cups diced cooked chicken</originaltext><annotation>create_ing(ing0, "3 cups diced cooked chicken")</annotation></line>
+<line><originaltext>2 large stalks  celery, diced</originaltext><annotation>create_ing(ing1, "2 large stalks  celery, diced")</annotation></line>
+<line><originaltext>1 red bell pepper, seeded and diced</originaltext><annotation>create_ing(ing2, "1 red bell pepper, seeded and diced")</annotation></line>
+<line><originaltext>1/2 red onion, diced</originaltext><annotation>create_ing(ing3, "1/2 red onion, diced")</annotation></line>
+<line><originaltext>6 tablespoons mayonnaise</originaltext><annotation>create_ing(ing4, "6 tablespoons mayonnaise")</annotation></line>
+<line><originaltext>6 tablespoons sour cream</originaltext><annotation>create_ing(ing5, "6 tablespoons sour cream")</annotation></line>
+<line><originaltext>1 (4 ounce) package feta cheese, crumbled</originaltext><annotation>create_ing(ing6, "1 (4 ounce) package feta cheese, crumbled")</annotation></line>
+<line><originaltext>2 teaspoons dried dill weed</originaltext><annotation>create_ing(ing7, "2 teaspoons dried dill weed")</annotation></line>
+<line><originaltext>1 pinch salt and pepper to taste</originaltext><annotation>create_ing(ing8, "1 pinch salt and pepper to taste")</annotation></line>
+<line><originaltext>In a serving bowl, mix together the chicken, celery, and red onion. </originaltext><annotation>create_tool(t0, "serving bowl")</annotation></line>
+<line><originaltext>In a serving bowl, mix together the chicken, celery, and red onion. </originaltext><annotation>combine({ing0, ing1, ing3}, ing9, "chicken and onion", "")</annotation></line>
+<line><originaltext>In a serving bowl, mix together the chicken, celery, and red onion. </originaltext><annotation>mix(ing9, t0, ing10, "mixed chicken", "")</annotation></line>
+<line><originaltext>In a separate bowl, stir together the mayonnaise, sour cream, feta cheese, and dill. </originaltext><annotation>create_tool(t1, "seperate bowl")</annotation></line>
+<line><originaltext>In a separate bowl, stir together the mayonnaise, sour cream, feta cheese, and dill. </originaltext><annotation>combine({ing4, ing5, ing6, ing7}, ing11, "seasoning", "")</annotation></line>
+<line><originaltext>In a separate bowl, stir together the mayonnaise, sour cream, feta cheese, and dill. </originaltext><annotation>mix(ing11, t1, ing12, "mixed seasoning", "stir")</annotation></line>
+<line><originaltext>Pour over the chicken mixture, and stir to blend. </originaltext><annotation>combine({ing10, ing12}, ing13, "seasoned chicken", "pout seasoning over chicken")</annotation></line>
+<line><originaltext>Pour over the chicken mixture, and stir to blend. </originaltext><annotation>mix(ing13, t0, ing14, "finished salad", "stir")</annotation></line>
+<line><originaltext>Taste, and season with salt and pepper as needed. </originaltext><annotation>combine({ing14, ing2, ing8}, ing15, "finished salad", "salt and pepper to taste")</annotation></line>
+<line><originaltext>Taste, and season with salt and pepper as needed. </originaltext><annotation>chefcheck(ing15,"salt and pepper to taste")</annotation></line>
+<line><originaltext>Serve immediately, or refrigerate until serving. </originaltext><annotation>serve(ing15,"immediately")</annotation></line>
+</recipe>

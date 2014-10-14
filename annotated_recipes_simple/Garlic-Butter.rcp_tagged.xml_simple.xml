@@ -1,0 +1,10 @@
+<recipe version="1.1"><line><originaltext>1 cup butter, softened</originaltext><annotation>create_ing(ing138, "butter")</annotation></line>
+<line><originaltext>1 tablespoon minced garlic</originaltext><annotation>create_ing(ing139, "garlic")</annotation></line>
+<line><originaltext>1/4 cup grated Parmesan cheese</originaltext><annotation>create_ing(ing140, "cheese")</annotation></line>
+<line><originaltext>1 tablespoon garlic salt</originaltext><annotation>create_ing(ing141, "salt")</annotation></line>
+<line><originaltext>1 teaspoon Italian seasoning</originaltext><annotation>create_ing(ing142, "seasoning")</annotation></line>
+<line><originaltext>1/2 teaspoon ground black pepper</originaltext><annotation>create_ing(ing143, "pepper")</annotation></line>
+<line><originaltext>1/4 teaspoon ground paprika</originaltext><annotation>create_ing(ing144, "paprika")</annotation></line>
+<line><originaltext>In a small bowl, combine softened butter, minced garlic and parmesan cheese. </originaltext><annotation>combine({ing138, ing139, ing140}, ing145, "buttery cheese", "in a small bowl")</annotation></line>
+<line><originaltext>Season with garlic salt, Italian seasoning, pepper and paprika. </originaltext><annotation>combine({ing141, ing142, ing143, ing144, ing145}, ing146, "garlic butter", "season and mix until smooth")</annotation></line>
+</recipe>
