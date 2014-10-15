@@ -6,8 +6,8 @@ from nltk.util import ngrams
 
 verbose = 1 #output recipe file names and source command names
 simple = 0 #use simple recipe names
-files = glob("annotated_recipes/*.xml")
-#files = glob("annotated_recipes/1-Pot-3-Bean-Chicken-Stew.rcp_tagged.xml")
+#files = glob("annotated_recipes/*.xml")
+files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
 
 ing_dict = {}
 simple_ings = {}
