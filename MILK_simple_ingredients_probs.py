@@ -6,8 +6,8 @@ from nltk.util import ngrams
 
 verbose = 1 #output recipe file names and source command names
 simple = 0 #use simple recipe names
-#files = glob("annotated_recipes/*.xml")
-files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
+files = glob("annotated_recipes/*.xml")
+#files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
 
 ing_dict = {}
 simple_ings = {}
@@ -159,5 +159,5 @@ for key in possible_names:
 	if count != 0:
 		for perm in possible_names[key]:
 			if possible_names[key][perm] != 0:
-				print key + ' -> ' + perm + ': ' + str(possible_names[key][perm]/count)
+				print (key + ' -> ' + perm + ': ' + str(possible_names[key][perm]/count)).encode("utf-8")
 
