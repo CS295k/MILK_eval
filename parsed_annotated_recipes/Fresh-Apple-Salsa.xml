@@ -1,0 +1,16 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 2) (JJ tart) (NNS apples)) (, ,) (VP (VBN cored) (CC and) (VBN cubed))))</parsed-text><annotation>create_ing(ing20, "2 tart apples, cored and cubed")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 4) (NNS tablespoons)) (NP (NNP lime) (NN juice))))</parsed-text><annotation>create_ing(ing21, "4 tablespoons lime juice")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (JJ fresh) (JJ jalapeno) (NN pepper)) (, ,) (ADJP (VBN seeded) (CC and) (VBN sliced))))</parsed-text><annotation>create_ing(ing22, "1 fresh jalapeno pepper, seeded and sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (JJ fresh) (NNP Anaheim) (NNP chile)) (, ,) (ADJP (VBN seeded) (CC and) (VBN sliced))))</parsed-text><annotation>create_ing(ing23, "1 fresh Anaheim chile, seeded and sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (JJ medium) (NN onion)) (, ,) (VP (ADVP (RB finely)) (VBN chopped))))</parsed-text><annotation>create_ing(ing24, "1/2 medium onion, finely chopped")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS tablespoons)) (CONJP (RB coarsely) (RB chopped)) (NP (JJ fresh) (NN cilantro))))</parsed-text><annotation>create_ing(ing25, "2 tablespoons coarsely chopped fresh cilantro")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (VP (VP (VBN chopped) (NP (NNS walnuts))) (, ,) (VP (ADVP (RB lightly)) (VBD toasted)))))</parsed-text><annotation>create_ing(ing26, "1/2 cup chopped walnuts, lightly toasted")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ fresh) (NN ginger))) (, ,) (UCP (VP (VBN peeled)) (CC and) (ADJP (RB thinly) (VBN sliced)))))</parsed-text><annotation>create_ing(ing27, "2 tablespoons fresh ginger, peeled and thinly sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing28, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN bowl))) (, ,) (VP (VB stir) (PRT (RP together)) (NP (NP (NNS apples)) (CC and) (NP (NNP lime) (NN juice)))) (. .)))</parsed-text><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN bowl))) (, ,) (VP (VB stir) (PRT (RP together)) (NP (NP (NNS apples)) (CC and) (NP (NNP lime) (NN juice)))) (. .)))</parsed-text><annotation>combine({ing20, ing21}, ing29, "juice and apples", "in the large bowl")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PP (IN in) (NP (UCP (JJ jalapeno) (CC and) (NNP Anaheim) (NNP chile)) (NNS slices)))) (. .)))</parsed-text><annotation>combine({ing22, ing23, ing29}, ing30, "two", "stir")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PP (IN in) (NP (NP (NN onion)) (, ,) (NP (NN cilantro)) (, ,) (NP (NNS walnuts)) (, ,) (NP (NN ginger)) (, ,) (CC and) (NP (NN salt))))) (. .)))</parsed-text><annotation>combine({ing24, ing25, ing26, ing27, ing28, ing30}, ing31, "all ready to mix", "stir")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Mix) (ADVP (RB thoroughly))) (. .)))</parsed-text><annotation>mix(ing31, t2, ing32, "salsa", "thoroughly")</annotation></line>
+</recipe>

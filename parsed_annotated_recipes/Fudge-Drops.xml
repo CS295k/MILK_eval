@@ -1,0 +1,17 @@
+<recipe>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD 2/3)) (NNS cups) (NN sugar)))</parsed-text><annotation>create_ing(ing84, "1 2/3 cups sugar")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 5) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBD evaporated) (NP (NN milk)))))</parsed-text><annotation>create_ing(ing85, "1 (5 ounce) can evaporated milk")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS tablespoons) (NN butter) (CC or) (NN margarine)))</parsed-text><annotation>create_ing(ing86, "2 tablespoons butter or margarine")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing87, "1/2 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (CD 3/4)) (NNS cups) (NN miniature) (NNS marshmallows)))</parsed-text><annotation>create_ing(ing88, "2 3/4 cups miniature marshmallows")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS cups)) (JJ semisweet) (NN chocolate) (NNS chips)))</parsed-text><annotation>create_ing(ing89, "2 cups semisweet chocolate chips")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (ADJP (RB coarsely) (VBN chopped)) (NNS walnuts))))</parsed-text><annotation>create_ing(ing90, "1/2 cup coarsely chopped walnuts")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NNS raisins))))</parsed-text><annotation>create_ing(ing91, "1/2 cup raisins")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ heavy) (NN saucepan))) (, ,) (VP (VBP combine) (NP (DT the) (NN sugar) (, ,) (NN milk) (, ,) (NN butter) (CC and) (NN salt))) (. .)))</parsed-text><annotation>create_tool(t12, "heavy saucepan")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ heavy) (NN saucepan))) (, ,) (VP (VBP combine) (NP (DT the) (NN sugar) (, ,) (NN milk) (, ,) (NN butter) (CC and) (NN salt))) (. .)))</parsed-text><annotation>combine({ing84, ing85, ing86, ing87}, ing92, "mezcla", "combine")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Bring) (PP (TO to) (NP (NP (DT a) (NN boil)) (PP (IN over) (NP (JJ medium) (NN heat))))) (, ,) (S (VP (VBG stirring) (ADVP (RB constantly))))) (. .)))</parsed-text><annotation>cook(ing92, t12, ing93, "mezcla caliente", "bring to a boil over medium heat, stirring constantly, for five mins")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (VBG remaining) (NNS ingredients))))) (. .)))</parsed-text><annotation>combine({ing88, ing89, ing90, ing91, ing93}, ing94, "gotas", "remove from heat and stir vigorously until marshmellows are melted")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Drop) (PP (IN by) (NP (NNS tablespoonfuls))) (PP (IN onto) (NP (VBN waxed) (JJ paper-lined) (NN baking) (NNS sheets)))) (. .)))</parsed-text><annotation>create_tool(t13, "waxed paper")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Drop) (PP (IN by) (NP (NNS tablespoonfuls))) (PP (IN onto) (NP (VBN waxed) (JJ paper-lined) (NN baking) (NNS sheets)))) (. .)))</parsed-text><annotation>cook(ing94, t13, ing95, "dropped drops", "drop by tablespoonfuls")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Let) (S (VP (VB stand) (PP (IN at) (NP (NN room) (NN temperature))) (PP (IN until) (ADJP (JJ cool)))))) (. .)))</parsed-text><annotation>leave(ing95,"cool at room temperature")</annotation></line>
+</recipe>

@@ -1,0 +1,21 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS pounds)) (VP (VBN cubed) (NP (NN beef) (NN stew) (NN meat)))))</parsed-text><annotation>create_ing(ing0, "1 1/2 pounds cubed beef stew meat")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS cups) (NN water)))</parsed-text><annotation>create_ing(ing1, "2 cups water")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (JJ small) (NN onion)) (, ,) (VP (VBN chopped))))</parsed-text><annotation>create_ing(ing2, "1 small onion, chopped")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 28) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NNS tomatoes)))))</parsed-text><annotation>create_ing(ing3, "1 (28 ounce) can crushed tomatoes")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 16) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ frozen) (JJ mixed) (NNS vegetables))))</parsed-text><annotation>create_ing(ing4, "1 (16 ounce) package frozen mixed vegetables")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS potatoes)) (, ,) (VP (VBN peeled) (CC and) (VBN cubed))))</parsed-text><annotation>create_ing(ing5, "2 potatoes, peeled and cubed")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NP (CD 10) (NNS cubes)) (NP (NN beef) (NN bouillon))) (, ,) (VP (VBN crumbled))))</parsed-text><annotation>create_ing(ing6, "10 cubes beef bouillon, crumbled")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS teaspoons)) (JJ ground) (JJ black) (NN pepper)))</parsed-text><annotation>create_ing(ing7, "2 teaspoons ground black pepper")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (NN salt)))</parsed-text><annotation>create_ing(ing8, "1 tablespoon salt")</annotation></line>
+<line><parsed-text>(S1 (S (NP (QP (CD 1) (CD tablespoon))) (VP (VBD dried) (NP (NNP basil)))))</parsed-text><annotation>create_ing(ing9, "1 tablespoon dried basil")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (NN beef)) (PP (IN in) (NP (DT a) (JJ slow) (NN cooker)))) (. .)))</parsed-text><annotation>create_tool(t0, "slow cooker")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (NN beef)) (PP (IN in) (NP (DT a) (JJ slow) (NN cooker)))) (. .)))</parsed-text><annotation>put(ing0, t0)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (PP (IN in) (NP (NN water)))) (. .)))</parsed-text><annotation>combine({ing0, ing1}, ing10, "beef and water", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NN onion) (, ,) (NNS tomatoes) (, ,) (JJ mixed) (NNS vegetables) (CC and) (NNS potatoes))) (. .)))</parsed-text><annotation>combine({ing10, ing2, ing3, ing4, ing5}, ing11, "beef, water, onion, tomatoes, veg, potatoes", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NN onion) (, ,) (NNS tomatoes) (, ,) (JJ mixed) (NNS vegetables) (CC and) (NNS potatoes))) (. .)))</parsed-text><annotation>put(ing11, t0)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PRT (RP in)) (NP (NN onion) (, ,) (NNS tomatoes) (, ,) (JJ mixed) (NNS vegetables) (CC and) (NNS potatoes))) (. .)))</parsed-text><annotation>mix(ing11, t0, ing12, "beef, water, onion, tomatoes, veg, potatoes", "Stir")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Season) (PP (IN with) (NP (NP (NN bouillon)) (, ,) (NP (NN pepper)) (, ,) (NP (NN salt)) (CC and) (NP (NNP basil))))) (. .)))</parsed-text><annotation>combine({ing12, ing6, ing7, ing8, ing9}, ing13, "everything", "season")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cook) (PRT (RP on)) (NP (JJ low) (CD 8) (NNS hours))) (. .)))</parsed-text><annotation>cook(ing13, t0, ing14, "cooked stew", "cook on low 8 hours")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cook) (PRT (RP on)) (NP (JJ low) (CD 8) (NNS hours))) (. .)))</parsed-text><annotation>serve(ing14,"")</annotation></line>
+</recipe>

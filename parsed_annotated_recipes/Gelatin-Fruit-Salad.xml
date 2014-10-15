@@ -1,0 +1,11 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN applesauce))))</parsed-text><annotation>create_ing(ing147, "1 cup applesauce")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 2)) (PRN (-LRB- -LRB-) (NP (CD 3) (NN ounce)) (-RRB- -RRB-))) (VP (VBZ packages) (NP (JJ cherry) (NN gelatin)))))</parsed-text><annotation>create_ing(ing148, "2 (3 ounce) packages cherry gelatin")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 12) (NN ounce)) (-RRB- -RRB-)) (NN can)) (JJ lemon-lime) (NN soda)))</parsed-text><annotation>create_ing(ing149, "1 (12 ounce) can lemon-lime soda")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 8) (NN ounce)) (-RRB- -RRB-))) (MD can) (VP (VBN crushed) (NP (NN pineapple)) (, ,) (S (VP (VBN undrained))))))</parsed-text><annotation>create_ing(ing150, "1 (8 ounce) can crushed pineapple, undrained")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))</parsed-text><annotation>create_tool(t15, "saucepan")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VBP bring) (NP (NN applesauce)) (PP (TO to) (NP (DT a) (NN boil)))) (. .)))</parsed-text><annotation>cook(ing147, t15, ing151, "boiling sauce", "boil")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Remove) (PP (IN from) (NP (DT the) (NN heat))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (NN gelatin))) (SBAR (IN until) (S (VP (VBN dissolved)))))) (. .)))</parsed-text><annotation>combine({ing148, ing151}, ing152, "geled sauce", "stir until dissolved")</annotation></line>
+<line><parsed-text>(S1 (S (VP (ADVP (RB Slowly)) (VB add) (NP (NN soda) (CC and) (NN pineapple))) (. .)))</parsed-text><annotation>combine({ing149, ing150, ing152}, ing153, "ready to cool", "slowly add")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Refrigerate) (PP (IN until) (NP (NN firm)))) (. .)))</parsed-text><annotation>leave(ing153,"cool until firm")</annotation></line>
+</recipe>

@@ -1,0 +1,15 @@
+<recipe>
+<line><parsed-text>(S1 (FRAG (ADJP (NP (CD 2) (NNS cloves)) (JJ garlic)) (, ,) (VP (VBN minced))))</parsed-text><annotation>create_ing(ing89, "2 cloves garlic, minced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN goat) (NN cheese))))</parsed-text><annotation>create_ing(ing90, "1/2 cup goat cheese")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN celery)) (NP (NN stalk)) (, ,) (VP (VBN minced))))</parsed-text><annotation>create_ing(ing91, "1 celery stalk, minced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ balsamic) (NN vinegar))))</parsed-text><annotation>create_ing(ing92, "2 tablespoons balsamic vinegar")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/2) (NN cup)) (NN olive) (NN oil)))</parsed-text><annotation>create_ing(ing93, "1/2 cup olive oil")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NP (NN salt)) (CC and) (NP (NN pepper))) (PP (TO to) (NP (NN taste)))))</parsed-text><annotation>create_ing(ing94, "salt and pepper to taste")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VP (VB stir) (PRT (RP together)) (NP (NP (JJ garlic) (, ,) (JJ goat) (NN cheese)) (, ,) (NP (NN celery)) (, ,) (NP (JJ balsamic) (NN vinegar)) (, ,))) (CC and) (VP (VB olive) (NP (NN oil)))) (. .)))</parsed-text><annotation>create_tool(t16, "bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VP (VB stir) (PRT (RP together)) (NP (NP (JJ garlic) (, ,) (JJ goat) (NN cheese)) (, ,) (NP (NN celery)) (, ,) (NP (JJ balsamic) (NN vinegar)) (, ,))) (CC and) (VP (VB olive) (NP (NN oil)))) (. .)))</parsed-text><annotation>combine({ing89, ing90, ing91, ing92, ing93}, ing95, "mix", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VP (VB stir) (PRT (RP together)) (NP (NP (JJ garlic) (, ,) (JJ goat) (NN cheese)) (, ,) (NP (NN celery)) (, ,) (NP (JJ balsamic) (NN vinegar)) (, ,))) (CC and) (VP (VB olive) (NP (NN oil)))) (. .)))</parsed-text><annotation>mix(ing95, t16, ing96, "bowl mix", "")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Season)) (VP (TO to) (VP (VB taste) (PP (IN with) (NP (NP (NN salt)) (CC and) (NP (NN pepper)))))) (. .)))</parsed-text><annotation>combine({ing94, ing96}, ing97, "seasoned mix", "season to taste")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Blend) (ADVP (RB well)) (SBAR (IN until) (S (NP (DT the) (NN sauce)) (VP (AUX is) (ADJP (JJ smooth)))))) (. .)))</parsed-text><annotation>mix(ing97, t16, ing98, "blended mix", "blend until sauce is smooth")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Cover)) (, ,) (CC and) (VP (VB refrigerate))) (. .)))</parsed-text><annotation>leave(ing98,"cover and refrigerate")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Serve) (ADJP (JJ chilled))) (. .)))</parsed-text><annotation>serve(ing98,"chilled")</annotation></line>
+</recipe>

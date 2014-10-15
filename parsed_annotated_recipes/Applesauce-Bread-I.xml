@@ -1,0 +1,24 @@
+<recipe>
+<line><parsed-text>(S1 (NP (QP (CD 3) (NNS cups)) (NN all-purpose) (NN flour)))</parsed-text><annotation>create_ing(ing37, "3 cups all-purpose flour")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 3) (NNS eggs)))</parsed-text><annotation>create_ing(ing38, "3 eggs")</annotation></line>
+<line><parsed-text>(S1 (FRAG (NP (ADJP (CD 2) (NNS cups)) (JJ white) (NN sugar))))</parsed-text><annotation>create_ing(ing39, "2 cups white sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (QP (CD 1) (NN cup)) (NN vegetable)) (NN oil)))</parsed-text><annotation>create_ing(ing40, "1 cup vegetable oil")</annotation></line>
+<line><parsed-text>(S1 (S (NP (CD 2) (NNS cups)) (VP (VBP applesauce))))</parsed-text><annotation>create_ing(ing41, "2 cups applesauce")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NP (NNS raisins)) (PRN (-LRB- -LRB-) (ADVP (JJ optional)) (-RRB- -RRB-)))))</parsed-text><annotation>create_ing(ing42, "1 cup raisins (optional)")</annotation></line>
+<line><parsed-text>(S1 (S (NP (CD 1) (NN teaspoon) (NN ground)) (ADJP (JJ cinnamon))))</parsed-text><annotation>create_ing(ing43, "1 teaspoon ground cinnamon")</annotation></line>
+<line><parsed-text>(S1 (FRAG (NP (NP (CD 1) (NN teaspoon)) (NP (VBG baking) (NN soda)))))</parsed-text><annotation>create_ing(ing44, "1 teaspoon baking soda")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1/4) (NNS teaspoon)) (VP (VBG baking) (NP (NNP powder))))))</parsed-text><annotation>create_ing(ing45, "1/4 teaspoon baking powder")</annotation></line>
+<line><parsed-text>(S1 (FRAG (NP (CD 1/2) (NN cup)) (NP (JJ sour) (NN cream))))</parsed-text><annotation>create_ing(ing46, "1/2 cup sour cream")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))</parsed-text><annotation>create_tool(t7, "oven")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Preheat) (NNS oven)) (PP (TO to) (NP (CD 350) (NNS degrees)))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (CD 175) (NNS degrees)) (NP (SYM C)) (-RRB- -RRB-))) (. .)))</parsed-text><annotation>set(t7,"Preheat to 375 degrees F (175 degrees C).")</annotation></line>
+<line><parsed-text>(S1 (S (VP (NN Grease) (CC and) (NN flour) (NP (ADJP (QP (CD two) (CD 9) (SYM x) (CD 5) (NN inch)) (NN loaf)) (NNS pans))) (. .)))</parsed-text><annotation>create_tool(t8, "two 9 x 5 inch loaf pans")</annotation></line>
+<line><parsed-text>(S1 (S (VP (NN Grease) (CC and) (NN flour) (NP (ADJP (QP (CD two) (CD 9) (SYM x) (CD 5) (NN inch)) (NN loaf)) (NNS pans))) (. .)))</parsed-text><annotation>set(t8,"grease and flour")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Beat) (PRT (RB together)) (NP (NNS eggs) (, ,) (NN sugar) (, ,) (CC and) (NN oil))) (. .)))</parsed-text><annotation>combine({ing38, ing39, ing40}, ing47, "egg mix", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Beat) (PRT (RB together)) (NP (NNS eggs) (, ,) (NN sugar) (, ,) (CC and) (NN oil))) (. .)))</parsed-text><annotation>mix(ing47, , ing48, "beaten egg mix", "beat ")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Blend) (PRT (RP in)) (NP (NN applesauce))) (, ,) (CC and) (RB then) (VP (VB sour) (NP (NP (NN cream)) (CC or) (NP (NN buttermilk))))) (. .)))</parsed-text><annotation>combine({ing41, ing46, ing48}, ing49, "creamy egg mix and applesauce", "blend in")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NN Mix)) (PP (IN in) (NP (NP (NN flour)) (, ,) (NP (JJ baking) (NNP powder)) (, ,) (NP (NN soda)) (, ,) (CC and) (NP (NN cinnamon)))) (. .)))</parsed-text><annotation>combine({ing37, ing43, ing44, ing45, ing49}, ing50, "batter mix without raisins", "mix")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (ADVP (IN in))) (NP (NNS raisins)) (. .)))</parsed-text><annotation>combine({ing42, ing50}, ing51, "final batter", "stir in raisins")</annotation></line>
+<line><parsed-text>(S1 (SQ (VP (VB Pour) (NP (NN batter)) (PP (IN into) (NP (JJ prepared) (NNS pans)))) (. .)))</parsed-text><annotation>put(ing51, t8)</annotation></line>
+<line><parsed-text>(S1 (S (NP (VB Bake)) (PP (IN for) (NP (CD 80) (NNS minutes))) (. .)))</parsed-text><annotation>cook(ing51, t7, ing52, "hot bread", "Bake for 80 minutes")</annotation></line>
+<line><parsed-text>(S1 (FRAG (NP (NP (NN Cool)) (PP (IN on) (NP (NN wire) (NNS racks)))) (. .)))</parsed-text><annotation>leave(ing52,"cool on wire racks")</annotation></line>
+</recipe>

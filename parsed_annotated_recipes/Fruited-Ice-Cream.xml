@@ -1,0 +1,10 @@
+<recipe>
+<line><parsed-text>(S1 (S (NP (CD 2) (PRN (-LRB- -LRB-) (NP (CD 14) (NN ounce)) (-RRB- -RRB-)) (NNS cans)) (VP (VBD sweetened) (NP (JJ condensed) (NN milk)))))</parsed-text><annotation>create_ing(ing77, "2 (14 ounce) cans sweetened condensed milk")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 5) (NNS cups) (NN milk)))</parsed-text><annotation>create_ing(ing78, "5 cups milk")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS cups)) (JJ heavy) (NN cream)))</parsed-text><annotation>create_ing(ing79, "2 cups heavy cream")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS tablespoons) (NN vanilla) (NN extract)))</parsed-text><annotation>create_ing(ing80, "2 tablespoons vanilla extract")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing81, "1/2 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 3) (NNS cups)) (JJ chopped) (NNS strawberries)))</parsed-text><annotation>create_ing(ing82, "3 cups chopped strawberries")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (JJ condensed) (NN milk) (, ,) (NN milk) (, ,) (NN cream) (, ,) (NN vanilla) (, ,) (NN salt) (CC and) (NN fruit)) (PP (IN in) (NP (NP (NN freezer) (NN canister)) (PP (IN of) (NP (NN ice) (NN cream) (NN maker))))))) (. .)))</parsed-text><annotation>combine({ing77, ing78, ing79, ing80, ing81, ing82}, ing83, "ready to freeze", "in the freezer canister of an ice cream maker")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Freeze) (PP (VBG according) (PP (TO to) (NP (NP (NN manufacturer) (POS 's)) (NNS directions))))) (. .)))</parsed-text><annotation>leave(ing83,"freeze according to directions")</annotation></line>
+</recipe>

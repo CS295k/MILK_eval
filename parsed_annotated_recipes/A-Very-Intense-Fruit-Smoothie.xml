@@ -1,0 +1,10 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (ADJP (-LRB- -LRB-) (NP (CD 10) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (JJ frozen) (JJ mixed) (NNS berries))))</parsed-text><annotation>create_ing(ing18, "1 (10 ounce) package frozen mixed berries")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 15) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VBN sliced) (NP (NNS peaches)) (, ,) (S (VP (VBN drained)))))))</parsed-text><annotation>create_ing(ing19, "1 (15 ounce) can sliced peaches, drained")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS tablespoons) (NN honey)))</parsed-text><annotation>create_ing(ing20, "2 tablespoons honey")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (JJ frozen) (NN fruit)) (, ,) (NP (JJ canned) (NN fruit)) (CC and) (NP (NN honey)))) (. .)))</parsed-text><annotation>create_tool(t4, "blender")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (JJ frozen) (NN fruit)) (, ,) (NP (JJ canned) (NN fruit)) (CC and) (NP (NN honey)))) (. .)))</parsed-text><annotation>combine({ing18, ing19, ing20}, ing21, "fruit and honey", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (JJ frozen) (NN fruit)) (, ,) (NP (JJ canned) (NN fruit)) (CC and) (NP (NN honey)))) (. .)))</parsed-text><annotation>put(ing21, t4)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Blend) (PP (IN until) (ADJP (JJ smooth)))) (. .)))</parsed-text><annotation>mix(ing21, t4, ing22, "smoothie", "blend")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Blend) (PP (IN until) (ADJP (JJ smooth)))) (. .)))</parsed-text><annotation>chefcheck(ing22,"smooth")</annotation></line>
+</recipe>
