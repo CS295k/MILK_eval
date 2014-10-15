@@ -25,7 +25,7 @@ if __name__ == "__main__":
     test_cmdss = [[a for (ot, anns) in r for a in anns] for r in test_recipes]
 
     # Unsupervised Learning
-    n = 4
+    n = 3
     sigmas_for_decoding, taus_for_decoding = EM(n, train_cmdss)
 
     ##################
