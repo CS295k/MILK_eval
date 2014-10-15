@@ -1,0 +1,14 @@
+<recipe>
+<line><parsed-text>(S1 (NP (QP (CD 4) (NNS cups)) (NN cranberry) (NN juice)))</parsed-text><annotation>create_ing(ing29, "4 cups cranberry juice")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD 1/2)) (NNS cups) (NN sugar)))</parsed-text><annotation>create_ing(ing30, "1 1/2 cups sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD 1/2)) (NNS cups) (NNP lemon) (NN juice)))</parsed-text><annotation>create_ing(ing31, "1 1/2 cups lemon juice")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN orange) (NN juice))))</parsed-text><annotation>create_ing(ing32, "1 cup orange juice")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (QP (CD 4) (NNS cups)) (NN ginger) (NN ale)) (, ,) (VP (VBN chilled))))</parsed-text><annotation>create_ing(ing33, "4 cups ginger ale, chilled")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (JJ quart) (NN raspberry) (NN sherbet)))</parsed-text><annotation>create_ing(ing34, "1 quart raspberry sherbet")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (NP (JJ cranberry) (NN juice)) (PP (IN into) (NP (DT a) (JJ 5-cup) (NN ring) (NN mold)))) (. .)))</parsed-text><annotation>create_tool(t9, "5 cup ring mold")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (NP (JJ cranberry) (NN juice)) (PP (IN into) (NP (DT a) (JJ 5-cup) (NN ring) (NN mold)))) (. .)))</parsed-text><annotation>put(ing29, t9)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Freeze) (PP (IN over) (NP (NN night)))) (. .)))</parsed-text><annotation>leave(ing29,"freeze over night")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN punch) (NN bowl))) (, ,) (S (VP (VB combine) (NP (NP (NN sugar)) (, ,) (NP (NNP lemon) (NN juice)) (CC and) (NP (NN orange) (NN juice))) (SBAR (IN until) (S (NP (NN sugar)) (VP (AUX is) (VP (VBN dissolved))))))) (: ;) (S (VP (VB stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale))))) (. .)))</parsed-text><annotation>combine({ing30, ing31, ing32, ing33}, ing35, "sugary jucies", "in a punch bowl, mix until sugar is disolved")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Remove) (NP (NN ice) (NN ring)) (PP (IN from) (NP (NN mold))))) (: ;) (S (VP (VB float) (PP (IN in) (NP (NN punch))))) (. .)))</parsed-text><annotation>do(ing29, "", ing36, "fancy juices", "float frozen ring")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Place)) (VP (VBZ scoops) (PP (IN of) (NP (NN sherbet))) (PP (IN around) (NP (NN ring)))) (. .)))</parsed-text><annotation>combine({ing34, ing35, ing36}, ing37, "final", "")</annotation></line>
+</recipe>

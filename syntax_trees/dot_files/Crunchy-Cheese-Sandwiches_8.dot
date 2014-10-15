@@ -12,7 +12,7 @@ graph SyntaxGraph {
 	Node9 [label="NN"];
 	Node10 [label="oven"];
 	Node11 [label="POS"];
-	Node12 [label="Quoted(Symbol('s'))"];
+	Node12 [label="Quoted(Symbol(u's'))"];
 	Node13 [label="NN"];
 	Node14 [label="broiler"];
 	Node15 [label="."];

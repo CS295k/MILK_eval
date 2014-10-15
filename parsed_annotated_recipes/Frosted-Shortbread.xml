@@ -1,0 +1,24 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NP (NN butter)) (PRN (-LRB- -LRB-) (NP (DT no) (NNS substitutes)) (-RRB- -RRB-))) (, ,) (VP (VBN softened))))</parsed-text><annotation>create_ing(ing56, "1 cup butter (no substitutes), softened")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (VBN packed) (JJ brown) (NN sugar))))</parsed-text><annotation>create_ing(ing57, "1 cup packed brown sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (NN egg) (NN yolk)))</parsed-text><annotation>create_ing(ing58, "1 egg yolk")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (NN teaspoon) (NN vanilla) (NN extract)))</parsed-text><annotation>create_ing(ing59, "1 teaspoon vanilla extract")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS cups) (NN all-purpose) (NN flour)))</parsed-text><annotation>create_ing(ing60, "2 cups all-purpose flour")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing61, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 1.55) (NN ounce)) (-RRB- -RRB-)) (NNS bars) (NN milk) (NN chocolate) (NN candy) (NN bar)) (, ,) (VP (VBN broken) (PP (IN into) (NP (NNS rectangles))))))</parsed-text><annotation>create_ing(ing62, "4 (1.55 ounce) bars milk chocolate candy bar, broken into rectangles")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/2) (NN cup)) (JJ chopped) (NNS walnuts)))</parsed-text><annotation>create_ing(ing63, "1/2 cup chopped walnuts")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VB cream) (NP (NP (NN butter)) (CC and) (NP (JJ brown) (NN sugar)))) (. .)))</parsed-text><annotation>combine({ing56, ing57}, ing64, "creamed", "cream in a large mixing bowl")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Add) (NP (NP (NN egg) (NN yolk)) (CC and) (NP (NN vanilla))))) (: ;) (S (VP (VB mix) (ADVP (RB well)))) (. .)))</parsed-text><annotation>combine({ing58, ing59, ing64}, ing65, "more creamed", "mix well")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Combine) (NP (NP (NN flour)) (CC and) (NP (NN salt))))) (: ;) (S (VP (VB add) (PP (TO to) (NP (JJ creamed) (NN mixture))))) (. .)))</parsed-text><annotation>combine({ing60, ing61, ing65}, ing66, "even more creamed", "combine")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Press) (PP (IN into) (NP (DT a) (JJ greased) (NN 15-in)))) (. .)))</parsed-text><annotation>create_tool(t10, "baking pan")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Press) (PP (IN into) (NP (DT a) (JJ greased) (NN 15-in)))) (. .)))</parsed-text><annotation>set(t10,"greased")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Press) (PP (IN into) (NP (DT a) (JJ greased) (NN 15-in)))) (. .)))</parsed-text><annotation>cook(ing66, t10, ing67, "ready to bake", "press")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (PP (PP (X (SYM F)) (IN for) (NP (CD 15-18) (NNS minutes))) (CC or) (PP (IN until) (NP (JJ golden) (NNP brown))))) (. .)))</parsed-text><annotation>create_tool(t11, "oven")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (PP (PP (X (SYM F)) (IN for) (NP (CD 15-18) (NNS minutes))) (CC or) (PP (IN until) (NP (JJ golden) (NNP brown))))) (. .)))</parsed-text><annotation>set(t11,"350F")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (PP (PP (X (SYM F)) (IN for) (NP (CD 15-18) (NNS minutes))) (CC or) (PP (IN until) (NP (JJ golden) (NNP brown))))) (. .)))</parsed-text><annotation>cook(ing67, t11, ing68, "cookies!", "bake for 15-18 mins until golden brown")</annotation></line>
+<line><parsed-text>(S1 (S (ADVP (RB Immediately)) (VP (VB place) (NP (NN candy) (NN bar) (NNS pieces)) (PP (IN over) (NP (NN crust)))) (. .)))</parsed-text><annotation>combine({ing62, ing68}, ing69, "adorned cookies", "place candy pieces on top as soon as removed from oven")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Let) (S (VP (VB stand) (PP (PP (IN for) (NP (CD 1) (NN minute))) (CC or) (PP (IN until) (ADJP (JJ softened)))))))) (: ;) (S (VP (VB spread) (NP (NN chocolate)) (ADVP (RB evenly)))) (. .)))</parsed-text><annotation>leave(ing69,"until chocolate has softened")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VBP Sprinkle) (PP (IN with) (NP (NNS walnuts)))) (. .)))</parsed-text><annotation>combine({ing63, ing69}, ing70, "even more fancy cookies!", "sprinkle")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cool)) (. .)))</parsed-text><annotation>leave(ing70,"until cool")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cut) (PP (IN into) (NP (NNS squares)))) (. .)))</parsed-text><annotation>serve(ing70,"cut into squares")</annotation></line>
+</recipe>

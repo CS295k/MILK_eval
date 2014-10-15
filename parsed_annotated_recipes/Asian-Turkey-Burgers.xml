@@ -1,0 +1,20 @@
+<recipe>
+<line><parsed-text>(S1 (ADJP (CD 1) (NN egg) (JJ white)))</parsed-text><annotation>create_ing(ing62, "1 egg white")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (NN soy) (NN sauce)))</parsed-text><annotation>create_ing(ing63, "1 tablespoon soy sauce")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (JJ dry) (NN bread) (NNS crumbs))))</parsed-text><annotation>create_ing(ing64, "1/2 cup dry bread crumbs")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (RB finely) (JJ chopped) (NN onion)))</parsed-text><annotation>create_ing(ing65, "1 tablespoon finely chopped onion")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (JJ garlic) (NN clove)) (, ,) (VP (VBN minced))))</parsed-text><annotation>create_ing(ing66, "1 garlic clove, minced")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN ground) (NN ginger)))</parsed-text><annotation>create_ing(ing67, "1/4 teaspoon ground ginger")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/8) (NN teaspoon) (NN pepper)))</parsed-text><annotation>create_ing(ing68, "1/8 teaspoon pepper")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 12) (NNS ounces)) (NN ground) (NN turkey)))</parsed-text><annotation>create_ing(ing69, "12 ounces ground turkey")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT the) (JJ first) (CD seven) (NNS ingredients))) (. .)))</parsed-text><annotation>create_tool(t12, "bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT the) (JJ first) (CD seven) (NNS ingredients))) (. .)))</parsed-text><annotation>combine({ing62, ing63, ing64, ing65, ing66, ing67, ing68}, ing70, "mixture", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT the) (JJ first) (CD seven) (NNS ingredients))) (. .)))</parsed-text><annotation>put(ing70, t12)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Crumble) (NP (NP (NN turkey)) (PP (IN over) (NP (NN mixture) (CC and) (NN mix)))) (SBAR (RB just) (IN until) (S (VP (VBN combined))))) (. .)))</parsed-text><annotation>cut(ing69, , ing71, "crumbled turkey", "crumble with fingers")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Crumble) (NP (NP (NN turkey)) (PP (IN over) (NP (NN mixture) (CC and) (NN mix)))) (SBAR (RB just) (IN until) (S (VP (VBN combined))))) (. .)))</parsed-text><annotation>combine({ing70, ing71}, ing72, "turkey mixture", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Crumble) (NP (NP (NN turkey)) (PP (IN over) (NP (NN mixture) (CC and) (NN mix)))) (SBAR (RB just) (IN until) (S (VP (VBN combined))))) (. .)))</parsed-text><annotation>mix(ing72, t12, ing73, "mixed turkey mixture", "mix")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Shape) (PP (IN into) (NP (CD four) (NNS patties)))) (. .)))</parsed-text><annotation>cut(ing73, , ing74, "turkey patties", "divide into four patties")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cook) (PP (IN in) (NP (NP (DT a) (JJ nonstick) (NN skillet)) (VP (VBN coated) (PP (IN with) (NP (NP (NN nonstick)) (VP (VBG cooking) (NP (NN spray)) (PP (IN until) (ADJP (DT no) (RBR longer) (JJ pink)))))))))) (. .)))</parsed-text><annotation>create_tool(t13, "nonstick skillet coated with cooking spray")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cook) (PP (IN in) (NP (NP (DT a) (JJ nonstick) (NN skillet)) (VP (VBN coated) (PP (IN with) (NP (NP (NN nonstick)) (VP (VBG cooking) (NP (NN spray)) (PP (IN until) (ADJP (DT no) (RBR longer) (JJ pink)))))))))) (. .)))</parsed-text><annotation>cook(ing74, t13, ing75, "cooked patties", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cook) (PP (IN in) (NP (NP (DT a) (JJ nonstick) (NN skillet)) (VP (VBN coated) (PP (IN with) (NP (NP (NN nonstick)) (VP (VBG cooking) (NP (NN spray)) (PP (IN until) (ADJP (DT no) (RBR longer) (JJ pink)))))))))) (. .)))</parsed-text><annotation>chefcheck(ing75,"no longer pink")</annotation></line>
+</recipe>

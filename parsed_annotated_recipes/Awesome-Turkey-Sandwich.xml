@@ -1,0 +1,18 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (NP (CD 2) (NNS slices)) (NP (JJ whole) (NN wheat) (NN bread)) (, ,) (VP (VBD toasted))) (PRN (-LRB- -LRB-) (JJ optional) (-RRB- -RRB-))))</parsed-text><annotation>create_ing(ing0, "2 slices whole wheat bread, toasted (optional)")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (NN mayonnaise)))</parsed-text><annotation>create_ing(ing1, "1 tablespoon mayonnaise")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS teaspoons)) (JJ Dijon-style) (JJ prepared) (NN mustard)))</parsed-text><annotation>create_ing(ing2, "2 teaspoons Dijon-style prepared mustard")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 3) (NN slices) (JJ smoked) (NN turkey) (NN breast)))</parsed-text><annotation>create_ing(ing3, "3 slices smoked turkey breast")</annotation></line>
+<line><parsed-text>(S1 (ADJP (NP (CD 2) (NNS tablespoons)) (JJ guacamole)))</parsed-text><annotation>create_ing(ing4, "2 tablespoons guacamole")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (JJ mixed) (NN salad) (NNS greens))))</parsed-text><annotation>create_ing(ing5, "1/2 cup mixed salad greens")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (NN bean) (NNS sprouts))))</parsed-text><annotation>create_ing(ing6, "1/4 cup bean sprouts")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN avocado)) (: -) (ADJP (VBN peeled) (, ,) (VBN pitted) (CC and) (VBN sliced))))</parsed-text><annotation>create_ing(ing7, "1/4 avocado - peeled, pitted and sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NP (CD 3) (NNS ounces)) (NP (NNP Colby-Monterey) (NNP Jack) (NN cheese))) (, ,) (VP (VBN sliced))))</parsed-text><annotation>create_ing(ing8, "3 ounces Colby-Monterey Jack cheese, sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS slices)) (NP (FW tomato))))</parsed-text><annotation>create_ing(ing9, "2 slices tomato")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Spread) (NP (NN mayonnaise)) (PP (IN on) (NP (NP (CD one) (NN slice)) (PP (IN of) (NP (NN toast)))))) (, ,) (RB then) (VP (VB spread) (NP (NP (NN mustard)) (PP (IN on) (NP (DT the) (JJ other)))))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2}, ing10, "condiments on toast", "spread one on each slice")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Arrange) (NP (NP (DT the) (JJ sliced) (NN turkey)) (PP (IN on) (NP (CD one) (NN side))))) (. .)))</parsed-text><annotation>combine({ing10, ing3}, ing11, "turkey on bread", "arrange on one side")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Spread)) (VP (VBD guacamole) (PP (IN over) (NP (DT the) (NN turkey)))) (. .)))</parsed-text><annotation>combine({ing11, ing4}, ing12, "guacamole on turkey", "spread over turkey")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pile) (PP (IN on) (NP (DT the) (NN salad) (NNS greens) (, ,) (NN bean) (NNS sprouts) (, ,) (NN avocado) (CC and) (NN cheese)))) (. .)))</parsed-text><annotation>combine({ing12, ing5, ing6, ing7}, ing13, "garnished sandwich", "pile on")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pile) (PP (IN on) (NP (DT the) (NN salad) (NNS greens) (, ,) (NN bean) (NNS sprouts) (, ,) (NN avocado) (CC and) (NN cheese)))) (. .)))</parsed-text><annotation>combine({ing13, ing8}, ing14, "garnished sandwich", "pile on")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Finish) (PP (IN with) (NP (JJ tomato) (NNS slices))))) (, ,) (RB then) (S (VP (VB place) (NP (NP (DT the) (VBG remaining) (NN slice)) (PP (IN of) (NP (NN toast)))) (PP (IN on) (NP (NN top))))) (. .)))</parsed-text><annotation>combine({ing14, ing9}, ing15, "finished sandwich", "")</annotation></line>
+</recipe>

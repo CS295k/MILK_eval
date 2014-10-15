@@ -38,7 +38,7 @@ graph SyntaxGraph {
 	Node35 [label="NNP"];
 	Node36 [label="lamb"];
 	Node37 [label="POS"];
-	Node38 [label="Quoted(Symbol('s'))"];
+	Node38 [label="Quoted(Symbol(u's'))"];
 	Node39 [label="NN"];
 	Node40 [label="thickness"];
 	Node41 [label="-RRB-"];

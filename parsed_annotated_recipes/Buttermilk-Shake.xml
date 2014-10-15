@@ -1,0 +1,12 @@
+<recipe>
+<line><parsed-text>(S1 (NP (CD 1) (JJ pint) (NN vanilla) (NN ice) (NN cream)))</parsed-text><annotation>create_ing(ing0, "1 pint vanilla ice cream")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN buttermilk))))</parsed-text><annotation>create_ing(ing1, "1 cup buttermilk")</annotation></line>
+<line><parsed-text>(S1 (S (NP (CD 1) (NN teaspoon)) (VP (VBD grated) (NP (NNP lemon) (NN peel)))))</parsed-text><annotation>create_ing(ing2, "1 teaspoon grated lemon peel")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN vanilla) (NN extract)))</parsed-text><annotation>create_ing(ing3, "1/2 teaspoon vanilla extract")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN drop)) (NP (NNP lemon) (NN extract))))</parsed-text><annotation>create_ing(ing4, "1 drop lemon extract")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (DT all) (NNS ingredients)) (PP (IN in) (NP (DT a) (NN blender) (NN container)))) (. .)))</parsed-text><annotation>create_tool(t0, "blender")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (DT all) (NNS ingredients)) (PP (IN in) (NP (DT a) (NN blender) (NN container)))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing5, "milkshake", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (DT all) (NNS ingredients)) (PP (IN in) (NP (DT a) (NN blender) (NN container)))) (. .)))</parsed-text><annotation>put(ing5, t0)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cover) (CC and) (VB process) (PP (IN on) (NP (NN high))) (PP (IN until) (ADJP (JJ smooth)))) (. .)))</parsed-text><annotation>mix(ing5, t0, ing6, "blended milkshake", "on "high" until smooth")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (PP (IN into) (NP (NNS glasses)))) (. .)))</parsed-text><annotation>serve(ing6,"in glasses")</annotation></line>
+</recipe>

@@ -1,0 +1,10 @@
+<recipe>
+<line><parsed-text>(S1 (NP (ADJP (CD 1) (JJ fluid) (NN ounce)) (JJ dark) (NN rum)))</parsed-text><annotation>create_ing(ing0, "1 fluid ounce dark rum")</annotation></line>
+<line><parsed-text>(S1 (NP (ADJP (CD 1/2) (NN fluid) (NN ounce)) (NN apricot) (NN brandy)))</parsed-text><annotation>create_ing(ing1, "1/2 fluid ounce apricot brandy")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 3) (CD 1/2)) (JJ fluid) (NNS ounces) (NN fruit) (NN punch)))</parsed-text><annotation>create_ing(ing2, "3 1/2 fluid ounces fruit punch")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN fluid) (NN ounce)) (NP (NNP pina) (NN colada) (NN mix))))</parsed-text><annotation>create_ing(ing3, "1/2 fluid ounce pina colada mix")</annotation></line>
+<line><parsed-text>(S1 (SINV (PP (IN In) (NP (DT a) (VBG mixing) (NN glass))) (VP (VBP combine)) (NP (NP (DT the) (NN rum) (, ,) (JJ apricot) (NN brandy)) (, ,) (NP (NN fruit) (NN punch)) (CC and) (NP (NNP pina) (NN colada) (NN mix))) (. .)))</parsed-text><annotation>create_tool(t0, "mixing glass")</annotation></line>
+<line><parsed-text>(S1 (SINV (PP (IN In) (NP (DT a) (VBG mixing) (NN glass))) (VP (VBP combine)) (NP (NP (DT the) (NN rum) (, ,) (JJ apricot) (NN brandy)) (, ,) (NP (NN fruit) (NN punch)) (CC and) (NP (NNP pina) (NN colada) (NN mix))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3}, ing4, "drink", "combine")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Stir) (S (VP (TO to) (VP (VB blend))))) (CC and) (VP (VB serve) (PP (IN over) (NP (NN ice))))) (. .)))</parsed-text><annotation>mix(ing4, t0, ing5, "stirred drink", "stir to blend")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Stir) (S (VP (TO to) (VP (VB blend))))) (CC and) (VP (VB serve) (PP (IN over) (NP (NN ice))))) (. .)))</parsed-text><annotation>serve(ing5,"over ice")</annotation></line>
+</recipe>

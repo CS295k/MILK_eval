@@ -1,0 +1,13 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))</parsed-text><annotation>create_ing(ing8, "1/2 cup mayonnaise")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 3) (NNS teaspoons) (NN milk)))</parsed-text><annotation>create_ing(ing9, "3 teaspoons milk")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing10, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (NN pinch) (VBD ground) (JJ black) (NN pepper)))</parsed-text><annotation>create_ing(ing11, "1 pinch ground black pepper")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))</parsed-text><annotation>create_tool(t3, "jar with tight-fitting lid")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))</parsed-text><annotation>put(ing10, t3)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))</parsed-text><annotation>put(ing11, t3)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))</parsed-text><annotation>put(ing8, t3)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Combine) (NP (NP (DT the) (NN mayonnaise) (, ,) (NN milk) (, ,) (NN salt) (CC and) (NN pepper)) (PP (IN in) (NP (DT a) (NN jar)))) (PP (IN with) (NP (DT a) (JJ tight) (JJ fitting) (NN lid)))) (. .)))</parsed-text><annotation>put(ing9, t3)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))</parsed-text><annotation>combine({ing10, ing11, ing8, ing9}, ing12, "salad dressing", "shake vigorously to mix")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (S (VP (TO to) (VP (VB mix))))) (, ,) (RB then) (VP (VB pour) (PRT (RP over)) (NP (PRP$ your) (NN salad)))) (. .)))</parsed-text><annotation>serve(ing12,"over salad")</annotation></line>
+</recipe>

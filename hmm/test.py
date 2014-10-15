@@ -6,9 +6,6 @@ from probs_new import get_taus
 from decoder import group_tagging
 from EM import forward_algorithm
 from EM import backward_algorithm
-####################
-from eval import getFScore0
-####################
 from eval2 import getFScore
 from glob import glob
 
@@ -40,16 +37,11 @@ if __name__ == "__main__":
   tagss0 = [[len(anns) for (ot, anns) in r for _ in anns] for r in test_recipes]
   tagss1 = []
   test_cmdss = [[a for (ot, anns) in r for a in anns] for r in test_recipes]
+
   for cmds in test_cmdss:
     tags = group_tagging(n, cmds, sigmas_for_decoding, taus_for_decoding)
     tags = [tag+1 for tag in tags]
     tagss1.append(tags)
-
-  # print "True tags"
-  # print tagss0
-  # print "Generated tags"
-  # print tagss1
-
 
   for fn, true, pred in zip(glob(test_path), tagss0, tagss1):
     print fn
@@ -59,10 +51,5 @@ if __name__ == "__main__":
   
   fscore = getFScore(tagss0, tagss1)
   print "F-Scores"
-  print fscore  
-  ####################
-  fscore0 = getFScore0(tagss0, tagss1)
-  print fscore0
-  ####################
-  
+  print fscore
 

@@ -1,0 +1,13 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN mayonnaise))))</parsed-text><annotation>create_ing(ing154, "1 cup mayonnaise")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 8) (NNS ounces)) (JJ sour) (NN cream)))</parsed-text><annotation>create_ing(ing155, "8 ounces sour cream")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1) (NN ounce)) (-RRB- -RRB-)) (NN package)) (NP (NN garlic) (CC and) (NN mushroom) (NN soup) (NN mix))))</parsed-text><annotation>create_ing(ing156, "1 (1 ounce) package garlic and mushroom soup mix")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (CD 1)) (PRN (-LRB- -LRB-) (NP (CD 14) (NN ounce)) (-RRB- -RRB-))) (VP (MD can) (VP (VB artichoke) (NP (NP (NNS hearts)) (, ,) (VP (VBN drained) (CC and) (VBN chopped)))))))</parsed-text><annotation>create_ing(ing157, "1 (14 ounce) can artichoke hearts, drained and chopped")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (NN cup)) (JJ shredded) (JJ Swiss) (NN cheese)))</parsed-text><annotation>create_ing(ing158, "1 cup shredded Swiss cheese")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 6) (NN ounce)) (-RRB- -RRB-)) (NN can)) (NN crab) (NN meat)) (, ,) (VP (VBN drained))))</parsed-text><annotation>create_ing(ing159, "1 (6 ounce) can crab meat, drained")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))</parsed-text><annotation>create_tool(t16, "oven")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Preheat)) (VP (VBN oven) (PP (TO to) (NP (CD 350) (NNS degrees))))) (VP (SYM F) (PRN (-LRB- -LRB-) (NP (NP (CD 175) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-))) (. .)))</parsed-text><annotation>set(t16,"350 F")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ 1-1/2) (NN quart) (NN casserole) (NN dish))) (, ,) (VP (VBP combine) (NP (NP (NN mayonnaise)) (, ,) (NP (JJ sour) (NN cream)) (, ,) (NP (NN soup) (NN mix)) (, ,) (NP (JJ artichoke) (NNS hearts) (, ,) (NN cheese) (CC and) (NN crab) (NN meat)))) (. .)))</parsed-text><annotation>combine({ing154, ing155, ing156, ing157, ing158, ing159}, ing160, "dip!", "in a casserole dish")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Bake) (VP (VBN uncovered) (PP (IN for) (NP (CD 30) (NNS minutes))))) (. .)))</parsed-text><annotation>cook(ing160, t16, ing161, "Dip!", "uncovered for 30 mins")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Serve) (ADVP (RB immediately))) (. .)))</parsed-text><annotation>serve(ing161,"immediately")</annotation></line>
+</recipe>

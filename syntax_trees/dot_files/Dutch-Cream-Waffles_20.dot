@@ -30,7 +30,7 @@ graph SyntaxGraph {
 	Node27 [label="NN"];
 	Node28 [label="manufacturer"];
 	Node29 [label="POS"];
-	Node30 [label="Quoted(Symbol('s'))"];
+	Node30 [label="Quoted(Symbol(u's'))"];
 	Node31 [label="NNS"];
 	Node32 [label="directions"];
 	Node33 [label="."];
