@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     # Unsupervised Learning
     n = 4
-    sigmas_for_decoding, taus_for_decoding = EM(4, train_cmdss)
+    sigmas_for_decoding, taus_for_decoding = EM(n, train_cmdss)
 
     ##################
     #print sigmas, taus

@@ -32,8 +32,8 @@ def get_tau(taus, i, j, cmds):
     # Create the string concatenated by "_"
     # Then look up the value of tau
     #
-    # If impossible, return 0
-    # If unseen, return 1e-5
+    # If *impossible*, return 0
+    # If *unseen*, return 1e-5
 
     tau = 0
     cmd = get_cmd(cmds, i, j)
@@ -80,14 +80,8 @@ def forward_algorithm(n, cmds, sigmas, taus):
                for k in xrange(len_states):
                    # Impossible move
                    if (i-k-1 < 0):
-                       alphas[i][j] = 0
+                       alphas[i][j] += 0.0
                    else:
-                       ##############
-                       '''
-                       print k, j
-                       print ((k,j) in sigmas)
-                       '''
-                       ##############
                        sigma = sigmas[(k,j)]
                        alphas[i][j] += alphas[i-k-1][k] * sigma * tau
                # End of iterating k
@@ -128,10 +122,10 @@ def backward_algorithm(n, cmds, sigmas, taus):
 
             # Impossible move
             if (i+j+1 > len_cmds):
-                betas[i][j] = 0
+                betas[i][j] = 0.0
             # Move to the end symbol with certainty
             elif (i+j+1 == len_cmds):
-                betas[i][j] = 1
+                betas[i][j] = 1.0
             else:
                 # Check every state of (i+j+1)-th column
                 for k in xrange(len_states):
@@ -147,6 +141,7 @@ def backward_algorithm(n, cmds, sigmas, taus):
 
 # End of Func
 
+'''
 def get_forward_end_prob(n, cmds, alphas):
 
     # INPUT:
@@ -154,7 +149,7 @@ def get_forward_end_prob(n, cmds, alphas):
     # OUTPUT:
     # alpha_{end}(len_cmds+1)
 
-    alpha_end = 0
+    alpha_end = 0.0
     len_cmds = len(cmds)
     for k in xrange(n):
         i = len_cmds - k - 1
@@ -162,8 +157,25 @@ def get_forward_end_prob(n, cmds, alphas):
         if (i >= 0):
             alpha_end += alphas[i][k] * 1.0
     return alpha_end
-    
+'''
 
+def get_p_cmds(n, cmds, alphas, betas):
+
+    # INPUT:
+    # n: number of states
+    # cmds: a list of strings of commands
+    # alphas, betas
+    #
+    # OUTPUT:
+    # p(cmds) = \sum_j(alpha_j(i)*beta_j(i)), for any i
+    
+    p_cmds = 0
+    i = 0
+    for j in xrange(n):
+        p_cmds += alphas[0][j] * betas[0][j]
+    return p_cmds
+
+'''
 def get_label_prob(i, y_i, alphas, betas, alpha_end):
 
     # INPUT:
@@ -178,6 +190,7 @@ def get_label_prob(i, y_i, alphas, betas, alpha_end):
     # alpha_y(i) x beta_y(i) / alpha_{end}(n+1)
 
     return alphas[i][y_i] * betas[i][y_i] / alpha_end
+'''
 
 def E_Step(n, cmdss, sigmas, taus):
 
@@ -192,12 +205,16 @@ def E_Step(n, cmdss, sigmas, taus):
 
     dict1 = {}
     dict2 = {}
+
+    log_px = 0.0
     
     for cmds in cmdss:
         
         alphas = forward_algorithm(n, cmds, sigmas, taus)
         betas = backward_algorithm(n, cmds, sigmas, taus)
-        alpha_end = get_forward_end_prob(n, cmds, alphas)
+        #alpha_end = get_forward_end_prob(n, cmds, alphas)
+        p_cmds = get_p_cmds(n, cmds, alphas, betas)
+        log_px += get_log(p_cmds)
 
         len_cmds = len(cmds)
         for i in xrange(len_cmds):
@@ -208,7 +225,14 @@ def E_Step(n, cmdss, sigmas, taus):
                     # Compute E[n_{i,y,x}|x]
                     cmd = "_".join(cmds[ i : i+j+1 ])
                     # prob2: p(y_i=j | x)
-                    prob2 = alphas[i][j] * betas[i][j] / alpha_end
+                    prob2 = alphas[i][j] * betas[i][j] / p_cmds
+                    ##############
+                    '''
+                    if (alphas[i][j != 0 and betas[i][j] != 0]):
+                        print "NOT 0!"
+                        print prob2
+                    '''
+                    ##############
                     # Update dict2
                     if (j, cmd) not in dict2:
                         dict2[(j, cmd)] = prob2
@@ -223,14 +247,25 @@ def E_Step(n, cmdss, sigmas, taus):
                             # prob1: p(y,y'|x)
                             prob1 = alphas[i][j] * sigmas[(j, k)] * \
                                     get_tau(taus, i+j+1, k, cmds) * betas[i+j+1][k] / \
-                                    alpha_end
+                                    p_cmds
+                            ###############
+                            '''
+                            if (alphas[i][j] != 0 and sigmas[(j, k)] != 0 and \
+                                get_tau(taus, i+j+1, k, cmds) != 0 and \
+                                betas[i+j+1][k] != 0):
+                                print "NOT 0!"
+                                print prob1
+                            '''
+                            ###############
                             if (j, k) not in dict1:
                                 dict1[(j, k)] = prob1
                             else:
                                 dict1[(j, k)] += prob1
         
     # End of iterating cmds
-
+    ###############
+    #print log_px
+    ###############
     return (dict1, dict2)
                     
 def M_Step(n, dict1, dict2):
@@ -322,13 +357,11 @@ def EM(n, cmdss):
 
     sigmas = init_sigmas(n, 0.1)
     taus = init_taus(n, cmdss, 0.1)
-    for iter in xrange(40):
+    max_iter = 100
+    for iter in xrange(max_iter):
         ###########
-        print iter
+        #print iter
         ###########
         dict1, dict2 = E_Step(n, cmdss, sigmas, taus)
         sigmas, taus = M_Step(n, dict1, dict2)
     return (sigmas, taus)
-
-
-    
