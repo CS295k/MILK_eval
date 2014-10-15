@@ -62,7 +62,7 @@ for file in glob("parsed_annotated_recipes/*.xml"):
 			connections = defaultdict(list)
 			buildGraphModel(sexp, labels, connections)
 			graphString = buildGraphString(labels, connections, command)
-			filename = join(join(join(dirname(abspath(__file__)), "syntax_trees"), "dot_files"), basename(file) + "_" + str(lineCount) + ".dot")
+			filename = join(join(join(dirname(abspath(__file__)), "syntax_trees"), "dot_files"), basename(file).replace(".xml", "") + "_" + str(lineCount) + ".dot")
 			if not exists(dirname(filename)):
 				makedirs(dirname(filename))
 			output = open(filename, "w")
