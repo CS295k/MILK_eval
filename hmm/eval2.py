@@ -22,8 +22,8 @@ def segmentation_scoring(actual, pred):
 
   return float(2 * true_pos) / float(2 * true_pos + false_pos + false_neg)
 
-print to_segmentation_markers([1, 1, 2, 2, 3, 3, 3, 1])
-print to_segmentation_markers([2, 2, 2, 2, 2, 2, 2, 2])
+# print to_segmentation_markers([1, 1, 2, 2, 3, 3, 3, 1])
+# print to_segmentation_markers([2, 2, 2, 2, 2, 2, 2, 2])
 
 def getFScore(actual, pred):
   assert len(pred) == len(actual)

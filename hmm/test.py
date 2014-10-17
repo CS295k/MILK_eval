@@ -9,17 +9,23 @@ from EM import backward_algorithm
 from eval2 import getFScore
 from glob import glob
 
+from sklearn.cross_validation import train_test_split
+
 if __name__ == "__main__":
-  train_path = "./train/*.xml"
-  test_path = "./test/*.xml"
+  # train_path = "./train/*.xml"
+  # test_path = "./test/*.xml"
+
+  data_files = glob("../annotated_recipes/*.xml")
+  train_paths, test_paths = train_test_split(data_files, test_size=0.25)
+
   train_recipes = map(remove_create_tool,
                     map(remove_create_ing,
                       map(strip_to_predicate,
-                        load_recipes(train_path))))
+                        load_recipes(train_paths))))
   test_recipes = map(remove_create_tool,
                     map(remove_create_ing,
                       map(strip_to_predicate,
-                        load_recipes(test_path))))
+                        load_recipes(test_paths))))
 
   # Train
   sigmas = get_sigmas(train_recipes)
@@ -47,11 +53,16 @@ if __name__ == "__main__":
   # print "Generated tags"
   # print tagss1
 
-  for fn, true, pred in zip(glob(test_path), tagss0, tagss1):
+  for fn, true, pred in zip(test_paths, tagss0, tagss1):
     print fn
     print "True tags", true
     print "Pred tags", pred
     print
+
+  print 'sigma:'
+  for i in range(n):
+    print [sigmas_for_decoding.get((i, j), 0) for j in range(n)]
+  print
 
   fscore = getFScore(tagss0, tagss1)
   print "F-Score"
