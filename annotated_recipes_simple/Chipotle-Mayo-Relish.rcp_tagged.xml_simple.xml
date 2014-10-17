@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>1 cup light mayonnaise</originaltext><annotation>create_ing(ing0, "mayonnaise")</annotation></line>
+<line><originaltext>2 tablespoons canned Chipotle peppers in adobo sauce, seeded and minced</originaltext><annotation>create_ing(ing1, "sauce")</annotation></line>
+<line><originaltext>1/4 cup chopped green onion</originaltext><annotation>create_ing(ing2, "onion")</annotation></line>
+<line><originaltext>1/4 cup sweet pickle relish</originaltext><annotation>create_ing(ing3, "relish")</annotation></line>
+<line><originaltext>Place the mayonnaise and chipotle peppers into a food processor, and process until well blended. </originaltext><annotation>separate(ing1, ing4, "peppers and sauce", ing5, "a little bit more of the sauce", "")</annotation></line>
+<line><originaltext>Place the mayonnaise and chipotle peppers into a food processor, and process until well blended. </originaltext><annotation>create_tool(t0, "food processor")</annotation></line>
+<line><originaltext>Place the mayonnaise and chipotle peppers into a food processor, and process until well blended. </originaltext><annotation>combine({ing0, ing4}, ing6, "peppers and mayo", "")</annotation></line>
+<line><originaltext>Place the mayonnaise and chipotle peppers into a food processor, and process until well blended. </originaltext><annotation>mix(ing6, t0, ing7, "processed mayo and peppers", "process until well blended")</annotation></line>
+<line><originaltext>Add a little bit more of the sauce if desired, I like to add about 1/2 teaspoon. </originaltext><annotation>combine({ing5, ing7}, ing8, "mayo mix", "if desired, about 1/2 teaspoon")</annotation></line>
+<line><originaltext>Transfer to a serving bowl, and stir in the green onion and sweet pickle relish. </originaltext><annotation>create_tool(t1, "serving bowl")</annotation></line>
+<line><originaltext>Transfer to a serving bowl, and stir in the green onion and sweet pickle relish. </originaltext><annotation>combine({ing2, ing3, ing8}, ing9, "relish", "stir in")</annotation></line>
+<line><originaltext>Transfer to a serving bowl, and stir in the green onion and sweet pickle relish. </originaltext><annotation>put(ing9, t1)</annotation></line>
+<line><originaltext>Chill until serving. </originaltext><annotation>leave(ing9,"chill until serving")</annotation></line>
+<line><originaltext>Chill until serving. </originaltext><annotation>serve(ing9,"")</annotation></line>
+</recipe>

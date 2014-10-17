@@ -1,0 +1,28 @@
+<recipe version="1.1"><line><originaltext>2 cups pineapple juice</originaltext><annotation>create_ing(ing0, "juice")</annotation></line>
+<line><originaltext>1 tablespoon cornstarch</originaltext><annotation>create_ing(ing1, "cornstarch")</annotation></line>
+<line><originaltext>2 tablespoons light soy sauce (50% less sodium)</originaltext><annotation>create_ing(ing2, "%")</annotation></line>
+<line><originaltext>1 1/2 tablespoons white vinegar</originaltext><annotation>create_ing(ing3, "vinegar")</annotation></line>
+<line><originaltext>2 garlic cloves, crushed</originaltext><annotation>create_ing(ing4, "cloves")</annotation></line>
+<line><originaltext>3 tablespoons minced fresh ginger</originaltext><annotation>create_ing(ing5, "ginger")</annotation></line>
+<line><originaltext>1 1/4 pounds raw firm fish, such as salmon, tuna or halibut, cut in chunks</originaltext><annotation>create_ing(ing6, "chunks")</annotation></line>
+<line><originaltext>4 cups fresh pineapple in large chunks (or substitute canned pineapple chunks)</originaltext><annotation>create_ing(ing7, "chunks")</annotation></line>
+<line><originaltext>1 large red onion, cut in wedges</originaltext><annotation>create_ing(ing8, "wedges")</annotation></line>
+<line><originaltext>In a small saucepan, dissolve cornstarch in pineapple juice. </originaltext><annotation>create_tool(t0, "small saucepan")</annotation></line>
+<line><originaltext>In a small saucepan, dissolve cornstarch in pineapple juice. </originaltext><annotation>combine({ing0, ing1}, ing9, "starchy pineapple juice", "dissolve")</annotation></line>
+<line><originaltext>Add soy sauce, vinegar, garlic and ginger. </originaltext><annotation>combine({ing2, ing3, ing4, ing5, ing9}, ing10, "spiced pineapple juice", "add")</annotation></line>
+<line><originaltext>Simmer until slightly thickened, about 7 minutes. </originaltext><annotation>cook(ing10, t0, ing11, "simmered juice", "simmer about 7 minutes")</annotation></line>
+<line><originaltext>Simmer until slightly thickened, about 7 minutes. </originaltext><annotation>chefcheck(ing11,"slightly thickened")</annotation></line>
+<line><originaltext>Let cool. </originaltext><annotation>leave(ing11,"until cool")</annotation></line>
+<line><originaltext>Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes. </originaltext><annotation>create_tool(t1, "refridgerator")</annotation></line>
+<line><originaltext>Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes. </originaltext><annotation>combine({ing11, ing6, ing7}, ing12, "fishy juice", "add")</annotation></line>
+<line><originaltext>Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes. </originaltext><annotation>put(ing12, t1)</annotation></line>
+<line><originaltext>Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes. </originaltext><annotation>leave(ing12,"marinate for 30 minutes")</annotation></line>
+<line><originaltext>Thread fish, pineapple and onion on skewers. </originaltext><annotation>create_tool(t2, "skewers")</annotation></line>
+<line><originaltext>Thread fish, pineapple and onion on skewers. </originaltext><annotation>combine({ing12, ing8}, ing13, "kabobs", "thread onto skewers")</annotation></line>
+<line><originaltext>Place on a hot grill (or under a broiler) until fish is done to your liking. </originaltext><annotation>create_tool(t3, "hot grill or broiler")</annotation></line>
+<line><originaltext>Place on a hot grill (or under a broiler) until fish is done to your liking. </originaltext><annotation>cook(ing13, t3, ing14, "grilled kabobs", "place on grill")</annotation></line>
+<line><originaltext>Place on a hot grill (or under a broiler) until fish is done to your liking. </originaltext><annotation>chefcheck(ing14,"done to your liking")</annotation></line>
+<line><originaltext>Serve with rice. </originaltext><annotation>create_ing(ing15, "rice")</annotation></line>
+<line><originaltext>Serve with rice. </originaltext><annotation>combine({ing14, ing15}, ing16, "rice and kabobs", "serve with rice")</annotation></line>
+<line><originaltext>Serve with rice. </originaltext><annotation>serve(ing16,"eat!")</annotation></line>
+</recipe>

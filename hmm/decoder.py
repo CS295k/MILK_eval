@@ -55,8 +55,11 @@ def group_tagging(n, cmds, sigmas, taus):
                     #tau_j_i = 1e-5
                     log_tau_j_i = math.log(1e-5)
                 else:
-                    #tau_j_i = taus[(j, cmdStr)]
-                    log_tau_j_i = math.log(taus[(j, cmdStr)])
+                    tau_j_i = taus[(j, cmdStr)]
+                    if (tau_j_i == 0):
+                        log_tau_j_i = math.log(1e-5)
+                    else:
+                        log_tau_j_i = math.log(tau_j_i)
 
             if (i == 0):
                 #mus[i][j] = 1.0 * tau_j_i
@@ -85,7 +88,11 @@ def group_tagging(n, cmds, sigmas, taus):
                         if (k, j) not in sigmas:
                             log_sigma_k_j = math.log(1e-5)
                         else:
-                            log_sigma_k_j = math.log(sigmas[(k, j)])
+                            sigma_k_j = sigmas[(k,j)]
+                            if (sigma_k_j == 0):
+                                log_sigma_k_j = math.log(1e-5)
+                            else:
+                                log_sigma_k_j = math.log(sigma_k_j)
                     # End of else
 
                     #current_mu = mu_lasti_k * sigma_k_j * tau_j_i

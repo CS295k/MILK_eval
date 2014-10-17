@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>1 cup sour cream</originaltext><annotation>create_ing(ing0, "cream")</annotation></line>
+<line><originaltext>1 cup mayonnaise</originaltext><annotation>create_ing(ing1, "mayonnaise")</annotation></line>
+<line><originaltext>1/2 cup cottage cheese</originaltext><annotation>create_ing(ing2, "cheese")</annotation></line>
+<line><originaltext>1/3 cup hot salsa</originaltext><annotation>create_ing(ing3, "salsa")</annotation></line>
+<line><originaltext>1/4 teaspoon cayenne pepper</originaltext><annotation>create_ing(ing4, "pepper")</annotation></line>
+<line><originaltext>1 tablespoon lemon juice</originaltext><annotation>create_ing(ing5, "juice")</annotation></line>
+<line><originaltext>1/2 cup plain yogurt</originaltext><annotation>create_ing(ing6, "yogurt")</annotation></line>
+<line><originaltext>Combine the sour cream, mayonnaise, cottage cheese, salsa, cayenne pepper, lemon juice and yogurt in a blender and puree until smooth. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6}, ing7, "unmixed sauce", "in blender")</annotation></line>
+<line><originaltext>Combine the sour cream, mayonnaise, cottage cheese, salsa, cayenne pepper, lemon juice and yogurt in a blender and puree until smooth. </originaltext><annotation>create_tool(t0, "blender")</annotation></line>
+<line><originaltext>Combine the sour cream, mayonnaise, cottage cheese, salsa, cayenne pepper, lemon juice and yogurt in a blender and puree until smooth. </originaltext><annotation>mix(ing7, t0, ing8, "sauce", "puree")</annotation></line>
+<line><originaltext>Chill before serving. </originaltext><annotation>serve(ing8,"chilled")</annotation></line>
+</recipe>

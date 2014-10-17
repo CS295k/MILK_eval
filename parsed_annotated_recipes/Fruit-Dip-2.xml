@@ -1,0 +1,9 @@
+<recipe>
+<line><parsed-text>(S1 (NP (QP (CD 8) (NNS ounces)) (NN cream) (NN cheese)))</parsed-text><annotation>create_ing(ing71, "8 ounces cream cheese")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN marshmallow) (NN creme))))</parsed-text><annotation>create_ing(ing72, "1/2 cup marshmallow creme")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS cups)) (ADJP (JJ frozen) (NP (VBN whipped) (VBG topping))) (, ,) (VP (VBN thawed))))</parsed-text><annotation>create_ing(ing73, "2 cups frozen whipped topping, thawed")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (JJ unsweetened) (NN pineapple) (NN juice))))</parsed-text><annotation>create_ing(ing74, "1/4 cup unsweetened pineapple juice")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Blend) (PRT (RP together)) (NP (DT the) (NX (NX (NN cream) (NN cheese)) (, ,) (NX (NN marshmallow) (NN cream)) (CC and) (NX (JJ thawed) (VBG topping))))) (. .)))</parsed-text><annotation>combine({ing71, ing72, ing73}, ing75, "blended", "blend")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Add) (NP (JJ enough) (NN pineapple) (NN juice)) (S (VP (TO to) (VP (VB make) (S (NP (PRP it)) (NP (VBG dipping) (NN consistency))))))) (. .)))</parsed-text><annotation>combine({ing74, ing75}, ing76, "dip!", "until the mixture is a good dipping consistency")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Chill) (PP (IN for) (NP (CD 1) (NN hour)))) (. .)))</parsed-text><annotation>leave(ing76,"chill for 1 hour")</annotation></line>
+</recipe>

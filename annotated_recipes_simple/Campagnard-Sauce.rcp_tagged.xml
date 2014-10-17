@@ -1,0 +1,14 @@
+<recipe version="1.1"><line><originaltext>2 cloves garlic, minced</originaltext><annotation>create_ing(ing89, "2 cloves garlic, minced")</annotation></line>
+<line><originaltext>1/2 cup goat cheese</originaltext><annotation>create_ing(ing90, "1/2 cup goat cheese")</annotation></line>
+<line><originaltext>1 celery stalk, minced</originaltext><annotation>create_ing(ing91, "1 celery stalk, minced")</annotation></line>
+<line><originaltext>2 tablespoons balsamic vinegar</originaltext><annotation>create_ing(ing92, "2 tablespoons balsamic vinegar")</annotation></line>
+<line><originaltext>1/2 cup olive oil</originaltext><annotation>create_ing(ing93, "1/2 cup olive oil")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing94, "salt and pepper to taste")</annotation></line>
+<line><originaltext>In a bowl, stir together garlic, goat cheese, celery, balsamic vinegar, and olive oil. </originaltext><annotation>create_tool(t16, "bowl")</annotation></line>
+<line><originaltext>In a bowl, stir together garlic, goat cheese, celery, balsamic vinegar, and olive oil. </originaltext><annotation>combine({ing89, ing90, ing91, ing92, ing93}, ing95, "mix", "")</annotation></line>
+<line><originaltext>In a bowl, stir together garlic, goat cheese, celery, balsamic vinegar, and olive oil. </originaltext><annotation>mix(ing95, t16, ing96, "bowl mix", "")</annotation></line>
+<line><originaltext>Season to taste with salt and pepper. </originaltext><annotation>combine({ing94, ing96}, ing97, "seasoned mix", "season to taste")</annotation></line>
+<line><originaltext>Blend well until the sauce is smooth. </originaltext><annotation>mix(ing97, t16, ing98, "blended mix", "blend until sauce is smooth")</annotation></line>
+<line><originaltext>Cover, and refrigerate. </originaltext><annotation>leave(ing98,"cover and refrigerate")</annotation></line>
+<line><originaltext>Serve chilled.</originaltext><annotation>serve(ing98,"chilled")</annotation></line>
+</recipe>

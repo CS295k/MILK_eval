@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1 (9 inch) deep dish frozen pie crust</originaltext><annotation>create_ing(ing9, "inch")</annotation></line>
+<line><originaltext>4 eggs</originaltext><annotation>create_ing(ing10, "eggs")</annotation></line>
+<line><originaltext>1 cup heavy cream</originaltext><annotation>create_ing(ing11, "cream")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing12, "salt")</annotation></line>
+<line><originaltext>1/2 teaspoon black pepper</originaltext><annotation>create_ing(ing13, "pepper")</annotation></line>
+<line><originaltext>3 dashes hot pepper sauce (e.g. Tabasco&#8482;), or to taste</originaltext><annotation>create_ing(ing14, "3 dashes hot pepper sauce (e.g. Tabasco&#8482;), or to taste")</annotation></line>
+<line><originaltext>1 cup shredded Monterey Jack cheese</originaltext><annotation>create_ing(ing15, "cheese")</annotation></line>
+<line><originaltext>1/4 cup grated Parmesan cheese</originaltext><annotation>create_ing(ing16, "cheese")</annotation></line>
+<line><originaltext>1 (8 ounce) package imitation crabmeat, flaked</originaltext><annotation>create_ing(ing17, "ounce")</annotation></line>
+<line><originaltext>1 green onion, chopped</originaltext><annotation>create_ing(ing18, "onion")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Preheat the oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t1,"350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Bake the pie crust for about 10 minutes, until just starting to brown. </originaltext><annotation>cook(ing9, t1, ing19, "baked pie crust", "10 minutes, until just starting to brown")</annotation></line>
+<line><originaltext>Bake the pie crust for about 10 minutes, until just starting to brown. </originaltext><annotation>chefcheck(ing19,"just starting to brown")</annotation></line>
+<line><originaltext>Remove from the oven, and allow to cool. </originaltext><annotation>remove(ing19,t1)</annotation></line>
+<line><originaltext>Remove from the oven, and allow to cool. </originaltext><annotation>leave(ing19,"let cool")</annotation></line>
+<line><originaltext>In a large bowl, whisk together the eggs, cream, salt, pepper, and hot sauce. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, whisk together the eggs, cream, salt, pepper, and hot sauce. </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing14}, ing20, "egg combo", "whisk")</annotation></line>
+<line><originaltext>In a large bowl, whisk together the eggs, cream, salt, pepper, and hot sauce. </originaltext><annotation>mix(ing20, t2, ing21, "egg stuff", "whisk")</annotation></line>
+<line><originaltext>Stir in shredded cheese, onion and imitation crab. </originaltext><annotation>combine({ing15, ing16, ing17, ing18, ing21}, ing22, "filling", "stir in")</annotation></line>
+<line><originaltext>Pour into the pie shell. </originaltext><annotation>combine({ing19, ing22}, ing23, "unbaked quiche", "pour into pie shell")</annotation></line>
+<line><originaltext>Bake for 25 to 30 minutes in the preheated oven, then turn off the oven, but leave the door closed. </originaltext><annotation>cook(ing23, t1, ing24, "half baked quiche", "25 to 30 minutes")</annotation></line>
+<line><originaltext>Bake for 25 to 30 minutes in the preheated oven, then turn off the oven, but leave the door closed. </originaltext><annotation>set(t1,"turn off")</annotation></line>
+<line><originaltext>Leave quiche in the oven for an additional 20 to 30 minutes until firm. </originaltext><annotation>cook(ing24, t1, ing25, "quiche", "20 to 30 minutes")</annotation></line>
+<line><originaltext>Leave quiche in the oven for an additional 20 to 30 minutes until firm. </originaltext><annotation>chefcheck(ing25,"firm")</annotation></line>
+</recipe>

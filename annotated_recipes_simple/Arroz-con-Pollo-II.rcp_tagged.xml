@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>1 (2 to 3 pound) whole chicken, cut into pieces</originaltext><annotation>create_ing(ing81, "1 (2 to 3 pound) whole chicken, cut into pieces")</annotation></line>
+<line><originaltext>1 tablespoon olive oil</originaltext><annotation>create_ing(ing82, "1 tablespoon olive oil")</annotation></line>
+<line><originaltext>2 onions, chopped</originaltext><annotation>create_ing(ing83, "2 onions, chopped")</annotation></line>
+<line><originaltext>3 cloves garlic, crushed</originaltext><annotation>create_ing(ing84, "3 cloves garlic, crushed")</annotation></line>
+<line><originaltext>1/2 green bell pepper, chopped</originaltext><annotation>create_ing(ing85, "1/2 green bell pepper, chopped")</annotation></line>
+<line><originaltext>1/2 (15 ounce) can tomato sauce</originaltext><annotation>create_ing(ing86, "1/2 (15 ounce) can tomato sauce")</annotation></line>
+<line><originaltext>1 pinch saffron</originaltext><annotation>create_ing(ing87, "1 pinch saffron")</annotation></line>
+<line><originaltext>salt to taste</originaltext><annotation>create_ing(ing88, "salt to taste")</annotation></line>
+<line><originaltext>2 cubes  chicken bouillon</originaltext><annotation>create_ing(ing89, "2 cubes  chicken bouillon")</annotation></line>
+<line><originaltext>1 1/2 cups uncooked white rice</originaltext><annotation>create_ing(ing90, "1 1/2 cups uncooked white rice")</annotation></line>
+<line><originaltext>1 cup beer</originaltext><annotation>create_ing(ing91, "1 cup beer")</annotation></line>
+<line><originaltext>1 (15 ounce) can peas, drained</originaltext><annotation>create_ing(ing92, "1 (15 ounce) can peas, drained")</annotation></line>
+<line><originaltext>1/2 red bell pepper, roasted and sliced</originaltext><annotation>create_ing(ing93, "1/2 red bell pepper, roasted and sliced")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium high heat. </originaltext><annotation>create_tool(t13, "skillet")</annotation></line>
+<line><originaltext>Heat oil in a large skillet over medium high heat. </originaltext><annotation>cook(ing82, t13, ing94, "hot oil", "medium high heat")</annotation></line>
+<line><originaltext>Saute chicken until lightly browned; remove from skillet and set aside.</originaltext><annotation>combine({ing81, ing94}, ing95, "chicken and oil", "")</annotation></line>
+<line><originaltext>Saute chicken until lightly browned; remove from skillet and set aside.</originaltext><annotation>cook(ing95, t13, ing96, "lightly browned chicken", "saute until lightly browned")</annotation></line>
+<line><originaltext>Saute chicken until lightly browned; remove from skillet and set aside.</originaltext><annotation>chefcheck(ing96,"lightly browned")</annotation></line>
+<line><originaltext>Saute chicken until lightly browned; remove from skillet and set aside.</originaltext><annotation>remove(ing96,t13)</annotation></line>
+<line><originaltext>Saute onion, garlic and green bell pepper until soft; stir in tomato sauce, saffron, salt and bouillon and return chicken pieces to skillet. </originaltext><annotation>combine({ing83, ing84, ing85}, ing97, "onion garlic and pepper", "")</annotation></line>
+<line><originaltext>Saute onion, garlic and green bell pepper until soft; stir in tomato sauce, saffron, salt and bouillon and return chicken pieces to skillet. </originaltext><annotation>cook(ing97, t13, ing98, "sauted veggies", "until soft")</annotation></line>
+<line><originaltext>Saute onion, garlic and green bell pepper until soft; stir in tomato sauce, saffron, salt and bouillon and return chicken pieces to skillet. </originaltext><annotation>chefcheck(ing98,"soft")</annotation></line>
+<line><originaltext>Saute onion, garlic and green bell pepper until soft; stir in tomato sauce, saffron, salt and bouillon and return chicken pieces to skillet. </originaltext><annotation>combine({ing86, ing87, ing88, ing89, ing96, ing98}, ing99, "saute mixture", "")</annotation></line>
+<line><originaltext>Cook for 10 minutes, then add rice and reduce heat to low.</originaltext><annotation>cook(ing99, t13, ing100, "hot saute mixture", "cook for 10 minutes")</annotation></line>
+<line><originaltext>Cook for 10 minutes, then add rice and reduce heat to low.</originaltext><annotation>combine({ing100, ing90}, ing101, "saute stuff and rice", "")</annotation></line>
+<line><originaltext>Cook for 10 minutes, then add rice and reduce heat to low.</originaltext><annotation>cook(ing101, t13, ing102, "hot sauted stuff and rice", "reduce heat to low")</annotation></line>
+<line><originaltext>Add beer and simmer for 8 to 10 minutes, stirring occasionally, until rice is tender. </originaltext><annotation>combine({ing102, ing91}, ing103, "hot chicken rice and beer", "simmer for 8 to 10 minutes, stirring occasionally, until rice is tender")</annotation></line>
+<line><originaltext>Add beer and simmer for 8 to 10 minutes, stirring occasionally, until rice is tender. </originaltext><annotation>chefcheck(ing103,"rice is tender")</annotation></line>
+<line><originaltext>Finally, stir in peas with liquid and garnish with roasted red bell pepper.</originaltext><annotation>combine({ing103, ing92}, ing104, "final chicken mix", "stir in peas with liquid")</annotation></line>
+<line><originaltext>Finally, stir in peas with liquid and garnish with roasted red bell pepper.</originaltext><annotation>combine({ing104, ing93}, ing105, "arroz con pollo", "garnish with red bell pepper")</annotation></line>
+</recipe>

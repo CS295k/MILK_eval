@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing17, "flour")</annotation></line>
+<line><originaltext>1/2 cup shortening</originaltext><annotation>create_ing(ing18, "shortening")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing19, "salt")</annotation></line>
+<line><originaltext>1/2 cup cold water</originaltext><annotation>create_ing(ing20, "water")</annotation></line>
+<line><originaltext>2 apples</originaltext><annotation>create_ing(ing21, "apples")</annotation></line>
+<line><originaltext>1/3 cup white sugar</originaltext><annotation>create_ing(ing22, "sugar")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing23, "cinnamon")</annotation></line>
+<line><originaltext>1 cup vegetable oil</originaltext><annotation>create_ing(ing24, "oil")</annotation></line>
+<line><originaltext>Peel and dice apples. </originaltext><annotation>separate(ing21, ing25, "apple skins", ing26, "apple chunks", "peel and dice")</annotation></line>
+<line><originaltext>Add sugar and cinnamon. </originaltext><annotation>combine({ing22, ing23, ing26}, ing27, "apple mixture", "combine")</annotation></line>
+<line><originaltext>Cook in a saucepan on low heat. </originaltext><annotation>create_tool(t1, "saucepan")</annotation></line>
+<line><originaltext>Cook in a saucepan on low heat. </originaltext><annotation>cook(ing27, t1, ing28, "soupy apples", "cook until soft at low heat")</annotation></line>
+<line><originaltext>Cook until soft, then mash with fork to form a thick applesauce. </originaltext><annotation>create_tool(t2, "fork")</annotation></line>
+<line><originaltext>Cook until soft, then mash with fork to form a thick applesauce. </originaltext><annotation>cut(ing28, t2, ing29, "thick apple sauce", "mash")</annotation></line>
+<line><originaltext>Sift flour and salt together. </originaltext><annotation>combine({ing17, ing19}, ing30, "dry", "sift")</annotation></line>
+<line><originaltext>Cut in the shortening. </originaltext><annotation>combine({ing18, ing30}, ing31, "dry with shortening", "cut")</annotation></line>
+<line><originaltext>Add water and mix with fork. </originaltext><annotation>combine({ing20, ing31}, ing32, "wet shortning", "add")</annotation></line>
+<line><originaltext>Add water and mix with fork. </originaltext><annotation>mix(ing32, t2, ing33, "mixed", "mix")</annotation></line>
+<line><originaltext>Roll out to about 1/8 inch thick on a floured board. </originaltext><annotation>create_tool(t3, "floured board")</annotation></line>
+<line><originaltext>Roll out to about 1/8 inch thick on a floured board. </originaltext><annotation>put(ing33, t3)</annotation></line>
+<line><originaltext>Roll out to about 1/8 inch thick on a floured board. </originaltext><annotation>do(ing33, t3, ing34, "dough", "roll to 1/8 in thick")</annotation></line>
+<line><originaltext>Cut with a large cookie cutter (4 inches in diameter). </originaltext><annotation>create_tool(t4, "large cookie cutter (4 inches in diameter). ")</annotation></line>
+<line><originaltext>Cut with a large cookie cutter (4 inches in diameter). </originaltext><annotation>cut(ing34, t4, ing35, "dough circles", "cut")</annotation></line>
+<line><originaltext>In each round, place 1 heaping tablespoon fruit. </originaltext><annotation>combine({ing29, ing35}, ing36, "sauced circles", "place 1 heaping table spoon of sauce in each cirlce")</annotation></line>
+<line><originaltext>Moisten edges with cold water, fold and press edge with a fork. </originaltext><annotation>create_tool(t5, "cold water")</annotation></line>
+<line><originaltext>Moisten edges with cold water, fold and press edge with a fork. </originaltext><annotation>cook(ing36, t5, ing37, "moist sauced circles", "moisten edges")</annotation></line>
+<line><originaltext>Moisten edges with cold water, fold and press edge with a fork. </originaltext><annotation>cook(ing37, t2, ing38, "closed circles", "cold and press")</annotation></line>
+<line><originaltext>Heat oil in a large skillet on medium-high heat. </originaltext><annotation>create_tool(t6, "large skillet")</annotation></line>
+<line><originaltext>Heat oil in a large skillet on medium-high heat. </originaltext><annotation>set(t6,"oiled, medium high heat")</annotation></line>
+<line><originaltext>Fry pies, a few at a time, 2 to 3 minutes on each side; cook until golden brown. </originaltext><annotation>cook(ing38, t6, ing39, "fried pies", "a few at a time, 2-3 mins per side, until golden brown")</annotation></line>
+<line><originaltext>Drain on paper towels. </originaltext><annotation>create_tool(t7, "paper towels")</annotation></line>
+<line><originaltext>Drain on paper towels. </originaltext><annotation>cook(ing39, t7, ing40, "ready to serve pies", "drain")</annotation></line>
+<line><originaltext>Sprinkle with confectioners sugar. </originaltext><annotation>serve(ing40,"with confectioners sugar")</annotation></line>
+</recipe>

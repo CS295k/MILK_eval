@@ -1,0 +1,15 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (VP (VBN chopped) (NP (VBN peeled) (NN mango)))))</parsed-text><annotation>create_ing(ing0, "1 cup chopped peeled mango")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/4) (NN cup)) (JJ chopped) (JJ red) (NN onion)))</parsed-text><annotation>create_ing(ing1, "1/4 cup chopped red onion")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (JJ minced) (JJ fresh) (NN cilantro))))</parsed-text><annotation>create_ing(ing2, "1/4 cup minced fresh cilantro")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (NNP lime) (NN juice))))</parsed-text><annotation>create_ing(ing3, "1/4 cup lime juice")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS tablespoons)) (JJ minced) (JJ fresh) (NN mint)))</parsed-text><annotation>create_ing(ing4, "2 tablespoons minced fresh mint")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (JJ minced) (JJ fresh) (NN ginger) (NN root)))</parsed-text><annotation>create_ing(ing5, "1 tablespoon minced fresh ginger root")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN olive) (NN oil)))</parsed-text><annotation>create_ing(ing6, "1/2 teaspoon olive oil")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing7, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT all) (NNS ingredients))) (. .)))</parsed-text><annotation>create_tool(t0, "bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT all) (NNS ingredients))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing8, "all stuff", "combine all")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN bowl))) (, ,) (VP (VBP combine) (NP (DT all) (NNS ingredients))) (. .)))</parsed-text><annotation>put(ing8, t0)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Let) (S (VP (VB stand) (PP (IN for) (NP (NP (CD 30) (NNS minutes)) (PP (IN before) (NP (VBG serving)))))))) (. .)))</parsed-text><annotation>leave(ing8,"30 minutes")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Let) (S (VP (VB stand) (PP (IN for) (NP (NP (CD 30) (NNS minutes)) (PP (IN before) (NP (VBG serving)))))))) (. .)))</parsed-text><annotation>serve(ing8,"serve")</annotation></line>
+</recipe>

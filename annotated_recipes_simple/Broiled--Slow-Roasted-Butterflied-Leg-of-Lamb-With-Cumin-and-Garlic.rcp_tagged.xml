@@ -1,0 +1,33 @@
+<recipe version="1.1"><line><originaltext>1/4 cup olive oil</originaltext><annotation>create_ing(ing0, "1/4 cup olive oil")</annotation></line>
+<line><originaltext>8 cloves garlic, minced</originaltext><annotation>create_ing(ing1, "8 cloves garlic, minced")</annotation></line>
+<line><originaltext>2 1/2 teaspoons salt</originaltext><annotation>create_ing(ing2, "2 1/2 teaspoons salt")</annotation></line>
+<line><originaltext>1 teaspoon pepper</originaltext><annotation>create_ing(ing3, "1 teaspoon pepper")</annotation></line>
+<line><originaltext>2 tablespoons ground cumin</originaltext><annotation>create_ing(ing4, "2 tablespoons ground cumin")</annotation></line>
+<line><originaltext>1 tablespoon dried oregano</originaltext><annotation>create_ing(ing5, "1 tablespoon dried oregano")</annotation></line>
+<line><originaltext>1 (8 pound) leg of lamb, boned and butterflied to a more or less even thickness, 4 3/4 to 5 1/2 pounds trimmed weight, fell and most fat removed</originaltext><annotation>create_ing(ing6, "1 (8 pound) leg of lamb, boned and butterflied to a more or less even thickness, 4 3/4 to 5 1/2 pounds trimmed weight, fell and most fat removed")</annotation></line>
+<line><originaltext>1 lemon, juiced</originaltext><annotation>create_ing(ing7, "1 lemon, juiced")</annotation></line>
+<line><originaltext>Minced fresh parsley, cilantro or mint  (optional)</originaltext><annotation>create_ing(ing8, "Minced fresh parsley, cilantro or mint  (optional)")</annotation></line>
+<line><originaltext>Mix oil, garlic, salt, pepper, cumin and oregano; spread paste on both sides of the lamb and let stand for an hour until meat comes to room temperature.</originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing9, "paste of spices", "")</annotation></line>
+<line><originaltext>Mix oil, garlic, salt, pepper, cumin and oregano; spread paste on both sides of the lamb and let stand for an hour until meat comes to room temperature.</originaltext><annotation>combine({ing6, ing9}, ing10, "lamb with paste", "spread on both sides")</annotation></line>
+<line><originaltext>Mix oil, garlic, salt, pepper, cumin and oregano; spread paste on both sides of the lamb and let stand for an hour until meat comes to room temperature.</originaltext><annotation>leave(ing10,"leave out until lamb is room temperature")</annotation></line>
+<line><originaltext>Adjust oven rack to upper or upper-middle position (depending on lamb's thickness) and preheat broiler on high for at least 10 minutes.</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Adjust oven rack to upper or upper-middle position (depending on lamb's thickness) and preheat broiler on high for at least 10 minutes.</originaltext><annotation>set(t0,"rack to upper position, preheat broiler on high for 10 minutes")</annotation></line>
+<line><originaltext>Place lamb, cut side up, on a large wire rack set over a foil-lined roasting pan. </originaltext><annotation>create_tool(t1, "rack with foil lined pan")</annotation></line>
+<line><originaltext>Place lamb, cut side up, on a large wire rack set over a foil-lined roasting pan. </originaltext><annotation>put(ing10, t1)</annotation></line>
+<line><originaltext>Broil, moving pan so entire surface browns evenly, about 8 minutes. </originaltext><annotation>cook(ing10, t1, ing11, "broiled lamb", "turning so it cooks easily, about 8 minutes")</annotation></line>
+<line><originaltext>Turn lamb over; continue to broil until well browned on the other side, about 8 minutes longer. </originaltext><annotation>do(ing11, , ing16, "turned lamb", "turn over")</annotation></line>
+<line><originaltext>Turn lamb over; continue to broil until well browned on the other side, about 8 minutes longer. </originaltext><annotation>cook(ing16, t0, ing12, "browned lamb", "until well browned, about 8 minutes")</annotation></line>
+<line><originaltext>Turn off broiler, remove lamb from oven and let rest for 10 minutes.</originaltext><annotation>remove(ing12,t0)</annotation></line>
+<line><originaltext>Turn off broiler, remove lamb from oven and let rest for 10 minutes.</originaltext><annotation>leave(ing12,"for about 10 minutes")</annotation></line>
+<line><originaltext>Heat oven to 325 degrees. </originaltext><annotation>set(t0,"325 degrees F")</annotation></line>
+<line><originaltext>Stick a meat thermometer into the thickest portion of the lamb; return it to the oven. </originaltext><annotation>create_tool(t2, "meat thermometer")</annotation></line>
+<line><originaltext>Stick a meat thermometer into the thickest portion of the lamb; return it to the oven. </originaltext><annotation>chefcheck(ing12,"put thermometer in lamb")</annotation></line>
+<line><originaltext>Stick a meat thermometer into the thickest portion of the lamb; return it to the oven. </originaltext><annotation>put(ing12, t0)</annotation></line>
+<line><originaltext>Roast for a total of 50 minutes to 1 hour, until thermometer registers a rosy-pink 140 degrees. </originaltext><annotation>cook(ing12, t0, ing13, "roasted lamb", "roast for 50 minutes to 1 hour, until thermometer reads 140 degrees F")</annotation></line>
+<line><originaltext>Check lamb several times after 30 minutes. </originaltext><annotation>chefcheck(ing13,"check lamb multiple times after the 30 minute mark")</annotation></line>
+<line><originaltext>If lamb gets done sooner, simply turn down oven to 170 degrees until ready to serve.</originaltext><annotation>chefcheck(ing13,"if done sooner, set over to 170 degrees until ready to serve")</annotation></line>
+<line><originaltext>As soon as lamb comes out of the oven, squeeze on lemon juice and sprinkle with fresh herbs. </originaltext><annotation>remove(ing13,t0)</annotation></line>
+<line><originaltext>As soon as lamb comes out of the oven, squeeze on lemon juice and sprinkle with fresh herbs. </originaltext><annotation>combine({ing13, ing7, ing8}, ing14, "seasoned roasted lamb", "squeeze lemon juice, sprinkle herbs")</annotation></line>
+<line><originaltext>Carve, slicing across the grain when possible. </originaltext><annotation>cut(ing14, , ing15, "carved lamb", "carve across grain when possible")</annotation></line>
+<line><originaltext>Arrange on a platter, drizzle with accumulated juices, and serve.</originaltext><annotation>serve(ing15,"on a platter with accumulated juices")</annotation></line>
+</recipe>

@@ -1,0 +1,17 @@
+<recipe version="1.1"><line><originaltext>3/4 teaspoon active dry yeast</originaltext><annotation>create_ing(ing0, "3/4 teaspoon active dry yeast")</annotation></line>
+<line><originaltext>1/2 cup warm water</originaltext><annotation>create_ing(ing1, "1/2 cup warm water")</annotation></line>
+<line><originaltext>3 1/2 cups unbleached bread flour</originaltext><annotation>create_ing(ing2, "3 1/2 cups unbleached bread flour")</annotation></line>
+<line><originaltext>1 1/4 cups cold water</originaltext><annotation>create_ing(ing3, "1 1/4 cups cold water")</annotation></line>
+<line><originaltext>Place the warm water in a small bowl, and sprinkle the yeast over the top. </originaltext><annotation>create_tool(t0, "Small Bowl")</annotation></line>
+<line><originaltext>Place the warm water in a small bowl, and sprinkle the yeast over the top. </originaltext><annotation>combine({ing0, ing1}, ing4, "yeast and water", "sprinkle")</annotation></line>
+<line><originaltext>Place the warm water in a small bowl, and sprinkle the yeast over the top. </originaltext><annotation>put(ing4, t0)</annotation></line>
+<line><originaltext>Let stand until yeast has dissolved and is foamy, about 15 minutes.</originaltext><annotation>leave(ing4,"let stand until yeast is foamy")</annotation></line>
+<line><originaltext>Measure flour into a large bowl. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>Measure flour into a large bowl. </originaltext><annotation>put(ing2, t1)</annotation></line>
+<line><originaltext>Make a well in the center, and pour in the yeast mixture and cold water. </originaltext><annotation>do(ing2, t1, ing7, "flour with a well", "make well in center")</annotation></line>
+<line><originaltext>Make a well in the center, and pour in the yeast mixture and cold water. </originaltext><annotation>combine({ing7, ing3, ing4}, ing5, "water yeast flour", "Pour water and yeast into well")</annotation></line>
+<line><originaltext>Use a sturdy spoon to mix it together until sticky and difficult to stir, but nevertheless thoroughly combined. </originaltext><annotation>create_tool(t2, "sturdy spoon")</annotation></line>
+<line><originaltext>Use a sturdy spoon to mix it together until sticky and difficult to stir, but nevertheless thoroughly combined. </originaltext><annotation>mix(ing5, t1, ing6, "dough", "mix until hard to stir")</annotation></line>
+<line><originaltext>Cover and allow to ferment for 24 hours in the refrigerator before using.</originaltext><annotation>leave(ing6, "cover and ferment for 24 hours in the refrigerator ")</annotation></line>
+<line><originaltext>Store in the refrigerator for up to 2 weeks. </originaltext><annotation>leave(ing6, "store for 2 weeks")</annotation></line>
+</recipe>

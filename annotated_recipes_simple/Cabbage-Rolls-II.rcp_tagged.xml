@@ -1,0 +1,31 @@
+<recipe version="1.1"><line><originaltext>12 leaves cabbage</originaltext><annotation>create_ing(ing0, "12 leaves cabbage")</annotation></line>
+<line><originaltext>1 cup cooked white rice</originaltext><annotation>create_ing(ing1, "1 cup cooked white rice")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing2, "1 egg, beaten")</annotation></line>
+<line><originaltext>1/4 cup milk</originaltext><annotation>create_ing(ing3, "1/4 cup milk")</annotation></line>
+<line><originaltext>1/4 cup minced onion</originaltext><annotation>create_ing(ing4, "1/4 cup minced onion")</annotation></line>
+<line><originaltext>1 pound extra-lean ground beef</originaltext><annotation>create_ing(ing5, "1 pound extra-lean ground beef")</annotation></line>
+<line><originaltext>1 1/4 teaspoons salt</originaltext><annotation>create_ing(ing6, "1 1/4 teaspoons salt")</annotation></line>
+<line><originaltext>1 1/4 teaspoons ground black pepper</originaltext><annotation>create_ing(ing7, "1 1/4 teaspoons ground black pepper")</annotation></line>
+<line><originaltext>1 (8 ounce) can tomato sauce</originaltext><annotation>create_ing(ing8, "1 (8 ounce) can tomato sauce")</annotation></line>
+<line><originaltext>1 tablespoon brown sugar</originaltext><annotation>create_ing(ing9, "1 tablespoon brown sugar")</annotation></line>
+<line><originaltext>1 tablespoon lemon juice</originaltext><annotation>create_ing(ing10, "1 tablespoon lemon juice")</annotation></line>
+<line><originaltext>1 teaspoon Worcestershire sauce</originaltext><annotation>create_ing(ing11, "1 teaspoon Worcestershire sauce")</annotation></line>
+<line><originaltext>Bring a large pot of water to a boil. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Bring a large pot of water to a boil. </originaltext><annotation>create_ing(ing12, "water")</annotation></line>
+<line><originaltext>Bring a large pot of water to a boil. </originaltext><annotation>cook(ing12, t0, ing13, "boiling water", "bring to boil")</annotation></line>
+<line><originaltext>Boil cabbage leaves 2 minutes; drain.</originaltext><annotation>combine({ing0, ing13}, ing14, "cabbage in water", "")</annotation></line>
+<line><originaltext>Boil cabbage leaves 2 minutes; drain.</originaltext><annotation>cook(ing14, t0, ing15, "boiled cabbage", "boil 2 minutes")</annotation></line>
+<line><originaltext>Boil cabbage leaves 2 minutes; drain.</originaltext><annotation>remove(ing15,t0)</annotation></line>
+<line><originaltext>Boil cabbage leaves 2 minutes; drain.</originaltext><annotation>leave(ing15,"drain")</annotation></line>
+<line><originaltext>In large bowl, combine 1 cup cooked rice, egg, milk, onion, ground beef, salt, and pepper. </originaltext><annotation>create_tool(t1, "large bowl")</annotation></line>
+<line><originaltext>In large bowl, combine 1 cup cooked rice, egg, milk, onion, ground beef, salt, and pepper. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing16, "meat stuff", "")</annotation></line>
+<line><originaltext>In large bowl, combine 1 cup cooked rice, egg, milk, onion, ground beef, salt, and pepper. </originaltext><annotation>mix(ing16, t1, ing17, "meat stuff in bowl", "")</annotation></line>
+<line><originaltext>Place about 1/4 cup of meat mixture in center of each cabbage leaf, and roll up, tucking in ends. </originaltext><annotation>combine({ing15, ing17}, ing18, "meat in cabbage", "place about 1/4 cup of meat mixture in center of each cabbage leaf, and roll up, tucking in ends")</annotation></line>
+<line><originaltext>Place rolls in slow cooker.</originaltext><annotation>create_tool(t2, "slow cooker")</annotation></line>
+<line><originaltext>Place rolls in slow cooker.</originaltext><annotation>put(ing18, t2)</annotation></line>
+<line><originaltext>In a small bowl, mix together tomato sauce, brown sugar, lemon juice, and Worcestershire sauce. </originaltext><annotation>create_tool(t3, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, mix together tomato sauce, brown sugar, lemon juice, and Worcestershire sauce. </originaltext><annotation>combine({ing10, ing11, ing8, ing9}, ing19, "liquid stuff", "")</annotation></line>
+<line><originaltext>In a small bowl, mix together tomato sauce, brown sugar, lemon juice, and Worcestershire sauce. </originaltext><annotation>mix(ing19, t3, ing20, "sauce mix", "")</annotation></line>
+<line><originaltext>Pour over cabbage rolls.</originaltext><annotation>combine({ing18, ing20}, ing21, "sauced cabbage", "pour sauce over cabbage rolls")</annotation></line>
+<line><originaltext>Cover, and cook on Low 8 to 9 hours.</originaltext><annotation>cook(ing21, t2, ing22, "cooked cabbage", "cover, and cook on low 8 to 9 hours")</annotation></line>
+</recipe>

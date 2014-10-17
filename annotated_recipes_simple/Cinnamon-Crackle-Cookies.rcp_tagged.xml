@@ -1,0 +1,35 @@
+<recipe version="1.1"><line><originaltext>1/2 cup butter, softened</originaltext><annotation>create_ing(ing0, "1/2 cup butter, softened")</annotation></line>
+<line><originaltext>1/2 cup shortening</originaltext><annotation>create_ing(ing1, "1/2 cup shortening")</annotation></line>
+<line><originaltext>1 cup sugar</originaltext><annotation>create_ing(ing2, "1 cup sugar")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing3, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing4, "1 egg")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing5, "1 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1/2 teaspoon almond extract</originaltext><annotation>create_ing(ing6, "1/2 teaspoon almond extract")</annotation></line>
+<line><originaltext>2 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing7, "2 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1 tablespoon ground cinnamon</originaltext><annotation>create_ing(ing8, "1 tablespoon ground cinnamon")</annotation></line>
+<line><originaltext>2 teaspoons baking soda</originaltext><annotation>create_ing(ing9, "2 teaspoons baking soda")</annotation></line>
+<line><originaltext>2 teaspoons cream of tartar</originaltext><annotation>create_ing(ing10, "2 teaspoons cream of tartar")</annotation></line>
+<line><originaltext>2 teaspoons ground nutmeg</originaltext><annotation>create_ing(ing11, "2 teaspoons ground nutmeg")</annotation></line>
+<line><originaltext>2 teaspoons grated orange peel</originaltext><annotation>create_ing(ing12, "2 teaspoons grated orange peel")</annotation></line>
+<line><originaltext>1 teaspoon grated lemon peel</originaltext><annotation>create_ing(ing13, "1 teaspoon grated lemon peel")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing14, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>Additional sugar</originaltext><annotation>create_ing(ing15, "Additional sugar")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter, shortening and sugars. </originaltext><annotation>create_tool(t0, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter, shortening and sugars. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing16, "creamed things", "")</annotation></line>
+<line><originaltext>In a mixing bowl, cream butter, shortening and sugars. </originaltext><annotation>mix(ing16, t0, ing17, "creamed things", "cream")</annotation></line>
+<line><originaltext>Add egg and extracts; mix well. </originaltext><annotation>combine({ing17, ing4, ing5, ing6}, ing18, "things to be mixed", "")</annotation></line>
+<line><originaltext>Add egg and extracts; mix well. </originaltext><annotation>mix(ing18, t0, ing19, "well mixed things", "mix well")</annotation></line>
+<line><originaltext>Combine the next eight ingredients; gradually add to the creamed mixture. </originaltext><annotation>combine({ing10, ing11, ing12, ing13, ing14, ing7, ing8, ing9}, ing20, "eight things", "")</annotation></line>
+<line><originaltext>Combine the next eight ingredients; gradually add to the creamed mixture. </originaltext><annotation>combine({ing19, ing20}, ing21, "dough", "gradually add the 8 ingredients to creamed mixture")</annotation></line>
+<line><originaltext>Shape into 1-in. </originaltext><annotation>do(ing21, , ing22, "dough balls", "shape into 1-in. balls")</annotation></line>
+<line><originaltext>balls; roll in sugar. </originaltext><annotation>combine({ing15, ing22}, ing23, "sugary dough balls", "roll dough balls in sugar")</annotation></line>
+<line><originaltext>apart on ungreased baking sheets. </originaltext><annotation>create_tool(t1, "baking sheets")</annotation></line>
+<line><originaltext>apart on ungreased baking sheets. </originaltext><annotation>set(t1,"ungreased")</annotation></line>
+<line><originaltext>apart on ungreased baking sheets. </originaltext><annotation>put(ing23, t1)</annotation></line>
+<line><originaltext>apart on ungreased baking sheets. </originaltext><annotation>chefcheck(ing23,"2 in. apart on baking sheets")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 10-15 minutes or until lightly browned. </originaltext><annotation>create_tool(t2, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 10-15 minutes or until lightly browned. </originaltext><annotation>set(t2,"350 degrees")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 10-15 minutes or until lightly browned. </originaltext><annotation>cook(ing23, t2, ing24, "cookies", "bake at 350 degrees for 10-15 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 10-15 minutes or until lightly browned. </originaltext><annotation>chefcheck(ing24,"lightly browned")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 10-15 minutes or until lightly browned. </originaltext><annotation>serve(ing24,"")</annotation></line>
+</recipe>

@@ -1,0 +1,35 @@
+<recipe version="1.1"><line><originaltext>7 slices day-old bread, torn</originaltext><annotation>create_ing(ing23, "bread")</annotation></line>
+<line><originaltext>1 cup torn corn bread</originaltext><annotation>create_ing(ing24, "bread")</annotation></line>
+<line><originaltext>2/3 cup hot water</originaltext><annotation>create_ing(ing25, "water")</annotation></line>
+<line><originaltext>1/2 cup thinly sliced celery</originaltext><annotation>create_ing(ing26, "celery")</annotation></line>
+<line><originaltext>1/2 cup chopped onion</originaltext><annotation>create_ing(ing27, "onion")</annotation></line>
+<line><originaltext>1/2 cup sliced fresh mushrooms</originaltext><annotation>create_ing(ing28, "mushrooms")</annotation></line>
+<line><originaltext>1 tablespoon vegetable oil</originaltext><annotation>create_ing(ing29, "oil")</annotation></line>
+<line><originaltext>1 cup firmly packed sliced fresh spinach</originaltext><annotation>create_ing(ing30, "spinach")</annotation></line>
+<line><originaltext>1 cup cooked long-grain rice</originaltext><annotation>create_ing(ing31, "rice")</annotation></line>
+<line><originaltext>1/2 cup cooked wild rice</originaltext><annotation>create_ing(ing32, "rice")</annotation></line>
+<line><originaltext>1/2 cup orange juice</originaltext><annotation>create_ing(ing33, "juice")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing34, "egg")</annotation></line>
+<line><originaltext>2 teaspoons rubbed sage</originaltext><annotation>create_ing(ing35, "sage")</annotation></line>
+<line><originaltext>1/2 teaspoon dried thyme</originaltext><annotation>create_ing(ing36, "thyme")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing37, "salt")</annotation></line>
+<line><originaltext>1/4 teaspoon sugar</originaltext><annotation>create_ing(ing38, "sugar")</annotation></line>
+<line><originaltext>1/4 teaspoon pepper</originaltext><annotation>create_ing(ing39, "pepper")</annotation></line>
+<line><originaltext>In a large bowl, lightly toss bread and water. </originaltext><annotation>create_tool(t4, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, lightly toss bread and water. </originaltext><annotation>combine({ing23, ing24, ing25}, ing40, "bread mixture", "")</annotation></line>
+<line><originaltext>In a large bowl, lightly toss bread and water. </originaltext><annotation>mix(ing40, t4, ing41, "bread mixture", "lightly toss")</annotation></line>
+<line><originaltext>In a skillet, saute celery, onion and mushrooms in oil until tender, stirring constantly. </originaltext><annotation>create_tool(t5, "skillet")</annotation></line>
+<line><originaltext>In a skillet, saute celery, onion and mushrooms in oil until tender, stirring constantly. </originaltext><annotation>combine({ing26, ing27, ing28, ing29}, ing42, "veggies", "")</annotation></line>
+<line><originaltext>In a skillet, saute celery, onion and mushrooms in oil until tender, stirring constantly. </originaltext><annotation>cook(ing42, t5, ing43, "sauteed veggies", "saute, stirring constantly")</annotation></line>
+<line><originaltext>In a skillet, saute celery, onion and mushrooms in oil until tender, stirring constantly. </originaltext><annotation>chefcheck(ing43,"tender")</annotation></line>
+<line><originaltext>Stir into bread mixture. </originaltext><annotation>combine({ing41, ing43}, ing44, "bread mixture and veggies", "")</annotation></line>
+<line><originaltext>Stir into bread mixture. </originaltext><annotation>mix(ing44, t4, ing45, "veggies and bread", "stir")</annotation></line>
+<line><originaltext>Add remaining ingredients; mix well. </originaltext><annotation>combine({ing30, ing31, ing32, ing33, ing34, ing35, ing36, ing37, ing38, ing39, ing45}, ing46, "all ingredients", "")</annotation></line>
+<line><originaltext>Add remaining ingredients; mix well. </originaltext><annotation>mix(ing46, t4, ing47, "mixture", "mix well")</annotation></line>
+<line><originaltext>Place in a greased 2-qt. </originaltext><annotation>create_tool(t6, "greased 2-qt pan")</annotation></line>
+<line><originaltext>Place in a greased 2-qt. </originaltext><annotation>put(ing47, t6)</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 30 minutes. </originaltext><annotation>create_tool(t7, "oven")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 30 minutes. </originaltext><annotation>set(t7,"350 degrees F")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 30 minutes. </originaltext><annotation>cook(ing47, t7, ing48, "cooked mixture", "covered for 30 minutes")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees F for 30 minutes. </originaltext><annotation>serve(ing48,"")</annotation></line>
+</recipe>

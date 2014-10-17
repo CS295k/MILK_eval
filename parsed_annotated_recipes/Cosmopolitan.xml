@@ -1,0 +1,13 @@
+<recipe>
+<line><parsed-text>(S1 (NP (CD 1) (PRN (-LRB- -LRB-) (NP (CD 1.5) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NN jigger) (NN vodka)))</parsed-text><annotation>create_ing(ing0, "1 (1.5 fluid ounce) jigger vodka")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (JJ fluid) (NN ounce) (NN cointreau)))</parsed-text><annotation>create_ing(ing1, "1/2 fluid ounce cointreau")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (JJ fresh) (NNP lime) (NN juice))))</parsed-text><annotation>create_ing(ing2, "1 teaspoon fresh lime juice")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD 1/2)) (JJ fluid) (NNS ounces) (NN cranberry) (NN juice)))</parsed-text><annotation>create_ing(ing3, "1 1/2 fluid ounces cranberry juice")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN twist)) (NP (NNP lime) (NN zest)) (, ,) (ADVP (JJ garnish))))</parsed-text><annotation>create_ing(ing4, "1 twist lime zest, garnish")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))</parsed-text><annotation>create_tool(t0, "shaker")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (NP (PDT all) (DT the) (NNS ingredients)) (PP (IN into) (NP (NP (DT a) (NNP shaker)) (PP (IN with) (NP (NP (NNS lots)) (PP (IN of) (NP (NN ice)))))))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3}, ing5, "cocktail", "")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))</parsed-text><annotation>mix(ing5, t0, ing6, "shaken cosmo", "shake vigorously with ice")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))</parsed-text><annotation>create_tool(t1, "cocktail glass")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Shake) (ADVP (RB vigorously)) (PP (IN for) (NP (JJ several) (NNS seconds)))) (CC and) (VP (VB strain) (PP (IN into) (NP (DT a) (NN cocktail) (NN glass))))) (. .)))</parsed-text><annotation>put(ing6, t1)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Garnish) (PP (IN with) (NP (DT a) (NNP lime) (NN twist)))) (. .)))</parsed-text><annotation>put(ing4, t1)</annotation></line>
+</recipe>

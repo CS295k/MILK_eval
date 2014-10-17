@@ -1,0 +1,14 @@
+<recipe version="1.1"><line><originaltext>4 large carrots, cut into 1 inch pieces</originaltext><annotation>create_ing(ing0, "4 large carrots, cut into 1 inch pieces")</annotation></line>
+<line><originaltext>1/4 large onion, chopped</originaltext><annotation>create_ing(ing1, "1/4 large onion, chopped")</annotation></line>
+<line><originaltext>1 quart vegetable broth</originaltext><annotation>create_ing(ing2, "1 quart vegetable broth")</annotation></line>
+<line><originaltext>1/2 cup chopped fresh cilantro</originaltext><annotation>create_ing(ing3, "1/2 cup chopped fresh cilantro")</annotation></line>
+<line><originaltext>Place the carrots, onion, vegetable broth and cilantro into a large saucepan. </originaltext><annotation>create_tool(t0, "large saucepan. ")</annotation></line>
+<line><originaltext>Place the carrots, onion, vegetable broth and cilantro into a large saucepan. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing4, "veggies", "")</annotation></line>
+<line><originaltext>Place the carrots, onion, vegetable broth and cilantro into a large saucepan. </originaltext><annotation>put(ing4, t0)</annotation></line>
+<line><originaltext>Bring to a boil, and cook until the carrots are tender, about 10 minutes. </originaltext><annotation>cook(ing4, t0, ing5, "boiled veggies", "bring to a boil and cook for about 10 minutes")</annotation></line>
+<line><originaltext>Bring to a boil, and cook until the carrots are tender, about 10 minutes. </originaltext><annotation>chefcheck(ing5,"carrots are tender")</annotation></line>
+<line><originaltext>Remove from heat and allow to cool slightly.</originaltext><annotation>leave(ing5,"allow to cool slightly")</annotation></line>
+<line><originaltext>Puree the soup until smooth, using a blender or food processor. </originaltext><annotation>create_tool(t1, "blender or food processor")</annotation></line>
+<line><originaltext>Puree the soup until smooth, using a blender or food processor. </originaltext><annotation>cut(ing5, t1, ing6, "pureed veggies", "puree until smooth")</annotation></line>
+<line><originaltext>Reheat before serving if necessary.</originaltext><annotation>serve(ing6,"reheat if necessary")</annotation></line>
+</recipe>

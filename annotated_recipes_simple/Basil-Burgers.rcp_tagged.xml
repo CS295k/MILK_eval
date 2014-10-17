@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 1/4 pounds ground beef</originaltext><annotation>create_ing(ing30, "1 1/4 pounds ground beef")</annotation></line>
+<line><originaltext>3 tablespoons Worcestershire sauce</originaltext><annotation>create_ing(ing31, "3 tablespoons Worcestershire sauce")</annotation></line>
+<line><originaltext>1 1/2 tablespoons dried basil, or to taste</originaltext><annotation>create_ing(ing32, "1 1/2 tablespoons dried basil, or to taste")</annotation></line>
+<line><originaltext>1/4 teaspoon garlic salt</originaltext><annotation>create_ing(ing33, "1/4 teaspoon garlic salt")</annotation></line>
+<line><originaltext>1/4 teaspoon ground black pepper</originaltext><annotation>create_ing(ing34, "1/4 teaspoon ground black pepper")</annotation></line>
+<line><originaltext>4 hamburger buns, split</originaltext><annotation>create_ing(ing35, "4 hamburger buns, split")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for high heat.</originaltext><annotation>create_tool(t4, "outdoor grill")</annotation></line>
+<line><originaltext>Preheat an outdoor grill for high heat.</originaltext><annotation>set(t4,"preheat for high heat")</annotation></line>
+<line><originaltext>In a bowl, mix the ground beef, Worcestershire sauce, basil, garlic salt, and pepper. </originaltext><annotation>create_tool(t5, "bowl")</annotation></line>
+<line><originaltext>In a bowl, mix the ground beef, Worcestershire sauce, basil, garlic salt, and pepper. </originaltext><annotation>combine({ing30, ing31, ing32, ing33, ing34}, ing36, "burger stuff", "")</annotation></line>
+<line><originaltext>In a bowl, mix the ground beef, Worcestershire sauce, basil, garlic salt, and pepper. </originaltext><annotation>mix(ing36, t5, ing37, "mixed burger stuff", "mix")</annotation></line>
+<line><originaltext>Form the mixture into 4 burger patties.</originaltext><annotation>cut(ing37, , ing38, "burger patties", "form into 4 burger patties")</annotation></line>
+<line><originaltext>Lightly oil the grill grate, and cook burgers about 6 minutes, turning once, to an internal temperature of 160 degrees F (70 degrees C), or to desired doneness. </originaltext><annotation>set(t4,"lightly oil the grill grate")</annotation></line>
+<line><originaltext>Lightly oil the grill grate, and cook burgers about 6 minutes, turning once, to an internal temperature of 160 degrees F (70 degrees C), or to desired doneness. </originaltext><annotation>cook(ing38, t4, ing39, "cooked burgers", "cook about 6 minutes, turning once, to an internal temperature of 160 degrees F (70 degrees C), or to desired doneness")</annotation></line>
+<line><originaltext>Lightly oil the grill grate, and cook burgers about 6 minutes, turning once, to an internal temperature of 160 degrees F (70 degrees C), or to desired doneness. </originaltext><annotation>chefcheck(ing39,"desired doneness")</annotation></line>
+<line><originaltext>Serve on hamburger buns.</originaltext><annotation>combine({ing35, ing39}, ing40, "burgers", "")</annotation></line>
+<line><originaltext>Serve on hamburger buns.</originaltext><annotation>serve(ing40,"burgers on hamburger buns")</annotation></line>
+</recipe>

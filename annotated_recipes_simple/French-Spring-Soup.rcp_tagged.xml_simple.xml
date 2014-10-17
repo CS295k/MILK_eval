@@ -1,0 +1,29 @@
+<recipe version="1.1"><line><originaltext>1/4 cup butter</originaltext><annotation>create_ing(ing25, "butter")</annotation></line>
+<line><originaltext>1 pound leeks, chopped</originaltext><annotation>create_ing(ing26, "leeks")</annotation></line>
+<line><originaltext>1 onion, chopped</originaltext><annotation>create_ing(ing27, "onion")</annotation></line>
+<line><originaltext>2 quarts water</originaltext><annotation>create_ing(ing28, "water")</annotation></line>
+<line><originaltext>3 large potatoes, chopped</originaltext><annotation>create_ing(ing29, "potatoes")</annotation></line>
+<line><originaltext>2 large carrots, chopped</originaltext><annotation>create_ing(ing30, "carrots")</annotation></line>
+<line><originaltext>1 bunch fresh asparagus, trimmed and cut into 1 inch pieces</originaltext><annotation>create_ing(ing31, "pieces")</annotation></line>
+<line><originaltext>1/3 cup uncooked long-grain white rice</originaltext><annotation>create_ing(ing32, "rice")</annotation></line>
+<line><originaltext>4 teaspoons salt</originaltext><annotation>create_ing(ing33, "salt")</annotation></line>
+<line><originaltext>1/2 pound fresh spinach</originaltext><annotation>create_ing(ing34, "spinach")</annotation></line>
+<line><originaltext>1 cup heavy cream</originaltext><annotation>create_ing(ing35, "cream")</annotation></line>
+<line><originaltext>Melt the butter in a large pot over medium heat. </originaltext><annotation>create_tool(t6, "large pot")</annotation></line>
+<line><originaltext>Melt the butter in a large pot over medium heat. </originaltext><annotation>cook(ing25, t6, ing36, "melted butter", "over medium heat")</annotation></line>
+<line><originaltext>Stir in the leeks and onion, and cook until tender. </originaltext><annotation>combine({ing26, ing27, ing36}, ing37, "butter mixture", "")</annotation></line>
+<line><originaltext>Stir in the leeks and onion, and cook until tender. </originaltext><annotation>cook(ing37, t6, ing38, "cooked butter mixture", "until tender")</annotation></line>
+<line><originaltext>Stir in the leeks and onion, and cook until tender. </originaltext><annotation>chefcheck(ing38,"tender")</annotation></line>
+<line><originaltext>Pour water into the pot. </originaltext><annotation>combine({ing28, ing38}, ing39, "water and butter", "")</annotation></line>
+<line><originaltext>Mix in potatoes, carrots, asparagus, and rice. </originaltext><annotation>combine({ing29, ing30, ing31, ing32, ing39}, ing40, "veggies", "")</annotation></line>
+<line><originaltext>Mix in potatoes, carrots, asparagus, and rice. </originaltext><annotation>mix(ing40, t6, ing41, "mixed veggies", "mix")</annotation></line>
+<line><originaltext>Season with salt. </originaltext><annotation>combine({ing33, ing41}, ing42, "salted veggies", "season")</annotation></line>
+<line><originaltext>Bring to a boil, reduce heat, and simmer 30 minutes, until vegetables and rice are tender. </originaltext><annotation>cook(ing42, t6, ing43, "boiled veggies", "bring to boil")</annotation></line>
+<line><originaltext>Bring to a boil, reduce heat, and simmer 30 minutes, until vegetables and rice are tender. </originaltext><annotation>set(t6,"reduce heat")</annotation></line>
+<line><originaltext>Bring to a boil, reduce heat, and simmer 30 minutes, until vegetables and rice are tender. </originaltext><annotation>cook(ing43, t6, ing44, "cooked veggies", "simmer 30 minutes")</annotation></line>
+<line><originaltext>Bring to a boil, reduce heat, and simmer 30 minutes, until vegetables and rice are tender. </originaltext><annotation>chefcheck(ing44,"vegetables and rice are tender")</annotation></line>
+<line><originaltext>Stir spinach and heavy cream into the soup mixture, and continue cooking about 5 minutes before serving. </originaltext><annotation>combine({ing34, ing35, ing44}, ing45, "soup", "")</annotation></line>
+<line><originaltext>Stir spinach and heavy cream into the soup mixture, and continue cooking about 5 minutes before serving. </originaltext><annotation>mix(ing45, t6, ing46, "soup", "stir")</annotation></line>
+<line><originaltext>Stir spinach and heavy cream into the soup mixture, and continue cooking about 5 minutes before serving. </originaltext><annotation>cook(ing46, t6, ing47, "cooked soup", "5 minutes")</annotation></line>
+<line><originaltext>Stir spinach and heavy cream into the soup mixture, and continue cooking about 5 minutes before serving. </originaltext><annotation>serve(ing47,"")</annotation></line>
+</recipe>

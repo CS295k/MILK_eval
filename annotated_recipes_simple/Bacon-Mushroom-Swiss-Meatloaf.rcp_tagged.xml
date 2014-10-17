@@ -1,0 +1,42 @@
+<recipe version="1.1"><line><originaltext>12 ounces chopped raw bacon</originaltext><annotation>create_ing(ing0, "12 ounces chopped raw bacon")</annotation></line>
+<line><originaltext>1 small white onion, chopped</originaltext><annotation>create_ing(ing1, "1 small white onion, chopped")</annotation></line>
+<line><originaltext>5 button mushrooms, chopped</originaltext><annotation>create_ing(ing2, "5 button mushrooms, chopped")</annotation></line>
+<line><originaltext>1 1/2 pounds extra-lean ground beef</originaltext><annotation>create_ing(ing3, "1 1/2 pounds extra-lean ground beef")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing4, "1 egg")</annotation></line>
+<line><originaltext>1/4 cup evaporated milk</originaltext><annotation>create_ing(ing5, "1/4 cup evaporated milk")</annotation></line>
+<line><originaltext>6 ounces shredded Swiss cheese, divided</originaltext><annotation>create_ing(ing6, "6 ounces shredded Swiss cheese, divided")</annotation></line>
+<line><originaltext>1/2 cup corn flake crumbs</originaltext><annotation>create_ing(ing7, "1/2 cup corn flake crumbs")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t0,"350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Place bacon in a skillet and cook over medium heat until the pieces are browned. </originaltext><annotation>create_tool(t1, "skillet")</annotation></line>
+<line><originaltext>Place bacon in a skillet and cook over medium heat until the pieces are browned. </originaltext><annotation>put(ing0, t1)</annotation></line>
+<line><originaltext>Place bacon in a skillet and cook over medium heat until the pieces are browned. </originaltext><annotation>cook(ing0, t1, ing8, "cooked bacon", "cook over medium heat")</annotation></line>
+<line><originaltext>Place bacon in a skillet and cook over medium heat until the pieces are browned. </originaltext><annotation>chefcheck(ing8,"browned")</annotation></line>
+<line><originaltext>Remove with a slotted spoon to paper towels. </originaltext><annotation>create_tool(t2, "slotted spoon")</annotation></line>
+<line><originaltext>Remove with a slotted spoon to paper towels. </originaltext><annotation>create_tool(t3, "paper towels")</annotation></line>
+<line><originaltext>Remove with a slotted spoon to paper towels. </originaltext><annotation>remove(ing8,t1)</annotation></line>
+<line><originaltext>Remove with a slotted spoon to paper towels. </originaltext><annotation>put(ing8, t2)</annotation></line>
+<line><originaltext>Remove with a slotted spoon to paper towels. </originaltext><annotation>put(ing8, t3)</annotation></line>
+<line><originaltext>Discard all but 1 tablespoon of bacon grease. </originaltext><annotation>separate(ing8, ing9, "cooked bacon", ing10, "1 tablespoon bacon grease", "remove")</annotation></line>
+<line><originaltext>Stir in onions and mushrooms, and cook until soft. </originaltext><annotation>combine({ing1, ing10, ing2}, ing11, "onions and mushrooms", "stir in")</annotation></line>
+<line><originaltext>Stir in onions and mushrooms, and cook until soft. </originaltext><annotation>put(ing11, t1)</annotation></line>
+<line><originaltext>Stir in onions and mushrooms, and cook until soft. </originaltext><annotation>cook(ing11, t1, ing12, "cooked onions and mushroom", "cook")</annotation></line>
+<line><originaltext>Stir in onions and mushrooms, and cook until soft. </originaltext><annotation>chefcheck(ing12,"soft")</annotation></line>
+<line><originaltext>Remove from heat.</originaltext><annotation>remove(ing12,t1)</annotation></line>
+<line><originaltext>In a large bowl, stir together beef, egg, and milk. </originaltext><annotation>create_tool(t4, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, stir together beef, egg, and milk. </originaltext><annotation>combine({ing3, ing4, ing5}, ing13, "beefy stuff", "stir together")</annotation></line>
+<line><originaltext>In a large bowl, stir together beef, egg, and milk. </originaltext><annotation>put(ing13, t4)</annotation></line>
+<line><originaltext>Stir in the onion and mushrooms. </originaltext><annotation>combine({ing12, ing13}, ing14, "beefy stuff", "stir in")</annotation></line>
+<line><originaltext>Mix in about 4 ounces of Swiss cheese, and all but 1 tablespoon of bacon. </originaltext><annotation>separate(ing6, ing15, "4 ounces Swiss cheese", ing16, "2 ounces Swiss cheese", "split")</annotation></line>
+<line><originaltext>Mix in about 4 ounces of Swiss cheese, and all but 1 tablespoon of bacon. </originaltext><annotation>separate(ing9, ing17, "cooked bacon", ing18, "1 tablespoon cooked bacon", "split")</annotation></line>
+<line><originaltext>Mix in about 4 ounces of Swiss cheese, and all but 1 tablespoon of bacon. </originaltext><annotation>combine({ing14, ing15, ing17}, ing19, "beefy stuff", "mix in")</annotation></line>
+<line><originaltext>Stir in cornflake crumbs, and mix until well blended. </originaltext><annotation>combine({ing19, ing7}, ing20, "beefy stuff", "stir in")</annotation></line>
+<line><originaltext>Stir in cornflake crumbs, and mix until well blended. </originaltext><annotation>mix(ing20, t4, ing21, "mixed loaf", "until well blended")</annotation></line>
+<line><originaltext>Shape into a loaf, and place in a meatloaf pan.</originaltext><annotation>create_tool(t5, "meatloaf pan")</annotation></line>
+<line><originaltext>Shape into a loaf, and place in a meatloaf pan.</originaltext><annotation>put(ing21, t5)</annotation></line>
+<line><originaltext>Bake in a preheated oven for 1 hour. </originaltext><annotation>cook(ing21, t0, ing22, "baked loaf", "1 hour")</annotation></line>
+<line><originaltext>Drain fat, and sprinkle with remaining cheese and bacon. </originaltext><annotation>do(ing22, , ing23, "drained loaf", "drain fat")</annotation></line>
+<line><originaltext>Drain fat, and sprinkle with remaining cheese and bacon. </originaltext><annotation>combine({ing16, ing18, ing23}, ing24, "meatloaf", "sprinkle")</annotation></line>
+<line><originaltext>Return to oven, and bake until cheese is melted, about 5 minutes.</originaltext><annotation>cook(ing24, t0, ing25, "meatloaf", "5 minutes")</annotation></line>
+<line><originaltext>Return to oven, and bake until cheese is melted, about 5 minutes.</originaltext><annotation>chefcheck(ing25,"cheese is melted")</annotation></line>
+</recipe>

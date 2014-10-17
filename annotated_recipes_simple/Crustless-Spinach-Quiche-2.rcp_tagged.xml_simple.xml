@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>3 ounces reduced fat cream cheese, softened</originaltext><annotation>create_ing(ing12, "cheese")</annotation></line>
+<line><originaltext>1 cup fat-free milk</originaltext><annotation>create_ing(ing13, "milk")</annotation></line>
+<line><originaltext>1 cup egg substitute</originaltext><annotation>create_ing(ing14, "substitute")</annotation></line>
+<line><originaltext>1/4 teaspoon pepper</originaltext><annotation>create_ing(ing15, "pepper")</annotation></line>
+<line><originaltext>3 cups shredded reduced-fat Cheddar cheese</originaltext><annotation>create_ing(ing16, "cheese")</annotation></line>
+<line><originaltext>1 (10 ounce) package frozen chopped spinach, thawed and squeezed dry</originaltext><annotation>create_ing(ing17, "spinach")</annotation></line>
+<line><originaltext>1 cup frozen chopped broccoli, thawed and well drained</originaltext><annotation>create_ing(ing18, "broccoli")</annotation></line>
+<line><originaltext>1 small onion, finely chopped</originaltext><annotation>create_ing(ing19, "onion")</annotation></line>
+<line><originaltext>5 fresh mushrooms, sliced</originaltext><annotation>create_ing(ing20, "mushrooms")</annotation></line>
+<line><originaltext>In a small mixing bowl, beat cream cheese. </originaltext><annotation>create_tool(t3, "small mixing bowl")</annotation></line>
+<line><originaltext>In a small mixing bowl, beat cream cheese. </originaltext><annotation>mix(ing12, t3, ing21, "beat cream cheese", "beat")</annotation></line>
+<line><originaltext>Add milk, egg substitute and pepper; beat until smooth. </originaltext><annotation>combine({ing13, ing14, ing15, ing21}, ing22, "mixture", "beat until smooth")</annotation></line>
+<line><originaltext>Add milk, egg substitute and pepper; beat until smooth. </originaltext><annotation>chefcheck(ing22,"smooth")</annotation></line>
+<line><originaltext>Stir in remaining ingredients. </originaltext><annotation>combine({ing16, ing17, ing18, ing19, ing20, ing22}, ing23, "quiche mix", "stir")</annotation></line>
+<line><originaltext>quiche pan coated with nonstick cooking spray. </originaltext><annotation>create_tool(t4, "10 inch quiche pan")</annotation></line>
+<line><originaltext>quiche pan coated with nonstick cooking spray. </originaltext><annotation>put(ing23, t4)</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 45-50 minutes or until a knife inserted near the center comes out clean. </originaltext><annotation>create_tool(t5, "oven")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 45-50 minutes or until a knife inserted near the center comes out clean. </originaltext><annotation>set(t5,"350 degrees F")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 45-50 minutes or until a knife inserted near the center comes out clean. </originaltext><annotation>cook(ing23, t5, ing24, "quiche", "45-50 minutes")</annotation></line>
+<line><originaltext>Bake at 350 degrees F for 45-50 minutes or until a knife inserted near the center comes out clean. </originaltext><annotation>chefcheck(ing24,"knife inserted in center comes out clean")</annotation></line>
+</recipe>

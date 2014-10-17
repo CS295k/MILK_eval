@@ -1,0 +1,32 @@
+<recipe version="1.1"><line><originaltext>2 quarts water</originaltext><annotation>create_ing(ing0, "water")</annotation></line>
+<line><originaltext>12 ounces beef shank</originaltext><annotation>create_ing(ing1, "shank")</annotation></line>
+<line><originaltext>2 large onions, chopped</originaltext><annotation>create_ing(ing2, "onions")</annotation></line>
+<line><originaltext>2 large carrots, sliced</originaltext><annotation>create_ing(ing3, "carrots")</annotation></line>
+<line><originaltext>1 rutabaga, diced</originaltext><annotation>create_ing(ing4, "rutabaga")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing5, "taste")</annotation></line>
+<line><originaltext>4 potatoes, peeled and quartered</originaltext><annotation>create_ing(ing6, "potatoes")</annotation></line>
+<line><originaltext>2 leeks, sliced</originaltext><annotation>create_ing(ing7, "leeks")</annotation></line>
+<line><originaltext>1 small head cabbage, sliced</originaltext><annotation>create_ing(ing8, "head")</annotation></line>
+<line><originaltext>2 tablespoons chopped fresh parsley</originaltext><annotation>create_ing(ing9, "parsley")</annotation></line>
+<line><originaltext>Bring water to boil in a large pot. </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>Bring water to boil in a large pot. </originaltext><annotation>cook(ing0, t0, ing10, "boiling water", "")</annotation></line>
+<line><originaltext>Place beef shank in, and simmer 1 1/2 hours. </originaltext><annotation>combine({ing1, ing10}, ing11, "boiling beef", "")</annotation></line>
+<line><originaltext>Place beef shank in, and simmer 1 1/2 hours. </originaltext><annotation>cook(ing11, t0, ing12, "simmered beef", "simmer 1 1/2 hours")</annotation></line>
+<line><originaltext>Let cool overnight. </originaltext><annotation>leave(ing12,"let cool overnight")</annotation></line>
+<line><originaltext>Lift meat out, trim off gristle and cut meat into medium sized pieces; set aside. </originaltext><annotation>separate(ing12, ing13, "meat", ing14, "water", "lift meat out")</annotation></line>
+<line><originaltext>Lift meat out, trim off gristle and cut meat into medium sized pieces; set aside. </originaltext><annotation>separate(ing13, ing15, "meat", ing16, "gristle", "trim off gristle")</annotation></line>
+<line><originaltext>Skim fat from surface of stock, or strain through a fine sieve.</originaltext><annotation>separate(ing14, ing17, "fat", ing18, "stock", "skim fat from surface of stock, or strain through a fine sieve")</annotation></line>
+<line><originaltext>Return stock to heat, and bring to a boil. </originaltext><annotation>cook(ing18, t0, ing19, "hot stock", "bring to a boil")</annotation></line>
+<line><originaltext>Add onions, carrots and rutabaga. </originaltext><annotation>combine({ing19, ing2}, ing20, "veggie stew", "")</annotation></line>
+<line><originaltext>Add onions, carrots and rutabaga. </originaltext><annotation>combine({ing20, ing3, ing4}, ing21, "veggie stew", "")</annotation></line>
+<line><originaltext>Season with salt and pepper. </originaltext><annotation>combine({ing21, ing5}, ing22, "salty stew", "")</annotation></line>
+<line><originaltext>Simmer for 1 hour. </originaltext><annotation>cook(ing22, t0, ing23, "simmered stew", "simmer for 1 hour")</annotation></line>
+<line><originaltext>Add potatoes, and simmer until tender, 15 to 20 minutes. </originaltext><annotation>combine({ing23, ing6}, ing24, "potato stew", "add potatoes")</annotation></line>
+<line><originaltext>Add potatoes, and simmer until tender, 15 to 20 minutes. </originaltext><annotation>cook(ing24, t0, ing25, "potato simmer stew", "simmer 15 to 20 minutes")</annotation></line>
+<line><originaltext>Add potatoes, and simmer until tender, 15 to 20 minutes. </originaltext><annotation>chefcheck(ing25,"potatoes are tender")</annotation></line>
+<line><originaltext>Stir in the leeks, cabbage, parsley and reserved meat. </originaltext><annotation>combine({ing15, ing25, ing7, ing8}, ing26, "cawl", "stir in")</annotation></line>
+<line><originaltext>Stir in the leeks, cabbage, parsley and reserved meat. </originaltext><annotation>combine({ing26, ing9}, ing27, "cawl", "stir in")</annotation></line>
+<line><originaltext>Simmer 10 minutes, or until cabbage is tender.</originaltext><annotation>cook(ing27, t0, ing28, "simmered cawl", "simmer 10 minutes")</annotation></line>
+<line><originaltext>Simmer 10 minutes, or until cabbage is tender.</originaltext><annotation>chefcheck(ing28,"cabbage is tender")</annotation></line>
+<line><originaltext>Simmer 10 minutes, or until cabbage is tender.</originaltext><annotation>serve(ing28,"")</annotation></line>
+</recipe>

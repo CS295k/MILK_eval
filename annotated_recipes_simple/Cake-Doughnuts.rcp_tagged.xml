@@ -1,0 +1,38 @@
+<recipe version="1.1"><line><originaltext>2 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing46, "2 1/2 cups all-purpose flour")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing47, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>1 tablespoon baking powder</originaltext><annotation>create_ing(ing48, "1 tablespoon baking powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing49, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing50, "1 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/4 teaspoon ground nutmeg</originaltext><annotation>create_ing(ing51, "1/4 teaspoon ground nutmeg")</annotation></line>
+<line><originaltext>1 cup milk</originaltext><annotation>create_ing(ing52, "1 cup milk")</annotation></line>
+<line><originaltext>1 egg, beaten</originaltext><annotation>create_ing(ing53, "1 egg, beaten")</annotation></line>
+<line><originaltext>1/4 cup butter, melted and cooled</originaltext><annotation>create_ing(ing54, "1/4 cup butter, melted and cooled")</annotation></line>
+<line><originaltext>2 teaspoons vanilla extract</originaltext><annotation>create_ing(ing55, "2 teaspoons vanilla extract")</annotation></line>
+<line><originaltext>2 quarts oil for deep frying</originaltext><annotation>create_ing(ing56, "2 quarts oil for deep frying")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing57, "1/2 teaspoon ground cinnamon")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing58, "1/2 cup white sugar")</annotation></line>
+<line><originaltext>In a large bowl, stir together the flour, 1/2 cup sugar, baking powder, salt, 1 teaspoon of cinnamon and nutmeg. </originaltext><annotation>create_tool(t6, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, stir together the flour, 1/2 cup sugar, baking powder, salt, 1 teaspoon of cinnamon and nutmeg. </originaltext><annotation>combine({ing46, ing47, ing48, ing49, ing50, ing51}, ing59, "dry stuff", "")</annotation></line>
+<line><originaltext>In a large bowl, stir together the flour, 1/2 cup sugar, baking powder, salt, 1 teaspoon of cinnamon and nutmeg. </originaltext><annotation>mix(ing59, t6, ing60, "mixed dry stuff", "")</annotation></line>
+<line><originaltext>Make a well in the center and pour in the milk, egg, butter, and vanilla. </originaltext><annotation>do(ing60, t6, ing61, "welled dry stuff", "make a well in the center")</annotation></line>
+<line><originaltext>Make a well in the center and pour in the milk, egg, butter, and vanilla. </originaltext><annotation>combine({ing52, ing53, ing54, ing55, ing61}, ing62, "wet and dry", "pour milk, egg, butter and vanilla extract in well in the center")</annotation></line>
+<line><originaltext>Mix until well blended. </originaltext><annotation>mix(ing62, t6, ing63, "mixed stuff", "until well blended")</annotation></line>
+<line><originaltext>Cover and refrigerate for 1 hour.</originaltext><annotation>leave(ing63,"refrigerate for 1 hour")</annotation></line>
+<line><originaltext>Heat oil in a deep heavy skillet or deep-fryer to 370 degrees F (185 degrees C). </originaltext><annotation>create_tool(t7, "deep heavy skillet or deep fryer")</annotation></line>
+<line><originaltext>Heat oil in a deep heavy skillet or deep-fryer to 370 degrees F (185 degrees C). </originaltext><annotation>cook(ing56, t7, ing64, "heated oil", "to 370 degrees F")</annotation></line>
+<line><originaltext>On a floured board, roll chilled dough out to 1/2 inch thickness. </originaltext><annotation>create_tool(t8, "floured board")</annotation></line>
+<line><originaltext>On a floured board, roll chilled dough out to 1/2 inch thickness. </originaltext><annotation>do(ing63, t8, ing65, "rolled dough", "roll dough out to 1/2 inch thickness")</annotation></line>
+<line><originaltext>Use a 3 inch round cutter to cut out doughnuts. </originaltext><annotation>create_tool(t9, "3 inch round cutter")</annotation></line>
+<line><originaltext>Use a 3 inch round cutter to cut out doughnuts. </originaltext><annotation>cut(ing65, t9, ing66, "cut out doughnuts", "")</annotation></line>
+<line><originaltext>Use a smaller cutter to cut holes from center. </originaltext><annotation>create_tool(t10, "smaller cutter")</annotation></line>
+<line><originaltext>Use a smaller cutter to cut holes from center. </originaltext><annotation>cut(ing66, t10, ing67, "holed dough", "cut holes from center")</annotation></line>
+<line><originaltext>Fry doughnuts in hot oil until golden brown, turning once. </originaltext><annotation>combine({ing64, ing67}, ing68, "oily doughnuts", "")</annotation></line>
+<line><originaltext>Fry doughnuts in hot oil until golden brown, turning once. </originaltext><annotation>cook(ing68, t7, ing69, "cooked doughnuts", "until golden brown, turning once")</annotation></line>
+<line><originaltext>Remove from oil to drain on paper plates. </originaltext><annotation>remove(ing69,t7)</annotation></line>
+<line><originaltext>Remove from oil to drain on paper plates. </originaltext><annotation>create_tool(t11, "paper plates")</annotation></line>
+<line><originaltext>Remove from oil to drain on paper plates. </originaltext><annotation>do(ing69, t11, ing70, "drained doughnuts", "drain")</annotation></line>
+<line><originaltext>Combine the remaining 1/2 teaspoon cinnamon and 1/2 cup sugar in a large resealable bag. </originaltext><annotation>create_tool(t12, "large resealable bag")</annotation></line>
+<line><originaltext>Combine the remaining 1/2 teaspoon cinnamon and 1/2 cup sugar in a large resealable bag. </originaltext><annotation>combine({ing57, ing58}, ing71, "cinn sugar", "")</annotation></line>
+<line><originaltext>Combine the remaining 1/2 teaspoon cinnamon and 1/2 cup sugar in a large resealable bag. </originaltext><annotation>mix(ing71, t12, ing72, "bagged sugar", "")</annotation></line>
+<line><originaltext>Place a few warm donuts into the bag at a time, seal and shake to coat.</originaltext><annotation>combine({ing70, ing72}, ing73, "coated doughnuts", "place a few warm doughnuts in at a time, seal and shake to coat")</annotation></line>
+</recipe>

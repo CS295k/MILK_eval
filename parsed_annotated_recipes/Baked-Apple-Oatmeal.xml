@@ -1,0 +1,21 @@
+<recipe>
+<line><parsed-text>(S1 (NP (CD 4) (NNS cups) (NN milk)))</parsed-text><annotation>create_ing(ing0, "4 cups milk")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (VBN packed) (JJ brown) (NN sugar))))</parsed-text><annotation>create_ing(ing1, "1/2 cup packed brown sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS teaspoons)) (NP (NN butter) (CC or) (NN margarine))))</parsed-text><annotation>create_ing(ing2, "2 teaspoons butter or margarine")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing3, "1/2 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN ground) (NN cinnamon)))</parsed-text><annotation>create_ing(ing4, "1/2 teaspoon ground cinnamon")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS cups)) (JJ old-fashioned) (NNS oats)))</parsed-text><annotation>create_ing(ing5, "2 cups old-fashioned oats")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (QP (CD 2) (NNS cups)) (JJ chopped)) (, ,) (NP (VBN peeled) (NNS apples))))</parsed-text><annotation>create_ing(ing6, "2 cups chopped, peeled apples")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (JJ chopped) (NNS walnuts))))</parsed-text><annotation>create_ing(ing7, "1 cup chopped walnuts")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NNS raisins))))</parsed-text><annotation>create_ing(ing8, "1 cup raisins")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN wheat) (NN germ))))</parsed-text><annotation>create_ing(ing9, "1 cup wheat germ")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB heat) (NP (NP (NN milk)) (, ,) (NP (JJ brown) (NN sugar)) (, ,) (NP (NN butter)) (, ,) (NP (NN salt)) (CC and) (NP (NN cinnamon)))) (. .)))</parsed-text><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB heat) (NP (NP (NN milk)) (, ,) (NP (JJ brown) (NN sugar)) (, ,) (NP (NN butter)) (, ,) (NP (NN salt)) (CC and) (NP (NN cinnamon)))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing10, "spicy mix", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB heat) (NP (NP (NN milk)) (, ,) (NP (JJ brown) (NN sugar)) (, ,) (NP (NN butter)) (, ,) (NP (NN salt)) (CC and) (NP (NN cinnamon)))) (. .)))</parsed-text><annotation>put(ing10, t0)</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN saucepan))) (, ,) (VP (VB heat) (NP (NP (NN milk)) (, ,) (NP (JJ brown) (NN sugar)) (, ,) (NP (NN butter)) (, ,) (NP (NN salt)) (CC and) (NP (NN cinnamon)))) (. .)))</parsed-text><annotation>cook(ing10, t0, ing11, "heated mix", "heat")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Add) (NP (VBG remaining) (NNS ingredients)))) (: ;) (S (VP (VB mix) (ADVP (RB gently)))) (. .)))</parsed-text><annotation>combine({ing11, ing5, ing6, ing7, ing8, ing9}, ing12, "oatmeal", "mix gently")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Spoon) (PP (IN into) (NP (DT a) (JJ greased) (NN 2-qt.) (NN casserole)))) (. .)))</parsed-text><annotation>create_tool(t1, "greased 2-qt. casserole")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Spoon) (PP (IN into) (NP (DT a) (JJ greased) (NN 2-qt.) (NN casserole)))) (. .)))</parsed-text><annotation>put(ing12, t1)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cover) (CC and) (VB bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (PP (X (SYM F)) (IN for) (NP (CD 45) (NNS minutes)))) (. .)))</parsed-text><annotation>set(t1,"cover")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cover) (CC and) (VB bake) (PP (IN at) (NP (CD 350) (NNS degrees))) (PP (X (SYM F)) (IN for) (NP (CD 45) (NNS minutes)))) (. .)))</parsed-text><annotation>cook(ing12, t1, ing13, "cooked oatmeal", "baked at 350 degrees F for 45 minutes")</annotation></line>
+</recipe>

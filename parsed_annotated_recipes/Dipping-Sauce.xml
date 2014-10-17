@@ -1,0 +1,17 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (NN mayonnaise))))</parsed-text><annotation>create_ing(ing0, "1/2 cup mayonnaise")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS teaspoons) (NN ketchup)))</parsed-text><annotation>create_ing(ing1, "2 teaspoons ketchup")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (JJ prepared) (NN horseradish))))</parsed-text><annotation>create_ing(ing2, "2 tablespoons prepared horseradish")</annotation></line>
+<line><parsed-text>(S1 (NP (FW 1/4) (FW teaspoon) (FW paprika)))</parsed-text><annotation>create_ing(ing3, "1/4 teaspoon paprika")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing4, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (S (NP (JJ 1/8) (NN teaspoon)) (VP (VBD dried) (NP (NN oregano)))))</parsed-text><annotation>create_ing(ing5, "1/8 teaspoon dried oregano")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (NN dash) (VBD ground) (JJ black) (NN pepper)))</parsed-text><annotation>create_ing(ing6, "1 dash ground black pepper")</annotation></line>
+<line><parsed-text>(S1 (NP (JJ cayenne) (NN pepper) (S (VP (TO to) (VP (VB taste))))))</parsed-text><annotation>create_ing(ing7, "cayenne pepper to taste")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (VP (VBP combine) (NP (NN mayonnaise) (, ,) (NN ketchup) (, ,) (NN horseradish) (, ,) (FW paprika) (, ,) (NP (NN salt)) (, ,) (NP (NN oregano)) (, ,) (NP (JJ black) (NN pepper)) (CC and) (NP (JJ cayenne) (NN pepper)))) (. .)))</parsed-text><annotation>create_tool(t0, "small bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (VP (VBP combine) (NP (NN mayonnaise) (, ,) (NN ketchup) (, ,) (NN horseradish) (, ,) (FW paprika) (, ,) (NP (NN salt)) (, ,) (NP (NN oregano)) (, ,) (NP (JJ black) (NN pepper)) (CC and) (NP (JJ cayenne) (NN pepper)))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7}, ing8, "sauce", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (VP (VBP combine) (NP (NN mayonnaise) (, ,) (NN ketchup) (, ,) (NN horseradish) (, ,) (FW paprika) (, ,) (NP (NN salt)) (, ,) (NP (NN oregano)) (, ,) (NP (JJ black) (NN pepper)) (CC and) (NP (JJ cayenne) (NN pepper)))) (. .)))</parsed-text><annotation>put(ing8, t0)</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NN Store)) (, ,) (VP (VBN covered)) (, ,) (PP (IN in) (NP (DT the) (NN refrigerator))) (. .)))</parsed-text><annotation>set(t0,"covered")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NN Store)) (, ,) (VP (VBN covered)) (, ,) (PP (IN in) (NP (DT the) (NN refrigerator))) (. .)))</parsed-text><annotation>set(t0,"in refrigerator")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NN Store)) (, ,) (VP (VBN covered)) (, ,) (PP (IN in) (NP (DT the) (NN refrigerator))) (. .)))</parsed-text><annotation>leave(ing8,"store")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (NN Store)) (, ,) (VP (VBN covered)) (, ,) (PP (IN in) (NP (DT the) (NN refrigerator))) (. .)))</parsed-text><annotation>serve(ing8,"")</annotation></line>
+</recipe>

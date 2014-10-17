@@ -1,0 +1,11 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NN butter)) (, ,) (VP (VBN softened))))</parsed-text><annotation>create_ing(ing138, "1 cup butter, softened")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (JJ minced) (NN garlic)))</parsed-text><annotation>create_ing(ing139, "1 tablespoon minced garlic")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (JJ grated) (NNP Parmesan) (NN cheese))))</parsed-text><annotation>create_ing(ing140, "1/4 cup grated Parmesan cheese")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD tablespoon)) (JJ garlic) (NN salt)))</parsed-text><annotation>create_ing(ing141, "1 tablespoon garlic salt")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN teaspoon)) (NP (JJ Italian) (NN seasoning))))</parsed-text><annotation>create_ing(ing142, "1 teaspoon Italian seasoning")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN teaspoon) (NN ground)) (NP (JJ black) (NN pepper))))</parsed-text><annotation>create_ing(ing143, "1/2 teaspoon ground black pepper")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN ground) (NNS paprika)))</parsed-text><annotation>create_ing(ing144, "1/4 teaspoon ground paprika")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (JJ softened) (NN butter)) (, ,) (NP (JJ minced) (NN garlic)) (CC and) (NP (JJ parmesan) (NN cheese)))) (. .)))</parsed-text><annotation>combine({ing138, ing139, ing140}, ing145, "buttery cheese", "in a small bowl")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Season) (PP (IN with) (NP (NP (JJ garlic) (NN salt)) (, ,) (NP (JJ Italian) (NN seasoning)) (, ,) (NP (NN pepper)) (CC and) (NP (FW paprika))))) (. .)))</parsed-text><annotation>combine({ing141, ing142, ing143, ing144, ing145}, ing146, "garlic butter", "season and mix until smooth")</annotation></line>
+</recipe>

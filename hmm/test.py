@@ -43,6 +43,7 @@ if __name__ == "__main__":
   tagss0 = [[len(anns) for (ot, anns) in r for _ in anns] for r in test_recipes]
   tagss1 = []
   test_cmdss = [[a for (ot, anns) in r for a in anns] for r in test_recipes]
+
   for cmds in test_cmdss:
     tags = group_tagging(n, cmds, sigmas_for_decoding, taus_for_decoding)
     tags = [tag+1 for tag in tags]
@@ -65,5 +66,6 @@ if __name__ == "__main__":
   print
 
   fscore = getFScore(tagss0, tagss1)
-  print "F-Score"
+  print "F-Scores"
   print fscore
+

@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 1/3 cups water</originaltext><annotation>create_ing(ing49, "water")</annotation></line>
+<line><originaltext>2 tablespoons butter, softened</originaltext><annotation>create_ing(ing50, "butter")</annotation></line>
+<line><originaltext>3 tablespoons honey</originaltext><annotation>create_ing(ing51, "honey")</annotation></line>
+<line><originaltext>1 1/2 cups bread flour</originaltext><annotation>create_ing(ing52, "flour")</annotation></line>
+<line><originaltext>1 1/3 cups whole wheat bread flour</originaltext><annotation>create_ing(ing53, "wheat")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing54, "salt")</annotation></line>
+<line><originaltext>1 teaspoon active dry yeast</originaltext><annotation>create_ing(ing55, "yeast")</annotation></line>
+<line><originaltext>1/2 cup flax seeds</originaltext><annotation>create_ing(ing56, "seeds")</annotation></line>
+<line><originaltext>1/2 cup sunflower seeds</originaltext><annotation>create_ing(ing57, "seeds")</annotation></line>
+<line><originaltext>Place all ingredients (except sunflower seeds) in the pan of the bread machine in the order recommended by the manufacturer. </originaltext><annotation>create_tool(t8, "bread machine")</annotation></line>
+<line><originaltext>Place all ingredients (except sunflower seeds) in the pan of the bread machine in the order recommended by the manufacturer. </originaltext><annotation>combine({ing49, ing50, ing51, ing52, ing53, ing54, ing55, ing56}, ing58, "all ingredients", "")</annotation></line>
+<line><originaltext>Place all ingredients (except sunflower seeds) in the pan of the bread machine in the order recommended by the manufacturer. </originaltext><annotation>put(ing58, t8)</annotation></line>
+<line><originaltext>Select basic white cycle; press start. </originaltext><annotation>set(t8,"basic white cycle")</annotation></line>
+<line><originaltext>Select basic white cycle; press start. </originaltext><annotation>set(t8,"start")</annotation></line>
+<line><originaltext>Add the sunflower seeds when the alert sounds during the knead cycle. </originaltext><annotation>combine({ing57, ing58}, ing59, "dough", "when alert sounds")</annotation></line>
+<line><originaltext>Add the sunflower seeds when the alert sounds during the knead cycle. </originaltext><annotation>chefcheck(ing59,"alarm sound for knead cycle")</annotation></line>
+<line><originaltext>Add the sunflower seeds when the alert sounds during the knead cycle. </originaltext><annotation>serve(ing59,"")</annotation></line>
+</recipe>

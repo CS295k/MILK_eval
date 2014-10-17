@@ -1,0 +1,44 @@
+<recipe version="1.1"><line><originaltext>3 bone-in chicken breast halves, skinless</originaltext><annotation>create_ing(ing0, "halves")</annotation></line>
+<line><originaltext>1 (14.5 ounce) can chicken broth</originaltext><annotation>create_ing(ing1, "ounce")</annotation></line>
+<line><originaltext>3 potatoes</originaltext><annotation>create_ing(ing2, "potatoes")</annotation></line>
+<line><originaltext>1 yellow onion</originaltext><annotation>create_ing(ing3, "onion")</annotation></line>
+<line><originaltext>3 stalks celery</originaltext><annotation>create_ing(ing4, "stalks")</annotation></line>
+<line><originaltext>2 tablespoons vegetable oil</originaltext><annotation>create_ing(ing5, "oil")</annotation></line>
+<line><originaltext>2 tablespoons all-purpose flour</originaltext><annotation>create_ing(ing6, "flour")</annotation></line>
+<line><originaltext>2 cups frozen mixed vegetables</originaltext><annotation>create_ing(ing7, "vegetables")</annotation></line>
+<line><originaltext>1 to taste salt and pepper to taste</originaltext><annotation>create_ing(ing8, "taste")</annotation></line>
+<line><originaltext>1/4 teaspoon garlic powder</originaltext><annotation>create_ing(ing9, "powder")</annotation></line>
+<line><originaltext>1 (9 inch) frozen prepared pie crust, thawed</originaltext><annotation>create_ing(ing10, "crust")</annotation></line>
+<line><originaltext>Wash chicken breasts in water and then place in a pot with water just to cover the chicken add some salt and pepper and garlic powder. </originaltext><annotation>create_tool(t0, "pot")</annotation></line>
+<line><originaltext>Wash chicken breasts in water and then place in a pot with water just to cover the chicken add some salt and pepper and garlic powder. </originaltext><annotation>combine({ing0, ing8, ing9}, ing11, "seasoned chicken", "")</annotation></line>
+<line><originaltext>Wash chicken breasts in water and then place in a pot with water just to cover the chicken add some salt and pepper and garlic powder. </originaltext><annotation>cook(ing11, t0, ing12, "boiled chicken", "boil, turn off heat and cover")</annotation></line>
+<line><originaltext>Let cool in the pot.</originaltext><annotation>leave(ing12,"let cool in pot")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C).</originaltext><annotation>set(t1,"350 degrees F")</annotation></line>
+<line><originaltext>Wash and cut potatoes into bite size pieces and boil till almost fork tender. </originaltext><annotation>create_tool(t2, "knife")</annotation></line>
+<line><originaltext>Wash and cut potatoes into bite size pieces and boil till almost fork tender. </originaltext><annotation>cut(ing2, t2, ing13, "cut potatoes", "into bite-sized pieces")</annotation></line>
+<line><originaltext>Wash and cut potatoes into bite size pieces and boil till almost fork tender. </originaltext><annotation>cook(ing13, t0, ing14, "boiled potatoes", "till almost fork tender")</annotation></line>
+<line><originaltext>Drain and set aside.</originaltext><annotation>do(ing14, t0, ing15, "drained boiled potatoes", "drain and set aside")</annotation></line>
+<line><originaltext>Wash celery and cut to bite-size pieces. </originaltext><annotation>cut(ing4, t2, ing16, "cut celery", "cut into bite-size pieces")</annotation></line>
+<line><originaltext>Cut onion to bite-size pieces.</originaltext><annotation>cut(ing3, t2, ing17, "cut onion", "into bite-sized pieces")</annotation></line>
+<line><originaltext>In a large heavy skillet, over medium heat, saute celery and onion with 2 tablespoons oil, for 5 to 8 minutes. </originaltext><annotation>create_tool(t3, "skillet")</annotation></line>
+<line><originaltext>In a large heavy skillet, over medium heat, saute celery and onion with 2 tablespoons oil, for 5 to 8 minutes. </originaltext><annotation>combine({ing16, ing17, ing5}, ing18, "oiled celery and onion", "")</annotation></line>
+<line><originaltext>In a large heavy skillet, over medium heat, saute celery and onion with 2 tablespoons oil, for 5 to 8 minutes. </originaltext><annotation>cook(ing18, t3, ing19, "sauteed celery and onion", "saute for 5 to 8 minutes over medium heat")</annotation></line>
+<line><originaltext>Add the frozen vegetables and cook another 5 minutes. </originaltext><annotation>combine({ing19, ing7}, ing20, "veggies", "")</annotation></line>
+<line><originaltext>Add the frozen vegetables and cook another 5 minutes. </originaltext><annotation>cook(ing20, t3, ing21, "cooked veggies", "for 5 minutes")</annotation></line>
+<line><originaltext>Add flour and cook about 30 seconds.</originaltext><annotation>combine({ing21, ing6}, ing22, "veggies and flour", "")</annotation></line>
+<line><originaltext>Add flour and cook about 30 seconds.</originaltext><annotation>cook(ing22, t3, ing23, "floured veggies", "cook for 30 seconds")</annotation></line>
+<line><originaltext>Add chicken broth and bring to a boil. </originaltext><annotation>combine({ing1, ing23}, ing24, "broth and veggies", "bring to boil")</annotation></line>
+<line><originaltext>After it has become thick, add potatoes.</originaltext><annotation>chefcheck(ing24,"when it becomes thick, add potatoes")</annotation></line>
+<line><originaltext>After it has become thick, add potatoes.</originaltext><annotation>combine({ing15, ing24}, ing25, "potatoes and veggies", "")</annotation></line>
+<line><originaltext>Remove chicken from pot and cut into bite-size pieces and add to vegetable mixture. </originaltext><annotation>remove(ing12,t0)</annotation></line>
+<line><originaltext>Remove chicken from pot and cut into bite-size pieces and add to vegetable mixture. </originaltext><annotation>cut(ing12, t2, ing26, "cut chicken", "into bite-sized pieces")</annotation></line>
+<line><originaltext>Remove chicken from pot and cut into bite-size pieces and add to vegetable mixture. </originaltext><annotation>combine({ing25, ing26}, ing27, "pie filling", "")</annotation></line>
+<line><originaltext>Add salt and pepper to taste.</originaltext><annotation>chefcheck(ing27,"may add more salt and pepper to taste")</annotation></line>
+<line><originaltext>Pour mixture into a 9 inch deep dish pie plate and cover with pie shell. </originaltext><annotation>create_tool(t4, "9 inch deep pie plate")</annotation></line>
+<line><originaltext>Pour mixture into a 9 inch deep dish pie plate and cover with pie shell. </originaltext><annotation>put(ing27, t4)</annotation></line>
+<line><originaltext>Pour mixture into a 9 inch deep dish pie plate and cover with pie shell. </originaltext><annotation>combine({ing10, ing27}, ing28, "uncooked pie", "")</annotation></line>
+<line><originaltext>Make sure you crimp the edges of the pie shell to the plate so no juices spill in oven.</originaltext><annotation>do(ing28, t4, ing29, "crimped uncooked pie", "crimp edges of pie shell")</annotation></line>
+<line><originaltext>Bake at 350  degrees F (175 degrees C) for 45 minutes or until pie shell is cooked and golden brown.</originaltext><annotation>cook(ing29, t1, ing30, "baked pie", "for 45 minutes or until pie shell is golden brown")</annotation></line>
+<line><originaltext>Bake at 350  degrees F (175 degrees C) for 45 minutes or until pie shell is cooked and golden brown.</originaltext><annotation>serve(ing30,"")</annotation></line>
+</recipe>

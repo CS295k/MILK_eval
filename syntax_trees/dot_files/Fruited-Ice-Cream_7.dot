@@ -16,7 +16,7 @@ graph SyntaxGraph {
 	Node13 [label="NN"];
 	Node14 [label="manufacturer"];
 	Node15 [label="POS"];
-	Node16 [label="Quoted(Symbol('s'))"];
+	Node16 [label="Quoted(Symbol(u's'))"];
 	Node17 [label="NNS"];
 	Node18 [label="directions"];
 	Node19 [label="."];

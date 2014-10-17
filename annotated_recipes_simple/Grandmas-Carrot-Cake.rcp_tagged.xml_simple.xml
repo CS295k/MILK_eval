@@ -1,0 +1,41 @@
+<recipe version="1.1"><line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing0, "flour")</annotation></line>
+<line><originaltext>2 teaspoons baking soda</originaltext><annotation>create_ing(ing1, "soda")</annotation></line>
+<line><originaltext>1 teaspoon ground cinnamon</originaltext><annotation>create_ing(ing2, "cinnamon")</annotation></line>
+<line><originaltext>2 cups white sugar</originaltext><annotation>create_ing(ing3, "sugar")</annotation></line>
+<line><originaltext>1 cup vegetable oil</originaltext><annotation>create_ing(ing4, "oil")</annotation></line>
+<line><originaltext>3 eggs</originaltext><annotation>create_ing(ing5, "eggs")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing6, "extract")</annotation></line>
+<line><originaltext>1 cup chopped walnuts</originaltext><annotation>create_ing(ing7, "walnuts")</annotation></line>
+<line><originaltext>1 (15 ounce) can crushed pineapple, drained</originaltext><annotation>create_ing(ing8, "pineapple")</annotation></line>
+<line><originaltext>2 cups carrots, grated</originaltext><annotation>create_ing(ing9, "carrots")</annotation></line>
+<line><originaltext>1 cup flaked coconut</originaltext><annotation>create_ing(ing10, "coconut")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing11, "cup")</annotation></line>
+<line><originaltext>1 cup white sugar</originaltext><annotation>create_ing(ing12, "sugar")</annotation></line>
+<line><originaltext>1/2 cup buttermilk</originaltext><annotation>create_ing(ing13, "cup")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing14, "extract")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t0,"350 degrees F (175 degrees C)")</annotation></line>
+<line><originaltext>Grease a 9x13 inch pan. </originaltext><annotation>create_tool(t1, "9x13 inch pan")</annotation></line>
+<line><originaltext>Grease a 9x13 inch pan. </originaltext><annotation>set(t1,"grease")</annotation></line>
+<line><originaltext>Sift together the flour, baking soda and cinnamon. </originaltext><annotation>combine({ing0, ing1, ing2}, ing15, "sifted stuff", "sift together")</annotation></line>
+<line><originaltext>Set aside. </originaltext><annotation>leave(ing15,"set aside")</annotation></line>
+<line><originaltext>In a large bowl, combine the sugar and oil until blended. </originaltext><annotation>create_tool(t2, "large bowl")</annotation></line>
+<line><originaltext>In a large bowl, combine the sugar and oil until blended. </originaltext><annotation>combine({ing3, ing4}, ing16, "sugar and oil", "blend")</annotation></line>
+<line><originaltext>Beat in the eggs one at a time, then stir in the vanilla. </originaltext><annotation>create_tool(t3, "egg beater")</annotation></line>
+<line><originaltext>Beat in the eggs one at a time, then stir in the vanilla. </originaltext><annotation>mix(ing5, t3, ing17, "beat eggs", "beat one at a time")</annotation></line>
+<line><originaltext>Beat in the eggs one at a time, then stir in the vanilla. </originaltext><annotation>combine({ing14, ing16, ing17}, ing18, "vanilla eggs", "stir in")</annotation></line>
+<line><originaltext>Stir in the flour mixture just until incorporated. </originaltext><annotation>combine({ing15, ing18}, ing19, "egg batter", "stir in")</annotation></line>
+<line><originaltext>Fold in the pineapple, carrots, coconut and walnuts. </originaltext><annotation>combine({ing10, ing19, ing7, ing8, ing9}, ing20, "fruity batter", "fold in")</annotation></line>
+<line><originaltext>Pour batter into prepared pan. </originaltext><annotation>put(ing20, t1)</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes, or until a toothpick inserted into the center of the cake comes out clean. </originaltext><annotation>cook(ing20, t0, ing21, "baked batter", "45 minutes")</annotation></line>
+<line><originaltext>Bake in the preheated oven for 45 minutes, or until a toothpick inserted into the center of the cake comes out clean. </originaltext><annotation>chefcheck(ing21,"toothpick comes out clean")</annotation></line>
+<line><originaltext>While still warm, poke holes in the cake with a fork. </originaltext><annotation>create_tool(t4, "fork")</annotation></line>
+<line><originaltext>While still warm, poke holes in the cake with a fork. </originaltext><annotation>do(ing21, t4, ing22, "holey cake", "poke holes with fork")</annotation></line>
+<line><originaltext>For the glaze: In a saucepan, combine butter, sugar, buttermilk and vanilla. </originaltext><annotation>create_tool(t5, "saucepan")</annotation></line>
+<line><originaltext>For the glaze: In a saucepan, combine butter, sugar, buttermilk and vanilla. </originaltext><annotation>combine({ing11, ing12, ing13}, ing23, "glaze", "combine")</annotation></line>
+<line><originaltext>For the glaze: In a saucepan, combine butter, sugar, buttermilk and vanilla. </originaltext><annotation>put(ing23, t5)</annotation></line>
+<line><originaltext>Bring mixture to a boil over medium heat, then reduce heat and cook for 5 minutes. </originaltext><annotation>cook(ing23, , ing24, "boiled glaze", "boil over medium head")</annotation></line>
+<line><originaltext>Bring mixture to a boil over medium heat, then reduce heat and cook for 5 minutes. </originaltext><annotation>cook(ing24, t5, ing25, "hot glaze", "reduce heat for 5 minutes")</annotation></line>
+<line><originaltext>Pour glaze over warm cake, then allow to cool completely. </originaltext><annotation>combine({ing22, ing25}, ing26, "glazed cake", "pour over")</annotation></line>
+<line><originaltext>Pour glaze over warm cake, then allow to cool completely. </originaltext><annotation>leave(ing26,"cool completely")</annotation></line>
+</recipe>

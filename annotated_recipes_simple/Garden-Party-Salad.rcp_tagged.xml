@@ -1,0 +1,16 @@
+<recipe version="1.1"><line><originaltext>1/4 cup vegetable oil</originaltext><annotation>create_ing(ing107, "1/4 cup vegetable oil")</annotation></line>
+<line><originaltext>1/4 cup orange marmalade</originaltext><annotation>create_ing(ing108, "1/4 cup orange marmalade")</annotation></line>
+<line><originaltext>3 tablespoons cider vinegar</originaltext><annotation>create_ing(ing109, "3 tablespoons cider vinegar")</annotation></line>
+<line><originaltext>3 tablespoons mayonnaise</originaltext><annotation>create_ing(ing110, "3 tablespoons mayonnaise")</annotation></line>
+<line><originaltext>2 teaspoons curry powder</originaltext><annotation>create_ing(ing111, "2 teaspoons curry powder")</annotation></line>
+<line><originaltext>1/4 teaspoon hot pepper sauce</originaltext><annotation>create_ing(ing112, "1/4 teaspoon hot pepper sauce")</annotation></line>
+<line><originaltext>6 cups cubed, cooked chicken</originaltext><annotation>create_ing(ing113, "6 cups cubed, cooked chicken")</annotation></line>
+<line><originaltext>2 tablespoons golden raisins</originaltext><annotation>create_ing(ing114, "2 tablespoons golden raisins")</annotation></line>
+<line><originaltext>2 tablespoons slivered almonds, toasted</originaltext><annotation>create_ing(ing115, "2 tablespoons slivered almonds, toasted")</annotation></line>
+<line><originaltext>2 tablespoons minced fresh parsley</originaltext><annotation>create_ing(ing116, "2 tablespoons minced fresh parsley")</annotation></line>
+<line><originaltext>In a small bowl, whisk first six ingredients until smooth; chill. </originaltext><annotation>combine({ing107, ing108, ing109, ing110, ing111, ing112}, ing117, "base", "whisk in a small bowl until smooth")</annotation></line>
+<line><originaltext>In a small bowl, whisk first six ingredients until smooth; chill. </originaltext><annotation>leave(ing117,"chill")</annotation></line>
+<line><originaltext>In a small bowl, whisk first six ingredients until smooth; chill. </originaltext><annotation>leave(ing117,"until just before serving")</annotation></line>
+<line><originaltext>Just before serving, combine chicken, raisins, almonds and parsley in a large bowl; add dressing and toss. </originaltext><annotation>combine({ing113, ing114, ing115, ing116}, ing118, "salad", "mix in a large bowl")</annotation></line>
+<line><originaltext>Just before serving, combine chicken, raisins, almonds and parsley in a large bowl; add dressing and toss. </originaltext><annotation>combine({ing117, ing118}, ing119, "salad!", "toss")</annotation></line>
+</recipe>

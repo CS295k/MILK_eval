@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 (4 ounce) bar German sweet chocolate, chopped</originaltext><annotation>create_ing(ing181, "1 (4 ounce) bar German sweet chocolate, chopped")</annotation></line>
+<line><originaltext>1/3 cup milk</originaltext><annotation>create_ing(ing182, "1/3 cup milk")</annotation></line>
+<line><originaltext>4 ounces cream cheese, softened</originaltext><annotation>create_ing(ing183, "4 ounces cream cheese, softened")</annotation></line>
+<line><originaltext>2 tablespoons white sugar</originaltext><annotation>create_ing(ing184, "2 tablespoons white sugar")</annotation></line>
+<line><originaltext>1 (12 ounce) container frozen whipped topping, thawed</originaltext><annotation>create_ing(ing185, "1 (12 ounce) container frozen whipped topping, thawed")</annotation></line>
+<line><originaltext>1 (9 inch) prepared graham cracker crust</originaltext><annotation>create_ing(ing186, "1 (9 inch) prepared graham cracker crust")</annotation></line>
+<line><originaltext>Microwave chocolate and 2 tablespoons of the milk in large microwave-safe bowl on HIGH 1 1/2 to 2 minutes or until chocolate is almost melted, stirring halfway through heating time. </originaltext><annotation>create_tool(t18, "microwave")</annotation></line>
+<line><originaltext>1/3 cup milk</originaltext><annotation>create_ing(ing187, "2 tablespoons milk")</annotation></line>
+<line><originaltext>Microwave chocolate and 2 tablespoons of the milk in large microwave-safe bowl on HIGH 1 1/2 to 2 minutes or until chocolate is almost melted, stirring halfway through heating time. </originaltext><annotation>combine({ing181, ing187}, ing188, "bowl of chocolate", "in a large microwave safe bowl")</annotation></line>
+<line><originaltext>Microwave chocolate and 2 tablespoons of the milk in large microwave-safe bowl on HIGH 1 1/2 to 2 minutes or until chocolate is almost melted, stirring halfway through heating time. </originaltext><annotation>cook(ing188, t18, ing189, "chocolate soup", "on HIGH, 1-1.5 mins, stirring half way through")</annotation></line>
+<line><originaltext>Beat in cream cheese, sugar, and remaining milk with wire whisk until blended. </originaltext><annotation>combine({ing182, ing183, ing184, ing189}, ing190, "batter", "beat with a whisk until well blended")</annotation></line>
+<line><originaltext>Refrigerate 10 minutes. </originaltext><annotation>leave(ing190,"refrigerate for 10 mins")</annotation></line>
+<line><originaltext>Gently fold in 3 1/2 cups of the whipped topping until no streaks remain. </originaltext><annotation>combine({ing185, ing190}, ing191, "streakless batter", "fold in 3.5 cups until no streaks remain")</annotation></line>
+<line><originaltext>Spoon into crust. </originaltext><annotation>combine({ing186, ing191}, ing192, "pie!", "spoon")</annotation></line>
+<line><originaltext>Freeze pie 4 hours. </originaltext><annotation>leave(ing192,"freeze for four hours")</annotation></line>
+<line><originaltext>Before cutting pie, let stand at room temperature 15 minutes. </originaltext><annotation>leave(ing192,"before serving, leave at room temperature for 15 mins")</annotation></line>
+<line><originaltext>Serve with remaining whipped topping. </originaltext><annotation>serve(ing192,"with whipped topping")</annotation></line>
+</recipe>

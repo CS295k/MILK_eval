@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1 cup shortening</originaltext><annotation>create_ing(ing28, "shortening")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing29, "flour")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing30, "salt")</annotation></line>
+<line><originaltext>1 teaspoon ground black pepper</originaltext><annotation>create_ing(ing31, "pepper")</annotation></line>
+<line><originaltext>1 (2 to 3 pound) whole chicken, cut into pieces</originaltext><annotation>create_ing(ing32, "pieces")</annotation></line>
+<line><originaltext>Heat the shortening in a large, cast iron skillet over medium-high heat. </originaltext><annotation>create_tool(t9, "cast iron skillet")</annotation></line>
+<line><originaltext>Heat the shortening in a large, cast iron skillet over medium-high heat. </originaltext><annotation>cook(ing28, t9, ing33, "hot shortening", "heat over medium-high")</annotation></line>
+<line><originaltext>In a brown paper lunch bag, combine the flour, salt, and pepper. </originaltext><annotation>create_tool(t10, "brown paper lunch bag")</annotation></line>
+<line><originaltext>In a brown paper lunch bag, combine the flour, salt, and pepper. </originaltext><annotation>combine({ing29, ing30, ing31}, ing34, "seasonings", "")</annotation></line>
+<line><originaltext>In a brown paper lunch bag, combine the flour, salt, and pepper. </originaltext><annotation>put(ing34, t10)</annotation></line>
+<line><originaltext>Shake two chicken pieces in the bag to coat, and place them in the skillet. </originaltext><annotation>combine({ing32, ing34}, ing35, "coated chicken", "2 pieces at a time, shake chicken in bag")</annotation></line>
+<line><originaltext>Shake two chicken pieces in the bag to coat, and place them in the skillet. </originaltext><annotation>put(ing35, t9)</annotation></line>
+<line><originaltext>Repeat until all of the chicken is coated and in the skillet. </originaltext><annotation>chefcheck(ing35,"all chicken coated and in skillet")</annotation></line>
+<line><originaltext>Repeat until all of the chicken is coated and in the skillet. </originaltext><annotation>combine({ing33, ing35}, ing36, "chicken in skillet", "")</annotation></line>
+<line><originaltext>Fry the chicken over medium-high heat until all of the pieces have been browned on both sides. </originaltext><annotation>cook(ing36, t9, ing37, "cooked chicken", "fry over medium-high heat")</annotation></line>
+<line><originaltext>Fry the chicken over medium-high heat until all of the pieces have been browned on both sides. </originaltext><annotation>chefcheck(ing37,"pieces browned on both sides")</annotation></line>
+<line><originaltext>Turn the heat to medium-low, cover, and cook for 25 minutes. </originaltext><annotation>set(t9,"turn heat to medium-low")</annotation></line>
+<line><originaltext>Turn the heat to medium-low, cover, and cook for 25 minutes. </originaltext><annotation>set(t9,"covered")</annotation></line>
+<line><originaltext>Turn the heat to medium-low, cover, and cook for 25 minutes. </originaltext><annotation>cook(ing37, t9, ing38, "fried chicken", "for 25 minutes")</annotation></line>
+<line><originaltext>Remove the lid, and increase heat to medium-high. </originaltext><annotation>set(t9,"remove lid")</annotation></line>
+<line><originaltext>Remove the lid, and increase heat to medium-high. </originaltext><annotation>set(t9,"increase heat to medium-high")</annotation></line>
+<line><originaltext>Continue frying until chicken pieces are a deep golden brown, and the juices run clear. </originaltext><annotation>cook(ing38, t9, ing39, "fried chicken", "continue frying until deep golden brown")</annotation></line>
+<line><originaltext>Continue frying until chicken pieces are a deep golden brown, and the juices run clear. </originaltext><annotation>chefcheck(ing39,"deep golden brown")</annotation></line>
+<line><originaltext>Continue frying until chicken pieces are a deep golden brown, and the juices run clear. </originaltext><annotation>chefcheck(ing39,"juices run clear")</annotation></line>
+<line><originaltext>Continue frying until chicken pieces are a deep golden brown, and the juices run clear. </originaltext><annotation>serve(ing39,"")</annotation></line>
+</recipe>

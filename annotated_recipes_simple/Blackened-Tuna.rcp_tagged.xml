@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>1 1/2 pounds fresh tuna steaks, 1 inch thick</originaltext><annotation>create_ing(ing0, "1 1/2 pounds fresh tuna steaks, 1 inch thick")</annotation></line>
+<line><originaltext>2 tablespoons Cajun seasoning</originaltext><annotation>create_ing(ing1, "2 tablespoons Cajun seasoning")</annotation></line>
+<line><originaltext>2 tablespoons olive oil</originaltext><annotation>create_ing(ing2, "2 tablespoons olive oil")</annotation></line>
+<line><originaltext>2 tablespoons butter</originaltext><annotation>create_ing(ing3, "2 tablespoons butter")</annotation></line>
+<line><originaltext>Generously coat tuna with Cajun seasoning.</originaltext><annotation>combine({ing0, ing1}, ing4, "cajun tuna", "generously coat tuna with seasoning")</annotation></line>
+<line><originaltext>Heat oil and butter in a large skillet over high heat. </originaltext><annotation>create_tool(t0, "large skillet")</annotation></line>
+<line><originaltext>Heat oil and butter in a large skillet over high heat. </originaltext><annotation>combine({ing2, ing3}, ing5, "butter oil", "")</annotation></line>
+<line><originaltext>Heat oil and butter in a large skillet over high heat. </originaltext><annotation>cook(ing5, t0, ing6, "hot butter oil", "heat over high heat")</annotation></line>
+<line><originaltext>When oil is nearly smoking, place steaks in pan. </originaltext><annotation>chefcheck(ing6,"nearly smoking")</annotation></line>
+<line><originaltext>When oil is nearly smoking, place steaks in pan. </originaltext><annotation>combine({ing4, ing6}, ing7, "buttery tuna", "in pan")</annotation></line>
+<line><originaltext>Cook on one side for 3 to 4 minutes, or until blackened. </originaltext><annotation>cook(ing7, t0, ing8, "one-sided tuna", "for 3-4 minutes or until blackened")</annotation></line>
+<line><originaltext>Turn steaks, and cook for 3 to 4 minutes, or to desired doneness.</originaltext><annotation>do(ing8, , ing10, "flipped steaks", "turn steaks")</annotation></line>
+<line><originaltext>Turn steaks, and cook for 3 to 4 minutes, or to desired doneness.</originaltext><annotation>cook(ing10, t0, ing9, "blackened tuna", "for 3-4 minutes or until done")</annotation></line>
+<line><originaltext>Turn steaks, and cook for 3 to 4 minutes, or to desired doneness.</originaltext><annotation>serve(ing9,"")</annotation></line>
+</recipe>

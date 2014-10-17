@@ -1,0 +1,12 @@
+<recipe version="1.1"><line><originaltext>10 hot dogs, cut into thirds</originaltext><annotation>create_ing(ing0, "10 hot dogs, cut into thirds")</annotation></line>
+<line><originaltext>15 slices bacon, cut in half</originaltext><annotation>create_ing(ing1, "15 slices bacon, cut in half")</annotation></line>
+<line><originaltext>1/2 cup packed brown sugar</originaltext><annotation>create_ing(ing2, "1/2 cup packed brown sugar")</annotation></line>
+<line><originaltext>Wrap 1/2 slice of bacon around each piece of hot dog. </originaltext><annotation>combine({ing0, ing1}, ing3, "bacon dogs", "wrap 1/2 slice around each piece")</annotation></line>
+<line><originaltext>Secure the bacon with a toothpick.</originaltext><annotation>create_tool(t0, "toothpick")</annotation></line>
+<line><originaltext>Secure the bacon with a toothpick.</originaltext><annotation>do(ing3, t0, ing4, "secured bacon dogs", "secure with toothpick")</annotation></line>
+<line><originaltext>Place hot dogs into a slow cooker on low heat.  </originaltext><annotation>create_tool(t1, "slow cooker")</annotation></line>
+<line><originaltext>Place hot dogs into a slow cooker on low heat.  </originaltext><annotation>cook(ing4, t1, ing5, "cooked dogs", "low heat")</annotation></line>
+<line><originaltext>Pour brown sugar over hot dogs, let cook for 5 to 6 hours; until the bacon is cooked.</originaltext><annotation>combine({ing2, ing5}, ing6, "sugary dogs", "pour over")</annotation></line>
+<line><originaltext>Pour brown sugar over hot dogs, let cook for 5 to 6 hours; until the bacon is cooked.</originaltext><annotation>cook(ing6, t1, ing7, "cooked dogs", "5 to 6 hours")</annotation></line>
+<line><originaltext>Pour brown sugar over hot dogs, let cook for 5 to 6 hours; until the bacon is cooked.</originaltext><annotation>chefcheck(ing7,"bacon is cooked")</annotation></line>
+</recipe>

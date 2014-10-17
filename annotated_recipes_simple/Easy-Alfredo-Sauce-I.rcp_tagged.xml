@@ -1,0 +1,10 @@
+<recipe version="1.1"><line><originaltext>1 pint heavy whipping cream</originaltext><annotation>create_ing(ing13, "1 pint heavy whipping cream")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing14, "1/2 cup butter")</annotation></line>
+<line><originaltext>1 1/2 cups grated Parmesan cheese</originaltext><annotation>create_ing(ing15, "1 1/2 cups grated Parmesan cheese")</annotation></line>
+<line><originaltext>In a medium saucepan combine whipping cream, butter or margarine, and grated Parmesan cheese. </originaltext><annotation>create_tool(t4, "medium saucepan")</annotation></line>
+<line><originaltext>In a medium saucepan combine whipping cream, butter or margarine, and grated Parmesan cheese. </originaltext><annotation>combine({ing13, ing14, ing15}, ing16, "creambutterparmacheese", "in saucepan")</annotation></line>
+<line><originaltext>Cook over medium low heat until smooth. </originaltext><annotation>set(t4,"medium-low heat")</annotation></line>
+<line><originaltext>Cook over medium low heat until smooth. </originaltext><annotation>cook(ing16, t4, ing17, "smooth sauce", "over medium-low heat")</annotation></line>
+<line><originaltext>Remove from heat. </originaltext><annotation>set(t4,"Remove from heat")</annotation></line>
+<line><originaltext>Sauce will thicken upon standing. </originaltext><annotation>leave(ing17,"to thicken")</annotation></line>
+</recipe>

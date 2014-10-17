@@ -1,0 +1,17 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 3) (NNS cups)) (NP (VBN cooked) (, ,) (JJ mashed) (NN winter) (NN squash))))</parsed-text><annotation>create_ing(ing76, "3 cups cooked, mashed winter squash")</annotation></line>
+<line><parsed-text>(S1 (S (NP (QP (CD 1) (CD 1/2)) (NNS tablespoons)) (VP (VB curry) (NP (NNP powder)))))</parsed-text><annotation>create_ing(ing77, "1 1/2 tablespoons curry powder")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (NP (NN butter)) (CC or) (NP (NNP trans) (JJ fat-free) (NN margarine)))))</parsed-text><annotation>create_ing(ing78, "2 tablespoons butter or trans fat-free margarine")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (JJ tablespoons) (NNP maple) (NN syrup)))</parsed-text><annotation>create_ing(ing79, "2 tablespoons maple syrup")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN teaspoon)) (NP (NNP Salt)) (, ,) (SBAR (S (VP (TO to) (VP (VB taste)))))))</parsed-text><annotation>create_ing(ing80, "1/2 teaspoon Salt, to taste")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN teaspoon)) (NP (JJ cayenne) (NN pepper) (S (VP (TO to) (VP (VB taste)))))))</parsed-text><annotation>create_ing(ing81, "1/4 teaspoon cayenne pepper to taste")</annotation></line>
+<line><parsed-text>(S1 (S (NP (CD 3) (NNS tablespoons)) (VP (VBD sweetened) (NP (JJ coconut) (NNP flakes)) (, ,) (S (VP (VBD toasted) (PRN (-LRB- -LRB-) (JJ optional) (-RRB- -RRB-)))))))</parsed-text><annotation>create_ing(ing82, "3 tablespoons sweetened coconut flakes, toasted (optional)")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN bowl))) (, ,) (VP (VBP combine) (NP (JJ first) (CD six) (NNS ingredients))) (. .)))</parsed-text><annotation>create_tool(t17, "medium bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN bowl))) (, ,) (VP (VBP combine) (NP (JJ first) (CD six) (NNS ingredients))) (. .)))</parsed-text><annotation>combine({ing76, ing77, ing78, ing79, ing80, ing81}, ing83, "mixture", "in medium bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ medium) (NN bowl))) (, ,) (VP (VBP combine) (NP (JJ first) (CD six) (NNS ingredients))) (. .)))</parsed-text><annotation>mix(ing83, t17, ing84, "mixture", "mix")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Microwave)) (PP (IN on) (NP (JJ high) (IN until)))) (VP (VP (VBN heated) (PP (IN through))) (, ,) (NP (QP (IN about) (CD 5)) (NNS minutes))) (. .)))</parsed-text><annotation>create_tool(t18, "microwave")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Microwave)) (PP (IN on) (NP (JJ high) (IN until)))) (VP (VP (VBN heated) (PP (IN through))) (, ,) (NP (QP (IN about) (CD 5)) (NNS minutes))) (. .)))</parsed-text><annotation>cook(ing84, t18, ing85, "hot squash", "on high for 5 minutes")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NP (NN Microwave)) (PP (IN on) (NP (JJ high) (IN until)))) (VP (VP (VBN heated) (PP (IN through))) (, ,) (NP (QP (IN about) (CD 5)) (NNS minutes))) (. .)))</parsed-text><annotation>chefcheck(ing85,"heated through")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VBP Sprinkle) (PP (IN on) (NP (NN coconut))) (, ,) (SBAR (IN if) (S (VP (VBN desired))))) (. .)))</parsed-text><annotation>combine({ing82, ing85}, ing86, "winter squash", "sprinkle (if desired)")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Serve)) (. .)))</parsed-text><annotation>serve(ing86,"")</annotation></line>
+</recipe>

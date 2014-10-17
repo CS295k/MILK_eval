@@ -1,0 +1,15 @@
+<recipe version="1.1"><line><originaltext>1 cup brown sugar</originaltext><annotation>create_ing(ing0, "1 cup brown sugar")</annotation></line>
+<line><originaltext>1/2 cup chile sauce</originaltext><annotation>create_ing(ing1, "1/2 cup chile sauce")</annotation></line>
+<line><originaltext>1/2 cup rum</originaltext><annotation>create_ing(ing2, "1/2 cup rum")</annotation></line>
+<line><originaltext>1/4 cup soy sauce</originaltext><annotation>create_ing(ing3, "1/4 cup soy sauce")</annotation></line>
+<line><originaltext>1/4 cup ketchup</originaltext><annotation>create_ing(ing4, "1/4 cup ketchup")</annotation></line>
+<line><originaltext>1/4 cup Worcestershire sauce</originaltext><annotation>create_ing(ing5, "1/4 cup Worcestershire sauce")</annotation></line>
+<line><originaltext>2 cloves garlic, crushed</originaltext><annotation>create_ing(ing6, "2 cloves garlic, crushed")</annotation></line>
+<line><originaltext>1 teaspoon ground dry mustard</originaltext><annotation>create_ing(ing7, "1 teaspoon ground dry mustard")</annotation></line>
+<line><originaltext>ground black pepper to taste</originaltext><annotation>create_ing(ing8, "ground black pepper to taste")</annotation></line>
+<line><originaltext>In a saucepan over low heat, mix the brown sugar, chile sauce, rum, soy sauce, ketchup, Worcestershire sauce, garlic, dry mustard, and pepper.</originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan over low heat, mix the brown sugar, chile sauce, rum, soy sauce, ketchup, Worcestershire sauce, garlic, dry mustard, and pepper.</originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6, ing7, ing8}, ing9, "bbq sauce", "")</annotation></line>
+<line><originaltext>In a saucepan over low heat, mix the brown sugar, chile sauce, rum, soy sauce, ketchup, Worcestershire sauce, garlic, dry mustard, and pepper.</originaltext><annotation>mix(ing9, t0, ing10, "stirred sauce", "stir")</annotation></line>
+<line><originaltext>Simmer 30 minutes, stirring occasionally. </originaltext><annotation>cook(ing10, t0, ing11, "heated sauce", "simmer 30 minutes, stirring occasionally")</annotation></line>
+<line><originaltext>Cool, and refrigerate until ready to use.</originaltext><annotation>leave(ing11,"cool and refrigerate")</annotation></line>
+</recipe>

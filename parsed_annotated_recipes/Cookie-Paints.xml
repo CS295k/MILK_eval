@@ -1,0 +1,7 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 2) (NNS tablespoons)) (NP (VBN evaporated) (NN milk))))</parsed-text><annotation>create_ing(ing0, "2 tablespoons evaporated milk")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 4) (NNS drops)) (NP (JJ red) (NN food) (NN coloring))))</parsed-text><annotation>create_ing(ing1, "4 drops red food coloring")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (, ,) (VP (VB stir) (NP (DT the) (NN food) (NN coloring)) (PP (IN into) (NP (DT the) (VBN evaporated) (NN milk)))) (. .)))</parsed-text><annotation>create_tool(t0, "small bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ small) (NN bowl))) (, ,) (VP (VB stir) (NP (DT the) (NN food) (NN coloring)) (PP (IN into) (NP (DT the) (VBN evaporated) (NN milk)))) (. .)))</parsed-text><annotation>combine({ing0, ing1}, ing2, "cookie paint", "stir in")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Paint) (PP (IN onto) (NP (NP (NNS cookies)) (PP (IN with) (NP (DT a) (NN paintbrush))))) (PP (IN before) (S (VP (VBG baking))))) (. .)))</parsed-text><annotation>do(ing2, , ing3, "painted cookies", "paint onto cookies with a paintbrush before baking")</annotation></line>
+</recipe>

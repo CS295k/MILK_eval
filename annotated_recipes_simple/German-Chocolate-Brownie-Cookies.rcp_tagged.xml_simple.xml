@@ -1,0 +1,33 @@
+<recipe version="1.1"><line><originaltext>1 1/2 cups packed brown sugar</originaltext><annotation>create_ing(ing193, "sugar")</annotation></line>
+<line><originaltext>2/3 cup shortening</originaltext><annotation>create_ing(ing194, "shortening")</annotation></line>
+<line><originaltext>1 tablespoon water</originaltext><annotation>create_ing(ing195, "water")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing196, "extract")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing197, "eggs")</annotation></line>
+<line><originaltext>1 1/2 cups all-purpose flour</originaltext><annotation>create_ing(ing198, "flour")</annotation></line>
+<line><originaltext>1/3 cup unsweetened cocoa powder</originaltext><annotation>create_ing(ing199, "powder")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing200, "salt")</annotation></line>
+<line><originaltext>1/4 teaspoon baking soda</originaltext><annotation>create_ing(ing201, "soda")</annotation></line>
+<line><originaltext>2 cups semisweet chocolate chips</originaltext><annotation>create_ing(ing202, "chips")</annotation></line>
+<line><originaltext>1/2 cup evaporated milk</originaltext><annotation>create_ing(ing203, "cup")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing204, "sugar")</annotation></line>
+<line><originaltext>1/4 cup shortening</originaltext><annotation>create_ing(ing205, "shortening")</annotation></line>
+<line><originaltext>2 egg yolks, beaten</originaltext><annotation>create_ing(ing206, "yolks")</annotation></line>
+<line><originaltext>1/2 teaspoon vanilla extract</originaltext><annotation>create_ing(ing207, "extract")</annotation></line>
+<line><originaltext>1/2 cup chopped pecans</originaltext><annotation>create_ing(ing208, "pecans")</annotation></line>
+<line><originaltext>1/2 cup flaked coconut</originaltext><annotation>create_ing(ing209, "coconut")</annotation></line>
+<line><originaltext>Combine brown sugar, 2/3 cup shortening, water, and 1 teaspoon vanilla in large bowl. </originaltext><annotation>combine({ing193, ing194, ing195, ing196}, ing210, "one", "in a large bowl")</annotation></line>
+<line><originaltext>Beat eggs into creamed mixture. </originaltext><annotation>combine({ing197, ing210}, ing211, "eggs and creamed", "beat")</annotation></line>
+<line><originaltext>In another bowl, combine flour, cocoa, salt, and baking soda. </originaltext><annotation>combine({ing198, ing199, ing200, ing201}, ing212, "dry", "mix in another bowl")</annotation></line>
+<line><originaltext>Mix this mixture into creamed mixture until just blended. </originaltext><annotation>combine({ing211, ing212}, ing213, "dough", "mix until just blended")</annotation></line>
+<line><originaltext>Stir in chocolate chips. </originaltext><annotation>mix(ing213, "", ing214, "more chocolatey dough", "stir in")</annotation></line>
+<line><originaltext>Drop rounded tablespoonfuls of dough onto ungreased baking sheet about 2 inches apart. </originaltext><annotation>create_tool(t19, "baking sheet")</annotation></line>
+<line><originaltext>Drop rounded tablespoonfuls of dough onto ungreased baking sheet about 2 inches apart. </originaltext><annotation>put(ing214, t19)</annotation></line>
+<line><originaltext>Place cookie sheet in the middle of the oven. </originaltext><annotation>create_tool(t20, "oven")</annotation></line>
+<line><originaltext>Place cookie sheet in the middle of the oven. </originaltext><annotation>set(t20,"375 F")</annotation></line>
+<line><originaltext>Place cookie sheet in the middle of the oven. </originaltext><annotation>cook(ing214, t20, ing215, "baked cookies", "place in the center of the oven, for 7 to 9 mins or until set")</annotation></line>
+<line><originaltext>Cool for 2 minutes on baking sheet. </originaltext><annotation>leave(ing215,"cool for 2 mins")</annotation></line>
+<line><originaltext>Remove cookies to wire rack to cool completely. </originaltext><annotation>leave(ing215,"on a wire rack to finish cooling")</annotation></line>
+<line><originaltext>To Make Frosting: Begin by combining evaporated milk, white sugar, 1/4 cup shortening, and egg yolks in medium saucepan. </originaltext><annotation>combine({ing203, ing204, ing205, ing206}, ing216, "frosting base", "stir in a sauce pan over medium heat until thick")</annotation></line>
+<line><originaltext>Stir 1/2 teaspoon vanilla, pecans, and coconut into the warm mixture. </originaltext><annotation>combine({ing207, ing208, ing209, ing216}, ing217, "frosting", "stir")</annotation></line>
+<line><originaltext>Cool completely, and frost cooled cookies. </originaltext><annotation>combine({ing215, ing217}, ing218, "cookies!", "frost")</annotation></line>
+</recipe>

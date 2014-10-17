@@ -1,0 +1,49 @@
+<recipe version="1.1"><line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing0, "flour")</annotation></line>
+<line><originaltext>2 cups sugar</originaltext><annotation>create_ing(ing1, "sugar")</annotation></line>
+<line><originaltext>1 1/2 teaspoons ground cinnamon</originaltext><annotation>create_ing(ing2, "cinnamon")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing3, "salt")</annotation></line>
+<line><originaltext>1 cup water</originaltext><annotation>create_ing(ing4, "water")</annotation></line>
+<line><originaltext>1/2 cup vegetable oil</originaltext><annotation>create_ing(ing5, "oil")</annotation></line>
+<line><originaltext>1/2 cup butter or margarine</originaltext><annotation>create_ing(ing6, "margarine")</annotation></line>
+<line><originaltext>1/4 cup baking cocoa</originaltext><annotation>create_ing(ing7, "cocoa")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing8, "eggs")</annotation></line>
+<line><originaltext>1/2 cup buttermilk</originaltext><annotation>create_ing(ing9, "cup")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing10, "extract")</annotation></line>
+<line><originaltext>1 teaspoon baking soda</originaltext><annotation>create_ing(ing11, "soda")</annotation></line>
+<line><originaltext>1/2 cup butter or margarine</originaltext><annotation>create_ing(ing12, "margarine")</annotation></line>
+<line><originaltext>1/3 cup whipping cream</originaltext><annotation>create_ing(ing13, "cream")</annotation></line>
+<line><originaltext>1/4 cup baking cocoa</originaltext><annotation>create_ing(ing14, "cocoa")</annotation></line>
+<line><originaltext>1 1/2 teaspoons ground cinnamon</originaltext><annotation>create_ing(ing15, "cinnamon")</annotation></line>
+<line><originaltext>3 cups confectioners' sugar</originaltext><annotation>create_ing(ing16, "sugar")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing17, "extract")</annotation></line>
+<line><originaltext>1 cup finely chopped walnuts</originaltext><annotation>create_ing(ing18, "walnuts")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the first four ingredients. </originaltext><annotation>create_tool(t0, "mixing bowl")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the first four ingredients. </originaltext><annotation>combine({ing0, ing1, ing15, ing3}, ing19, "first four ingredients", "")</annotation></line>
+<line><originaltext>In a mixing bowl, combine the first four ingredients. </originaltext><annotation>put(ing19, t0)</annotation></line>
+<line><originaltext>In a saucepan, combine water, oil, butter and cocoa; bring to a boil over medium heat. </originaltext><annotation>create_tool(t1, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan, combine water, oil, butter and cocoa; bring to a boil over medium heat. </originaltext><annotation>combine({ing4, ing5, ing6, ing7}, ing20, "saucepan things", "")</annotation></line>
+<line><originaltext>In a saucepan, combine water, oil, butter and cocoa; bring to a boil over medium heat. </originaltext><annotation>put(ing20, t1)</annotation></line>
+<line><originaltext>In a saucepan, combine water, oil, butter and cocoa; bring to a boil over medium heat. </originaltext><annotation>cook(ing20, t1, ing21, "boiling saucepan things", "bring to a boil over medium heat")</annotation></line>
+<line><originaltext>pour over dry ingredients; mix well. </originaltext><annotation>combine({ing19, ing21}, ing22, "things to be mixed", "pour saucepan's contents over dry ingredients")</annotation></line>
+<line><originaltext>pour over dry ingredients; mix well. </originaltext><annotation>mix(ing22, t0, ing23, "mixed things", "mix well")</annotation></line>
+<line><originaltext>Add eggs, buttermilk, vanilla and baking soda; mix well. </originaltext><annotation>combine({ing10, ing11, ing23, ing8, ing9}, ing24, "batter", "")</annotation></line>
+<line><originaltext>Add eggs, buttermilk, vanilla and baking soda; mix well. </originaltext><annotation>mix(ing24, t0, ing25, "mixed batter", "mix well")</annotation></line>
+<line><originaltext>Pour into a greased and floured 15-in. </originaltext><annotation>create_tool(t2, "15-in x 10-in x 1-in baking pan")</annotation></line>
+<line><originaltext>Pour into a greased and floured 15-in. </originaltext><annotation>set(t2,"greased and floured")</annotation></line>
+<line><originaltext>Pour into a greased and floured 15-in. </originaltext><annotation>put(ing25, t2)</annotation></line>
+<line><originaltext>Bake at 375 degrees F for 15-20 minutes or until a toothpick inserted near the center comes out clean. </originaltext><annotation>create_tool(t3, "oven")</annotation></line>
+<line><originaltext>Bake at 375 degrees F for 15-20 minutes or until a toothpick inserted near the center comes out clean. </originaltext><annotation>cook(ing25, t3, ing26, "baked batter", "bake at 375 degrees for 15-20 minutes")</annotation></line>
+<line><originaltext>Bake at 375 degrees F for 15-20 minutes or until a toothpick inserted near the center comes out clean. </originaltext><annotation>chefcheck(ing26,"toothpick inserted near center of pan comes out clean")</annotation></line>
+<line><originaltext>Meanwhile, for frosting, combine the butter, cream, cocoa and cinnamon in a saucepan. </originaltext><annotation>create_tool(t4, "saucepan")</annotation></line>
+<line><originaltext>Meanwhile, for frosting, combine the butter, cream, cocoa and cinnamon in a saucepan. </originaltext><annotation>combine({ing12, ing13, ing14, ing2}, ing27, "things in saucepan", "")</annotation></line>
+<line><originaltext>Meanwhile, for frosting, combine the butter, cream, cocoa and cinnamon in a saucepan. </originaltext><annotation>put(ing27, t4)</annotation></line>
+<line><originaltext>Cook and stir over medium heat until butter is melted and mixture is heated through. </originaltext><annotation>cook(ing27, t4, ing28, "cooked saucepan things", "cook and stir over medium heat")</annotation></line>
+<line><originaltext>Cook and stir over medium heat until butter is melted and mixture is heated through. </originaltext><annotation>chefcheck(ing28,"butter is melted and mixture is heated through")</annotation></line>
+<line><originaltext>Remove from the heat; beat in sugar and vanilla until smooth. </originaltext><annotation>combine({ing16, ing17, ing28}, ing29, "things to be beaten", "")</annotation></line>
+<line><originaltext>Remove from the heat; beat in sugar and vanilla until smooth. </originaltext><annotation>mix(ing29, t4, ing30, "beaten things", "beat until smooth")</annotation></line>
+<line><originaltext>Remove from the heat; beat in sugar and vanilla until smooth. </originaltext><annotation>chefcheck(ing30,"smooth")</annotation></line>
+<line><originaltext>Stir in walnuts. </originaltext><annotation>combine({ing18, ing30}, ing31, "frosting things", "stir in walnuts")</annotation></line>
+<line><originaltext>Carefully spread over hot cake. </originaltext><annotation>combine({ing26, ing31}, ing32, "frosted cake", "spread frosting over cake")</annotation></line>
+<line><originaltext>Cool completely. </originaltext><annotation>leave(ing32,"cool completely")</annotation></line>
+<line><originaltext>Cool completely. </originaltext><annotation>serve(ing32,"")</annotation></line>
+</recipe>

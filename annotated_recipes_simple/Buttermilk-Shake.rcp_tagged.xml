@@ -1,0 +1,11 @@
+<recipe version="1.1"><line><originaltext>1 pint vanilla ice cream</originaltext><annotation>create_ing(ing0, "1 pint vanilla ice cream")</annotation></line>
+<line><originaltext>1 cup buttermilk</originaltext><annotation>create_ing(ing1, "1 cup buttermilk")</annotation></line>
+<line><originaltext>1 teaspoon grated lemon peel</originaltext><annotation>create_ing(ing2, "1 teaspoon grated lemon peel")</annotation></line>
+<line><originaltext>1/2 teaspoon vanilla extract</originaltext><annotation>create_ing(ing3, "1/2 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1 drop lemon extract</originaltext><annotation>create_ing(ing4, "1 drop lemon extract")</annotation></line>
+<line><originaltext>Place all ingredients in a blender container. </originaltext><annotation>create_tool(t0, "blender")</annotation></line>
+<line><originaltext>Place all ingredients in a blender container. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing5, "milkshake", "")</annotation></line>
+<line><originaltext>Place all ingredients in a blender container. </originaltext><annotation>put(ing5, t0)</annotation></line>
+<line><originaltext>Cover and process on high until smooth. </originaltext><annotation>mix(ing5, t0, ing6, "blended milkshake", "on "high" until smooth")</annotation></line>
+<line><originaltext>Pour into glasses. </originaltext><annotation>serve(ing6,"in glasses")</annotation></line>
+</recipe>

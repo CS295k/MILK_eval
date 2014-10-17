@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>2 (9 inch)  pie shells, baked</originaltext><annotation>create_ing(ing0, "shells")</annotation></line>
+<line><originaltext>3 (8 ounce) packages cream cheese, softened</originaltext><annotation>create_ing(ing1, "ounce")</annotation></line>
+<line><originaltext>1/2 cup white sugar</originaltext><annotation>create_ing(ing2, "sugar")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing3, "extract")</annotation></line>
+<line><originaltext>2 eggs</originaltext><annotation>create_ing(ing4, "eggs")</annotation></line>
+<line><originaltext>1 cup sour cream</originaltext><annotation>create_ing(ing5, "cream")</annotation></line>
+<line><originaltext>3 tablespoons white sugar</originaltext><annotation>create_ing(ing6, "tablespoons")</annotation></line>
+<line><originaltext>2 cups sliced fresh strawberries</originaltext><annotation>create_ing(ing7, "strawberries")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 350 degrees F (175 degrees C). </originaltext><annotation>set(t0,"Preheat to 300 degrees F")</annotation></line>
+<line><originaltext>In a medium mixing bowl, whip cream cheese until fluffy. </originaltext><annotation>create_tool(t1, "medium mixing bowl")</annotation></line>
+<line><originaltext>In a medium mixing bowl, whip cream cheese until fluffy. </originaltext><annotation>mix(ing1, t1, ing8, "whipped cream cheese", "whip")</annotation></line>
+<line><originaltext>In a medium mixing bowl, whip cream cheese until fluffy. </originaltext><annotation>chefcheck(ing8,"fluffy")</annotation></line>
+<line><originaltext>Add 1/2 cup sugar and vanilla extract. </originaltext><annotation>combine({ing2, ing3, ing8}, ing9, "sugar, vanilla, cheese", "")</annotation></line>
+<line><originaltext>Mix until smooth. </originaltext><annotation>mix(ing9, t1, ing10, "cheese mixture", "mix until smooth")</annotation></line>
+<line><originaltext>Mix until smooth. </originaltext><annotation>chefcheck(ing10,"smooth")</annotation></line>
+<line><originaltext>Add eggs. </originaltext><annotation>combine({ing10, ing4}, ing11, "mixture and eggs", "")</annotation></line>
+<line><originaltext>Beat until all ingredients are thoroughly combined. </originaltext><annotation>mix(ing11, t1, ing12, "full mixture", "beat until combined")</annotation></line>
+<line><originaltext>Beat until all ingredients are thoroughly combined. </originaltext><annotation>chefcheck(ing12,"thoroughly combined")</annotation></line>
+<line><originaltext>Pour mixture into pastry shells. </originaltext><annotation>combine({ing0, ing12}, ing13, "mixture in pastry shells", "pour mixture into pastry shells")</annotation></line>
+<line><originaltext>Bake in preheated oven for 20 minutes. </originaltext><annotation>cook(ing13, t0, ing14, "baked mixture", "bake for 20 minutes")</annotation></line>
+<line><originaltext>Remove and let stand for 5 minutes. </originaltext><annotation>remove(ing14,t0)</annotation></line>
+<line><originaltext>Remove and let stand for 5 minutes. </originaltext><annotation>leave(ing14,"let stand for 5 minutes")</annotation></line>
+<line><originaltext>In a small bowl, combine sour cream and 3 tablespoons sugar. </originaltext><annotation>create_tool(t2, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, combine sour cream and 3 tablespoons sugar. </originaltext><annotation>combine({ing5, ing6}, ing15, "sugar and sour cream", "")</annotation></line>
+<line><originaltext>In a small bowl, combine sour cream and 3 tablespoons sugar. </originaltext><annotation>mix(ing15, t2, ing16, "sour cream mix", "")</annotation></line>
+<line><originaltext>Mix well, then spread half of mixture over each pie. </originaltext><annotation>combine({ing14, ing16}, ing17, "pie with topping", "spread half over each pie")</annotation></line>
+<line><originaltext>Turn off oven. </originaltext><annotation>set(t0,"turn off")</annotation></line>
+<line><originaltext>Place pies in oven for 15 minutes. </originaltext><annotation>cook(ing17, t0, ing18, "pie in oven", "15 minutes")</annotation></line>
+<line><originaltext>Remove and chill overnight. </originaltext><annotation>remove(ing18,t0)</annotation></line>
+<line><originaltext>Remove and chill overnight. </originaltext><annotation>leave(ing18,"chill overnight")</annotation></line>
+<line><originaltext>Before serving, top each pie with 1 cup of strawberries. </originaltext><annotation>combine({ing18, ing7}, ing19, "pie with strawberries", "top with strawberries")</annotation></line>
+<line><originaltext>Before serving, top each pie with 1 cup of strawberries. </originaltext><annotation>serve(ing19,"")</annotation></line>
+</recipe>

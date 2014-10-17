@@ -1,0 +1,30 @@
+<recipe version="1.1"><line><originaltext>1 cup corn</originaltext><annotation>create_ing(ing16, "corn")</annotation></line>
+<line><originaltext>1/2 cup diced red onion</originaltext><annotation>create_ing(ing17, "onion")</annotation></line>
+<line><originaltext>1 cup peeled, chopped jicama</originaltext><annotation>create_ing(ing18, "jicama")</annotation></line>
+<line><originaltext>1/2 cup diced red bell pepper</originaltext><annotation>create_ing(ing19, "pepper")</annotation></line>
+<line><originaltext>1 cup fresh cilantro leaves, finely chopped</originaltext><annotation>create_ing(ing20, "cilantro")</annotation></line>
+<line><originaltext>1 lime, zested and juiced</originaltext><annotation>create_ing(ing21, "lime")</annotation></line>
+<line><originaltext>2 tablespoons sour cream</originaltext><annotation>create_ing(ing22, "cream")</annotation></line>
+<line><originaltext>2 tablespoons cayenne pepper</originaltext><annotation>create_ing(ing23, "pepper")</annotation></line>
+<line><originaltext>1 tablespoon ground black pepper</originaltext><annotation>create_ing(ing24, "pepper")</annotation></line>
+<line><originaltext>2 tablespoons salt</originaltext><annotation>create_ing(ing25, "salt")</annotation></line>
+<line><originaltext>6 (4 ounce) fillets tilapia</originaltext><annotation>create_ing(ing26, "ounce")</annotation></line>
+<line><originaltext>2 tablespoons olive oil</originaltext><annotation>create_ing(ing27, "oil")</annotation></line>
+<line><originaltext>12 corn tortillas, warmed</originaltext><annotation>create_ing(ing28, "tortillas")</annotation></line>
+<line><originaltext>Preheat grill for high heat. </originaltext><annotation>create_tool(t2, "grill")</annotation></line>
+<line><originaltext>Preheat grill for high heat. </originaltext><annotation>set(t2,"high heat")</annotation></line>
+<line><originaltext>In a medium bowl, mix together corn, red onion, jicama, red bell pepper, and cilantro. </originaltext><annotation>create_tool(t3, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix together corn, red onion, jicama, red bell pepper, and cilantro. </originaltext><annotation>combine({ing16, ing17, ing18, ing19, ing20}, ing29, "veggies", "")</annotation></line>
+<line><originaltext>In a medium bowl, mix together corn, red onion, jicama, red bell pepper, and cilantro. </originaltext><annotation>mix(ing29, t3, ing30, "mixed veggies", "")</annotation></line>
+<line><originaltext>Stir in lime juice and zest. </originaltext><annotation>combine({ing21, ing30}, ing31, "limed veggies", "")</annotation></line>
+<line><originaltext>Stir in lime juice and zest. </originaltext><annotation>mix(ing31, t3, ing32, "limed veggies", "stir")</annotation></line>
+<line><originaltext>In a small bowl, combine cayenne pepper, ground black pepper, and salt. </originaltext><annotation>create_tool(t4, "small bowl")</annotation></line>
+<line><originaltext>In a small bowl, combine cayenne pepper, ground black pepper, and salt. </originaltext><annotation>combine({ing23, ing24, ing25}, ing33, "seasoning", "")</annotation></line>
+<line><originaltext>In a small bowl, combine cayenne pepper, ground black pepper, and salt. </originaltext><annotation>mix(ing33, t4, ing34, "seasoning", "")</annotation></line>
+<line><originaltext>Brush each fillet with olive oil, and sprinkle with spices. </originaltext><annotation>combine({ing26, ing27}, ing35, "oiled fillets", "brush each filet with olive oil")</annotation></line>
+<line><originaltext>Brush each fillet with olive oil, and sprinkle with spices. </originaltext><annotation>combine({ing34, ing35}, ing36, "seasoned filets", "sprinkle with spices")</annotation></line>
+<line><originaltext>Arrange fillets on grill grate, and cook for 3 minutes per side. </originaltext><annotation>put(ing36, t2)</annotation></line>
+<line><originaltext>Arrange fillets on grill grate, and cook for 3 minutes per side. </originaltext><annotation>cook(ing36, t2, ing37, "cooked fillets", "3 minutes per side")</annotation></line>
+<line><originaltext>For each fiery fish taco, top two corn tortillas with fish, sour cream, and corn salsa. </originaltext><annotation>combine({ing22, ing28, ing32, ing37}, ing38, "finished taco", "top torillas with other ingredients")</annotation></line>
+<line><originaltext>For each fiery fish taco, top two corn tortillas with fish, sour cream, and corn salsa. </originaltext><annotation>serve(ing38,"")</annotation></line>
+</recipe>

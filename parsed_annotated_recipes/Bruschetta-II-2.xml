@@ -1,0 +1,20 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 10) (NNS slices)) (NP (JJ Italian) (NN bread))))</parsed-text><annotation>create_ing(ing6, "10 slices Italian bread")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (CD 1/2)) (NNS teaspoons) (NN olive) (NN oil)))</parsed-text><annotation>create_ing(ing7, "2 1/2 teaspoons olive oil")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 4) (JJ vine-ripened) (NNS tomatoes)))</parsed-text><annotation>create_ing(ing8, "4 vine-ripened tomatoes")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN teaspoon)) (VP (VBN chopped) (NP (JJ fresh) (NNP basil)))))</parsed-text><annotation>create_ing(ing9, "1 teaspoon chopped fresh basil")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Preheat) (NP (NN broiler))) (. .)))</parsed-text><annotation>create_tool(t3, "broiler")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Preheat) (NP (NN broiler))) (. .)))</parsed-text><annotation>set(t3,"preheat")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cover) (NP (NP (DT a) (NN medium) (VBD sized) (JJ baking) (NN sheet)) (PP (IN with) (NP (NP (DT a) (JJ single) (NN layer)) (PP (IN of) (NP (NN bread) (NNS slices))))))) (. .)))</parsed-text><annotation>create_tool(t4, "baking pan")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cover) (NP (NP (DT a) (NN medium) (VBD sized) (JJ baking) (NN sheet)) (PP (IN with) (NP (NP (DT a) (JJ single) (NN layer)) (PP (IN of) (NP (NN bread) (NNS slices))))))) (. .)))</parsed-text><annotation>put(ing6, t4)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Brush) (NP (NP (DT the) (NNS slices)) (PP (IN with) (NP (JJ olive) (NN oil))))) (. .)))</parsed-text><annotation>do(ing6, , ing15, "brushed slices", "brush with olive oil")</annotation></line>
+<line><parsed-text>(S1 (S (VP (NNS Dice) (NP (DT the) (NNS tomatoes))) (. .)))</parsed-text><annotation>cut(ing8, , ing10, "diced tomatoes", "dice")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NNS tomatoes)) (, ,) (NP (JJ olive) (NN oil)) (CC and) (NP (NNP basil)))) (. .)))</parsed-text><annotation>create_tool(t5, "mixing bowl")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NNS tomatoes)) (, ,) (NP (JJ olive) (NN oil)) (CC and) (NP (NNP basil)))) (. .)))</parsed-text><annotation>combine({ing10, ing7, ing9}, ing11, "topping", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (VBG mixing) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (DT the) (NNS tomatoes)) (, ,) (NP (JJ olive) (NN oil)) (CC and) (NP (NNP basil)))) (. .)))</parsed-text><annotation>put(ing11, t5)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Mix) (PP (IN for) (NP (CD two) (NNS minutes)))) (. .)))</parsed-text><annotation>mix(ing11, t5, ing12, "topping", "for 2 minutes")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Place) (NP (NN bread)) (PP (IN under) (NP (NN broiler))) (SBAR (IN until) (S (VP (ADVP (RB lightly)) (VBN browned))))) (. .)))</parsed-text><annotation>cook(ing15, t3, ing13, "browned bread", "until lightly brown")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Remove) (PP (IN from) (NP (NP (NN broiler) (CC and) (NN top)) (PP (IN with) (NP (DT the) (JJ tomato) (NN mixture)))))) (. .)))</parsed-text><annotation>remove(ing13,t3)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Remove) (PP (IN from) (NP (NP (NN broiler) (CC and) (NN top)) (PP (IN with) (NP (DT the) (JJ tomato) (NN mixture)))))) (. .)))</parsed-text><annotation>combine({ing12, ing13}, ing14, "bruschetta", "spread topping on top of bread")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Remove) (PP (IN from) (NP (NP (NN broiler) (CC and) (NN top)) (PP (IN with) (NP (DT the) (JJ tomato) (NN mixture)))))) (. .)))</parsed-text><annotation>serve(ing14,"")</annotation></line>
+</recipe>

@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>1 (3 pound) whole chicken, cut into 8 pieces</originaltext><annotation>create_ing(ing0, "1 (3 pound) whole chicken, cut into 8 pieces")</annotation></line>
+<line><originaltext>1/2 cup soy sauce</originaltext><annotation>create_ing(ing1, "1/2 cup soy sauce")</annotation></line>
+<line><originaltext>3/4 cup distilled white vinegar</originaltext><annotation>create_ing(ing2, "3/4 cup distilled white vinegar")</annotation></line>
+<line><originaltext>1 bulb garlic, peeled and crushed</originaltext><annotation>create_ing(ing3, "1 bulb garlic, peeled and crushed")</annotation></line>
+<line><originaltext>2 tablespoons thinly sliced fresh ginger root</originaltext><annotation>create_ing(ing4, "2 tablespoons thinly sliced fresh ginger root")</annotation></line>
+<line><originaltext>2 bay leaves</originaltext><annotation>create_ing(ing5, "2 bay leaves")</annotation></line>
+<line><originaltext>1/2 tablespoon black peppercorns</originaltext><annotation>create_ing(ing6, "1/2 tablespoon black peppercorns")</annotation></line>
+<line><originaltext>Combine the chicken, soy sauce, vinegar, garlic, ginger, bay leaves and peppercorns in a Dutch oven. </originaltext><annotation>create_tool(t0, "Dutch oven")</annotation></line>
+<line><originaltext>Combine the chicken, soy sauce, vinegar, garlic, ginger, bay leaves and peppercorns in a Dutch oven. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6}, ing7, "everything", "")</annotation></line>
+<line><originaltext>Combine the chicken, soy sauce, vinegar, garlic, ginger, bay leaves and peppercorns in a Dutch oven. </originaltext><annotation>put(ing7, t0)</annotation></line>
+<line><originaltext>Bring to a boil over medium heat. </originaltext><annotation>cook(ing7, t0, ing8, "boiled everything", "bring to a boil over medium heat")</annotation></line>
+<line><originaltext>Once it boils, reduce heat to a simmer. </originaltext><annotation>chefcheck(ing8,"if boiled, reduce heat to simmer")</annotation></line>
+<line><originaltext>Cover the pot and simmer for 30 minutes, basting the chicken occasionally. </originaltext><annotation>set(t0,"cover the pot")</annotation></line>
+<line><originaltext>Cover the pot and simmer for 30 minutes, basting the chicken occasionally. </originaltext><annotation>cook(ing8, t0, ing9, "simmered everything", "simmer 30 minutes, basting the chicken occasionally")</annotation></line>
+<line><originaltext>After 30 minutes, remove lid and cook until liquid has reduced to half.</originaltext><annotation>set(t0,"remove lid")</annotation></line>
+<line><originaltext>After 30 minutes, remove lid and cook until liquid has reduced to half.</originaltext><annotation>cook(ing9, t0, ing10, "cooked chicken", "cook until liquid has reduced to half")</annotation></line>
+<line><originaltext>Remove chicken from the pot to a serving plate. </originaltext><annotation>create_tool(t1, "serving plate")</annotation></line>
+<line><originaltext>Remove chicken from the pot to a serving plate. </originaltext><annotation>separate(ing10, ing11, "chicken", ing12, "liquid", "")</annotation></line>
+<line><originaltext>Remove chicken from the pot to a serving plate. </originaltext><annotation>put(ing11, t1)</annotation></line>
+<line><originaltext>Strain the liquid from the pot to remove all the food particles, and set aside. </originaltext><annotation>separate(ing12, ing13, "liquid", ing14, "food particles", "strain the liquid from the pot to remove all food particles")</annotation></line>
+<line><originaltext>Strain the liquid from the pot to remove all the food particles, and set aside. </originaltext><annotation>leave(ing13,"set aside")</annotation></line>
+<line><originaltext>Serve chicken hot over steamed rice and drizzle with reserved sauce.</originaltext><annotation>serve(ing11,"serve chicken hot over steamed rice and drizzle with liquid")</annotation></line>
+</recipe>

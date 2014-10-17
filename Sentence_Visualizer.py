@@ -1,10 +1,9 @@
 from glob import glob
 from xml.dom.minidom import parse
-from itertools import islice
 from os.path import basename, join, dirname, abspath, exists
 from os import makedirs
-from collections import defaultdict
 from sexpdata import loads, ExpectClosingBracket, Symbol
+from collections import defaultdict
 import subprocess
 
 idCount = -1
@@ -47,53 +46,23 @@ def buildConnectionsInCorrectOrder(connections, id):
 		lines += buildConnectionsInCorrectOrder(connections, child)
 	return lines
 
-annotatedMap = defaultdict(list)
-parseMap = defaultdict(list)
-
-# get information on sentence-command pairings
-annotatedFiles = glob("annotated_recipes/*.xml")
-for file in annotatedFiles:
-	dom = parse(file)
-	for elt in dom.getElementsByTagName("line"):
-		annotatedMap[basename(file).replace(".rcp_tagged.xml", "")].append((elt.getElementsByTagName("originaltext")[0].childNodes[0].data, elt.getElementsByTagName("annotation")[0].childNodes[0].data))
-
-# associate each sentence-command pairing with a sentence parse
-parsedFiles = glob("data/parsed_recipes/*.txt")
-for file in parsedFiles:
-	sentenceParses = []
-	for sentenceParse in islice(open(file, "r"), 2, None, 102):
-		sentenceParses.append(sentenceParse)
-	prevSentence = None
-	prevParse = None
-	annotatedCounter = 0
-	parseCounter = 0
-	while parseCounter < len(sentenceParses):
-		strippedFilename = basename(file).replace(".txt", "")
-		sentence = annotatedMap[strippedFilename][annotatedCounter][0]
-		command = annotatedMap[strippedFilename][annotatedCounter][1]
-		if sentence == prevSentence:
-			parseToUse = prevParse
-		else:
-			parseToUse = sentenceParses[parseCounter]
-			prevSentence = sentence
-			prevParse = parseToUse
-			parseCounter += 1
-		parseMap[strippedFilename].append((sentence, command, parseToUse))
-		annotatedCounter += 1
-
 # create a DOT file for each sentence parse
-for file in parseMap:
+for file in glob("parsed_annotated_recipes/*.xml"):
+	try:
+		dom = parse(file)
+	except:
+		print "The file %s had some parsing error." % file
 	lineCount = 0
-	for trip in parseMap[file]:
+	for elt in dom.getElementsByTagName("line"):
 		try:
-			command = trip[1]
-			parsedSentence = trip[2]
+			parsedSentence = elt.getElementsByTagName("parsed-text")[0].childNodes[0].data
+			command = elt.getElementsByTagName("annotation")[0].childNodes[0].data
 			sexp = loads(parsedSentence)
 			labels = {}
 			connections = defaultdict(list)
 			buildGraphModel(sexp, labels, connections)
 			graphString = buildGraphString(labels, connections, command)
-			filename = join(join(join(dirname(abspath(__file__)), "syntax_trees"), "dot_files"), file + "_" + str(lineCount) + ".dot")
+			filename = join(join(join(dirname(abspath(__file__)), "syntax_trees"), "dot_files"), basename(file).replace(".xml", "") + "_" + str(lineCount) + ".dot")
 			if not exists(dirname(filename)):
 				makedirs(dirname(filename))
 			output = open(filename, "w")
@@ -107,8 +76,11 @@ for file in parseMap:
 		except IndexError as e:
 			pass
 			# print "There seems to be an extra paren."
+		except:
+			pass
+			# print "This is probably an Error indication in place of a real parse."
 
-# convert each DOT file into a PDF
+# convert each DOT file into a JPG
 for file in glob("syntax_trees/dot_files/*.dot"):
 	outputFile = join(join(join(dirname(abspath(__file__)), "syntax_trees"), "pdfs"), basename(file).replace(".dot", ".pdf"))
 	if not exists(dirname(outputFile)):

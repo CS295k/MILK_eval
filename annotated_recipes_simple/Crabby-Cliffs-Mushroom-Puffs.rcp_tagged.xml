@@ -1,0 +1,25 @@
+<recipe version="1.1"><line><originaltext>2 tablespoons olive oil</originaltext><annotation>create_ing(ing42, "2 tablespoons olive oil")</annotation></line>
+<line><originaltext>3 cups fresh chopped mushrooms</originaltext><annotation>create_ing(ing43, "3 cups fresh chopped mushrooms")</annotation></line>
+<line><originaltext>2 green onions, chopped</originaltext><annotation>create_ing(ing44, "2 green onions, chopped")</annotation></line>
+<line><originaltext>1 clove garlic, crushed</originaltext><annotation>create_ing(ing45, "1 clove garlic, crushed")</annotation></line>
+<line><originaltext>1/2 teaspoon ground cayenne pepper</originaltext><annotation>create_ing(ing46, "1/2 teaspoon ground cayenne pepper")</annotation></line>
+<line><originaltext>4 ounces cream cheese, softened</originaltext><annotation>create_ing(ing47, "4 ounces cream cheese, softened")</annotation></line>
+<line><originaltext>1 (6 ounce) can crabmeat, drained and flaked</originaltext><annotation>create_ing(ing48, "1 (6 ounce) can crabmeat, drained and flaked")</annotation></line>
+<line><originaltext>1 (17.5 ounce) package frozen puff pastry sheets, thawed</originaltext><annotation>create_ing(ing49, "1 (17.5 ounce) package frozen puff pastry sheets, thawed")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>create_tool(t8, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 400 degrees F (200 degrees C). </originaltext><annotation>set(t8,"400 degrees F (200 degrees C)")</annotation></line>
+<line><originaltext>Heat the olive oil in a medium saucepan over medium heat. </originaltext><annotation>create_tool(t9, "medium saucepan")</annotation></line>
+<line><originaltext>Heat the olive oil in a medium saucepan over medium heat. </originaltext><annotation>set(t9,"medium heat")</annotation></line>
+<line><originaltext>Heat the olive oil in a medium saucepan over medium heat. </originaltext><annotation>put(ing42, t9)</annotation></line>
+<line><originaltext>Stir in the mushrooms, green onions, garlic and cayenne pepper. </originaltext><annotation>combine({ing42, ing43, ing44, ing45, ing46}, ing50, "spiced veggies", "stir in")</annotation></line>
+<line><originaltext>Cook 10 minutes, or until tender. </originaltext><annotation>cook(ing50, t9, ing51, "mushroom mixture", "10 minutes or until tender")</annotation></line>
+<line><originaltext>Transfer the mushroom mixture to a medium bowl. </originaltext><annotation>create_tool(t10, "medium bowl")</annotation></line>
+<line><originaltext>Blend in the cream cheese and crabmeat. </originaltext><annotation>combine({ing47, ing48, ing51}, ing52, "cheesy mushrooms", "blend")</annotation></line>
+<line><originaltext>On a lightly floured flat surface, roll each pastry sheet into a 12x12 inch square. </originaltext><annotation>create_tool(t11, "lightly floured surface")</annotation></line>
+<line><originaltext>On a lightly floured flat surface, roll each pastry sheet into a 12x12 inch square. </originaltext><annotation>do(ing49, t11, ing53, "12x12 sheets", "roll")</annotation></line>
+<line><originaltext>Cut each sheet into nine 4x4 inch squares. </originaltext><annotation>cut(ing53, t11, ing54, "4x4 inch squares", "9 squares")</annotation></line>
+<line><originaltext>Place 1 tablespoon of the mushroom mixture onto each pastry square. </originaltext><annotation>combine({ing52, ing54}, ing55, "unfolded puffs", "1 tablespoon in each sheet")</annotation></line>
+<line><originaltext>Fold the squares by bringing the corners to the center, creating an X. Place the squares on a medium baking sheet. </originaltext><annotation>do(ing55, , ing56, "folded puffs", "fold corners to center of the sheet")</annotation></line>
+<line><originaltext>Bake 20 minutes in the preheated oven, or until golden brown. </originaltext><annotation>cook(ing56, t8, ing57, "baked puffs", "20 minutes, or until golden brown")</annotation></line>
+<line><originaltext>Bake 20 minutes in the preheated oven, or until golden brown. </originaltext><annotation>chefcheck(ing57,"golden brown")</annotation></line>
+</recipe>

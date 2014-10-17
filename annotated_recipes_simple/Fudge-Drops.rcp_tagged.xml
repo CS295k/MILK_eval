@@ -1,0 +1,16 @@
+<recipe version="1.1"><line><originaltext>1 2/3 cups sugar</originaltext><annotation>create_ing(ing84, "1 2/3 cups sugar")</annotation></line>
+<line><originaltext>1 (5 ounce) can evaporated milk</originaltext><annotation>create_ing(ing85, "1 (5 ounce) can evaporated milk")</annotation></line>
+<line><originaltext>2 tablespoons butter or margarine</originaltext><annotation>create_ing(ing86, "2 tablespoons butter or margarine")</annotation></line>
+<line><originaltext>1/2 teaspoon salt</originaltext><annotation>create_ing(ing87, "1/2 teaspoon salt")</annotation></line>
+<line><originaltext>2 3/4 cups miniature marshmallows</originaltext><annotation>create_ing(ing88, "2 3/4 cups miniature marshmallows")</annotation></line>
+<line><originaltext>2 cups semisweet chocolate chips</originaltext><annotation>create_ing(ing89, "2 cups semisweet chocolate chips")</annotation></line>
+<line><originaltext>1/2 cup coarsely chopped walnuts</originaltext><annotation>create_ing(ing90, "1/2 cup coarsely chopped walnuts")</annotation></line>
+<line><originaltext>1/2 cup raisins</originaltext><annotation>create_ing(ing91, "1/2 cup raisins")</annotation></line>
+<line><originaltext>In a heavy saucepan, combine the sugar, milk, butter and salt. </originaltext><annotation>create_tool(t12, "heavy saucepan")</annotation></line>
+<line><originaltext>In a heavy saucepan, combine the sugar, milk, butter and salt. </originaltext><annotation>combine({ing84, ing85, ing86, ing87}, ing92, "mezcla", "combine")</annotation></line>
+<line><originaltext>Bring to a boil over medium heat, stirring constantly. </originaltext><annotation>cook(ing92, t12, ing93, "mezcla caliente", "bring to a boil over medium heat, stirring constantly, for five mins")</annotation></line>
+<line><originaltext>Remove from the heat; stir in remaining ingredients. </originaltext><annotation>combine({ing88, ing89, ing90, ing91, ing93}, ing94, "gotas", "remove from heat and stir vigorously until marshmellows are melted")</annotation></line>
+<line><originaltext>Drop by tablespoonfuls onto waxed paper-lined baking sheets. </originaltext><annotation>create_tool(t13, "waxed paper")</annotation></line>
+<line><originaltext>Drop by tablespoonfuls onto waxed paper-lined baking sheets. </originaltext><annotation>cook(ing94, t13, ing95, "dropped drops", "drop by tablespoonfuls")</annotation></line>
+<line><originaltext>Let stand at room temperature until cool. </originaltext><annotation>leave(ing95,"cool at room temperature")</annotation></line>
+</recipe>

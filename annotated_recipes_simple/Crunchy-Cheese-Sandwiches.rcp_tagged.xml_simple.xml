@@ -1,0 +1,21 @@
+<recipe version="1.1"><line><originaltext>1 small onion, finely chopped</originaltext><annotation>create_ing(ing0, "onion")</annotation></line>
+<line><originaltext>1 medium tomato, diced</originaltext><annotation>create_ing(ing1, "medium")</annotation></line>
+<line><originaltext>1 stalk celery, chopped</originaltext><annotation>create_ing(ing2, "celery")</annotation></line>
+<line><originaltext>1 green bell pepper, finely chopped</originaltext><annotation>create_ing(ing3, "pepper")</annotation></line>
+<line><originaltext>1 cup shredded Cheddar cheese</originaltext><annotation>create_ing(ing4, "cheese")</annotation></line>
+<line><originaltext>1/4 teaspoon chili powder</originaltext><annotation>create_ing(ing5, "powder")</annotation></line>
+<line><originaltext>1/4 teaspoon salt</originaltext><annotation>create_ing(ing6, "salt")</annotation></line>
+<line><originaltext>4 slices white bread</originaltext><annotation>create_ing(ing7, "bread")</annotation></line>
+<line><originaltext>Preheat your oven's broiler. </originaltext><annotation>create_tool(t0, "broiler")</annotation></line>
+<line><originaltext>Preheat your oven's broiler. </originaltext><annotation>set(t0,"on")</annotation></line>
+<line><originaltext>In a medium bowl, stir together the onion, tomato, celery, bell pepper, cheese, chili powder and salt. </originaltext><annotation>create_tool(t1, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, stir together the onion, tomato, celery, bell pepper, cheese, chili powder and salt. </originaltext><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5, ing6}, ing8, "stuff", "stir")</annotation></line>
+<line><originaltext>In a medium bowl, stir together the onion, tomato, celery, bell pepper, cheese, chili powder and salt. </originaltext><annotation>mix(ing8, t1, ing9, "mixed stuff", "stir")</annotation></line>
+<line><originaltext>Arrange slices of bread on a baking sheet or broiling pan. </originaltext><annotation>create_tool(t2, "baking sheet or broiling pan")</annotation></line>
+<line><originaltext>Arrange slices of bread on a baking sheet or broiling pan. </originaltext><annotation>put(ing7, t2)</annotation></line>
+<line><originaltext>Top each one with 1/4 of the mixture, spreading out to the edges. </originaltext><annotation>combine({ing7, ing9}, ing10, "uncooked sandwiches", "top each slice with 1/4 of mixture")</annotation></line>
+<line><originaltext>Broil for 4 to 5 minutes, or until cheese melts. </originaltext><annotation>cook(ing10, t0, ing11, "melty sandwiches", "4 to 5 minutes")</annotation></line>
+<line><originaltext>Broil for 4 to 5 minutes, or until cheese melts. </originaltext><annotation>chefcheck(ing11,"cheese melts")</annotation></line>
+<line><originaltext>Watch closely to prevent burning. </originaltext><annotation>chefcheck(ing11,"no burning")</annotation></line>
+<line><originaltext>Serve immediately. </originaltext><annotation>serve(ing11,"immediately")</annotation></line>
+</recipe>

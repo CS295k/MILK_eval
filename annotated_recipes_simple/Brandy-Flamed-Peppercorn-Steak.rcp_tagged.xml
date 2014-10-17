@@ -1,0 +1,34 @@
+<recipe version="1.1"><line><originaltext>3 tablespoons crushed black peppercorns</originaltext><annotation>create_ing(ing0, "3 tablespoons crushed black peppercorns")</annotation></line>
+<line><originaltext>2 (8 ounce) beef top sirloin steaks</originaltext><annotation>create_ing(ing1, "2 (8 ounce) beef top sirloin steaks")</annotation></line>
+<line><originaltext>1 tablespoon lemon pepper</originaltext><annotation>create_ing(ing2, "1 tablespoon lemon pepper")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing3, "1 teaspoon salt")</annotation></line>
+<line><originaltext>5 tablespoons butter</originaltext><annotation>create_ing(ing4, "5 tablespoons butter")</annotation></line>
+<line><originaltext>2 cloves garlic, minced</originaltext><annotation>create_ing(ing5, "2 cloves garlic, minced")</annotation></line>
+<line><originaltext>1/2 cup red wine</originaltext><annotation>create_ing(ing6, "1/2 cup red wine")</annotation></line>
+<line><originaltext>3 tablespoons brandy</originaltext><annotation>create_ing(ing7, "3 tablespoons brandy")</annotation></line>
+<line><originaltext>1/4 cup chopped green onions</originaltext><annotation>create_ing(ing8, "1/4 cup chopped green onions")</annotation></line>
+<line><originaltext>1 shallot, chopped</originaltext><annotation>create_ing(ing9, "1 shallot, chopped")</annotation></line>
+<line><originaltext>1/2 cup heavy cream</originaltext><annotation>create_ing(ing10, "1/2 cup heavy cream")</annotation></line>
+<line><originaltext>1 teaspoon white sugar (optional)</originaltext><annotation>create_ing(ing11, "1 teaspoon white sugar (optional)")</annotation></line>
+<line><originaltext>Press crushed peppercorns into both sides of each steak. </originaltext><annotation>combine({ing0, ing1}, ing12, "peppercorn steak", "press peppercorns into both sides of each steak")</annotation></line>
+<line><originaltext>Sprinkle with lemon pepper, and salt.</originaltext><annotation>combine({ing12, ing2, ing3}, ing13, "seasoned steak", "sprinkle salt and lemon pepper")</annotation></line>
+<line><originaltext>Melt butter in a large skillet over medium-high heat. </originaltext><annotation>create_tool(t0, "large skillet")</annotation></line>
+<line><originaltext>Melt butter in a large skillet over medium-high heat. </originaltext><annotation>cook(ing4, t0, ing14, "melted butter", "melt butter over medium-high heat")</annotation></line>
+<line><originaltext>Stir in garlic and wine, and cook for 1 minute.  </originaltext><annotation>combine({ing14, ing5, ing6}, ing15, "garlicy wine", "stir in")</annotation></line>
+<line><originaltext>Stir in garlic and wine, and cook for 1 minute.  </originaltext><annotation>cook(ing15, t0, ing16, "hot garlicy wine", "for 1 minute")</annotation></line>
+<line><originaltext>Arrange steaks in pan, and cook for 5 to 10 minutes per side, or until desired doneness. </originaltext><annotation>combine({ing13, ing16}, ing17, "steak in sauce", "in pan")</annotation></line>
+<line><originaltext>Arrange steaks in pan, and cook for 5 to 10 minutes per side, or until desired doneness. </originaltext><annotation>cook(ing17, t0, ing18, "cooked steak", "for 5-10 minutes per side or until desired doneness")</annotation></line>
+<line><originaltext>Reduce heat to low.</originaltext><annotation>set(t0,"heat to low")</annotation></line>
+<line><originaltext>Pour brandy onto steaks, and carefully light with a match. </originaltext><annotation>combine({ing18, ing7}, ing19, "brandy steak", "pour")</annotation></line>
+<line><originaltext>Pour brandy onto steaks, and carefully light with a match. </originaltext><annotation>create_tool(t1, "match")</annotation></line>
+<line><originaltext>Pour brandy onto steaks, and carefully light with a match. </originaltext><annotation>cook(ing19, t1, ing20, "flamed steak", "carefully light with match")</annotation></line>
+<line><originaltext>Let the flames burn off. </originaltext><annotation>chefcheck(ing20,"flames have burned off")</annotation></line>
+<line><originaltext>Sprinkle green onion and shallot around the steaks, and circle the steaks with cream. </originaltext><annotation>combine({ing10, ing20, ing8, ing9}, ing21, "decorated steak", "sprinkle around steak")</annotation></line>
+<line><originaltext>Cook, stirring sauce, until hot. </originaltext><annotation>cook(ing21, t0, ing22, "final steak", "stirring sauce until hot")</annotation></line>
+<line><originaltext>Transfer steaks to plates. </originaltext><annotation>separate(ing22, ing23, "steak", ing24, "sauce", "")</annotation></line>
+<line><originaltext>Transfer steaks to plates. </originaltext><annotation>create_tool(t2, "plates")</annotation></line>
+<line><originaltext>Transfer steaks to plates. </originaltext><annotation>put(ing23, t2)</annotation></line>
+<line><originaltext>Stir sugar into sauce, and then spoon over meat.</originaltext><annotation>combine({ing11, ing24}, ing25, "sweet sauce", "stir in")</annotation></line>
+<line><originaltext>Stir sugar into sauce, and then spoon over meat.</originaltext><annotation>combine({ing23, ing25}, ing26, "done steak", "spoon over")</annotation></line>
+<line><originaltext>Stir sugar into sauce, and then spoon over meat.</originaltext><annotation>serve(ing26,"")</annotation></line>
+</recipe>

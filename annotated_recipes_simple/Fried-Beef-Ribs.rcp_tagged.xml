@@ -1,0 +1,24 @@
+<recipe version="1.1"><line><originaltext>3 quarts peanut oil for frying</originaltext><annotation>create_ing(ing0, "3 quarts peanut oil for frying")</annotation></line>
+<line><originaltext>2 tablespoons salt</originaltext><annotation>create_ing(ing1, "2 tablespoons salt")</annotation></line>
+<line><originaltext>3 tablespoons coarse ground black pepper</originaltext><annotation>create_ing(ing2, "3 tablespoons coarse ground black pepper")</annotation></line>
+<line><originaltext>2 tablespoons cayenne pepper</originaltext><annotation>create_ing(ing3, "2 tablespoons cayenne pepper")</annotation></line>
+<line><originaltext>2 tablespoons garlic salt</originaltext><annotation>create_ing(ing4, "2 tablespoons garlic salt")</annotation></line>
+<line><originaltext>2 tablespoons onion salt</originaltext><annotation>create_ing(ing5, "2 tablespoons onion salt")</annotation></line>
+<line><originaltext>2 cups all-purpose flour</originaltext><annotation>create_ing(ing6, "2 cups all-purpose flour")</annotation></line>
+<line><originaltext>6 eggs, beaten</originaltext><annotation>create_ing(ing7, "6 eggs, beaten")</annotation></line>
+<line><originaltext>6 pounds beef ribs, cut into single rib pieces</originaltext><annotation>create_ing(ing8, "6 pounds beef ribs, cut into single rib pieces")</annotation></line>
+<line><originaltext>Heat the oil in a deep-fryer to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t0, "deep-fryer")</annotation></line>
+<line><originaltext>Heat the oil in a deep-fryer to 375 degrees F (190 degrees C). </originaltext><annotation>put(ing0, t0)</annotation></line>
+<line><originaltext>Heat the oil in a deep-fryer to 375 degrees F (190 degrees C). </originaltext><annotation>set(t0,"375 F")</annotation></line>
+<line><originaltext>In a medium bowl, mix together the salt, black pepper, cayenne pepper, garlic salt, and onion salt. </originaltext><annotation>create_tool(t1, "medium bowl")</annotation></line>
+<line><originaltext>In a medium bowl, mix together the salt, black pepper, cayenne pepper, garlic salt, and onion salt. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5}, ing9, "spices", "in a medium bowl")</annotation></line>
+<line><originaltext>Place the flour in a separate bowl or plate. </originaltext><annotation>create_tool(t2, "flour dish")</annotation></line>
+<line><originaltext>Place the flour in a separate bowl or plate. </originaltext><annotation>put(ing6, t2)</annotation></line>
+<line><originaltext>Whisk eggs in a large bowl. </originaltext><annotation>create_tool(t3, "egg dish")</annotation></line>
+<line><originaltext>Whisk eggs in a large bowl. </originaltext><annotation>mix(ing7, t3, ing10, "whisked eggs", "whisk")</annotation></line>
+<line><originaltext>Rub the spice mixture onto all of the ribs. </originaltext><annotation>combine({ing8, ing9}, ing11, "spiced ribs", "rub")</annotation></line>
+<line><originaltext>Dip each rib in egg, then in flour, then egg, then flour again. </originaltext><annotation>put(ing11, t3)</annotation></line>
+<line><originaltext>Place the ribs in a fryer basket so they are not crowded, try 4 or 5 at a time depending on the size of your fryer. </originaltext><annotation>create_tool(t4, "fryer basket")</annotation></line>
+<line><originaltext>Place the ribs in a fryer basket so they are not crowded, try 4 or 5 at a time depending on the size of your fryer. </originaltext><annotation>put(ing11, t4)</annotation></line>
+<line><originaltext>Cook for about 8 minutes. </originaltext><annotation>cook(ing11, t4, ing12, "fried ribs", "8 mins, makeing sure they are not crowded")</annotation></line>
+</recipe>

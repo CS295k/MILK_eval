@@ -1,0 +1,27 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 1/2) (NN cup)) (NP (JJ flaked) (NN coconut))))</parsed-text><annotation>create_ing(ing0, "1/2 cup flaked coconut")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/2) (NN cup)) (JJ white) (NN sugar)))</parsed-text><annotation>create_ing(ing1, "1/2 cup white sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 2) (NNS cups)) (VBN packed) (JJ brown) (NN sugar)))</parsed-text><annotation>create_ing(ing2, "2 cups packed brown sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS cups) (NN all-purpose) (NN flour)))</parsed-text><annotation>create_ing(ing3, "2 cups all-purpose flour")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (QP (CD 1) (CD 1/2)) (NNS teaspoons)) (VP (VBG baking) (NP (NNP powder)))))</parsed-text><annotation>create_ing(ing4, "1 1/2 teaspoons baking powder")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/4) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing5, "1/4 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Mix) (PRT (RP together)) (NP (NP (NN flour)) (, ,) (NP (NN salt)) (CC and) (NP (JJ baking) (NNP powder)))) (. .)))</parsed-text><annotation>create_ing(ing6, "3/4 cup butter or margarine")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NNS 2.)) (VP (VBP Add) (: :) (NP (NP (ADJP (CD 3/4) (NN cup)) (NN butter) (CC or) (NN margarine)) (, ,) (VP (VBN softened) (PP (IN at) (NP (NN room) (NN temperature)))))) (. .)))</parsed-text><annotation>create_ing(ing7, "2 eggs")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NNS 2.)) (VP (VBP Add) (: :) (NP (NP (ADJP (CD 3/4) (NN cup)) (NN butter) (CC or) (NN margarine)) (, ,) (VP (VBN softened) (PP (IN at) (NP (NN room) (NN temperature)))))) (. .)))</parsed-text><annotation>create_ing(ing8, "2 teaspoons vanilla")</annotation></line>
+<line><parsed-text>(S1 (S (VP (AUX DO) (RB NOT) (VP (VB USE) (NP (NN DIET) (NN MARGARINE)))) (. .)))</parsed-text><annotation>create_tool(t0, "bowl")</annotation></line>
+<line><parsed-text>(S1 (S (VP (AUX DO) (RB NOT) (VP (VB USE) (NP (NN DIET) (NN MARGARINE)))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4, ing5}, ing9, "dry ingredients", "mix")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Mix) (PRT (RP in)) (NP (NP (CD 2) (NNS eggs)) (, ,) (ADJP (ADJP (RB slightly) (VBN beaten)) (CC and) (ADJP (QP (CD 2) (NNS teaspoons)) (NN vanilla))))) (. .)))</parsed-text><annotation>combine({ing6, ing9}, ing10, "dry ingredients with butter", "")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NNS 4.)) (VP (VBP Spread) (NP (NN batter)) (PP (IN into) (NP (DT a) (JJ sprayed) (CD 9) (NNP x) (CD 13) (NN inch) (NN metal) (NN pan)))) (. .)))</parsed-text><annotation>chefcheck(ing10,"if using margarine, do not use diet")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NNS 5.)) (VP (VB Bake) (PP (IN at) (NP (NP (NP (CD 375) (NNS degrees)) (NP (SYM F))) (PRN (-LRB- -LRB-) (NP (NP (CD 190) (NNS degrees)) (NP (SYM C))) (-RRB- -RRB-)))) (PP (IN for) (NP (CD 25) (NNS minutes)))) (. .)))</parsed-text><annotation>combine({ing10, ing7, ing8}, ing11, "batter", "eggs slightly beaten")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cool) (NP (CD 15) (NNS minutes)) (PP (IN in) (S (VP (VBG baking) (NP (NN pan)))))) (. .)))</parsed-text><annotation>create_tool(t1, "sprayed 9 x13 inch metal pan")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cool) (NP (CD 15) (NNS minutes)) (PP (IN in) (S (VP (VBG baking) (NP (NN pan)))))) (. .)))</parsed-text><annotation>put(ing11, t1)</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Cut)) (VP (VBZ brownies) (PP (IN into) (NP (QP (CD 1) (CD 1/2)) (NN inch) (NNS squares)))) (. .)))</parsed-text><annotation>create_tool(t2, "oven")</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Cut)) (VP (VBZ brownies) (PP (IN into) (NP (QP (CD 1) (CD 1/2)) (NN inch) (NNS squares)))) (. .)))</parsed-text><annotation>put(ing11, t2)</annotation></line>
+<line><parsed-text>(S1 (S (NP (NN Cut)) (VP (VBZ brownies) (PP (IN into) (NP (QP (CD 1) (CD 1/2)) (NN inch) (NNS squares)))) (. .)))</parsed-text><annotation>cook(ing11, t2, ing12, "brownies", "375 degrees F for 25 minutes")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cool) (ADVP (RB completely)) (PP (IN in) (NP (NN pan)))) (. .)))</parsed-text><annotation>leave(ing12,"cool for 15 minutes")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VBZ Makes) (NP (QP (CD 2) (NN dozen)) (NNS brownies))) (. .)))</parsed-text><annotation>create_tool(t3, "knife")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VBZ Makes) (NP (QP (CD 2) (NN dozen)) (NNS brownies))) (. .)))</parsed-text><annotation>cut(ing12, t3, ing13, "brownie squares", "1 1/2 inch squares")</annotation></line>
+<line><parsed-text>Error: repeat English sentences not next to each other, and represented as a single parse in Charniak's output.</parsed-text><annotation>leave(ing13,"cool completely")</annotation></line>
+<line><parsed-text>Error: repeat English sentences not next to each other, and represented as a single parse in Charniak's output.</parsed-text><annotation>chefcheck(ing13,"makes 2 dozen brownies")</annotation></line>
+<line><parsed-text>Error: repeat English sentences not next to each other, and represented as a single parse in Charniak's output.</parsed-text><annotation>serve(ing13,"")</annotation></line>
+</recipe>

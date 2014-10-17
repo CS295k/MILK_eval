@@ -1,0 +1,41 @@
+<recipe version="1.1"><line><originaltext>16 cups popped popcorn</originaltext><annotation>create_ing(ing58, "popcorn")</annotation></line>
+<line><originaltext>1 cup roasted peanuts</originaltext><annotation>create_ing(ing59, "peanuts")</annotation></line>
+<line><originaltext>1 cup brown sugar</originaltext><annotation>create_ing(ing60, "sugar")</annotation></line>
+<line><originaltext>1/2 cup butter</originaltext><annotation>create_ing(ing61, "cup")</annotation></line>
+<line><originaltext>1/4 cup light corn syrup</originaltext><annotation>create_ing(ing62, "syrup")</annotation></line>
+<line><originaltext>1 teaspoon vanilla extract</originaltext><annotation>create_ing(ing63, "extract")</annotation></line>
+<line><originaltext>1 teaspoon salt</originaltext><annotation>create_ing(ing64, "salt")</annotation></line>
+<line><originaltext>1/2 teaspoon baking soda</originaltext><annotation>create_ing(ing65, "soda")</annotation></line>
+<line><originaltext>1 cup milk chocolate chips</originaltext><annotation>create_ing(ing66, "chips")</annotation></line>
+<line><originaltext>1 teaspoon shortening</originaltext><annotation>create_ing(ing67, "shortening")</annotation></line>
+<line><originaltext>Grease cookie sheets.</originaltext><annotation>create_tool(t9, "cookie sheets")</annotation></line>
+<line><originaltext>Grease cookie sheets.</originaltext><annotation>create_ing(ing68, "grease")</annotation></line>
+<line><originaltext>Grease cookie sheets.</originaltext><annotation>do(ing68, t9, ing69, "greased sheets", "grease cookie sheets")</annotation></line>
+<line><originaltext>Place popcorn and peanuts in a paper bag.  </originaltext><annotation>create_tool(t10, "paper bag")</annotation></line>
+<line><originaltext>Place popcorn and peanuts in a paper bag.  </originaltext><annotation>combine({ing58, ing59}, ing70, "popcorn peanut", "")</annotation></line>
+<line><originaltext>Place popcorn and peanuts in a paper bag.  </originaltext><annotation>put(ing70, t10)</annotation></line>
+<line><originaltext>Set aside.</originaltext><annotation>leave(ing70,"")</annotation></line>
+<line><originaltext>In a microwave safe bowl, combine sugar, butter, corn syrup, vanilla and salt.  </originaltext><annotation>create_tool(t11, "microwave safe bowl")</annotation></line>
+<line><originaltext>In a microwave safe bowl, combine sugar, butter, corn syrup, vanilla and salt.  </originaltext><annotation>combine({ing60, ing61, ing62, ing63, ing64}, ing71, "sugar mix", "")</annotation></line>
+<line><originaltext>In a microwave safe bowl, combine sugar, butter, corn syrup, vanilla and salt.  </originaltext><annotation>mix(ing71, t11, ing72, "sugar mix bowl", "")</annotation></line>
+<line><originaltext>Microwave 4 minutes, until bubbly.  </originaltext><annotation>create_tool(t12, "microwave")</annotation></line>
+<line><originaltext>Microwave 4 minutes, until bubbly.  </originaltext><annotation>cook(ing72, t12, ing73, "microwaved bowl", "4 minutes, until bubbly")</annotation></line>
+<line><originaltext>Microwave 4 minutes, until bubbly.  </originaltext><annotation>chefcheck(ing73,"bubbly")</annotation></line>
+<line><originaltext>Stir in baking soda.  </originaltext><annotation>combine({ing65, ing73}, ing74, "bowl and soda", "")</annotation></line>
+<line><originaltext>Pour over popcorn mixture and shake bag to coat.</originaltext><annotation>combine({ing70, ing74}, ing75, "coated poppea", "pour sauce over popcorn mixture")</annotation></line>
+<line><originaltext>Pour over popcorn mixture and shake bag to coat.</originaltext><annotation>mix(ing75, t10, ing76, "coated poppea", "shake bag to coat")</annotation></line>
+<line><originaltext>Pour over popcorn mixture and shake bag to coat.</originaltext><annotation>chefcheck(ing76,"coated")</annotation></line>
+<line><originaltext>Roll down edges of bag and place bag in microwave.  </originaltext><annotation>set(t10,"roll down edges")</annotation></line>
+<line><originaltext>Roll down edges of bag and place bag in microwave.  </originaltext><annotation>put(ing76, t12)</annotation></line>
+<line><originaltext>Heat for 2 minutes, shaking three times to mix.  </originaltext><annotation>cook(ing76, t12, ing77, "cooked poppea", "2 minutes, shaking three times to mix")</annotation></line>
+<line><originaltext>Spread mixture onto prepared sheets to cool.</originaltext><annotation>put(ing77, t9)</annotation></line>
+<line><originaltext>Spread mixture onto prepared sheets to cool.</originaltext><annotation>leave(ing77,"to cool")</annotation></line>
+<line><originaltext>In a microwave safe bowl, combine chocolate and shortening.  </originaltext><annotation>combine({ing66, ing67}, ing78, "chocoshortening", "")</annotation></line>
+<line><originaltext>In a microwave safe bowl, combine chocolate and shortening.  </originaltext><annotation>mix(ing78, t11, ing79, "chocoshortening in bowl", "")</annotation></line>
+<line><originaltext>Microwave 90 seconds, stirring once, until melted.  </originaltext><annotation>cook(ing79, t12, ing80, "melted choco", "90 seconds, stirring once, until melted")</annotation></line>
+<line><originaltext>Microwave 90 seconds, stirring once, until melted.  </originaltext><annotation>chefcheck(ing80,"melted")</annotation></line>
+<line><originaltext>Drizzle over popcorn mixture.  </originaltext><annotation>combine({ing77, ing80}, ing81, "drizzled pop", "drizzle chocolate over popcorn mixture")</annotation></line>
+<line><originaltext>Let cool before serving.</originaltext><annotation>leave(ing81,"cool")</annotation></line>
+<line><originaltext>Let cool before serving.</originaltext><annotation>chefcheck(ing81,"cool")</annotation></line>
+<line><originaltext>Let cool before serving.</originaltext><annotation>serve(ing81,"")</annotation></line>
+</recipe>

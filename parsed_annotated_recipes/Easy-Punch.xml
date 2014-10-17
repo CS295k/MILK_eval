@@ -1,0 +1,12 @@
+<recipe>
+<line><parsed-text>(S1 (S (NP (CD 4) (PRN (-LRB- -LRB-) (NP (CD 0.13) (NN ounce)) (-RRB- -RRB-)) (NNS packages)) (VP (VBD unsweetened) (NP (JJ strawberry-flavored) (NN drink) (NN mix)) (NP (NNP powder)))))</parsed-text><annotation>create_ing(ing35, "4 (0.13 ounce) packages unsweetened strawberry-flavored drink mix powder")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (ADJP (-LRB- -LRB-) (NP (CD 46) (NN fluid) (NN ounce)) (-RRB- -RRB-)) (NNS cans) (NN pineapple) (NN juice)))</parsed-text><annotation>create_ing(ing36, "2 (46 fluid ounce) cans pineapple juice")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 3) (NNS cups)) (JJ white) (NN sugar)))</parsed-text><annotation>create_ing(ing37, "3 cups white sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 4) (NNS quarts) (NN water)))</parsed-text><annotation>create_ing(ing38, "4 quarts water")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS liters) (NN ginger) (NN ale)))</parsed-text><annotation>create_ing(ing39, "2 liters ginger ale")</annotation></line>
+<line><parsed-text>(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))</parsed-text><annotation>create_tool(t10, "large punch bowl")</annotation></line>
+<line><parsed-text>(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))</parsed-text><annotation>combine({ing35, ing36, ing37, ing38}, ing40, "protopunch", "in the punch bowl")</annotation></line>
+<line><parsed-text>(S1 (SINV (PP (IN In) (NP (DT a) (JJ large) (NN punch) (NN bowl))) (VP (VBP combine)) (NP (NP (NN drink) (NN mix)) (, ,) (NP (NN pineapple) (NN juice)) (, ,) (NP (NN sugar)) (CC and) (NP (NN water))) (. .)))</parsed-text><annotation>put(ing40, t10)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (SBAR (IN until) (S (VP (VBN dissolved))))) (. .)))</parsed-text><annotation>mix(ing40, t10, ing41, "homogenous protopunch", "until dissolved")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Stir) (PP (IN in) (NP (DT the) (NN ginger) (NN ale)))) (. .)))</parsed-text><annotation>combine({ing39, ing41}, ing42, "fizzy punch", "stir in")</annotation></line>
+</recipe>

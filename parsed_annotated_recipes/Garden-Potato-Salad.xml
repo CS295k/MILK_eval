@@ -1,0 +1,24 @@
+<recipe>
+<line><parsed-text>(S1 (NP (NP (CD 6) (JJ large) (NNS potatoes)) (, ,) (VP (VBN cooked) (, ,) (VBN peeled) (CC and) (VBN cubed))))</parsed-text><annotation>create_ing(ing120, "6 large potatoes, cooked, peeled and cubed")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 4) (JJ hard-cooked) (NNS eggs)) (, ,) (VP (VBN sliced))))</parsed-text><annotation>create_ing(ing121, "4 hard-cooked eggs, sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (ADJP (CD 2) (NN celery)) (NNS ribs)) (, ,) (VP (VBN sliced))))</parsed-text><annotation>create_ing(ing122, "2 celery ribs, sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (ADJP (CD 6) (NN green)) (NNS onions)) (PP (IN with) (NP (NNS tops))) (, ,) (VP (VBN sliced))))</parsed-text><annotation>create_ing(ing123, "6 green onions with tops, sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 6) (NNS radishes)) (, ,) (VP (VBN sliced))))</parsed-text><annotation>create_ing(ing124, "6 radishes, sliced")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing125, "1 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN pepper)))</parsed-text><annotation>create_ing(ing126, "1/2 teaspoon pepper")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (JJ large) (NN bowl))) (, ,) (VP (VBP combine) (NP (NP (NNS potatoes)) (, ,) (NP (NNS eggs)) (, ,) (NP (NN celery)) (, ,) (NP (JJ green) (NNS onions)) (, ,) (NP (NNS radishes)) (, ,) (NP (NN salt) (CC and) (NN pepper)))) (: ;) (S (VP (VBN set) (ADVP (RB aside)))) (. .)))</parsed-text><annotation>combine({ing120, ing121, ing122, ing123, ing124, ing125, ing126}, ing127, "salad", "in a large bowl")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 3) (NNS eggs)) (, ,) (VP (VBN beaten))))</parsed-text><annotation>create_ing(ing128, "3 eggs, beaten")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1/4) (NN cup)) (NP (NN vinegar))))</parsed-text><annotation>create_ing(ing129, "1/4 cup vinegar")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/4) (NN cup)) (NN sugar)))</parsed-text><annotation>create_ing(ing130, "1/4 cup sugar")</annotation></line>
+<line><parsed-text>(S1 (NP (ADJP (CD 1/2) (NN teaspoon)) (JJ dry) (NN mustard)))</parsed-text><annotation>create_ing(ing131, "1/2 teaspoon dry mustard")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 1/2) (NN teaspoon) (NN salt)))</parsed-text><annotation>create_ing(ing132, "1/2 teaspoon salt")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (CD 1) (NN cup)) (NP (NP (NN mayonnaise)) (CC or) (NP (NN salad) (VBG dressing)))))</parsed-text><annotation>create_ing(ing133, "1 cup mayonnaise or salad dressing")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN For) (NP (VBG dressing))) (, ,) (VP (VBP combine) (NP (NP (NNS eggs)) (, ,) (NP (NN vinegar)) (, ,) (NP (NN sugar)) (, ,) (NP (JJ dry) (NN mustard)) (CC and) (NP (NN salt))) (PP (IN in) (NP (DT a) (NN saucepan)))) (. .)))</parsed-text><annotation>combine({ing128, ing129, ing130, ing131, ing132}, ing134, "dressing base", "combine in a sauce pan")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Cook)) (CC and) (VP (VB stir) (PRT (RP over)) (NP (JJ medium) (NN heat)) (PP (IN until) (ADJP (JJ thickened))))) (. .)))</parsed-text><annotation>create_tool(t14, "stove")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Cook)) (CC and) (VP (VB stir) (PRT (RP over)) (NP (JJ medium) (NN heat)) (PP (IN until) (ADJP (JJ thickened))))) (. .)))</parsed-text><annotation>set(t14,"medium heat")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VP (VB Cook)) (CC and) (VP (VB stir) (PRT (RP over)) (NP (JJ medium) (NN heat)) (PP (IN until) (ADJP (JJ thickened))))) (. .)))</parsed-text><annotation>cook(ing134, t14, ing135, "cooked base", "stir until thickened")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Cool)) (. .)))</parsed-text><annotation>leave(ing135,"cool")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Stir) (PP (IN in) (NP (NN mayonnaise))))) (: ;) (S (VP (VB mix) (ADVP (RB well)))) (. .)))</parsed-text><annotation>combine({ing133, ing135}, ing136, "dressing", "mix well")</annotation></line>
+<line><parsed-text>(S1 (S (S (VP (VB Pour) (PP (IN over) (NP (NN potato) (NN mixture))))) (: ;) (S (VP (VB toss) (S (VP (TO to) (VP (VB coat)))))) (. .)))</parsed-text><annotation>combine({ing127, ing136}, ing137, "salad!", "pour and toss")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Refrigerate) (PP (IN for) (NP (JJ several) (NNS hours)))) (. .)))</parsed-text><annotation>leave(ing137,"refrigerate for several hours")</annotation></line>
+</recipe>

@@ -1,0 +1,18 @@
+<recipe version="1.1"><line><originaltext>1 1/2 pounds new potatoes, cut into wedges</originaltext><annotation>create_ing(ing0, "wedges")</annotation></line>
+<line><originaltext>4 tablespoons butter</originaltext><annotation>create_ing(ing1, "butter")</annotation></line>
+<line><originaltext>2 teaspoons fresh rosemary</originaltext><annotation>create_ing(ing2, "teaspoons")</annotation></line>
+<line><originaltext>salt and pepper to taste</originaltext><annotation>create_ing(ing3, "taste")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 450 degrees F (230 degrees C). </originaltext><annotation>set(t0,"450 degrees F")</annotation></line>
+<line><originaltext>In a hot skillet, melt the butter. </originaltext><annotation>create_tool(t1, "skillet")</annotation></line>
+<line><originaltext>In a hot skillet, melt the butter. </originaltext><annotation>set(t1,"hot")</annotation></line>
+<line><originaltext>In a hot skillet, melt the butter. </originaltext><annotation>put(ing1, t1)</annotation></line>
+<line><originaltext>In a hot skillet, melt the butter. </originaltext><annotation>cook(ing1, t1, ing4, "melted butter", "melt it")</annotation></line>
+<line><originaltext>Stir in rosemary, salt and pepper. </originaltext><annotation>combine({ing2, ing3, ing4}, ing5, "buttery spices and seasonings", "in skillet")</annotation></line>
+<line><originaltext>Coat potatoes evenly with the melted butter. </originaltext><annotation>combine({ing0, ing5}, ing6, "prepared potatoes", "coat evenly")</annotation></line>
+<line><originaltext>Arrange the potatoes in a single layer on a baking pan. </originaltext><annotation>create_tool(t2, "baking pan")</annotation></line>
+<line><originaltext>Arrange the potatoes in a single layer on a baking pan. </originaltext><annotation>put(ing6, t2)</annotation></line>
+<line><originaltext>Arrange the potatoes in a single layer on a baking pan. </originaltext><annotation>chefcheck(ing6,"In a single layer on the pan?")</annotation></line>
+<line><originaltext>Bake in a preheated oven until potatoes are golden brown, approximately 20 to 25 minutes. </originaltext><annotation>cook(ing6, t0, ing7, "cooked potatoes", "approx. 20-25 minutes")</annotation></line>
+<line><originaltext>Toss them occasionally to ensure that they brown on all sides. </originaltext><annotation>chefcheck(ing7,"Toss them occasionally while cooking so they brown evenly")</annotation></line>
+</recipe>

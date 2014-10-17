@@ -1,0 +1,13 @@
+<recipe>
+<line><parsed-text>(S1 (S (NP (CD 1) (CD 1/2)) (VP (VBZ scoops) (NP (NN vanilla) (NN ice) (NN cream)))))</parsed-text><annotation>create_ing(ing0, "1 1/2 scoops vanilla ice cream")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1) (CD 1/2)) (NNS cups) (NN milk)))</parsed-text><annotation>create_ing(ing1, "1 1/2 cups milk")</annotation></line>
+<line><parsed-text>(S1 (NP (QP (CD 1/4) (NN cup)) (VBN whipped) (NN cream)))</parsed-text><annotation>create_ing(ing2, "1/4 cup whipped cream")</annotation></line>
+<line><parsed-text>(S1 (NP (CD 2) (NNS tablespoons) (NN instant) (JJ hot) (NN chocolate) (NN mix)))</parsed-text><annotation>create_ing(ing3, "2 tablespoons instant hot chocolate mix")</annotation></line>
+<line><parsed-text>(S1 (NP (NP (ADJP (CD 5) (NN chocolate)) (NN sandwich) (NNS cookies)) (, ,) (VP (VBN crushed))))</parsed-text><annotation>create_ing(ing4, "5 chocolate sandwich cookies, crushed")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (NN ice) (NN cream)) (, ,) (NP (NN milk)) (, ,) (NP (VBN whipped) (NN cream)) (, ,) (NP (JJ hot) (NN chocolate) (NN mix)) (CC and) (NP (JJ crushed) (NNS cookies)))) (. .)))</parsed-text><annotation>create_tool(t0, "blender")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (NN ice) (NN cream)) (, ,) (NP (NN milk)) (, ,) (NP (VBN whipped) (NN cream)) (, ,) (NP (JJ hot) (NN chocolate) (NN mix)) (CC and) (NP (JJ crushed) (NNS cookies)))) (. .)))</parsed-text><annotation>combine({ing0, ing1, ing2, ing3, ing4}, ing5, "smoothie mix", "")</annotation></line>
+<line><parsed-text>(S1 (S (PP (IN In) (NP (DT a) (NN blender))) (, ,) (VP (VBP combine) (NP (NP (NN ice) (NN cream)) (, ,) (NP (NN milk)) (, ,) (NP (VBN whipped) (NN cream)) (, ,) (NP (JJ hot) (NN chocolate) (NN mix)) (CC and) (NP (JJ crushed) (NNS cookies)))) (. .)))</parsed-text><annotation>put(ing5, t0)</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Blend) (PP (IN until) (ADJP (JJ smooth)))) (. .)))</parsed-text><annotation>mix(ing5, t0, ing6, "smoothie", "blend until smooth")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (PP (IN into) (NP (DT a) (JJ large) (JJ chilled) (NN glass)))) (. .)))</parsed-text><annotation>create_tool(t1, "large chilled glass")</annotation></line>
+<line><parsed-text>(S1 (S (VP (VB Pour) (PP (IN into) (NP (DT a) (JJ large) (JJ chilled) (NN glass)))) (. .)))</parsed-text><annotation>put(ing6, t1)</annotation></line>
+</recipe>

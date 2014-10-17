@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>8 lasagna noodles, uncooked</originaltext><annotation>create_ing(ing0, "8 lasagna noodles, uncooked")</annotation></line>
+<line><originaltext>1 cup shredded reduced-fat Monterey Jack cheese</originaltext><annotation>create_ing(ing1, "1 cup shredded reduced-fat Monterey Jack cheese")</annotation></line>
+<line><originaltext>1 (15 ounce) container part-skim ricotta cheese</originaltext><annotation>create_ing(ing2, "1 (15 ounce) container part-skim ricotta cheese")</annotation></line>
+<line><originaltext>1 (4.5 ounce) can chopped green chiles, drained</originaltext><annotation>create_ing(ing3, "1 (4.5 ounce) can chopped green chiles, drained")</annotation></line>
+<line><originaltext>1/2 teaspoon chili powder</originaltext><annotation>create_ing(ing4, "1/2 teaspoon chili powder")</annotation></line>
+<line><originaltext>1/8 teaspoon salt</originaltext><annotation>create_ing(ing5, "1/8 teaspoon salt")</annotation></line>
+<line><originaltext>2 cups drained canned no-salt-added black beans</originaltext><annotation>create_ing(ing6, "2 cups drained canned no-salt-added black beans")</annotation></line>
+<line><originaltext>Cooking spray</originaltext><annotation>create_ing(ing7, "Cooking spray")</annotation></line>
+<line><originaltext>1 (15.5 ounce) jar no-salt-added salsa</originaltext><annotation>create_ing(ing8, "1 (15.5 ounce) jar no-salt-added salsa")</annotation></line>
+<line><originaltext>Fresh cilantro sprigs (optional)</originaltext><annotation>create_ing(ing9, "Fresh cilantro sprigs (optional)")</annotation></line>
+<line><originaltext>Cook lasagna noodles according to package directions, omitting salt and fat; drain well.</originaltext><annotation>cook(ing0, , ing10, "cooked lasagna", "according to directions, no salt, not fat, drain well")</annotation></line>
+<line><originaltext>Combine cheeses and next 3 ingredients, stirring well. </originaltext><annotation>combine({ing1, ing2, ing3, ing4, ing5}, ing11, "cheese mix", "stir well")</annotation></line>
+<line><originaltext>Spread cheese mixture over one side of each noodle. </originaltext><annotation>combine({ing10, ing11}, ing12, "noodles and cheese", "spread on each noodle")</annotation></line>
+<line><originaltext>Spoon black beans evenly over cheese mixture. </originaltext><annotation>combine({ing12, ing6}, ing13, "beans and cheese", "spoon evenly")</annotation></line>
+<line><originaltext>Roll up noodles, jellyroll fashion, beginning at narrow ends.</originaltext><annotation>do(ing13, , ing14, "rolled noodles", "roll jellyroll fashion")</annotation></line>
+<line><originaltext>Place lasagna rolls, seam sides down, in an 11- x 7- x 11/2-inch baking dish coated with cooking spray. </originaltext><annotation>create_tool(t0, "baking dish")</annotation></line>
+<line><originaltext>Place lasagna rolls, seam sides down, in an 11- x 7- x 11/2-inch baking dish coated with cooking spray. </originaltext><annotation>put(ing7, t0)</annotation></line>
+<line><originaltext>Place lasagna rolls, seam sides down, in an 11- x 7- x 11/2-inch baking dish coated with cooking spray. </originaltext><annotation>put(ing14, t0)</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees for 25 minutes or until thoroughly heated.</originaltext><annotation>create_tool(t1, "oven")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees for 25 minutes or until thoroughly heated.</originaltext><annotation>set(t1,"350 degrees")</annotation></line>
+<line><originaltext>Cover and bake at 350 degrees for 25 minutes or until thoroughly heated.</originaltext><annotation>cook(ing14, t1, ing15, "baked lasagna", "bake")</annotation></line>
+<line><originaltext>To serve, spoon salsa evenly over rolls, and garnish with cilantro sprigs, if desired.</originaltext><annotation>combine({ing15, ing8, ing9}, ing16, "food", "spoon salsa over rolls, garnish with cilantro")</annotation></line>
+</recipe>

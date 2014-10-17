@@ -1,0 +1,16 @@
+<recipe version="1.1"><line><originaltext>2 Yukon Gold potatoes, cubed</originaltext><annotation>create_ing(ing0, "2 Yukon Gold potatoes, cubed")</annotation></line>
+<line><originaltext>1 (5.5 ounce) package au gratin instant potato mix</originaltext><annotation>create_ing(ing1, "1 (5.5 ounce) package au gratin instant potato mix")</annotation></line>
+<line><originaltext>1 (10.5 ounce) can condensed chicken broth</originaltext><annotation>create_ing(ing2, "1 (10.5 ounce) can condensed chicken broth")</annotation></line>
+<line><originaltext>1 1/2 cups water</originaltext><annotation>create_ing(ing3, "1 1/2 cups water")</annotation></line>
+<line><originaltext>1 cup heavy cream</originaltext><annotation>create_ing(ing4, "1 cup heavy cream")</annotation></line>
+<line><originaltext>In a large saucepan or pot, combine potatoes, au gratin potato mix, chicken broth and water.  </originaltext><annotation>create_tool(t0, "large pot")</annotation></line>
+<line><originaltext>In a large saucepan or pot, combine potatoes, au gratin potato mix, chicken broth and water.  </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing5, "potatoes, mix, broth, water", "")</annotation></line>
+<line><originaltext>In a large saucepan or pot, combine potatoes, au gratin potato mix, chicken broth and water.  </originaltext><annotation>put(ing5, t0)</annotation></line>
+<line><originaltext>Add more water to cover if necessary.  </originaltext><annotation>create_ing(ing9,"more water (if necessary)")</annotation></line>
+<line><originaltext>Add more water to cover if necessary.  </originaltext><annotation>combine({ing5, ing9}, ing10, "mixture with more water if necessary", "Add more water if necessary")</annotation></line>
+<line><originaltext>Cook over medium heat, stirring occasionally, until potatoes are tender, about  40 minutes.  </originaltext><annotation>cook(ing10, t0, ing6, "warm mixture", "medium heat, 40 minutes, stirring occasionally")</annotation></line>
+<line><originaltext>Cook over medium heat, stirring occasionally, until potatoes are tender, about  40 minutes.  </originaltext><annotation>chefcheck(ing6,"potatoes are tender")</annotation></line>
+<line><originaltext>Stir in cream and heat through.  </originaltext><annotation>combine({ing4, ing6}, ing7, "soup", "stir")</annotation></line>
+<line><originaltext>Stir in cream and heat through.  </originaltext><annotation>cook(ing7, t0, ing8, "cooked soup", "heat through")</annotation></line>
+<line><originaltext>Serve.</originaltext><annotation>serve(ing8,"")</annotation></line>
+</recipe>

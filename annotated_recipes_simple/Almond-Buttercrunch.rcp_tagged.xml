@@ -1,0 +1,23 @@
+<recipe version="1.1"><line><originaltext>3/4 cup butter</originaltext><annotation>create_ing(ing0, "3/4 cup butter")</annotation></line>
+<line><originaltext>2 cups white sugar</originaltext><annotation>create_ing(ing1, "2 cups white sugar")</annotation></line>
+<line><originaltext>1 cup chopped almonds</originaltext><annotation>create_ing(ing2, "1 cup chopped almonds")</annotation></line>
+<line><originaltext>2 cups milk chocolate chips</originaltext><annotation>create_ing(ing3, "2 cups milk chocolate chips")</annotation></line>
+<line><originaltext>1/2 cup finely chopped almonds</originaltext><annotation>create_ing(ing4, "1/2 cup finely chopped almonds")</annotation></line>
+<line><originaltext>In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds. </originaltext><annotation>create_tool(t0, "saucepan")</annotation></line>
+<line><originaltext>In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds. </originaltext><annotation>combine({ing0, ing1, ing2}, ing5, "butter, sugar, almonds", "")</annotation></line>
+<line><originaltext>In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds. </originaltext><annotation>mix(ing5, t0, ing6, "butter, sugar, almonds", "")</annotation></line>
+<line><originaltext>In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds. </originaltext><annotation>cook(ing6, t0, ing7, "butter, sugar, almonds", "low heat")</annotation></line>
+<line><originaltext>Stir constantly until mixture boils, then do not stir or shake.  </originaltext><annotation>cook(ing7, t0, ing8, "boiled almond mixture", "stir until mixture boils")</annotation></line>
+<line><originaltext>Heat to 300 to 310 degrees F (149 to 154 degrees C), or until a small amount of syrup dropped into cold water forms hard, brittle threads.</originaltext><annotation>cook(ing8, t0, ing9, "almond syrup", "heat to 300 to 310 degrees")</annotation></line>
+<line><originaltext>Heat to 300 to 310 degrees F (149 to 154 degrees C), or until a small amount of syrup dropped into cold water forms hard, brittle threads.</originaltext><annotation>chefcheck(ing9,"a small amount of syrup dropped into cold water forms hard, brittle threads")</annotation></line>
+<line><originaltext>Pour onto a large buttered cookie sheet. </originaltext><annotation>create_tool(t1, "large cookie sheet")</annotation></line>
+<line><originaltext>Pour onto a large buttered cookie sheet. </originaltext><annotation>set(t1,"butter cookie sheet")</annotation></line>
+<line><originaltext>Pour onto a large buttered cookie sheet. </originaltext><annotation>remove(ing9,t0)</annotation></line>
+<line><originaltext>Pour onto a large buttered cookie sheet. </originaltext><annotation>put(ing9, t1)</annotation></line>
+<line><originaltext>Immediately press chocolate chips onto the hot candy. As the chocolate melts, spread it into a coating over the candy.</originaltext><annotation>combine({ing3, ing9}, ing10, "almond syrup with chocolate", "press chocolate chips onto hot candy")</annotation></line>
+<line><originaltext>Immediately press chocolate chips onto the hot candy. As the chocolate melts, spread it into a coating over the candy.</originaltext><annotation>do(ing10, , ing13, "almond-chocolate coating over candy", "spread chocolate into a coating over candy")</annotation></line>
+<line><originaltext>Sprinkle finely chopped almonds over the top; cool, and break into uneven pieces.</originaltext><annotation>combine({ing13, ing4}, ing11, "almond buttercrunch", "sprinkle almonds over the top")</annotation></line>
+<line><originaltext>Sprinkle finely chopped almonds over the top; cool, and break into uneven pieces.</originaltext><annotation>leave(ing11,"let cool")</annotation></line>
+<line><originaltext>Sprinkle finely chopped almonds over the top; cool, and break into uneven pieces.</originaltext><annotation>cut(ing11, , ing12, "broken pieces", "break into uneven pieces")</annotation></line>
+<line><originaltext>Sprinkle finely chopped almonds over the top; cool, and break into uneven pieces.</originaltext><annotation>serve(ing12,"")</annotation></line>
+</recipe>

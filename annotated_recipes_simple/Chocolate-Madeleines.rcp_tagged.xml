@@ -1,0 +1,26 @@
+<recipe version="1.1"><line><originaltext>1/4 cup sifted all-purpose flour</originaltext><annotation>create_ing(ing0, "1/4 cup sifted all-purpose flour")</annotation></line>
+<line><originaltext>1/4 cup unsweetened cocoa powder</originaltext><annotation>create_ing(ing1, "1/4 cup unsweetened cocoa powder")</annotation></line>
+<line><originaltext>1/2 teaspoon baking powder</originaltext><annotation>create_ing(ing2, "1/2 teaspoon baking powder")</annotation></line>
+<line><originaltext>1 pinch salt</originaltext><annotation>create_ing(ing3, "1 pinch salt")</annotation></line>
+<line><originaltext>2 ounces butter</originaltext><annotation>create_ing(ing4, "2 ounces butter")</annotation></line>
+<line><originaltext>1/2 teaspoon vanilla extract</originaltext><annotation>create_ing(ing5, "1/2 teaspoon vanilla extract")</annotation></line>
+<line><originaltext>1/4 cup white sugar</originaltext><annotation>create_ing(ing6, "1/4 cup white sugar")</annotation></line>
+<line><originaltext>1 egg</originaltext><annotation>create_ing(ing7, "1 egg")</annotation></line>
+<line><originaltext>2 egg yolks</originaltext><annotation>create_ing(ing8, "2 egg yolks")</annotation></line>
+<line><originaltext>1/3 cup confectioners' sugar for decoration</originaltext><annotation>create_ing(ing9, "1/3 cup confectioners' sugar for decoration")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>create_tool(t0, "oven")</annotation></line>
+<line><originaltext>Preheat oven to 375 degrees F (190 degrees C). </originaltext><annotation>set(t0,"preheat to 375 degrees F")</annotation></line>
+<line><originaltext>Butter one Madeleine pan. </originaltext><annotation>create_tool(t1, "Madeleine pan")</annotation></line>
+<line><originaltext>Butter one Madeleine pan. </originaltext><annotation>set(t1,"butter")</annotation></line>
+<line><originaltext>Sift the flour, cocoa, baking powder and salt together. </originaltext><annotation>combine({ing0, ing1, ing2, ing3}, ing10, "powder mix", "sift together")</annotation></line>
+<line><originaltext>Cream the butter with the vanilla and the sugar. </originaltext><annotation>combine({ing4, ing5, ing6}, ing11, "butter mix", "cream")</annotation></line>
+<line><originaltext>Add the egg and egg yolks, beating to mix. </originaltext><annotation>combine({ing11, ing7, ing8}, ing12, "beaten mix", "beat to mix")</annotation></line>
+<line><originaltext>Stir in the dry ingredients until just combined only, do not over mix. </originaltext><annotation>combine({ing10, ing12}, ing13, "dough", "stir in until just combined only, do not over mix")</annotation></line>
+<line><originaltext>Place rounded teaspoon of batter into the prepared Madeleine shell forms. </originaltext><annotation>put(ing13, t1)</annotation></line>
+<line><originaltext>Bake at 375 degrees F (190 degrees C) for 12 minutes. </originaltext><annotation>cook(ing13, t0, ing14, "madeleines", "bake at 375 degrees F for 12 minutes")</annotation></line>
+<line><originaltext>Remove from oven and immediately invert onto a wire rack to cool. </originaltext><annotation>create_tool(t2, "wire rack")</annotation></line>
+<line><originaltext>Remove from oven and immediately invert onto a wire rack to cool. </originaltext><annotation>remove(ing14,t0)</annotation></line>
+<line><originaltext>Remove from oven and immediately invert onto a wire rack to cool. </originaltext><annotation>put(ing14, t2)</annotation></line>
+<line><originaltext>Once cool sprinkle with confectioners' sugar, if desired. </originaltext><annotation>leave(ing14,"cool")</annotation></line>
+<line><originaltext>Once cool sprinkle with confectioners' sugar, if desired. </originaltext><annotation>combine({ing14, ing9}, ing15, "Chocolate Madeleines", "sprinkle")</annotation></line>
+</recipe>
