@@ -114,8 +114,9 @@ def words_around(sentence, head):
 
 
 if __name__ == "__main__":
-    n = 2
-    for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
+    zp = []
+    n = 0
+    for r, p in zip(create_annotated_recipe_generator(), create_parsed_recipe_generator()):
         limit = count_create_ing(r[2])
         originaltexts = r[1]
         annotations = r[2]
@@ -137,13 +138,18 @@ if __name__ == "__main__":
             if not head: continue
 
             try:
+                zpt = defaultdict(set)
+                tc = 0
                 for phrase in words_around(full, head):
-
                     cnt = 0
                     for o, a in t:
                         if ing in a:
-                            cnt += o.count(phrase)
+                            c = o.count(phrase)
+                            if c == 0:
+                                zpt[(ing, full, head)].add((o, a))
+                            cnt += c
                     
+                    tc += cnt
 
                     # # Count the phrase's occurance
                     # cnt = originaltext.count(phrase)
@@ -152,20 +158,25 @@ if __name__ == "__main__":
                     # Remove double-counts from smaller phrases contained within the larger phrase
                     if cnt:
                         for exist, ecnt in cnts[full].most_common():
-                            if ecnt and phrase != exist and exist in phrase:
+                            if ecnt > 0 and phrase != exist and exist in phrase:
                                 cnts[full][exist] -= cnt
+                if tc == 0:
+                    zp.append(zpt)
 
             except Exception, e:
                 # Reached when an improper head is provided to words_around
                 pass
 
+        eps = 0.00000001
         for k, v in cnts.items():
             total = sum(v.values())
             top = v.most_common(1)
             if top[0][1] == 0:
-                print "%s -> ZERO COUNT" % k
+                print "%s -> %s (%1.8f)" % (k, top[0][0], eps)
             else:
                 print "%s -> %s (%1.1f)" % (k, top[0][0], float(top[0][1]) / total)
+
+    # print zp
 
 
 
