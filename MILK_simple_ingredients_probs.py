@@ -6,8 +6,8 @@ from nltk.util import ngrams
 
 verbose = 1 #output recipe file names and source command names
 simple = 0 #use simple recipe names
-files = glob("annotated_recipes/*.xml")
-#files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
+#files = glob("annotated_recipes/*.xml")
+files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
 
 ing_dict = {}
 simple_ings = {}
@@ -17,15 +17,16 @@ stoplist = ['1', '2', 'in', 'the', 'a', 'an', 'and', 'or', '1/2', '1/3', '1/4', 
 
 def permutations(ingredient_desc):
 	#l = "orange apple grapes pear"
-	s = ingredient_desc.replace(',', '').split()
+	s = ingredient_desc.replace(',', '').rsplit(',', 1)[0].split()
 	res = []
 	perms = {}
-	for i in range(1,4):
+	for i in range(1,6):
 	    res += [' '.join(x) for x in combinations(s,i)] 
 	for j in set(res):
 		perms[j] = 0
 	possible_names[ingredient_desc] = perms
-	#print possible_names[ingredient_desc]
+	print perms
+
 
 def ngram_counter(x, ingredient_desc, sentence, increment):
 	if x == 0:
@@ -49,16 +50,6 @@ def ngram_counter(x, ingredient_desc, sentence, increment):
 					
 					#ngram_counter(n-1, ' '.join(grams), sentence, -1)
 
-
-f = open('data/simple_ings2.txt', 'r')
-for line in f:
-	#print line
-	split_line = line.rstrip('\n').split(' -> ')
-	#print split_line
-	if split_line[1] != 'None':
-		simple_ings[split_line[0]] = split_line[1]
-		#print simple_ings[split_line[0]]
-f.close()
 
 for file in [f for f in files]:
 
@@ -122,34 +113,14 @@ for file in [f for f in files]:
 			#start of probability calculations
 			if commandName in ["combine"]:
 				for i in commandArgs[0]:
-					ngram_counter(4, ing_dict[i], sentence, 1.0)
-					'''
-					for n in range(1,4):
-						engrams = ngrams(sentence.replace(',', '').replace(';', '').replace('.', '').split(), n)
-						for grams in engrams:
-							#print ' '.join(grams)
-							#print grams
-							if ing_dict[i] in possible_names:
-								if ' '.join(grams) in possible_names[ing_dict[i]]:
-									possible_names[ing_dict[i]][' '.join(grams)] += 1	
-					'''
+					ngram_counter(6, ing_dict[i], sentence, 1.0)
+
 			if commandName in ["cut", "mix", "cook", "do", "separate"]:
 				#ing_dict[commandArgs[0]] is the description of the input ingredient
 				#we want to see what permutations of the full ingredient name are used
 				#in the sentence corresponding to this command
-				ngram_counter(4, ing_dict[commandArgs[0]], sentence, 1.0)
-				'''
-				for n in range(1,4):
-						engrams = ngrams(sentence.replace(',', '').replace(';', '').replace('.', '').split(), n)
-						for grams in engrams:
-							#print ' '.join(grams)
-							#print grams
-							if ing_dict[commandArgs[0]] in possible_names:
-								if ' '.join(grams) in possible_names[ing_dict[commandArgs[0]]]:
-									possible_names[ing_dict[commandArgs[0]]][' '.join(grams)] += 1
-				'''
+				ngram_counter(6, ing_dict[commandArgs[0]], sentence, 1.0)
 
-#print possible_names
 
 for key in possible_names:
 	count = 0.0

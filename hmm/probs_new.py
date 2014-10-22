@@ -2,9 +2,9 @@ from collections import Counter
 from glob import glob
 from lxml import etree
 
-def load_recipes(path):
+def load_recipes(paths):
   recipes = []
-  for recipe_file in glob(path):
+  for recipe_file in paths:
     with open(recipe_file, 'r') as recipe_xml:
       recipe_tree = etree.XML(recipe_xml.read())
 
