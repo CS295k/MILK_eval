@@ -24,7 +24,7 @@ def main():
 
     # random train/test
     recipesDir = '../annotated_recipes/*.xml'
-    testingPercentage = .25
+    testingPercentage = 0.1
 
     # forced train/test
     trainDir = 'train/*xml'
@@ -34,6 +34,9 @@ def main():
     testingRecipes = []
     
     bigramPadding = .5
+
+    fileToCmds = {}
+
     # gets the filenames for train/test
     if (manualSplit):
         for recipe_file in glob(trainDir):
@@ -47,7 +50,16 @@ def main():
                 testingRecipes.append(recipe_file)
             else:
                 trainingRecipes.append(recipe_file)
-
+    print "testing:",testingRecipes
+    fin = open('cmdsOnly.txt', 'r')
+    for line in fin:
+        tokens = line.split(',')
+        curFile = tokens[0]
+        curCmds = []
+        for cmd in tokens[1:]:
+            curCmds.append(cmd.strip())
+        fileToCmds[curFile] = curCmds
+    fin.close()
 
     # trains
     numSections = 0
@@ -58,6 +70,7 @@ def main():
 
     condCounts = defaultdict(lambda: defaultdict(int))
     uniCounts = defaultdict(int)
+    #fout = open('cmdsOnly.txt', 'w')
     for recipe_file in trainingRecipes:
         with open(recipe_file, 'r') as recipe_xml:
             recipe_tree = etree.XML(recipe_xml.read())
@@ -66,10 +79,13 @@ def main():
         curSection = []
         commands = [element.text.split('(', 1)[0] for element in recipe_tree.findall('.//annotation')]
         originals = [element.text for element in recipe_tree.findall('.//originaltext')]
+        #fout.write(recipe_file)
         for curCmd, curText in zip(commands, originals):
 
             if (curCmd == 'create_ing' or curCmd == 'create_tool'):
                 continue
+
+            #fout.write("," + curCmd)
 
             # found a new english instr
             size = len(curSection)
@@ -89,12 +105,9 @@ def main():
                     numBigrams +=1
 
                 curSection = []
-
-                
-
             curSection.append(curCmd)
             prevText = curText
-
+        #fout.write('\n')
         size = len(curSection)
         if (size > 0):
 
@@ -112,8 +125,6 @@ def main():
                 uniCounts[first] += 1
                 numBigrams +=1
                 
-        #print bigramCounts
-        #print recipe_file
     print condCounts['do']
     print uniCounts['do']
     #exit(1)
@@ -135,29 +146,14 @@ def main():
     print probAtLeastLength
 
     # tests
+    fileToGuesses = {}
     flat_guess = []
-    flat_truth = []
-    for recipe_file in testingRecipes:
-        with open(recipe_file, 'r') as recipe_xml:
-            recipe_tree = etree.XML(recipe_xml.read())
+    for test in testingRecipes:
 
-        prevText = ""
-        curTrueSection = []
+        curCmds = fileToCmds[test]
         curGuessSection = []
-
-        truthMarkers = []
         guessMarkers = []
-
-        commands = [element.text.split('(', 1)[0] for element in recipe_tree.findall('.//annotation')]
-        originals = [element.text for element in recipe_tree.findall('.//originaltext')]
-        for curCmd, curText in zip(commands, originals):
-
-            if (curCmd == 'create_ing' or curCmd == 'create_tool'):
-                continue
-
-            #print "real:",curCmd
-            # our prediction
-            # consider adding a break after what we have so far; thus, a break before the current cmd
+        for curCmd in curCmds:
             size = len(curGuessSection)
             if (size > 0):
 
@@ -169,7 +165,6 @@ def main():
                     pLength = 0.003 / float(size+1)
 
                 # calculate bigram prob
-                pSeq = 1
                 pSeq2 = 1
                 tmp = list(curGuessSection)
                 tmp.insert(0,"|")
@@ -182,10 +177,7 @@ def main():
                     tmpList.append(first)
                     tmpList.append(second)
                     tup = tuple(tmpList)
-
-                    curSeqProb = float(bigramCounts[tup] + bigramPadding)/float(numBigrams)
                     curSeqProb2 = float(condCounts[first][second] + bigramPadding) / float(uniCounts[first])
-                    pSeq *= curSeqProb
                     pSeq2 *= curSeqProb2
 
                 pNoBreak = pLength*pSeq2 # change
@@ -201,7 +193,6 @@ def main():
                 tmp.insert(0,"|")
                 tmp.append("|")
                 tmp.append(curCmd)
-                pSeq = 1
                 pSeq2 = 1
                 for i in range(0, len(tmp)-1):
                     first = tmp[i]
@@ -211,9 +202,7 @@ def main():
                     tmpList.append(second)
                     tup = tuple(tmpList)
                     
-                    curSeqProb = float(bigramCounts[tup] + bigramPadding)/float(numBigrams)
                     curSeqProb2 = float(condCounts[first][second] + bigramPadding) / float(uniCounts[first])
-                    pSeq *= curSeqProb
                     pSeq2 *= curSeqProb2
 
                 pBreak = pLength*pSeq2 # change
@@ -224,45 +213,54 @@ def main():
                         guessMarkers.append(0)
                     guessMarkers.append(1)
                     curGuessSection = []
+            curGuessSection.append(curCmd)
 
+        # if we have a remaining section, let's just break at the end
+        if (len(curGuessSection) > 0):
+            for i in range(0,len(curGuessSection)-1):
+                guessMarkers.append(0)
+            guessMarkers.append(1)
+        
+        flat_guess.extend(guessMarkers)
+        fileToGuesses[test] = guessMarkers
 
-                #print "pLen:",pLength,"pSeq:",pSeq,"total;no break",curGuessSection,curCmd,pNoBreak,pBreak
-                
-                
+    flat_truth = []
+    for recipe_file in testingRecipes:
+        with open(recipe_file, 'r') as recipe_xml:
+            recipe_tree = etree.XML(recipe_xml.read())
 
+        prevText = ""
+        curTrueSection = []
+        truthMarkers = []
+
+        commands = [element.text.split('(', 1)[0] for element in recipe_tree.findall('.//annotation')]
+        originals = [element.text for element in recipe_tree.findall('.//originaltext')]
+        for curCmd, curText in zip(commands, originals):
+
+            if (curCmd == 'create_ing' or curCmd == 'create_tool'):
+                continue
 
             # true break
             size = len(curTrueSection)
             if (curText != prevText and size > 0):
-                #print curTrueSection
+
                 for i in range(0, len(curTrueSection)-1):
                     truthMarkers.append(0)
                 truthMarkers.append(1)
                 curTrueSection = []
 
-
             prevText = curText
             curTrueSection.append(curCmd)
-            curGuessSection.append(curCmd)
         
-        print "curTrueSection:",curTrueSection
         if (len(curTrueSection) > 0):
-            #print curTrueSection
             for i in range(0, len(curTrueSection)-1):
                 truthMarkers.append(0)
             truthMarkers.append(1)
 
-
-        if (len(curGuessSection) > 0):
-            for i in range(0,len(curGuessSection)-1):
-                guessMarkers.append(0)
-            guessMarkers.append(1)
-
-        flat_guess.extend(guessMarkers)
         flat_truth.extend(truthMarkers)
         print "----\nrecipe_file",recipe_file
         print "truth:",truthMarkers
-        print "guess:",guessMarkers
+        print "guess:",fileToGuesses[recipe_file]
 
     print segmentation_scoring(flat_truth,flat_guess)
 main()
