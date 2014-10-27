@@ -95,34 +95,58 @@ def words_around(sentence, head):
 
 
 if __name__ == "__main__":
-
-    gc = Counter()
-
     n = 10
-    for r, p in zip(create_annotated_recipe_generator(), create_parsed_recipe_generator()):
+    for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
         limit = count_create_ing(r[2])
         originaltexts = r[1]
         annotations = r[2]
         data = zip([a.split("(", 1)[1].split(",", 1)[0] for a in r[2][:limit]],
                     r[1][:limit], [find_head(p_) for p_ in p[:limit]])
+
+        originaltext = " ".join(originaltexts[len(data):])
+
+        cnts = defaultdict(Counter)
+
         for datum in data:
             ing = datum[0]
             full = datum[1]
-            short = datum[2]
+            head = datum[2]
 
-            if not short: continue
+            #print "%s -> %s" % (full, head)
 
-            sentences = [o.strip() for o, a in zip(originaltexts, annotations) if ing in a and o != full]
-            sentences = [[w.replace(",", "").replace(".", "").lower() for w in s.split()] for s in sentences]
-            sentences = sum(sentences, [])
-            all_sentences = " ".join(sentences)
+            if not head: continue
 
             try:
-                for phrase in words_around(full, short):
-                    if phrase in all_sentences:
-                        short = phrase
-                        break
-
-                print ("%s -> %s" % (full, short)).encode("utf-8")
+                for phrase in words_around(full, head):
+                    cnts[full][phrase] += originaltext.count(phrase)
+                    #cnt[phrase] += originaltext.count(phrase)
             except Exception, e:
-                print "ERROR:", e
+                pass
+
+
+        for k, v in cnts.items():
+            total = sum(v.values())
+            if not total: continue
+            bestp = None
+            bestc = None
+            for p, c in v.items():
+                if not bestc or bestc < float(c) / total:
+                    bestp = p
+                    bestc = float(c) / total
+                #print p, float(c) / total
+            print "%s -> %s %1.1f" % (k, bestp, bestc)
+
+            # sentences = [o.strip() for o, a in zip(originaltexts, annotations) if ing in a and o != full]
+            # sentences = [[w.replace(",", "").replace(".", "").lower() for w in s.split()] for s in sentences]
+            # sentences = sum(sentences, [])
+            # all_sentences = " ".join(sentences)
+
+            # try:
+            #     for phrase in words_around(full, short):
+            #         if phrase in all_sentences:
+            #             short = phrase
+            #             break
+
+            #     print ("%s -> %s" % (full, short)).encode("utf-8")
+            # except Exception, e:
+            #     print "ERROR:", e
