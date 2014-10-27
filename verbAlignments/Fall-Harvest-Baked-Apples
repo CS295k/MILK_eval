@@ -1,0 +1,7 @@
+set Preheat 
+put Place 
+combine combine cook NOVERB 
+chefcheck NOVERB combine drizzle 
+put NOVERB cook bake 
+do NOVERB cook bake chefcheck continue 
+serve Serve 

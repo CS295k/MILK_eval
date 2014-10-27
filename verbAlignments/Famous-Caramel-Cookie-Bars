@@ -1,0 +1,8 @@
+put Place 
+combine NOVERB put NOVERB cook melt cook melt 
+combine Spoon 
+put Place leave set chefcheck NOVERB 
+put Line 
+cook melt chefcheck simmering 
+combine Dip 
+put Place leave let chefcheck NOVERB serve rest 

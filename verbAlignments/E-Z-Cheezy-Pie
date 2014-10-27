@@ -1,0 +1,15 @@
+set Preheat 
+mix whip chefcheck whip 
+combine Add 
+mix Mix chefcheck NOVERB 
+combine Add 
+mix Beat chefcheck NOVERB 
+combine Pour 
+cook Bake 
+remove Remove leave stand 
+combine combine mix NOVERB 
+combine spread 
+set Turn 
+cook NOVERB 
+remove Remove leave chill 
+combine NOVERB serve serving 

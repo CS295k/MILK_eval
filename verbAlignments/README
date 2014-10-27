@@ -1,0 +1,25 @@
+There is a file in this directory for each of the 260 MILK annotated recipes.  In each file
+there is one line corresponding to each action sentence.  An "action sentence" is a sentence
+who's corresponding milk commands contains at least one action predicate.  An action predicate
+is any predicate except for the two "create" milk predicates.
+
+For each action line there is the action predicate followed by the verb which the alighment
+found to be verb which was most highly ranked as the verb alighned to that milk predicate.
+If there is no verb which ranks highly, the predicate is associated with the dummy NOVERB .
+
+For example, here is the file for the first recipe 1-Pot-3-Bean... which happens to be
+remarkably accurate(<:
+
+put NOVERB cook Heat combine NOVERB put NOVERB cook Heat 
+separate NOVERB remove Remove leave set 
+combine NOVERB cook Saute 
+combine Add set cover cook simmer 
+combine Add cook simmer serve NOVERB
+
+The third action sentence has the following annotations:
+<line><originaltext>Saute onions until soft, about 5 minutes. </originaltext><annotation>combine({ing2, ing20}, ing21, "onion in oil", "")</annotation></line>
+<line><originaltext>Saute onions until soft, about 5 minutes. </originaltext><annotation>cook(ing21, t0, ing22, "onions in oil", "saute until soft, about 5 minutes")</annotation></line>
+
+Note that the "combine" is implicit in the sentence, and the program correctly says that 
+there is no verb that expresses this command.  On the other hand, the cook predicate is 
+aligned with the verb "Saute".

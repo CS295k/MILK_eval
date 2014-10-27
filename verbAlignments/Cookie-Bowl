@@ -1,0 +1,16 @@
+set Preheat 
+set Turn 
+set NOVERB 
+combine Stir 
+combine NOVERB mix cream 
+combine Beat 
+combine stir chefcheck form 
+do roll 
+do using 
+do overlapping 
+do Work 
+chefcheck NOVERB 
+cook Bake chefcheck Bake 
+leave Cool 
+do turn 
+serve Fill 

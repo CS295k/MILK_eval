@@ -1,0 +1,7 @@
+set Preheat 
+set NOVERB put NOVERB cook melt 
+combine Stir 
+combine Coat 
+put Arrange chefcheck NOVERB 
+cook Bake 
+chefcheck ensure 
