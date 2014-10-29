@@ -113,18 +113,59 @@ def words_around(sentence, head):
     # return sorted(set([" ".join(p + words[n:n+i]) for p in [words[j:n] for j in range(n)] for i in range(n)]), key = len)
 
 
+def dup_cnt(lst):
+    dup_lst = []
+    last = lst[0]
+    cnt = 1
+    for curr in lst[1:]:
+        if curr == last:
+            cnt += 1
+        else:
+            dup_lst.append(cnt)
+            cnt = 1
+        last = curr
+
+    if cnt > 0:
+        dup_lst.append(cnt)
+
+    return dup_lst
+
+def dupr(dups, lst):
+    dupr_lst = []
+    for n, item in zip(dups, lst):
+        dupr_lst += [item] * n
+    print "DUPR LIST", dupr_lst
+    return dupr_lst
+
+def get_NPs(p):
+    NPs = []
+    stack = p[1:]
+    while stack:
+        node = stack.pop(0)
+        if node[0] == "NP":
+            NPs.append(node)
+
+        if isinstance(node, list):
+            stack = node[1:] + stack
+    return NPs
+
 if __name__ == "__main__":
     n = 1
     for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
         limit = count_create_ing(r[2])
         originaltexts = r[1]
         annotations = r[2]
+        p = [a for a in dupr(dup_cnt(originaltexts), [b[0] for b in p])]
+
         data = zip([a.split("(", 1)[1].split(",", 1)[0] for a in r[2][:limit]],
                     r[1][:limit], [find_head(p_) for p_ in p[:limit]])
 
         originaltext = " ".join(originaltexts[len(data):])
 
-        t = zip(originaltexts[len(data):], annotations[len(data):])
+        t = zip(originaltexts[len(data):], annotations[len(data):], p[len(data):])
+
+        print p[len(data):]
+        print originaltexts[len(data):]
 
         cnts = defaultdict(Counter)
 
@@ -133,6 +174,9 @@ if __name__ == "__main__":
             full = datum[1]
             head = datum[2]
 
-            NPs = [(o, a) for o, a in t if ing in a]
-
-            print full, NPs
+            for truple in [(o, a, p_) for o, a, p_ in t if ing in a]:
+                print "Full ingredient:", full
+                print "Original text:", truple[0]
+                NPs = get_NPs(truple[2])
+                print "%s NPs:" % len(NPs), NPs
+                print ""
