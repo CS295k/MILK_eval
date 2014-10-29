@@ -6,6 +6,11 @@ from string import punctuation
 
 import re
 
+import os.path, sys
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))
+
+import MILK_eval
+
 regex = re.compile('[%s]' % re.escape(punctuation))
 
 def create_annotated_recipe_generator(n = None):
@@ -134,7 +139,6 @@ def dupr(dups, lst):
     dupr_lst = []
     for n, item in zip(dups, lst):
         dupr_lst += [item] * n
-    print "DUPR LIST", dupr_lst
     return dupr_lst
 
 def get_NPs(p):
@@ -152,6 +156,10 @@ def get_NPs(p):
 if __name__ == "__main__":
     n = 1
     for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
+        recipe = MILK_eval.MILK_eval(r[0])
+
+        ings = {ing: name for state in recipe for ing, name in state[1].I_d.items()}
+
         limit = count_create_ing(r[2])
         originaltexts = r[1]
         annotations = r[2]
@@ -164,18 +172,15 @@ if __name__ == "__main__":
 
         t = zip(originaltexts[len(data):], annotations[len(data):], p[len(data):])
 
-        print p[len(data):]
-        print originaltexts[len(data):]
-
         cnts = defaultdict(Counter)
 
-        for datum in data:
-            ing = datum[0]
-            full = datum[1]
-            head = datum[2]
+        for ing, name in ings.items():
+            # ing = datum[0]
+            # full = datum[1]
+            # head = datum[2]
 
             for truple in [(o, a, p_) for o, a, p_ in t if ing in a]:
-                print "Full ingredient:", full
+                print "Full ingredient:", name
                 print "Original text:", truple[0]
                 NPs = get_NPs(truple[2])
                 print "%s NPs:" % len(NPs), NPs
