@@ -1,5 +1,6 @@
 from __future__ import division
 from sexpdata import loads, ExpectClosingBracket, Symbol
+import re
 from Data_Interface import getParseCommandPairMappings
 from MILK_parse import MILK_parse_command
 
@@ -58,8 +59,8 @@ def getVb(verb):
 	else:
 		return None
 
-def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed):
-	givenKey = (vb, ingredientsPreviouslyUsed)# command[0])
+def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed, toolsPreviouslyUsed):
+	givenKey = (vb, toolsPreviouslyUsed)# command[0])
 	if givenKey in caseFrameCounts:
 		caseFrameDict = caseFrameCounts[givenKey]
 		if caseFrame in caseFrameDict:
@@ -94,7 +95,7 @@ def getOutputIngredients(commandName, args):
 	elif commandName == "remove":
 		return set([args[0]])
 	elif commandName in ["cut", "mix", "cook", "do"]:
-		ingredient = [a for a in args if a is not None and a.startswith("ing")][1]
+		ingredient = [a for a in args if a is not None and re.compile("ing[0-9]+").match(a)][1]
 		return set([ingredient])
 	elif commandName in ["serve", "leave", "chefcheck"]:
 		return set([args[0]])
@@ -125,11 +126,27 @@ def getInputIngredients(commandName, args):
 	else:
 		return set()
 
+def getTools(commandName, args):
+	if commandName in ["put", "remove"]:
+		return set([args[1]])
+	elif commandName in ["cut", "mix", "cook", "do"]:
+		tools = [a for a in args if a is not None and re.compile("t[0-9]+").match(a)]
+		if len(tools) > 0:
+			return set([tools[0]])
+		else:
+			return set()
+	elif commandName == "set":
+		return set([args[0]])
+	else:
+		return set()
+
 parseCommandPairMappings = getParseCommandPairMappings()
 for filename in parseCommandPairMappings:
 	pairs = parseCommandPairMappings[filename]
 	prevPrevIngredients = set()
 	prevIngredients = set()
+	prevPrevTools = set()
+	prevTools = set()
 	for pair in pairs:
 		verb = getVerb(pair[0])
 		if verb is not None:
@@ -137,12 +154,17 @@ for filename in parseCommandPairMappings:
 			vb = getVb(verb)
 			command = MILK_parse_command(pair[1])
 			inputIngredients = getInputIngredients(command[0], command[1])
-			assert(all(i.startswith("ing") for i in inputIngredients))
+			tools = getTools(command[0], command[1])
+			assert(all(re.compile("ing[0-9]+").match(i) for i in inputIngredients))
+			assert(all(re.compile("t[0-9]+").match(t) for t in tools))
 			ingredientsPreviouslyUsed = len((prevIngredients.union(prevPrevIngredients)).intersection(inputIngredients)) > 0
+			toolsPreviouslyUsed = len((prevTools.union(prevPrevTools)).intersection(tools)) > 0
 			prevPrevIngredients = prevIngredients
 			prevIngredients = getOutputIngredients(command[0], command[1])
+			prevPrevTools = prevTools
+			prevTools = tools
 			if vb is not None and command[0] != "create_ing" and command[0] != "create_tool": # this indicates a bad parse/commands we don't want
-				addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed) # TODO handle last time NP was mentioned, and extra parameters of command
+				addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed, toolsPreviouslyUsed) # TODO handle last time NP was mentioned, and extra parameters of command
 
 probabilities = []
 for key1 in caseFrameCounts:
@@ -153,7 +175,7 @@ for key1 in caseFrameCounts:
 
 probabilities.sort(key=lambda tup: tup[2])
 probabilities.reverse()
-expectedGiven = ("heat", False)# "combine")
+expectedGiven = ("stir", True)# "combine")
 totalOccurances = sum(caseFrameCounts[expectedGiven][key2] for key2 in caseFrameCounts[expectedGiven])
 print("Conditioning Parameters: " + str(expectedGiven))
 print("Total Occurrences of Key: " + str(totalOccurances))
@@ -161,7 +183,3 @@ print("\n")
 for tup in probabilities:
 	if tup[0] == expectedGiven:
 		print("%s\n%f\n\n" % (tup[1], tup[2]))
-		
-		
-		
-		
