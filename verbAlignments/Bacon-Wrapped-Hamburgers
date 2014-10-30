@@ -1,0 +1,7 @@
+set Preheat 
+combine mix put NOVERB 
+combine Crumble mix mix 
+do wrap combine NOVERB 
+do Secure 
+cook NOVERB chefcheck NOVERB 
+remove Remove combine NOVERB serve serving 
