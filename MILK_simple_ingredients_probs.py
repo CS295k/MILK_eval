@@ -6,8 +6,8 @@ from nltk.util import ngrams
 
 verbose = 1 #output recipe file names and source command names
 simple = 0 #use simple recipe names
-#files = glob("annotated_recipes/*.xml")
-files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
+files = glob("annotated_recipes/*.xml")
+#files = glob("annotated_recipes/Absolutely-Awesome-BBQ-Sauce.rcp_tagged.xml")
 
 ing_dict = {}
 simple_ings = {}
@@ -25,7 +25,7 @@ def permutations(ingredient_desc):
 	for j in set(res):
 		perms[j] = 0
 	possible_names[ingredient_desc] = perms
-	print perms
+	#print perms
 
 
 def ngram_counter(x, ingredient_desc, sentence, increment):

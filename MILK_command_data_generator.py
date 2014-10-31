@@ -75,7 +75,7 @@ for file in [f for f in files]:
 				for i in commandArgs[0]:
 					out += ing_dict[i] + ', '
 				if verbose == 1:
-					#print(commandName + ': ' + out + ' -> ' + commandArgs[2] + ', orig text: ' + sentence)
+					print(commandName + ': ' + out + ' -> ' + commandArgs[2] + ', orig text: ' + sentence)
 					pass
 				else:
 					print(commandArgs[2])
@@ -94,15 +94,6 @@ for file in [f for f in files]:
 					#ing_dict[commandArgs[0]] is the description of the input ingredient
 					#we want to see what permutations of the full ingredient name are used
 					#in the sentence corresponding to this command
-					for n in range(1,3):
-						engrams = ngrams(sentence.replace(',', '').replace(';', '').replace('.', '').split(), n)
-						for grams in engrams:
-							#print ' '.join(grams)
-							#print grams
-							if ing_dict[commandArgs[0]] in possible_names:
-								if ' '.join(grams) in possible_names[ing_dict[commandArgs[0]]]:
-									possible_names[ing_dict[commandArgs[0]]][' '.join(grams)] += 1
-
 
 
 					#print(ing_dict[commandArgs[0]] + ' -> ' + commandArgs[3] + ', orig text: ' + sentence)
@@ -111,10 +102,4 @@ for file in [f for f in files]:
 					#print(commandArgs[3])
 					pass
 
-#print possible_names
-
-for key in possible_names:
-	for perm in possible_names[key]:
-		if possible_names[key][perm] != 0:
-			print key, perm, possible_names[key][perm]
 

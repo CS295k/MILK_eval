@@ -3,6 +3,11 @@ from lxml import etree
 from glob import glob
 from itertools import combinations
 from string import punctuation
+from compiler.ast import flatten
+#need to pip install python-levenshtein for below
+import Levenshtein
+#need to install pip install fuzzywuzzy==0.3.1
+from fuzzywuzzy import fuzz
 
 import re
 
@@ -154,7 +159,7 @@ def get_NPs(p):
     return NPs
 
 if __name__ == "__main__":
-    n = 1
+    n = 260
     for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
         recipe = MILK_eval.MILK_eval(r[0])
 
@@ -174,14 +179,31 @@ if __name__ == "__main__":
 
         cnts = defaultdict(Counter)
 
+        rm = ",]['ABCDEFGHIJKLMNOPQRSTUVWXYZ$"
+
+        combine_dict = {}
+
+
         for ing, name in ings.items():
             # ing = datum[0]
             # full = datum[1]
             # head = datum[2]
 
             for truple in [(o, a, p_) for o, a, p_ in t if ing in a]:
-                print "Full ingredient:", name
-                print "Original text:", truple[0]
-                NPs = get_NPs(truple[2])
-                print "%s NPs:" % len(NPs), NPs
-                print ""
+                if '(' in a:
+                    #print "Full ingredient:", name
+                    if name not in combine_dict:
+                        combine_dict[name] = []
+                    #print "ing# ", ing
+                    #print "Original text:", truple[0]
+                    NPs = get_NPs(truple[2])
+                    NPhrases = []
+                    for phrase in NPs:
+                        combine_dict[name].append(' '.join((filter(lambda x: not (x in rm), ' '.join(flatten(phrase)))).split()))
+                    #print "%s NPs:" % len(NPs), combine_dict[name]
+                    #print ""
+
+        for key in combine_dict:
+            for value in combine_dict[key]:
+                print key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/100.0) + ")"
+
