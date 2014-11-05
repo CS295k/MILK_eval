@@ -1,4 +1,4 @@
-# Group Tagger #
+# HMM Decoder #
 # By Qi Xin
 
 import math

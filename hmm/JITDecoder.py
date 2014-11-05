@@ -1,4 +1,4 @@
-# Just-in-time Group Tagger #
+# HMM Just-in-time Decoder #
 # By Qi Xin #
 
 import math

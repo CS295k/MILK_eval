@@ -12,11 +12,11 @@ from glob import glob
 from sklearn.cross_validation import train_test_split
 
 if __name__ == "__main__":
-  #train_paths = glob("./train/*.xml")
-  #test_paths = glob("./test/*.xml")
+  train_paths = glob("./train/*.xml")
+  test_paths = glob("./test/*.xml")
 
-  data_files = glob("../annotated_recipes/*.xml")
-  train_paths, test_paths = train_test_split(data_files, test_size=0.25)
+  #data_files = glob("../annotated_recipes/*.xml")
+  #train_paths, test_paths = train_test_split(data_files, test_size=0.25)
 
   train_recipes = map(remove_create_tool,
                     map(remove_create_ing,
@@ -40,12 +40,13 @@ if __name__ == "__main__":
 
   # Decode
   n = 4
-  best_num = 100
+  best_num = 10
   tagss0 = [[len(anns) for (ot, anns) in r for _ in anns] for r in test_recipes]
-  best_tagss1 = []
+  #best_tagss1 = []
   test_cmdss = [[a for (ot, anns) in r for a in anns] for r in test_recipes]
 
   # Build up best_tagss1
+  '''
   for tags0, test_cmds in zip(tagss0, test_cmdss):
     tags1_list = group_tagging(n, test_cmds, sigmas_for_decoding, taus_for_decoding, best_num)
     # From tags1_list, find the best and add to best_tagss1
@@ -58,6 +59,20 @@ if __name__ == "__main__":
         best_fscore = fscore
         best_tags1 = tags1
     best_tagss1.append(best_tags1)
+  '''
+
+  for fn, tags0, test_cmds in zip(test_paths, tagss0, test_cmdss):
+    print fn
+    print "True tags", tags0
+    print
+    tags1_list = group_tagging(n, test_cmds, sigmas_for_decoding, taus_for_decoding, best_num)
+    for tags1 in tags1_list:
+      tags1 = [tag+1 for tag in tags1]
+      print "Pred tags", tags1
+      fscore = getFScore([tags0], [tags1])
+      print "F-Score", fscore
+    print
+    print
 
   '''
   for fn, true, pred in zip(test_paths, tagss0, tagss1):
@@ -73,7 +88,9 @@ if __name__ == "__main__":
     print
   '''
 
+  '''
   fscore = getFScore(tagss0, best_tagss1)
   print "F-Scores"
   print fscore
+  '''
 

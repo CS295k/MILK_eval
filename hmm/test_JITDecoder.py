@@ -54,3 +54,7 @@ if __name__ == "__main__":
   jit_decoder.ping()
 
   
+  train_data, test_data = train_test_split(0.25)
+  test_cmdss = generate_preds(test_data)
+  sigmas, taus = train(train_data)
+  JITDecoder(n, test_cmds, sigmas, taus, best_num)
