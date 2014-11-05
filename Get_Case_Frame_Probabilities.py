@@ -2,9 +2,13 @@ from __future__ import division
 from sexpdata import loads, ExpectClosingBracket, Symbol
 import re
 from Data_Interface import getParseCommandPairMappings
+from Verb_Alignment_Util import getVerbAlignmentCountDict, getCommandVerbProbability
 from MILK_parse import MILK_parse_command
 
+VERB_TAGS = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
+
 caseFrameCounts = {}
+exampleSentences = {}
 
 def getVerb(parse):
 	try:
@@ -24,6 +28,17 @@ def retrieveVerb(sexp):
 		return chooseNonNone([sexp if sexp[0]._val == "VP" else None] + [retrieveVerb(child) for child in sexp[1:]])
 	else:
 		return None
+
+def getVps(sexp):
+	if type(sexp) == list:
+		verbs = []
+		for child in sexp[1:]:
+			verbs += getVps(child)
+		if sexp[0]._val == "VP":
+			verbs.append(sexp)
+		return verbs
+	else:
+		return []
 
 def chooseNonNone(vals):
 	# assert(sum([1 for val in vals if val is not None]) <= 1)
@@ -55,20 +70,40 @@ def getCaseFrame(sexp):
 
 def getVb(verb):
 	if type(verb) == list:
-		return chooseNonNone([verb[1]._val if verb[0]._val in ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"] else None] + [getVb(child) for child in verb[1:]])
+		return chooseNonNone([verb[1]._val if verb[0]._val in VERB_TAGS else None] + [getVb(child) for child in verb[1:]])
 	else:
 		return None
 
-def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed, toolsPreviouslyUsed):
-	givenKey = (vb, toolsPreviouslyUsed)# command[0])
+def countTags(sexp, tag):
+	if type(sexp) == list:
+		return (1 if sexp[0]._val == tag else 0) + sum(countTags(child, tag) for child in sexp[1:])
+	else:
+		return 0
+
+def parseToSentence(sexp):
+	if type(sexp) == list:
+		result = ""
+		for child in sexp[1:]:
+			result += parseToSentence(child)
+		return result
+	elif type(sexp) == Symbol:
+		return str(sexp._val) + " "
+	else:
+		return str(sexp) + " "
+
+def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed, toolsPreviouslyUsed, sexp, filename):
+	givenKey = (vb, ingredientsPreviouslyUsed)
 	if givenKey in caseFrameCounts:
 		caseFrameDict = caseFrameCounts[givenKey]
 		if caseFrame in caseFrameDict:
 			caseFrameDict[caseFrame] += 1
+			exampleSentences[givenKey][caseFrame].append((filename, parseToSentence(sexp)))
 		else:
 			caseFrameDict[caseFrame] = 1
+			exampleSentences[givenKey][caseFrame] = [(filename, parseToSentence(sexp))]
 	else:
 		caseFrameCounts[givenKey] = {caseFrame: 1}
+		exampleSentences[givenKey] = {caseFrame: [(filename, parseToSentence(sexp))]}
 
 def makeListOfListsHashable(lol):
 	'''
@@ -140,6 +175,19 @@ def getTools(commandName, args):
 	else:
 		return set()
 
+def getMostLikelyVpVbPair(initialVps, command):
+	counts = getVerbAlignmentCountDict()
+	vps = [vp for vp in initialVps if countTags(vp, "VP") == 1 and sum(countTags(vp, vb) for vb in VERB_TAGS) > 0]
+	mostLikelyVpVbPair = None
+	highestProbability = 0
+	for vp in vps:
+		vb = getVb(vp).lower()
+		prob = getCommandVerbProbability(command, vb, counts)
+		if mostLikelyVpVbPair is None or prob > highestProbability:
+			mostLikelyVpVbPair = (vp, vb)
+			highestProbability = prob
+	return mostLikelyVpVbPair
+
 parseCommandPairMappings = getParseCommandPairMappings()
 for filename in parseCommandPairMappings:
 	pairs = parseCommandPairMappings[filename]
@@ -148,23 +196,33 @@ for filename in parseCommandPairMappings:
 	prevPrevTools = set()
 	prevTools = set()
 	for pair in pairs:
-		verb = getVerb(pair[0])
-		if verb is not None:
-			caseFrame = makeListOfListsHashable(getCaseFrame(verb))
-			vb = getVb(verb)
-			command = MILK_parse_command(pair[1])
-			inputIngredients = getInputIngredients(command[0], command[1])
-			tools = getTools(command[0], command[1])
-			assert(all(re.compile("ing[0-9]+").match(i) for i in inputIngredients))
-			assert(all(re.compile("t[0-9]+").match(t) for t in tools))
-			ingredientsPreviouslyUsed = len((prevIngredients.union(prevPrevIngredients)).intersection(inputIngredients)) > 0
-			toolsPreviouslyUsed = len((prevTools.union(prevPrevTools)).intersection(tools)) > 0
-			prevPrevIngredients = prevIngredients
-			prevIngredients = getOutputIngredients(command[0], command[1])
-			prevPrevTools = prevTools
-			prevTools = tools
-			if vb is not None and command[0] != "create_ing" and command[0] != "create_tool": # this indicates a bad parse/commands we don't want
-				addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed, toolsPreviouslyUsed) # TODO handle last time NP was mentioned, and extra parameters of command
+		command = MILK_parse_command(pair[1])
+		if command[0] not in ["create_ing", "create_tool"]:
+			try:
+				sexp = loads(pair[0])
+				vps = getVps(sexp)
+				vpVbPair = getMostLikelyVpVbPair(vps, command[0])
+				if vpVbPair is not None:
+					vp, vb = vpVbPair
+					caseFrame = makeListOfListsHashable(getCaseFrame(vp))
+					inputIngredients = getInputIngredients(command[0], command[1])
+					tools = getTools(command[0], command[1])
+					assert(all(re.compile("ing[0-9]+").match(i) for i in inputIngredients))
+					assert(all(re.compile("t[0-9]+").match(t) for t in tools))
+					ingredientsPreviouslyUsed = len((prevIngredients.union(prevPrevIngredients)).intersection(inputIngredients)) > 0
+					toolsPreviouslyUsed = len((prevTools.union(prevPrevTools)).intersection(tools)) > 0
+					prevPrevIngredients = prevIngredients
+					prevIngredients = getOutputIngredients(command[0], command[1])
+					prevPrevTools = prevTools
+					prevTools = tools
+					if vb is not None and command[0] != "create_ing" and command[0] != "create_tool": # this indicates a bad parse/commands we don't want
+						addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed, toolsPreviouslyUsed, sexp, filename)
+			except ExpectClosingBracket:
+				pass
+			except IndexError:
+				pass
+			except AssertionError:
+				pass
 
 probabilities = []
 for key1 in caseFrameCounts:
@@ -175,11 +233,11 @@ for key1 in caseFrameCounts:
 
 probabilities.sort(key=lambda tup: tup[2])
 probabilities.reverse()
-expectedGiven = ("stir", True)# "combine")
+expectedGiven = ("boil", True)
 totalOccurances = sum(caseFrameCounts[expectedGiven][key2] for key2 in caseFrameCounts[expectedGiven])
 print("Conditioning Parameters: " + str(expectedGiven))
 print("Total Occurrences of Key: " + str(totalOccurances))
 print("\n")
 for tup in probabilities:
 	if tup[0] == expectedGiven:
-		print("%s\n%f\n\n" % (tup[1], tup[2]))
+		print("%s\n%f\n%s\n\n" % (tup[1], tup[2], exampleSentences[tup[0]][tup[1]]))
