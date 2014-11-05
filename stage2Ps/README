@@ -1,0 +1,32 @@
+Each file in this directory contains the probabilities for stage 2 of our generative model.
+As we have agreed, they are the product of 10-fold cross validation.  For example,
+the recipie 1-Pot-3-Bean-Chicken-Stew was created when we used the n%mod10==0 since it
+is the 0th recipe in alpabetical order.
+
+Each file expresses possible partitions of the milk predicates into distinct
+groups.  Since stage one may identify different groups of predicates as corresponding
+to individual sentences, in stage 2 we give the possibility analysis for every
+possible grouping, as identified by the numbers of the first, and last action milk 
+predicate.  Thesse are expressed as
+
+start end number-of-possibilities
+      string-indicating-subgrouping  probability
+
+e.g., 
+
+0 1 1                     //start with milk statement #0, and with #1,  only 1 possible grouping
+        B 1
+0 2 2
+        BB 0.780007
+        CB 0.219993
+0 3 4                     // there are 4 possible groupsings found for statements 0 to 4
+        BBB 0.687105      // most prob is each Milk correspndes to different verb or noverb  at all
+        CBB 0.193791
+        BCB 0.0857762
+        CCB 0.0333282
+
+
+in the subgroupings B="break" C="continue"  That is the sub grouping BCB means that
+the first Milk pred is by itself, the next-two are combined into 1 verb.  The last "B"
+is just there so there is one letter for each Milk predicate to be grouped.
+CCB means all three are grouped togenter into one verb (Not very liekly).
