@@ -7,7 +7,7 @@ import os
 import random
 import operator
 from glob import glob
-from JITDecoder import JITDecoder
+from JITDecoders import *
 from group_tagger import group_tagger
 from sklearn.cross_validation import train_test_split
 
