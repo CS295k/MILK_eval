@@ -161,7 +161,13 @@ def get_NPs(p):
 if __name__ == "__main__":
     n = 260
     for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
-        recipe = MILK_eval.MILK_eval(r[0])
+
+        recipe = []
+        try:
+            recipe = MILK_eval.MILK_eval(r[0])
+        except Exception, e:
+            print ("Failing on %s: %s" % (r[0], e)).encode('utf-8')
+            continue
 
         ings = {ing: name for state in recipe for ing, name in state[1].I_d.items()}
 
@@ -205,5 +211,5 @@ if __name__ == "__main__":
 
         for key in combine_dict:
             for value in combine_dict[key]:
-                print key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/100.0) + ")"
+                print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/100.0) + ")").encode('utf-8')
 
