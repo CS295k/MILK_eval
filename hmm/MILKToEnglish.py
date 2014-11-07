@@ -9,23 +9,56 @@ import operator
 from glob import glob
 from JITDecoders import *
 from group_tagger import group_tagger
+from probs_new import *
 from sklearn.cross_validation import train_test_split
 
-if __name__ == "__main__":
+def strip(recipes):
 
-    data_files = glob("../annotated_recipes/*.xml")
-    train_paths, test_paths = train_test_split(data_files, test_size=0.25)
-    
-    tagger = group_tagger(train_paths, test_paths)
+    # strip recipes to a list of predicates as input of hmm grouping
+
+    predss = map(remove_create_tool,
+                 map(remove_create_ing,
+                     map(strip_to_predicate, recipes)))
+    return predss
+        
+
+def getEnglish(train_recipes, test_recipes):
+
+    # Get hmm group tagger
+    tagger = group_tagger(strip(train_recipes), strip(test_recipes))
     
     ############
     # To use
+    # If state_probs is None, then finish
+    # select(state) given state_probs[state]=0 might cause problems later
     test_recipe_index = 0
     group_num = 4
     best_seq_num = 100
     jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
-    jit_decoder.ping();
+    state_probs = jit_decoder.ping();
+    print state_probs
     jit_decoder.select(2);
-    jit_decoder.ping();
+    state_probs = jit_decoder.ping();
+    print state_probs
     ############
+    
+    
+if __name__ == "__main__":
+
+    data_files = glob("../annotated_recipes/*.xml")
+    len_data_files = len(data_files)
+
+    for i in xrange(1, 10):
+        train_paths = []
+        test_paths = []
+        for j in xrange(len_data_files):
+            if ((j+1) % (i+1) == 0):
+                test_paths.append(data_files[j])
+            else:
+                train_paths.append(data_files[j])
+            
+        train_recipes = load_recipes(train_paths)
+        test_recipes = load_recipes(test_paths)
+        english_text = getEnglish(train_recipes, test_recipes)
+        
     

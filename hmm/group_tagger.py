@@ -5,15 +5,6 @@ from probs_new import *
 from EM import *
 from JITDecoders import JITDecoder, JITDecoder2
 
-def strip(paths):
-        
-    recipes = map(remove_create_tool,
-                  map(remove_create_ing,
-                      map(strip_to_predicate,
-                          load_recipes(paths))))
-    return recipes
-
-
 class group_tagger:
 
     def train(self):
@@ -63,7 +54,7 @@ class group_tagger:
         return jit_decoder2
 
         
-    def __init__(self, train_paths, test_paths):
-        self.train_recipes = strip(train_paths)
-        self.test_recipes = strip(test_paths)
+    def __init__(self, train_recipes, test_recipes):
+        self.train_recipes = train_recipes
+        self.test_recipes = test_recipes
         self.sigmas, self.taus = self.train()

@@ -21,15 +21,9 @@ class JITDecoder:
                 sum_counts += state_count
             state_probs = [ float(state_count)/float(sum_counts) \
                             for state_count in state_counts ]
-            # Output state_probs
-            print "===== State Distribution ====="
-            state = 0
-            for state_prob in state_probs:
-                print (state, state_prob)
-                state += 1
-            print
+            return state_probs
         else:
-            print "Finish"
+            return None
 
     def select(self, state):
         self.index += state + 1
@@ -55,17 +49,10 @@ class JITDecoder2:
                             for j in xrange(n) ]
             norm = sum(state_probs)
             state_probs = [ prob/norm for prob in state_probs ]
-
-            # Output state_probs
-            print "===== State Distribution ====="
-            state = 0
-            for state_prob in state_probs:
-                print (state, state_prob)
-                state += 1
-            print
+            return state_probs
         else:
-            print "Finish"
-
+            return None
+            
     def select(self, state):
         self.index += state + 1
 
