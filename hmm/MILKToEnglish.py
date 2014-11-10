@@ -12,15 +12,27 @@ from group_tagger import group_tagger
 from probs_new import *
 from sklearn.cross_validation import train_test_split
 
+
 def strip(recipes):
 
-    # strip recipes to a list of predicates as input of hmm grouping
+    # strip loaded recipes to a list of (english, predicate_list)
+    # remove create_ing & create_tool
 
-    predss = map(remove_create_tool,
-                 map(remove_create_ing,
-                     map(strip_to_predicate, recipes)))
-    return predss
-        
+    strip_recipes = map(remove_create_tool,
+                        map(remove_create_ing,
+                            map(strip_to_predicate, recipes)))
+    return strip_recipes
+
+def strip2(recipes):
+
+    # strip loaded recipes to a list of predicate_list
+    # remove create_ing & create_tool
+
+    strip_recipes = strip(recipes)
+    preds_list = [[ a for (ot, anns) in strip_recipe for a in anns ] \
+                  for strip_recipe in strip_recipes ]
+    return preds_list
+
 
 def getEnglish(train_recipes, test_recipes):
 
