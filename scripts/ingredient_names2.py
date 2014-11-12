@@ -196,7 +196,7 @@ if __name__ == "__main__":
             # head = datum[2]
 
             for truple in [(o, a, p_) for o, a, p_ in t if ing in a]:
-                if '(' in a:
+                if 'cook(' in a:
                     #print "Full ingredient:", name
                     if name not in combine_dict:
                         combine_dict[name] = []
@@ -209,7 +209,18 @@ if __name__ == "__main__":
                     #print "%s NPs:" % len(NPs), combine_dict[name]
                     #print ""
 
+        #sum = 0
         for key in combine_dict:
+            sum = 0.0
+            best = 0.0
+            best_str = ""
             for value in combine_dict[key]:
-                print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/100.0) + ")").encode('utf-8')
+                sum += fuzz.partial_ratio(key, value)
+                #print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/100.0) + ")").encode('utf-8')
+            for value in combine_dict[key]:
+                if fuzz.partial_ratio(key, value)/(sum + .00001) > best:
+                    best = fuzz.partial_ratio(key, value)/(sum + .00001)
+                    best_str = key + " -> " + value
+                print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/(sum + .00001)) + ")").encode('utf-8')
+            print "BEST: " + best_str
 
