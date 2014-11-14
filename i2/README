@@ -1,0 +1,13 @@
+The unparsed sentences are to be found in the directories p1, p2... p4.  Each
+directory has files xaa, xab, etc, each with 5000 sentences. If you cat'ed all 
+of these sentences together, you will have 502502 sentences.  
+The file "instructions.txt" has 502,627 sentences.  The difference comes from removing
+all "sentences" of length three characters or less --- e.g. "."  Many of these were
+causing the parser to abort and none were really sentences.  (As opposed to some four
+character sentences, such as "Mix.")
+
+The directories p1p, ... p4p have are idential to p1, ... p4, except here the
+files contain the corresponding parsed sentences.  That
+is, the file p1p/xaa has the parsed versions of the sentences in p1/xaa,
+
+
