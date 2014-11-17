@@ -1,0 +1,4422 @@
+./annotated_recipes_test/Frosted-Shortbread.rcp_tagged.xml
+In a mixing bowl cream butter and brown sugar
+combine [['ing56', 'ing57'], 'ing64', 'creamed', 'cream in a large mixing bowl']
+stir 0.167111816164
+noverb 0.139735677193
+add 0.0858019933179
+combine 0.0830133030218
+fold 0.0480224834657
+sprinkle 0.0464602213876
+mix 0.0447600579104
+pour 0.0409089901037
+drizzle 0.038486925754
+spread 0.0286298589223
+
+
+Add egg yolk and vanilla mix well
+combine [['ing64', 'ing58', 'ing59'], 'ing65', 'more creamed', 'mix well']
+stir 0.167111816164
+noverb 0.139735677193
+add 0.0858019933179
+combine 0.0830133030218
+fold 0.0480224834657
+sprinkle 0.0464602213876
+mix 0.0447600579104
+pour 0.0409089901037
+drizzle 0.038486925754
+spread 0.0286298589223
+
+
+Combine flour and salt add to creamed mixture
+combine [['ing65', 'ing61', 'ing60'], 'ing66', 'even more creamed', 'combine']
+stir 0.167111816164
+noverb 0.139735677193
+add 0.0858019933179
+combine 0.0830133030218
+fold 0.0480224834657
+sprinkle 0.0464602213876
+mix 0.0447600579104
+pour 0.0409089901037
+drizzle 0.038486925754
+spread 0.0286298589223
+
+
+Press into a greased 15in
+set ['t10', 'greased']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Press into a greased 15in
+cook ['ing66', 't10', 'ing67', 'ready to bake', 'press']
+bake 0.72721804275
+cook 0.0398755455869
+bring 0.034535956816
+noverb 0.0344418152442
+simmer 0.0228272000005
+fry 0.0192178559721
+heat 0.016442469942
+continue 0.0158620200608
+batter 0.0097884639692
+appears 0.0077592275831
+
+
+Bake at 350 degrees F for 1518 minutes or until golden brown
+set ['t11', '350F']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Bake at 350 degrees F for 1518 minutes or until golden brown
+cook ['ing67', 't11', 'ing68', 'cookies!', 'bake for 15-18 mins until golden brown']
+bake 0.72721804275
+cook 0.0398755455869
+bring 0.034535956816
+noverb 0.0344418152442
+simmer 0.0228272000005
+fry 0.0192178559721
+heat 0.016442469942
+continue 0.0158620200608
+batter 0.0097884639692
+appears 0.0077592275831
+
+
+Immediately place candy bar pieces over crust
+combine [['ing62', 'ing68'], 'ing69', 'adorned cookies', 'place candy pieces on top as soon as removed from oven']
+noverb 0.183161771483
+add 0.120519949923
+stir 0.101324375592
+combine 0.0749034026138
+garnish 0.0593032194131
+beat 0.0543084291118
+spread 0.0389302679165
+alternating 0.0337894572685
+pour 0.0335280425377
+sprinkle 0.032322899224
+
+
+Let stand for 1 minute or until softened spread chocolate evenly
+leave ['ing69', 'until chocolate has softened']
+cool 0.469396116642
+refrigerate 0.150336101839
+chill 0.112356475621
+rack 0.0386453301591
+set 0.0363134233086
+noverb 0.033944313734
+stand 0.0319422347959
+allow 0.0238417997429
+let 0.0179469651192
+store 0.0150116208403
+
+
+Sprinkle with walnuts
+combine [['ing63', 'ing69'], 'ing70', 'even more fancy cookies!', 'sprinkle']
+noverb 0.182118444236
+add 0.117870972388
+stir 0.106174572568
+combine 0.0802576214466
+garnish 0.0520205683271
+beat 0.0483339381981
+spread 0.0369365132758
+pour 0.0357250919091
+sprinkle 0.0340974932252
+mix 0.0320427418901
+
+
+Cool
+leave ['ing70', 'until cool']
+cool 0.472929525616
+refrigerate 0.131770775306
+chill 0.0983903844676
+noverb 0.0452554350808
+allow 0.0363459857397
+rack 0.0338321012889
+set 0.0319224632928
+stand 0.0280540798448
+frost 0.0253759295988
+spreading 0.0162086218144
+
+
+Cut into squares
+serve ['ing70', 'cut into squares']
+noverb 0.351587611615
+serve 0.214429153724
+serving 0.0614390077292
+roll 0.0611050896816
+continue 0.0408002366
+bake 0.019407639661
+dust 0.019407639661
+fill 0.019407639661
+makes 0.0182727410755
+desired 0.0143064139768
+
+
+./annotated_recipes_test/Garlic-Chicken-Stir-Fry.rcp_tagged.xml
+Heat peanut oil in a wok or large skillet
+cook ['ing219', 't21', 'ing233', 'hot oil', 'heat']
+bake 0.180381182877
+cook 0.167044824283
+heat 0.0838753592497
+bring 0.0798920990269
+simmer 0.0773710482529
+noverb 0.0730348409217
+fry 0.0502697524328
+melt 0.0480764382595
+saute 0.0318156607674
+continue 0.0242272979378
+
+
+When oil begins to smoke quickly stir in 2 cloves minced garlic ginger root green onions and salt
+combine [['ing222', 'ing223', 'ing220', 'ing221', 'ing233'], 'ing234', 'vegies in oil', 'stir when oil is smoking']
+noverb 0.260094117369
+stir 0.170702904756
+add 0.0569471788036
+mix 0.0569099849449
+pour 0.0487805908921
+season 0.0487628392777
+top 0.0487518501831
+place 0.0406359811698
+combine 0.032585201409
+sprinkle 0.032530255936
+
+
+Stir fry until onion becomes translucent about 2 minutes
+leave ['ing234', 'stirfry until onions are transluscent']
+refrigerate 0.39495594084
+cool 0.221752906076
+chill 0.0838616471685
+noverb 0.0498500432327
+let 0.0478633430117
+set 0.0437691552049
+stand 0.039074236665
+remove 0.0204762813442
+rise 0.0201664969929
+rack 0.0169487194595
+
+
+Add chicken and stir until opaque about 3 minutes
+combine [['ing234', 'ing224'], 'ing235', 'chicken in vegies in oil', 'stir until opaque (roughly 3 mins)']
+noverb 0.212078459466
+stir 0.150207274284
+combine 0.114605574355
+place 0.0620160596443
+add 0.0557664141216
+pour 0.0519689435417
+mix 0.0475193414423
+season 0.0386832404933
+sprinkle 0.0230062305111
+top 0.0190212512059
+
+
+Add sweet onions cabbage bell pepper peas and 12 cup of the brothwater and cover
+separate ['ing229', 'ing236', '1/2 cup chicken broth', 'ing237', '1/2 cup chicken broth', 'separate']
+remove 0.489583333333
+noverb 0.249745934959
+x 0.244918699187
+top 0.00228658536585
+drain 0.0015243902439
+strain 0.0010162601626
+divided 0.000508130081301
+glaze 0.000508130081301
+tint 0.000508130081301
+lift 0.000508130081301
+
+
+In a small bowl mix the remaining 12 cup brothwater soy sauce sugar and cornstarch
+combine [['ing231', 'ing230', 'ing232', 'ing236'], 'ing238', 'sauce', 'in a small bowl']
+add 0.218386221518
+pour 0.15591559934
+stir 0.125032011696
+noverb 0.0940057896597
+combine 0.0626553985497
+sprinkle 0.0624446886518
+place 0.0623766131464
+repeat 0.0623182627131
+brush 0.0623150210224
+garnish 0.031178581501
+
+
+Add sauce mixture to wokskillet and stir until chicken and vegetables are coated with the thickened sauce
+combine [['ing238', 'ing235'], 'ing239', 'final', 'stir until covered thickly']
+add 0.218386221518
+pour 0.15591559934
+stir 0.125032011696
+noverb 0.0940057896597
+combine 0.0626553985497
+sprinkle 0.0624446886518
+place 0.0623766131464
+repeat 0.0623182627131
+brush 0.0623150210224
+garnish 0.031178581501
+
+
+Serve immediately over hot rice if desired
+serve ['ing239', 'immediately, over hot rice']
+serve 0.529121314794
+noverb 0.105578681341
+dressing 0.0362593987145
+desired 0.0339141614962
+cooked 0.03242798109
+garnish 0.03242798109
+cool 0.0295352848544
+serving 0.0281360279619
+spoon 0.0262423541094
+roll 0.0234424725195
+
+
+./annotated_recipes_test/Gerrys-Chicken-Enchiladas.rcp_tagged.xml
+Cut chicken breasts into 1 inch strips
+cut ['ing0', 't0', 'ing13', 'chicken breast strips', '1 inch strips']
+cut 0.718292428239
+noverb 0.0641074232498
+bite-size 0.0634422159139
+chop 0.0337167299645
+seal 0.031721107957
+peel 0.031721107957
+flattened 0.031721107957
+divide 0.00199562200753
+use 0.00199562200753
+crumble 0.00199562200753
+
+
+Place in a medium bowl with desired marinade and marinate in the refrigerator for at least 30 minutes
+combine [['ing14', 'ing13'], 'ing15', 'marinated chicken', 'combine']
+noverb 0.12521103104
+pour 0.124684263021
+place 0.124576318755
+combine 0.0834538710973
+add 0.0834106933908
+sprinkle 0.0416794400715
+season 0.0416060379705
+spread 0.0415974024292
+top 0.041549906952
+coat 0.0415326358694
+
+
+Place in a medium bowl with desired marinade and marinate in the refrigerator for at least 30 minutes
+put ['ing15', 't1']
+noverb 0.173948802303
+place 0.162948493883
+combine 0.138274904904
+pour 0.0963298036394
+arrange 0.0876940474967
+stir 0.0728898941092
+stuffed 0.0716562146602
+x 0.0716562146602
+transfer 0.0172715122854
+shape 0.00740207669374
+
+
+Place in a medium bowl with desired marinade and marinate in the refrigerator for at least 30 minutes
+leave ['ing15', 'refridgerate for 30 minutes']
+cool 0.403059115337
+set 0.293096320794
+refrigerate 0.0752377015296
+noverb 0.0405126085159
+stand 0.0347250930136
+chill 0.0260438197602
+allow 0.0173625465068
+let 0.0144687887557
+remove 0.0115750310045
+freeze 0.0115750310045
+
+
+Preheat oven to 350 degrees F 175 degrees C
+set ['t2', '350 degrees F (175 degrees C)']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Heat oil in a large skillet over medium heat
+cook ['ing1', 't3', 'ing16', 'hot oil', 'heat over medium heat']
+heat 0.166567661197
+bake 0.138476951072
+cook 0.133526836706
+simmer 0.10414361757
+saute 0.0620276473663
+brown 0.0407602092581
+melt 0.0306804547273
+add 0.0212359244557
+noverb 0.020929567202
+of 0.020803512592
+
+
+Saute chicken and onions until chicken is evenly brown
+combine [['ing16', 'ing15', 'ing2'], 'ing17', 'hot stuff', 'combine']
+noverb 0.171058946755
+add 0.170961862164
+stir 0.105302596261
+sprinkle 0.0789024245167
+mix 0.0526362568557
+spread 0.0525952351977
+top 0.0394395894552
+pour 0.0263454761999
+remaining 0.0262907806558
+cover 0.0262853111014
+
+
+Saute chicken and onions until chicken is evenly brown
+cook ['ing17', 't3', 'ing18', 'sauteed stuff', 'saute']
+bake 0.28577501856
+cook 0.103452309412
+simmer 0.0822990271718
+heat 0.0685183859677
+bring 0.0518072438939
+or 0.0510082221094
+saute 0.0347711767153
+noverb 0.0329596340577
+reduce 0.0265162692053
+place 0.0265162692053
+
+
+Saute chicken and onions until chicken is evenly brown
+chefcheck ['ing18', 'evenly brown']
+noverb 0.23176495066
+bake 0.0854809039203
+simmer 0.0802296861294
+inserted 0.0610685244578
+cook 0.0575618004261
+run 0.0544180365254
+filling 0.0481165751764
+stirring 0.0329446182231
+turn 0.0197289245432
+allow 0.0176284374269
+
+
+Stir in diced tomatoes with green chile peppers stewed tomatoes chile peppers soup and broth
+combine [['ing18', 'ing4', 'ing5', 'ing6', 'ing7', 'ing3'], 'ing19', 'soupy stuff', 'combine']
+noverb 0.16725218953
+stir 0.119857063813
+add 0.11369927186
+pour 0.0707052693316
+combine 0.0626531496399
+sprinkle 0.0516948512548
+place 0.0466362501742
+mix 0.0441031535315
+top 0.0313990151886
+spread 0.0310895550378
+
+
+Stir in diced tomatoes with green chile peppers stewed tomatoes chile peppers soup and broth
+mix ['ing19', 't3', 'ing20', 'stirred soupy stuff', 'stir']
+mix 0.260001552772
+stir 0.196798022301
+beat 0.11002290602
+cream 0.093203194825
+noverb 0.0893729727319
+turn 0.0552625379233
+blend 0.0411990472568
+shake 0.0141149100796
+moistened 0.010315845395
+moisten 0.00971083674248
+
+
+Bring mixture to a boil
+cook ['ing20', 't3', 'ing21', 'boiled soupy stuff', 'bring to boil']
+bake 0.208446506535
+cook 0.196705575111
+simmer 0.188150747379
+heat 0.0560027288498
+bring 0.054744158988
+noverb 0.0364227590099
+or 0.0267872255727
+saute 0.0253985408133
+melt 0.0240717683761
+heated 0.0136894721848
+
+
+Reduce heat cover skillet and simmer for 20 to 30 minutes or until chicken is no longer pink and juices run clear
+set ['t3', 'reduce heat']
+noverb 0.331108663254
+reduce 0.328581610834
+heat 0.164258407309
+sprinkle 0.163999222445
+preheat 0.00498930862438
+grease 0.000907147022614
+remove 0.00064796215901
+bake 0.000583165943109
+cover 0.000583165943109
+turn 0.000388777295406
+
+
+Reduce heat cover skillet and simmer for 20 to 30 minutes or until chicken is no longer pink and juices run clear
+set ['t3', 'cover']
+noverb 0.331108663254
+reduce 0.328581610834
+heat 0.164258407309
+sprinkle 0.163999222445
+preheat 0.00498930862438
+grease 0.000907147022614
+remove 0.00064796215901
+bake 0.000583165943109
+cover 0.000583165943109
+turn 0.000388777295406
+
+
+Reduce heat cover skillet and simmer for 20 to 30 minutes or until chicken is no longer pink and juices run clear
+cook ['ing21', 't3', 'ing22', 'simmered soup', '20-30 minutes']
+bake 0.208446506535
+cook 0.196705575111
+simmer 0.188150747379
+heat 0.0560027288498
+bring 0.054744158988
+noverb 0.0364227590099
+or 0.0267872255727
+saute 0.0253985408133
+melt 0.0240717683761
+heated 0.0136894721848
+
+
+Reduce heat cover skillet and simmer for 20 to 30 minutes or until chicken is no longer pink and juices run clear
+chefcheck ['ing22', 'chicken is no longer pink and juices run clear']
+noverb 0.258494628756
+bake 0.0899655098301
+simmer 0.0654839286825
+inserted 0.041724198671
+run 0.040203987581
+cook 0.0274058514423
+stirring 0.027014588052
+browned 0.0265682592241
+filling 0.0232079735535
+heated 0.0160890259069
+
+
+Remove chicken from skillet and shred when cool enough to handle
+separate ['ing22', 'ing23', 'chicken', 'ing24', 'chicken-less soup', 'remove chicken']
+noverb 0.192322158803
+remove 0.175805427765
+top 0.150647058753
+drain 0.0688250372656
+heat 0.0588803423993
+pull 0.0339427791986
+x 0.0238811579571
+strain 0.0238811579571
+glaze 0.0229416790885
+make 0.0169713895993
+
+
+Remove chicken from skillet and shred when cool enough to handle
+cut ['ing23', 't0', 'ing25', 'shredded chicken', 'shred when cool']
+cut 0.346309013346
+divide 0.0605838051517
+shape 0.0520788885881
+puree 0.0438739623504
+drop 0.0427492870954
+chop 0.0413080421954
+carve 0.034924779049
+bite-size 0.0338639523404
+noverb 0.033483534149
+onion 0.0260394442941
+
+
+Meanwhile allow skillet mixture to simmer and reduce to about 2 14 cups
+cook ['ing24', 't3', 'ing26', 'simmered soup', 'simmer']
+bake 0.208446506535
+cook 0.196705575111
+simmer 0.188150747379
+heat 0.0560027288498
+bring 0.054744158988
+noverb 0.0364227590099
+or 0.0267872255727
+saute 0.0253985408133
+melt 0.0240717683761
+heated 0.0136894721848
+
+
+Meanwhile allow skillet mixture to simmer and reduce to about 2 14 cups
+chefcheck ['ing26', 'reduce to 2 1/4 cups']
+noverb 0.258494628756
+bake 0.0899655098301
+simmer 0.0654839286825
+inserted 0.041724198671
+run 0.040203987581
+cook 0.0274058514423
+stirring 0.027014588052
+browned 0.0265682592241
+filling 0.0232079735535
+heated 0.0160890259069
+
+
+In a medium bowl combine shredded chicken and about 14 cup skillet mixture just enough to make a paste like mixture
+separate ['ing26', 'ing27', '1/4 cup soup', 'ing28', '2 cup soup', 'separate']
+noverb 0.192322158803
+remove 0.175805427765
+top 0.150647058753
+drain 0.0688250372656
+heat 0.0588803423993
+pull 0.0339427791986
+x 0.0238811579571
+strain 0.0238811579571
+glaze 0.0229416790885
+make 0.0169713895993
+
+
+In a medium bowl combine shredded chicken and about 14 cup skillet mixture just enough to make a paste like mixture
+combine [['ing27', 'ing25'], 'ing29', 'chicken paste', 'combine to paste']
+combine 0.161195248416
+add 0.14252160501
+noverb 0.127901114809
+stir 0.0971915039018
+place 0.0811252944993
+pour 0.0486779250672
+sprinkle 0.0423103897687
+mix 0.0401213269416
+top 0.02433531159
+spread 0.0233356111191
+
+
+In a medium bowl combine shredded chicken and about 14 cup skillet mixture just enough to make a paste like mixture
+put ['ing29', 't1']
+noverb 0.296759169512
+place 0.174812871221
+combine 0.114164765955
+pour 0.0777809379851
+arrange 0.0452233225038
+transfer 0.0321518542511
+stir 0.0255537180454
+fill 0.0253532764683
+stuffed 0.0170073833749
+x 0.0170073833749
+
+
+Mix together with half the chopped green onions
+separate ['ing8', 'ing30', '1/2 chopped green onions', 'ing31', '1/2 chopped green onions', 'split']
+noverb 0.239583333333
+top 0.09375
+remove 0.0729166666667
+drain 0.0625
+x 0.0416666666667
+strain 0.0416666666667
+divided 0.0208333333333
+glaze 0.0208333333333
+tint 0.0208333333333
+lift 0.0208333333333
+
+
+Mix together with half the chopped green onions
+combine [['ing29', 'ing30'], 'ing32', 'onion paste', 'mix together']
+noverb 0.266065287952
+stir 0.133346197049
+place 0.132601939205
+combine 0.0669694234069
+mix 0.0665972944849
+pour 0.0665490555506
+season 0.0664043387476
+blend 0.0662596219446
+desired 0.0662527306682
+crawfish 0.0662320568392
+
+
+Pour remaining 2 cups of skillet mixture into a 9x13 inch baking dish
+put ['ing28', 't4']
+noverb 0.296759169512
+place 0.174812871221
+combine 0.114164765955
+pour 0.0777809379851
+arrange 0.0452233225038
+transfer 0.0321518542511
+stir 0.0255537180454
+fill 0.0253532764683
+stuffed 0.0170073833749
+x 0.0170073833749
+
+
+In a second skillet heat cream over low heat being careful not to boil
+cook ['ing9', 't5', 'ing33', 'hot cream', 'heat over low heat']
+bake 0.227272727273
+cook 0.134199134199
+bring 0.0930735930736
+heat 0.0844155844156
+simmer 0.0714285714286
+melt 0.0627705627706
+noverb 0.0627705627706
+saute 0.030303030303
+fry 0.017316017316
+melted 0.017316017316
+
+
+In a second skillet heat cream over low heat being careful not to boil
+chefcheck ['ing33', "don't boil"]
+noverb 0.290983606557
+bake 0.0655737704918
+simmer 0.0450819672131
+browned 0.0368852459016
+inserted 0.0327868852459
+run 0.0286885245902
+stirring 0.0204918032787
+turn 0.016393442623
+form 0.016393442623
+brown 0.0122950819672
+
+
+Dip tortillas in the warm cream to soften and coat
+combine [['ing10', 'ing33'], 'ing34', 'creamy tortillas', 'dip into cream']
+noverb 0.175858480749
+stir 0.135275754422
+combine 0.112382934443
+add 0.10197710718
+mix 0.0561914672216
+pour 0.0489073881374
+sprinkle 0.044745057232
+season 0.0270551508845
+spread 0.0249739854318
+place 0.0228928199792
+
+
+Spoon about 13 cup chicken mixture onto each tortilla
+combine [['ing34', 'ing32'], 'ing35', 'chicken in tortilla', 'spoon 1/3 cup into each']
+noverb 0.175858480749
+stir 0.135275754422
+combine 0.112382934443
+add 0.10197710718
+mix 0.0561914672216
+pour 0.0489073881374
+sprinkle 0.044745057232
+season 0.0270551508845
+spread 0.0249739854318
+place 0.0228928199792
+
+
+Top chicken mixture with half the shredded cheese and roll up tortillas
+separate ['ing11', 'ing36', '1 1/2 cup shredded cheddar cheese', 'ing37', '1 1/2 cup shredded cheddar cheese', 'split']
+noverb 0.200776143791
+top 0.197916666667
+x 0.196895424837
+divided 0.196486928105
+coat 0.196282679739
+remove 0.00142973856209
+drain 0.00122549019608
+strain 0.000816993464052
+glaze 0.000408496732026
+tint 0.000408496732026
+
+
+Top chicken mixture with half the shredded cheese and roll up tortillas
+combine [['ing35', 'ing36'], 'ing38', 'cheesy tortillas', 'top chicken mixture with cheese']
+sprinkle 0.156076045331
+stir 0.109415406793
+combine 0.0937790685405
+pour 0.0780794187022
+spread 0.0624414570756
+repeat 0.0624089895958
+spoon 0.0468116123188
+drizzle 0.0468116123188
+noverb 0.0314755982539
+add 0.0313603387007
+
+
+Top chicken mixture with half the shredded cheese and roll up tortillas
+do ['ing38', None, 'ing39', 'rolled tortillas', 'roll up tortillas']
+noverb 0.112341941631
+roll 0.0961464856355
+tuck 0.0534061466288
+bringing 0.0493321814301
+seal 0.0409014567724
+drain 0.0355584008183
+escape 0.0355143642229
+crimp 0.0310152407663
+flatten 0.0288946035159
+used 0.0245499147635
+
+
+Place rolled tortillas in baking dish seam side down and drizzle with enchilada sauce
+put ['ing39', 't4']
+noverb 0.27439865602
+place 0.199733786112
+combine 0.127907430931
+pour 0.0662932292871
+arrange 0.0407381494885
+transfer 0.0280755825868
+fill 0.0254374140405
+dunk 0.0228824504731
+stir 0.0211603760657
+removing 0.0179529661077
+
+
+Place rolled tortillas in baking dish seam side down and drizzle with enchilada sauce
+combine [['ing12', 'ing39'], 'ing40', 'saucy tortillas', 'drizzle with sauce']
+combine 0.149648280561
+noverb 0.134185747371
+add 0.122727183568
+stir 0.0967397961264
+place 0.079476333586
+pour 0.0539537993657
+sprinkle 0.046429347384
+mix 0.0398450073624
+season 0.0231859845856
+spread 0.023080358181
+
+
+Cover with remaining shredded cheese and sprinkle remaining chopped green onion over cheese
+combine [['ing40', 'ing37'], 'ing41', 'cheesy saucy tortillas', 'cover']
+combine 0.149648280561
+noverb 0.134185747371
+add 0.122727183568
+stir 0.0967397961264
+place 0.079476333586
+pour 0.0539537993657
+sprinkle 0.046429347384
+mix 0.0398450073624
+season 0.0231859845856
+spread 0.023080358181
+
+
+Cover with remaining shredded cheese and sprinkle remaining chopped green onion over cheese
+combine [['ing41', 'ing31'], 'ing42', 'delicious tortillas', 'sprinkle']
+combine 0.149648280561
+noverb 0.134185747371
+add 0.122727183568
+stir 0.0967397961264
+place 0.079476333586
+pour 0.0539537993657
+sprinkle 0.046429347384
+mix 0.0398450073624
+season 0.0231859845856
+spread 0.023080358181
+
+
+Cover with remaining shredded cheese and sprinkle remaining chopped green onion over cheese
+combine [['ing28', 'ing42'], 'ing43', 'soupy tortillas', 'soaked']
+combine 0.149648280561
+noverb 0.134185747371
+add 0.122727183568
+stir 0.0967397961264
+place 0.079476333586
+pour 0.0539537993657
+sprinkle 0.046429347384
+mix 0.0398450073624
+season 0.0231859845856
+spread 0.023080358181
+
+
+Bake uncovered in preheated oven for 25 minutes or until cheese is melted and bubbling
+cook ['ing43', 't2', 'ing44', 'cooked tortillas', '25 minutes']
+bake 0.24490241934
+cook 0.173013288689
+simmer 0.170785293862
+bring 0.0518187545696
+heat 0.0485488885924
+noverb 0.0376949665101
+or 0.0375315243325
+saute 0.0333712598983
+melt 0.0210681045553
+heated 0.016415042116
+
+
+Bake uncovered in preheated oven for 25 minutes or until cheese is melted and bubbling
+chefcheck ['ing44', 'cheese is melted and bubbling']
+noverb 0.261593880345
+bake 0.119369364132
+simmer 0.0560954993948
+run 0.0454343755126
+inserted 0.042020398966
+filling 0.0329139737148
+browned 0.0270886271812
+stirring 0.0229998265338
+leave 0.0225314785345
+cook 0.0219003803309
+
+
+./annotated_recipes_test/Fruit-Dip-2.rcp_tagged.xml
+Blend together the cream cheese marshmallow cream and thawed topping
+combine [['ing71', 'ing72', 'ing73'], 'ing75', 'blended', 'blend']
+combine 0.145720222369
+noverb 0.132551774333
+add 0.122010415754
+stir 0.0985813213621
+place 0.0778023676693
+pour 0.0535412884844
+sprinkle 0.0481452076332
+mix 0.0411788412861
+season 0.024029698484
+spread 0.0239014687384
+
+
+Add enough pineapple juice to make it dipping consistency
+combine [['ing74', 'ing75'], 'ing76', 'dip!', 'until the mixture is a good dipping consistency']
+combine 0.145720222369
+noverb 0.132551774333
+add 0.122010415754
+stir 0.0985813213621
+place 0.0778023676693
+pour 0.0535412884844
+sprinkle 0.0481452076332
+mix 0.0411788412861
+season 0.024029698484
+spread 0.0239014687384
+
+
+Chill for 1 hour
+leave ['ing76', 'chill for 1 hour']
+refrigerate 0.340497613567
+chill 0.283038890384
+cool 0.116905309937
+noverb 0.11449396666
+stand 0.0496368038741
+set 0.0265945256529
+allow 0.00938630317161
+let 0.00782191930968
+remove 0.00625753544774
+freeze 0.00625753544774
+
+
+./annotated_recipes_test/Fudge-Drops.rcp_tagged.xml
+In a heavy saucepan combine the sugar milk butter and salt
+combine [['ing85', 'ing84', 'ing87', 'ing86'], 'ing92', 'mezcla', 'combine']
+noverb 0.151526030707
+combine 0.116980838055
+stir 0.0829556966085
+pour 0.0715839764908
+add 0.0661598238359
+garnish 0.0661316811238
+brush 0.0580551634221
+fold 0.0566871445538
+grate 0.0492873595182
+spread 0.0363661599618
+
+
+Bring to a boil over medium heat stirring constantly
+cook ['ing92', 't12', 'ing93', 'mezcla caliente', 'bring to a boil over medium heat, stirring constantly, for five mins']
+bake 0.51628651568
+cook 0.077801882606
+bring 0.0638533727234
+heat 0.0562522091419
+noverb 0.0551814685032
+simmer 0.038804881722
+fry 0.0246105705596
+melted 0.0196995009382
+boiling 0.0161837673482
+melt 0.015702671129
+
+
+Remove from the heat stir in remaining ingredients
+combine [['ing93', 'ing89', 'ing88', 'ing90', 'ing91'], 'ing94', 'gotas', 'remove from heat and stir vigorously until marshmellows are melted']
+noverb 0.144347205197
+stir 0.130815973069
+add 0.111829283725
+combine 0.0958390652788
+pour 0.0758607035466
+sprinkle 0.0513385641295
+spread 0.0482827330675
+mix 0.0411300174364
+repeat 0.0182816972613
+fold 0.0176403512021
+
+
+Drop by tablespoonfuls onto waxed paperlined baking sheets
+cook ['ing94', 't13', 'ing95', 'dropped drops', 'drop by tablespoonfuls']
+bake 0.48227422615
+melted 0.151251492995
+melt 0.0638579768974
+flatten 0.0442628534405
+cook 0.0411705397873
+noverb 0.0399135819007
+bring 0.0335007627299
+heat 0.0295537552305
+simmer 0.0206104529575
+continue 0.0189842956436
+
+
+Let stand at room temperature until cool
+leave ['ing95', 'cool at room temperature']
+cool 0.425919236834
+chill 0.210000275095
+refrigerate 0.0625265978446
+frost 0.0606125232539
+stand 0.0522725154026
+allow 0.0306437819184
+noverb 0.029839629952
+set 0.0266276015029
+let 0.0226357303316
+freeze 0.0221957453958
+
+
+./annotated_recipes_test/Grandmas-Gnocchi.rcp_tagged.xml
+Bring a large pot of salted water to a boil
+set ['t0', 'boil']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Drop in potatoes and cook until tender but still firm about 15 minutes
+cook ['ing0', 't0', 'ing5', 'cooked potatoes', 'drop in for about 15 minutes']
+bake 0.166587339362
+cook 0.145984905147
+bring 0.1253144761
+heat 0.0947847963555
+simmer 0.0620792819746
+noverb 0.0577276127014
+boil 0.0556197728973
+or 0.0348813490175
+continue 0.0337934316992
+melt 0.0315496022302
+
+
+Drop in potatoes and cook until tender but still firm about 15 minutes
+chefcheck ['ing5', 'tender but still firm']
+simmer 0.247470147743
+noverb 0.127049180328
+browned 0.12391216353
+stirring 0.123709775349
+or 0.123608581259
+cover 0.123557984214
+adjust 0.123507387169
+bake 0.000809552722121
+inserted 0.000404776361061
+run 0.000354179315928
+
+
+Drain cool slightly and peel
+do ['ing5', 't0', 'ing6', 'cooked potatoes', 'drain']
+noverb 0.190127332984
+drain 0.133961276818
+mash 0.115239258096
+roll 0.113785685214
+crimp 0.0602942031513
+stretch 0.0576196290482
+rinse 0.0213965928252
+fold 0.0133728705157
+press 0.0106982964126
+flatten 0.0106982964126
+
+
+Drain cool slightly and peel
+leave ['ing6', 'cool slightly']
+set 0.917822290704
+cool 0.0282485875706
+refrigerate 0.0133538777607
+noverb 0.00719054956343
+stand 0.00616332819723
+chill 0.00462249614792
+allow 0.00308166409861
+let 0.00256805341551
+remove 0.00205444273241
+freeze 0.00205444273241
+
+
+Drain cool slightly and peel
+cut ['ing6', 't1', 'ing7', 'peeled potatoes', 'peel']
+handle 0.617522998433
+cut 0.180693367613
+flattened 0.162133933234
+chop 0.00337444261439
+divide 0.00253083196079
+use 0.00253083196079
+noverb 0.00253083196079
+crumble 0.00253083196079
+crush 0.00168722130719
+drop 0.00168722130719
+
+
+Season with salt then mash potatoes with fork masher or in ricer
+combine [['ing4', 'ing7'], 'ing8', 'salted potatoes', 'season']
+add 0.240900264973
+noverb 0.206789891686
+stir 0.206650432146
+combine 0.0691147179878
+pour 0.0688965889627
+season 0.0688214953639
+mix 0.0345573589939
+top 0.0344107476819
+dissolve 0.034378564711
+fry 0.0343714129397
+
+
+Season with salt then mash potatoes with fork masher or in ricer
+do ['ing8', 't2', 'ing9', 'mashed potatoes', 'mash']
+noverb 0.184300234646
+roll 0.136433674088
+drain 0.117528859505
+mash 0.10995602227
+stretch 0.0623201550409
+crimp 0.0550109673248
+flatten 0.0295004003836
+1/8 0.0220923440978
+seal 0.0147831563816
+make 0.0147831563816
+
+
+Place in large bowl and stir in egg and olive oil
+put ['ing9', 't3']
+place 0.280663081769
+combine 0.162176612285
+noverb 0.155561488962
+pour 0.117025472294
+arrange 0.0592960892673
+transfer 0.0592960892673
+stir 0.0495313777576
+spread 0.0144488627958
+fill 0.00968542972221
+side 0.00963257519719
+
+
+Place in large bowl and stir in egg and olive oil
+combine [['ing9', 'ing2', 'ing3'], 'ing10', 'potato mixture', 'stir in']
+add 0.172235562174
+noverb 0.171259254747
+stir 0.169397203891
+combine 0.0988401835091
+pour 0.0701585599915
+season 0.0415558842672
+mix 0.0369245544465
+sprinkle 0.025075943494
+top 0.0243480956502
+dissolve 0.0189751021218
+
+
+Knead in enough flour to make a soft dough
+combine [['ing1', 'ing10'], 'ing11', 'dough', 'knead in']
+add 0.172235562174
+noverb 0.171259254747
+stir 0.169397203891
+combine 0.0988401835091
+pour 0.0701585599915
+season 0.0415558842672
+mix 0.0369245544465
+sprinkle 0.025075943494
+top 0.0243480956502
+dissolve 0.0189751021218
+
+
+On a floured surface roll dough into a long rope
+do ['ing11', 't4', 'ing12', 'dough rope', 'roll dough']
+noverb 0.160913992228
+roll 0.143096627459
+drain 0.0558182338821
+turn 0.0508085811572
+mash 0.044032985397
+bringing 0.039254156995
+slip 0.039254156995
+stove 0.039254156995
+stretch 0.0335324461402
+1/8 0.028193933599
+
+
+Cut the rope into 12inch pieces
+cut ['ing12', 't5', 'ing13', '1/2 inch pieces', 'cut rope']
+cut 0.351572004877
+flattened 0.0986872298188
+use 0.0883289051966
+handle 0.0702580913573
+shaped 0.0654712204106
+divide 0.063673303845
+shape 0.0303975636767
+drop 0.0295022030584
+loaf 0.0266312218959
+noverb 0.0257286659485
+
+
+Bring a large pot of lightly salted water to a boil
+set ['t0', 'boil']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Drop in gnocchi and cook until they float to the top about 3 to 5 minutes
+cook ['ing13', 't0', 'ing14', 'gnocchi', 'cook about 3 minutes']
+bake 0.394240565878
+cook 0.111421769553
+bring 0.0838359264066
+heat 0.0674540377277
+noverb 0.0508770044548
+simmer 0.0456867965682
+or 0.0280922653694
+fry 0.021494841038
+boil 0.0209606185749
+uncovered 0.0192921832999
+
+
+Drop in gnocchi and cook until they float to the top about 3 to 5 minutes
+chefcheck ['ing14', 'floating']
+noverb 0.228801527433
+simmer 0.095427535398
+bake 0.084794531046
+browned 0.0509440034591
+inserted 0.0462556375944
+or 0.0384215385134
+run 0.025433495785
+stirring 0.0248012407797
+cover 0.0247353111267
+adjust 0.0247133345757
+
+
+Serve with pasta sauce
+serve ['ing14', 'with pasta sauce']
+noverb 0.306237217595
+serve 0.292086722821
+serving 0.0704694072311
+drizzle 0.0270508208596
+fill 0.0270508208596
+cook 0.0260232936475
+enjoy 0.0215697124933
+refrigerate 0.0206807086922
+top 0.0206274529908
+broth 0.0205741972893
+
+
+./annotated_recipes_test/Gingery-Fish-Kabobs.rcp_tagged.xml
+In a small saucepan dissolve cornstarch in pineapple juice
+combine [['ing0', 'ing1'], 'ing9', 'starchy pineapple juice', 'dissolve']
+noverb 0.16448973905
+stir 0.13005568517
+add 0.127438603026
+combine 0.0859672319421
+pour 0.0644972617643
+sprinkle 0.0515691344089
+mix 0.0435066734267
+season 0.0273830795381
+place 0.0237517202716
+top 0.0167803599967
+
+
+Add soy sauce vinegar garlic and ginger
+combine [['ing4', 'ing5', 'ing9', 'ing2', 'ing3'], 'ing10', 'spiced pineapple juice', 'add']
+noverb 0.16448973905
+stir 0.13005568517
+add 0.127438603026
+combine 0.0859672319421
+pour 0.0644972617643
+sprinkle 0.0515691344089
+mix 0.0435066734267
+season 0.0273830795381
+place 0.0237517202716
+top 0.0167803599967
+
+
+Simmer until slightly thickened about 7 minutes
+cook ['ing10', 't0', 'ing11', 'simmered juice', 'simmer about 7 minutes']
+bake 0.305396696066
+bring 0.222637706083
+cook 0.111557633698
+noverb 0.0502758724229
+fry 0.0443533607242
+simmer 0.0429667429598
+or 0.0410917821202
+continue 0.0252243791872
+browned 0.0242239139554
+wings 0.0238928822433
+
+
+Simmer until slightly thickened about 7 minutes
+chefcheck ['ing11', 'slightly thickened']
+noverb 0.347042537299
+simmer 0.0922814191869
+boils 0.0794979508286
+bake 0.0485037267822
+toasted 0.046510654829
+resembles 0.0409161494312
+turn 0.0297330411193
+fry 0.0296001696558
+decorate 0.0293344267287
+leave 0.0238727927944
+
+
+Let cool
+leave ['ing11', 'until cool']
+refrigerate 0.433740906856
+cool 0.314338776869
+set 0.064672945306
+chill 0.0626638167394
+keep 0.0280758275841
+stand 0.022934011575
+let 0.0211760240792
+noverb 0.0101560812333
+allow 0.00814695266666
+store 0.00739352945418
+
+
+Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes
+combine [['ing6', 'ing7', 'ing11'], 'ing12', 'fishy juice', 'add']
+noverb 0.162354754494
+stir 0.151499013618
+combine 0.143271737313
+pour 0.0892901697287
+add 0.0569546170432
+mix 0.0415186452103
+place 0.0389113993813
+season 0.038420934662
+spread 0.0347145714259
+sprinkle 0.0206769989427
+
+
+Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes
+put ['ing12', 't1']
+noverb 0.255911707643
+combine 0.170104791837
+place 0.108399335873
+shake 0.0610702668139
+keep 0.061022938285
+mix 0.061022938285
+potatoes 0.061022938285
+pour 0.0392183536668
+transfer 0.0363371262743
+side 0.0297911829711
+
+
+Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes
+leave ['ing12', 'marinate for 30 minutes']
+refrigerate 0.32649029833
+cool 0.238260005743
+noverb 0.169545254838
+remove 0.0815808334549
+set 0.0492792670258
+chill 0.0474079226967
+keep 0.0211935574021
+stand 0.0177472555375
+let 0.0161098292495
+allow 0.0063835879281
+
+
+Thread fish pineapple and onion on skewers
+combine [['ing8', 'ing12'], 'ing13', 'kabobs', 'thread onto skewers']
+noverb 0.236605490452
+combine 0.126752243699
+stir 0.11388242005
+pour 0.0670609620067
+cover 0.0438446848169
+add 0.0429105755823
+mix 0.0312462195322
+place 0.0292272381237
+season 0.0288673329638
+spread 0.026083588847
+
+
+Place on a hot grill or under a broiler until fish is done to your liking
+cook ['ing13', 't3', 'ing14', 'grilled kabobs', 'place on grill']
+bake 0.231768984085
+bring 0.148863702868
+vegetables 0.0835221792427
+cook 0.0750041060243
+noverb 0.0738530650405
+simmer 0.0690211088539
+add 0.0400870205386
+fry 0.029650500727
+or 0.027476114991
+brown 0.0203019030112
+
+
+Place on a hot grill or under a broiler until fish is done to your liking
+chefcheck ['ing14', 'done to your liking']
+noverb 0.288890531848
+simmer 0.168056638726
+run 0.110713797297
+ensure 0.0530636872295
+boils 0.0530636872295
+bake 0.0333766713547
+toasted 0.0310721565631
+resembles 0.0274075396416
+turn 0.0200822407879
+fry 0.0199286064684
+
+
+Serve with rice
+combine [['ing14', 'ing15'], 'ing16', 'rice and kabobs', 'serve with rice']
+noverb 0.210636316615
+combine 0.112873365864
+stir 0.101475221747
+place 0.0806662750899
+pour 0.0596988285017
+cover 0.038978739415
+add 0.0383284845016
+mix 0.0278767697613
+season 0.0257091323083
+spread 0.0232309022637
+
+
+Serve with rice
+serve ['ing16', 'eat!']
+serve 0.418896480324
+noverb 0.179181538305
+top 0.0930284075722
+add 0.0794910308806
+serving 0.0472989346082
+roll 0.040412163889
+broil 0.0343773811793
+dressing 0.025449902234
+' 0.0159850314659
+spoon 0.0110099070878
+
+
+./annotated_recipes_test/Fried-Beef-Ribs.rcp_tagged.xml
+Heat the oil in a deepfryer to 375 degrees F 190 degrees C
+put ['ing0', 't0']
+noverb 0.641672196417
+place 0.0995355009954
+combine 0.0729927007299
+pour 0.0278699402787
+arrange 0.0185799601858
+transfer 0.0185799601858
+shape 0.00796284007963
+fill 0.00796284007963
+return 0.00663570006636
+press 0.00530856005309
+
+
+Heat the oil in a deepfryer to 375 degrees F 190 degrees C
+set ['t0', '375 F']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+In a medium bowl mix together the salt black pepper cayenne pepper garlic salt and onion salt
+combine [['ing4', 'ing5', 'ing1', 'ing2', 'ing3'], 'ing9', 'spices', 'in a medium bowl']
+noverb 0.661273170118
+add 0.111010737442
+coat 0.109993024665
+fry 0.10991297984
+stir 0.0014865467519
+combine 0.00123497730157
+mix 0.000617488650787
+pour 0.000537443825685
+sprinkle 0.000491703925627
+season 0.000297309350379
+
+
+Place the flour in a separate bowl or plate
+put ['ing6', 't2']
+noverb 0.324440801172
+place 0.186279059955
+combine 0.104124599926
+pour 0.0833720096198
+transfer 0.0294321517477
+arrange 0.0253033325899
+shape 0.0238205741771
+fill 0.0196917550194
+removing 0.0160391062463
+spread 0.0119102870885
+
+
+Whisk eggs in a large bowl
+mix ['ing7', 't3', 'ing10', 'whisked eggs', 'whisk']
+beat 0.241704483687
+mix 0.229544046821
+stir 0.122956932839
+noverb 0.0826707454272
+blend 0.0725960383774
+cream 0.0444829286175
+moistened 0.0365065921703
+whisk 0.0234992225916
+process 0.021400851989
+incorporate 0.0172041107839
+
+
+Rub the spice mixture onto all of the ribs
+combine [['ing8', 'ing9'], 'ing11', 'spiced ribs', 'rub']
+stir 0.172904038884
+noverb 0.157908233269
+add 0.0977475410272
+combine 0.0677027670432
+mix 0.0526342535441
+pour 0.0526287809077
+spread 0.052610799388
+remaining 0.0525975086995
+sprinkle 0.0451125056779
+beat 0.0450882697165
+
+
+Dip each rib in egg then in flour then egg then flour again
+put ['ing11', 't3']
+arrange 0.240796919934
+noverb 0.209252281019
+combine 0.180320782594
+place 0.081503721795
+thread 0.0558440826404
+pour 0.0324863047938
+transfer 0.0282317073685
+return 0.0223141285929
+shake 0.0208752772196
+dressing 0.0203956600952
+
+
+Place the ribs in a fryer basket so they are not crowded try 4 or 5 at a time depending on the size of your fryer
+put ['ing11', 't4']
+arrange 0.240796919934
+noverb 0.209252281019
+combine 0.180320782594
+place 0.081503721795
+thread 0.0558440826404
+pour 0.0324863047938
+transfer 0.0282317073685
+return 0.0223141285929
+shake 0.0208752772196
+dressing 0.0203956600952
+
+
+Cook for about 8 minutes
+cook ['ing11', 't4', 'ing12', 'fried ribs', '8 mins, makeing sure they are not crowded']
+bake 0.33964648217
+cook 0.210876363568
+bring 0.119161017171
+simmer 0.0988714431698
+browned 0.0556457410663
+continue 0.0534397003435
+or 0.0292736925684
+noverb 0.0171553984337
+brown 0.0125314258273
+saute 0.0116839454823
+
+
+./annotated_recipes_test/Golden-Cheese-Yeast-Bread.rcp_tagged.xml
+In a large mixing bowl combine 3 cups flour cheese sugar yeast and salt
+separate ['ing0', 'ing7', '3 cups flour', 'ing8', '3 cups flour', None]
+remove 0.165891873278
+noverb 0.0846246556474
+top 0.0834194214876
+x 0.0829889807163
+tint 0.0828168044077
+drizzle 0.0828168044077
+divide 0.0827307162534
+pour 0.0827307162534
+beat 0.0827307162534
+cut 0.0827307162534
+
+
+In a large mixing bowl combine 3 cups flour cheese sugar yeast and salt
+combine [['ing4', 'ing7', 'ing1', 'ing2', 'ing3'], 'ing9', 'batter', 'combine']
+noverb 0.155179544461
+stir 0.117247595917
+add 0.11034194316
+combine 0.0896630068716
+sprinkle 0.0689571682376
+pour 0.0551702541841
+mix 0.0448315034358
+sift 0.0275799259719
+remaining 0.0241321213647
+spread 0.0206911320184
+
+
+In a large mixing bowl combine 3 cups flour cheese sugar yeast and salt
+put ['ing9', 't0']
+place 0.264087855934
+noverb 0.252498702816
+combine 0.0669395462583
+finished 0.066208594393
+pour 0.0652085949275
+arrange 0.0308502346433
+fill 0.0262358725722
+removing 0.0242532364387
+transfer 0.0164636798477
+side 0.0129149983354
+
+
+Add milk and egg beat on low speed until smooth
+combine [['ing5', 'ing6', 'ing9'], 'ing10', 'batter', 'add']
+noverb 0.182645931253
+sprinkle 0.127232794279
+stir 0.106345503684
+combine 0.0692870538078
+add 0.0607784151788
+pour 0.050850511052
+recommended 0.036512549253
+mix 0.0346486640238
+crumble 0.034202487966
+spread 0.0226231200589
+
+
+Add milk and egg beat on low speed until smooth
+mix ['ing10', 't1', 'ing11', 'beat batter', 'beat on low speed']
+mix 0.386702982495
+beat 0.159407745767
+stir 0.113836684393
+noverb 0.0668141254023
+blend 0.0491863238646
+moistened 0.0454414839484
+moisten 0.0207166405698
+toss 0.0204307227602
+add 0.0189058151563
+form 0.0145323486713
+
+
+Add milk and egg beat on low speed until smooth
+chefcheck ['ing11', 'smooth']
+noverb 0.207360716766
+bake 0.128894967121
+inserted 0.0771202272096
+turn 0.0501674681455
+allow 0.0463575262648
+run 0.0462711430395
+suggested 0.0427538972643
+browned 0.0419467254486
+stir 0.0251458818336
+simmer 0.0248370921632
+
+
+Stir in enough remaining flour to form a soft dough
+combine [['ing8', 'ing11'], 'ing12', 'dough', 'stir in']
+noverb 0.173872998339
+stir 0.110529816141
+sprinkle 0.104251745933
+combine 0.0712037022778
+add 0.0688465351817
+pour 0.0604270577892
+mix 0.0381235665065
+crumble 0.0277886547138
+recommended 0.0260809999935
+place 0.0189710991103
+
+
+Stir in enough remaining flour to form a soft dough
+chefcheck ['ing12', 'soft']
+noverb 0.208237741261
+bake 0.126169774853
+inserted 0.0793756784287
+turn 0.0468716228322
+allow 0.0435367053868
+run 0.0434641658143
+browned 0.0426541703272
+suggested 0.0388965950588
+simmer 0.0247118078972
+fry 0.0231400611583
+
+
+Turn onto a floured surface knead until smooth and elastic about 68 minutes
+do ['ing12', 't2', 'ing13', 'kneaded dough', 'knead 6-8 minutes']
+roll 0.237397596731
+noverb 0.13407900283
+pat 0.0471547982048
+tuck 0.0410687001007
+drain 0.0365932311154
+flatten 0.0250915781137
+fold 0.0248798834598
+used 0.0246871739706
+match 0.0217090552849
+1/8 0.0216861406023
+
+
+Turn onto a floured surface knead until smooth and elastic about 68 minutes
+chefcheck ['ing13', 'smooth and elastic']
+noverb 0.208237741261
+bake 0.126169774853
+inserted 0.0793756784287
+turn 0.0468716228322
+allow 0.0435367053868
+run 0.0434641658143
+browned 0.0426541703272
+suggested 0.0388965950588
+simmer 0.0247118078972
+fry 0.0231400611583
+
+
+Place in a greased bowl turning once to grease top
+put ['ing13', 't3']
+noverb 0.262600834551
+place 0.248460549746
+combine 0.0814024429809
+pour 0.0719295491507
+finished 0.0463106101855
+fill 0.0336879173228
+removing 0.025351828441
+arrange 0.0213734765556
+transfer 0.0205050965409
+press 0.0182247450148
+
+
+Place in a greased bowl turning once to grease top
+do ['ing13', 't3', 'ing14', 'greased dough', 'turn']
+roll 0.237397596731
+noverb 0.13407900283
+pat 0.0471547982048
+tuck 0.0410687001007
+drain 0.0365932311154
+flatten 0.0250915781137
+fold 0.0248798834598
+used 0.0246871739706
+match 0.0217090552849
+1/8 0.0216861406023
+
+
+Cover and let rise in a warm place until doubled about 1 hour
+set ['t3', 'cover']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Cover and let rise in a warm place until doubled about 1 hour
+leave ['ing14', 'let rise 1 hour']
+cool 0.358035325175
+rise 0.141869735046
+refrigerate 0.113094475263
+stand 0.0755768546675
+set 0.0580058965984
+chill 0.0511484005301
+rack 0.049848375857
+noverb 0.0432914819609
+keep 0.0279849785685
+let 0.0249273291868
+
+
+Cover and let rise in a warm place until doubled about 1 hour
+chefcheck ['ing14', 'doubled']
+noverb 0.208237741261
+bake 0.126169774853
+inserted 0.0793756784287
+turn 0.0468716228322
+allow 0.0435367053868
+run 0.0434641658143
+browned 0.0426541703272
+suggested 0.0388965950588
+simmer 0.0247118078972
+fry 0.0231400611583
+
+
+Punch dough down
+do ['ing14', 't3', 'ing15', 'punched dough', 'punch down']
+roll 0.237397596731
+noverb 0.13407900283
+pat 0.0471547982048
+tuck 0.0410687001007
+drain 0.0365932311154
+flatten 0.0250915781137
+fold 0.0248798834598
+used 0.0246871739706
+match 0.0217090552849
+1/8 0.0216861406023
+
+
+Divide in half and shape into two loaves
+separate ['ing15', 'ing16', 'one loaf', 'ing17', 'one loaf', 'divide in half']
+noverb 0.249457883829
+remove 0.174606431026
+top 0.0892683892106
+divide 0.0629545455789
+x 0.0614015601135
+pull 0.0439336168848
+pour 0.0324667407009
+assemble 0.0324667407009
+separate 0.0319628100417
+divided 0.0274598142489
+
+
+Place in two greased 9in
+put ['ing17', 't4']
+noverb 0.262600834551
+place 0.248460549746
+combine 0.0814024429809
+pour 0.0719295491507
+finished 0.0463106101855
+fill 0.0336879173228
+removing 0.025351828441
+arrange 0.0213734765556
+transfer 0.0205050965409
+press 0.0182247450148
+
+
+Place in two greased 9in
+put ['ing16', 't4']
+noverb 0.262600834551
+place 0.248460549746
+combine 0.0814024429809
+pour 0.0719295491507
+finished 0.0463106101855
+fill 0.0336879173228
+removing 0.025351828441
+arrange 0.0213734765556
+transfer 0.0205050965409
+press 0.0182247450148
+
+
+Cover and let rise until doubled about 45 minutes
+set ['t4', 'cover']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Cover and let rise until doubled about 45 minutes
+leave ['ing16', 'let rise 45 minutes']
+cool 0.358035325175
+rise 0.141869735046
+refrigerate 0.113094475263
+stand 0.0755768546675
+set 0.0580058965984
+chill 0.0511484005301
+rack 0.049848375857
+noverb 0.0432914819609
+keep 0.0279849785685
+let 0.0249273291868
+
+
+Cover and let rise until doubled about 45 minutes
+leave ['ing17', 'let rise until doubled']
+cool 0.358035325175
+rise 0.141869735046
+refrigerate 0.113094475263
+stand 0.0755768546675
+set 0.0580058965984
+chill 0.0511484005301
+rack 0.049848375857
+noverb 0.0432914819609
+keep 0.0279849785685
+let 0.0249273291868
+
+
+Bake at 375 degrees F for 2530 minutes or until golden brown
+cook ['ing16', 't5', 'ing18', 'baked bread', '375 degrees F for 25-30 minutes']
+bake 0.535753641204
+cook 0.0667737763518
+select 0.0639990079269
+noverb 0.0425785811004
+bring 0.0366129614761
+simmer 0.0361270491111
+fry 0.0346320323694
+heat 0.0231044499131
+or 0.0189864441841
+heated 0.0141726473323
+
+
+Bake at 375 degrees F for 2530 minutes or until golden brown
+cook ['ing17', 't5', 'ing19', 'baked bread', '375 degrees F for 25-30 minutes']
+bake 0.535753641204
+cook 0.0667737763518
+select 0.0639990079269
+noverb 0.0425785811004
+bring 0.0366129614761
+simmer 0.0361270491111
+fry 0.0346320323694
+heat 0.0231044499131
+or 0.0189864441841
+heated 0.0141726473323
+
+
+Remove from pans to cool on wire racks
+remove ['ing19', 't4']
+remove 0.565595701663
+noverb 0.0862063822854
+removing 0.0850073441103
+come 0.0645155408316
+invert 0.0440237375529
+bake 0.0395414573334
+heat 0.0325271506754
+cool 0.0190496540547
+rest 0.0120353473968
+squeeze 0.0120353473968
+
+
+Remove from pans to cool on wire racks
+remove ['ing18', 't4']
+remove 0.565595701663
+noverb 0.0862063822854
+removing 0.0850073441103
+come 0.0645155408316
+invert 0.0440237375529
+bake 0.0395414573334
+heat 0.0325271506754
+cool 0.0190496540547
+rest 0.0120353473968
+squeeze 0.0120353473968
+
+
+Remove from pans to cool on wire racks
+leave ['ing18', 'cool on wire racks']
+cool 0.358035325175
+rise 0.141869735046
+refrigerate 0.113094475263
+stand 0.0755768546675
+set 0.0580058965984
+chill 0.0511484005301
+rack 0.049848375857
+noverb 0.0432914819609
+keep 0.0279849785685
+let 0.0249273291868
+
+
+Remove from pans to cool on wire racks
+leave ['ing19', 'cool on wire racks']
+cool 0.358035325175
+rise 0.141869735046
+refrigerate 0.113094475263
+stand 0.0755768546675
+set 0.0580058965984
+chill 0.0511484005301
+rack 0.049848375857
+noverb 0.0432914819609
+keep 0.0279849785685
+let 0.0249273291868
+
+
+./annotated_recipes_test/Grandmas-Gingersnaps.rcp_tagged.xml
+Preheat oven to 350 degrees F 175 degrees C
+set ['t0', '350 degrees F (175 degrees C)']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+In a medium bowl cream together the margarine and 1 cup white sugar until smooth
+combine [['ing0', 'ing1'], 'ing10', 'margarine and sugar', 'cream together']
+noverb 0.171536316604
+stir 0.111369538613
+sprinkle 0.0998399237211
+add 0.0740334611789
+combine 0.073511115352
+pour 0.0597699573385
+mix 0.0389620586227
+crumble 0.0247460932877
+recommended 0.0236827364716
+place 0.0183242417465
+
+
+In a medium bowl cream together the margarine and 1 cup white sugar until smooth
+chefcheck ['ing10', 'smooth']
+noverb 0.349111190038
+inserted 0.0816030303045
+heated 0.0524221713357
+bake 0.0279771114897
+allow 0.0276684096544
+drain 0.0276684096544
+lower 0.0276684096544
+begin 0.0276684096544
+let 0.0276463595234
+give 0.0276463595234
+
+
+In a medium bowl cream together the margarine and 1 cup white sugar until smooth
+put ['ing10', 't1']
+noverb 0.483383689276
+pour 0.140491682355
+place 0.116240148795
+combine 0.0752625111936
+put 0.0452719831609
+cut 0.0452719831609
+spread 0.0249102934645
+baking 0.0226475487718
+drop 0.0226475487718
+sprinkle 0.0226359915804
+
+
+Beat in the egg and molasses until well blended
+combine [['ing2', 'ing10', 'ing3'], 'ing11', 'batter', 'beat in']
+add 0.138438160629
+noverb 0.130751364455
+stir 0.130689010685
+combine 0.0696674336155
+spread 0.0622048521588
+sprinkle 0.0544349176241
+pour 0.0466410008701
+mix 0.0459441460963
+remaining 0.0378326743045
+repeat 0.0312076433084
+
+
+Beat in the egg and molasses until well blended
+put ['ing11', 't1']
+noverb 0.403985235969
+place 0.250653872145
+pour 0.0783242618493
+combine 0.0539677808839
+glaze 0.0490392082806
+put 0.0226636352641
+cut 0.0226636352641
+fill 0.0156939266123
+spread 0.0124966122577
+baking 0.0113514180695
+
+
+Beat in the egg and molasses until well blended
+chefcheck ['ing11', 'well blended']
+noverb 0.332897724298
+watch 0.105693585553
+browned 0.0593918059774
+bake 0.0575804598771
+inserted 0.0517749563958
+decorate 0.0483301642094
+heated 0.0262676845757
+allow 0.024694448255
+drain 0.024694448255
+form 0.0240310815308
+
+
+Combine the flour ginger cinnamon baking soda and salt stir into the molasses mixture to form a dough
+combine [['ing4', 'ing5', 'ing6', 'ing7', 'ing8'], 'ing12', 'dry ingredients', 'combine']
+noverb 0.164142945322
+combine 0.11289715372
+stir 0.10822813751
+add 0.0900076934398
+brush 0.0601989015649
+sprinkle 0.0420045966342
+beat 0.0392806665891
+mix 0.0377844177993
+pour 0.0351790840842
+spread 0.0311574230154
+
+
+Combine the flour ginger cinnamon baking soda and salt stir into the molasses mixture to form a dough
+combine [['ing12', 'ing11'], 'ing13', 'dough', 'stir in']
+noverb 0.164142945322
+combine 0.11289715372
+stir 0.10822813751
+add 0.0900076934398
+brush 0.0601989015649
+sprinkle 0.0420045966342
+beat 0.0392806665891
+mix 0.0377844177993
+pour 0.0351790840842
+spread 0.0311574230154
+
+
+Roll dough into 1 inch balls and roll the balls in the remaining sugar
+do ['ing13', None, 'ing14', '1 inch dough balls', 'roll']
+roll 0.297336797579
+noverb 0.173855898844
+1/8 0.0430315817082
+flatten 0.0395783394641
+smooth 0.030460531428
+spread 0.0297979501894
+test 0.0296953862208
+baste 0.0288033089637
+coated 0.0283651812691
+press 0.0273860727081
+
+
+Roll dough into 1 inch balls and roll the balls in the remaining sugar
+combine [['ing14', 'ing9'], 'ing15', 'sugary dough balls', 'roll in sugar']
+noverb 0.158681351734
+combine 0.136050618522
+stir 0.128751314245
+add 0.082171805462
+sprinkle 0.0439947809634
+pour 0.0431936042881
+mix 0.0387365430794
+spread 0.0295946541558
+brush 0.0279347041278
+remaining 0.0264219981587
+
+
+Place cookies 2 inches apart onto ungreased cookie sheets
+put ['ing15', 't2']
+noverb 0.352762863441
+place 0.178070366128
+pour 0.120980180933
+combine 0.060621482524
+cut 0.0583688919958
+sprinkle 0.0529939698074
+glaze 0.0196321146162
+put 0.0183690796616
+drop 0.01581612931
+baking 0.0128835779904
+
+
+Bake for 8 to 10 minutes in the preheated oven
+cook ['ing15', 't0', 'ing16', 'cookies', 'bake 8-10 minutes']
+bake 0.590612813942
+cook 0.0631170985557
+noverb 0.0472651554095
+bring 0.0441548557079
+put 0.0424803422856
+uncovered 0.0364957961799
+simmer 0.0270831041235
+heat 0.0237318593118
+fry 0.0155588575622
+melt 0.0128083432018
+
+
+Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely
+leave ['ing16', 'cool on baking sheet 5 minutes']
+cool 0.353665516591
+refrigerate 0.147004299137
+rack 0.102944689963
+chill 0.102635700804
+noverb 0.0628436592638
+stand 0.0498361285521
+set 0.0411945491756
+allow 0.0297226555362
+store 0.0191257302162
+freeze 0.0178426399501
+
+
+Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely
+remove ['ing16', 't0']
+remove 0.468486640541
+noverb 0.215862115082
+cool 0.0638855511039
+bake 0.0442777079667
+come 0.0319989102491
+invert 0.0319989102491
+removing 0.0319989102491
+dip 0.021588507577
+rest 0.0130307146805
+heat 0.0130307146805
+
+
+Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely
+leave ['ing16', 'let cool completely']
+cool 0.353665516591
+refrigerate 0.147004299137
+rack 0.102944689963
+chill 0.102635700804
+noverb 0.0628436592638
+stand 0.0498361285521
+set 0.0411945491756
+allow 0.0297226555362
+store 0.0191257302162
+freeze 0.0178426399501
+
+
+./annotated_recipes_test/Grandmas-Wheat-Germ-Cookies.rcp_tagged.xml
+In a large mixing bowl combine the first six ingredients
+combine [['ing4', 'ing5', 'ing0', 'ing1', 'ing2', 'ing3'], 'ing11', 'dry mix', 'combine']
+noverb 0.167632383587
+combine 0.122719661388
+stir 0.116206123685
+add 0.0742033495674
+sprinkle 0.0640946810554
+pour 0.0389935301718
+mix 0.0349999411306
+spread 0.0266961008998
+remove 0.0262573164744
+freeze 0.026252564201
+
+
+In a large mixing bowl combine the first six ingredients
+put ['ing11', 't0']
+noverb 0.462243592506
+place 0.147302814061
+pour 0.0854879398045
+combine 0.0817770294249
+drop 0.0487973106519
+spread 0.0291116303078
+shape 0.0263587244643
+transfer 0.0229976770885
+fill 0.0140063216912
+put 0.0124450482608
+
+
+Combine the applesauce oil and eggs
+combine [['ing6', 'ing7', 'ing8'], 'ing12', 'wet mix', 'combine']
+mix 0.21719882745
+noverb 0.127564788274
+stir 0.104392821812
+combine 0.0899979831623
+add 0.0767820133103
+sprinkle 0.0522992368321
+secure 0.0363259347753
+pour 0.0330113397863
+spread 0.0278453343691
+place 0.0220487828856
+
+
+Add to the flour mixture mix well
+combine [['ing12', 'ing11'], 'ing13', 'batter', 'mix well']
+mix 0.21719882745
+noverb 0.127564788274
+stir 0.104392821812
+combine 0.0899979831623
+add 0.0767820133103
+sprinkle 0.0522992368321
+secure 0.0363259347753
+pour 0.0330113397863
+spread 0.0278453343691
+place 0.0220487828856
+
+
+Stir in the chocolate chip and walnuts
+combine [['ing13', 'ing10', 'ing9'], 'ing14', 'batter', 'stir in']
+mix 0.21719882745
+noverb 0.127564788274
+stir 0.104392821812
+combine 0.0899979831623
+add 0.0767820133103
+sprinkle 0.0522992368321
+secure 0.0363259347753
+pour 0.0330113397863
+spread 0.0278453343691
+place 0.0220487828856
+
+
+apart onto baking sheets coated with nonstick cooking spray
+set ['t1', 'coat with nonstick cooking spray']
+noverb 0.961791831357
+preheat 0.0144927536232
+grease 0.00263504611331
+reduce 0.00207039337474
+remove 0.00188217579522
+bake 0.0016939582157
+cover 0.0016939582157
+turn 0.00112930547713
+select 0.00094108789761
+heat 0.00094108789761
+
+
+apart onto baking sheets coated with nonstick cooking spray
+do ['ing14', 't1', 'ing15', 'cookie batter', 'rounded teaspoons 2 in. apart']
+roll 0.146200318068
+noverb 0.0708629913812
+place 0.0674684659381
+flatten 0.0642377210253
+1/8 0.0591843619932
+shape 0.0561545239673
+press 0.0386215443922
+smooth 0.0384529186311
+test 0.0299578533593
+measure 0.024178422648
+
+
+Flatten slightly with a glass bottom coated with nonstick cooking spray
+do ['ing15', 't2', 'ing16', 'flattened cookie dough', 'flatten slightly']
+roll 0.146200318068
+noverb 0.0708629913812
+place 0.0674684659381
+flatten 0.0642377210253
+1/8 0.0591843619932
+shape 0.0561545239673
+press 0.0386215443922
+smooth 0.0384529186311
+test 0.0299578533593
+measure 0.024178422648
+
+
+Bake at 350 degrees F for 1012 minutes or until edges are lightly browned and cookies are set
+set ['t3', '350 degrees F']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Bake at 350 degrees F for 1012 minutes or until edges are lightly browned and cookies are set
+cook ['ing16', 't3', 'ing17', 'cookies', 'bake 10-12 minutes']
+bake 0.572189938519
+melt 0.0465077139137
+cook 0.0384456478173
+simmer 0.0373350374091
+bring 0.033429056229
+heat 0.0296658293616
+noverb 0.025210115209
+flatten 0.0238848662397
+batter 0.0236430044566
+melted 0.0226512519419
+
+
+Bake at 350 degrees F for 1012 minutes or until edges are lightly browned and cookies are set
+chefcheck ['ing17', 'edges are lightly browned and cookies are set']
+noverb 0.245956926919
+bake 0.143445336265
+inserted 0.0623105389722
+browned 0.0427614457771
+microwave 0.0325767515779
+transferring 0.0282701316909
+form 0.0268417193245
+simmer 0.0228879007604
+give 0.0216681643046
+cool 0.0197014220195
+
+
+Cool for 1 minute before removing to wire racks
+leave ['ing17', 'cool for 1 minute']
+cool 0.399610748067
+chill 0.128054816892
+rack 0.0962243055602
+refrigerate 0.0769851020113
+noverb 0.064318295502
+set 0.0469213514801
+stand 0.0396247128223
+let 0.0390663666691
+store 0.0219107346674
+allow 0.0212192551033
+
+
+./annotated_recipes_test/Garlic-Butter.rcp_tagged.xml
+In a small bowl combine softened butter minced garlic and parmesan cheese
+combine [['ing140', 'ing138', 'ing139'], 'ing145', 'buttery cheese', 'in a small bowl']
+noverb 0.141241240811
+mix 0.139791339094
+stir 0.0978415278865
+combine 0.0887782985717
+add 0.0846167481732
+sprinkle 0.0580853063872
+pour 0.0558545276286
+remaining 0.0267804465944
+secure 0.0243749201304
+spread 0.0222685749301
+
+
+Season with garlic salt Italian seasoning pepper and paprika
+combine [['ing143', 'ing142', 'ing141', 'ing145', 'ing144'], 'ing146', 'garlic butter', 'season and mix until smooth']
+noverb 0.141241240811
+mix 0.139791339094
+stir 0.0978415278865
+combine 0.0887782985717
+add 0.0846167481732
+sprinkle 0.0580853063872
+pour 0.0558545276286
+remaining 0.0267804465944
+secure 0.0243749201304
+spread 0.0222685749301
+
+
+./annotated_recipes_test/Glazed-Ham.rcp_tagged.xml
+Preheat the oven to 275 degrees F 135 degrees C
+set ['t0', '275 degrees F (135 degrees C)']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Place ham in a roasting pan
+put ['ing0', 't1']
+noverb 0.314793872725
+place 0.233371029094
+arrange 0.0876940474967
+pat 0.0728898941092
+thread 0.0716562146602
+combine 0.0678523696926
+pour 0.0259072684281
+transfer 0.0172715122854
+shape 0.00740207669374
+fill 0.00740207669374
+
+
+Pour in water to a 2 inch depth
+combine [['ing0', 'ing1'], 'ing7', 'watered ham', '2 inch depth']
+noverb 0.284167020856
+baste 0.28170479694
+spread 0.141196816696
+place 0.141167504507
+coat 0.140976975275
+stir 0.00190529231581
+combine 0.0015828582316
+add 0.00143629728423
+mix 0.000791429115798
+pour 0.000688836452639
+
+
+Cover with a tight fitting lid
+set ['t1', 'cover with tight fitting lid']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Bake for 6 to 8 hours in the preheated oven all day or all night
+cook ['ing7', 't0', 'ing8', 'baked ham', 'bakc 6-8 hours']
+cook 0.252963899007
+bring 0.234644102382
+bake 0.174390235861
+cover 0.0980843258351
+simmer 0.0808922829304
+or 0.0248413530491
+heat 0.0193753322425
+noverb 0.0191497814984
+melt 0.0129845533849
+continue 0.0124883417478
+
+
+Remove from the oven pour off drippings and reserve
+remove ['ing8', 't0']
+remove 0.395710681245
+boil 0.130782169891
+come 0.130782169891
+rinse 0.130782169891
+noverb 0.0618166526493
+dip 0.0353238015139
+brown 0.00883095037847
+cool 0.00883095037847
+bake 0.00883095037847
+swordfish 0.00883095037847
+
+
+Remove from the oven pour off drippings and reserve
+separate ['ing8', 'ing9', 'ham', 'ing10', 'drippings', 'pour off']
+remove 0.458073055113
+drain 0.0907429558745
+strain 0.0897350699982
+lift 0.05948741804
+pull 0.05948741804
+top 0.0337752525253
+tint 0.0302476519582
+pour 0.02974370902
+evaporated 0.02974370902
+and 0.02974370902
+
+
+Debone ham removing any excess fat as well and return to the roasting pan
+cut ['ing9', None, 'ing11', 'deboned ham', 'debone']
+cut 0.33274414494
+divide 0.162615996465
+noverb 0.162615996465
+unwrapping 0.161732213875
+cooked 0.161732213875
+chop 0.00176756517897
+use 0.00132567388422
+crumble 0.00132567388422
+crush 0.000883782589483
+drop 0.000883782589483
+
+
+Debone ham removing any excess fat as well and return to the roasting pan
+put ['ing11', 't1']
+noverb 0.349076158783
+place 0.279295008125
+arrange 0.0804804831388
+pat 0.0704615655135
+thread 0.0704420503624
+combine 0.0597817481833
+pour 0.0199792897974
+stir 0.0196085019265
+transfer 0.0100579479275
+shape 0.00990182671874
+
+
+Skim fat from the top of the drippings and discard
+do ['ing10', None, 'ing12', 'skimmed drippings', 'skim fat from top of drippings']
+roll 0.220862032999
+pat 0.161576747042
+apply 0.161385797401
+noverb 0.11780677335
+match 0.0575667391883
+strain 0.0385051258862
+strips 0.0385051258862
+drain 0.0200163615069
+rinse 0.0199208866864
+skim 0.0193480377636
+
+
+In a small bowl mix one cup of the drippings with honey brown sugar liquid smoke Worcestershire sauce and cloves
+separate ['ing12', 'ing13', '1 cup drippings', 'ing14', 'remaining drippings', 'separate']
+remove 0.458073055113
+drain 0.0907429558745
+strain 0.0897350699982
+lift 0.05948741804
+pull 0.05948741804
+top 0.0337752525253
+tint 0.0302476519582
+pour 0.02974370902
+evaporated 0.02974370902
+and 0.02974370902
+
+
+In a small bowl mix one cup of the drippings with honey brown sugar liquid smoke Worcestershire sauce and cloves
+combine [['ing4', 'ing5', 'ing6', 'ing13', 'ing2', 'ing3'], 'ing15', 'glaze', 'combine']
+noverb 0.241435162728
+baste 0.140852731776
+spread 0.0802156325587
+place 0.0802003098511
+coat 0.0704914873956
+stir 0.0618544000831
+add 0.0520000119051
+combine 0.0488735504913
+pour 0.0452031329567
+mix 0.0228352377697
+
+
+In a small bowl mix one cup of the drippings with honey brown sugar liquid smoke Worcestershire sauce and cloves
+mix ['ing15', 't2', 'ing16', 'mixed glaze', 'mix']
+mix 0.32985968644
+stir 0.123973904445
+blend 0.117073518886
+roasting 0.0921182104215
+shake 0.089604869813
+noverb 0.0817078744325
+cream 0.0388073898017
+beat 0.0301123307189
+toss 0.0143063850723
+moistened 0.0138707519227
+
+
+Pour this over the ham cover and return to the oven
+combine [['ing16', 'ing11'], 'ing17', 'glazed ham', 'pour over ham']
+add 0.167886426814
+noverb 0.151465882109
+combine 0.13730886994
+mix 0.0761950164129
+stir 0.0696852780457
+brush 0.050225945637
+baste 0.0402493258483
+sprinkle 0.0314390698181
+recommended 0.0313754291326
+pour 0.0312283804631
+
+
+Pour this over the ham cover and return to the oven
+set ['t1', 'cover']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Pour this over the ham cover and return to the oven
+put ['ing17', 't0']
+noverb 0.309448306161
+place 0.210623223535
+combine 0.175357550962
+arrange 0.0936538340049
+pour 0.0345366957988
+transfer 0.0317598538046
+pat 0.0313682881864
+thread 0.0313335963624
+return 0.00939429821645
+side 0.00902857466828
+
+
+Remaining drippings may be discarded or reserved for other uses
+serve ['ing14', 'discard or use elsewhere']
+refrigerate 0.455699102446
+noverb 0.214103959221
+serve 0.126467628313
+pot 0.0372849183037
+serving 0.0219111282022
+roll 0.019603832402
+cook 0.0188347338019
+cool 0.0188347338019
+sounds 0.0188347338019
+pan 0.0188347338019
+
+
+Bake for another 30 to 40 minutes in the preheated oven
+cook ['ing17', 't0', 'ing18', 'baked ham', '30-40 minutes']
+cook 0.230201948372
+bake 0.182715650802
+bring 0.115483860113
+or 0.0999758386165
+simmer 0.0813122472832
+dissolve 0.0578574258129
+cover 0.0436387563156
+grill 0.0358751796899
+noverb 0.0266982491787
+heat 0.0153686344677
+
+
+Let stand for 10 minutes before serving
+leave ['ing18', 'stand for 10 minutes']
+refrigerate 0.225440335815
+cool 0.136611785143
+set 0.106630498592
+marinate 0.10577291568
+carving 0.0718526264016
+dissolve 0.0667256680888
+serving 0.0667256680888
+keep 0.0534141686739
+stand 0.0482251222644
+let 0.0233412445195
+
+
+Let stand for 10 minutes before serving
+serve ['ing18', 'serve']
+noverb 0.243395525502
+refrigerate 0.221013932018
+serve 0.177763422324
+cool 0.0677899855573
+sounds 0.0622620695816
+serving 0.061205691026
+' 0.0177356825978
+pot 0.0175520986724
+roll 0.0171838019888
+spoon 0.0122077666221
+
+
+./annotated_recipes_test/Garlic-Crab-Artichoke-Dip.rcp_tagged.xml
+Preheat oven to 350 degrees F 175 degrees C
+set ['t16', '350 F']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+In a 112 quart casserole dish combine mayonnaise sour cream soup mix artichoke hearts cheese and crab meat
+combine [['ing158', 'ing159', 'ing154', 'ing155', 'ing156', 'ing157'], 'ing160', 'dip!', 'in a casserole dish']
+noverb 0.17145905558
+add 0.142133890168
+combine 0.117656576729
+stir 0.0679450829429
+mix 0.0643372878255
+baste 0.0626056382768
+place 0.0416457982995
+brush 0.0390697319536
+spread 0.038119125846
+pour 0.0343338810173
+
+
+Bake uncovered for 30 minutes
+cook ['ing160', 't16', 'ing161', 'Dip!', 'uncovered for 30 mins']
+bake 0.579795018886
+heated 0.125916881327
+cook 0.0920274444346
+browned 0.0543975976161
+simmer 0.046146192929
+noverb 0.0188337991369
+bring 0.0182810666223
+or 0.0125871467822
+heat 0.0117534632198
+melted 0.0107661007558
+
+
+Serve immediately
+serve ['ing161', 'immediately']
+serve 0.377602975556
+noverb 0.322223240643
+chill 0.0398895514436
+refrigerate 0.0309382425849
+desired 0.0270750500277
+serving 0.0224017687106
+broil 0.0215745331286
+shake 0.0199447757218
+covered 0.0199447757218
+top 0.0148604428878
+
+
+./annotated_recipes_test/Gelatin-Fruit-Salad.rcp_tagged.xml
+In a saucepan bring applesauce to a boil
+cook ['ing147', 't15', 'ing151', 'boiling sauce', 'boil']
+bring 0.167523312538
+cook 0.142830985731
+simmer 0.126456624946
+heat 0.117864009103
+bake 0.113979675913
+melt 0.0767973215103
+noverb 0.061691581329
+melted 0.0237899059651
+heated 0.0194478230732
+boil 0.0183623023502
+
+
+Remove from the heat stir in gelatin until dissolved
+combine [['ing148', 'ing151'], 'ing152', 'geled sauce', 'stir until dissolved']
+noverb 0.175858480749
+stir 0.135275754422
+combine 0.112382934443
+add 0.10197710718
+mix 0.0561914672216
+pour 0.0489073881374
+sprinkle 0.044745057232
+season 0.0270551508845
+spread 0.0249739854318
+place 0.0228928199792
+
+
+Slowly add soda and pineapple
+combine [['ing149', 'ing150', 'ing152'], 'ing153', 'ready to cool', 'slowly add']
+noverb 0.175858480749
+stir 0.135275754422
+combine 0.112382934443
+add 0.10197710718
+mix 0.0561914672216
+pour 0.0489073881374
+sprinkle 0.044745057232
+season 0.0270551508845
+spread 0.0249739854318
+place 0.0228928199792
+
+
+Refrigerate until firm
+leave ['ing153', 'cool until firm']
+cool 0.200882566028
+chill 0.155502865046
+allow 0.146808931041
+refrigerate 0.106467759995
+freeze 0.0945794638741
+noverb 0.0509451360074
+set 0.0492656260291
+let 0.0456102219588
+stand 0.0347757360205
+rise 0.0161693999868
+
+
+./annotated_recipes_test/Grandmas-Carrot-Cake.rcp_tagged.xml
+Preheat oven to 350 degrees F 175 degrees C
+set ['t0', '350 degrees F (175 degrees C)']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Grease a 9x13 inch pan
+set ['t1', 'grease']
+grease 0.914121451671
+preheat 0.0276679841897
+noverb 0.0179662234998
+reduce 0.00395256916996
+remove 0.00359324469996
+bake 0.00323392022997
+cover 0.00323392022997
+turn 0.00215594681998
+select 0.00179662234998
+heat 0.00179662234998
+
+
+Sift together the flour baking soda and cinnamon
+combine [['ing0', 'ing1', 'ing2'], 'ing15', 'sifted stuff', 'sift together']
+stir 0.175875040148
+combine 0.150422857623
+noverb 0.115853195348
+garnish 0.0963910158628
+add 0.0852174416824
+mix 0.0446769642419
+sprinkle 0.0423147605889
+pour 0.0375207141303
+top 0.022996041778
+season 0.021809679134
+
+
+Set aside
+leave ['ing15', 'set aside']
+cool 0.530826460607
+refrigerate 0.126514262623
+allow 0.0542432247796
+chill 0.04809597293
+store 0.0391016169287
+set 0.0376079473235
+frost 0.0346239894586
+rise 0.0284376365481
+rack 0.0222317331071
+put 0.0195410331991
+
+
+In a large bowl combine the sugar and oil until blended
+combine [['ing4', 'ing3'], 'ing16', 'sugar and oil', 'blend']
+stir 0.135509892241
+combine 0.131718689058
+noverb 0.128764090948
+add 0.0917704059477
+sprinkle 0.0592195328729
+mix 0.052616817098
+sift 0.0461126634915
+remaining 0.0456765179519
+spread 0.0400457467411
+pour 0.0380633324655
+
+
+Beat in the eggs one at a time then stir in the vanilla
+mix ['ing5', 't3', 'ing17', 'beat eggs', 'beat one at a time']
+beat 0.241704483687
+mix 0.229544046821
+stir 0.122956932839
+noverb 0.0826707454272
+blend 0.0725960383774
+cream 0.0444829286175
+moistened 0.0365065921703
+whisk 0.0234992225916
+process 0.021400851989
+incorporate 0.0172041107839
+
+
+Beat in the eggs one at a time then stir in the vanilla
+combine [['ing16', 'ing17', 'ing14'], 'ing18', 'vanilla eggs', 'stir in']
+stir 0.172904038884
+noverb 0.157908233269
+add 0.0977475410272
+combine 0.0677027670432
+mix 0.0526342535441
+pour 0.0526287809077
+spread 0.052610799388
+remaining 0.0525975086995
+sprinkle 0.0451125056779
+beat 0.0450882697165
+
+
+Stir in the flour mixture just until incorporated
+combine [['ing15', 'ing18'], 'ing19', 'egg batter', 'stir in']
+stir 0.172904038884
+noverb 0.157908233269
+add 0.0977475410272
+combine 0.0677027670432
+mix 0.0526342535441
+pour 0.0526287809077
+spread 0.052610799388
+remaining 0.0525975086995
+sprinkle 0.0451125056779
+beat 0.0450882697165
+
+
+Fold in the pineapple carrots coconut and walnuts
+combine [['ing7', 'ing8', 'ing9', 'ing10', 'ing19'], 'ing20', 'fruity batter', 'fold in']
+stir 0.172904038884
+noverb 0.157908233269
+add 0.0977475410272
+combine 0.0677027670432
+mix 0.0526342535441
+pour 0.0526287809077
+spread 0.052610799388
+remaining 0.0525975086995
+sprinkle 0.0451125056779
+beat 0.0450882697165
+
+
+Pour batter into prepared pan
+put ['ing20', 't1']
+noverb 0.281828304899
+pour 0.235824677804
+place 0.140930726359
+combine 0.110721779369
+spread 0.03173208269
+drop 0.0297583263563
+cut 0.0239941348964
+transfer 0.0199982797801
+fill 0.0151692656051
+put 0.0137070356777
+
+
+Bake in the preheated oven for 45 minutes or until a toothpick inserted into the center of the cake comes out clean
+cook ['ing20', 't0', 'ing21', 'baked batter', '45 minutes']
+bake 0.67761060881
+simmer 0.0382111128263
+cook 0.0366177137022
+noverb 0.0335470290951
+batter 0.0286704888539
+bring 0.0264957246633
+heat 0.0245366574964
+continue 0.0227914634194
+or 0.0137614759006
+fry 0.0120382834172
+
+
+Bake in the preheated oven for 45 minutes or until a toothpick inserted into the center of the cake comes out clean
+chefcheck ['ing21', 'toothpick comes out clean']
+noverb 0.197802454467
+panic 0.149523399561
+inserted 0.129535692856
+bake 0.0703340586963
+use 0.0339575247512
+allow 0.0320274358647
+browned 0.0304968456318
+transferring 0.027450107666
+simmer 0.0252534527727
+give 0.022640102856
+
+
+While still warm poke holes in the cake with a fork
+do ['ing21', 't4', 'ing22', 'holey cake', 'poke holes with fork']
+roll 0.146917684395
+noverb 0.143978521221
+spread 0.0739721464913
+flatten 0.0580632896465
+fold 0.0486301686739
+smooth 0.0440831738817
+test 0.0373533722201
+shape 0.0339999177804
+seal 0.0284801076198
+match 0.0262542278657
+
+
+For the glaze In a saucepan combine butter sugar buttermilk and vanilla
+combine [['ing12', 'ing13', 'ing11'], 'ing23', 'glaze', 'combine']
+stir 0.159273580699
+noverb 0.139916369778
+combine 0.0997371718017
+add 0.0986800669049
+mix 0.0679104839718
+sprinkle 0.0565649590181
+garnish 0.052466929618
+pour 0.0378947103733
+spread 0.0335303209591
+remaining 0.0242877374783
+
+
+For the glaze In a saucepan combine butter sugar buttermilk and vanilla
+put ['ing23', 't5']
+noverb 0.372049371452
+pour 0.203149646108
+place 0.149854588588
+drop 0.0811395477055
+combine 0.0343780469464
+spread 0.0330782865091
+fitted 0.0330282957231
+put 0.0302159033049
+cut 0.0302159033049
+baking 0.0151329470455
+
+
+Bring mixture to a boil over medium heat then reduce heat and cook for 5 minutes
+cook ['ing23', None, 'ing24', 'boiled glaze', 'boil over medium head']
+bake 0.643085647908
+cook 0.0765163149002
+bring 0.0562184120753
+noverb 0.0556254564902
+heat 0.0365558188059
+simmer 0.02089085841
+melt 0.0186802721215
+saute 0.018044962566
+continue 0.0177484847734
+uncovered 0.0176214228623
+
+
+Bring mixture to a boil over medium heat then reduce heat and cook for 5 minutes
+cook ['ing24', 't5', 'ing25', 'hot glaze', 'reduce heat for 5 minutes']
+bake 0.643085647908
+cook 0.0765163149002
+bring 0.0562184120753
+noverb 0.0556254564902
+heat 0.0365558188059
+simmer 0.02089085841
+melt 0.0186802721215
+saute 0.018044962566
+continue 0.0177484847734
+uncovered 0.0176214228623
+
+
+Pour glaze over warm cake then allow to cool completely
+combine [['ing22', 'ing25'], 'ing26', 'glazed cake', 'pour over']
+noverb 0.215881590258
+add 0.162679006248
+spread 0.0833814515139
+stir 0.0720537022415
+topping 0.0704109963862
+combine 0.0671488921923
+pour 0.0565352136809
+mix 0.0334102148818
+drizzle 0.0255947136537
+dissolve 0.0255774038236
+
+
+Pour glaze over warm cake then allow to cool completely
+leave ['ing26', 'cool completely']
+cool 0.445492308457
+allow 0.100529619707
+chill 0.0896304089863
+refrigerate 0.0811932673909
+noverb 0.0516249241254
+set 0.0326854082761
+let 0.0296938714009
+rack 0.0284401686764
+store 0.0255240558309
+frost 0.0214435102507
+
+
+./annotated_recipes_test/Frosted-Ruby-Punch.rcp_tagged.xml
+Pour cranberry juice into a 5cup ring mold
+put ['ing29', 't9']
+noverb 0.343065693431
+place 0.182481751825
+combine 0.133819951338
+pour 0.0510948905109
+arrange 0.0340632603406
+transfer 0.0340632603406
+shape 0.014598540146
+fill 0.014598540146
+return 0.0121654501217
+press 0.00973236009732
+
+
+Freeze over night
+leave ['ing29', 'freeze over night']
+freeze 0.911145351823
+cool 0.0282485875706
+refrigerate 0.0133538777607
+set 0.00873138161274
+noverb 0.00719054956343
+stand 0.00616332819723
+chill 0.00462249614792
+allow 0.00308166409861
+let 0.00256805341551
+remove 0.00205444273241
+
+
+In a punch bowl combine sugar lemon juice and orange juice until sugar is dissolved stir in the ginger ale
+combine [['ing30', 'ing31', 'ing32', 'ing33'], 'ing35', 'sugary jucies', 'in a punch bowl, mix until sugar is disolved']
+noverb 0.484564689559
+mix 0.478866260344
+stir 0.00644170259155
+combine 0.00535156830682
+add 0.00485605272286
+pour 0.00232892324464
+sprinkle 0.00213071701105
+season 0.00128834051831
+spread 0.00118923740152
+place 0.00109013428472
+
+
+Remove ice ring from mold float in punch
+do ['ing29', None, 'ing36', 'fancy juices', 'float frozen ring']
+noverb 0.163629237703
+roll 0.125606446594
+rinse 0.0548578079442
+fold 0.0413007203131
+drain 0.0350595906151
+shape 0.0247804321878
+pat 0.0191687599095
+skim 0.0165202881252
+press 0.0162055594154
+flatten 0.0162055594154
+
+
+Place scoops of sherbet around ring
+combine [['ing34', 'ing35', 'ing36'], 'ing37', 'final', None]
+noverb 0.484564689559
+mix 0.478866260344
+stir 0.00644170259155
+combine 0.00535156830682
+add 0.00485605272286
+pour 0.00232892324464
+sprinkle 0.00213071701105
+season 0.00128834051831
+spread 0.00118923740152
+place 0.00109013428472
+
+
+./annotated_recipes_test/Garden-Potato-Salad.rcp_tagged.xml
+In a large bowl combine potatoes eggs celery green onions radishes salt and pepper set aside
+combine [['ing125', 'ing124', 'ing126', 'ing121', 'ing120', 'ing123', 'ing122'], 'ing127', 'salad', 'in a large bowl']
+noverb 0.484564689559
+mix 0.478866260344
+stir 0.00644170259155
+combine 0.00535156830682
+add 0.00485605272286
+pour 0.00232892324464
+sprinkle 0.00213071701105
+season 0.00128834051831
+spread 0.00118923740152
+place 0.00109013428472
+
+
+For dressing combine eggs vinegar sugar dry mustard and salt in a saucepan
+combine [['ing132', 'ing129', 'ing128', 'ing130', 'ing131'], 'ing134', 'dressing base', 'combine in a sauce pan']
+noverb 0.484564689559
+mix 0.478866260344
+stir 0.00644170259155
+combine 0.00535156830682
+add 0.00485605272286
+pour 0.00232892324464
+sprinkle 0.00213071701105
+season 0.00128834051831
+spread 0.00118923740152
+place 0.00109013428472
+
+
+Cook and stir over medium heat until thickened
+set ['t14', 'medium heat']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+Cook and stir over medium heat until thickened
+cook ['ing134', 't14', 'ing135', 'cooked base', 'stir until thickened']
+bake 0.417512526017
+cook 0.11942280249
+bring 0.0589249898221
+put 0.0540647388866
+noverb 0.0528623013753
+uncovered 0.0420043209924
+continue 0.0382215652658
+simmer 0.0375277901199
+select 0.0254310476023
+melt 0.0222878821222
+
+
+Cool
+leave ['ing135', 'cool']
+cool 0.348468921982
+refrigerate 0.291336986091
+set 0.082279715015
+keep 0.0394141540759
+carving 0.0392818422083
+stand 0.03553743118
+chill 0.0349899602469
+noverb 0.0219565524023
+allow 0.0180995179103
+rack 0.0167712469757
+
+
+Stir in mayonnaise mix well
+combine [['ing135', 'ing133'], 'ing136', 'dressing', 'mix well']
+stir 0.134500648894
+noverb 0.115144813837
+combine 0.107327783972
+add 0.106150124268
+mix 0.0661587023901
+season 0.0429355409181
+pour 0.0424006429717
+spread 0.0393481857944
+sprinkle 0.0313534366618
+brush 0.0231279315879
+
+
+Pour over potato mixture toss to coat
+combine [['ing136', 'ing127'], 'ing137', 'salad!', 'pour and toss']
+stir 0.134500648894
+noverb 0.115144813837
+combine 0.107327783972
+add 0.106150124268
+mix 0.0661587023901
+season 0.0429355409181
+pour 0.0424006429717
+spread 0.0393481857944
+sprinkle 0.0313534366618
+brush 0.0231279315879
+
+
+Refrigerate for several hours
+leave ['ing137', 'refrigerate for several hours']
+cool 0.318919780018
+refrigerate 0.178964770395
+set 0.137024547354
+keep 0.0947084218105
+stand 0.0474721723553
+chill 0.0341710860223
+noverb 0.0326259855809
+let 0.0193102535113
+allow 0.0187598607423
+carving 0.0164962423429
+
+
+./annotated_recipes_test/Grand-Marnier-Chicken.rcp_tagged.xml
+Slice chicken breasts in thirds horizontally to make 12 thin chicken fillets
+cut ['ing0', 't0', 'ing11', '12 thin chicken fillets', 'slice in thirds horizontally']
+cut 0.718292428239
+noverb 0.0641074232498
+bite-size 0.0634422159139
+chop 0.0337167299645
+seal 0.031721107957
+peel 0.031721107957
+flattened 0.031721107957
+divide 0.00199562200753
+use 0.00199562200753
+crumble 0.00199562200753
+
+
+Lightly pound each piece
+do ['ing11', None, 'ing12', '12 pounded chicken fillets', 'lightly pound each piece']
+noverb 0.146972369195
+pat 0.0730586286142
+roll 0.0681239199758
+seal 0.0674469563358
+wrap 0.0674469563358
+crimp 0.0674113266706
+tuck 0.0674113266706
+marinate 0.0673756970053
+escape 0.0673756970053
+rinse 0.0339550709921
+
+
+Place in a dish and pour milk over them
+combine [['ing12', 'ing1'], 'ing13', 'milky chicken', 'pour milk']
+noverb 0.12521103104
+pour 0.124684263021
+place 0.124576318755
+combine 0.0834538710973
+add 0.0834106933908
+sprinkle 0.0416794400715
+season 0.0416060379705
+spread 0.0415974024292
+top 0.041549906952
+coat 0.0415326358694
+
+
+Place in a dish and pour milk over them
+put ['ing13', 't1']
+combine 0.161050120988
+noverb 0.143519620157
+place 0.123091865735
+pour 0.121998592259
+arrange 0.0707059764828
+stir 0.0704630268215
+stuffed 0.0704427810164
+x 0.0704427810164
+fill 0.025696922401
+press 0.0256564307908
+
+
+Soak for 10 minutes
+leave ['ing13', 'soak for 10 minutes']
+cool 0.466244429591
+set 0.27637597301
+refrigerate 0.111054446518
+chill 0.0785809125318
+noverb 0.0166641124672
+stand 0.016508714113
+keep 0.0158094215189
+spreading 0.0156540231647
+allow 0.000466195062711
+let 0.000388495885592
+
+
+In a shallow bowl stir together the bread crumbs Parmesan cheese and parsley
+combine [['ing4', 'ing2', 'ing3'], 'ing14', 'cheesy crumbs', 'stir together']
+noverb 0.132186687753
+pour 0.123180058265
+add 0.0895341812337
+combine 0.0765281444689
+stir 0.0741882466449
+place 0.0709862014366
+sprinkle 0.0382353521197
+season 0.0338469178344
+top 0.0294689272273
+drizzle 0.0294506507906
+
+
+In a shallow bowl stir together the bread crumbs Parmesan cheese and parsley
+mix ['ing14', 't2', 'ing15', 'stirred crumbs', 'stir together']
+mix 0.248902949281
+stir 0.216722794843
+cream 0.101779093105
+blend 0.100316358812
+toss 0.0871517501786
+form 0.0827635473007
+beat 0.0526584345341
+noverb 0.0365683573154
+shake 0.00877640575569
+whisk 0.00585093717046
+
+
+Set aside
+leave ['ing15', 'set aside']
+cool 0.581152575778
+set 0.117007194725
+marinate 0.0855015637984
+refrigerate 0.0546097602733
+noverb 0.0294052555318
+stand 0.0252045047415
+chill 0.0189033785561
+allow 0.0126022523708
+let 0.0105018769756
+remove 0.0084015015805
+
+
+Heat olive oil in a large heavy skillet over mediumhigh heat
+cook ['ing5', 't3', 'ing16', 'hot oil', 'heat over medium-high heat']
+heat 0.343342960427
+fry 0.238537276829
+cook 0.123700714275
+bring 0.0367402193617
+simmer 0.0361876709447
+noverb 0.0359666515778
+bake 0.0229838889633
+saute 0.0179556983681
+or 0.0176241693178
+brown 0.0175136596344
+
+
+Dredge chicken pieces in the bread crumb mixture and place in the hot oil
+combine [['ing15', 'ing13'], 'ing17', 'breaded chicken', 'dredge']
+noverb 0.160031653654
+stir 0.100070410687
+add 0.100003946322
+pour 0.0799379388985
+sprinkle 0.0799296308528
+taste 0.079848627407
+combine 0.0601045567554
+place 0.0599259337724
+mix 0.0400323182978
+season 0.0399741619778
+
+
+Dredge chicken pieces in the bread crumb mixture and place in the hot oil
+combine [['ing16', 'ing17'], 'ing18', 'hot oil chicken', 'place']
+noverb 0.160031653654
+stir 0.100070410687
+add 0.100003946322
+pour 0.0799379388985
+sprinkle 0.0799296308528
+taste 0.079848627407
+combine 0.0601045567554
+place 0.0599259337724
+mix 0.0400323182978
+season 0.0399741619778
+
+
+Quickly brown on both sides then remove to a buttered 9x13 inch baking dish or similar size
+cook ['ing18', 't3', 'ing19', 'browned chicken', 'brown on both sides']
+bake 0.463673958761
+heat 0.0607990698064
+cook 0.0571736585322
+noverb 0.0499855776248
+simmer 0.0475841897196
+or 0.0472105564278
+bring 0.0398676152418
+control 0.0384954329361
+melted 0.0230935369055
+vegetables 0.0195215897342
+
+
+Quickly brown on both sides then remove to a buttered 9x13 inch baking dish or similar size
+put ['ing19', 't4']
+noverb 0.23644616954
+combine 0.153340740793
+fill 0.0900469475784
+removing 0.0856738802933
+pour 0.0819483321185
+arrange 0.0796552324765
+x 0.0641614158045
+transfer 0.0621306415503
+place 0.0432867940357
+stir 0.0235478401971
+
+
+Season with salt and pepper to taste
+do ['ing19', 't4', 'ing20', 'seasoned chicken', 'season with salt and pepper to taste']
+noverb 0.225819571703
+wrap 0.0887840058228
+roll 0.0811922927045
+flute 0.0428373073633
+remove 0.034578669903
+secure 0.034578669903
+turn 0.034578669903
+bringing 0.0336292042326
+slip 0.0336292042326
+stove 0.0336292042326
+
+
+Place orange slices over the top of the chicken
+combine [['ing6', 'ing20'], 'ing21', 'orange chicken', 'place orange on top of chicken']
+stir 0.119065010201
+noverb 0.112917246739
+pour 0.110242959111
+add 0.104114686273
+sprinkle 0.0898151359099
+combine 0.0856324139533
+place 0.0515071006947
+drizzle 0.0431930661429
+mix 0.0324301309994
+top 0.0319698717511
+
+
+Preheat the oven to 350 degrees F 175 degrees C
+set ['t5', '350 degrees F (175 degrees C)']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Drain the oil from the skillet reserving 14 cup
+separate ['ing21', 'ing22', 'orange chicken', 'ing23', '1/4 cup oil', 'drain oil']
+remove 0.294327200577
+noverb 0.249697227376
+coat 0.134811121418
+top 0.0444689239332
+drain 0.0296459492888
+x 0.0197639661925
+strain 0.0197639661925
+divided 0.00988198309627
+glaze 0.00988198309627
+tint 0.00988198309627
+
+
+Heat the reserved oil with the wine over medium heat until reduced by 12
+combine [['ing23', 'ing7'], 'ing24', 'oil and wine', None]
+place 0.174316382673
+stir 0.103812551009
+noverb 0.0990700878638
+pour 0.0951291258371
+add 0.0905655376781
+sprinkle 0.0775655068479
+combine 0.0748587305891
+drizzle 0.0371037124908
+mix 0.0285270144569
+top 0.0275784300132
+
+
+Heat the reserved oil with the wine over medium heat until reduced by 12
+cook ['ing24', 't3', 'ing25', 'hot oil and wine', 'heat over medium heat']
+bake 0.350594051455
+vegetables 0.128304590055
+cook 0.100862665518
+simmer 0.0703640519656
+noverb 0.0607956951615
+heat 0.0466536329546
+or 0.0356241902644
+bring 0.0310631785029
+control 0.02889860882
+melted 0.0175364256227
+
+
+Heat the reserved oil with the wine over medium heat until reduced by 12
+chefcheck ['ing25', 'reduced by 1/2']
+noverb 0.195655770435
+bake 0.10514455596
+run 0.0951270145335
+simmer 0.0709618886997
+needed 0.0696540252232
+burn 0.0607002714569
+brown 0.0516292582776
+browned 0.0430918250975
+leave 0.0420872735448
+filling 0.0283899757657
+
+
+Add broth and orange juice and reduce by 12 again
+combine [['ing8', 'ing9', 'ing25'], 'ing26', 'broth', 'add']
+place 0.152542644797
+stir 0.118553714007
+noverb 0.107526008152
+pour 0.103989992972
+add 0.0931274263435
+sprinkle 0.0679007197745
+combine 0.0655790017893
+drizzle 0.0324700602363
+mix 0.0319060212597
+top 0.0241404685098
+
+
+Add broth and orange juice and reduce by 12 again
+cook ['ing26', 't3', 'ing27', 'reduced broth', 'reduce by 1/2']
+bake 0.398139383993
+vegetables 0.102663616229
+cook 0.0979562650039
+simmer 0.082843357767
+noverb 0.0553801656191
+heat 0.0430329120849
+bring 0.0343394621332
+or 0.0286589056947
+control 0.0231388312414
+melted 0.0166547852267
+
+
+Pour the sauce over the chicken then drizzle with Grand Marinier
+combine [['ing22', 'ing27'], 'ing28', 'saucy chicken', 'pour sauce over chicken']
+place 0.140308611065
+stir 0.122058604618
+add 0.120818598733
+noverb 0.0969113956806
+pour 0.0883412126803
+sprinkle 0.0622264822673
+combine 0.0577194017997
+mix 0.0484616062451
+spread 0.0375458702405
+drizzle 0.0273684226964
+
+
+Pour the sauce over the chicken then drizzle with Grand Marinier
+combine [['ing28', 'ing10'], 'ing29', 'liquored chicken', 'drizzle']
+place 0.140308611065
+stir 0.122058604618
+add 0.120818598733
+noverb 0.0969113956806
+pour 0.0883412126803
+sprinkle 0.0622264822673
+combine 0.0577194017997
+mix 0.0484616062451
+spread 0.0375458702405
+drizzle 0.0273684226964
+
+
+Bake for 20 to 25 minutes in the preheated oven until bubbly
+cook ['ing29', 't5', 'ing30', 'baked chicken', '20 to 25 minutes']
+bake 0.3895206376
+vegetables 0.114178771382
+cook 0.0816113142623
+simmer 0.0662144885505
+noverb 0.0512328944171
+heat 0.0492896260078
+bring 0.0380075078661
+or 0.0327079220123
+control 0.0258178991733
+melted 0.0179999596893
+
+
+Bake for 20 to 25 minutes in the preheated oven until bubbly
+chefcheck ['ing30', 'until bubbly']
+noverb 0.218558922655
+bake 0.111989375926
+run 0.0893029336258
+simmer 0.0728620076694
+brown 0.0472282706801
+browned 0.0439398296753
+leave 0.0403757016507
+needed 0.0359048615174
+burn 0.0300203633435
+inserted 0.0272377442315
+
+
+./annotated_recipes_test/Gingered-Mango-Salsa.rcp_tagged.xml
+In a bowl combine all ingredients
+combine [['ing4', 'ing5', 'ing6', 'ing7', 'ing0', 'ing1', 'ing2', 'ing3'], 'ing8', 'all stuff', 'combine all']
+place 0.147010756075
+stir 0.115697203204
+add 0.108006769903
+noverb 0.102136836256
+pour 0.0887901886556
+combine 0.0674215592536
+sprinkle 0.0672204682134
+mix 0.041138701715
+spread 0.0321752704028
+drizzle 0.0299807617088
+
+
+In a bowl combine all ingredients
+put ['ing8', 't0']
+noverb 0.54950294434
+place 0.0911911443009
+shake 0.0622844060499
+pour 0.0496791248016
+combine 0.0477873168241
+transfer 0.0423462325309
+return 0.0271634258098
+thread 0.0217606482142
+ladle 0.0205458171797
+fill 0.0159992963914
+
+
+Let stand for 30 minutes before serving
+leave ['ing8', '30 minutes']
+refrigerate 0.476750843
+cool 0.212762466147
+set 0.0892699938378
+noverb 0.0333485308417
+let 0.032625606417
+stand 0.0287886159318
+dissolve 0.0247305554174
+serving 0.0247305554174
+keep 0.0172185458781
+allow 0.0129463605961
+
+
+Let stand for 30 minutes before serving
+serve ['ing8', 'serve']
+serve 0.398783372315
+noverb 0.155911322396
+serving 0.0810496770577
+refrigerate 0.0523049924253
+cooked 0.0497925354779
+add 0.0383887000655
+top 0.0334475882981
+cool 0.0325936678635
+reheat 0.0193047305998
+pot 0.00903107074167
+
+
+./annotated_recipes_test/German-Chocolate-Brownie-Cookies.rcp_tagged.xml
+Combine brown sugar 23 cup shortening water and 1 teaspoon vanilla in large bowl
+combine [['ing193', 'ing194', 'ing195', 'ing196'], 'ing210', 'one', 'in a large bowl']
+stir 0.290671477862
+noverb 0.133552069031
+mix 0.0734318934972
+pour 0.0723012403641
+add 0.0676255610103
+combine 0.0569182216181
+season 0.047178451388
+place 0.0402831210386
+sprinkle 0.0357371154137
+spread 0.0279021673815
+
+
+Beat eggs into creamed mixture
+combine [['ing210', 'ing197'], 'ing211', 'eggs and creamed', 'beat']
+stir 0.290671477862
+noverb 0.133552069031
+mix 0.0734318934972
+pour 0.0723012403641
+add 0.0676255610103
+combine 0.0569182216181
+season 0.047178451388
+place 0.0402831210386
+sprinkle 0.0357371154137
+spread 0.0279021673815
+
+
+In another bowl combine flour cocoa salt and baking soda
+combine [['ing198', 'ing199', 'ing200', 'ing201'], 'ing212', 'dry', 'mix in another bowl']
+stir 0.290671477862
+noverb 0.133552069031
+mix 0.0734318934972
+pour 0.0723012403641
+add 0.0676255610103
+combine 0.0569182216181
+season 0.047178451388
+place 0.0402831210386
+sprinkle 0.0357371154137
+spread 0.0279021673815
+
+
+Mix this mixture into creamed mixture until just blended
+combine [['ing212', 'ing211'], 'ing213', 'dough', 'mix until just blended']
+stir 0.290671477862
+noverb 0.133552069031
+mix 0.0734318934972
+pour 0.0723012403641
+add 0.0676255610103
+combine 0.0569182216181
+season 0.047178451388
+place 0.0402831210386
+sprinkle 0.0357371154137
+spread 0.0279021673815
+
+
+Stir in chocolate chips
+mix ['ing213', None, 'ing214', 'more chocolatey dough', 'stir in']
+mix 0.258302424952
+beat 0.165046237545
+stir 0.134881287844
+noverb 0.12602112084
+blend 0.0489365193392
+moistened 0.0483896541888
+cream 0.0315386009903
+process 0.0195788608052
+shake 0.0171154322642
+form 0.017014190984
+
+
+Drop rounded tablespoonfuls of dough onto ungreased baking sheet about 2 inches apart
+put ['ing214', 't19']
+noverb 0.313648212853
+place 0.173902317655
+combine 0.166785709159
+pour 0.146653279065
+transfer 0.0220965469032
+shape 0.0208337039407
+arrange 0.0193086374449
+spread 0.0190761011164
+drop 0.0121141181478
+baking 0.00970389881784
+
+
+Place cookie sheet in the middle of the oven
+set ['t20', '375 F']
+preheat 0.632318397376
+noverb 0.132719295065
+bake 0.0510046616947
+reduce 0.0306253601028
+oven 0.0305971562453
+grease 0.0204437675519
+turn 0.0102178546534
+heat 0.0102138255309
+butter 0.0102097964084
+leave 0.0101977090409
+
+
+Place cookie sheet in the middle of the oven
+cook ['ing214', 't20', 'ing215', 'baked cookies', 'place in the center of the oven, for 7 to 9 mins or until set']
+bake 0.517757583158
+bring 0.0877644877447
+cook 0.0615076732748
+simmer 0.0454816185656
+flatten 0.0422176569524
+noverb 0.0321883048554
+melted 0.0302112180643
+heat 0.0231903488424
+continue 0.0170215278821
+fry 0.0163213027238
+
+
+Cool for 2 minutes on baking sheet
+leave ['ing215', 'cool for 2 mins']
+cool 0.427234916575
+refrigerate 0.149167283566
+stand 0.0726751697391
+set 0.0636647101124
+store 0.0440591538619
+chill 0.0387405099465
+rack 0.0300343243548
+noverb 0.029194589909
+allow 0.0266956270947
+ferment 0.0239369166037
+
+
+Remove cookies to wire rack to cool completely
+leave ['ing215', 'on a wire rack to finish cooling']
+cool 0.427234916575
+refrigerate 0.149167283566
+stand 0.0726751697391
+set 0.0636647101124
+store 0.0440591538619
+chill 0.0387405099465
+rack 0.0300343243548
+noverb 0.029194589909
+allow 0.0266956270947
+ferment 0.0239369166037
+
+
+To Make Frosting Begin by combining evaporated milk white sugar 14 cup shortening and egg yolks in medium saucepan
+combine [['ing204', 'ing205', 'ing206', 'ing203'], 'ing216', 'frosting base', 'stir in a sauce pan over medium heat until thick']
+noverb 0.145048125969
+stir 0.142437292027
+add 0.112794491473
+combine 0.103728441158
+pour 0.0708866931022
+sprinkle 0.0502502023682
+spread 0.0461489042885
+mix 0.0389613055269
+drizzle 0.027760427273
+remaining 0.0196231786755
+
+
+Stir 12 teaspoon vanilla pecans and coconut into the warm mixture
+combine [['ing207', 'ing208', 'ing209', 'ing216'], 'ing217', 'frosting', 'stir']
+noverb 0.145048125969
+stir 0.142437292027
+add 0.112794491473
+combine 0.103728441158
+pour 0.0708866931022
+sprinkle 0.0502502023682
+spread 0.0461489042885
+mix 0.0389613055269
+drizzle 0.027760427273
+remaining 0.0196231786755
+
+
+Cool completely and frost cooled cookies
+combine [['ing217', 'ing215'], 'ing218', 'cookies!', 'frost']
+noverb 0.145048125969
+stir 0.142437292027
+add 0.112794491473
+combine 0.103728441158
+pour 0.0708866931022
+sprinkle 0.0502502023682
+spread 0.0461489042885
+mix 0.0389613055269
+drizzle 0.027760427273
+remaining 0.0196231786755
+
+
+./annotated_recipes_test/Fruited-Ice-Cream.rcp_tagged.xml
+Combine condensed milk milk cream vanilla salt and fruit in freezer canister of ice cream maker
+combine [['ing78', 'ing79', 'ing81', 'ing80', 'ing82', 'ing77'], 'ing83', 'ready to freeze', 'in the freezer canister of an ice cream maker']
+noverb 0.145048125969
+stir 0.142437292027
+add 0.112794491473
+combine 0.103728441158
+pour 0.0708866931022
+sprinkle 0.0502502023682
+spread 0.0461489042885
+mix 0.0389613055269
+drizzle 0.027760427273
+remaining 0.0196231786755
+
+
+Freeze according to manufacturers directions
+leave ['ing83', 'freeze according to directions']
+cool 0.341172290417
+refrigerate 0.267167866682
+stand 0.0978862639583
+chill 0.0582113683415
+set 0.0421378577021
+rack 0.0340468786378
+thicken 0.0337319657652
+noverb 0.0290849295377
+allow 0.0163171770602
+let 0.0108074477185
+
+
+./annotated_recipes_test/German-Sweet-Chocolate-Pie.rcp_tagged.xml
+Microwave chocolate and 2 tablespoons of the milk in large microwavesafe bowl on HIGH 1 12 to 2 minutes or until chocolate is almost melted stirring halfway through heating time
+combine [['ing187', 'ing181'], 'ing188', 'bowl of chocolate', 'in a large microwave safe bowl']
+noverb 0.208785701732
+dip 0.166712895143
+stir 0.139578242234
+add 0.0627372863428
+combine 0.055209314185
+pour 0.0397181773004
+sprinkle 0.0311143816574
+garnish 0.0235914427765
+fold 0.0227223235068
+spread 0.0217325148818
+
+
+Microwave chocolate and 2 tablespoons of the milk in large microwavesafe bowl on HIGH 1 12 to 2 minutes or until chocolate is almost melted stirring halfway through heating time
+cook ['ing188', 't18', 'ing189', 'chocolate soup', 'on HIGH, 1-1.5 mins, stirring half way through']
+bake 0.361244292405
+simmer 0.15335162888
+cook 0.127896021939
+heat 0.0604426663074
+noverb 0.0546923585341
+bring 0.0433245174965
+melted 0.0361146664089
+fry 0.023784210182
+boiling 0.0237568742538
+heated 0.0185113048708
+
+
+Beat in cream cheese sugar and remaining milk with wire whisk until blended
+combine [['ing184', 'ing183', 'ing182', 'ing189'], 'ing190', 'batter', 'beat with a whisk until well blended']
+stir 0.126909727839
+noverb 0.122592655071
+add 0.114641818672
+pour 0.0861831380366
+combine 0.0601610391677
+sprinkle 0.0565584015582
+mix 0.0496567517349
+top 0.0409402951643
+season 0.0291717328315
+garnish 0.0273804435225
+
+
+Refrigerate 10 minutes
+leave ['ing190', 'refrigerate for 10 mins']
+cool 0.342348210724
+refrigerate 0.192606531671
+chill 0.108563760834
+noverb 0.103904493824
+freeze 0.0665025602897
+stand 0.0418283683964
+let 0.029375308849
+set 0.0254003232627
+allow 0.0171443229685
+rise 0.0126934093786
+
+
+Gently fold in 3 12 cups of the whipped topping until no streaks remain
+combine [['ing190', 'ing185'], 'ing191', 'streakless batter', 'fold in 3.5 cups until no streaks remain']
+noverb 0.136375532938
+add 0.118469878367
+stir 0.112022702533
+pour 0.073265383951
+combine 0.0722796516951
+spread 0.0446465195064
+sprinkle 0.038969755566
+mix 0.0386730143377
+garnish 0.0278955822252
+fold 0.0258865208028
+
+
+Spoon into crust
+combine [['ing186', 'ing191'], 'ing192', 'pie!', 'spoon']
+noverb 0.136375532938
+add 0.118469878367
+stir 0.112022702533
+pour 0.073265383951
+combine 0.0722796516951
+spread 0.0446465195064
+sprinkle 0.038969755566
+mix 0.0386730143377
+garnish 0.0278955822252
+fold 0.0258865208028
+
+
+Freeze pie 4 hours
+leave ['ing192', 'freeze for four hours']
+cool 0.340246130787
+chill 0.214180186375
+refrigerate 0.139252288494
+noverb 0.0751200618277
+allow 0.0587157083886
+freeze 0.0477597048466
+stand 0.0306510342021
+let 0.0213047085489
+set 0.0192390613348
+rise 0.00919565901884
+
+
+Before cutting pie let stand at room temperature 15 minutes
+leave ['ing192', 'before serving, leave at room temperature for 15 mins']
+cool 0.340246130787
+chill 0.214180186375
+refrigerate 0.139252288494
+noverb 0.0751200618277
+allow 0.0587157083886
+freeze 0.0477597048466
+stand 0.0306510342021
+let 0.0213047085489
+set 0.0192390613348
+rise 0.00919565901884
+
+
+Serve with remaining whipped topping
+serve ['ing192', 'with whipped topping']
+serving 0.284673607379
+noverb 0.219645378777
+serve 0.190742404115
+roll 0.0576115781861
+pan 0.0350371127011
+drizzle 0.0312179385074
+broil 0.0193092901276
+leave 0.0191153830013
+enjoy 0.0191153830013
+shake 0.0191153830013
+
+
+./annotated_recipes_test/Garden-Party-Salad.rcp_tagged.xml
+In a small bowl whisk first six ingredients until smooth chill
+combine [['ing107', 'ing109', 'ing108', 'ing110', 'ing111', 'ing112'], 'ing117', 'base', 'whisk in a small bowl until smooth']
+noverb 0.123113268408
+pour 0.0972299131382
+combine 0.0967566501812
+add 0.0849921857585
+stir 0.0805081521031
+garnish 0.047966893342
+fold 0.0465394177152
+sprinkle 0.0363524758655
+grate 0.0336383436204
+spread 0.0319811900313
+
+
+In a small bowl whisk first six ingredients until smooth chill
+leave ['ing117', 'chill']
+cool 0.239705338196
+chill 0.22210252562
+refrigerate 0.201772088532
+set 0.0846362807819
+covered 0.0548310993079
+noverb 0.0511440429823
+let 0.0307835848595
+rack 0.0256094952992
+stand 0.0255345476831
+allow 0.0191285969968
+
+
+In a small bowl whisk first six ingredients until smooth chill
+leave ['ing117', 'until just before serving']
+cool 0.239705338196
+chill 0.22210252562
+refrigerate 0.201772088532
+set 0.0846362807819
+covered 0.0548310993079
+noverb 0.0511440429823
+let 0.0307835848595
+rack 0.0256094952992
+stand 0.0255345476831
+allow 0.0191285969968
+
+
+Just before serving combine chicken raisins almonds and parsley in a large bowl add dressing and toss
+combine [['ing113', 'ing114', 'ing115', 'ing116'], 'ing118', 'salad', 'mix in a large bowl']
+stir 0.144815157666
+combine 0.125224463876
+add 0.112019593297
+noverb 0.0868340754574
+mix 0.064991946576
+season 0.063229079508
+place 0.0500074742658
+spread 0.0410749011073
+pour 0.0387097573551
+sprinkle 0.0322071621561
+
+
+Just before serving combine chicken raisins almonds and parsley in a large bowl add dressing and toss
+combine [['ing118', 'ing117'], 'ing119', 'salad!', 'toss']
+stir 0.144815157666
+combine 0.125224463876
+add 0.112019593297
+noverb 0.0868340754574
+mix 0.064991946576
+season 0.063229079508
+place 0.0500074742658
+spread 0.0410749011073
+pour 0.0387097573551
+sprinkle 0.0322071621561
+
+
+./annotated_recipes_test/Fried-Chicken-Tenders.rcp_tagged.xml
+Place flour in a shallow bowl
+put ['ing13', 't5']
+return 0.476485152659
+noverb 0.161076185252
+place 0.0993829876577
+pour 0.0590411093765
+combine 0.0404008135749
+shape 0.0168688883933
+transfer 0.0132115515855
+fill 0.0127400692356
+removing 0.0125632633544
+arrange 0.00908273242774
+
+
+Place breadcrumbs in a separate shallow bowl and mix with ground black pepper and cayenne pepper
+combine [['ing16', 'ing14', 'ing15'], 'ing26', 'spiced crumbs', 'mix']
+noverb 0.155179544461
+stir 0.117247595917
+add 0.11034194316
+combine 0.0896630068716
+sprinkle 0.0689571682376
+pour 0.0551702541841
+mix 0.0448315034358
+sift 0.0275799259719
+remaining 0.0241321213647
+spread 0.0206911320184
+
+
+Place breadcrumbs in a separate shallow bowl and mix with ground black pepper and cayenne pepper
+put ['ing26', 't6']
+arrange 0.403167887526
+place 0.21351915106
+combine 0.0927492588143
+transfer 0.0913886781087
+noverb 0.0397319462068
+pour 0.0282551572309
+season 0.0175934526815
+fill 0.0093227458355
+return 0.00922710592736
+press 0.00913146601923
+
+
+Place eggs and water in a small bowl
+put ['ing17', 't7']
+noverb 0.350779905067
+combine 0.286255771317
+place 0.149402312914
+pour 0.0963337257895
+spread 0.0192459202458
+put 0.0192285661523
+transfer 0.00983988629091
+fill 0.00970105354337
+removing 0.00964899126305
+baking 0.00963163716961
+
+
+Place eggs and water in a small bowl
+put ['ing18', 't7']
+noverb 0.393118007423
+combine 0.306578983489
+place 0.200019680572
+pour 0.0199348671835
+stir 0.0196042712013
+arrange 0.0100283328516
+transfer 0.0100283328516
+shape 0.00988913454334
+side 0.0098195353892
+dressing 0.00980213560067
+
+
+One piece at a time coat the chicken in the flour the eggs and the bread crumbs and set aside
+put ['ing19', 't5']
+return 0.482562854826
+noverb 0.179701077511
+place 0.0955856795273
+combine 0.0700961649867
+pour 0.0267639902676
+arrange 0.0178426601784
+transfer 0.0178426601784
+shape 0.00764685436218
+fill 0.00764685436218
+press 0.00509790290812
+
+
+One piece at a time coat the chicken in the flour the eggs and the bread crumbs and set aside
+put ['ing19', 't7']
+noverb 0.358835721366
+combine 0.314649604998
+place 0.154095701541
+pour 0.0258628458142
+arrange 0.0172418972095
+transfer 0.0172418972095
+shape 0.00738938451834
+fill 0.00738938451834
+return 0.00615782043195
+press 0.00492625634556
+
+
+One piece at a time coat the chicken in the flour the eggs and the bread crumbs and set aside
+put ['ing19', 't6']
+noverb 0.343065693431
+place 0.182481751825
+combine 0.133819951338
+pour 0.0510948905109
+arrange 0.0340632603406
+transfer 0.0340632603406
+shape 0.014598540146
+fill 0.014598540146
+return 0.0121654501217
+press 0.00973236009732
+
+
+Heat oil in a deep fryer to 375 degrees F 190 degrees C
+put ['ing20', 't8']
+noverb 0.641672196417
+place 0.0995355009954
+combine 0.0729927007299
+pour 0.0278699402787
+arrange 0.0185799601858
+transfer 0.0185799601858
+shape 0.00796284007963
+fill 0.00796284007963
+return 0.00663570006636
+press 0.00530856005309
+
+
+Heat oil in a deep fryer to 375 degrees F 190 degrees C
+set ['t8', '375 F']
+preheat 0.304347826087
+noverb 0.197628458498
+grease 0.0553359683794
+reduce 0.0434782608696
+remove 0.0395256916996
+bake 0.0355731225296
+cover 0.0355731225296
+turn 0.0237154150198
+select 0.0197628458498
+heat 0.0197628458498
+
+
+In small batches fry chicken 6 to 8 minutes or until golden brown
+cook ['ing19', 't8', 'ing27', 'fried chicken strips', 'fry 6 or 8 at a time']
+heat 0.28231292517
+fry 0.24716553288
+bake 0.119047619048
+cook 0.0702947845805
+bring 0.0487528344671
+simmer 0.0374149659864
+melt 0.0328798185941
+noverb 0.0328798185941
+saute 0.015873015873
+melted 0.00907029478458
+
+
+In a separate small bowl combine the mayonnaise horseradish sour cream Worcestershire sauce and mustard
+combine [['ing23', 'ing22', 'ing21', 'ing25', 'ing24'], 'ing28', 'dipping sauce', 'mix']
+noverb 0.175858480749
+stir 0.135275754422
+combine 0.112382934443
+add 0.10197710718
+mix 0.0561914672216
+pour 0.0489073881374
+sprinkle 0.044745057232
+season 0.0270551508845
+spread 0.0249739854318
+place 0.0228928199792
+
+
+./annotated_recipes_test/Fried-Apple-Pies.rcp_tagged.xml
+Peel and dice apples
+separate ['ing21', 'ing25', 'apple skins', 'ing26', 'apple chunks', 'peel and dice']
+noverb 0.239583333333
+top 0.09375
+remove 0.0729166666667
+drain 0.0625
+x 0.0416666666667
+strain 0.0416666666667
+divided 0.0208333333333
+glaze 0.0208333333333
+tint 0.0208333333333
+lift 0.0208333333333
+
+
+Add sugar and cinnamon
+combine [['ing23', 'ing22', 'ing26'], 'ing27', 'apple mixture', 'combine']
+stir 0.217035825777
+noverb 0.130631421995
+combine 0.13035663608
+mix 0.130113382975
+add 0.0870215459185
+sprinkle 0.0867737881265
+pour 0.043501763585
+fold 0.0433350901613
+drizzle 0.0433170714128
+filling 0.0433125667257
+
+
+Cook in a saucepan on low heat
+cook ['ing27', 't1', 'ing28', 'soupy apples', 'cook until soft at low heat']
+bake 0.698318479554
+cook 0.0590183366531
+bring 0.0487781879189
+continue 0.0470527599577
+noverb 0.0275411449456
+stirring 0.0254631510714
+heat 0.0218932025453
+fry 0.0158791619092
+melted 0.0101419272563
+uncovered 0.0101062103552
+
+
+Cook until soft then mash with fork to form a thick applesauce
+cut ['ing28', 't2', 'ing29', 'thick apple sauce', 'mash']
+cut 0.502915771869
+core 0.159023590896
+use 0.111830941801
+seal 0.0557687548172
+trim 0.0303234621963
+divide 0.0263255891197
+noverb 0.0263255891197
+drop 0.0260321569534
+break 0.0257387247871
+loaf 0.0257387247871
+
+
+Sift flour and salt together
+combine [['ing17', 'ing19'], 'ing30', 'dry', 'sift']
+stir 0.149661818145
+noverb 0.148152801344
+combine 0.130718130558
+add 0.0838049620076
+mix 0.0782394387696
+sprinkle 0.0606067743565
+pour 0.0404090797421
+spread 0.0330957939915
+filling 0.0311646156559
+fold 0.0291825963967
+
+
+Cut in the shortening
+combine [['ing30', 'ing18'], 'ing31', 'dry with shortening', 'cut']
+stir 0.149661818145
+noverb 0.148152801344
+combine 0.130718130558
+add 0.0838049620076
+mix 0.0782394387696
+sprinkle 0.0606067743565
+pour 0.0404090797421
+spread 0.0330957939915
+filling 0.0311646156559
+fold 0.0291825963967
+
+
+Add water and mix with fork
+combine [['ing20', 'ing31'], 'ing32', 'wet shortning', 'add']
+stir 0.149661818145
+noverb 0.148152801344
+combine 0.130718130558
+add 0.0838049620076
+mix 0.0782394387696
+sprinkle 0.0606067743565
+pour 0.0404090797421
+spread 0.0330957939915
+filling 0.0311646156559
+fold 0.0291825963967
+
+
+Add water and mix with fork
+mix ['ing32', 't2', 'ing33', 'mixed', 'mix']
+mix 0.26026377919
+stir 0.197433944673
+noverb 0.177430559139
+cream 0.0620268490727
+blend 0.039598600606
+moistened 0.0292021197806
+beat 0.025284546432
+toss 0.0201714383412
+process 0.0201501201975
+incorporate 0.0201074839103
+
+
+Roll out to about 18 inch thick on a floured board
+put ['ing33', 't3']
+noverb 0.363134896198
+place 0.26324781608
+combine 0.0797503043643
+pour 0.0725357154792
+shape 0.0484263389105
+transfer 0.0160404891377
+arrange 0.0139760795589
+side 0.0117815398134
+spread 0.0113659626504
+fill 0.0110613677872
+
+
+Roll out to about 18 inch thick on a floured board
+do ['ing33', 't3', 'ing34', 'dough', 'roll to 1/8 in thick']
+roll 0.142745061673
+noverb 0.129779691016
+match 0.121917320055
+smooth 0.0488239311937
+place 0.0397593230672
+shape 0.0392683540256
+decorate 0.0338518509589
+strips 0.0319157350953
+measure 0.0301807790059
+flatten 0.0282025785857
+
+
+Cut with a large cookie cutter 4 inches in diameter
+cut ['ing34', 't4', 'ing35', 'dough circles', 'cut']
+cut 0.332523395293
+divide 0.142433429589
+cooked 0.0842095993922
+use 0.074877273534
+shaped 0.0463537442541
+drop 0.0368291771204
+loaf 0.0332647390185
+noverb 0.0320879673817
+flattened 0.024959091178
+shape 0.0202178814393
+
+
+In each round place 1 heaping tablespoon fruit
+combine [['ing35', 'ing29'], 'ing36', 'sauced circles', 'place 1 heaping table spoon of sauce in each cirlce']
+noverb 0.19806439125
+combine 0.108894586396
+stir 0.108006682052
+add 0.08674902434
+sprinkle 0.071202027179
+pour 0.0541139927812
+mix 0.0398458857155
+create 0.0208964008264
+beat 0.01933698135
+repeat 0.0160234161578
+
+
+Moisten edges with cold water fold and press edge with a fork
+cook ['ing36', 't5', 'ing37', 'moist sauced circles', 'moisten edges']
+bake 0.522869159696
+bring 0.077101599361
+cook 0.0729708010606
+continue 0.0428183705034
+simmer 0.0408089616066
+fry 0.0329779812643
+heat 0.0325658396458
+noverb 0.0310370361017
+melted 0.019882034655
+melt 0.017894139203
+
+
+Moisten edges with cold water fold and press edge with a fork
+cook ['ing37', 't2', 'ing38', 'closed circles', 'cold and press']
+bake 0.522869159696
+bring 0.077101599361
+cook 0.0729708010606
+continue 0.0428183705034
+simmer 0.0408089616066
+fry 0.0329779812643
+heat 0.0325658396458
+noverb 0.0310370361017
+melted 0.019882034655
+melt 0.017894139203
+
+
+Heat oil in a large skillet on mediumhigh heat
+set ['t6', 'oiled, medium high heat']
+noverb 0.331108663254
+reduce 0.328581610834
+heat 0.164258407309
+sprinkle 0.163999222445
+preheat 0.00498930862438
+grease 0.000907147022614
+remove 0.00064796215901
+bake 0.000583165943109
+cover 0.000583165943109
+turn 0.000388777295406
+
+
+Fry pies a few at a time 2 to 3 minutes on each side cook until golden brown
+cook ['ing38', 't6', 'ing39', 'fried pies', 'a few at a time, 2-3 mins per side, until golden brown']
+bake 0.522869159696
+bring 0.077101599361
+cook 0.0729708010606
+continue 0.0428183705034
+simmer 0.0408089616066
+fry 0.0329779812643
+heat 0.0325658396458
+noverb 0.0310370361017
+melted 0.019882034655
+melt 0.017894139203
+
+
+Drain on paper towels
+cook ['ing39', 't7', 'ing40', 'ready to serve pies', 'drain']
+bake 0.522869159696
+bring 0.077101599361
+cook 0.0729708010606
+continue 0.0428183705034
+simmer 0.0408089616066
+fry 0.0329779812643
+heat 0.0325658396458
+noverb 0.0310370361017
+melted 0.019882034655
+melt 0.017894139203
+
+
+Sprinkle with confectioners sugar
+serve ['ing40', 'with confectioners sugar']
+noverb 0.379790717902
+serve 0.216950318868
+serving 0.114537984357
+roll 0.0583852527599
+adjust 0.0190033570044
+makes 0.0174427508709
+desired 0.0129098056152
+bake 0.0119692971215
+dust 0.0119692971215
+drizzle 0.0119692971215
+
+
