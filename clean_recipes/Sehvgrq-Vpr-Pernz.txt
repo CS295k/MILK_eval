@@ -1,0 +1,8 @@
+create_ing(ing77, 2 (14 ounce) cans sweetened condensed milk)
+create_ing(ing78, 5 cups milk)
+create_ing(ing79, 2 cups heavy cream)
+create_ing(ing80, 2 tablespoons vanilla extract)
+create_ing(ing81, 1/2 teaspoon salt)
+create_ing(ing82, 3 cups chopped strawberries)
+combine([ing78, ing79, ing81, ing80, ing82, ing77], ing83)
+leave(ing83)
