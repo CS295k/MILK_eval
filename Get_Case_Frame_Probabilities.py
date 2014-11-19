@@ -163,7 +163,8 @@ def getInputIngredients(commandName, args):
 
 def getTools(commandName, args):
 	if commandName in ["put", "remove"]:
-		return set([args[1]])
+		# return set([args[1]])
+		return set()
 	elif commandName in ["cut", "mix", "cook", "do"]:
 		tools = [a for a in args if a is not None and re.compile("t[0-9]+").match(a)]
 		if len(tools) > 0:
@@ -230,14 +231,52 @@ for key1 in caseFrameCounts:
 	for key2 in caseFrameCounts[key1]:
 		probability = caseFrameCounts[key1][key2] / denominator
 		probabilities.append((key1, key2, probability))
+probabilities.sort(key=lambda tup: tup[2], reverse=True)
 
-probabilities.sort(key=lambda tup: tup[2])
-probabilities.reverse()
-expectedGiven = ("boil", True)
-totalOccurances = sum(caseFrameCounts[expectedGiven][key2] for key2 in caseFrameCounts[expectedGiven])
-print("Conditioning Parameters: " + str(expectedGiven))
-print("Total Occurrences of Key: " + str(totalOccurances))
-print("\n")
-for tup in probabilities:
-	if tup[0] == expectedGiven:
-		print("%s\n%f\n%s\n\n" % (tup[1], tup[2], exampleSentences[tup[0]][tup[1]]))
+def keyToEnglish(key, counts):
+	caseFrame = getMostProbableCaseFrame(key, counts)
+	verb = key[0]
+	return caseFrameToSentence(caseFrame, verb)
+
+def getMostProbableCaseFrame(key, counts):
+	maxCount = None
+	maxCaseFrame = None
+	for caseFrame in counts[key]:
+		if maxCount is None or counts[key][caseFrame] > maxCount:
+			maxCount = counts[key][caseFrame]
+			maxCaseFrame = caseFrame
+	return maxCaseFrame
+
+def caseFrameToSentence(caseFrame, verb):
+	return treeToSentence(replaceInCaseFrame(caseFrame, VERB_TAGS, verb))
+
+def replaceInCaseFrame(caseFrame, tagsToReplace, toReplace):
+	if type(caseFrame) == tuple:
+		if caseFrame[0] in tagsToReplace:
+			newTag = toReplace
+		else:
+			newTag = caseFrame[0]
+		return tuple([newTag] + [replaceInCaseFrame(child, tagsToReplace, toReplace) for child in caseFrame[1:]])
+	else:
+		if caseFrame in tagsToReplace:
+			newTag = toReplace
+		else:
+			newTag = caseFrame
+		return newTag
+
+def treeToSentence(tree):
+	if type(tree) == tuple:
+		return " ".join(treeToSentence(child) for child in tree[1:])
+	else:
+		return tree
+
+print keyToEnglish(("cook", False), caseFrameCounts)
+
+# expectedGiven = ("cook", False)
+# totalOccurances = sum(caseFrameCounts[expectedGiven][key2] for key2 in caseFrameCounts[expectedGiven])
+# print("Conditioning Parameters: " + str(expectedGiven))
+# print("Total Occurrences of Key: " + str(totalOccurances))
+# print("\n")
+# for tup in probabilities:
+	# if tup[0] == expectedGiven:
+		# print("%s\n%f\n%s\n\n" % (tup[1], tup[2], exampleSentences[tup[0]][tup[1]]))
