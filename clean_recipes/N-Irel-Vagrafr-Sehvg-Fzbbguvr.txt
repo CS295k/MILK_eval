@@ -1,0 +1,8 @@
+create_ing(ing18, 1 (10 ounce) package frozen mixed berries)
+create_ing(ing19, 1 (15 ounce) can sliced peaches, drained)
+create_ing(ing20, 2 tablespoons honey)
+create_tool(t4, blender)
+combine([ing20, ing18, ing19], ing21)
+put(ing21, t4)
+mix(ing21, t4, ing22)
+chefcheck(ing22)

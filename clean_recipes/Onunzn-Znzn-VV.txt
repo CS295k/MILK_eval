@@ -1,0 +1,8 @@
+create_ing(ing0, 1 fluid ounce dark rum)
+create_ing(ing1, 1/2 fluid ounce apricot brandy)
+create_ing(ing2, 3 1/2 fluid ounces fruit punch)
+create_ing(ing3, 1/2 fluid ounce pina colada mix)
+create_tool(t0, mixing glass)
+combine([ing0, ing1, ing2, ing3], ing4)
+mix(ing4, t0, ing5)
+serve(ing5)

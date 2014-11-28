@@ -1,0 +1,7 @@
+create_ing(ing71, 8 ounces cream cheese)
+create_ing(ing72, 1/2 cup marshmallow creme)
+create_ing(ing73, 2 cups frozen whipped topping, thawed)
+create_ing(ing74, 1/4 cup unsweetened pineapple juice)
+combine([ing71, ing72, ing73], ing75)
+combine([ing74, ing75], ing76)
+leave(ing76)
