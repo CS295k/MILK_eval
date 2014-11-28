@@ -4,10 +4,12 @@ import re
 from Data_Interface import getParseCommandPairMappings
 from Verb_Alignment_Util import getVerbAlignmentCountDict, getCommandVerbProbability
 from MILK_parse import MILK_parse_command
+from Case_Frame_Helper import treeToSentence
 
 VERB_TAGS = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
 
 caseFrameCounts = {}
+topLevelCounts = {}
 exampleSentences = {}
 
 def getVerb(parse):
@@ -68,6 +70,24 @@ def getCaseFrame(sexp):
 		else:
 			return sexp
 
+def getTopLevelFrame(sexp):
+	if type(sexp) == list:
+		newChildren = []
+		containsLeaf = False
+		for child in sexp[1:]:
+			result = getTopLevelFrame(child)
+			if result["containsLeaf"]:
+				containsLeaf = True
+				newChildren.append(result["tree"])
+		if containsLeaf:
+			return {"containsLeaf": True, "tree": tuple([sexp[0]._val] + newChildren)}
+		elif sexp[0]._val in ["VP", "CC"]:
+			return {"containsLeaf": True, "tree": sexp[0]._val}
+		else:
+			return {"containsLeaf": False, "tree": None}
+	else:
+		return {"containsLeaf": False, "tree": None}
+
 def getVb(verb):
 	if type(verb) == list:
 		return chooseNonNone([verb[1]._val if verb[0]._val in VERB_TAGS else None] + [getVb(child) for child in verb[1:]])
@@ -104,6 +124,17 @@ def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed, tool
 	else:
 		caseFrameCounts[givenKey] = {caseFrame: 1}
 		exampleSentences[givenKey] = {caseFrame: [(filename, parseToSentence(sexp))]}
+
+def addToTopLevelCounts(topLevelFrame, numVerbs):
+	givenKey = (numVerbs,)
+	if givenKey in topLevelCounts:
+		topLevelDict = topLevelCounts[givenKey]
+		if topLevelFrame in topLevelDict:
+			topLevelDict[topLevelFrame] += 1
+		else:
+			topLevelDict = 1
+	else:
+		topLevelCounts[givenKey] = {topLevelFrame: 1}
 
 def makeListOfListsHashable(lol):
 	'''
@@ -189,6 +220,62 @@ def getMostLikelyVpVbPair(initialVps, command):
 			highestProbability = prob
 	return mostLikelyVpVbPair
 
+def inputToEnglish(commands, verbs, caseFrameProbabilities, topLevelProbabilities):
+	caseFrames = []
+	for verb in verbs:
+		caseFrame = getMostProbable((verb, False, False), caseFrameProbabilities)
+		caseFrame = tuple(["_VP_"] + list(caseFrame)[1:]) # so the case frame isn't replaced again after being added to the top level tree
+		caseFrame = replaceOnceInTree(caseFrame, VERB_TAGS, verb)["tree"]
+		caseFrames.append(caseFrame)
+	topLevel = getMostProbable((len(verbs),), topLevelProbabilities)
+	topLevel = ("S1", ("S", ("CCP", "VP", "and", "VP")))
+	for caseFrame in caseFrames:
+		topLevel = replaceOnceInTree(topLevel, ["VP"], caseFrame)["tree"]
+	return treeToSentence(topLevel)
+
+def getMostProbable(given, probs):
+	for tup in probs:
+		if tup[0][0] == given[0]:
+			return tup[1]
+	return None
+
+def replaceInTree(tree, tagsToReplace, toReplace):
+	if type(tree) == tuple:
+		if tree[0] in tagsToReplace:
+			newTag = toReplace
+		else:
+			newTag = tree[0]
+		return tuple([newTag] + [replaceInTree(child, tagsToReplace, toReplace) for child in tree[1:]])
+	else:
+		if tree in tagsToReplace:
+			newTag = toReplace
+		else:
+			newTag = tree
+		return newTag
+
+def replaceOnceInTree(tree, tagsToReplace, toReplace):
+	if type(tree) == tuple:
+		newChildren = []
+		alreadyReplaced = False
+		for child in tree[1:]:
+			if not alreadyReplaced:
+				result = replaceOnceInTree(child, tagsToReplace, toReplace)
+				if result["containsReplacement"]:
+					alreadyReplaced = True
+				newChildren.append(result["tree"])
+			else:
+				newChildren.append(child)
+		if not alreadyReplaced and tree[0] in tagsToReplace:
+			newTree = toReplace
+		else:
+			newTree = tuple([tree[0]] + newChildren)
+		return {"containsReplacement": alreadyReplaced, "tree": newTree}
+	else:
+		if tree in tagsToReplace:
+			return {"containsReplacement": True, "tree": toReplace}
+		else:
+			return {"containsReplacement": False, "tree": tree}
+
 parseCommandPairMappings = getParseCommandPairMappings()
 for filename in parseCommandPairMappings:
 	pairs = parseCommandPairMappings[filename]
@@ -218,65 +305,39 @@ for filename in parseCommandPairMappings:
 					prevTools = tools
 					if vb is not None and command[0] != "create_ing" and command[0] != "create_tool": # this indicates a bad parse/commands we don't want
 						addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed, toolsPreviouslyUsed, sexp, filename)
+						addToTopLevelCounts(makeListOfListsHashable(getTopLevelFrame(sexp)["tree"]), 2)
 			except ExpectClosingBracket:
 				pass
 			except IndexError:
 				pass
 			except AssertionError:
-				pass
+				print("AssertionError occurred.")
 
-probabilities = []
+caseFrameProbabilities = []
 for key1 in caseFrameCounts:
 	denominator = sum(caseFrameCounts[key1][key2] for key2 in caseFrameCounts[key1])
 	for key2 in caseFrameCounts[key1]:
 		probability = caseFrameCounts[key1][key2] / denominator
-		probabilities.append((key1, key2, probability))
-probabilities.sort(key=lambda tup: tup[2], reverse=True)
+		caseFrameProbabilities.append((key1, key2, probability))
+caseFrameProbabilities.sort(key=lambda tup: tup[2], reverse=True)
 
-def keyToEnglish(key, counts):
-	caseFrame = getMostProbableCaseFrame(key, counts)
-	verb = key[0]
-	return caseFrameToSentence(caseFrame, verb)
+topLevelProbabilities = []
+for key1 in topLevelCounts:
+	denominator = sum(topLevelCounts[key1][key2] for key2 in topLevelCounts[key1])
+	for key2 in topLevelCounts[key1]:
+		probability = topLevelCounts[key1][key2] / denominator
+		topLevelProbabilities.append((key1, key2, probability))
+topLevelProbabilities.sort(key=lambda tup: tup[2], reverse=True)
 
-def getMostProbableCaseFrame(key, counts):
-	maxCount = None
-	maxCaseFrame = None
-	for caseFrame in counts[key]:
-		if maxCount is None or counts[key][caseFrame] > maxCount:
-			maxCount = counts[key][caseFrame]
-			maxCaseFrame = caseFrame
-	return maxCaseFrame
-
-def caseFrameToSentence(caseFrame, verb):
-	return treeToSentence(replaceInCaseFrame(caseFrame, VERB_TAGS, verb))
-
-def replaceInCaseFrame(caseFrame, tagsToReplace, toReplace):
-	if type(caseFrame) == tuple:
-		if caseFrame[0] in tagsToReplace:
-			newTag = toReplace
-		else:
-			newTag = caseFrame[0]
-		return tuple([newTag] + [replaceInCaseFrame(child, tagsToReplace, toReplace) for child in caseFrame[1:]])
-	else:
-		if caseFrame in tagsToReplace:
-			newTag = toReplace
-		else:
-			newTag = caseFrame
-		return newTag
-
-def treeToSentence(tree):
-	if type(tree) == tuple:
-		return " ".join(treeToSentence(child) for child in tree[1:])
-	else:
-		return tree
-
-print keyToEnglish(("cook", False), caseFrameCounts)
+inputs = [(verbs, caseFrameProbabilities, topLevelProbabilities) for verbs in [["mix", "cook"]]]
+for input in inputs:
+	print inputToEnglish(None, input[0], input[1], input[2])
 
 # expectedGiven = ("cook", False)
 # totalOccurances = sum(caseFrameCounts[expectedGiven][key2] for key2 in caseFrameCounts[expectedGiven])
 # print("Conditioning Parameters: " + str(expectedGiven))
 # print("Total Occurrences of Key: " + str(totalOccurances))
 # print("\n")
-# for tup in probabilities:
+# for tup in caseFrameProbabilities:
 	# if tup[0] == expectedGiven:
 		# print("%s\n%f\n%s\n\n" % (tup[1], tup[2], exampleSentences[tup[0]][tup[1]]))
