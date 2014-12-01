@@ -15,6 +15,7 @@ from sklearn.cross_validation import train_test_split
 from collections import defaultdict
 from MILKChunk import *
 from RecipeTranslation import *
+from NP_generator import *
 def strip(recipes):
     # strip loaded recipes to a list of (english, predicate_list)
     # remove create_ing & create_tool
