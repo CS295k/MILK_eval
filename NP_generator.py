@@ -25,7 +25,12 @@ def gen_NP(command, input_NP, mod):
 				cur_input = cur_NPs[0]
 				if input_NP in cur_input:
 					cur_output = cur_NPs[1]
-					outputs[cur_output] += 1
+					if cur_command == 'separate':
+						all_outputs = cur_output.split('; ')
+						for np in all_outputs:
+							outputs[np] += 1
+					else:
+						outputs[cur_output] += 1
 	print outputs.most_common()
 
 def main():

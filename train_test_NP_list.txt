@@ -18,7 +18,7 @@
 7 # cook: oil -> heated oil
 8 # combine: heated oil, chicken,  -> oil and chicken
 9 # cook: oil and chicken -> browned chicken
-0 # separate: browned chicken ->chicken; heated oil
+0 # separate: browned chicken -> chicken; heated oil
 1 # combine: heated oil, 1 large yellow onion, chopped,  -> onion in oil
 2 # cook: onion in oil -> onions in oil
 3 # combine: beans, tomatoes, beans, beans, chicken, carrots, onions in oil, broth, celery, herbs, chicken, wine, bay leaf,  -> stew
@@ -48,8 +48,8 @@
 7 # combine: stuff in pot, carrots, garlic, salt, celery,  -> soup
 8 # mix: soup -> Stirred soup
 9 # cook: Stirred soup -> soup
-0 # separate: soup ->chicken pieces; rest of soup
-1 # separate: chicken pieces ->meat; bones
+0 # separate: soup -> chicken pieces; rest of soup
+1 # separate: chicken pieces -> meat; bones
 2 # combine: rest of soup, noodles,  -> meatless soup
 3 # cook: meatless soup -> meatless soup
 4 # combine: meat, meatless soup,  -> soup
@@ -120,8 +120,8 @@
 9 # cook: boiled everything -> simmered everything
 0 # cook: simmered everything -> cooked chicken
 1 # create_tool: a serving plate; the serving plate
-2 # separate: cooked chicken ->chicken; liquid
-3 # separate: liquid ->liquid; food particles
+2 # separate: cooked chicken -> chicken; liquid
+3 # separate: liquid -> liquid; food particles
 4 # create_ing: 2 teaspoons peanut oil -> peanut oil
 5 # create_ing: 2 cloves garlic, thinly sliced -> garlic
 6 # create_ing: 2 tablespoons grated fresh ginger root -> ginger
@@ -158,7 +158,7 @@
 7 # create_ing: 2 cups shredded Swiss cheese -> cheese
 8 # create_ing: Minced fresh parsley -> parsley
 9 # create_tool: a large skillet; the large skillet
-0 # separate: 6 tablespoons butter or margarine ->4 tablespoons butter; 2 tablespoons butter
+0 # separate: 6 tablespoons butter or margarine -> 4 tablespoons butter; 2 tablespoons butter
 1 # cook: 2 tablespoons butter -> melted butter
 2 # combine: thyme, halibut, garlic, melted butter,  -> butter, halibut, garlic, thyme
 3 # cook: butter, halibut, garlic, thyme -> cooked halibut
@@ -168,10 +168,10 @@
 7 # combine: chicken broth, cream, cooked butter, flour, salt,  -> butter, flour, salt, broth, cream
 8 # cook: butter, flour, salt, broth, cream -> cooked lasagna filling
 9 # create_tool: a 13-in. x 9-in. x 2-in. baking dish; the 13-in. x 9-in. x 2-in. baking dish
-0 # separate: noodles ->4 ounces of lasagna noodles; 4 ounces of lasagna noodles
-1 # separate: cheese ->1 cup cheese; 1 cup cheese
-2 # separate: cooked halibut ->half of halibut; half of halibut
-3 # separate: cooked lasagna filling ->half of white sauce; half of white sauce
+0 # separate: noodles -> 4 ounces of lasagna noodles; 4 ounces of lasagna noodles
+1 # separate: cheese -> 1 cup cheese; 1 cup cheese
+2 # separate: cooked halibut -> half of halibut; half of halibut
+3 # separate: cooked lasagna filling -> half of white sauce; half of white sauce
 4 # combine: 1 cup cheese, 4 ounces of lasagna noodles, half of white sauce, half of halibut,  -> first layer
 5 # combine: 4 ounces of lasagna noodles, first layer, half of white sauce, half of halibut, 1 cup cheese,  -> uncooked lasagna
 6 # create_tool: an oven; the oven
@@ -212,7 +212,7 @@
 1 # create_tool: a large bowl; the large bowl
 2 # combine: 1 teaspoon salt, flour, sugar, brown sugar, baking powder,  -> flour, sugars, baking powder, salt
 3 # mix: flour, sugars, baking powder, salt -> flour, sugars, baking powder, salt
-4 # separate: baby food ->1 tablespoon baby food; rest of baby food
+4 # separate: baby food -> 1 tablespoon baby food; rest of baby food
 5 # create_tool: a medium bowl; the medium bowl
 6 # combine: egg, milk, oil, extract, rest of baby food,  -> egg, milk, oil, extract, baby food
 7 # mix: egg, milk, oil, extract, baby food -> egg, milk, oil, extract, baby food
@@ -311,8 +311,8 @@
 0 # mix: butter sugar and eggs -> beaten butter sugar and eggs
 1 # combine: apple butter, beaten butter sugar and eggs, wheat germ, vanilla,  -> butters, egg, spices and wheat germ
 2 # combine: sour cream, flour mixture, butters, egg, spices and wheat germ,  -> batter
-3 # separate: batter ->1/2 of batter; remaining batter
-4 # separate: topping ->1/2 of topping; remaining topping
+3 # separate: batter -> 1/2 of batter; remaining batter
+4 # separate: topping -> 1/2 of topping; remaining topping
 5 # combine: 1/2 of topping, 1/2 of batter,  -> bottom 1/2 of batter and topping
 6 # combine: remaining batter, bottom 1/2 of batter and topping,  -> batter in pan
 7 # combine: batter in pan, remaining topping,  -> final cake mixture
@@ -536,7 +536,7 @@
 5 # create_tool: a large skillet; the large skillet
 6 # combine: seasoned pepper, ground beef, large, crushed red pepper, garlic powder,  -> seasoned beef
 7 # cook: seasoned beef -> cooked ground beef
-8 # separate: cooked ground beef ->cooked beef; fat
+8 # separate: cooked ground beef -> cooked beef; fat
 9 # create_tool: a slow cooker; the slow cooker
 0 # combine: kidney beans with liquid, baked beans, cooked beef, tomato paste, white sugar, barbeque sauce, 2 (4 ounce) cans mushroom pieces, drained, peppers, beer, 1 green bell pepper, diced, 1 red bell pepper, diced, carrots, celery,  -> chili ingredients
 1 # mix: chili ingredients -> chili
@@ -651,14 +651,14 @@
 0 # cook: bacon -> cooked bacon
 1 # create_tool: a slotted spoon; the slotted spoon
 2 # create_tool: a paper towels; the paper towels
-3 # separate: cooked bacon ->cooked bacon; 1 tablespoon bacon grease
+3 # separate: cooked bacon -> cooked bacon; 1 tablespoon bacon grease
 4 # combine: mushrooms, 1 small white onion, chopped, 1 tablespoon bacon grease,  -> onions and mushrooms
 5 # cook: onions and mushrooms -> cooked onions and mushroom
 6 # create_tool: a large bowl; the large bowl
 7 # combine: egg, milk, beef,  -> beefy stuff
 8 # combine: cooked onions and mushroom, beefy stuff,  -> beefy stuff
-9 # separate: Swiss cheese ->4 ounces Swiss cheese; 2 ounces Swiss cheese
-0 # separate: cooked bacon ->cooked bacon; 1 tablespoon cooked bacon
+9 # separate: Swiss cheese -> 4 ounces Swiss cheese; 2 ounces Swiss cheese
+0 # separate: cooked bacon -> cooked bacon; 1 tablespoon cooked bacon
 1 # combine: cooked bacon, beefy stuff, 4 ounces Swiss cheese,  -> beefy stuff
 2 # combine: crumbs, beefy stuff,  -> beefy stuff
 3 # mix: beefy stuff -> mixed loaf
@@ -704,7 +704,7 @@
 3 # create_ing: 1 (14 ounce) package beef cocktail wieners -> cocktail
 4 # create_ing: 3/4 cup brown sugar, or to taste -> brown sugar
 5 # create_tool: an oven; the oven
-6 # separate: bacon ->2/3 bacon; 1/2 bacon
+6 # separate: bacon -> 2/3 bacon; 1/2 bacon
 7 # combine: cocktail, 2/3 bacon,  -> wrapped wieners
 8 # combine: 1/2 bacon, wrapped wieners,  -> wrapped weiners
 9 # create_tool: a toothpicks; the toothpicks
@@ -792,7 +792,7 @@
 1 # combine: chicken, mixture,  -> chicken in mixture
 2 # mix: chicken in mixture -> coated chicken
 3 # do: coated chicken -> chicken marinade
-4 # separate: chicken marinade ->chicken; marinade
+4 # separate: chicken marinade -> chicken; marinade
 5 # combine: chicken, crumbs,  -> chicken with crumbs
 6 # create_tool: a shallow baking pan; the shallow baking pan
 7 # create_tool: an oven; the oven
@@ -851,7 +851,7 @@
 0 # cook: lightly salted water -> boiled water
 1 # combine: boiled water, pasta,  -> pasta and water
 2 # cook: pasta and water -> cooked pasta
-3 # separate: cooked pasta ->pasta; water
+3 # separate: cooked pasta -> pasta; water
 4 # create_tool: a large skillet; the large skillet
 5 # cook: beef -> browned beef
 6 # create_tool: a bowl; the bowl
@@ -863,10 +863,10 @@
 2 # cook: veggies and beef -> cooked veggies and beef
 3 # create_tool: an oven; the oven
 4 # create_tool: a 9x13 inch baking dish; the 9x13 inch baking dish
-5 # separate: pasta ->pasta half 1; pasta half 2
-6 # separate: cooked veggies and beef ->beef mixture half 1; beef mixture half 2
-7 # separate: Cheddar cheese ->1/2 cup shredded cheddar cheese 1; 1/2 cup shredded cheddar cheese 2
-8 # separate: shredded cheese ->1/2 cup shredded mozzarella cheese 1; 1/2 cup shredded mozzarella cheese 2
+5 # separate: pasta -> pasta half 1; pasta half 2
+6 # separate: cooked veggies and beef -> beef mixture half 1; beef mixture half 2
+7 # separate: Cheddar cheese -> 1/2 cup shredded cheddar cheese 1; 1/2 cup shredded cheddar cheese 2
+8 # separate: shredded cheese -> 1/2 cup shredded mozzarella cheese 1; 1/2 cup shredded mozzarella cheese 2
 9 # combine: beef mixture half 1, 1/2 cup shredded cheddar cheese 1, pasta half 1, 1/2 cup shredded mozzarella cheese 1,  -> casserole
 0 # combine: beef mixture half 2, pasta half 2, 1/2 cup shredded cheddar cheese 2, casserole, 1/2 cup shredded mozzarella cheese 2,  -> casserole
 1 # combine: beef broth, mushroom soup,  -> soup and broth
@@ -887,7 +887,7 @@
 6 # combine: broth, rice, Italian seasoning, garlic powder,  -> broth and rice
 7 # create_tool: an oven; the oven
 8 # cook: broth and rice -> cooked broth and rice
-9 # separate: onions ->onions 1; onions 2
+9 # separate: onions -> onions 1; onions 2
 0 # combine: broccoli, Parmesan cheese, onions 1, cooked broth and rice,  -> broth, rice, broccoli
 1 # combine: broth, rice, broccoli, fish fillets,  -> fish fillets with rice
 2 # combine: fish fillets with rice, paprika,  -> fish fillets
@@ -1005,7 +1005,7 @@
 4 # combine: basil, bouillon, black pepper, sauteed onion and garlic, tomatoes,  -> sauce
 5 # mix: sauce -> sauce
 6 # cook: sauce -> sauce
-7 # separate: baked squash ->squash strands; squash shells
+7 # separate: baked squash -> squash strands; squash shells
 8 # combine: squash strands, squash shells, sauce, shredded cheese, olives,  -> shells
 9 # do: shells -> layered spaghetti
 0 # combine: Parmesan cheese, layered spaghetti,  -> shells with cheese
@@ -1077,7 +1077,7 @@
 6 # create_tool: a double boiler; the double boiler
 7 # cook: milk -> bubbling milk
 8 # create_tool: a second bowl; the second bowl
-9 # separate: bubbling milk ->1 tablespoon of milk; rest of milk
+9 # separate: bubbling milk -> 1 tablespoon of milk; rest of milk
 0 # combine: sugar, 1 tablespoon of milk, egg whites,  -> sweet milk
 1 # mix: sweet milk -> egg mixture
 2 # combine: rest of milk, egg mixture,  -> milky egg mix
@@ -1159,10 +1159,10 @@
 8 # combine: 6 cups water, chicken stock stuff,  -> chicken stock stuff in water
 9 # cook: chicken stock stuff in water -> boiled chicken stock stuff
 0 # cook: boiled chicken stock stuff -> simmered chicken stock stuff
-1 # separate: simmered chicken stock stuff ->chicken juice; chicken and vegetables
+1 # separate: simmered chicken stock stuff -> chicken juice; chicken and vegetables
 2 # do: chicken juice -> strained stock
 3 # do: strained stock -> strained skimmed stock
-4 # separate: egg ->egg white; egg shell
+4 # separate: egg -> egg white; egg shell
 5 # create_tool: a small bowl; the small bowl
 6 # combine: 1/4 cup cold water, egg white, egg shell,  -> wet egg stuff
 7 # combine: wet egg stuff, strained skimmed stock,  -> chicken stock and egg stuff
@@ -1175,7 +1175,7 @@
 4 # create_tool: a deep saucepan; the deep saucepan
 5 # combine: 1 cup white sugar, pandan leaves, water,  -> syrup stuff
 6 # cook: syrup stuff -> hot syrup stuff
-7 # separate: hot syrup stuff ->boiled syrup stuff; pandan leaves
+7 # separate: hot syrup stuff -> boiled syrup stuff; pandan leaves
 8 # do: boiled syrup stuff -> strained syrup
 9 # create_ing: 1 1/4 pounds ground beef -> ground beef
 0 # create_ing: 3 tablespoons Worcestershire sauce -> Worcestershire sauce
@@ -1205,7 +1205,7 @@
 4 # mix: sauce -> mixed sauce
 5 # combine: chicken wings, mixed sauce,  -> chicken wings in sauce
 6 # create_tool: a grill; the grill
-7 # separate: chicken wings in sauce ->chicken; marinade
+7 # separate: chicken wings in sauce -> chicken; marinade
 8 # cook: chicken -> grilled wings
 9 # combine: honey, grilled wings,  -> honey wings
 0 # cook: honey wings -> hot honey wings
@@ -1223,7 +1223,7 @@
 2 # mix: sauce -> mixed sauce
 3 # combine: roast, mixed sauce,  -> roast in marinade
 4 # create_tool: an outdoor grill; the outdoor grill
-5 # separate: roast in marinade ->roast; marinade
+5 # separate: roast in marinade -> roast; marinade
 6 # create_tool: a saucepan; the saucepan
 7 # cook: marinade -> basting sauce
 8 # create_tool: a rotating barbecue spit above indirect heat.; the rotating barbecue spit above indirect heat.
@@ -1248,7 +1248,7 @@
 7 # cut: peeled beets -> Chopped Beats
 8 # create_tool: a Food Processor; the Food Processor
 9 # mix: Cooked Veggies -> Pureed Veggies
-0 # separate: Chopped Beats ->First half of beets; second half of beets
+0 # separate: Chopped Beats -> First half of beets; second half of beets
 1 # combine: 1 teaspoon salt, Pureed Veggies, First half of beets,  -> Puree
 2 # mix: Puree -> Puree
 3 # combine: Puree, second half of beets,  -> Mix
@@ -1405,10 +1405,10 @@
 4 # cook: beans + corn -> cooked beans
 5 # cook: butter -> melted butter
 6 # create_tool: a skillet; the skillet
-7 # separate: cooked beans ->1 tortilla; 7 tortillas
+7 # separate: cooked beans -> 1 tortilla; 7 tortillas
 8 # combine: 1 tortilla, 7 tortillas,  -> beans
-9 # separate: 8 (8 inch) flour tortillas ->1 tortilla; 7 tortillas
-0 # separate: 7 tortillas ->1 tortilla; 6 tortillas
+9 # separate: 8 (8 inch) flour tortillas -> 1 tortilla; 7 tortillas
+0 # separate: 7 tortillas -> 1 tortilla; 6 tortillas
 1 # combine: cheese, beans, 1 tortilla,  -> tortilla
 2 # combine: tortilla, 1 tortilla,  -> quesadilla
 3 # combine: 6 tortillas, melted butter, quesadilla,  -> quesadillas
@@ -1432,7 +1432,7 @@
 1 # combine: cooked veggies, cumin, heated oil, chili powder, pepper,  -> seasoned veggies
 2 # combine: seasoned veggies, 1 teaspoon salt, black beans, chicken broth,  -> beans and broth
 3 # cook: beans and broth -> cooked food
-4 # separate: cooked food ->1 1/2 cups of soup; rest of soup
+4 # separate: cooked food -> 1 1/2 cups of soup; rest of soup
 5 # create_tool: a food processor; the food processor
 6 # mix: 1 1/2 cups of soup -> puree
 7 # combine: puree, rest of soup,  -> soup
@@ -1522,7 +1522,7 @@
 1 # cook: brandy steak -> flamed steak
 2 # combine: flamed steak, green, shallot, heavy cream,  -> decorated steak
 3 # cook: decorated steak -> final steak
-4 # separate: final steak ->steak; sauce
+4 # separate: final steak -> steak; sauce
 5 # create_tool: a plates; the plates
 6 # combine: sauce, sugar,  -> sweet sauce
 7 # combine: steak, sweet sauce,  -> done steak
@@ -1586,12 +1586,12 @@
 5 # combine: sauteed onions, flour,  -> floury onions
 6 # combine: milk, floury onions,  -> milky onions
 7 # cook: milky onions -> boiled onions
-8 # separate: cup cheese ->1/2 cup cheese; 1/2 cup cheese
+8 # separate: cup cheese -> 1/2 cup cheese; 1/2 cup cheese
 9 # combine: mustard, 1/2 cup cheese, boiled onions, salt, Worcestershire sauce, 1/4 teaspoon pepper,  -> cheesy onions
 0 # cook: cheesy onions -> melty cheese mix
 1 # combine: broccoli, melty cheese mix,  -> broccoli cheese mix
 2 # create_tool: a lightly greased 8-in. nonstick skillet; the lightly greased 8-in. nonstick skillet
-3 # separate: smooth batter ->2 tablespoons batter; rest of batter
+3 # separate: smooth batter -> 2 tablespoons batter; rest of batter
 4 # cook: 2 tablespoons batter -> first crepe
 5 # cook: first crepe -> done crepe
 6 # create_tool: a wire rack; the wire rack
@@ -1631,7 +1631,7 @@
 0 # create_ing: 2 bunches green onions, chopped -> green onions
 1 # create_ing: 1 cup sunflower seeds -> sunflower seeds
 2 # create_tool: a small bowl; the small bowl
-3 # separate: ramen noodles ->ramen noodles; seasoning packet
+3 # separate: ramen noodles -> ramen noodles; seasoning packet
 4 # combine: olive oil, vinegar, white sugar, seasoning packet,  -> dressing
 5 # mix: dressing -> mixed dressing
 6 # create_tool: a large bowl; the large bowl
@@ -1813,12 +1813,12 @@
 2 # mix: Shortening, water, flour, vanilla mix -> Mixed stuff
 3 # combine: confectioners' sugar, Mixed stuff,  -> Frosting
 4 # create_tool: a Plastic bag with corner cut in it; the Plastic bag with corner cut in it
-5 # separate: Frosting ->1 cup frosting; All but 1 cup frosting
+5 # separate: Frosting -> 1 cup frosting; All but 1 cup frosting
 6 # combine: 1 cup frosting, Baked cookies,  -> Cookies with shirts and shorts
 7 # create_tool: a Metal spatula; the Metal spatula
 8 # do: Cookies with shirts and shorts -> Cookies with filled-in shirts and shorts
-9 # separate: All but 1 cup frosting ->1/4 cup frosting; 1/4 cup frosting
-0 # separate: Paste food coloring ->Some black food coloring; Some red food coloring
+9 # separate: All but 1 cup frosting -> 1/4 cup frosting; 1/4 cup frosting
+0 # separate: Paste food coloring -> Some black food coloring; Some red food coloring
 1 # combine: Some black food coloring, 1/4 cup frosting,  -> black frosting
 2 # create_tool: a plastic bag for black frosting; the plastic bag for black frosting
 3 # combine: black frosting, Cookies with filled-in shirts and shorts,  -> Cookies with basketball lines, hair, eyes, and noses
@@ -1994,7 +1994,7 @@
 3 # combine: brown sugar, 1 cup white sugar, softened,  -> butter and sugar
 4 # combine: butter and sugar, eggs,  -> butter sugar eggs
 5 # combine: butter sugar eggs, 1 teaspoon salt, baking soda, flour,  -> butter mix with dry
-6 # separate: candy ->1/2 cup chopped candy bar; remaining candy
+6 # separate: candy -> 1/2 cup chopped candy bar; remaining candy
 7 # combine: butter mix with dry, remaining candy,  -> batter
 8 # create_tool: a 13x9 inch baking pan; the 13x9 inch baking pan
 9 # combine: batter, 1/2 cup chopped candy bar,  -> prebaked cake
@@ -2016,7 +2016,7 @@
 5 # combine: flour, 1 teaspoon salt, baking soda,  -> dry mix
 6 # mix: dry mix -> dry mix in bowl
 7 # combine: dry mix in bowl, liquids,  -> mixes
-8 # separate: 1 1/2 cups candy-coated milk chocolate pieces ->1/2 cup candy; 1 cup candy
+8 # separate: 1 1/2 cups candy-coated milk chocolate pieces -> 1/2 cup candy; 1 cup candy
 9 # combine: mixes, 1/2 cup candy,  -> candied mix
 0 # mix: candied mix -> mixed candied mix
 1 # create_tool: a cookie sheet; the cookie sheet
@@ -2115,10 +2115,10 @@
 4 # combine: salt, glaze,  -> glaze
 5 # mix: glaze -> glaze
 6 # create_tool: a 9x13 inch baking dish; the 9x13 inch baking dish
-7 # separate: glaze ->half of the glaze; half of the glaze
+7 # separate: glaze -> half of the glaze; half of the glaze
 8 # combine: chicken, half of the glaze,  -> glazed chicken
 9 # create_tool: an oven; the oven
-0 # separate: half of the glaze ->some glaze; some glaze
+0 # separate: half of the glaze -> some glaze; some glaze
 1 # combine: some glaze, glazed chicken,  -> glazed chicken
 2 # cook: glazed chicken -> baked chicken
 3 # combine: baked chicken, some glaze,  -> glazed chicken
@@ -2175,10 +2175,10 @@
 4 # create_tool: a pot; the pot
 5 # cook: carrots and onions and salty water -> boiling veggies
 6 # cook: boiling veggies -> boiled veggies
-7 # separate: boiled veggies ->water; veggies
-8 # separate: veggies ->1/2 the carrots and onions; 1/2 the carrots and onions
+7 # separate: boiled veggies -> water; veggies
+8 # separate: veggies -> 1/2 the carrots and onions; 1/2 the carrots and onions
 9 # create_tool: a baking dish; the baking dish
-0 # separate: Cheddar cheese ->3/4 cup cheese; 1/4 cup cheese
+0 # separate: Cheddar cheese -> 3/4 cup cheese; 1/4 cup cheese
 1 # combine: 1/2 the carrots and onions, 3/4 cup cheese,  -> cheese-covered veggies
 2 # combine: 1/2 the carrots and onions, cheese-covered veggies,  -> cheese and veggies
 3 # combine: cheese and veggies, 1/4 cup cheese,  -> cheese and veggies
@@ -2208,9 +2208,9 @@
 7 # cook: water -> boiling water
 8 # combine: beef shank, boiling water,  -> boiling beef
 9 # cook: boiling beef -> simmered beef
-0 # separate: simmered beef ->meat; water
-1 # separate: meat ->meat; gristle
-2 # separate: water ->fat; stock
+0 # separate: simmered beef -> meat; water
+1 # separate: meat -> meat; gristle
+2 # separate: water -> fat; stock
 3 # cook: stock -> hot stock
 4 # combine: onions, hot stock,  -> veggie stew
 5 # combine: rutabaga, veggie stew, carrots,  -> veggie stew
@@ -2256,7 +2256,7 @@
 5 # create_ing: 1/8 teaspoon hot pepper sauce -> hot pepper sauce
 6 # create_ing: 2 (8 ounce) packages shredded Cheddar cheese -> cheese
 7 # create_ing: 2 tablespoons minced fresh parsley -> parsley
-8 # separate: 1 (7.5 ounce) jar marinated artichoke hearts ->half of the marinade; artichokes
+8 # separate: 1 (7.5 ounce) jar marinated artichoke hearts -> half of the marinade; artichokes
 9 # create_tool: a knife; the knife
 0 # cut: artichokes -> chopped artichokes
 1 # create_tool: a skillet; the skillet
@@ -2275,7 +2275,7 @@
 4 # create_ing: Sliced green onions (optional) -> green onions
 5 # create_ing: Bacon pieces (optional) -> Bacon pieces (optional)
 6 # create_tool: an oven; the oven
-7 # separate: 4 medium baked potatoes, quartered lengthwise ->potato middles; potato skins
+7 # separate: 4 medium baked potatoes, quartered lengthwise -> potato middles; potato skins
 8 # combine: 1/3 cup Hidden Valley Original Ranch Salad Dressing, potato skins,  -> coated skins
 9 # combine: coated skins, potato middles,  -> potatoes with dressing
 0 # combine: potatoes with dressing, Cheddar cheese,  -> potatoes with cheese
@@ -2323,7 +2323,7 @@
 2 # combine: chicken, hot oil,  -> browned chicken
 3 # combine: browned chicken, cumin, chili powder, pepper, cayenne pepper, sea salt, chili powder,  -> chicken with spices
 4 # combine: chicken with spices, onion, green bell pepper, yellow bell pepper,  -> seasoned chicken with veggies
-5 # separate: cups water ->3 cups water; 2 cups water
+5 # separate: cups water -> 3 cups water; 2 cups water
 6 # combine: 3 cups water, seasoned chicken with veggies,  -> seasoned chicken with veggies
 7 # cook: seasoned chicken with veggies -> chicken with water
 8 # combine: corn, kidney beans, black beans, chicken with water,  -> chicken with beans and corn
@@ -2380,7 +2380,7 @@
 9 # create_ing: 1 (10 ounce) package mixed salad greens -> salad
 0 # create_ing: 1 onion, chopped -> 1 onion, chopped
 1 # create_ing: 1 tomato, cut into wedges -> tomato
-2 # separate: fajita seasoning ->1/2 fajita seasoning; 1/2 fajita seasoning
+2 # separate: fajita seasoning -> 1/2 fajita seasoning; 1/2 fajita seasoning
 3 # combine: chicken, 1/2 fajita seasoning,  -> seasoned chicken
 4 # create_tool: a skillet; the skillet
 5 # cook: oil -> hot oil
@@ -2418,8 +2418,8 @@
 7 # create_ing: 6 skinless, boneless chicken breast halves - pounded to 1/2 inch thickness -> chicken
 8 # create_tool: an oven; the oven
 9 # create_tool: a skillet; the skillet
-0 # separate: cup butter ->1/2 cup butter; 1/4 cup butter
-1 # separate: vegetable oil ->1 tablespoon veggie oil; 1 tablespoon veggie oil
+0 # separate: cup butter -> 1/2 cup butter; 1/4 cup butter
+1 # separate: vegetable oil -> 1 tablespoon veggie oil; 1 tablespoon veggie oil
 2 # combine: 1 tablespoon veggie oil, 1/2 cup butter,  -> oil and butter
 3 # cook: oil and butter -> melted butter and hot oil
 4 # combine: melted butter and hot oil, mushroom,  -> cooked mushrooms
@@ -2427,7 +2427,7 @@
 6 # combine: 1 tablespoon veggie oil, 1/4 cup butter,  -> oil and butter
 7 # cook: oil and butter -> hot oil and melted butter
 8 # combine: hot oil and melted butter, garlic,  -> oily garlic
-9 # separate: flour ->1/2 cup flour; 1/4 cup flour
+9 # separate: flour -> 1/2 cup flour; 1/4 cup flour
 0 # combine: 1/2 cup flour, oily garlic,  -> floured garlic
 1 # combine: floured garlic, Marsala wine, beef broth,  -> wine, broth, and floured garlic
 2 # combine: wine, broth, and floured garlic, kosher salt, browning sauce,  -> sauce, wine, broth, garlic
@@ -2492,7 +2492,7 @@
 1 # combine: chicken meat, 1 cup chicken broth, salt, pepper,  -> broth mixture and chicken
 2 # cook: broth mixture and chicken -> boiled chicken and broth mixture
 3 # cook: boiled chicken and broth mixture -> cooked chicken and broth mixture
-4 # separate: cooked chicken and broth mixture ->chicken; broth mixture
+4 # separate: cooked chicken and broth mixture -> chicken; broth mixture
 5 # create_tool: a measuring cup; the measuring cup
 6 # do: broth mixture -> broth mixture
 7 # combine: milk, broth mixture,  -> milk and broth
@@ -2537,7 +2537,7 @@
 6 # combine: cooked onion, flour, salt, pepper, celery seed,  -> seasoned onion
 7 # combine: seasoned onion, chicken broth, milk,  -> liquid onion
 8 # cook: liquid onion -> cooked liquid onion
-9 # separate: pie ->bottom pie crust; top pie crust
+9 # separate: pie -> bottom pie crust; top pie crust
 0 # combine: cooked chicken, bottom pie crust,  -> pied chicken
 1 # combine: pied chicken, cooked liquid onion,  -> soup chicken
 2 # combine: soup chicken, top pie crust,  -> pie
@@ -2583,13 +2583,13 @@
 2 # create_ing: 2 cups milk -> milk
 3 # create_ing: 2 cups shredded Cheddar cheese -> cups
 4 # create_ing: 1 cup sliced fresh mushrooms -> mushrooms
-5 # separate: cup grated Parmesan cheese divided ->1/4 parm; 1/2 parm
-6 # separate: 6 tablespoons butter or margarine ->4 tbsp butter; 2 tbsp butter
+5 # separate: cup grated Parmesan cheese divided -> 1/4 parm; 1/2 parm
+6 # separate: 6 tablespoons butter or margarine -> 4 tbsp butter; 2 tbsp butter
 7 # do: spinach -> drained spinach
 8 # combine: eggs, onion salt, nutmeg,  -> egg mix
 9 # combine: egg mix, 1/4 parm, drained spinach,  -> spinach mix
 0 # combine: 1/2 parm, bread crumbs,  -> crumb mix
-1 # separate: crumb mix ->coating crumb; remaining crumb
+1 # separate: crumb mix -> coating crumb; remaining crumb
 2 # combine: coating crumb, chicken, salt,  -> coated chicken
 3 # create_tool: a two greased 13-in. x 9-in. x 2-in. baking pans; the two greased 13-in. x 9-in. x 2-in. baking pans
 4 # combine: spinach mix, coated chicken,  -> spinach chicken
@@ -2615,7 +2615,7 @@
 4 # create_ing: 1 (10 ounce) package frozen chopped spinach, thawed and drained -> spinach
 5 # create_tool: an oven; the oven
 6 # cut: 6 large sourdough buns -> sliced buns
-7 # separate: sliced buns ->bun tops; bun bottoms
+7 # separate: sliced buns -> bun tops; bun bottoms
 8 # do: bun bottoms -> hollowed buns
 9 # create_tool: a medium bowl; the medium bowl
 0 # combine: Pepper Jack cheese, Parmesan cheese, chicken, cream cheese, garlic, spinach,  -> chicken mix
@@ -2672,10 +2672,10 @@
 1 # create_ing: 2 skinless, boneless chicken breast halves, cut into bite size pieces -> chicken
 2 # create_ing: 1/2 cup salsa -> salsa
 3 # create_ing: 1/2 cup chopped fresh cilantro -> cilantro
-4 # separate: 2 teaspoons ->1/2 tsp; 2 tsp
+4 # separate: 2 teaspoons -> 1/2 tsp; 2 tsp
 5 # create_tool: a large pot; the large pot
 6 # cook: 2 tsp -> heated oil
-7 # separate: strips ->strips 1; strips 2
+7 # separate: strips -> strips 1; strips 2
 8 # combine: strips 1, heated oil,  -> crisped strips 1
 9 # cook: 1/2 tsp -> heated oil 2
 0 # combine: heated oil 2, strips 2,  -> strips 2 oiled
@@ -2725,7 +2725,7 @@
 4 # create_tool: a slow cooker; the slow cooker
 5 # combine: garlic, broth, tomato juice, onion, carrots, zucchini, celery, mush chicken, paprika, pepper,  -> chicken mix
 6 # cook: chicken mix -> cooked chicken
-7 # separate: cooked chicken ->chicken; cooking juices
+7 # separate: cooked chicken -> chicken; cooking juices
 8 # create_tool: a saucepan; the saucepan
 9 # do: cooking juices -> skimmed juice
 0 # combine: cornstarch, water,  -> cornstarch mix
@@ -2749,7 +2749,7 @@
 8 # create_ing: 2 tablespoons canned Chipotle peppers in adobo sauce, seeded and minced -> peppers
 9 # create_ing: 1/4 cup chopped green onion -> green onion
 0 # create_ing: 1/4 cup sweet pickle relish -> sweet pickle relish
-1 # separate: peppers ->peppers and sauce; a little bit more of the sauce
+1 # separate: peppers -> peppers and sauce; a little bit more of the sauce
 2 # create_tool: a food processor; the food processor
 3 # combine: peppers and sauce, mayonnaise,  -> peppers and mayo
 4 # mix: peppers and mayo -> processed mayo and peppers
@@ -2826,16 +2826,16 @@
 5 # create_ing: 2 quarts vanilla ice cream -> ice cream
 6 # create_ing: 1 cup whipped cream -> whipped cream
 7 # create_ing: 12 cherries -> cherries
-8 # separate: cookies ->half the cookies; half the cookies
+8 # separate: cookies -> half the cookies; half the cookies
 9 # cut: half the cookies -> cookie crumbs
 0 # combine: cookie crumbs, melted,  -> crust mix
 1 # create_tool: a 9-inch springform pan or pie plate; the 9-inch springform pan or pie plate
 2 # do: crust mix -> crust in pan
 3 # combine: half the cookies, crust in pan,  -> pie crust
-4 # separate: cup fudge topping ->3/4 cup fudge; 1/4 cup fudge
+4 # separate: cup fudge topping -> 3/4 cup fudge; 1/4 cup fudge
 5 # combine: 3/4 cup fudge, pie crust,  -> crust with chocolate
 6 # create_tool: a microwave; the microwave
-7 # separate: ice cream ->1 quart ice cream; 1 quart ice cream
+7 # separate: ice cream -> 1 quart ice cream; 1 quart ice cream
 8 # cook: 1 quart ice cream -> soft ice cream
 9 # combine: soft ice cream, crust with chocolate,  -> 2 layer pie
 0 # combine: 1 quart ice cream, 2 layer pie,  -> pie with balls
@@ -2856,8 +2856,8 @@
 5 # create_tool: an oven; the oven
 6 # cook: crust -> baked crust
 7 # create_tool: a sauce pan; the sauce pan
-8 # separate: milk ->1 cup milk; 3 cups milk
-9 # separate: cups marshmallows ->2 1/2 cups marshmallows; 2 cups marshmallows
+8 # separate: milk -> 1 cup milk; 3 cups milk
+9 # separate: cups marshmallows -> 2 1/2 cups marshmallows; 2 cups marshmallows
 0 # combine: 2 cups marshmallows, 1 cup milk, 2 cups semisweet chocolate chips,  -> chocolate mix
 1 # cook: chocolate mix -> melted chocolate mix
 2 # combine: baked crust, melted chocolate mix,  -> pie layer 1
@@ -2891,7 +2891,7 @@
 0 # create_tool: a mixing bowl; the mixing bowl
 1 # combine: cream cheese, 2 tablespoons heat-stable granular sugar substitute,  -> sweet cheese
 2 # mix: sweet cheese -> smooth cheese
-3 # separate: whipped topping ->1/2 whipped topping; 1/2 whipped topping
+3 # separate: whipped topping -> 1/2 whipped topping; 1/2 whipped topping
 4 # combine: 1/2 whipped topping, smooth cheese,  -> cheese mix
 5 # combine: cheese mix, baked crust,  -> first layer
 6 # combine: milk, pudding mix,  -> milk and pudding
@@ -3323,7 +3323,7 @@
 2 # create_ing: salt and pepper to taste -> salt
 3 # create_tool: a large skillet; the large skillet
 4 # cook: oil -> hot oil
-5 # separate: garlic ->1/2 of the garlic; 1/2 of the garlic
+5 # separate: garlic -> 1/2 of the garlic; 1/2 of the garlic
 6 # combine: 1/2 of the garlic, hot oil,  -> hot oily garlic
 7 # combine: poultry seasoning, flour,  -> seasoned flour
 8 # combine: seasoned flour, 4,  -> floured chicken
@@ -3354,7 +3354,7 @@
 3 # create_tool: a large skillet; the large skillet
 4 # combine: onion, beef,  -> beef and onion
 5 # cook: beef and onion -> cooked beef and onion
-6 # separate: cooked beef and onion ->beef and onion; juices
+6 # separate: cooked beef and onion -> beef and onion; juices
 7 # combine: spaghetti sauce, beef and onion, chilies, sloppy joe mix, corn,  -> sloppy joe mix
 8 # cook: sloppy joe mix -> boiled joe mix
 9 # cook: boiled joe mix -> simmering joe mix
@@ -3440,7 +3440,7 @@
 9 # create_ing: 1/4 cup shredded mozzarella cheese (optional) -> cheese
 0 # create_tool: an oven; the oven
 1 # create_tool: a baking sheet; the baking sheet
-2 # separate: melted butter ->1/4 cup melted butter; 1/2 cup melted butter
+2 # separate: melted butter -> 1/4 cup melted butter; 1/2 cup melted butter
 3 # create_tool: a medium bowl; the medium bowl
 4 # combine: garlic, 1/2 cup melted butter, crushed croutons, shredded cheese, crabmeat, lobster,  -> filling
 5 # mix: filling -> fillings
@@ -3635,7 +3635,7 @@
 4 # combine: flour, salt,  -> flour salt
 5 # combine: flour salt, creaminess,  -> creamalicious
 6 # combine: creamalicious, oats,  -> oats mixture
-7 # separate: oats mixture ->dough first half; dough second half
+7 # separate: oats mixture -> dough first half; dough second half
 8 # combine: dough first half, drops, peppermint extract,  -> pink dough
 9 # combine: pink dough, dough second half,  -> dough
 0 # create_tool: an oven; the oven
@@ -3645,7 +3645,7 @@
 4 # cut: rolled dough -> hearts
 5 # create_tool: a cookie sheets; the cookie sheets
 6 # cook: hearts -> baked cookies
-7 # separate: baked cookies ->big hearts; little hearts
+7 # separate: baked cookies -> big hearts; little hearts
 8 # combine: chocolate, big hearts,  -> chocolate on big hearts
 9 # combine: little hearts, chocolate on big hearts,  -> cookies
 0 # create_ing: 3 cups cooked, mashed winter squash -> 3 cups cooked, mashed winter squash
@@ -3700,9 +3700,9 @@
 9 # create_ing: 1/2 cup rye or whole wheat flour -> rye
 0 # create_ing: 5 1/2 cups all-purpose flour -> cups all-purpose flour
 1 # create_tool: a large mixing bowl; the large mixing bowl
-2 # separate: water ->1 1/2 cups of water; 1/2 cup of water
+2 # separate: water -> 1 1/2 cups of water; 1/2 cup of water
 3 # combine: yeast, 1/2 cup of water,  -> mix
-4 # separate: cups all-purpose flour ->3 cups flour; 2 1/2 cups flour
+4 # separate: cups all-purpose flour -> 3 cups flour; 2 1/2 cups flour
 5 # combine: sugar, 1 1/2 cups of water, 3 cups flour, mix, oil, salt, rye,  -> mixture
 6 # combine: mixture, 2 1/2 cups flour,  -> dough
 7 # create_tool: a surface; the surface
@@ -3870,7 +3870,7 @@
 9 # create_tool: a large skillet; the large skillet
 0 # combine: chicken, potatoes, oil,  -> things in skillet
 1 # cook: things in skillet -> cooked things in pan
-2 # separate: cooked things in pan ->drippings; chicken and potatoes
+2 # separate: cooked things in pan -> drippings; chicken and potatoes
 3 # do: drippings -> 1 tablespoon drippings
 4 # combine: 1 teaspoon salt, pepper, 1 tablespoon drippings, cream,  -> sauce
 5 # mix: sauce -> sauce
@@ -3985,7 +3985,7 @@
 4 # create_tool: a food processor; the food processor
 5 # cut: dry, toasty almonds -> finely ground almonds
 6 # create_tool: a mixing bowl; the mixing bowl
-7 # separate: finely ground almonds ->3 cups of finely ground almonds; the rest of the almonds
+7 # separate: finely ground almonds -> 3 cups of finely ground almonds; the rest of the almonds
 8 # combine: 3 cups of finely ground almonds, 2 tablespoons orange flower water, vanilla powder, lemon, baking powder, 1 cup sugar,  -> almond and friends
 9 # combine: almond and friends, eggs,  -> sticky, paste-like mixture
 0 # create_tool: a rolling surface; the rolling surface
@@ -4118,7 +4118,7 @@
 7 # do: stuff on a baking sheet -> circle of stuff with raised edges on baking sheet
 8 # cook: circle of stuff with raised edges on baking sheet -> Cooked dough-plates
 9 # create_tool: a wire rack; the wire rack
-0 # separate: Cooked dough-plates ->meringue; parchment
+0 # separate: Cooked dough-plates -> meringue; parchment
 1 # create_tool: a serving plate; the serving plate
 2 # create_tool: an implicit bowl; the implicit bowl
 3 # mix: cream -> whipped cream
@@ -4350,8 +4350,8 @@
 9 # combine: chocolate chips, heavy cream,  -> chocolate chips and cream
 0 # cook: chocolate chips and cream -> ganache
 1 # combine: cake, ganache,  -> ganached cake
-2 # separate: ganached cake ->cake bottom with ganache; cake layer(s)
-3 # separate: frosting ->half of frosting; half of frosting
+2 # separate: ganached cake -> cake bottom with ganache; cake layer(s)
+3 # separate: frosting -> half of frosting; half of frosting
 4 # combine: cake bottom with ganache, half of frosting,  -> frosted cake layer
 5 # combine: cake layer(s), frosted cake layer,  -> cake
 6 # create_ing: buttercream -> buttercream
@@ -4471,7 +4471,7 @@
 0 # create_ing: 12 oil-packed sun-dried tomatoes, drained and sliced -> sun-dried tomatoes
 1 # create_ing: 1/2 cup sliced black olives -> olives
 2 # create_tool: a skillet; the skillet
-3 # separate: olive oil ->1 tablespoon oil; 1 tablespoon oil
+3 # separate: olive oil -> 1 tablespoon oil; 1 tablespoon oil
 4 # cook: 1 tablespoon oil -> warmed oil
 5 # combine: chicken, Cajun seasoning,  -> seasoned chicken
 6 # combine: seasoned chicken, garlic,  -> chicken and garlic
@@ -4555,7 +4555,7 @@
 4 # cook: oil -> warm oil
 5 # combine: garlic, carrot, onion, bell pepper, warm oil,  -> veggies
 6 # cook: veggies -> cooked veggies
-7 # separate: black beans ->1 can beans; 1 can beans
+7 # separate: black beans -> 1 can beans; 1 can beans
 8 # combine: 1 can beans, 1 can, cooked veggies,  -> veggies and broth
 9 # mix: veggies and broth -> veggies and broth
 0 # create_tool: a blender; the blender
@@ -4590,8 +4590,8 @@
 9 # combine: chocolate chips, shortening,  -> chocolate
 0 # cook: chocolate -> melted chocolate
 1 # mix: melted chocolate -> melted chocolate
-2 # separate: cooked logs ->half of logs; half of logs
-3 # separate: melted chocolate ->half of chocolate; half of chocolate
+2 # separate: cooked logs -> half of logs; half of logs
+3 # separate: melted chocolate -> half of chocolate; half of chocolate
 4 # combine: half of logs, half of chocolate,  -> drizzled cookies
 5 # combine: half of logs, half of chocolate,  -> dipped cookies
 6 # combine: dipped cookies, walnuts,  -> dipped cookies
@@ -4692,7 +4692,7 @@
 1 # mix: powder -> sifted powder
 2 # create_tool: a jar; the jar
 3 # do: sifted powder -> sealed jar
-4 # separate: sealed jar ->3 tsp powder; rest of powder
+4 # separate: sealed jar -> 3 tsp powder; rest of powder
 5 # combine: 3 tsp powder, rest of powder,  -> hot drink
 6 # mix: hot drink -> mixed drink
 7 # create_ing: 7 slices day-old bread, torn -> bread
@@ -4752,7 +4752,7 @@
 1 # create_tool: a refrigerator; the refrigerator
 2 # do: pastry -> rolled dough
 3 # create_tool: a 9 inch pie pan; the 9 inch pie pan
-4 # separate: rolled dough ->one rolled pastry crust; another rolled pastry crust
+4 # separate: rolled dough -> one rolled pastry crust; another rolled pastry crust
 5 # create_tool: a medium mixing bowl; the medium mixing bowl
 6 # combine: lemon, nutmeg, cinnamon, pie filling,  -> filling
 7 # mix: filling -> filling
@@ -4858,7 +4858,7 @@
 7 # combine: cranberries, water,  -> water and berries
 8 # create_tool: a large pot; the large pot
 9 # cook: water and berries -> berry water mix
-0 # separate: berry water mix ->cranberry husks; liquid
+0 # separate: berry water mix -> cranberry husks; liquid
 1 # combine: lemon juice, sugar, liquid, orange juice, pineapple juice,  -> liquid
 2 # do: liquid -> spiced liquid
 3 # combine: spiced liquid, 1 teaspoon whole cloves, 1/2 teaspoon whole allspice berries, 1 (3 inch) cinnamon stick,  -> spiced liquid
@@ -4871,7 +4871,7 @@
 0 # create_ing: 1/3 cup white sugar -> sugar
 1 # create_ing: 1/2 teaspoon ground cinnamon -> cinnamon
 2 # create_ing: 1 cup vegetable oil -> oil
-3 # separate: apples ->apple skins; apple chunks
+3 # separate: apples -> apple skins; apple chunks
 4 # combine: cinnamon, sugar, apple chunks,  -> apple mixture
 5 # create_tool: a saucepan; the saucepan
 6 # cook: apple mixture -> soupy apples
@@ -5044,7 +5044,7 @@
 3 # cook: peanut oil -> hot oil
 4 # combine: green onions, 1 teaspoon salt, garlic, ginger, hot oil,  -> vegies in oil
 5 # combine: vegies in oil, chicken,  -> chicken in vegies in oil
-6 # separate: 1 cup chicken broth ->1/2 cup chicken broth; 1/2 cup chicken broth
+6 # separate: 1 cup chicken broth -> 1/2 cup chicken broth; 1/2 cup chicken broth
 7 # combine: sugar, soy sauce, cornstarch, 1/2 cup chicken broth,  -> sauce
 8 # combine: sauce, chicken in vegies in oil,  -> final
 9 # create_ing: 1 cup mayonnaise -> mayonnaise
@@ -5132,19 +5132,19 @@
 1 # mix: soupy stuff -> stirred soupy stuff
 2 # cook: stirred soupy stuff -> boiled soupy stuff
 3 # cook: boiled soupy stuff -> simmered soup
-4 # separate: simmered soup ->chicken; chicken-less soup
+4 # separate: simmered soup -> chicken; chicken-less soup
 5 # cut: chicken -> shredded chicken
 6 # cook: chicken-less soup -> simmered soup
-7 # separate: simmered soup ->1/4 cup soup; 2 cup soup
+7 # separate: simmered soup -> 1/4 cup soup; 2 cup soup
 8 # combine: 1/4 cup soup, shredded chicken,  -> chicken paste
-9 # separate: green onions ->1/2 chopped green onions; 1/2 chopped green onions
+9 # separate: green onions -> 1/2 chopped green onions; 1/2 chopped green onions
 0 # combine: chicken paste, 1/2 chopped green onions,  -> onion paste
 1 # create_tool: a 9x13 inch baking dish; the 9x13 inch baking dish
 2 # create_tool: a second skillet; the second skillet
 3 # cook: cream -> hot cream
 4 # combine: tortillas, hot cream,  -> creamy tortillas
 5 # combine: creamy tortillas, onion paste,  -> chicken in tortilla
-6 # separate: shredded cheese ->1 1/2 cup shredded cheddar cheese; 1 1/2 cup shredded cheddar cheese
+6 # separate: shredded cheese -> 1 1/2 cup shredded cheddar cheese; 1 1/2 cup shredded cheddar cheese
 7 # combine: chicken in tortilla, 1 1/2 cup shredded cheddar cheese,  -> cheesy tortillas
 8 # do: cheesy tortillas -> rolled tortillas
 9 # combine: enchilada sauce, rolled tortillas,  -> saucy tortillas
@@ -5194,10 +5194,10 @@
 3 # create_tool: a roasting pan; the roasting pan
 4 # combine: 1 (8 pound) bone-in shank ham, water,  -> watered ham
 5 # cook: watered ham -> baked ham
-6 # separate: baked ham ->ham; drippings
+6 # separate: baked ham -> ham; drippings
 7 # cut: ham -> deboned ham
 8 # do: drippings -> skimmed drippings
-9 # separate: skimmed drippings ->1 cup drippings; remaining drippings
+9 # separate: skimmed drippings -> 1 cup drippings; remaining drippings
 0 # create_tool: a small bowl; the small bowl
 1 # combine: liquid smoke, Worcestershire sauce, cloves, 1 cup drippings, honey, brown sugar,  -> glaze
 2 # mix: glaze -> mixed glaze
@@ -5211,7 +5211,7 @@
 0 # create_ing: 2 cups warm milk -> milk
 1 # create_ing: 1 egg -> egg
 2 # create_tool: a large mixing bowl; the large mixing bowl
-3 # separate: cups flour ->3 cups flour; 3 cups flour
+3 # separate: cups flour -> 3 cups flour; 3 cups flour
 4 # combine: salt, 3 cups flour, cups, 3, yeast,  -> batter
 5 # create_tool: an electric beater; the electric beater
 6 # combine: milk, egg, batter,  -> batter
@@ -5222,7 +5222,7 @@
 1 # create_tool: a greased bowl; the greased bowl
 2 # do: kneaded dough -> greased dough
 3 # do: greased dough -> punched dough
-4 # separate: punched dough ->one loaf; one loaf
+4 # separate: punched dough -> one loaf; one loaf
 5 # create_tool: a 2 9x5x3inch pans; the 2 9x5x3inch pans
 6 # create_tool: an oven; the oven
 7 # cook: one loaf -> baked bread
@@ -5255,7 +5255,7 @@
 4 # do: browned chicken -> seasoned chicken
 5 # combine: orange, seasoned chicken,  -> orange chicken
 6 # create_tool: an oven; the oven
-7 # separate: orange chicken ->orange chicken; 1/4 cup oil
+7 # separate: orange chicken -> orange chicken; 1/4 cup oil
 8 # combine: 1/4 cup oil, wine,  -> oil and wine
 9 # cook: oil and wine -> hot oil and wine
 0 # combine: orange juice, broth, hot oil and wine,  -> broth
