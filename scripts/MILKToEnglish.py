@@ -15,7 +15,7 @@ from sklearn.cross_validation import train_test_split
 from collections import defaultdict
 from MILKChunk import *
 from RecipeTranslation import *
-from NP_generator import *
+#from NP_generator import *
 def strip(recipes):
     # strip loaded recipes to a list of (english, predicate_list)
     # remove create_ing & create_tool
@@ -174,7 +174,10 @@ def getEnglishRecipes(train_recipes, test_recipes):
                 # takes the path of the curCandidate
                 for each_marker in curCandidate.predMarkers:
                     #print "pred marker:",each_marker
-                    step_size = each_marker - last_marker - 1
+
+                    # Qi -- CHANGE THE LINE BELOW to be 1-based, i.e.:
+                    # step_size = each_marker - last_marker
+                    step_size = each_marker - last_marker - 1 # the -1 makes it 0-based
                     #print "\ttaking step:",step_size
 
                     #state_probs = jit_decoder.ping();
