@@ -32,6 +32,7 @@ def gen_NP(command, input_NP, mod):
 					else:
 						outputs[cur_output] += 1
 	print outputs.most_common()
+	return outputs
 
 def main():
 	file_reader()
