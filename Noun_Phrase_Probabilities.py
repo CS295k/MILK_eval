@@ -85,7 +85,11 @@ for file in [f for f in files if f not in ["annotated_recipes\Bakers-Secret-Pie-
 		elif commandName in ["cut", "mix", "cook", "do"]:
 			addToProbabilities([commandArgs[0]], sentence, ingredientDescriptions)
 			# del(ingredientDescriptions[commandArgs[0]])
-			ingredientDescriptions[commandArgs[2]] = commandArgs[3]
+			if len(commandArgs) > 3:
+				ingredientDescriptions[commandArgs[2]] = commandArgs[3]
+			else:
+				#ingredientDescriptions[commandArgs[1]] = commandArgs[2]
+				pass
 		elif commandName == "serve":
 			addToProbabilities([commandArgs[0]], sentence, ingredientDescriptions)
 			# del(ingredientDescriptions[commandArgs[0]])

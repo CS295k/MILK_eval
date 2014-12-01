@@ -130,5 +130,5 @@ for key in possible_names:
 	if count != 0:
 		for perm in possible_names[key]:
 			if possible_names[key][perm] != 0:
-				print (key + ' -> ' + perm + ': ' + str(possible_names[key][perm]/count)).encode("utf-8")
+				print (key + ' -> ' + perm).encode("utf-8")
 

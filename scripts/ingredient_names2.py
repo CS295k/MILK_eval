@@ -160,6 +160,10 @@ def get_NPs(p):
 
 if __name__ == "__main__":
     n = 260
+
+    in_ing = sys.argv[1]
+    #in_ing = 'salt'
+
     for r, p in zip(create_annotated_recipe_generator(n), create_parsed_recipe_generator(n)):
 
         recipe = []
@@ -221,6 +225,7 @@ if __name__ == "__main__":
                 if fuzz.partial_ratio(key, value)/(sum + .00001) > best:
                     best = fuzz.partial_ratio(key, value)/(sum + .00001)
                     best_str = key + " -> " + value
-                print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/(sum + .00001)) + ")").encode('utf-8')
-            print "BEST: " + best_str
+                if(in_ing in key):
+                    print (key + " -> " + value + " (" + str(fuzz.partial_ratio(key, value)/(sum + .00001)) + ")").encode('utf-8')
+            #print "BEST: " + best_str
 

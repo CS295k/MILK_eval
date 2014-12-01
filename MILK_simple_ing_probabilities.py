@@ -9,7 +9,8 @@ files = glob("annotated_recipes/*.xml")
 ing_dict = {}
 simple_ings = {}
 
-f = open('data/simple_ings2.txt', 'r')
+#f = open('data/simple_ings2.txt', 'r')
+f = open('s_ings.txt', 'r')
 for line in f:
 	#print line
 	split_line = line.rstrip('\n').split(' -> ')
@@ -29,6 +30,7 @@ for file in [f for f in files]:
 			#print(file)
 			pass
 		ingredientDescriptions = {}
+		#print(file)
 		for sentence, command in zip(sentences, commands):
 			commandName = command[0]
 			commandArgs = command[1]
@@ -39,13 +41,20 @@ for file in [f for f in files]:
 				else:
 					ing_dict[commandArgs[0]] = commandArgs[1]
 				if verbose == 1:
-					#print(commandName + ': ' + commandArgs[0] + ': ' + commandArgs[1])
+					if commandArgs[1] in simple_ings:
+						print(commandName + ': ' + commandArgs[1] + ' -> ' + simple_ings[commandArgs[1]]).encode('utf-8')
+					else:
+						print(commandName + ': ' + commandArgs[1] + ' -> ' + commandArgs[1]).encode('utf-8')
 					pass
 				else:
 					print(commandArgs[1])
 			elif commandName == "create_tool":
 				if verbose == 1:
-					#print(commandName + ': ' + commandArgs[1])
+					if commandArgs[1][:1] in ['a', 'e', 'i', 'o', 'u']:
+						conjuctive = 'an '
+					else: 
+						conjuctive = 'a '
+					print(commandName + ': ' + conjuctive + commandArgs[1] + '; the ' + commandArgs[1]).encode('utf-8')
 					pass
 				else:
 					print(commandArgs[1])
@@ -54,8 +63,9 @@ for file in [f for f in files]:
 				out = ""
 				for i in commandArgs[0]:
 					out += ing_dict[i] + ', '
+					#print(ing_dict[i] + ' -> ' + comm)
 				if verbose == 1:
-					#print(commandName + ': ' + out + ' -> ' + commandArgs[2])
+					print(commandName + ': ' + out + ' -> ' + commandArgs[2]).encode('utf-8')
 					pass
 				else:
 					print(commandArgs[2])
@@ -63,15 +73,15 @@ for file in [f for f in files]:
 				ing_dict[commandArgs[1]] = commandArgs[2]
 				ing_dict[commandArgs[3]] = commandArgs[4]
 				if verbose == 1:
-					#print(commandName + ': ' + ing_dict[commandArgs[0]] + ' ->' + commandArgs[2] + "; " + commandArgs[4])
+					print(commandName + ': ' + ing_dict[commandArgs[0]] + ' ->' + commandArgs[2] + "; " + commandArgs[4]).encode('utf-8')
 					pass
 				else:
 					print(commandArgs[2])
 					print(commandArgs[4])
 			elif commandName in ["cut", "mix", "cook", "do"]:
 				ing_dict[commandArgs[2]] = commandArgs[3]
-				if verbose == 1 and commandName == 'cook':
-					print(ing_dict[commandArgs[0]] + ' -> ' + commandArgs[3] + ', orig text: ' + sentence)
+				if verbose == 1:
+					print(commandName + ': ' + ing_dict[commandArgs[0]] + ' -> ' + commandArgs[3]).encode('utf-8')# + ', orig text: ' + sentence)
 				else:
 					#print(commandArgs[3])
 					pass
