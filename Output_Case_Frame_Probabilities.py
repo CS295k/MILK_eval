@@ -2,8 +2,8 @@ from __future__ import division
 from sexpdata import loads, ExpectClosingBracket, Symbol
 import re
 from Data_Interface import getParseCommandPairMappings
-from MILK_parse import MILK_parse_command
-from Case_Frame_Helper import *
+from scripts.MILK_parse import MILK_parse_command
+from scripts.Case_Frame_Helper import *
 
 caseFrameCounts = {}
 topLevelCounts = {}
@@ -87,7 +87,8 @@ for filename in parseCommandPairMappings:
 					prevTools = tools
 					if vb is not None and command[0] != "create_ing" and command[0] != "create_tool": # this indicates a bad parse/commands we don't want
 						addToCaseframeCounts(caseFrame, vb.lower(), command, ingredientsPreviouslyUsed, toolsPreviouslyUsed, sexp, filename)
-						addToTopLevelCounts(makeListOfListsHashable(getTopLevelFrame(sexp)["tree"]), 2)
+						topLevel = makeListOfListsHashable(getTopLevelFrame(sexp)["tree"])
+						addToTopLevelCounts(topLevel, countVerbs(topLevel))
 			except ExpectClosingBracket:
 				pass
 			except IndexError:

@@ -14,7 +14,7 @@ def file_reader():
 	f.close()
 
 
-def gen_NP(command, input_NP, mod):
+def gen_NP(command, input_NP, mod, fromCommandLine = False):
 	outputs = collections.Counter()
 	for i in range(0, len(command_list)):
 		line = command_list[i].split(' # ')
@@ -31,15 +31,16 @@ def gen_NP(command, input_NP, mod):
 							outputs[np] += 1
 					else:
 						outputs[cur_output] += 1
-	print outputs.most_common()
-	return outputs
+	if fromCommandLine:
+		print outputs.most_common()
+	return outputs.most_common()
 
 def main():
 	file_reader()
 	command = click.prompt('Enter command', type=str)
 	input_NP = click.prompt('Enter input NP', type=str)
 	mod = click.prompt('Enter mod (0-9)', type=click.IntRange(0, 9))
-	gen_NP(command, input_NP, mod)
+	gen_NP(command, input_NP, mod, True)
 
 if __name__ == '__main__':
 	main()

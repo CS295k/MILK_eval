@@ -4,6 +4,7 @@
 import xml.etree.cElementTree as ET
 import fnmatch
 import os
+import os.path
 import random
 import operator
 import copy
@@ -15,19 +16,35 @@ from sklearn.cross_validation import train_test_split
 from collections import defaultdict
 from MILKChunk import *
 from RecipeTranslation import *
-#from NP_generator import *
+from Case_Frame_Helper import *
+from MILK_parse import MILK_parse, MILK_parse_command
+from NP_generator import gen_NP
+
 def strip(recipes):
     # strip loaded recipes to a list of (english, predicate_list)
     # remove create_ing & create_tool
+    strip_recipes = map(remove_create_tool_from_commands,
+                        map(remove_create_ing_from_commands,
+                            map(parseAsCommands, recipes)))
+    return strip_recipes
+
+def strip_original_recipes_to_names(recipes):
     strip_recipes = map(remove_create_tool,
                         map(remove_create_ing,
                             map(strip_to_predicate, recipes)))
     return strip_recipes
 
+def strip_to_names(recipes):
+    strip_recipes = map(strip_to_predicate_from_commands, recipes)
+    return strip_recipes
+
+def parseAsCommands(recipe):
+    return [(ot, [MILK_parse_command(x) for x in anns]) for ot, anns in recipe]
+
 def getPreds(recipes):
     # strip loaded recipes to a list of predicate_list
     # remove create_ing & create_tool
-    strip_recipes = strip(recipes)
+    strip_recipes = strip_to_names(strip(recipes))
     preds_list = [[ a for (ot, anns) in strip_recipe for a in anns ] \
                   for strip_recipe in strip_recipes ]
     return preds_list
@@ -36,10 +53,16 @@ def getPreds(recipes):
 def getEngs(recipes):
     # strip loaded recipes to a list of english_list
     # remove create_ing & create_tool
-    strip_recipes = strip(recipes)
+    strip_recipes = strip_to_names(strip(recipes))
     eng_list = [[ a for (ot, anns) in strip_recipe for a in ot ] \
                   for strip_recipe in strip_recipes ]
     return eng_list
+
+def getCommands(recipes):
+    strip_recipes = strip(recipes)
+    commandsList = [[ a for (ot, anns) in strip_recipe for a in anns ] \
+                  for strip_recipe in strip_recipes ]
+    return commandsList
 
 # takes a recipe file (e.g., ../annotated_recipes/Alisons-Slow-Cooker-Vegetable-Beef-Soup.rcp_tagged.xml)
 def loadVerbMarkers(input):
@@ -85,7 +108,7 @@ def loadVerbProbs(input):
     curCmdNum = 0
     for line in f:
         if line.startswith("./annotated"):
-            print "found recipe:",line
+            # print "found recipe:",line
             curCmdNum = 0
             curDict = defaultdict(float)
 
@@ -121,7 +144,7 @@ def loadVerbProbs(input):
 
     return verbDict
 
-def getEnglishRecipes(train_recipes, test_recipes):
+def getEnglishRecipes(train_recipes, test_recipes, mod):
 
 
     
@@ -134,6 +157,7 @@ def getEnglishRecipes(train_recipes, test_recipes):
     best_seq_num = 100
 
     preds = getPreds(test_recipes)
+    commands = getCommands(test_recipes)
     engs = getEngs(test_recipes)
 
     # iterates through each test recipe
@@ -143,15 +167,16 @@ def getEnglishRecipes(train_recipes, test_recipes):
         print recipe_name
 
         curPreds = preds[i]
+        curCommands = commands[i]
         print "curPreds:",curPreds
 
         # gets eugene's verb markers for the current recipe
-        vmFile = recipe_name[recipe_name.rfind('/')+1:][:-15] # constructs the filename
+        vmFile = recipe_name[recipe_name.rfind('/')+1:][18:-15] # constructs the filename
         curVerbMarkerMasks = loadVerbMarkers(verbMarkersDir + vmFile)
         #print "cvm:",curVerbMarkerMasks
 
         # gets spencer's stored verb probs for the current recipe
-        curVerbProbs = verbProbs[recipe_name]
+        curVerbProbs = verbProbs[recipe_name.replace("\\", "/")]
         print "verb probs:", curVerbProbs
 
         completedRecipes = []
@@ -167,7 +192,9 @@ def getEnglishRecipes(train_recipes, test_recipes):
             for curCandidate in candidateRecipes:
 
                 # constructs a new hmm group tagger
-                tagger = group_tagger(strip(train_recipes), strip(test_recipes))
+                train_with_only_predicate_names = strip_original_recipes_to_names(train_recipes)
+                test_with_only_predicate_names = strip_original_recipes_to_names(test_recipes)
+                tagger = group_tagger(train_with_only_predicate_names, test_with_only_predicate_names)
                 jit_decoder = tagger.get_JITDecoder(i, group_num, best_seq_num)
 
                 last_marker = 0
@@ -201,31 +228,32 @@ def getEnglishRecipes(train_recipes, test_recipes):
                         #print "trying",verbMarkerMask
                         verbFlags = verbMarkerMask[0]
                         #print "vf", verbFlags
-                        curProb = math.log(verbMarkerMask[1]) + math.log(state_probs[num_states-1])
+                        curProb = math.log(verbMarkerMask[1]) + math.log(0.00001+state_probs[num_states-1]) # TODO: OK to add 0.00001?
                         #print "curProb:",curProb
 
-                        predNames = []
+                        comms = []
                         predNums = []
                         verbs = []
                         for flagPos in xrange(0,len(verbFlags)):
                             #print flagPos,verbFlags[flagPos]
                             predIndex = last_marker + flagPos
                             #print "predIndex",predIndex,curPreds[predIndex]
-                            predNames.append(curPreds[predIndex])
+                            comms.append(curCommands[predIndex])
                             predNums.append(predIndex)
 
                             # if verb flag is 1, then let's multiple/accumulate our prob by the most-likely verb prob
                             if (verbFlags[flagPos] == '1'):
                                 #print "bestverb",curVerbProbs[predIndex]
-                                bestVerb = curVerbProbs[predIndex].keys()[0]
-                                verbs.append(bestVerb)
+                                if len(curVerbProbs) > 0 and len(curVerbProbs[predIndex].keys()) > 0: # TODO: is this right???
+                                    bestVerb = curVerbProbs[predIndex].keys()[0]
+                                    verbs.append(bestVerb)
 
                                 #print "prob:",curVerbProbs[predIndex][bestVerb]
-                                curProb += math.log(curVerbProbs[predIndex][bestVerb])
+                                    curProb += math.log(curVerbProbs[predIndex][bestVerb])
                         #print "*** prob for mask:",verbMarkerMask,":",curProb
 
                         # makes a new MILKChunk for the current span attempt
-                        mc = MILKChunk(predNames, predNums, curProb, verbFlags, verbs)
+                        mc = MILKChunk(comms, predNums, curProb, verbFlags, verbs)
 
                         #print mc
 
@@ -248,14 +276,22 @@ def getEnglishRecipes(train_recipes, test_recipes):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
-        sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
-        for i in xrange(0,50):
-            mc = sortedPaths[i].milkChunks
-
-            print str(i),str(sortedPaths[i].totalProb),":"
-            for each_chunk in mc:
-                print each_chunk
-        exit(1)
+            if (len(candidateRecipes)-len(completedRecipes)) > 500:
+                break
+        if len(completedRecipes) > 0:
+            sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
+            print "\n\n"
+            ingDescriptions, toolDescriptions = seedDescriptions(recipe_name)
+            recipeLines = []
+            for milkChunk in sortedPaths[0].milkChunks:
+                nouns = getNounsFromCommands(milkChunk.commands, ingDescriptions, toolDescriptions)
+                caseFrameProbabilities = probabilitiesFromFile(os.path.join("..", "Case_Frame_Probabilities.txt"))
+                topLevelProbabilities = probabilitiesFromFile(os.path.join("..", "Top_Level_Probabilities.txt"))
+                recipeLines.append(inputToEnglish(None, milkChunk.verbs, nouns, caseFrameProbabilities, topLevelProbabilities))
+                updateIngredientDescriptions(milkChunk.commands, ingDescriptions, mod)
+            filename = os.path.basename(recipe_name)[:-15] + ".txt"
+            sendToOutputEnglishFile("\n".join(recipeLines), filename)
+            print "\n=============================\n"
 
     #jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
     #state_probs = jit_decoder.ping();
@@ -264,9 +300,31 @@ def getEnglishRecipes(train_recipes, test_recipes):
     #state_probs = jit_decoder.ping();
     #print state_probs
     ############
-    
 
-    
+def seedDescriptions(filename):
+    commands = MILK_parse(filename)
+    ingDescriptions = {}
+    toolDescriptions = {}
+    for command in commands:
+        if command[0] == "create_ing":
+            ingDescriptions[command[1][0]] = command[1][1]
+        elif command[0] == "create_tool":
+            toolDescriptions[command[1][0]] = command[1][1]
+    return ingDescriptions, toolDescriptions
+
+def updateIngredientDescriptions(commands, ingDescriptions, mod):
+    for command in commands:
+        inputs = getInputIngredients(command[0], command[1])
+        outputs = getOutputIngredients(command[0], command[1])
+        if len(inputs) > 0 and len(outputs) > 0:
+            gen_NP_result = gen_NP(command[0], ingDescriptions[list(inputs)[0]], mod)
+            newNp = gen_NP_result[0][0] if len(gen_NP_result) > 0 else list(inputs)[0]
+            ingDescriptions[list(outputs)[0]] = newNp
+
+def sendToOutputEnglishFile(outputString, filename):
+    file = open(os.path.join(os.path.join("..", "English_Translations"), filename), "w")
+    file.write(outputString)
+
 if __name__ == "__main__":
 
     verbMarkersDir = ("../stage2Ps/")
@@ -300,7 +358,7 @@ if __name__ == "__main__":
         print len(train_recipes),len(test_recipes)
         print len(train_paths),len(test_paths)
 
-        english_text = getEnglishRecipes(train_recipes, test_recipes)
+        english_text = getEnglishRecipes(train_recipes, test_recipes, i)
         exit(1)
         
     

@@ -46,19 +46,6 @@ def isNumeric(s):
 	except ValueError:
 		return False
 
-def getVerb(parse):
-	try:
-		if countVerbs(loads(parse)) == 1:
-			return retrieveVerb(loads(parse))
-		else:
-			return None
-	except ExpectClosingBracket:
-		pass
-	except IndexError:
-		pass
-	except AssertionError:
-		pass
-
 def retrieveVerb(sexp):
 	if type(sexp) == list:
 		return chooseNonNone([sexp if sexp[0]._val == "VP" else None] + [retrieveVerb(child) for child in sexp[1:]])
@@ -83,15 +70,15 @@ def chooseNonNone(vals):
 			return val
 	return None
 
-def countVerbs(sexp):
-	if type(sexp) == list:
-		return (1 if sexp[0]._val == "VP" else 0) + sum(countVerbs(child) for child in sexp[1:])
+def countVerbs(tree):
+	if type(tree) == tuple:
+		return (1 if tree[0] == "VP" else 0) + sum(countVerbs(child) for child in tree[1:])
 	else:
-		return 0
+		return 1 if tree[0] == "VP" else 0
 
 def getCaseFrame(sexp):
 	if type(sexp) == list:
-		if sexp[0]._val in ["VP", "PP", "IN", "TO", "RP", "PRT"]:
+		if sexp[0]._val in ["VP", "PP", "IN", "TO", "RP", "PRT", "CC"]:
 			frameComponents = [sexp[0]._val]
 			for child in sexp[1:]:
 				frameComponents.append(getCaseFrame(child))
@@ -115,8 +102,13 @@ def getTopLevelFrame(sexp):
 				newChildren.append(result["tree"])
 		if containsLeaf:
 			return {"containsLeaf": True, "tree": tuple([sexp[0]._val] + newChildren)}
-		elif sexp[0]._val in ["VP", "CC"]:
+		elif sexp[0]._val in ["VP"]:
 			return {"containsLeaf": True, "tree": sexp[0]._val}
+		else:
+			return {"containsLeaf": False, "tree": None}
+	elif type(sexp) == Symbol:
+		if sexp._val in ["and"]:
+			return {"containsLeaf": True, "tree": "and"}
 		else:
 			return {"containsLeaf": False, "tree": None}
 	else:
@@ -205,8 +197,8 @@ def getInputIngredients(commandName, args):
 
 def getTools(commandName, args):
 	if commandName in ["put", "remove"]:
-		# return set([args[1]])
-		return set()
+		return set([args[1]])
+		# return set()
 	elif commandName in ["cut", "mix", "cook", "do"]:
 		tools = [a for a in args if a is not None and re.compile("t[0-9]+").match(a)]
 		if len(tools) > 0:
@@ -233,26 +225,36 @@ def getMostLikelyVpVbPair(initialVps, command):
 
 def inputToEnglish(commands, verbs, nouns, caseFrameProbabilities, topLevelProbabilities):
 	caseFrames = []
+	ings = nouns["ings"][:]
 	for verb in verbs:
 		caseFrame = getMostProbable((verb, False, False), caseFrameProbabilities)
-		caseFrame = ("VP", "VB", "NP", ("PP", ("IN", "in"), "NP"), ("PP", ("IN", "for"), "NP"))
 		caseFrame = tuple(["_VP_"] + list(caseFrame)[1:]) # so the case frame isn't replaced again after being added to the top level tree
 		caseFrame = replaceOnceInTree(caseFrame, VERB_TAGS, verb)["tree"]
-		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1]!="for", nouns["tool"], False)
-		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1]=="for", nouns["manner"], False)
-		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["_VP_"], lambda n: True, nouns["ing"], False)
+		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1] not in ["for", "together"], nouns["tool"], False)
+		# caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1]=="for", nouns["manner"], False)
+		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["_VP_"], lambda n: True, ings[0], False)
+		ings = ings[1:] if len(ings) > 1 else ings
 		caseFrames.append(caseFrame)
 	topLevel = getMostProbable((len(verbs),), topLevelProbabilities)
-	topLevel = ("S1", ("S", ("VP", "VP", ("CC", "and"), "VP")))
 	for caseFrame in caseFrames:
 		topLevel = replaceOnceInTree(topLevel, ["VP"], caseFrame)["tree"]
 	return addPunctionation(addSentenceCasing(treeToSentence(topLevel)))
+
+def getNounsFromCommands(commands, ingDescriptions, toolDescriptions):
+	commandsForInput = [c for c in commands if c[0] not in ["create_ing", "create_tool", "set"]]
+	inputIngs = getInputIngredients(commandsForInput[0][0], commandsForInput[0][1]) if len(commandsForInput) > 0 else None
+	commandsForTool = [c for c in commands if c[0] in ["put", "remove", "cut", "mix", "cook", "do", "set"]]
+	tools = getTools(commandsForTool[0][0], commandsForTool[0][1]) if len(commandsForTool) > 0 else set()
+	tool = list(tools)[0] if len(tools) > 0 else None
+	return {"ings": [ingDescriptions[inputIng] for inputIng in inputIngs] if inputIngs is not None else ["==ing=="],
+		"tool": toolDescriptions[tool] if tool is not None else "==tool==",
+		"manner": "manner"}
 
 def getMostProbable(given, probs):
 	for tup in probs:
 		if tup[0][0] == given[0]:
 			return tup[1]
-	return None
+	return probs[0][1]
 
 def replaceOnceInTree(tree, tagsToReplace, toReplace):
 	if type(tree) == tuple:
@@ -268,6 +270,7 @@ def replaceOnceInTree(tree, tagsToReplace, toReplace):
 				newChildren.append(child)
 		if not alreadyReplaced and tree[0] in tagsToReplace:
 			newTree = toReplace
+			alreadyReplaced = True
 		else:
 			newTree = tuple([tree[0]] + newChildren)
 		return {"containsReplacement": alreadyReplaced, "tree": newTree}
