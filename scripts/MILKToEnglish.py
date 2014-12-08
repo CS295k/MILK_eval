@@ -317,9 +317,20 @@ def updateIngredientDescriptions(commands, ingDescriptions, mod):
         inputs = getInputIngredients(command[0], command[1])
         outputs = getOutputIngredients(command[0], command[1])
         if len(inputs) > 0 and len(outputs) > 0:
-            gen_NP_result = gen_NP(command[0], ingDescriptions[list(inputs)[0]], mod)
-            newNp = gen_NP_result[0][0] if len(gen_NP_result) > 0 else list(inputs)[0]
-            ingDescriptions[list(outputs)[0]] = newNp
+            if command[0] == "separate":
+                assert(len(inputs) == 1)
+                gen_NP_result = gen_NP(command[0], ingDescriptions[inputs[0]], mod)
+                newNps = gen_NP_result[0][0].split("; ") if "; " in gen_NP_result[0][0] else [gen_NP_result[0][0]]*2
+                assert(len(newNps) == 2)
+            elif command[0] == "combine":
+                gen_NP_result = gen_NP(command[0], "*".join(ingDescriptions[input] for input in inputs), mod)
+                newNps = [gen_NP_result[0][0]]
+            else:
+                assert(len(inputs) == 1)
+                gen_NP_result = gen_NP(command[0], ingDescriptions[inputs[0]], mod)
+                newNps = [gen_NP_result[0][0]]
+            for i in xrange(len(newNps)):
+                ingDescriptions[outputs[i]] = newNps[i]
 
 def sendToOutputEnglishFile(outputString, filename):
     file = open(os.path.join(os.path.join("..", "English_Translations"), filename), "w")

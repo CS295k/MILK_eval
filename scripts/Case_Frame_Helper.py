@@ -151,64 +151,64 @@ def makeListOfListsHashable(lol):
 
 def getOutputIngredients(commandName, args):
 	if commandName == "create_ing":
-		return set([args[0]])
+		return [args[0]]
 	elif commandName == "combine":
-		return set([args[1]])
+		return [args[1]]
 	elif commandName == "separate":
-		return set([args[1], args[3]])
+		return [args[1], args[3]]
 	elif commandName == "put":
 		if type(args[0]) in [set, list]:
-			return set(args[0])
+			return args[0]
 		else:
-			return set([args[0]])
+			return [args[0]]
 	elif commandName == "remove":
-		return set([args[0]])
+		return [args[0]]
 	elif commandName in ["cut", "mix", "cook", "do"]:
 		ingredient = [a for a in args if a is not None and re.compile("ing[0-9]+").match(a)][1]
-		return set([ingredient])
+		return [ingredient]
 	elif commandName in ["serve", "leave", "chefcheck"]:
-		return set([args[0]])
+		return [args[0]]
 	else:
-		return set()
+		return []
 
 def getInputIngredients(commandName, args):
 	if commandName == "create_ing":
-		return set([args[0]])
+		return [args[0]]
 	elif commandName == "combine":
 		if type(args[0]) in [set, list]:
-			return set(args[0])
+			return args[0]
 		else:
-			return set([args[0]])
+			return [args[0]]
 	elif commandName == "separate":
-		return set([args[0]])
+		return [args[0]]
 	elif commandName == "put":
 		if type(args[0]) in [set, list]:
-			return set(args[0])
+			return args[0]
 		else:
-			return set([args[0]])
+			return [args[0]]
 	elif commandName == "remove":
-		return set([args[0]])
+		return [args[0]]
 	elif commandName in ["cut", "mix", "cook", "do"]:
-		return set([args[0]])
+		return [args[0]]
 	elif commandName in ["serve", "leave", "chefcheck"]:
-		return set([args[0]])
+		return [args[0]]
 	else:
-		return set()
+		return []
 
 def getTools(commandName, args):
 	if commandName in ["put", "remove"]:
-		return set([args[1]])
+		return [args[1]]
 		# return set()
 	elif commandName in ["cut", "mix", "cook", "do"]:
 		tools = [a for a in args if a is not None and re.compile("t[0-9]+").match(a)]
 		if len(tools) > 0:
-			return set([tools[0]])
+			return [tools[0]]
 		else:
-			return set()
+			return []
 	elif commandName == "set":
-		return set([args[0]])
+		return [args[0]]
 	else:
-		return set()
+		return []
 
 def getMostLikelyVpVbPair(initialVps, command):
 	counts = getVerbAlignmentCountDict()
@@ -230,8 +230,7 @@ def inputToEnglish(commands, verbs, nouns, caseFrameProbabilities, topLevelProba
 		caseFrame = getMostProbable((verb, False, False), caseFrameProbabilities)
 		caseFrame = tuple(["_VP_"] + list(caseFrame)[1:]) # so the case frame isn't replaced again after being added to the top level tree
 		caseFrame = replaceOnceInTree(caseFrame, VERB_TAGS, verb)["tree"]
-		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1] not in ["for", "together"], nouns["tool"], False)
-		# caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1]=="for", nouns["manner"], False)
+		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1] not in ["with", "together"], nouns["tool"], False)
 		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["_VP_"], lambda n: True, ings[0], False)
 		ings = ings[1:] if len(ings) > 1 else ings
 		caseFrames.append(caseFrame)
@@ -244,11 +243,10 @@ def getNounsFromCommands(commands, ingDescriptions, toolDescriptions):
 	commandsForInput = [c for c in commands if c[0] not in ["create_ing", "create_tool", "set"]]
 	inputIngs = getInputIngredients(commandsForInput[0][0], commandsForInput[0][1]) if len(commandsForInput) > 0 else None
 	commandsForTool = [c for c in commands if c[0] in ["put", "remove", "cut", "mix", "cook", "do", "set"]]
-	tools = getTools(commandsForTool[0][0], commandsForTool[0][1]) if len(commandsForTool) > 0 else set()
-	tool = list(tools)[0] if len(tools) > 0 else None
+	tools = getTools(commandsForTool[0][0], commandsForTool[0][1]) if len(commandsForTool) > 0 else []
+	tool = tools[0] if len(tools) > 0 else None
 	return {"ings": [ingDescriptions[inputIng] for inputIng in inputIngs] if inputIngs is not None else ["==ing=="],
-		"tool": toolDescriptions[tool] if tool is not None else "==tool==",
-		"manner": "manner"}
+		"tool": toolDescriptions[tool] if tool is not None else "==tool=="}
 
 def getMostProbable(given, probs):
 	for tup in probs:
@@ -290,5 +288,22 @@ def replaceUnderTag(tree, tagsToReplace, tagsToReplaceUnder, predicate, toReplac
 	else:
 		if isUnder and tree in tagsToReplace:
 			return toReplace
+		else:
+			return tree
+
+def removeWithPredicate(tree, tagsToRemove, predicate):
+	if type(tree) == tuple:
+		if tree[0] in tagsToRemove and predicate(tree):
+			return None
+		else:
+			newChildren = []
+			for child in tree[1:]:
+				result = removeWithPredicate(child, tagsToRemove, predicate)
+				if result is not None:
+					newChildren.append(result)
+			return tuple([tree[0]] + newChildren)
+	else:
+		if tree in tagsToRemove and predicate(tree):
+			return None
 		else:
 			return tree

@@ -61,10 +61,10 @@ def addToTopLevelCounts(topLevelFrame, numVerbs):
 parseCommandPairMappings = getParseCommandPairMappings()
 for filename in parseCommandPairMappings:
 	pairs = parseCommandPairMappings[filename]
-	prevPrevIngredients = set()
-	prevIngredients = set()
-	prevPrevTools = set()
-	prevTools = set()
+	prevPrevIngredients = []
+	prevIngredients = []
+	prevPrevTools = []
+	prevTools = []
 	for pair in pairs:
 		command = MILK_parse_command(pair[1])
 		if command[0] not in ["create_ing", "create_tool"]:
@@ -75,12 +75,14 @@ for filename in parseCommandPairMappings:
 				if vpVbPair is not None:
 					vp, vb = vpVbPair
 					caseFrame = makeListOfListsHashable(getCaseFrame(vp))
+					caseFrame = removeWithPredicate(caseFrame, ["PP"], lambda n: n[1][1] in ["until", "for", "at", "by"])
+					caseFrame = removeWithPredicate(caseFrame, ["CC"], lambda n: True)
 					inputIngredients = getInputIngredients(command[0], command[1])
 					tools = getTools(command[0], command[1])
 					assert(all(re.compile("ing[0-9]+").match(i) for i in inputIngredients))
 					assert(all(re.compile("t[0-9]+").match(t) for t in tools))
-					ingredientsPreviouslyUsed = len((prevIngredients.union(prevPrevIngredients)).intersection(inputIngredients)) > 0
-					toolsPreviouslyUsed = len((prevTools.union(prevPrevTools)).intersection(tools)) > 0
+					ingredientsPreviouslyUsed = len((set(prevIngredients).union(set(prevPrevIngredients))).intersection(set(inputIngredients))) > 0
+					toolsPreviouslyUsed = len((set(prevTools).union(set(prevPrevTools))).intersection(set(tools))) > 0
 					prevPrevIngredients = prevIngredients
 					prevIngredients = getOutputIngredients(command[0], command[1])
 					prevPrevTools = prevTools
