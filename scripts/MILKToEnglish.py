@@ -94,6 +94,8 @@ def loadVerbMarkers(input):
 
     # finishes file
     verbMarkersDict[curTuple] = curList
+    print "setting",curTuple,"->",curList
+    #print verbMarkersDict
     return verbMarkersDict
 
 # takes a file which lists all of spencer's probs (e.g., 10FoldCrossValidation_verbGenerationProbabilities)
@@ -165,20 +167,32 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-
+        #if (recipe_name != "../annotated_recipes/Bakers-Secret-Pie-Crust.rcp_tagged.xml"):
+        #    continue
         curPreds = preds[i]
         curCommands = commands[i]
-        print "curPreds:",curPreds
-
+        #print "curPreds:",curPreds
+        #print "finished pos =",str(len(curPreds))
         # gets eugene's verb markers for the current recipe
-        vmFile = recipe_name[recipe_name.rfind('/')+1:][18:-15] # constructs the filename
+        # constructs the filename
+        #vmFile = recipe_name[recipe_name.rfind('/')+1:][:-15] # works for mac/linux
+        vmFile = recipe_name[recipe_name.rfind('/')+1:][18:-15] # works for windows
         curVerbMarkerMasks = loadVerbMarkers(verbMarkersDir + vmFile)
+        #print "cvm"
+        #for k in curVerbMarkerMasks.keys():
+        #    print k,curVerbMarkerMasks[k]
         #print "cvm:",curVerbMarkerMasks
 
         # gets spencer's stored verb probs for the current recipe
-        curVerbProbs = verbProbs[recipe_name.replace("\\", "/")]
-        print "verb probs:", curVerbProbs
+        #curVerbProbs = verbProbs[recipe_name] # works for mac/linux
+        curVerbProbs = verbProbs[recipe_name.replace("\\", "/")] # works for windows
+        #print "verb probs:", curVerbProbs
+        #print "len of verbprobs from spencer",len(curVerbProbs)
 
+        # represents that spencer's file doesn't have probabilities for it
+        if (len(curVerbProbs) == 0):
+            print "*** spencer's file doesn't have data for current recipe!"
+            continue
         completedRecipes = []
         candidateRecipes = [] # incomplete recipes -- still exploring all possible paths
          
@@ -224,7 +238,20 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                     #print "considering:",(last_marker,last_marker+num_states)
                     tup = (str(last_marker),str(last_marker+num_states))
                     #print "verbMarker paths:",curVerbMarkerMasks[tup]
+
+                    # ignores impposible states, along w/ handle's eugene's error of having
+                    # tuples (probabilities/masks) that correspond to indices that are out of
+                    # bounds (e.g., 12 13 1 when really there are only 12 milk cmds for the recipe)
+                    if (last_marker+num_states > len(curPreds)):
+                        break
+
+                    # skip over states which the HMM outputs as having 0 probability
+                    if (state_probs[num_states-1] == 0):
+                        #print "*** skipping state",str(num_states-1),"while at head pos",str(last_marker)
+                        continue
+
                     for verbMarkerMask in curVerbMarkerMasks[tup]:
+#
                         #print "trying",verbMarkerMask
                         verbFlags = verbMarkerMask[0]
                         #print "vf", verbFlags
@@ -235,7 +262,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                         predNums = []
                         verbs = []
                         for flagPos in xrange(0,len(verbFlags)):
-                            #print flagPos,verbFlags[flagPos]
+                            #print "flagpos",flagPos,verbFlags[flagPos]
                             predIndex = last_marker + flagPos
                             #print "predIndex",predIndex,curPreds[predIndex]
                             comms.append(curCommands[predIndex])
@@ -244,12 +271,16 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                             # if verb flag is 1, then let's multiple/accumulate our prob by the most-likely verb prob
                             if (verbFlags[flagPos] == '1'):
                                 #print "bestverb",curVerbProbs[predIndex]
-                                if len(curVerbProbs) > 0 and len(curVerbProbs[predIndex].keys()) > 0: # TODO: is this right???
+                                if len(curVerbProbs[predIndex].keys()) > 0: # TODO: is this right???
                                     bestVerb = curVerbProbs[predIndex].keys()[0]
                                     verbs.append(bestVerb)
 
                                 #print "prob:",curVerbProbs[predIndex][bestVerb]
                                     curProb += math.log(curVerbProbs[predIndex][bestVerb])
+                                else:
+                                    print "****** ERROR!!! curVerbProbs doesn't have right stuff:"
+                                    print curVerbProbs
+                                    exit(1)
                         #print "*** prob for mask:",verbMarkerMask,":",curProb
 
                         # makes a new MILKChunk for the current span attempt
@@ -276,7 +307,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
-            if (len(candidateRecipes)-len(completedRecipes)) > 500:
+            if (len(candidateRecipes)-len(completedRecipes)) > 500 and len(completedRecipes > 10):
+                "&&& too many candidates, so stopping prematurely"
                 break
         if len(completedRecipes) > 0:
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
@@ -292,7 +324,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
             print "\n=============================\n"
-
+        print "done w/ the recipe... exiting"
+        #exit(1)
     #jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
     #state_probs = jit_decoder.ping();
     #print state_probs
