@@ -4,21 +4,21 @@ from Get_Sentence_List import getSentenceList
 
 verbose = 1 #output recipe file names and source command names
 simple = 1 #use simple recipe names
-files = glob("annotated_recipes/*.xml")
+files = glob("../annotated_recipes/*.xml")
 
 ing_dict = {}
 simple_ings = {}
 
 #f = open('data/simple_ings2.txt', 'r')
-f = open('s_ings.txt', 'r')
-for line in f:
-	#print line
-	split_line = line.rstrip('\n').split(' -> ')
-	#print split_line
-	if split_line[1] != 'None':
-		simple_ings[split_line[0]] = split_line[1]
-		#print simple_ings[split_line[0]]
-f.close()
+#f = open('s_ings.txt', 'r')
+#for line in f:
+#	#print line
+#	split_line = line.rstrip('\n').split(' -> ')
+#	#print split_line
+#	if split_line[1] != 'None':
+#		simple_ings[split_line[0]] = split_line[1]
+#		#print simple_ings[split_line[0]]
+#f.close()
 
 for file in [f for f in files]:
 
@@ -62,7 +62,7 @@ for file in [f for f in files]:
 				ing_dict[commandArgs[1]] = commandArgs[2]
 				out = ""
 				for i in commandArgs[0]:
-					out += ing_dict[i] + ', '
+					out += ing_dict[i] + '*'
 					#print(ing_dict[i] + ' -> ' + comm)
 				if verbose == 1:
 					print(commandName + ': ' + out + ' -> ' + commandArgs[2]).encode('utf-8')

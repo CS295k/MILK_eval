@@ -20,9 +20,8 @@ def normalize(x):
 	return x
 
 #given a command, input noun phrase, and mod
-def gen_NP(command, input_NP, mod, isFromCommandLine = False):
+def gen_NP(command, input_NP, mod):
 	outputs = collections.Counter()
-	length_outputs = collections.Counter()
 	for i in range(0, len(command_list)):
 		line = command_list[i].split(' # ')
 		if int(line[0]) != mod:
@@ -31,26 +30,18 @@ def gen_NP(command, input_NP, mod, isFromCommandLine = False):
 				cur_NPs = line[1].split(': ')[1].split(' -> ')
 				cur_input = cur_NPs[0]
 				if cur_command == 'combine':
-					all_combined = input_NP.split('*')
-					#print cur_input
-					#print len(cur_input.split(', ')), len(all_combined)
+					all_combined = input_NP.split(', ')
 					if all(map(lambda x: x in cur_input, all_combined)):
 						cur_output = cur_NPs[1]
 						outputs[cur_output] += 1
-					if len(cur_input.split(', ')) - 1 == len(all_combined):
-						cur_output = cur_NPs[1]
-						length_outputs[cur_output] += 1
 				else:
 					if input_NP in cur_input:
 						cur_output = cur_NPs[1]
 						outputs[cur_output] += 1
-	if(command != "combine"):
-		outputs[input_NP] += 1
-	if not outputs:
-		outputs = length_outputs
+
+	outputs[input_NP] += 1
 	normalize(outputs)
-	if isFromCommandLine:
-		print outputs.most_common()
+	#print outputs.most_common()
 	return outputs.most_common()
 
 def main():
@@ -58,7 +49,7 @@ def main():
 	command = click.prompt('Enter command', type=str)
 	input_NP = click.prompt('Enter input NP', type=str)
 	mod = click.prompt('Enter mod (0-9)', type=click.IntRange(0, 9))
-	gen_NP(command, input_NP, mod, True)
+	gen_NP(command, input_NP, mod)
 
 if __name__ == '__main__':
 	main()
