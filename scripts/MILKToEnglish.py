@@ -362,7 +362,7 @@ def updateIngredientDescriptions(commands, ingDescriptions, mod):
                 assert(len(newNps) == 2)
             elif command[0] == "combine":
                 gen_NP_result = gen_NP(command[0], "*".join(ingDescriptions[input] for input in inputs), mod)
-                newNps = [gen_NP_result[0][0]]
+                newNps = [gen_NP_result[0][0]] if len(gen_NP_result) > 0 else ["everything"]
             else:
                 assert(len(inputs) == 1)
                 gen_NP_result = gen_NP(command[0], ingDescriptions[inputs[0]], mod)
