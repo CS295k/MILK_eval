@@ -307,9 +307,9 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
-            if (len(candidateRecipes)-len(completedRecipes)) > 500:# and len(completedRecipes) > 10:
-                "&&& too many candidates, so stopping prematurely"
-                break
+            # if (len(candidateRecipes)-len(completedRecipes)) > 500:# and len(completedRecipes) > 10:
+                # "&&& too many candidates, so stopping prematurely"
+                # break
         if len(completedRecipes) > 0:
             file_reader()
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
@@ -368,7 +368,7 @@ def updateIngredientDescriptions(commands, ingDescriptions, mod):
 
 def sendToOutputEnglishFile(outputString, filename):
     file = open(os.path.join(os.path.join("..", "English_Translations"), filename), "w")
-    file.write(outputString)
+    file.write(outputString.encode("utf8"))
 
 if __name__ == "__main__":
 
