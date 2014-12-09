@@ -167,12 +167,16 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-        #if (recipe_name != "../annotated_recipes/Bakers-Secret-Pie-Crust.rcp_tagged.xml"):
+        #if (recipe_name != "../annotated_recipes/Caramel-Chocolate-Corn.rcp_tagged.xml"):
         #    continue
         curPreds = preds[i]
+        for p in curPreds:
+            if p.startswith("create_"):
+                curPreds.remove(p)
         curCommands = commands[i]
-        #print "curPreds:",curPreds
-        #print "finished pos =",str(len(curPreds))
+        print "curPreds:",curPreds
+        print "finished pos =",str(len(curPreds))
+        
         # gets eugene's verb markers for the current recipe
         # constructs the filename
         #vmFile = recipe_name[recipe_name.rfind('/')+1:][:-15] # works for mac/linux
@@ -234,7 +238,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 #print "*** last_marker/curHead:",last_marker,";state_probs",state_probs
 
                 # tries each of the 4 possible state transitions (i.e., 1 state, 2 states, .. 4 states)
-                for num_states in xrange(1,5):
+                for num_states in xrange(4,0,-1):
                     #print "considering:",(last_marker,last_marker+num_states)
                     tup = (str(last_marker),str(last_marker+num_states))
                     #print "verbMarker paths:",curVerbMarkerMasks[tup]
@@ -251,7 +255,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                         continue
 
                     for verbMarkerMask in curVerbMarkerMasks[tup]:
-#
+
                         #print "trying",verbMarkerMask
                         verbFlags = verbMarkerMask[0]
                         #print "vf", verbFlags
@@ -306,10 +310,13 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             #exit(1)
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
+            candidateRecipes = sorted(candidateRecipes, key=lambda rt: rt.totalProb, reverse=True)[0:min(100,len(candidateRecipes))]
+
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
-            if (len(candidateRecipes)-len(completedRecipes)) > 500 and len(completedRecipes > 10):
+            if (len(candidateRecipes)-len(completedRecipes)) > 500 and len(completedRecipes) > 10:
                 "&&& too many candidates, so stopping prematurely"
                 break
+
         if len(completedRecipes) > 0:
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
             print "\n\n"
