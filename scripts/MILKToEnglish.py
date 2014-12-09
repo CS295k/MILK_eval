@@ -167,8 +167,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-        #if (recipe_name != "../annotated_recipes/Caramel-Chocolate-Corn.rcp_tagged.xml"):
-        #    continue
+        if (recipe_name != "../annotated_recipes/Chicken-and-Black-Bean-Chili.rcp_tagged.xml"):
+            continue
         curPreds = preds[i]
         for p in curPreds:
             if p.startswith("create_"):
@@ -238,7 +238,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 #print "*** last_marker/curHead:",last_marker,";state_probs",state_probs
 
                 # tries each of the 4 possible state transitions (i.e., 1 state, 2 states, .. 4 states)
-                for num_states in xrange(4,0,-1):
+                for num_states in xrange(1,5):#xrange(4,0,-1):
                     #print "considering:",(last_marker,last_marker+num_states)
                     tup = (str(last_marker),str(last_marker+num_states))
                     #print "verbMarker paths:",curVerbMarkerMasks[tup]
@@ -310,7 +310,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             #exit(1)
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
-            candidateRecipes = sorted(candidateRecipes, key=lambda rt: rt.totalProb, reverse=True)[0:min(100,len(candidateRecipes))]
+            candidateRecipes = sorted(candidateRecipes, key=lambda rt: rt.totalProb, reverse=True)[0:min(200,len(candidateRecipes))]
 
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
             if (len(candidateRecipes)-len(completedRecipes)) > 500 and len(completedRecipes) > 10:
@@ -382,7 +382,7 @@ if __name__ == "__main__":
     data_files = glob("../annotated_recipes/*.xml")
             
     # loads spencer's most likely verbs
-    verbProbs = loadVerbProbs("10FoldCrossValidation_verbGenerationProbabilities.txt")
+    verbProbs = loadVerbProbs("10FoldCrossValidation_verbGenerationProbabilities_normalizedWithoutNoverb.txt")
     #print "vp:", verbProbs
 
     len_data_files = len(data_files)
@@ -410,6 +410,6 @@ if __name__ == "__main__":
         print len(train_paths),len(test_paths)
 
         english_text = getEnglishRecipes(train_recipes, test_recipes, i)
-        exit(1)
+        #exit(1)
         
     
