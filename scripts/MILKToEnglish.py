@@ -18,7 +18,7 @@ from MILKChunk import *
 from RecipeTranslation import *
 from Case_Frame_Helper import *
 from MILK_parse import MILK_parse, MILK_parse_command
-from NP_generator import gen_NP
+from NP_generator import gen_NP, file_reader
 
 def strip(recipes):
     # strip loaded recipes to a list of (english, predicate_list)
@@ -307,10 +307,11 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
-            if (len(candidateRecipes)-len(completedRecipes)) > 500 and len(completedRecipes > 10):
+            if (len(candidateRecipes)-len(completedRecipes)) > 500:# and len(completedRecipes) > 10:
                 "&&& too many candidates, so stopping prematurely"
                 break
         if len(completedRecipes) > 0:
+            file_reader()
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
             print "\n\n"
             ingDescriptions, toolDescriptions = seedDescriptions(recipe_name)
@@ -403,6 +404,6 @@ if __name__ == "__main__":
         print len(train_paths),len(test_paths)
 
         english_text = getEnglishRecipes(train_recipes, test_recipes, i)
-        exit(1)
+        # exit(1)
         
     
