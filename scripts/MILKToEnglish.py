@@ -319,6 +319,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
             print "\n\n"
             ingDescriptions, toolDescriptions = seedDescriptions(recipe_name)
+            prevIngredients = []
+            prevTools = []
             recipeLines = []
             for milkChunk in sortedPaths[0].milkChunks:
                 nouns = getNounsFromCommands(milkChunk.commands, ingDescriptions, toolDescriptions)

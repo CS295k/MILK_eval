@@ -1,1091 +1,1273 @@
-recommended~False|(VP VBN)|1.000000
-frosting~True|(VP VBN (PRT (RP over)) NP)|1.000000
-process~True|(VP VB)|1.000000
-decorate~True|(VP VB SBAR)|1.000000
-move~False|(VP VB (PP (TO to) NP))|1.000000
-finished~True|(VP VBN NP)|1.000000
-use~False|(VP VB NP)|1.000000
-stick~True|(VP VB NP (PP (IN into) NP))|1.000000
-starting~True|(VP VBG (PP (IN from) NP))|1.000000
-expose~False|(VP VB NP)|1.000000
-according~True|(VP NN (PP VBG (PP (TO to) NP)))|1.000000
-grind~False|(VP ADVP VB S)|1.000000
-toss~False|(VP VB NP)|1.000000
-suggested~False|(VP VBN)|1.000000
-use~True|(VP VB NP)|1.000000
-wipe~True|(VP ADVP VB NP)|1.000000
-deglaze~False|(VP VB)|1.000000
-puree~False|(VP VB NP)|1.000000
-shaped~False|(VP VBN NP)|1.000000
-dipping~False|(VP AUX NP)|1.000000
-take~True|(VP VB NP)|1.000000
-simmering~True|(VP VBG NP)|1.000000
-spreading~True|(VP VBG (PRT (RP out)) (PP (TO to) NP))|1.000000
-absorb~False|(VP VB NP)|1.000000
-pound~True|(VP ADVP VB NP)|1.000000
-attach~True|(VP VB NP (PP (IN with) NP))|1.000000
-leaving~True|(VP VBG NP)|1.000000
-crush~False|(VP VB NP)|1.000000
-bringing~True|(VP VBG NP (PP (TO to) NP))|1.000000
-handle~True|(VP VB)|1.000000
-garnish~False|(VP VB (PP (IN with) NP))|1.000000
-ladle~True|(VP VB (PP (IN into) NP))|1.000000
-reserving~True|(VP VBG NP)|1.000000
-seasoning~True|(VP VBG (PRT (RP over)) NP ADVP)|1.000000
-slicing~True|(VP VBG (PP (IN across) NP) SBAR)|1.000000
-chop~False|(VP VB NP)|1.000000
-attach~False|(VP VB NP)|1.000000
-moisten~True|(VP VB)|1.000000
-spit~False|(VP VBD (PP (IN above) NP))|1.000000
-dissolve~False|(VP VB NP (PP (IN in) NP))|1.000000
-incorporate~True|(VP VB ADVP (PP (IN after) NP))|1.000000
-oven~True|(VP VBN (PP (TO to) NP))|1.000000
-remain~True|(VP VBP)|1.000000
-remaining~True|(VP VBG NP)|1.000000
-open~True|(VP VB ADVP)|1.000000
-batter~False|(VP VB ADVP (PP (IN in) NP))|1.000000
-reads~True|(VP VBZ NP)|1.000000
-dropped~True|(VP VBD (PP (IN into) NP) ADVP , NP)|1.000000
-teaspoonfuls~False|(VP VBZ NP (PP (IN into) NP))|1.000000
-followed~True|(VP VBN)|1.000000
-pat~False|(VP VB ADJP)|1.000000
-smooth~False|(VP VB (PP (IN with) NP))|1.000000
-enjoy~True|(VP VB)|1.000000
-try~True|(VP VB NP (PP VBG (PP (IN on) NP)))|1.000000
-listed~False|(VP VBN)|1.000000
-shaking~True|(VP VBG NP (PP (TO to) NP))|1.000000
-want~True|(VP VB NP)|1.000000
-1-in~True|(VP VB)|1.000000
-rinse~False|(VP VB NP)|1.000000
-glaze~False|(VP VB)|1.000000
-securing~True|(VP VBG (PP (IN with) NP))|1.000000
-toasted~True|(VP ADVP VBD)|1.000000
-follow~True|(VP VB NP)|1.000000
-incorporated~True|(VP VBN)|1.000000
-toasting~False|(VP VBG NP)|1.000000
-lined~True|(VP VBD NP)|1.000000
-discarded~False|(VP VBN VBN)|1.000000
-removing~False|(VP VBG (PP (PP (IN from) NP) (PP (TO to) NP)))|1.000000
-sized~True|(VP VBD NP)|1.000000
-cooking~True|(VP VBG NP)|1.000000
-carving~True|(VP VBG)|1.000000
-wrapped~True|(VP VBD (PP (IN in) NP))|1.000000
-return~False|(VP VB NP (PP (TO to) NP))|1.000000
-dissolved~False|(VP VBN)|1.000000
-simmer~False|(VP VB (PP (IN over) NP))|1.000000
-lower~True|(VP VB NP)|1.000000
-boils~True|(VP VBZ)|1.000000
-pile~True|(VP VB (PP (IN on) NP))|1.000000
-stems~True|(VP VBZ)|1.000000
-fitted~True|(VP VBN (PP (IN with) NP))|1.000000
-enclosed~True|(VP ADVP VBN)|1.000000
-soften~False|(VP VB NP (PP (PP (IN on) NP)))|1.000000
-label~True|(VP VB VB NP)|1.000000
-draw~False|(VP VB NP)|1.000000
-brownies~True|(VP VBZ (PP (IN into) NP))|1.000000
-directed~True|(VP VBN (PP (IN on) NP))|1.000000
-scoops~False|(VP VBZ (PP (IN of) NP) (PP (IN around) NP))|1.000000
-chopped~False|(VP VBN NP)|1.000000
-slather~True|(VP VB (PP (IN on) NP))|1.000000
-measure~True|(VP VB NP (PP (IN into) NP))|1.000000
-maintain~True|(VP VB NP)|1.000000
-according~False|(VP NN (PP VBG (PP (TO to) NP)))|1.000000
-keep~True|(VP VB S)|1.000000
-discard~True|(VP VB NP)|1.000000
-tossing~False|(VP VBG NP)|1.000000
-prepare~True|(VP VB)|1.000000
-poke~True|(VP VBD NP (PP (IN with) NP))|1.000000
-folded~True|(VP VBN (PP (IN into) NP))|1.000000
-doing~True|(VP VBG NP)|1.000000
-finish~True|(VP VB NP)|1.000000
-plank~True|(VP VBD NP ,)|1.000000
-round~True|(VP VBP NP)|1.000000
-topping~True|(VP VBG (PP (IN with) NP))|1.000000
-whipping~False|(VP VBG NP)|1.000000
-clean~True|(VP VB)|1.000000
-heating~False|(VP VBG NP)|1.000000
-equal~False|(VP VB NP)|1.000000
-sounds~True|(VP VBZ (PP (IN during) NP))|1.000000
-makes~True|(VP VBZ NP)|1.000000
-coated~False|(VP VBN (PP (IN with) NP))|1.000000
-grate~True|(VP VB NP (PP (IN over) NP))|1.000000
-crimp~True|(VP VB S)|1.000000
-frosting~False|(VP VBN (PRT (RP over)) NP)|1.000000
-firm~True|(VP VB)|1.000000
-unroll~False|(VP VBP NP)|1.000000
-saving~True|(VP VBG NP)|1.000000
-reduced~True|(VP VBN)|1.000000
-placing~True|(VP VBG NP (PP (IN in) NP))|1.000000
-broil~True|(VP VB NP ,)|1.000000
-gets~True|(VP VBZ (PP (IN into) NP))|1.000000
-combined~False|(VP VBN)|1.000000
-grind~True|(VP ADVP VB S)|1.000000
-adding~False|(VP VBG NP)|1.000000
-opaque~False|(VP VB ADVP VBN (PP (IN with) NP))|1.000000
-toss~True|(VP VB NP)|1.000000
-halves~False|(VP VBZ (PP (IN with) NP))|1.000000
-flattened~True|(VP VBD NP (PP (IN into) NP))|1.000000
-forms~True|(VP VBZ NP)|1.000000
-crumbled~True|(VP VBN NP)|1.000000
-appears~True|(VP VBZ ADJP)|1.000000
-butter~True|(VP VB (PP (IN in) NP))|1.000000
-flip~True|(VP VB (PP (IN out) (PP (IN of) NP)) (PP (IN onto) NP))|1.000000
-leave~True|(VP VB NP)|1.000000
-prevent~False|(VP VB NP)|1.000000
-cornbread~False|(VP VB (PP VBG (PP (TO to) NP)))|1.000000
-reserving~False|(VP VBG NP)|1.000000
-shape~False|(VP VB (PP (IN into) NP))|1.000000
-smoothed~True|(VP ADVP VBN NP)|1.000000
-saute~False|(VP VB NP)|1.000000
-stand~False|(VP VB)|1.000000
-peel~True|(VP VB)|1.000000
-flow~True|(VP VB ADVP (PP (IN through) NP))|1.000000
-takes~True|(VP VBZ NP)|1.000000
-refrigerate~False|(VP VB)|1.000000
-rounded~True|(VP VBD NP (PP (IN onto) NP) ADVP)|1.000000
-recommended~True|(VP VBN)|1.000000
-begins~False|(VP VBZ (PP (TO to) NP))|1.000000
-oven~False|(VP VBN (PP (TO to) NP))|1.000000
-spinach~True|(VP VBP NP (PP (IN onto) NP))|1.000000
-frying~False|(VP VBG (PP (IN in) NP))|1.000000
-adjust~False|(VP VB S)|1.000000
-registers~True|(VP VBZ NP)|1.000000
-working~True|(VP VBG (PP (IN from) NP))|1.000000
-replace~True|(VP VB NP)|1.000000
-reserve~False|(VP VB NP)|1.000000
-pecans~True|(VP VBZ (PP (IN into) NP))|1.000000
-cutting~True|(VP VBG (PP (IN into) NP))|1.000000
-suggested~True|(VP VBN)|1.000000
-pushed~True|(VP VBD)|1.000000
-attained~True|(VP VBN)|1.000000
-slip~False|(VP VB NP)|1.000000
-dipping~True|(VP AUX NP)|1.000000
-doubled~True|(VP VBN (PP (IN in) NP))|1.000000
-burn~True|(VP VB (PRT (RP off)))|1.000000
-heaping~True|(VP VBG NP)|1.000000
-sink~True|(VP VB NP)|1.000000
-toasting~True|(VP VBG NP)|1.000000
-needed~False|(VP VBN)|1.000000
-transfer~False|(VP VB (PP (TO to) NP))|1.000000
-guacamole~True|(VP VBD (PP (IN over) NP))|1.000000
-stuffed~True|(VP VBD NP)|1.000000
-comes~True|(VP VBZ ADVP)|1.000000
-melts~True|(VP VBZ)|1.000000
-sized~False|(VP VBD NP)|1.000000
-come~False|(VP VBP (PP (IN out) (PP (IN of) NP)))|1.000000
-chop~True|(VP ADVP VB)|1.000000
-rack~True|(VP VB (PP (TO to) NP))|1.000000
-covered~False|(VP VBN)|1.000000
-in.~True|(VP VBG (PP (PP (IN from) NP)))|1.000000
-strain~False|(VP VB (PP (IN through) NP))|1.000000
-bite-size~False|(VP VB NP)|1.000000
-directed~False|(VP VBN (PP (IN on) NP))|1.000000
-remaining~False|(VP VBG NP)|1.000000
-prepare~False|(VP VB NP)|1.000000
-stuffing~False|(VP VBG (PP VBG (PP (TO to) NP)))|1.000000
-baguette~False|(VP VB (PP (IN in) NP))|1.000000
-coated~True|(VP VBN (PP (IN with) NP))|1.000000
-4-inch~True|(VP VB NP (PP (IN with) NP))|1.000000
-crumble~True|(VP VB NP)|1.000000
-1-in~False|(VP VB)|1.000000
-rinse~True|(VP VB NP)|1.000000
-glaze~True|(VP VB (PRT (RP over)) NP)|1.000000
-toasted~False|(VP VBD)|1.000000
-finish~False|(VP VB NP)|1.000000
-surface~True|(VP VB NP ADVP , (PP (IN about) NP))|1.000000
-drawn~True|(VP VBN (PP (IN on) NP))|1.000000
-leaves~True|(VP VBZ NP)|1.000000
-clean~False|(VP VB)|1.000000
-baste~True|(VP VB ADVP (PP (IN during) NP))|1.000000
-equal~True|(VP VBP NP)|1.000000
-whipped~False|(VP VBN NP)|1.000000
-escape~True|(VP VB)|1.000000
-warm~False|(VP VB NP)|1.000000
-divided~False|(VP VBN)|1.000000
-trim~True|(VP VB NP)|1.000000
-empty~True|(VP VBP NP (PP (IN into) NP))|1.000000
-beating~True|(VP VBG (PP ADVP (IN after) NP))|1.000000
-criss-cross~True|(VP VBP NP)|1.000000
-cooking~False|(VP VBG NP)|1.000000
-check~True|(VP VB NP (PP (IN after) NP))|1.000000
-using~False|(VP VBG NP)|1.000000
-dissolved~True|(VP VBN)|1.000000
-wire~True|(VP VB NP)|1.000000
-let~True|(VP VB ADJP)|1.000000
-saving~False|(VP VBG NP)|1.000000
-dredge~True|(VP VB NP (PP (IN in) NP))|1.000000
-placed~True|(VP VBN (PP (IN in) NP) ADVP)|1.000000
-lumps~True|(VP VBZ (PP (IN of) NP))|1.000000
-blackened~True|(VP VBN)|1.000000
-smoking~True|(VP AUX ADJP)|1.000000
-adding~True|(VP VBG NP)|1.000000
-chopped~True|(VP VBN NP)|1.000000
-opaque~True|(VP VB ADVP VBN (PP (IN with) NP))|1.000000
-rolled~True|(VP VBD (PRT (RP out)) NP)|1.000000
-overlapping~True|(VP VBG)|1.000000
-measure~False|(VP VB NP (PP (IN into) NP))|1.000000
-become~True|(VP VBN ADJP)|1.000000
-squeeze~True|(VP VB (PP (IN on) NP))|1.000000
-cooled~False|(VP ADVP VBD NP (PP (IN with) NP))|1.000000
-keep~False|(VP VB S)|1.000000
-loaf~True|(VP VBD NP (PP (IN with) NP))|1.000000
-crumbled~False|(VP VBN NP)|1.000000
-discard~False|(VP VB NP)|1.000000
-look~False|(VP VB (PP (IN like) NP))|1.000000
-distribute~True|(VP VB NP ADVP (PP (IN over) NP))|1.000000
-prevent~True|(VP VB NP)|1.000000
-used~False|(VP VBN)|1.000000
-tablespoonfuls~False|(VP VBZ (PP (IN into) NP))|1.000000
-plank~False|(VP VBD (PP (IN in) NP))|1.000000
-assemble~True|(VP VB NP)|1.000000
-inch~True|(VP VB ADJP)|1.000000
-melted~False|(VP VBN)|1.000000
-preheat~False|(VP VB NP)|0.972973
-melted~True|(VP VBN)|0.888889
-stirring~False|(VP VBG ADVP)|0.888889
-stirring~True|(VP VBG ADVP)|0.884615
-put~True|(VP VBN (PP (IN into) NP))|0.833333
-removing~True|(VP VBG (PP (PP (IN from) NP) (PP (TO to) NP)))|0.833333
-serving~True|(VP VBG)|0.821429
-season~True|(VP VB (PP (IN with) NP))|0.818182
-desired~True|(VP VBN)|0.800000
-top~False|(VP VB (PP (IN with) NP))|0.800000
-return~True|(VP VB (PP (TO to) NP))|0.800000
-reduce~True|(VP VB NP (PP (TO to) NP))|0.800000
-chill~True|(VP VB)|0.777778
-boil~True|(VP VB)|0.750000
-whipped~True|(VP VBN NP)|0.750000
-sprinkle~False|(VP VBP (PP (IN with) NP))|0.750000
-repeat~True|(VP VB NP)|0.750000
-taste~True|(VP VB)|0.750000
-shake~True|(VP VB ADVP)|0.750000
-put~False|(VP VBN (PP (IN into) NP))|0.750000
-bring~True|(VP VB (PP (TO to) NP))|0.731707
-serving~False|(VP VBG NP)|0.714286
-combine~True|(VP VBP NP)|0.706667
-fill~True|(VP VB NP (PP (IN with) NP))|0.700000
-run~True|(VP VBP ADJP)|0.700000
-browned~True|(VP ADVP VBN)|0.680000
-form~True|(VP VB NP)|0.666667
-uncovered~False|(VP VBN)|0.666667
-covered~True|(VP VBN)|0.666667
-boiling~True|(VP VBG (PP (IN about) NP))|0.666667
-warm~True|(VP VB NP)|0.666667
-fill~False|(VP VB NP (PP (IN with) NP))|0.666667
-fold~False|(VP VB (PP (IN in) NP))|0.666667
-form~False|(VP VB NP)|0.666667
-cooled~True|(VP ADVP VBN NP)|0.666667
-garnish~True|(VP VB (PP (IN with) NP))|0.666667
-dissolve~True|(VP VB NP (PP (IN in) NP))|0.666667
-greased~True|(VP VBN S)|0.666667
-sift~True|(VP VB (PRT (RP together)) NP)|0.666667
-heated~False|(VP VBN (PRT (RP through)))|0.666667
-press~False|(VP VB (PP (IN into) NP))|0.666667
-combine~False|(VP VBP NP)|0.660194
-shape~True|(VP VB (PP (IN into) NP))|0.636364
-stand~True|(VP VB)|0.600000
-dressing~True|(VP VBG (PP (IN with) NP))|0.600000
-arrange~False|(VP VB NP)|0.600000
-whisk~False|(VP VB (PRT (RP together)) NP)|0.600000
-make~True|(VP VB NP)|0.600000
-add~True|(VP VB NP)|0.594595
-using~True|(VP VBG NP)|0.583333
-inserted~True|(VP VBN (PP (IN into) NP))|0.571429
-place~False|(VP VB NP (PP (IN in) NP))|0.562500
-grease~False|(VP VB NP)|0.562500
-browned~False|(VP ADVP VBN)|0.555556
-baking~True|(VP VBG NP)|0.555556
-sift~False|(VP VB (PRT (RP together)) NP)|0.555556
-melt~True|(VP VB NP)|0.545455
-bring~False|(VP VB NP (PP (TO to) NP))|0.545455
-transfer~True|(VP VB NP (PP (TO to) NP))|0.538462
-reduce~False|(VP VB NP)|0.533333
-top~True|(VP VB (PP (IN with) NP))|0.529412
-heat~True|(VP VB NP)|0.526316
-melt~False|(VP VB NP)|0.523810
-cover~False|(VP VB)|0.516129
-heat~False|(VP VB NP (PP (IN in) NP))|0.511628
-marinate~False|(VP VB NP (PP (IN in) NP))|0.500000
-peel~False|(VP VBP)|0.500000
-peel~False|(VP VB , ADVP)|0.500000
-thicken~True|(VP VB)|0.500000
-thicken~True|(VP VB (PP (IN upon) NP))|0.500000
-boil~False|(VP VB (PP (IN in) NP))|0.500000
-boil~False|(VP VB)|0.500000
-adjust~True|(VP VB NP)|0.500000
-adjust~True|(VP VB (PP (TO to) NP))|0.500000
-wash~False|(VP VB NP)|0.500000
-wash~False|(VP VB VB NP (PP (IN into) NP))|0.500000
-broil~False|(VP VB PRN)|0.500000
-broil~False|(VP VB)|0.500000
-serve~False|(VP VB (PP (IN with) NP))|0.500000
-spoon~False|(VP VB (PP (IN into) NP))|0.500000
-spoon~False|(VP VB NP (PP (IN onto) NP))|0.500000
-brush~False|(VP VB NP)|0.500000
-brush~False|(VP VB NP (PP (IN with) NP))|0.500000
-wrap~True|(VP VB NP (PP (IN around) NP))|0.500000
-seal~False|(VP VB VB (PP (IN in) NP))|0.500000
-seal~False|(VP VB)|0.500000
-chilled~False|(VP VBD NP (PP (TO to) NP))|0.500000
-chilled~False|(VP VBN)|0.500000
-coat~False|(VP VB NP)|0.500000
-garlic~True|(VP VB NP)|0.500000
-garlic~True|(VP VB ADJP)|0.500000
-cut~False|(VP VB NP (PP (IN into) NP))|0.500000
-inserted~False|(VP VBN (PP (IN near) NP))|0.500000
-inserted~False|(VP VBN)|0.500000
-make~False|(VP VB NP)|0.500000
-season~False|(VP VB NP (PP (IN with) NP))|0.500000
-tender~True|(VP VBP)|0.500000
-tender~True|(VP VB)|0.500000
-scoop~True|(VP VB NP (PP (IN into) NP))|0.500000
-scoop~True|(VP VB (PP (IN into) NP) NP)|0.500000
-brush~True|(VP VB NP)|0.500000
-blend~True|(VP VB)|0.500000
-filling~True|(VP AUX UCP)|0.500000
-filling~True|(VP VBG)|0.500000
-skim~False|(VP VB ADJP (PP (IN from) NP))|0.500000
-skim~False|(VP VB S)|0.500000
-becomes~True|(VP VBZ ADJP)|0.500000
-becomes~True|(VP VBZ ADJP , (PP (IN about) NP))|0.500000
-drain~False|(VP VB VB (PP (IN out) NP) (PP (IN from) ADJP))|0.500000
-drain~False|(VP VB (PP (IN off) NP))|0.500000
-line~False|(VP VB NP)|0.500000
-line~False|(VP VB NP (PP (IN with) NP))|0.500000
-batter~True|(VP VB (PP (IN in) NP))|0.500000
-batter~True|(VP VB)|0.500000
-puree~True|(VP VB NP)|0.500000
-puree~True|(VP VB)|0.500000
-baking~False|(VP VBG NP)|0.500000
-secure~True|(VP VB (PP (IN with) NP))|0.500000
-punch~True|(VP VB NP)|0.500000
-punch~True|(VP VB NP (PRT (RP down)))|0.500000
-shell~True|(VP VB (PP (TO to) NP (PP (IN so) NP)))|0.500000
-shell~True|(VP VB)|0.500000
-fry~False|(VP VB NP UCP)|0.500000
-fry~False|(VP VB NP , (PP (IN about) NP))|0.500000
-heated~True|(VP VBN (PRT (RP through)))|0.500000
-soften~True|(VP VB NP (PP (PP (IN on) NP)))|0.500000
-soften~True|(VP VB VB)|0.500000
-set~False|(VP VBN (PP (IN over) NP))|0.500000
-set~False|(VP VB VB)|0.500000
-desired~False|(VP VBN)|0.500000
-desired~False|(VP VBN NP)|0.500000
-tender~False|(VP VBP)|0.500000
-tender~False|(VP VB)|0.500000
-chill~False|(VP VB)|0.500000
-chill~False|(VP VB ADVP)|0.500000
-butter~False|(VP VB (PP (IN in) NP))|0.500000
-give~True|(VP VB NP)|0.500000
-give~True|(VP VB NP (PP (TO to) NP))|0.500000
-blend~False|(VP VB NP (PP (IN in) NP))|0.500000
-blend~False|(VP VB (PRT (RP together)) NP)|0.500000
-whisk~True|(VP VB (PRT (RP together)) NP)|0.500000
-sprinkle~True|(VP VBP (PP (IN with) NP))|0.484848
-simmer~True|(VP VB)|0.481481
-drain~True|(VP VB)|0.473684
-add~False|(VP VB NP)|0.473684
-transfer~True|(VP VB (PP (TO to) NP))|0.461538
-uncovered~True|(VP VBN)|0.444444
-cover~True|(VP VB)|0.428571
-turning~True|(VP VBG ADVP)|0.428571
-turn~True|(VP VB NP)|0.428571
-baking~False|(VP SYM NP)|0.416667
-mix~False|(VP VB (PRT (RP together)) NP)|0.405405
-bake~False|(VP VB (PP))|0.400000
-bake~False|(VP VB)|0.400000
-dressing~True|(VP VBG (PP (IN over) NP) (PP (IN about) NP))|0.400000
-soak~True|(VP VB (PRT (RP in)) NP)|0.400000
-soak~True|(VP VB)|0.400000
-run~False|(VP VBN S)|0.400000
-run~False|(VP VB ADVP)|0.400000
-turn~False|(VP VB NP (PRT (RP on)))|0.400000
-resembles~True|(VP VBZ)|0.400000
-resembles~True|(VP VBZ NP)|0.400000
-coat~True|(VP VB NP)|0.400000
-chilled~True|(VP VBD NP)|0.400000
-divide~True|(VP VBP (PP (IN in) NP))|0.400000
-dip~True|(VP VB (PP (IN into) NP))|0.400000
-cool~True|(VP VB)|0.394737
-cook~True|(VP VB)|0.391304
-saute~True|(VP VB NP)|0.375000
-fry~True|(VP VB NP)|0.375000
-fry~True|(VP VB NP (PP (IN on) NP))|0.375000
-drop~True|(VP VB (PP (IN in) NP))|0.375000
-cool~False|(VP VB (PP (IN on) NP))|0.375000
-heated~True|(VP VBN (PP (IN through)))|0.375000
-combined~True|(VP VBN)|0.375000
-remove~False|(VP VB NP)|0.370370
-shape~True|(VP VB NP (PP (IN into) NP))|0.363636
-bake~True|(VP VB)|0.363636
-refrigerate~True|(VP VB)|0.352941
-stir~False|(VP VB (PRT (RP together)) NP)|0.352941
-remove~True|(VP VB (PP (IN from) NP))|0.351852
-heat~False|(VP VB NP)|0.348837
-uncovered~False|(VP VBD , (PP (IN over) NP) (PP))|0.333333
-spread~False|(VP VBN (PP (IN in) NP))|0.333333
-covered~True|(VP VBD (PP (IN in) NP))|0.333333
-strain~True|(VP VB NP)|0.333333
-strain~True|(VP VB (PP ADVP (IN through) NP) (PP VBN (PP (IN with) NP)))|0.333333
-strain~True|(VP VB (PRT (RP out)) NP)|0.333333
-rub~True|(VP VB NP (PP (IN over) NP))|0.333333
-rub~True|(VP VB NP (PP (IN on) NP))|0.333333
-rub~True|(VP VB NP ADVP (PP (IN with) NP) NP)|0.333333
-boiling~True|(VP VBG)|0.333333
-cut~False|(VP VB NP)|0.333333
-warm~True|(VP VB (PRT (RP up)))|0.333333
-fill~False|(VP VB S)|0.333333
-make~False|(VP VB S)|0.333333
-reduce~False|(VP VB NP (PP (TO to) NP))|0.333333
-fold~False|(VP VBP (PP (IN in) NP))|0.333333
-brown~False|(VP VB NP)|0.333333
-mixing~False|(VP VBG (PRT (RP together)) NP)|0.333333
-mixing~False|(VP VBG ADVP (PP (IN with) NP))|0.333333
-mixing~False|(VP VBG)|0.333333
-season~False|(VP VB (PP (IN with) NP))|0.333333
-marinate~True|(VP VB (PP (IN in) NP))|0.333333
-form~False|(VP VBP)|0.333333
-cooled~True|(VP VBD S)|0.333333
-melt~False|(VP VB NP (PP (IN in) NP))|0.333333
-garnish~True|(VP VB NP)|0.333333
-wrap~False|(VP VB (PRT (RP in)) NP)|0.333333
-wrap~False|(VP VB NP ADVP (PP (IN in) NP))|0.333333
-wrap~False|(VP VB NP (PP (IN around) NP))|0.333333
-rub~False|(VP VB NP (PP (IN onto) NP))|0.333333
-rub~False|(VP VB NP ADVP (PP (IN with) NP) NP)|0.333333
-rub~False|(VP VB NP (PP (IN with) NP))|0.333333
-uncovered~True|(VP VBN (PP (IN in) NP))|0.333333
-dissolve~True|(VP VB NP)|0.333333
-seal~True|(VP VB VB (PP (IN in) NP))|0.333333
-seal~True|(VP VB)|0.333333
-store~True|(VP VB NP (PP (IN in) NP))|0.333333
-store~True|(VP VBP (PRT (RP in)) NP)|0.333333
-store~True|(VP VB (PP (IN in) NP))|0.333333
-turning~False|(VP VBG ADVP)|0.333333
-turning~False|(VP VBG ADVP (PP (TO to) NP))|0.333333
-greased~True|(VP VBD NP S)|0.333333
-mash~True|(VP VB NP)|0.333333
-mash~True|(VP VB NP (PP (IN with) NP))|0.333333
-mash~True|(VP VB (PP (IN with) NP))|0.333333
-pat~True|(VP VB (PP (IN into) NP))|0.333333
-pat~True|(VP VB NP)|0.333333
-pat~True|(VP VB (PP (IN with) NP))|0.333333
-sift~True|(VP VB NP)|0.333333
-heated~False|(VP VBN ADVP , (PP (IN about) NP))|0.333333
-remove~False|(VP VB (PP (IN from) NP))|0.333333
-butter~False|(VP VB NP)|0.333333
-press~False|(VP VB NP (PP (IN into) NP))|0.333333
-drizzle~True|(VP VB (PP (IN over) NP))|0.333333
-cover~False|(VP VB NP)|0.322581
-cream~False|(VP VB NP)|0.318182
-beat~False|(VP VB NP)|0.318182
-pour~False|(VP VB (PP (IN into) NP))|0.312500
-pour~False|(VP VB NP (PP (IN into) NP))|0.312500
-serve~True|(VP VB)|0.311111
-stir~True|(VP VB (PRT (RP in)) NP)|0.310976
-cook~False|(VP VB NP)|0.307692
-cook~False|(VP VB)|0.307692
-dip~True|(VP VB NP)|0.300000
-set~True|(VP VB (PRT (RP aside)))|0.296296
-set~True|(VP VBN)|0.296296
-refrigerate~True|(VP VB NP)|0.294118
-refrigerate~True|(VP VB ADVP)|0.294118
-place~True|(VP VB NP (PP (IN in) NP))|0.288462
-serving~False|(VP VBG)|0.285714
-turning~True|(VP VBG NP)|0.285714
-press~True|(VP VB (PP (IN into) NP))|0.285714
-freeze~True|(VP VB)|0.285714
-inserted~True|(VP VBN (PP (IN near) NP))|0.285714
-turn~True|(VP ADVP VB NP (PRT (RP over)))|0.285714
-stir~True|(VP VB (PP (IN in) NP))|0.274390
-bring~False|(VP VBP NP (PP (TO to) NP))|0.272727
-arrange~True|(VP VB NP (PP (IN in) NP))|0.272727
-heat~True|(VP VB NP (PP (IN in) NP))|0.263158
-marinate~False|(VP VB UCP)|0.250000
-marinate~False|(VP VB NP)|0.250000
-saute~True|(VP VB NP (PP (IN with) NP) , NP)|0.250000
-saute~True|(VP VB NP , NP)|0.250000
-form~True|(VP VBP)|0.250000
-wrap~True|(VP VB NP NP (PP (IN with) NP))|0.250000
-wrap~True|(VP VB NP ADVP (PP (IN around) NP))|0.250000
-boil~True|(VP VB VB NP)|0.250000
-coat~False|(VP VB)|0.250000
-coat~False|(VP ADVP VB NP (PP (IN with) NP))|0.250000
-using~True|(VP VBG)|0.250000
-drop~True|(VP VB (PRT (RP by)) NP)|0.250000
-roll~False|(VP VB (PRT (RP out)) NP)|0.250000
-roll~False|(VP VB NP (PP (IN into) NP))|0.250000
-brush~True|(VP VB NP (PP (IN with) NP))|0.250000
-brush~True|(VP VB (PP (IN with) NP))|0.250000
-whipped~True|(VP VBN NP (PP (IN with) NP))|0.250000
-sprinkle~False|(VP VBP NP (PP (IN over) NP))|0.250000
-cool~False|(VP VB ADVP)|0.250000
-repeat~True|(VP VB (PP (IN with) NP))|0.250000
-secure~True|(VP VB NP (PP (IN with) NP))|0.250000
-secure~True|(VP VB S)|0.250000
-taste~True|(VP VB (PP (IN with) NP))|0.250000
-grease~False|(VP ADVP VB NP)|0.250000
-combined~True|(VP RB VBN)|0.250000
-combined~True|(VP ADVP VBN)|0.250000
-shake~True|(VP VB NP)|0.250000
-put~False|(VP VB NP NP)|0.250000
-drop~False|(VP VB (PP (IN in) NP))|0.250000
-drop~False|(VP VB)|0.250000
-drop~False|(VP VB (PP (IN onto) NP))|0.250000
-drop~False|(VP VB NP)|0.250000
-whisk~True|(VP ADVP VB (PRT (RP in)) NP)|0.250000
-mix~False|(VP VB NP)|0.243243
-remove~True|(VP VB NP)|0.240741
-cook~True|(VP VB NP)|0.239130
-cream~True|(VP VB NP)|0.238095
-cream~True|(VP VB (PRT (RP together)) NP)|0.238095
-brown~True|(VP VB NP (PP (IN on) NP))|0.235294
-brown~True|(VP VB)|0.235294
-browned~False|(VP VBN (PP (IN on) NP))|0.222222
-baking~True|(VP VBG)|0.222222
-sift~False|(VP VB NP)|0.222222
-cooked~True|(VP VBN ADVP)|0.222222
-cooked~True|(VP VBN)|0.222222
-cooked~True|(VP AUX ADJP)|0.222222
-cooked~True|(VP ADVP VBN)|0.222222
-uncovered~True|(VP VBD , (PP (IN over) NP) (PP))|0.222222
-simmer~True|(VP VB NP)|0.222222
-fold~True|(VP VBP (PP (IN in) NP))|0.222222
-fold~True|(VP VB (PP (IN in) NP))|0.222222
-cut~True|(VP VB (PP (IN into) NP))|0.214286
-cut~True|(VP VBD (PP (IN into) NP))|0.214286
-bake~True|(VP VB (PP (IN in) NP))|0.207792
-bake~False|(VP VB NP)|0.200000
-soak~True|(VP VB NP)|0.200000
-run~False|(VP VBP ADJP)|0.200000
-arrange~False|(VP VB NP (PP (IN in) NP))|0.200000
-arrange~False|(VP VB NP (PP (IN around) NP))|0.200000
-turn~False|(VP VB (PP RB ADJP))|0.200000
-turn~False|(VP VB NP (PP (IN into) NP))|0.200000
-turn~False|(VP VB NP (PP (IN out) (PP (IN onto) NP)))|0.200000
-whisk~False|(VP VB NP)|0.200000
-whisk~False|(VP VB NP (PP (IN in) NP))|0.200000
-resembles~True|(VP VBZ ADJP)|0.200000
-coat~True|(VP ADVP VB NP)|0.200000
-coat~True|(VP VB ADVP (PP (IN with) NP))|0.200000
-coat~True|(VP VB NP ADVP (PP (IN with) NP))|0.200000
-browned~True|(VP VBN (PP (IN on) NP))|0.200000
-chilled~True|(VP VBD NP NP)|0.200000
-chilled~True|(VP VBN , NP)|0.200000
-chilled~True|(VP VBN)|0.200000
-mixing~True|(VP VBG (PP ADVP (IN after) NP))|0.200000
-mixing~True|(VP VBG ADVP)|0.200000
-mixing~True|(VP VBG ADVP (PP (IN with) NP))|0.200000
-mixing~True|(VP VBG)|0.200000
-mixing~True|(VP VBG NP)|0.200000
-return~True|(VP VB NP (PP (TO to) NP))|0.200000
-make~True|(VP VB S)|0.200000
-reduce~True|(VP VB ADVP)|0.200000
-divide~True|(VP VB NP (PP (IN in) NP))|0.200000
-divide~True|(VP VB NP (PP (IN into) NP))|0.200000
-divide~True|(VP VBP NP (PP (IN among) NP))|0.200000
-dip~True|(VP VB NP (PP (IN into) NP))|0.200000
-mix~True|(VP VB ADVP)|0.195402
-bring~True|(VP VB NP (PP (TO to) NP))|0.195122
-cover~True|(VP VB NP)|0.190476
-grease~False|(VP VB)|0.187500
-remove~False|(VP VB NP (PP (IN from) NP))|0.185185
-mix~True|(VP VB (PRT (RP together)) NP)|0.183908
-season~True|(VP VB (PP (IN with) NP) (PP (TO to) NP))|0.181818
-melt~True|(VP VB NP (PP (IN in) NP))|0.181818
-bring~False|(VP VB (PP (TO to) NP))|0.181818
-cream~False|(VP VB (PRT (RP together)) NP)|0.181818
-arrange~True|(VP VB NP (PP (IN on) NP))|0.181818
-serve~True|(VP VB ADJP)|0.177778
-top~True|(VP VB NP (PP (IN with) NP))|0.176471
-stir~False|(VP VB (PRT (RP in)) NP)|0.176471
-stir~False|(VP VB (PP (IN in) NP))|0.176471
-brown~True|(VP VB NP)|0.176471
-pour~True|(VP VB NP (PP (IN into) NP))|0.171429
-serve~False|(VP VB ADJP (PP (PP (IN over) NP)))|0.166667
-serve~False|(VP VB NP (PP (IN over) NP))|0.166667
-serve~False|(VP VB)|0.166667
-spread~False|(VP VBN ADVP)|0.166667
-spread~False|(VP VB NP (PP (IN on) NP))|0.166667
-spread~False|(VP VBN NP)|0.166667
-spread~False|(VP VBD (PP (IN onto) NP))|0.166667
-cut~False|(VP VB ADVP)|0.166667
-make~False|(VP VB ADJP)|0.166667
-brown~False|(VP VB NP (PP (IN over) NP))|0.166667
-brown~False|(VP VB NP (PP (IN on) NP))|0.166667
-brown~False|(VP VB)|0.166667
-brown~False|(VP VB (PP (IN on) NP))|0.166667
-season~False|(VP VB NP)|0.166667
-marinate~True|(VP VB ADVP (PP (IN in) NP))|0.166667
-marinate~True|(VP VB NP (PP (IN in) NP))|0.166667
-marinate~True|(VP VB UCP)|0.166667
-marinate~True|(VP VB NP)|0.166667
-put~True|(VP VB NP NP)|0.166667
-blend~True|(VP VB (PRT (RP in)) NP)|0.166667
-seal~True|(VP VB NP)|0.166667
-seal~True|(VP VB (PP (IN with) NP))|0.166667
-spoon~True|(VP VB NP)|0.166667
-spoon~True|(VP VB (PP (IN into) NP))|0.166667
-spoon~True|(VP VB NP (PP (IN into) NP))|0.166667
-spoon~True|(VP VB (PP (IN about) NP) (PP (IN onto) NP))|0.166667
-spoon~True|(VP VB NP ADVP (PP (IN over) NP))|0.166667
-spoon~True|(VP VB (PRT (RP off)) NP)|0.166667
-removing~True|(VP VBG NP ADVP)|0.166667
-turning~False|(VP VBG (PP RB (TO to) NP))|0.166667
-turning~False|(VP VBG ADVP , (PP (PP (TO to) NP) , (PP (TO to) NP)))|0.166667
-butter~False|(VP VB)|0.166667
-drizzle~True|(VP VB NP (PP (IN over) NP))|0.166667
-drizzle~True|(VP VB ADVP (PP (IN over) NP))|0.166667
-drizzle~True|(VP VB (PP (PP (IN with) NP) , (PP (IN in) NP)))|0.166667
-drizzle~True|(VP VB (PP (IN with) NP))|0.166667
-cool~True|(VP VB ADVP)|0.157895
-add~False|(VP VB NP (PP (TO to) NP))|0.157895
-spread~True|(VP VB NP (PP (IN over) NP))|0.150000
-run~True|(VP VBN S)|0.150000
-mix~True|(VP VB (PP (IN in) NP))|0.149425
-mix~True|(VP VB NP)|0.149425
-set~True|(VP VB ADVP)|0.148148
-combine~False|(VP VB NP)|0.145631
-place~True|(VP VB NP (PP (IN on) NP))|0.144231
-cover~True|(VP VB (PP (IN with) NP))|0.142857
-turning~True|(VP VBG (PP RB (TO to) NP))|0.142857
-turning~True|(VP VBG ADVP , (PP (PP (TO to) NP) , (PP (TO to) NP)))|0.142857
-press~True|(VP VB ADVP (PP (IN in) NP))|0.142857
-press~True|(VP VB NP (PP (IN through) NP))|0.142857
-press~True|(VP VB NP (PP (IN onto) NP))|0.142857
-press~True|(VP VB NP (PP (IN into) NP))|0.142857
-press~True|(VP VB NP ADVP (PP (IN into) NP))|0.142857
-cut~True|(VP VB NP (PP (IN into) NP))|0.142857
-freeze~True|(VP VB NP)|0.142857
-freeze~True|(VP VB S)|0.142857
-freeze~True|(VP VB (PP (IN over) NP))|0.142857
-freeze~True|(VP VB (PP VBG (PP (TO to) NP)))|0.142857
-freeze~True|(VP VB ADVP)|0.142857
-pour~True|(VP VBP NP (PP (IN into) NP))|0.142857
-cream~True|(VP VB NP ADVP)|0.142857
-turn~True|(VP VB (PP (TO to) NP))|0.142857
-turn~True|(VP ADVP VB)|0.142857
-beat~True|(VP VB)|0.137255
-beat~True|(VP VB NP)|0.137255
-cream~False|(VP VB ADVP NP)|0.136364
-arrange~True|(VP VB NP (PP (IN around) NP))|0.136364
-arrange~True|(VP VB (PP (IN on) NP))|0.136364
-beat~False|(VP VB (PRT (RP together)) NP)|0.136364
-mix~False|(VP VB (PP (IN in) NP))|0.135135
-add~True|(VP VB NP (PP (TO to) NP))|0.135135
-place~True|(VP VB NP (PP (IN into) NP))|0.134615
-stand~True|(VP VBP)|0.133333
-stand~True|(VP VB NP)|0.133333
-desired~True|(VP VBD)|0.133333
-reduce~False|(VP ADVP VB NP (PP (TO to) NP))|0.133333
-serve~True|(VP VB (PP (IN with) NP))|0.133333
-serve~True|(VP VB ADVP)|0.133333
-saute~True|(VP VB)|0.125000
-fry~True|(VP VB NP (PP (PP (IN on) NP) ,))|0.125000
-fry~True|(VP VB NP , (PP (IN about) NP))|0.125000
-drop~True|(VP VB)|0.125000
-drop~True|(VP VB (PP (IN onto) NP))|0.125000
-drop~True|(VP VB (PP (PP (IN onto) NP)))|0.125000
-roll~False|(VP VB NP (PP (IN out) (PP (TO to) NP)))|0.125000
-roll~False|(VP VB (PRT (RP down)) NP)|0.125000
-roll~False|(VP VB NP , NP)|0.125000
-roll~False|(VP VB (PRT (RP out)) NP (PP (TO to) NP) (PP (IN about) NP))|0.125000
-cool~False|(VP VB (PP (IN in) NP) (PP (IN on) NP))|0.125000
-cool~False|(VP VB NP (PP (IN on) NP))|0.125000
-cool~False|(VP VB (PP (TO to) ADJP))|0.125000
-heated~True|(VP VBN ADVP)|0.125000
-place~True|(VP VB (PP (IN in) NP))|0.125000
-combined~True|(VP VBN ADVP)|0.125000
-whisk~True|(VP VB NP)|0.125000
-whisk~True|(VP VB NP (PP (IN into) NP))|0.125000
-sprinkle~True|(VP VBP NP)|0.121212
-sprinkle~True|(VP VBP ADVP (PP (IN with) NP))|0.121212
-roll~True|(VP VB NP (PP (IN out) (PP (TO to) NP)))|0.120000
-browned~True|(VP VBN)|0.120000
-top~True|(VP VB NNS (PP (IN with) NP))|0.117647
-top~True|(VP VBP NP)|0.117647
-brown~True|(VP ADVP VB (PP (IN on) NP))|0.117647
-browned~False|(VP VBD)|0.111111
-browned~False|(VP VBN)|0.111111
-chill~True|(VP VB NP)|0.111111
-chill~True|(VP VB ADVP)|0.111111
-set~True|(VP VBD ADVP)|0.111111
-baking~True|(VP VBG NP ADVP)|0.111111
-baking~True|(VP SYM NP)|0.111111
-sift~False|(VP VB ADVP NP)|0.111111
-sift~False|(VP VB (PRT RB) NP)|0.111111
-cooked~True|(VP VBN (PP (IN through) NP))|0.111111
-melted~True|(VP VBN , NP)|0.111111
-remove~True|(VP VB NP (PP (IN from) NP))|0.111111
-simmer~True|(VP VB (PP (IN over) NP))|0.111111
-fold~True|(VP VB NP (PRT (RP over)))|0.111111
-fold~True|(VP VB NP (PP (IN over) NP))|0.111111
-fold~True|(VP VBP)|0.111111
-stirring~False|(VP VBG NP (PP (IN through) NP))|0.111111
-serving~True|(VP VBG (PP (IN on) NP))|0.107143
-drain~True|(VP VB (PP (IN on) NP))|0.105263
-drain~True|(VP VB (PRT (RP on)) NP)|0.105263
-drain~True|(VP VB VB NP)|0.105263
-cool~True|(VP VB (PP (IN on) NP))|0.105263
-add~False|(VP ADVP VB NP)|0.105263
-place~False|(VP VB (PP (IN in) NP))|0.104167
-spread~True|(VP VBN ADVP)|0.100000
-spread~True|(VP VBN (PP (IN over) NP))|0.100000
-spread~True|(VP VBD NP (PP (IN into) NP))|0.100000
-spread~True|(VP VBN NP (PP (IN with) NP) , (PP VBN))|0.100000
-fill~True|(VP VB (PP (TO to) NP) (PP (IN from) NP))|0.100000
-fill~True|(VP VB (PP (IN with) NP))|0.100000
-fill~True|(VP VB S)|0.100000
-top~False|(VP VB NNS (PP (IN with) NP))|0.100000
-top~False|(VP VB NP (PP (IN with) NP))|0.100000
-pour~True|(VP VB (PRT (RP over)) NP)|0.100000
-pour~True|(VP VB NP (PP (IN over) NP))|0.100000
-pour~True|(VP VB (PP (IN in) NP))|0.100000
-pour~True|(VP VB (PP (IN over) NP))|0.100000
-run~True|(VP VBP ADJP , NP)|0.100000
-make~True|(VP VBP NP (PP (IN in) NP))|0.100000
-make~True|(VP VB NP (PP (IN in) NP))|0.100000
-dip~True|(VP VB VB NP S)|0.100000
-beat~True|(VP VBD NP)|0.098039
-melt~False|(VP VB NP (PP (IN over) NP))|0.095238
-cream~True|(VP VB NP (PRT RB))|0.095238
-cream~True|(VP VB ADVP NP)|0.095238
-cream~True|(VP VB (PRT RB) NP)|0.095238
-combine~True|(VP VB NP)|0.093333
-cool~True|(VP VB VB)|0.092105
-stir~True|(VP VB (PRT (RP together)) NP)|0.091463
-melt~True|(VP ADVP VB)|0.090909
-melt~True|(VP VB NP (PP (IN over) NP))|0.090909
-melt~True|(VP VB NP ADVP)|0.090909
-arrange~True|(VP VB (PP (IN in) NP))|0.090909
-pour~True|(VP VB (PP (IN into) NP))|0.085714
-form~True|(VP VB NP (PP (IN into) NP))|0.083333
-place~False|(VP VB NP (PP (IN on) NP))|0.083333
-place~False|(VP VB NP (PP (IN into) NP))|0.083333
-using~True|(VP VBG NP SBAR)|0.083333
-using~True|(VP ADVP VBG NP)|0.083333
-blend~True|(VP VB (PP (IN in) NP))|0.083333
-blend~True|(VP VB S)|0.083333
-blend~True|(VP VB NP (PP (IN in) NP))|0.083333
-blend~True|(VP VB ADVP)|0.083333
-baking~False|(VP VBG NP (PP (IN into) NP))|0.083333
-roll~True|(VP VBP NP)|0.080000
-roll~True|(VP VB (PRT (RP up)) NP)|0.080000
-roll~True|(VP VB NP (PP (IN in) NP))|0.080000
-roll~True|(VP VB ADJP)|0.080000
-roll~True|(VP VB (PP (IN into) ADJP))|0.080000
-roll~True|(VP VB NP (PP (IN into) NP))|0.080000
-roll~True|(VP VB (PRT (RP up)))|0.080000
-roll~True|(VP VB (PRT (RP out)) (PP (TO to) NP))|0.080000
-roll~True|(VP ADVP VB (PRT (RP out)) NP)|0.080000
-stir~True|(VP VB NP (PP (IN into) NP))|0.079268
-beat~True|(VP VB (PRT (RP in)) NP)|0.078431
-cook~False|(VP VB (PP (IN on) NP))|0.076923
-cook~False|(VP VB (PP (IN over) NP) SBAR)|0.076923
-cook~False|(VP VB NP (PP (IN in) NP))|0.076923
-cook~False|(VP VB VB NP)|0.076923
-cook~False|(VP VB NP SBAR)|0.076923
-simmer~True|(VP VB VB (PP (TO to) NP))|0.074074
-simmer~True|(VP VB , ADVP , (PP))|0.074074
-remove~False|(VP VB (PP (TO to) NP))|0.074074
-bring~True|(VP VBP NP (PP (TO to) NP))|0.073171
-cut~True|(VP VB NP)|0.071429
-inserted~True|(VP ADVP VBN)|0.071429
-inserted~True|(VP VBN (PP (IN in) NP))|0.071429
-heat~False|(VP VB (PP (TO to) NP))|0.069767
-mix~True|(VP VB)|0.068966
-add~True|(VP VB (PP (TO to) NP))|0.067568
-stand~True|(VP VB (PP (IN in) NP))|0.066667
-stand~True|(VP VB S)|0.066667
-desired~True|(VP VBN NP)|0.066667
-cook~True|(VP VB (PRT (RP on)) NP)|0.065217
-bake~True|(VP VB (PP (IN in) NP) ,)|0.064935
-bake~True|(VP VB NP (PP (IN in) NP))|0.064935
-bake~True|(VP VB NP)|0.064935
-cover~False|(VP VB VB ADVP ADVP (PP (IN with) NP))|0.064516
-cover~False|(VP VB (PP (IN with) NP))|0.064516
-pour~False|(VP VB (PP (IN in) NP))|0.062500
-pour~False|(VP VB NP (PP (IN with) NP))|0.062500
-pour~False|(VP VB (PP (IN onto) NP))|0.062500
-pour~False|(VP VB (PP (IN into) NP) NP)|0.062500
-pour~False|(VP VB ADVP)|0.062500
-pour~False|(VP VBP NP (PP (IN into) NP))|0.062500
-sprinkle~True|(VP VBP (PP (IN over) NP))|0.060606
-refrigerate~True|(VP VB VB)|0.058824
-top~True|(VP VB NP)|0.058824
-stir~False|(VP VB ADVP NP)|0.058824
-beat~True|(VP VBP (PRT (RP together)) NP)|0.058824
-beat~True|(VP VB (PRT (RP in)) NP SBAR)|0.058824
-beat~True|(VP VB (PP (IN in) NP))|0.058824
-brown~True|(VP ADVP VB (PP (IN on) NP) , (PP (IN about) NP))|0.058824
-brown~True|(VP VB (PP (IN in) NP))|0.058824
-brown~True|(VP VB NP (PP (IN over) NP))|0.058824
-brown~True|(VP VB (PP (IN on) NP))|0.058824
-combine~False|(VP VB NP (PP (IN in) NP))|0.058252
-place~True|(VP VB NP)|0.057692
-mix~True|(VP VB (PRT (RP in)) NP)|0.057471
-remove~True|(VP VB (PP (TO to) NP))|0.055556
-remove~True|(VP VB (PRT (RP with)) NP (PP (TO to) NP))|0.055556
-fold~True|(VP VB (PP (RP in) NP))|0.055556
-fold~True|(VP VB (PP (IN into) NP))|0.055556
-fold~True|(VP VB NP)|0.055556
-fold~True|(VP VB (PP (IN in) NP) .)|0.055556
-stir~True|(VP VB)|0.054878
-mix~False|(VP VB (PRT (RP in)) NP)|0.054054
-combine~True|(VP VB NP (PP (IN in) NP))|0.053333
-combine~True|(VP VBP)|0.053333
-drain~True|(VP VB NP)|0.052632
-drain~True|(VP VB ADJP)|0.052632
-drain~True|(VP VB ADJP (PP (IN from) NP))|0.052632
-drain~True|(VP VB VB)|0.052632
-cool~True|(VP (PP (IN from) NP) , VB , VB VB ADVP)|0.052632
-add~False|(VP VBP NP)|0.052632
-add~False|(VP VB NP (PP (TO to) NP) , NP)|0.052632
-add~False|(VP VB)|0.052632
-add~False|(VP VB (PP (TO to) NP))|0.052632
-add~False|(VP VB ADVP)|0.052632
-heat~True|(VP VB)|0.052632
-heat~True|(VP VB (PP (IN over) NP))|0.052632
-heat~True|(VP VB (PP (TO to) NP))|0.052632
-heat~True|(VP VB ADVP)|0.052632
-spread~True|(VP ADVP VB (PRT (RP over)) NP)|0.050000
-spread~True|(VP VBN (PP (IN on) NP))|0.050000
-spread~True|(VP VBD NP NP)|0.050000
-spread~True|(VP ADVP VBN (PP (IN over) NP))|0.050000
-spread~True|(VP VBN NP)|0.050000
-spread~True|(VP VB NP (PP RB (IN on) NP))|0.050000
-spread~True|(VP VBN ADVP (PP (IN into) NP))|0.050000
-spread~True|(VP VB NP)|0.050000
-spread~True|(VP VBP NP (PP (IN into) NP))|0.050000
-run~True|(VP VB ADVP)|0.050000
-cover~True|(VP ADVP VB NP)|0.047619
-melt~False|(VP VB NP ADVP)|0.047619
-cream~True|(VP VB (PRT (RP together)) NP , NP)|0.047619
-cream~True|(VP VB NP , NP)|0.047619
-cream~False|(VP VB (PRT (RP together)) NP , NP)|0.045455
-cream~False|(VP VB NP , NP)|0.045455
-cream~False|(VP VB NP (PP (IN with) NP))|0.045455
-cream~False|(VP VB NP (PRT RB))|0.045455
-cream~False|(VP VB NP NP)|0.045455
-cream~False|(VP VB NP ADVP)|0.045455
-cream~False|(VP VB (PRT RB) NP)|0.045455
-cream~False|(VP VB NP SBAR)|0.045455
-arrange~True|(VP VB NP (PP (IN down) NP))|0.045455
-arrange~True|(VP VB (PP (IN over) NP))|0.045455
-arrange~True|(VP VB NP (PP (IN over) NP))|0.045455
-arrange~True|(VP VB NP)|0.045455
-beat~False|(VP VBP NP)|0.045455
-beat~False|(VP VB (PRT (RP in)) NP)|0.045455
-beat~False|(VP ADVP VB NP)|0.045455
-beat~False|(VP VBD NP (PP (IN with) NP))|0.045455
-beat~False|(VP VBD (PP (IN in) NP))|0.045455
-beat~False|(VP VBD NP)|0.045455
-beat~False|(VP VBD NP (PP (IN in) NP))|0.045455
-beat~False|(VP VBP NP (PP (IN on) NP))|0.045455
-beat~False|(VP VBD NP NP)|0.045455
-beat~False|(VP VB ADVP NP)|0.045455
-beat~False|(VP VB SBAR)|0.045455
-beat~False|(VP VB (PRT RB) NP)|0.045455
-serve~True|(VP VBP ADVP)|0.044444
-serve~True|(VP VB (PRT (RP on)) S)|0.044444
-serve~True|(VP VB (PP (IN on) NP))|0.044444
-cook~True|(VP VB NP ,)|0.043478
-cook~True|(VP VB (PP (IN on) NP))|0.043478
-pour~True|(VP VB NP)|0.042857
-place~False|(VP VB NP)|0.041667
-add~True|(VP VBP NP)|0.040541
-roll~True|(VP VB (PRT (RP out)) NP)|0.040000
-roll~True|(VP VB NP , NP)|0.040000
-roll~True|(VP VB (PP (IN into) NP))|0.040000
-roll~True|(VP VBP (PRT (RP out)) NP (PP (TO to) NP))|0.040000
-cool~True|(VP VB (PRT (RP in)) NP)|0.039474
-beat~True|(VP VB (PRT (RP together)) NP)|0.039216
-beat~True|(VP VBP NP (PP (IN on) NP))|0.039216
-beat~True|(VP VBP NP)|0.039216
-beat~True|(VP VBD (PP (IN in) NP))|0.039216
-bake~True|(VP VB (PRT (RP in)) NP)|0.038961
-bake~True|(VP VB NP ,)|0.038961
-combine~False|(VP VB NP (PP (IN with) NP))|0.038835
-combine~False|(VP VBP)|0.038835
-stirring~True|(VP VBG ,)|0.038462
-stirring~True|(VP VBG NP (PP (IN through) NP))|0.038462
-stirring~True|(VP VBG NP)|0.038462
-place~True|(VP VB (PRT (RP in)) NP)|0.038462
-place~True|(VP VB NP (PP (IN onto) NP))|0.038462
-set~True|(VP VBN ADVP)|0.037037
-set~True|(VP VBP NP (PRT (RP aside)))|0.037037
-set~True|(VP VBD)|0.037037
-set~True|(VP VB VB)|0.037037
-remove~True|(VP VB NP (PP (PP (IN from) NP) (PP (TO to) NP)))|0.037037
-remove~True|(VP VB (PP (PP (IN from) NP) (PP (TO to) NP)))|0.037037
-remove~True|(VP VB NP NP)|0.037037
-simmer~True|(VP VB (PP (IN in) NP))|0.037037
-remove~False|(VP ADVP VB NP)|0.037037
-serving~True|(VP VBG (PP (IN with) NP))|0.035714
-serving~True|(VP VBG SBAR)|0.035714
-cut~True|(VP VBN (PP (IN in) NP))|0.035714
-cut~True|(VP VBN (PP (IN with) NP))|0.035714
-cut~True|(VP VB NP (PP (IN in) NP))|0.035714
-cut~True|(VP VB NP NP (PP (IN through)))|0.035714
-cut~True|(VP VB NP NP)|0.035714
-cut~True|(VP VB NP (PP (IN from) NP))|0.035714
-cut~True|(VP VBN (PP (IN in) NP) .)|0.035714
-cut~True|(VP VBN NP)|0.035714
-cut~True|(VP VB (PRT (RP out)) NP)|0.035714
-cut~True|(VP VB SBAR)|0.035714
-mix~True|(VP VB NP (PP (IN with) NP))|0.034483
-cover~False|(VP VB VB (PP))|0.032258
-sprinkle~True|(VP VBP NP (PP (IN with) NP))|0.030303
-sprinkle~True|(VP VBP ADVP (PP (IN in) NP))|0.030303
-sprinkle~True|(VP VBP NP (PP (IN around) NP))|0.030303
-sprinkle~True|(VP VBP NP (PP (IN on) NP))|0.030303
-sprinkle~True|(VP VBP NP ADVP)|0.030303
-sprinkle~True|(VP VBP ADJP)|0.030303
-sprinkle~True|(VP VBP NP (PP (IN over) NP))|0.030303
-stir~False|(VP VBP (PRT (RP together)) NP NP)|0.029412
-stir~False|(VP ADVP VB SBAR)|0.029412
-stir~False|(VP VB NP (PP (IN into) NP))|0.029412
-stir~False|(VP VB NP)|0.029412
-stir~False|(VP VB (PRT (RP together)) NP (PP (IN in) NP))|0.029412
-stir~False|(VP VB (PRT (IN in)) NP)|0.029412
-stir~False|(VP VB (PP (IN in) : NP))|0.029412
-stir~False|(VP VB ADVP)|0.029412
-place~True|(VP VB (PP (IN on) NP))|0.028846
-pour~True|(VP VB NP (PP (IN onto) NP))|0.028571
-pour~True|(VP VB (PP (IN onto) NP))|0.028571
-mix~False|(VP VB ADVP (PP (IN with) NP))|0.027027
-mix~False|(VP VB NP , NP)|0.027027
-mix~False|(VP VB (PP (IN with) NP))|0.027027
-mix~False|(VP VB (PRT (RP together)) NP NP)|0.027027
-mix~False|(VP VB NP ADVP)|0.027027
-mix~False|(VP VB NP (PP (IN in) NP))|0.027027
-preheat~False|(VP VB NP (PP (IN on) NP))|0.027027
-add~True|(VP VB NP (PP (IN with) NP))|0.027027
-add~True|(VP VB ADJP)|0.027027
-combine~True|(VP VB NP (PP (IN with) NP) (PP (IN into) NP))|0.026667
-combine~True|(VP VBP NP ADVP)|0.026667
-cool~True|(VP VB (PRT (RP on)) NP)|0.026316
-cool~True|(VP VB (PP (IN in) NP))|0.026316
-cool~True|(VP VBP S)|0.026316
-cool~True|(VP VB (PP (TO to) NP))|0.026316
-bake~True|(VP VB (PP (PP (IN in) NP)))|0.025974
-bake~True|(VP VB NP (PP (IN in) NP) ,)|0.025974
-bake~True|(VP VB (PP))|0.025974
-bake~True|(VP VB NP PRN)|0.025974
-bake~True|(VP VB (PP (IN on) NP))|0.025974
-stir~True|(VP VB (PP (IN into) NP))|0.024390
-stir~True|(VP VB ADVP)|0.024390
-cover~True|(VP VB (PP (IN with) NP) NP)|0.023810
-cover~True|(VP VB VB (PP))|0.023810
-cover~True|(VP VB SBAR)|0.023810
-cover~True|(VP VB NP (PP (IN with) NP))|0.023810
-cover~True|(VP VB VB (PP (IN on) NP))|0.023810
-cover~True|(VP VB NP ADVP (PP (IN with) NP))|0.023810
-cover~True|(VP VB VB (PP (IN in) NP))|0.023810
-cover~True|(VP VB NP ADVP)|0.023810
-heat~False|(VP VB NP (PP (RP in) NP))|0.023256
-heat~False|(VP VB (PP (IN over) NP))|0.023256
-heat~False|(VP VB NP (PP (TO to) NP))|0.023256
-mix~True|(VP VB (PRT (RP together)))|0.022989
-mix~True|(VP VB (PRT (RP together)) ADVP)|0.022989
-mix~True|(VP VB (PP (IN into) NP))|0.022989
-serve~True|(VP VB (PP VBN (PP (IN with) NP)))|0.022222
-serve~True|(VP VB NP)|0.022222
-serve~True|(VP VB (PP (IN over) NP))|0.022222
-serve~True|(VP VB (PP (IN on) NP) (PP (IN with) NP))|0.022222
-serve~True|(VP VBP ADJP)|0.022222
-cook~True|(VP VB (PP (IN over) NP) SBAR)|0.021739
-cook~True|(VP VB (PP (IN in) NP))|0.021739
-cook~True|(VP VB (PRT (RP down)))|0.021739
-cook~True|(VP VB ADVP (PP (IN with) NP) , (PP (IN about) NP))|0.021739
-cook~True|(VP VB (PP ,))|0.021739
-cook~True|(VP VB (PP , (PP (TO to) NP)))|0.021739
-cook~True|(VP VB NP SBAR)|0.021739
-cook~True|(VP VB VB NP)|0.021739
-cook~True|(VP VB NP ADVP)|0.021739
-cook~True|(VP VB ADVP)|0.021739
-place~False|(VP VB NP (PP (IN down) (PP (IN in) NP)))|0.020833
-place~False|(VP VB NP (PP (IN into) NP) (PP (IN with) NP))|0.020833
-place~False|(VP VB NP (PP (IN over) NP))|0.020833
-place~False|(VP VB (PP (IN onto) NP))|0.020833
-place~False|(VP VB NP ADVP (PP (IN in) NP))|0.020833
-place~False|(VP VB ADVP)|0.020833
-beat~True|(VP VBD NP (PP (IN with) NP))|0.019608
-beat~True|(VP VB (PP (IN on) NP))|0.019608
-beat~True|(VP VB (PRT RB) NP)|0.019608
-beat~True|(VP VB ADVP (PP (IN with) NP))|0.019608
-beat~True|(VP VB (PRT (RP on)) ADVP)|0.019608
-beat~True|(VP VB (PRT (RP in)) NP (PP RB (IN with) NP))|0.019608
-beat~True|(VP VBD NP (PP (IN in) NP))|0.019608
-beat~True|(VP VB SBAR)|0.019608
-beat~True|(VP VBP (PRT (RP in)) NP)|0.019608
-beat~True|(VP VB ADVP)|0.019608
-beat~True|(VP VBP NP (PP (IN into) NP))|0.019608
-combine~False|(VP VB)|0.019417
-combine~False|(VP VB S)|0.019417
-place~True|(VP VB NP (PP (IN into) NP) (PP (IN with) NP))|0.019231
-place~True|(VP VB NP (PP (IN into) NP) , NP)|0.019231
-place~True|(VP VB NP (PP ADVP (IN on) NP))|0.019231
-place~True|(VP VB NP (PRT (RP down)) (PP (IN on) NP))|0.019231
-remove~True|(VP ADVP VB NP (PP (IN from) NP))|0.018519
-remove~True|(VP VB)|0.018519
-remove~True|(VP VB (PP (IN from) ADJP))|0.018519
-remove~True|(VP VB NP (PP (TO to) NP))|0.018519
-stir~True|(VP ADVP VB (PRT (RP in)) NP)|0.018293
-pour~True|(VP VB NP NP (PP (IN into) NP))|0.014286
-pour~True|(VP VB NP (PRT (RP over)))|0.014286
-pour~True|(VP VB (PP (IN in) NP) (PP (TO to) NP))|0.014286
-pour~True|(VP VB (PP (IN into) NP) S)|0.014286
-pour~True|(VP VB (PP (IN into) NP) NP)|0.014286
-pour~True|(VP VBP (PP (IN in) NP))|0.014286
-pour~True|(VP VBP (PP (IN into) NP))|0.014286
-add~True|(VP VBP (PP (TO to) NP) ADVP)|0.013514
-add~True|(VP VB NP (PP (IN on) NP))|0.013514
-add~True|(VP VB NP ADVP (PP (TO to) NP))|0.013514
-add~True|(VP VB NP (PP (TO to) NP) , NP)|0.013514
-add~True|(VP VB)|0.013514
-add~True|(VP VB NP NP)|0.013514
-add~True|(VP VB NP , NP)|0.013514
-add~True|(VP VBP)|0.013514
-combine~True|(VP VBP NP (PP (IN in) NP))|0.013333
-combine~True|(VP VB)|0.013333
-combine~True|(VP VB S)|0.013333
-cool~True|(VP VB NP (PP (IN on) NP))|0.013158
-cool~True|(VP VB (PP (TO to) ADJP))|0.013158
-cool~True|(VP VB ADVP (PP (IN in) NP))|0.013158
-cool~True|(VP VB (PRT RB))|0.013158
-bake~True|(VP VB (PP (IN in) NP) (PP (TO to) NP) , (PP (IN about) NP))|0.012987
-bake~True|(VP VB (PP ,))|0.012987
-stir~True|(VP VB (PP (IN into) NP) (PP ADVP (IN until) ADJP))|0.012195
-stir~True|(VP VB (PP (IN in) NP) (PP (IN with) NP))|0.012195
-stir~True|(VP VB (PP (IN with) NP) SBAR)|0.012195
-stir~True|(VP VBP (PP (IN in) NP) (PP (IN with) NP))|0.012195
-mix~True|(VP VB SBAR)|0.011494
-mix~True|(VP VB NP (PP (IN into) NP) SBAR)|0.011494
-mix~True|(VP VB ADVP (PP (IN with) NP))|0.011494
-mix~True|(VP VB NP , NP)|0.011494
-mix~True|(VP VB NP (PP (IN into) NP))|0.011494
-mix~True|(VP VB (PP (IN with) NP) SBAR)|0.011494
-mix~True|(VP VB (PRT (RP together)) NP NP)|0.011494
-mix~True|(VP VB NP (PP (IN in) NP))|0.011494
-combine~False|(VP VBP NP (PP (IN in) NP))|0.009709
-combine~False|(VP VBP S)|0.009709
-place~True|(VP VBP (PP (IN in) NP))|0.009615
-place~True|(VP VB NP (PP VBG (PP (IN on) NP)))|0.009615
-place~True|(VP VB ADVP (PP (IN on) NP))|0.009615
-place~True|(VP VB ADVP (PP (IN into) NP))|0.009615
-place~True|(VP VBP NP ADVP)|0.009615
-place~True|(VP VB NP (PP (IN in)))|0.009615
-place~True|(VP VB NP (PP (IN over) NP))|0.009615
-stir~True|(VP VB (PP (IN in) NP) (PP NP))|0.006098
-stir~True|(VP ADVP VBP (PRT (RP in)) NP)|0.006098
-stir~True|(VP VB (PRT (RP in)))|0.006098
-stir~True|(VP VBP (PRT (RP together)) NP NP)|0.006098
-stir~True|(VP VBP (PP (IN in) ADJP))|0.006098
-stir~True|(VP VB NP (PP (IN into) S))|0.006098
-stir~True|(VP VB NP)|0.006098
-stir~True|(VP VB (PP (IN in) NP NN))|0.006098
-stir~True|(VP VB (PRT (RP over)) NP NP)|0.006098
-stir~True|(VP ADVP VB (PP (IN in) NP))|0.006098
-stir~True|(VP VB (PRT (RP together)) NP (PP (IN in) NP))|0.006098
-stir~True|(VP VBP (PP (IN in) NP) (PP (TO to) NP))|0.006098
+heaping~True~False|(VP VBG NP)|1.000000
+brownies~True~False|(VP VBZ (PP (IN into) NP))|1.000000
+securing~True~False|(VP VBG (PP (IN with) NP))|1.000000
+butter~True~False|(VP VB (PP (IN in) NP))|1.000000
+finished~True~True|(VP VBN NP)|1.000000
+poke~True~False|(VP VBD NP (PP (IN with) NP))|1.000000
+frosting~True~False|(VP VBN (PRT (RP over)) NP)|1.000000
+incorporated~True~False|(VP VBN)|1.000000
+gets~True~False|(VP VBZ (PP (IN into) NP))|1.000000
+bite-size~False~True|(VP VB NP)|1.000000
+flattened~True~False|(VP VBD NP (PP (IN into) NP))|1.000000
+crimp~True~False|(VP VB S)|1.000000
+measure~True~False|(VP VB NP (PP (IN into) NP))|1.000000
+clean~False~False|(VP VB)|1.000000
+crush~False~False|(VP VB NP)|1.000000
+combine~True~True|(VP VBP NP)|1.000000
+reads~True~False|(VP VBZ NP)|1.000000
+heated~False~True|(VP VBN ADVP , (PP (IN about) NP))|1.000000
+dissolve~False~False|(VP VB NP (PP (IN in) NP))|1.000000
+heating~False~False|(VP VBG NP)|1.000000
+discard~True~False|(VP VB NP)|1.000000
+melted~False~False|(VP VBN)|1.000000
+dipping~False~True|(VP AUX NP)|1.000000
+bringing~True~False|(VP VBG NP (PP (TO to) NP))|1.000000
+distribute~True~False|(VP VB NP ADVP (PP (IN over) NP))|1.000000
+placed~True~False|(VP VBN (PP (IN in) NP) ADVP)|1.000000
+warm~True~False|(VP VB NP)|1.000000
+carving~True~False|(VP VBG)|1.000000
+glaze~False~False|(VP VB)|1.000000
+look~False~False|(VP VB (PP (IN like) NP))|1.000000
+attach~True~True|(VP VB NP (PP (IN with) NP))|1.000000
+wipe~True~False|(VP ADVP VB NP)|1.000000
+measure~False~False|(VP VB NP (PP (IN into) NP))|1.000000
+covered~False~True|(VP VBN)|1.000000
+blend~True~True|(VP VB)|1.000000
+round~True~False|(VP VBP NP)|1.000000
+shell~True~True|(VP VB (PP (TO to) NP (PP (IN so) NP)))|1.000000
+followed~True~False|(VP VBN)|1.000000
+slather~True~False|(VP VB (PP (IN on) NP))|1.000000
+butter~True~True|(VP VB (PP (IN in) NP))|1.000000
+broil~True~False|(VP VB NP ,)|1.000000
+discard~False~False|(VP VB NP)|1.000000
+beating~True~False|(VP VBG (PP ADVP (IN after) NP))|1.000000
+grease~False~True|(VP VB)|1.000000
+grate~True~False|(VP VB NP (PP (IN over) NP))|1.000000
+leave~True~False|(VP VB NP)|1.000000
+unroll~False~False|(VP VBP NP)|1.000000
+open~True~False|(VP VB ADVP)|1.000000
+cut~False~True|(VP VB ADVP)|1.000000
+saute~False~False|(VP VB NP)|1.000000
+warm~False~False|(VP VB NP)|1.000000
+listed~False~False|(VP VBN)|1.000000
+make~False~True|(VP VB S)|1.000000
+check~True~False|(VP VB NP (PP (IN after) NP))|1.000000
+cooking~True~True|(VP VBG NP)|1.000000
+shaking~True~True|(VP VBG NP (PP (TO to) NP))|1.000000
+reduce~False~False|(VP VB NP)|1.000000
+transfer~False~False|(VP VB (PP (TO to) NP))|1.000000
+cornbread~False~False|(VP VB (PP VBG (PP (TO to) NP)))|1.000000
+glaze~True~False|(VP VB (PRT (RP over)) NP)|1.000000
+dissolved~False~False|(VP VBN)|1.000000
+flow~True~False|(VP VB ADVP (PP (IN through) NP))|1.000000
+surface~True~True|(VP VB NP ADVP , (PP (IN about) NP))|1.000000
+guacamole~True~False|(VP VBD (PP (IN over) NP))|1.000000
+plank~False~False|(VP VBD (PP (IN in) NP))|1.000000
+saving~False~False|(VP VBG NP)|1.000000
+use~False~False|(VP VB NP)|1.000000
+lumps~True~False|(VP VBZ (PP (IN of) NP))|1.000000
+remain~True~False|(VP VBP)|1.000000
+strain~False~False|(VP VB (PP (IN through) NP))|1.000000
+cutting~True~False|(VP VBG (PP (IN into) NP))|1.000000
+dipping~True~False|(VP AUX NP)|1.000000
+greased~True~True|(VP VBN S)|1.000000
+sink~True~False|(VP VB NP)|1.000000
+shaped~False~False|(VP VBN NP)|1.000000
+shape~False~False|(VP VB (PP (IN into) NP))|1.000000
+becomes~True~True|(VP VBZ ADJP)|1.000000
+crumbled~False~False|(VP VBN NP)|1.000000
+peel~True~False|(VP VB)|1.000000
+trim~True~False|(VP VB NP)|1.000000
+shell~True~False|(VP VB)|1.000000
+clean~True~True|(VP VB)|1.000000
+keep~True~False|(VP VB S)|1.000000
+remaining~True~False|(VP VBG NP)|1.000000
+working~True~True|(VP VBG (PP (IN from) NP))|1.000000
+absorb~False~False|(VP VB NP)|1.000000
+spoon~True~True|(VP VB (PRT (RP off)) NP)|1.000000
+dissolved~True~False|(VP VBN)|1.000000
+take~True~True|(VP VB NP)|1.000000
+dredge~True~False|(VP VB NP (PP (IN in) NP))|1.000000
+saving~True~False|(VP VBG NP)|1.000000
+leave~True~True|(VP VB NP)|1.000000
+process~True~False|(VP VB)|1.000000
+saute~False~True|(VP VB NP)|1.000000
+preheat~False~True|(VP VB NP)|1.000000
+prepare~False~False|(VP VB NP)|1.000000
+suggested~False~False|(VP VBN)|1.000000
+replace~True~False|(VP VB NP)|1.000000
+simmering~True~False|(VP VBG NP)|1.000000
+cooking~True~False|(VP VBG NP)|1.000000
+finish~True~False|(VP VB NP)|1.000000
+needed~False~False|(VP VBN)|1.000000
+crumbled~True~False|(VP VBN NP)|1.000000
+sized~False~False|(VP VBD NP)|1.000000
+remaining~False~False|(VP VBG NP)|1.000000
+whisk~True~True|(VP VB (PRT (RP together)) NP)|1.000000
+melts~True~False|(VP VBZ)|1.000000
+chopped~False~False|(VP VBN NP)|1.000000
+rack~True~False|(VP VB (PP (TO to) NP))|1.000000
+spit~False~False|(VP VBD (PP (IN above) NP))|1.000000
+cool~False~True|(VP VB (PP (IN on) NP))|1.000000
+directed~False~False|(VP VBN (PP (IN on) NP))|1.000000
+appears~True~True|(VP VBZ ADJP)|1.000000
+becomes~True~False|(VP VBZ ADJP , (PP (IN about) NP))|1.000000
+enjoy~True~False|(VP VB)|1.000000
+reduce~True~True|(VP VB NP (PP (TO to) NP))|1.000000
+prepare~True~False|(VP VB)|1.000000
+suggested~True~False|(VP VBN)|1.000000
+smoothed~True~False|(VP ADVP VBN NP)|1.000000
+chill~False~False|(VP VB)|1.000000
+refrigerate~False~False|(VP VB)|1.000000
+cooking~False~False|(VP VBG NP)|1.000000
+used~False~False|(VP VBN)|1.000000
+stirring~False~True|(VP VBG ADVP)|1.000000
+coated~True~True|(VP VBN (PP (IN with) NP))|1.000000
+adding~True~True|(VP VBG NP)|1.000000
+dissolved~True~True|(VP VBN)|1.000000
+bring~False~True|(VP VB (PP (TO to) NP))|1.000000
+take~True~False|(VP VB NP)|1.000000
+sized~True~False|(VP VBD NP)|1.000000
+leaves~True~True|(VP VBZ NP)|1.000000
+fitted~True~False|(VP VBN (PP (IN with) NP))|1.000000
+prevent~True~False|(VP VB NP)|1.000000
+chopped~True~False|(VP VBN NP)|1.000000
+reserving~False~False|(VP VBG NP)|1.000000
+lower~True~False|(VP VB NP)|1.000000
+pat~False~False|(VP VB ADJP)|1.000000
+stems~True~False|(VP VBZ)|1.000000
+directed~True~False|(VP VBN (PP (IN on) NP))|1.000000
+toasted~True~False|(VP ADVP VBD)|1.000000
+fry~False~True|(VP VB NP UCP)|1.000000
+attach~False~True|(VP VB NP)|1.000000
+smoking~True~False|(VP AUX ADJP)|1.000000
+chill~False~True|(VP VB ADVP)|1.000000
+oven~False~True|(VP VBN (PP (TO to) NP))|1.000000
+keep~False~True|(VP VB S)|1.000000
+stuffed~True~False|(VP VBD NP)|1.000000
+remaining~False~True|(VP VBG NP)|1.000000
+thicken~True~True|(VP VB)|1.000000
+tossing~False~False|(VP VBG NP)|1.000000
+wrapped~True~False|(VP VBD (PP (IN in) NP))|1.000000
+dropped~True~False|(VP VBD (PP (IN into) NP) ADVP , NP)|1.000000
+resembles~True~True|(VP VBZ)|1.000000
+simmer~False~True|(VP VB (PP (IN over) NP))|1.000000
+whipping~False~False|(VP VBG NP)|1.000000
+starting~True~False|(VP VBG (PP (IN from) NP))|1.000000
+1-in~True~False|(VP VB)|1.000000
+stand~True~True|(VP VBP)|1.000000
+prevent~False~False|(VP VB NP)|1.000000
+pushed~True~True|(VP VBD)|1.000000
+equal~True~False|(VP VBP NP)|1.000000
+grind~True~True|(VP ADVP VB S)|1.000000
+rolled~True~False|(VP VBD (PRT (RP out)) NP)|1.000000
+adjust~True~True|(VP VB NP)|1.000000
+leaving~True~False|(VP VBG NP)|1.000000
+smooth~False~False|(VP VB (PP (IN with) NP))|1.000000
+empty~True~False|(VP VBP NP (PP (IN into) NP))|1.000000
+reserving~True~False|(VP VBG NP)|1.000000
+topping~True~False|(VP VBG (PP (IN with) NP))|1.000000
+stick~True~False|(VP VB NP (PP (IN into) NP))|1.000000
+wire~True~False|(VP VB NP)|1.000000
+pile~True~False|(VP VB (PP (IN on) NP))|1.000000
+become~True~False|(VP VBN ADJP)|1.000000
+firm~True~False|(VP VB)|1.000000
+removing~False~False|(VP VBG (PP (PP (IN from) NP) (PP (TO to) NP)))|1.000000
+adding~True~False|(VP VBG NP)|1.000000
+toasted~False~False|(VP VBD)|1.000000
+garnish~False~True|(VP VB (PP (IN with) NP))|1.000000
+escape~True~False|(VP VB)|1.000000
+tender~False~True|(VP VBP)|1.000000
+doing~True~True|(VP VBG NP)|1.000000
+comes~True~False|(VP VBZ ADVP)|1.000000
+baguette~False~False|(VP VB (PP (IN in) NP))|1.000000
+reserve~False~False|(VP VB NP)|1.000000
+blackened~True~False|(VP VBN)|1.000000
+sprinkle~False~True|(VP VBP (PP (IN with) NP))|1.000000
+begins~False~False|(VP VBZ (PP (TO to) NP))|1.000000
+finish~False~False|(VP VB NP)|1.000000
+chopped~True~True|(VP VBN NP)|1.000000
+pour~False~True|(VP VB (PP (IN into) NP))|1.000000
+oven~False~False|(VP VBN (PP (TO to) NP))|1.000000
+forms~True~False|(VP VBZ NP)|1.000000
+batter~False~False|(VP VB ADVP (PP (IN in) NP))|1.000000
+maintain~True~False|(VP VB NP)|1.000000
+1-in~False~False|(VP VB)|1.000000
+fry~False~False|(VP VB NP , (PP (IN about) NP))|1.000000
+marinate~False~True|(VP VB NP)|1.000000
+slather~True~True|(VP VB (PP (IN on) NP))|1.000000
+criss-cross~True~False|(VP VBP NP)|1.000000
+toss~True~False|(VP VB NP)|1.000000
+boil~True~False|(VP VB)|1.000000
+shake~True~True|(VP VB ADVP)|1.000000
+pecans~True~False|(VP VBZ (PP (IN into) NP))|1.000000
+in.~True~False|(VP VBG (PP (PP (IN from) NP)))|1.000000
+moisten~True~False|(VP VB)|1.000000
+reduced~True~False|(VP VBN)|1.000000
+incorporate~True~False|(VP VB ADVP (PP (IN after) NP))|1.000000
+loaf~True~False|(VP VBD NP (PP (IN with) NP))|1.000000
+adding~False~False|(VP VBG NP)|1.000000
+makes~True~False|(VP VBZ NP)|1.000000
+wrap~False~True|(VP VB (PRT (RP in)) NP)|1.000000
+squeeze~True~False|(VP VB (PP (IN on) NP))|1.000000
+melted~True~True|(VP VBN)|1.000000
+repeat~True~True|(VP VB NP)|1.000000
+decorate~True~False|(VP VB SBAR)|1.000000
+chop~False~False|(VP VB NP)|1.000000
+flip~True~False|(VP VB (PP (IN out) (PP (IN of) NP)) (PP (IN onto) NP))|1.000000
+plank~True~False|(VP VBD NP ,)|1.000000
+spreading~True~False|(VP VBG (PRT (RP out)) (PP (TO to) NP))|1.000000
+thicken~True~False|(VP VB (PP (IN upon) NP))|1.000000
+move~False~False|(VP VB (PP (TO to) NP))|1.000000
+attained~True~False|(VP VBN)|1.000000
+rounded~True~False|(VP VBD NP (PP (IN onto) NP) ADVP)|1.000000
+using~False~False|(VP VBG NP)|1.000000
+seasoning~True~False|(VP VBG (PRT (RP over)) NP ADVP)|1.000000
+equal~False~False|(VP VB NP)|1.000000
+expose~False~False|(VP VB NP)|1.000000
+label~True~False|(VP VB VB NP)|1.000000
+tablespoonfuls~False~False|(VP VBZ (PP (IN into) NP))|1.000000
+tender~False~False|(VP VB)|1.000000
+toss~False~False|(VP VB NP)|1.000000
+inch~True~True|(VP VB ADJP)|1.000000
+baste~True~False|(VP VB ADVP (PP (IN during) NP))|1.000000
+soak~True~True|(VP VB (PRT (RP in)) NP)|1.000000
+form~True~True|(VP VB NP)|1.000000
+browned~False~True|(VP VBN (PP (IN on) NP))|1.000000
+use~True~False|(VP VB NP)|1.000000
+stand~False~False|(VP VB)|1.000000
+grind~False~False|(VP ADVP VB S)|1.000000
+scoops~False~False|(VP VBZ (PP (IN of) NP) (PP (IN around) NP))|1.000000
+heated~True~True|(VP VBN (PRT (RP through)))|1.000000
+chop~True~False|(VP ADVP VB)|1.000000
+coat~True~True|(VP VB NP)|1.000000
+whipped~False~False|(VP VBN NP)|1.000000
+teaspoonfuls~False~False|(VP VBZ NP (PP (IN into) NP))|1.000000
+ladle~True~False|(VP VB (PP (IN into) NP))|1.000000
+burn~True~False|(VP VB (PRT (RP off)))|1.000000
+according~True~True|(VP NN (PP VBG (PP (TO to) NP)))|1.000000
+attained~True~True|(VP VBN)|1.000000
+slicing~True~False|(VP VBG (PP (IN across) NP) SBAR)|1.000000
+sounds~True~False|(VP VBZ (PP (IN during) NP))|1.000000
+tender~True~False|(VP VB)|1.000000
+handle~True~False|(VP VB)|1.000000
+takes~True~False|(VP VBZ NP)|1.000000
+halves~False~False|(VP VBZ (PP (IN with) NP))|1.000000
+soften~False~False|(VP VB NP (PP (PP (IN on) NP)))|1.000000
+mix~False~True|(VP VB (PP (IN in) NP))|1.000000
+slip~False~False|(VP VB NP)|1.000000
+boils~True~False|(VP VBZ)|1.000000
+punch~True~True|(VP VB NP (PRT (RP down)))|1.000000
+melted~False~True|(VP VBN)|1.000000
+fry~True~True|(VP VB NP (PP (PP (IN on) NP) ,))|1.000000
+4-inch~True~False|(VP VB NP (PP (IN with) NP))|1.000000
+return~False~True|(VP VB NP (PP (TO to) NP))|1.000000
+puree~False~False|(VP VB NP)|1.000000
+butter~False~True|(VP VB (PP (IN in) NP))|1.000000
+oven~True~True|(VP VBN (PP (TO to) NP))|1.000000
+divided~False~False|(VP VBN)|1.000000
+combined~True~True|(VP VBN)|1.000000
+remaining~True~True|(VP VBG NP)|1.000000
+rolled~True~True|(VP VBD (PRT (RP out)) NP)|1.000000
+drop~False~True|(VP VB (PP (IN in) NP))|1.000000
+coated~False~True|(VP VBN (PP (IN with) NP))|1.000000
+listed~False~True|(VP VBN)|1.000000
+rinse~False~False|(VP VB NP)|1.000000
+stuffing~False~False|(VP VBG (PP VBG (PP (TO to) NP)))|1.000000
+assemble~True~False|(VP VB NP)|1.000000
+adjust~False~True|(VP VB S)|1.000000
+recommended~False~False|(VP VBN)|1.000000
+overlapping~True~False|(VP VBG)|1.000000
+enclosed~True~False|(VP ADVP VBN)|1.000000
+want~True~False|(VP VB NP)|1.000000
+come~False~False|(VP VBP (PP (IN out) (PP (IN of) NP)))|1.000000
+lined~True~False|(VP VBD NP)|1.000000
+crumble~True~False|(VP VB NP)|1.000000
+opaque~True~False|(VP VB ADVP VBN (PP (IN with) NP))|1.000000
+placing~True~False|(VP VBG NP (PP (IN in) NP))|1.000000
+folded~True~False|(VP VBN (PP (IN into) NP))|1.000000
+tender~True~True|(VP VBP)|1.000000
+fold~True~True|(VP VB NP (PP (IN over) NP))|1.000000
+brownies~True~True|(VP VBZ (PP (IN into) NP))|1.000000
+toasting~True~False|(VP VBG NP)|1.000000
+doubled~True~False|(VP VBN (PP (IN in) NP))|1.000000
+deglaze~False~False|(VP VB)|1.000000
+bite-size~False~False|(VP VB NP)|1.000000
+cooled~False~False|(VP ADVP VBD NP (PP (IN with) NP))|1.000000
+turn~False~True|(VP VB NP (PRT (RP on)))|1.000000
+coated~False~False|(VP VBN (PP (IN with) NP))|1.000000
+punch~True~False|(VP VB NP)|1.000000
+frying~False~False|(VP VBG (PP (IN in) NP))|1.000000
+coated~True~False|(VP VBN (PP (IN with) NP))|1.000000
+rinse~True~False|(VP VB NP)|1.000000
+return~False~False|(VP VB NP (PP (TO to) NP))|1.000000
+combined~False~False|(VP VBN)|1.000000
+recommended~True~False|(VP VBN)|1.000000
+let~True~False|(VP VB ADJP)|1.000000
+heated~False~False|(VP VBN (PRT (RP through)))|1.000000
+press~False~True|(VP VB (PP (IN into) NP))|1.000000
+draw~False~False|(VP VB NP)|1.000000
+spinach~True~False|(VP VBP NP (PP (IN onto) NP))|1.000000
+frosting~False~False|(VP VBN (PRT (RP over)) NP)|1.000000
+wrap~True~True|(VP VB NP ADVP (PP (IN around) NP))|1.000000
+opaque~False~False|(VP VB ADVP VBN (PP (IN with) NP))|1.000000
+saute~True~True|(VP VB NP)|1.000000
+warm~True~True|(VP VB (PRT (RP up)))|1.000000
+registers~True~True|(VP VBZ NP)|1.000000
+toasting~False~False|(VP VBG NP)|1.000000
+drop~True~True|(VP VB (PP (IN in) NP))|1.000000
+try~True~False|(VP VB NP (PP VBG (PP (IN on) NP)))|1.000000
+fill~True~True|(VP VB NP (PP (IN with) NP))|1.000000
+plank~True~True|(VP VBD NP ,)|1.000000
+drawn~True~False|(VP VBN (PP (IN on) NP))|1.000000
+pound~True~False|(VP ADVP VB NP)|1.000000
+discarded~False~False|(VP VBN VBN)|1.000000
+serving~False~True|(VP VBG NP)|1.000000
+follow~True~False|(VP VB NP)|1.000000
+covered~False~False|(VP VBN)|1.000000
+season~True~True|(VP VB (PP (IN with) NP) (PP (TO to) NP))|1.000000
+according~False~False|(VP NN (PP VBG (PP (TO to) NP)))|1.000000
+preheat~False~False|(VP VB NP)|0.972222
+stirring~True~False|(VP VBG ADVP)|0.888889
+stirring~True~True|(VP VBG ADVP)|0.875000
+melted~True~False|(VP VBN)|0.875000
+season~True~False|(VP VB (PP (IN with) NP))|0.857143
+stirring~False~False|(VP VBG ADVP)|0.857143
+bring~True~False|(VP VB (PP (TO to) NP))|0.842105
+put~True~False|(VP VBN (PP (IN into) NP))|0.833333
+drain~True~True|(VP VB)|0.833333
+make~True~False|(VP VB NP)|0.833333
+removing~True~False|(VP VBG (PP (PP (IN from) NP) (PP (TO to) NP)))|0.833333
+serving~True~False|(VP VBG)|0.821429
+return~True~False|(VP VB (PP (TO to) NP))|0.800000
+top~False~False|(VP VB (PP (IN with) NP))|0.800000
+desired~True~False|(VP VBN)|0.800000
+dip~True~True|(VP VB (PP (IN into) NP))|0.800000
+chill~True~False|(VP VB)|0.777778
+run~True~False|(VP VBP ADJP)|0.769231
+cook~False~True|(VP VB)|0.750000
+whipped~True~False|(VP VBN NP)|0.750000
+put~False~False|(VP VBN (PP (IN into) NP))|0.750000
+turn~True~False|(VP VB NP)|0.750000
+taste~True~False|(VP VB)|0.750000
+stir~False~True|(VP VB (PRT (RP in)) NP)|0.750000
+shake~True~False|(VP VB ADVP)|0.714286
+browned~True~False|(VP ADVP VBN)|0.700000
+using~True~False|(VP VBG NP)|0.700000
+combine~True~False|(VP VBP NP)|0.690141
+cover~False~True|(VP VB)|0.687500
+combine~False~False|(VP VBP NP)|0.684211
+repeat~True~False|(VP VB NP)|0.666667
+fold~False~False|(VP VB (PP (IN in) NP))|0.666667
+turning~False~True|(VP VBG ADVP)|0.666667
+garnish~True~False|(VP VB (PP (IN with) NP))|0.666667
+fill~False~False|(VP VB NP (PP (IN with) NP))|0.666667
+serving~False~False|(VP VBG)|0.666667
+marinate~False~False|(VP VB NP (PP (IN in) NP))|0.666667
+form~False~False|(VP VB NP)|0.666667
+arrange~True~True|(VP VB NP (PP (IN around) NP))|0.666667
+uncovered~False~False|(VP VBN)|0.666667
+soak~True~False|(VP VB)|0.666667
+adjust~True~False|(VP VB (PP (TO to) NP))|0.666667
+sprinkle~False~False|(VP VBP (PP (IN with) NP))|0.666667
+melt~True~True|(VP VB NP)|0.666667
+arrange~False~False|(VP VB NP)|0.666667
+boiling~True~False|(VP VBG (PP (IN about) NP))|0.666667
+wrap~True~False|(VP VB NP (PP (IN around) NP))|0.666667
+inserted~True~False|(VP VBN (PP (IN into) NP))|0.666667
+cut~True~True|(VP VB NP (PP (IN into) NP))|0.666667
+uncovered~True~True|(VP VBN)|0.666667
+boil~True~True|(VP VB)|0.666667
+melt~False~True|(VP VB NP (PP (IN in) NP))|0.666667
+covered~True~False|(VP VBN)|0.666667
+sift~True~False|(VP VB (PRT (RP together)) NP)|0.666667
+dissolve~True~False|(VP VB NP (PP (IN in) NP))|0.666667
+cooled~True~False|(VP ADVP VBN NP)|0.666667
+stand~True~False|(VP VB)|0.642857
+bring~True~True|(VP VB (PP (TO to) NP))|0.636364
+shape~True~False|(VP VB (PP (IN into) NP))|0.636364
+form~True~False|(VP VB NP)|0.636364
+heat~True~False|(VP VB NP)|0.625000
+fill~True~False|(VP VB NP (PP (IN with) NP))|0.625000
+browned~False~False|(VP ADVP VBN)|0.625000
+grease~False~False|(VP VB NP)|0.600000
+cut~False~False|(VP VB NP (PP (IN into) NP))|0.600000
+dressing~True~False|(VP VBG (PP (IN with) NP))|0.600000
+browned~True~True|(VP ADVP VBN)|0.600000
+bring~False~False|(VP VB NP (PP (TO to) NP))|0.600000
+make~False~False|(VP VB NP)|0.600000
+add~True~False|(VP VB NP)|0.600000
+cover~True~True|(VP VB)|0.600000
+whisk~False~False|(VP VB (PRT (RP together)) NP)|0.600000
+bake~True~True|(VP VB)|0.571429
+run~True~True|(VP VBP ADJP)|0.571429
+place~False~False|(VP VB NP (PP (IN in) NP))|0.564103
+melt~False~False|(VP VB NP)|0.555556
+baking~True~False|(VP VBG NP)|0.555556
+place~False~True|(VP VB NP (PP (IN in) NP))|0.555556
+sift~False~False|(VP VB (PRT (RP together)) NP)|0.555556
+simmer~True~True|(VP VB)|0.545455
+transfer~True~False|(VP VB NP (PP (TO to) NP))|0.538462
+top~True~False|(VP VB (PP (IN with) NP))|0.529412
+add~False~False|(VP VB NP)|0.529412
+heat~False~False|(VP VB NP (PP (IN in) NP))|0.514286
+roll~True~True|(VP VB (PRT (RP out)) (PP (TO to) NP))|0.500000
+roll~True~True|(VP VB (PP (IN into) ADJP))|0.500000
+heat~False~True|(VP VB NP (PP (IN in) NP))|0.500000
+melt~True~False|(VP VB NP)|0.500000
+scoop~True~False|(VP VB NP (PP (IN into) NP))|0.500000
+scoop~True~False|(VP VB (PP (IN into) NP) NP)|0.500000
+wash~False~False|(VP VB NP)|0.500000
+wash~False~False|(VP VB VB NP (PP (IN into) NP))|0.500000
+peel~False~False|(VP VBP)|0.500000
+peel~False~False|(VP VB , ADVP)|0.500000
+season~False~False|(VP VB NP (PP (IN with) NP))|0.500000
+reduce~True~False|(VP VB NP (PP (TO to) NP))|0.500000
+reduce~True~False|(VP VB ADVP)|0.500000
+cooked~True~True|(VP VBN ADVP)|0.500000
+cooked~True~True|(VP ADVP VBN)|0.500000
+add~False~True|(VP VB NP (PP (TO to) NP) , NP)|0.500000
+add~False~True|(VP VB NP (PP (TO to) NP))|0.500000
+turning~True~False|(VP VBG ADVP)|0.500000
+spoon~False~False|(VP VB (PP (IN into) NP))|0.500000
+spoon~False~False|(VP VB NP (PP (IN onto) NP))|0.500000
+filling~True~False|(VP AUX UCP)|0.500000
+filling~True~False|(VP VBG)|0.500000
+batter~True~False|(VP VB (PP (IN in) NP))|0.500000
+batter~True~False|(VP VB)|0.500000
+baking~False~False|(VP VBG NP)|0.500000
+uncovered~True~False|(VP VBN (PP (IN in) NP))|0.500000
+broil~False~True|(VP VB PRN)|0.500000
+broil~False~True|(VP VB)|0.500000
+greased~True~False|(VP VBD NP S)|0.500000
+greased~True~False|(VP VBN S)|0.500000
+roll~False~True|(VP VB (PRT (RP down)) NP)|0.500000
+roll~False~True|(VP VB NP , NP)|0.500000
+spread~True~True|(VP VBN ADVP)|0.500000
+spread~True~True|(VP VB NP)|0.500000
+skim~False~False|(VP VB ADJP (PP (IN from) NP))|0.500000
+skim~False~False|(VP VB S)|0.500000
+brush~True~False|(VP VB NP)|0.500000
+set~False~False|(VP VBN (PP (IN over) NP))|0.500000
+set~False~False|(VP VB VB)|0.500000
+desired~False~False|(VP VBN)|0.500000
+desired~False~False|(VP VBN NP)|0.500000
+press~False~False|(VP VB (PP (IN into) NP))|0.500000
+press~False~False|(VP VB NP (PP (IN into) NP))|0.500000
+using~True~True|(VP VBG NP SBAR)|0.500000
+using~True~True|(VP VBG)|0.500000
+line~False~False|(VP VB NP)|0.500000
+line~False~False|(VP VB NP (PP (IN with) NP))|0.500000
+brush~False~False|(VP VB NP)|0.500000
+brush~False~False|(VP VB NP (PP (IN with) NP))|0.500000
+drain~False~False|(VP VB VB (PP (IN out) NP) (PP (IN from) ADJP))|0.500000
+drain~False~False|(VP VB (PP (IN off) NP))|0.500000
+secure~True~False|(VP VB (PP (IN with) NP))|0.500000
+add~True~True|(VP VB NP)|0.500000
+seal~True~True|(VP VB)|0.500000
+seal~True~True|(VP VB (PP (IN with) NP))|0.500000
+resembles~True~False|(VP VBZ NP)|0.500000
+garlic~True~False|(VP VB NP)|0.500000
+garlic~True~False|(VP VB ADJP)|0.500000
+soften~True~False|(VP VB NP (PP (PP (IN on) NP)))|0.500000
+soften~True~False|(VP VB VB)|0.500000
+boil~False~False|(VP VB (PP (IN in) NP))|0.500000
+boil~False~False|(VP VB)|0.500000
+wrap~False~False|(VP VB NP ADVP (PP (IN in) NP))|0.500000
+wrap~False~False|(VP VB NP (PP (IN around) NP))|0.500000
+run~False~False|(VP VBN S)|0.500000
+run~False~False|(VP VB ADVP)|0.500000
+inserted~False~False|(VP VBN (PP (IN near) NP))|0.500000
+inserted~False~False|(VP VBN)|0.500000
+spread~False~True|(VP VBN ADVP)|0.500000
+spread~False~True|(VP VBN (PP (IN in) NP))|0.500000
+seal~True~False|(VP VB VB (PP (IN in) NP))|0.500000
+arrange~False~True|(VP VB NP (PP (IN in) NP))|0.500000
+arrange~False~True|(VP VB NP)|0.500000
+serve~False~False|(VP VB (PP (IN with) NP))|0.500000
+heated~True~False|(VP VBN (PP (IN through)))|0.500000
+chilled~False~False|(VP VBD NP (PP (TO to) NP))|0.500000
+chilled~False~False|(VP VBN)|0.500000
+puree~True~False|(VP VB NP)|0.500000
+puree~True~False|(VP VB)|0.500000
+blend~False~False|(VP VB NP (PP (IN in) NP))|0.500000
+blend~False~False|(VP VB (PRT (RP together)) NP)|0.500000
+butter~False~False|(VP VB NP)|0.500000
+coat~False~False|(VP VB NP)|0.500000
+bake~False~True|(VP VB (PP))|0.500000
+bake~False~True|(VP VB)|0.500000
+inserted~True~True|(VP ADVP VBN)|0.500000
+inserted~True~True|(VP VBN (PP (IN near) NP))|0.500000
+give~True~False|(VP VB NP)|0.500000
+give~True~False|(VP VB NP (PP (TO to) NP))|0.500000
+seal~False~True|(VP VB VB (PP (IN in) NP))|0.500000
+seal~False~True|(VP VB)|0.500000
+sprinkle~True~False|(VP VBP (PP (IN with) NP))|0.484848
+remove~True~True|(VP VB (PP (IN from) NP))|0.478261
+reduce~False~True|(VP VB NP)|0.461538
+transfer~True~False|(VP VB (PP (TO to) NP))|0.461538
+heat~True~True|(VP VB NP)|0.454545
+cook~True~True|(VP VB)|0.448276
+cook~False~False|(VP VB NP)|0.444444
+simmer~True~False|(VP VB)|0.437500
+whisk~True~False|(VP VB (PRT (RP together)) NP)|0.428571
+mix~False~False|(VP VB (PRT (RP together)) NP)|0.428571
+fry~True~False|(VP VB NP)|0.428571
+fry~True~False|(VP VB NP (PP (IN on) NP))|0.428571
+baking~False~False|(VP SYM NP)|0.416667
+remove~False~False|(VP VB NP)|0.416667
+cut~False~False|(VP VB NP)|0.400000
+dressing~True~False|(VP VBG (PP (IN over) NP) (PP (IN about) NP))|0.400000
+heat~False~False|(VP VB NP)|0.400000
+dip~True~False|(VP VB NP)|0.400000
+dip~True~False|(VP VB NP (PP (IN into) NP))|0.400000
+cover~False~False|(VP VB NP)|0.400000
+remove~False~True|(VP VB (PP (IN from) NP))|0.400000
+divide~True~False|(VP VBP (PP (IN in) NP))|0.400000
+pour~True~True|(VP VB NP (PP (IN into) NP))|0.400000
+chilled~True~False|(VP VBD NP)|0.400000
+blend~True~False|(VP VB)|0.400000
+cool~True~False|(VP VB)|0.397260
+mix~True~True|(VP VB ADVP)|0.388889
+reduce~False~True|(VP VB NP (PP (TO to) NP))|0.384615
+heat~False~True|(VP VB (PP (TO to) NP))|0.375000
+cover~True~False|(VP VB)|0.375000
+combine~False~True|(VP VBP NP)|0.375000
+combine~False~True|(VP VB NP (PP (IN with) NP))|0.375000
+stir~False~False|(VP VB (PRT (RP together)) NP)|0.366667
+simmer~True~True|(VP VB NP)|0.363636
+shape~True~False|(VP VB NP (PP (IN into) NP))|0.363636
+heat~True~True|(VP VB NP (PP (IN in) NP))|0.363636
+refrigerate~True~False|(VP VB)|0.352941
+bake~True~False|(VP VB)|0.342857
+repeat~True~False|(VP VB (PP (IN with) NP))|0.333333
+fold~False~False|(VP VBP (PP (IN in) NP))|0.333333
+saute~True~False|(VP VB NP (PP (IN with) NP) , NP)|0.333333
+saute~True~False|(VP VB NP , NP)|0.333333
+turning~False~True|(VP VBG ADVP (PP (TO to) NP))|0.333333
+strain~True~False|(VP VB NP)|0.333333
+strain~True~False|(VP VB (PP ADVP (IN through) NP) (PP VBN (PP (IN with) NP)))|0.333333
+strain~True~False|(VP VB (PRT (RP out)) NP)|0.333333
+turn~True~True|(VP VB (PP (TO to) NP))|0.333333
+turn~True~True|(VP ADVP VB)|0.333333
+turn~True~True|(VP ADVP VB NP (PRT (RP over)))|0.333333
+drop~False~False|(VP VB NP)|0.333333
+drop~False~False|(VP VB)|0.333333
+drop~False~False|(VP VB (PP (IN onto) NP))|0.333333
+rub~False~False|(VP VB NP (PP (IN onto) NP))|0.333333
+rub~False~False|(VP VB NP ADVP (PP (IN with) NP) NP)|0.333333
+rub~False~False|(VP VB NP (PP (IN with) NP))|0.333333
+mixing~False~False|(VP VBG (PRT (RP together)) NP)|0.333333
+mixing~False~False|(VP VBG ADVP (PP (IN with) NP))|0.333333
+mixing~False~False|(VP VBG)|0.333333
+season~False~False|(VP VB (PP (IN with) NP))|0.333333
+garnish~True~False|(VP VB NP)|0.333333
+fill~False~False|(VP VB S)|0.333333
+turning~False~False|(VP VBG (PP RB (TO to) NP))|0.333333
+turning~False~False|(VP VBG ADVP , (PP (PP (TO to) NP) , (PP (TO to) NP)))|0.333333
+turning~False~False|(VP VBG ADVP (PP (TO to) NP))|0.333333
+rub~True~False|(VP VB NP (PP (IN over) NP))|0.333333
+rub~True~False|(VP VB NP (PP (IN on) NP))|0.333333
+rub~True~False|(VP VB NP ADVP (PP (IN with) NP) NP)|0.333333
+roll~False~False|(VP VB (PRT (RP out)) NP)|0.333333
+roll~False~False|(VP VB NP (PP (IN into) NP))|0.333333
+cover~False~False|(VP VB)|0.333333
+uncovered~True~False|(VP VBN)|0.333333
+turn~False~False|(VP VB NP (PP (IN into) NP))|0.333333
+turn~False~False|(VP VB NP (PP (IN out) (PP (IN onto) NP)))|0.333333
+turn~False~False|(VP VB (PP RB ADJP))|0.333333
+serving~False~False|(VP VBG NP)|0.333333
+marinate~True~False|(VP VB (PP (IN in) NP))|0.333333
+mash~True~False|(VP VB NP)|0.333333
+mash~True~False|(VP VB NP (PP (IN with) NP))|0.333333
+mash~True~False|(VP VB (PP (IN with) NP))|0.333333
+drizzle~True~False|(VP VB (PP (IN over) NP))|0.333333
+remove~False~True|(VP VB NP)|0.333333
+turning~True~True|(VP VBG (PP RB (TO to) NP))|0.333333
+turning~True~True|(VP VBG ADVP)|0.333333
+turning~True~True|(VP VBG NP)|0.333333
+marinate~False~False|(VP VB UCP)|0.333333
+form~False~False|(VP VBP)|0.333333
+arrange~True~True|(VP VB NP (PP (IN on) NP))|0.333333
+pat~True~False|(VP VB (PP (IN into) NP))|0.333333
+pat~True~False|(VP VB NP)|0.333333
+pat~True~False|(VP VB (PP (IN with) NP))|0.333333
+press~True~False|(VP VB (PP (IN into) NP))|0.333333
+press~True~False|(VP VB ADVP (PP (IN in) NP))|0.333333
+press~True~False|(VP VB NP (PP (IN through) NP))|0.333333
+brown~False~False|(VP VB NP)|0.333333
+uncovered~False~False|(VP VBD , (PP (IN over) NP) (PP))|0.333333
+soak~True~False|(VP VB NP)|0.333333
+adjust~True~False|(VP VB NP)|0.333333
+run~False~True|(VP VBN S)|0.333333
+run~False~True|(VP VB ADVP)|0.333333
+run~False~True|(VP VBP ADJP)|0.333333
+sprinkle~False~False|(VP VBP NP (PP (IN over) NP))|0.333333
+melt~True~True|(VP ADVP VB)|0.333333
+pour~False~False|(VP VB NP (PP (IN into) NP))|0.333333
+arrange~False~False|(VP VB NP (PP (IN around) NP))|0.333333
+boiling~True~False|(VP VBG)|0.333333
+store~True~False|(VP VB NP (PP (IN in) NP))|0.333333
+store~True~False|(VP VBP (PRT (RP in)) NP)|0.333333
+store~True~False|(VP VB (PP (IN in) NP))|0.333333
+bake~False~False|(VP VB NP)|0.333333
+bake~False~False|(VP VB (PP))|0.333333
+bake~False~False|(VP VB)|0.333333
+wrap~True~False|(VP VB NP NP (PP (IN with) NP))|0.333333
+cut~True~True|(VP VBD (PP (IN into) NP))|0.333333
+heated~True~False|(VP VBN (PRT (RP through)))|0.333333
+uncovered~True~True|(VP VBD , (PP (IN over) NP) (PP))|0.333333
+boil~True~True|(VP VB VB NP)|0.333333
+cool~True~True|(VP VB)|0.333333
+cool~True~True|(VP VB ADVP)|0.333333
+cool~True~True|(VP (PP (IN from) NP) , VB , VB VB ADVP)|0.333333
+melt~False~True|(VP VB NP)|0.333333
+covered~True~False|(VP VBD (PP (IN in) NP))|0.333333
+sift~True~False|(VP VB NP)|0.333333
+dissolve~True~False|(VP VB NP)|0.333333
+cooled~True~False|(VP VBD S)|0.333333
+remove~True~False|(VP VB NP)|0.322581
+stir~True~False|(VP VB (PRT (RP in)) NP)|0.318519
+beat~False~False|(VP VB NP)|0.318182
+cream~False~False|(VP VB NP)|0.318182
+arrange~True~False|(VP VB NP (PP (IN in) NP))|0.315789
+serve~True~False|(VP VB)|0.311111
+drain~True~False|(VP VB)|0.307692
+bring~False~False|(VP VBP NP (PP (TO to) NP))|0.300000
+brown~True~False|(VP VB)|0.300000
+place~True~False|(VP VB NP (PP (IN in) NP))|0.298969
+set~True~False|(VP VB (PRT (RP aside)))|0.296296
+set~True~False|(VP VBN)|0.296296
+refrigerate~True~False|(VP VB NP)|0.294118
+refrigerate~True~False|(VP VB ADVP)|0.294118
+cook~True~False|(VP VB NP)|0.294118
+cook~True~False|(VP VB)|0.294118
+drop~True~False|(VP VB (PP (IN in) NP))|0.285714
+drop~True~False|(VP VB (PRT (RP by)) NP)|0.285714
+cool~False~False|(VP VB ADVP)|0.285714
+cool~False~False|(VP VB (PP (IN on) NP))|0.285714
+place~True~True|(VP VB NP (PP (IN on) NP))|0.285714
+brown~True~True|(VP VB NP (PP (IN on) NP))|0.285714
+cooked~True~False|(VP VBN)|0.285714
+cooked~True~False|(VP AUX ADJP)|0.285714
+whisk~True~False|(VP ADVP VB (PRT (RP in)) NP)|0.285714
+freeze~True~False|(VP VB)|0.285714
+shake~True~False|(VP VB NP)|0.285714
+combined~True~False|(VP RB VBN)|0.285714
+combined~True~False|(VP VBN)|0.285714
+combined~True~False|(VP ADVP VBN)|0.285714
+run~True~True|(VP VBN S)|0.285714
+melt~False~False|(VP VB NP (PP (IN in) NP))|0.277778
+mix~True~True|(VP VB (PRT (RP together)) NP)|0.277778
+stir~True~True|(VP VB (PRT (RP in)) NP)|0.275862
+stir~True~True|(VP VB (PP (IN in) NP))|0.275862
+stir~True~False|(VP VB (PP (IN in) NP))|0.274074
+bring~True~True|(VP VB NP (PP (TO to) NP))|0.272727
+form~True~False|(VP VBP)|0.272727
+grease~False~False|(VP ADVP VB NP)|0.266667
+pour~False~False|(VP VB (PP (IN into) NP))|0.266667
+remove~True~False|(VP VB (PP (IN from) NP))|0.258065
+mix~False~False|(VP VB NP)|0.257143
+cook~False~True|(VP VB NP SBAR)|0.250000
+melt~True~False|(VP VB NP (PP (IN in) NP))|0.250000
+cover~False~True|(VP VB NP)|0.250000
+whipped~True~False|(VP VBN NP (PP (IN with) NP))|0.250000
+put~False~False|(VP VB NP NP)|0.250000
+turn~True~False|(VP ADVP VB NP (PRT (RP over)))|0.250000
+turning~True~False|(VP VBG ADVP , (PP (PP (TO to) NP) , (PP (TO to) NP)))|0.250000
+turning~True~False|(VP VBG NP)|0.250000
+cream~True~True|(VP VB (PRT (RP together)) NP)|0.250000
+cream~True~True|(VP VB NP ADVP)|0.250000
+cream~True~True|(VP VB (PRT RB) NP)|0.250000
+cream~True~True|(VP VB NP)|0.250000
+brush~True~False|(VP VB NP (PP (IN with) NP))|0.250000
+brush~True~False|(VP VB (PP (IN with) NP))|0.250000
+make~True~True|(VP VB NP)|0.250000
+make~True~True|(VP VBP NP (PP (IN in) NP))|0.250000
+make~True~True|(VP VB NP (PP (IN in) NP))|0.250000
+make~True~True|(VP VB S)|0.250000
+taste~True~False|(VP VB (PP (IN with) NP))|0.250000
+remove~False~False|(VP VB NP (PP (IN from) NP))|0.250000
+remove~False~False|(VP VB (PP (IN from) NP))|0.250000
+secure~True~False|(VP VB NP (PP (IN with) NP))|0.250000
+secure~True~False|(VP VB S)|0.250000
+add~True~True|(VP VBP NP)|0.250000
+add~True~True|(VP VB NP (PP (TO to) NP) , NP)|0.250000
+spread~False~False|(VP VB NP (PP (IN on) NP))|0.250000
+spread~False~False|(VP VBN (PP (IN in) NP))|0.250000
+spread~False~False|(VP VBN NP)|0.250000
+spread~False~False|(VP VBD (PP (IN onto) NP))|0.250000
+press~True~True|(VP VB (PP (IN into) NP))|0.250000
+press~True~True|(VP VB NP (PP (IN into) NP))|0.250000
+press~True~True|(VP VB NP (PP (IN onto) NP))|0.250000
+press~True~True|(VP VB NP ADVP (PP (IN into) NP))|0.250000
+resembles~True~False|(VP VBZ)|0.250000
+resembles~True~False|(VP VBZ ADJP)|0.250000
+stir~False~True|(VP VB (PRT (RP together)) NP)|0.250000
+seal~True~False|(VP VB NP)|0.250000
+seal~True~False|(VP VB)|0.250000
+inserted~True~False|(VP VBN (PP (IN near) NP))|0.250000
+coat~True~False|(VP ADVP VB NP)|0.250000
+coat~True~False|(VP VB NP)|0.250000
+coat~True~False|(VP VB ADVP (PP (IN with) NP))|0.250000
+coat~True~False|(VP VB NP ADVP (PP (IN with) NP))|0.250000
+butter~False~False|(VP VB)|0.250000
+butter~False~False|(VP VB (PP (IN in) NP))|0.250000
+coat~False~False|(VP VB)|0.250000
+coat~False~False|(VP ADVP VB NP (PP (IN with) NP))|0.250000
+cut~True~False|(VP VB (PP (IN into) NP))|0.240000
+fold~True~False|(VP VBP (PP (IN in) NP))|0.235294
+fold~True~False|(VP VB (PP (IN in) NP))|0.235294
+cream~True~False|(VP VB NP)|0.235294
+cream~True~False|(VP VB (PRT (RP together)) NP)|0.235294
+baking~True~False|(VP VBG)|0.222222
+sift~False~False|(VP VB NP)|0.222222
+cover~True~False|(VP VB NP)|0.218750
+bake~True~False|(VP VB (PP (IN in) NP))|0.214286
+cook~True~True|(VP VB NP)|0.206897
+return~True~False|(VP VB NP (PP (TO to) NP))|0.200000
+browned~True~True|(VP VBN (PP (IN on) NP))|0.200000
+browned~True~True|(VP VBN)|0.200000
+mixing~True~False|(VP VBG (PP ADVP (IN after) NP))|0.200000
+mixing~True~False|(VP VBG ADVP)|0.200000
+mixing~True~False|(VP VBG ADVP (PP (IN with) NP))|0.200000
+mixing~True~False|(VP VBG)|0.200000
+mixing~True~False|(VP VBG NP)|0.200000
+make~False~False|(VP VB ADJP)|0.200000
+make~False~False|(VP VB S)|0.200000
+dip~True~False|(VP VB VB NP S)|0.200000
+dip~True~True|(VP VB NP)|0.200000
+browned~True~False|(VP VBN (PP (IN on) NP))|0.200000
+brown~True~False|(VP ADVP VB (PP (IN on) NP))|0.200000
+brown~True~False|(VP VB NP (PP (IN on) NP))|0.200000
+brown~True~False|(VP VB NP)|0.200000
+spoon~True~False|(VP VB (PP (IN into) NP))|0.200000
+spoon~True~False|(VP VB NP)|0.200000
+spoon~True~False|(VP VB NP (PP (IN into) NP))|0.200000
+spoon~True~False|(VP VB (PP (IN about) NP) (PP (IN onto) NP))|0.200000
+spoon~True~False|(VP VB NP ADVP (PP (IN over) NP))|0.200000
+divide~True~False|(VP VB NP (PP (IN in) NP))|0.200000
+divide~True~False|(VP VB NP (PP (IN into) NP))|0.200000
+divide~True~False|(VP VBP NP (PP (IN among) NP))|0.200000
+whisk~False~False|(VP VB NP)|0.200000
+whisk~False~False|(VP VB NP (PP (IN in) NP))|0.200000
+using~True~False|(VP VBG)|0.200000
+stir~False~False|(VP VB (PP (IN in) NP))|0.200000
+pour~True~True|(VP VB (PP (IN into) NP) S)|0.200000
+pour~True~True|(VP VB (PP (IN into) NP) NP)|0.200000
+pour~True~True|(VP VB (PP (IN onto) NP))|0.200000
+chilled~True~False|(VP VBD NP NP)|0.200000
+chilled~True~False|(VP VBN , NP)|0.200000
+chilled~True~False|(VP VBN)|0.200000
+cut~True~False|(VP VBD (PP (IN into) NP))|0.200000
+blend~True~False|(VP VB (PRT (RP in)) NP)|0.200000
+mix~True~False|(VP VB NP)|0.188406
+simmer~True~False|(VP VB (PP (IN over) NP))|0.187500
+beat~True~True|(VP VBD NP)|0.181818
+beat~True~True|(VP VB NP)|0.181818
+cream~False~False|(VP VB (PRT (RP together)) NP)|0.181818
+serve~True~False|(VP VB ADJP)|0.177778
+top~True~False|(VP VB NP (PP (IN with) NP))|0.176471
+mix~True~False|(VP VB (PP (IN in) NP))|0.173913
+saute~True~False|(VP VB NP)|0.166667
+saute~True~False|(VP VB)|0.166667
+season~False~False|(VP VB NP)|0.166667
+roll~False~False|(VP VB (PRT (RP out)) NP (PP (TO to) NP) (PP (IN about) NP))|0.166667
+roll~False~False|(VP VB NP (PP (IN out) (PP (TO to) NP)))|0.166667
+put~True~False|(VP VB NP NP)|0.166667
+uncovered~True~False|(VP VBD , (PP (IN over) NP) (PP))|0.166667
+drain~True~True|(VP VB VB NP)|0.166667
+marinate~True~False|(VP VB ADVP (PP (IN in) NP))|0.166667
+marinate~True~False|(VP VB NP (PP (IN in) NP))|0.166667
+marinate~True~False|(VP VB UCP)|0.166667
+marinate~True~False|(VP VB NP)|0.166667
+make~True~False|(VP VB S)|0.166667
+drizzle~True~False|(VP VB NP (PP (IN over) NP))|0.166667
+drizzle~True~False|(VP VB ADVP (PP (IN over) NP))|0.166667
+drizzle~True~False|(VP VB (PP (PP (IN with) NP) , (PP (IN in) NP)))|0.166667
+drizzle~True~False|(VP VB (PP (IN with) NP))|0.166667
+mix~True~True|(VP VB)|0.166667
+brown~False~False|(VP VB NP (PP (IN over) NP))|0.166667
+brown~False~False|(VP VB NP (PP (IN on) NP))|0.166667
+brown~False~False|(VP VB)|0.166667
+brown~False~False|(VP VB (PP (IN on) NP))|0.166667
+spread~True~False|(VP VB NP (PP (IN over) NP))|0.166667
+removing~True~False|(VP VBG NP ADVP)|0.166667
+serve~False~False|(VP VB ADJP (PP (PP (IN over) NP)))|0.166667
+serve~False~False|(VP VB NP (PP (IN over) NP))|0.166667
+serve~False~False|(VP VB)|0.166667
+heated~True~False|(VP VBN ADVP)|0.166667
+mix~True~False|(VP VB (PRT (RP together)) NP)|0.159420
+arrange~True~False|(VP VB NP (PP (IN on) NP))|0.157895
+arrange~True~False|(VP VB (PP (IN on) NP))|0.157895
+combine~False~False|(VP VB NP)|0.157895
+cover~True~False|(VP VB (PP (IN with) NP))|0.156250
+reduce~False~True|(VP ADVP VB NP (PP (TO to) NP))|0.153846
+drain~True~False|(VP VB (PP (IN on) NP))|0.153846
+drain~True~False|(VP VB (PRT (RP on)) NP)|0.153846
+pour~True~False|(VP VB NP (PP (IN into) NP))|0.153846
+pour~True~False|(VP VBP NP (PP (IN into) NP))|0.153846
+cool~True~False|(VP VB ADVP)|0.150685
+beat~True~False|(VP VB)|0.150000
+set~True~False|(VP VB ADVP)|0.148148
+mix~True~False|(VP VB ADVP)|0.144928
+drop~True~False|(VP VB)|0.142857
+drop~True~False|(VP VB (PP (IN onto) NP))|0.142857
+drop~True~False|(VP VB (PP (PP (IN onto) NP)))|0.142857
+season~True~False|(VP VB (PP (IN with) NP) (PP (TO to) NP))|0.142857
+cool~False~False|(VP VB (PP (IN in) NP) (PP (IN on) NP))|0.142857
+cool~False~False|(VP VB NP (PP (IN on) NP))|0.142857
+cool~False~False|(VP VB (PP (TO to) ADJP))|0.142857
+place~True~True|(VP VB NP (PP (IN into) NP) (PP (IN with) NP))|0.142857
+place~True~True|(VP VB (PP (IN in) NP))|0.142857
+place~True~True|(VP VB NP (PP (IN into) NP))|0.142857
+place~True~True|(VP VB NP)|0.142857
+place~True~True|(VP VB NP (PP (IN in) NP))|0.142857
+brown~True~True|(VP ADVP VB (PP (IN on) NP) , (PP (IN about) NP))|0.142857
+brown~True~True|(VP VB NP)|0.142857
+brown~True~True|(VP VB)|0.142857
+brown~True~True|(VP VB NP (PP (IN over) NP))|0.142857
+brown~True~True|(VP VB (PP (IN on) NP))|0.142857
+cooked~True~False|(VP VBN ADVP)|0.142857
+cooked~True~False|(VP VBN (PP (IN through) NP))|0.142857
+cooked~True~False|(VP ADVP VBN)|0.142857
+whisk~True~False|(VP VB NP)|0.142857
+whisk~True~False|(VP VB NP (PP (IN into) NP))|0.142857
+add~True~False|(VP VB NP (PP (TO to) NP))|0.142857
+freeze~True~False|(VP VB NP)|0.142857
+freeze~True~False|(VP VB S)|0.142857
+freeze~True~False|(VP VB (PP (IN over) NP))|0.142857
+freeze~True~False|(VP VB (PP VBG (PP (TO to) NP)))|0.142857
+freeze~True~False|(VP VB ADVP)|0.142857
+stirring~False~False|(VP VBG NP (PP (IN through) NP))|0.142857
+bake~True~True|(VP VB (PP (IN in) NP))|0.142857
+bake~True~True|(VP VB NP (PP (IN in) NP))|0.142857
+bake~True~True|(VP VB (PRT (RP in)) NP)|0.142857
+stand~True~False|(VP VB NP)|0.142857
+fry~True~False|(VP VB NP , (PP (IN about) NP))|0.142857
+combined~True~False|(VP VBN ADVP)|0.142857
+run~True~True|(VP VBP ADJP , NP)|0.142857
+stir~True~True|(VP VB (PRT (RP together)) NP)|0.137931
+beat~False~False|(VP VB (PRT (RP together)) NP)|0.136364
+cream~False~False|(VP VB ADVP NP)|0.136364
+place~True~False|(VP VB NP (PP (IN on) NP))|0.134021
+place~True~False|(VP VB NP (PP (IN into) NP))|0.134021
+grease~False~False|(VP VB)|0.133333
+cover~False~False|(VP VB VB ADVP ADVP (PP (IN with) NP))|0.133333
+desired~True~False|(VP VBD)|0.133333
+remove~False~True|(VP VB NP (PP (IN from) NP))|0.133333
+serve~True~False|(VP VB (PP (IN with) NP))|0.133333
+serve~True~False|(VP VB ADVP)|0.133333
+roll~True~False|(VP VB NP (PP (IN out) (PP (TO to) NP)))|0.130435
+remove~True~True|(VP VB NP)|0.130435
+remove~True~False|(VP VB NP (PP (IN from) NP))|0.129032
+place~False~False|(VP VB (PP (IN in) NP))|0.128205
+heat~False~True|(VP VB NP)|0.125000
+melt~True~False|(VP VB NP (PP (IN over) NP))|0.125000
+melt~True~False|(VP VB NP ADVP)|0.125000
+beat~True~False|(VP VB NP)|0.125000
+simmer~True~False|(VP VB NP)|0.125000
+simmer~True~False|(VP VB VB (PP (TO to) NP))|0.125000
+heat~True~False|(VP VB (PP (IN over) NP))|0.125000
+heat~True~False|(VP VB ADVP)|0.125000
+heat~True~False|(VP VB NP (PP (IN in) NP))|0.125000
+stirring~True~True|(VP VBG ,)|0.125000
+combine~False~True|(VP VB NP (PP (IN in) NP))|0.125000
+combine~False~True|(VP VB S)|0.125000
+fill~True~False|(VP VB (PP (TO to) NP) (PP (IN from) NP))|0.125000
+fill~True~False|(VP VB (PP (IN with) NP))|0.125000
+fill~True~False|(VP VB S)|0.125000
+melted~True~False|(VP VBN , NP)|0.125000
+browned~False~False|(VP VBN (PP (IN on) NP))|0.125000
+browned~False~False|(VP VBD)|0.125000
+browned~False~False|(VP VBN)|0.125000
+place~True~False|(VP VB (PP (IN in) NP))|0.123711
+sprinkle~True~False|(VP VBP NP)|0.121212
+sprinkle~True~False|(VP VBP ADVP (PP (IN with) NP))|0.121212
+fold~True~False|(VP VB NP (PRT (RP over)))|0.117647
+fold~True~False|(VP VBP)|0.117647
+top~True~False|(VP VB NNS (PP (IN with) NP))|0.117647
+top~True~False|(VP VBP NP)|0.117647
+add~False~False|(VP ADVP VB NP)|0.117647
+add~False~False|(VP VB NP (PP (TO to) NP))|0.117647
+cream~True~False|(VP VB NP (PRT RB))|0.117647
+cream~True~False|(VP VB ADVP NP)|0.117647
+cream~True~False|(VP VB NP ADVP)|0.117647
+cook~True~False|(VP VB (PRT (RP on)) NP)|0.117647
+melt~False~False|(VP VB NP (PP (IN over) NP))|0.111111
+cook~False~False|(VP VB (PP (IN over) NP) SBAR)|0.111111
+cook~False~False|(VP VB)|0.111111
+cook~False~False|(VP VB NP (PP (IN in) NP))|0.111111
+cook~False~False|(VP VB VB NP)|0.111111
+cook~False~False|(VP VB (PP (IN on) NP))|0.111111
+set~True~False|(VP VBD ADVP)|0.111111
+chill~True~False|(VP VB NP)|0.111111
+chill~True~False|(VP VB ADVP)|0.111111
+baking~True~False|(VP VBG NP ADVP)|0.111111
+baking~True~False|(VP SYM NP)|0.111111
+spread~True~False|(VP VBN (PP (IN over) NP))|0.111111
+spread~True~False|(VP VBD NP (PP (IN into) NP))|0.111111
+spread~True~False|(VP VBN NP (PP (IN with) NP) , (PP VBN))|0.111111
+place~False~True|(VP VB NP (PP (IN on) NP))|0.111111
+place~False~True|(VP VB NP ADVP (PP (IN in) NP))|0.111111
+place~False~True|(VP VB (PP (IN onto) NP))|0.111111
+place~False~True|(VP VB NP (PP (IN into) NP) (PP (IN with) NP))|0.111111
+sift~False~False|(VP VB ADVP NP)|0.111111
+sift~False~False|(VP VB (PRT RB) NP)|0.111111
+cool~True~False|(VP VB (PP (IN on) NP))|0.109589
+pour~True~False|(VP VB (PRT (RP over)) NP)|0.107692
+pour~True~False|(VP VB NP (PP (IN over) NP))|0.107692
+pour~True~False|(VP VB (PP (IN in) NP))|0.107692
+pour~True~False|(VP VB (PP (IN over) NP))|0.107692
+serving~True~False|(VP VBG (PP (IN on) NP))|0.107143
+bring~True~False|(VP VB NP (PP (TO to) NP))|0.105263
+arrange~True~False|(VP VB (PP (IN in) NP))|0.105263
+stir~True~True|(VP VB)|0.103448
+stir~True~True|(VP VB ADVP)|0.103448
+place~False~False|(VP VB NP (PP (IN into) NP))|0.102564
+beat~True~False|(VP VB (PRT (RP in)) NP)|0.100000
+top~False~False|(VP VB NNS (PP (IN with) NP))|0.100000
+top~False~False|(VP VB NP (PP (IN with) NP))|0.100000
+bring~False~False|(VP VB (PP (TO to) NP))|0.100000
+browned~True~False|(VP VBN)|0.100000
+brown~True~False|(VP VB (PP (IN in) NP))|0.100000
+cover~True~True|(VP VB NP)|0.100000
+cover~True~True|(VP VB VB (PP))|0.100000
+cover~True~True|(VP VB (PP (IN with) NP))|0.100000
+cover~True~True|(VP VB VB (PP (IN on) NP))|0.100000
+using~True~False|(VP ADVP VBG NP)|0.100000
+stir~False~False|(VP VB (PRT (RP in)) NP)|0.100000
+blend~True~False|(VP VB (PP (IN in) NP))|0.100000
+blend~True~False|(VP VB S)|0.100000
+blend~True~False|(VP VB NP (PP (IN in) NP))|0.100000
+blend~True~False|(VP VB ADVP)|0.100000
+combine~True~False|(VP VB NP)|0.098592
+cool~True~False|(VP VB VB)|0.095890
+pour~True~False|(VP VB (PP (IN into) NP))|0.092308
+bring~True~True|(VP VBP NP (PP (TO to) NP))|0.090909
+simmer~True~True|(VP VB , ADVP , (PP))|0.090909
+beat~True~True|(VP VB (PRT (RP on)) ADVP)|0.090909
+beat~True~True|(VP VB (PRT (RP in)) NP SBAR)|0.090909
+beat~True~True|(VP VBD (PP (IN in) NP))|0.090909
+beat~True~True|(VP VB)|0.090909
+beat~True~True|(VP VBP NP (PP (IN on) NP))|0.090909
+beat~True~True|(VP VBD NP (PP (IN in) NP))|0.090909
+beat~True~True|(VP VB ADVP)|0.090909
+heat~True~True|(VP VB)|0.090909
+heat~True~True|(VP VB (PP (TO to) NP))|0.090909
+form~True~False|(VP VB NP (PP (IN into) NP))|0.090909
+roll~True~False|(VP VBP NP)|0.086957
+roll~True~False|(VP VB (PRT (RP up)) NP)|0.086957
+roll~True~False|(VP VB NP (PP (IN in) NP))|0.086957
+roll~True~False|(VP VB ADJP)|0.086957
+roll~True~False|(VP VB NP (PP (IN into) NP))|0.086957
+roll~True~False|(VP VB (PRT (RP up)))|0.086957
+roll~True~False|(VP ADVP VB (PRT (RP out)) NP)|0.086957
+remove~True~True|(VP VB NP (PP (IN from) NP))|0.086957
+mix~False~False|(VP VB (PP (IN in) NP))|0.085714
+baking~False~False|(VP VBG NP (PP (IN into) NP))|0.083333
+remove~False~False|(VP VB (PP (TO to) NP))|0.083333
+inserted~True~False|(VP VBN (PP (IN in) NP))|0.083333
+stir~True~False|(VP VB (PRT (RP together)) NP)|0.081481
+stir~True~False|(VP VB NP (PP (IN into) NP))|0.081481
+cut~True~False|(VP VB NP (PP (IN into) NP))|0.080000
+cut~True~False|(VP VB NP)|0.080000
+drain~True~False|(VP VB NP)|0.076923
+drain~True~False|(VP VB ADJP)|0.076923
+drain~True~False|(VP VB ADJP (PP (IN from) NP))|0.076923
+drain~True~False|(VP VB VB NP)|0.076923
+drain~True~False|(VP VB VB)|0.076923
+run~True~False|(VP VBP ADJP , NP)|0.076923
+run~True~False|(VP VBN S)|0.076923
+run~True~False|(VP VB ADVP)|0.076923
+place~False~False|(VP VB NP (PP (IN on) NP))|0.076923
+beat~True~False|(VP VB (PP (IN in) NP))|0.075000
+beat~True~False|(VP VBD NP)|0.075000
+beat~True~False|(VP VBP (PRT (RP together)) NP)|0.075000
+mix~True~False|(VP VB (PRT (RP in)) NP)|0.072464
+add~True~False|(VP VB (PP (TO to) NP))|0.071429
+stand~True~False|(VP VB (PP (IN in) NP))|0.071429
+stand~True~False|(VP VBP)|0.071429
+stand~True~False|(VP VB S)|0.071429
+bake~True~False|(VP VB (PP (IN in) NP) ,)|0.071429
+bake~True~False|(VP VB NP)|0.071429
+stir~True~True|(VP VB NP (PP (IN into) NP))|0.068966
+cook~True~True|(VP VB (PP (IN on) NP))|0.068966
+cover~False~False|(VP VB VB (PP))|0.066667
+cover~False~False|(VP VB (PP (IN with) NP))|0.066667
+desired~True~False|(VP VBN NP)|0.066667
+remove~False~True|(VP ADVP VB NP)|0.066667
+remove~False~True|(VP VB (PP (TO to) NP))|0.066667
+pour~False~False|(VP VB (PP (IN in) NP))|0.066667
+pour~False~False|(VP VB NP (PP (IN with) NP))|0.066667
+pour~False~False|(VP VB (PP (IN onto) NP))|0.066667
+pour~False~False|(VP VB (PP (IN into) NP) NP)|0.066667
+pour~False~False|(VP VB ADVP)|0.066667
+pour~False~False|(VP VBP NP (PP (IN into) NP))|0.066667
+stir~False~False|(VP VB ADVP NP)|0.066667
+remove~True~False|(VP VB NP (PP (PP (IN from) NP) (PP (TO to) NP)))|0.064516
+remove~True~False|(VP VB (PP (TO to) NP))|0.064516
+remove~True~False|(VP VB (PRT (RP with)) NP (PP (TO to) NP))|0.064516
+cover~False~True|(VP VB (PP (IN with) NP))|0.062500
+simmer~True~False|(VP VB , ADVP , (PP))|0.062500
+simmer~True~False|(VP VB (PP (IN in) NP))|0.062500
+cover~True~False|(VP ADVP VB NP)|0.062500
+sprinkle~True~False|(VP VBP (PP (IN over) NP))|0.060606
+fold~True~False|(VP VB (PP (RP in) NP))|0.058824
+fold~True~False|(VP VB (PP (IN into) NP))|0.058824
+fold~True~False|(VP VB NP (PP (IN over) NP))|0.058824
+fold~True~False|(VP VB NP)|0.058824
+fold~True~False|(VP VB (PP (IN in) NP) .)|0.058824
+refrigerate~True~False|(VP VB VB)|0.058824
+top~True~False|(VP VB NP)|0.058824
+add~False~False|(VP VBP NP)|0.058824
+add~False~False|(VP VB)|0.058824
+add~False~False|(VP VB (PP (TO to) NP))|0.058824
+add~False~False|(VP VB ADVP)|0.058824
+cream~True~False|(VP VB (PRT (RP together)) NP , NP)|0.058824
+cream~True~False|(VP VB NP , NP)|0.058824
+cream~True~False|(VP VB (PRT RB) NP)|0.058824
+cook~True~False|(VP VB (PRT (RP down)))|0.058824
+cook~True~False|(VP VB NP ,)|0.058824
+cook~True~False|(VP VB (PP (IN in) NP))|0.058824
+cook~True~False|(VP VB VB NP)|0.058824
+cook~True~False|(VP VB NP SBAR)|0.058824
+mix~False~False|(VP VB (PRT (RP in)) NP)|0.057143
+bake~True~False|(VP VB NP (PP (IN in) NP))|0.057143
+combine~True~False|(VP VB NP (PP (IN in) NP))|0.056338
+combine~True~False|(VP VBP)|0.056338
+melt~False~False|(VP VB NP ADVP)|0.055556
+mix~True~True|(VP VB (PRT (RP together)) ADVP)|0.055556
+mix~True~True|(VP VB (PRT (RP together)))|0.055556
+mix~True~True|(VP VB (PP (IN in) NP))|0.055556
+spread~True~False|(VP VBD NP NP)|0.055556
+spread~True~False|(VP ADVP VB (PRT (RP over)) NP)|0.055556
+spread~True~False|(VP VBN ADVP)|0.055556
+spread~True~False|(VP VBN (PP (IN on) NP))|0.055556
+spread~True~False|(VP ADVP VBN (PP (IN over) NP))|0.055556
+spread~True~False|(VP VBN NP)|0.055556
+spread~True~False|(VP VB NP (PP RB (IN on) NP))|0.055556
+spread~True~False|(VP VBN ADVP (PP (IN into) NP))|0.055556
+spread~True~False|(VP VBP NP (PP (IN into) NP))|0.055556
+stirring~True~False|(VP VBG NP (PP (IN through) NP))|0.055556
+stirring~True~False|(VP VBG NP)|0.055556
+bring~True~False|(VP VBP NP (PP (TO to) NP))|0.052632
+arrange~True~False|(VP VB NP (PP (IN down) NP))|0.052632
+arrange~True~False|(VP VB NP (PP (IN around) NP))|0.052632
+arrange~True~False|(VP VB (PP (IN over) NP))|0.052632
+arrange~True~False|(VP VB NP (PP (IN over) NP))|0.052632
+arrange~True~False|(VP VB NP)|0.052632
+combine~False~False|(VP VB NP (PP (IN in) NP))|0.052632
+place~True~False|(VP VB NP)|0.051546
+place~False~False|(VP VB NP)|0.051282
+beat~True~False|(VP VBP NP)|0.050000
+beat~True~False|(VP VB (PRT (RP in)) NP SBAR)|0.050000
+beat~True~False|(VP VB (PRT (RP together)) NP)|0.050000
+pour~True~False|(VP VB NP)|0.046154
+beat~False~False|(VP VBP NP)|0.045455
+beat~False~False|(VP VB (PRT (RP in)) NP)|0.045455
+beat~False~False|(VP ADVP VB NP)|0.045455
+beat~False~False|(VP VBD NP (PP (IN with) NP))|0.045455
+beat~False~False|(VP VBD (PP (IN in) NP))|0.045455
+beat~False~False|(VP VBD NP)|0.045455
+beat~False~False|(VP VBD NP (PP (IN in) NP))|0.045455
+beat~False~False|(VP VBP NP (PP (IN on) NP))|0.045455
+beat~False~False|(VP VBD NP NP)|0.045455
+beat~False~False|(VP VB ADVP NP)|0.045455
+beat~False~False|(VP VB SBAR)|0.045455
+beat~False~False|(VP VB (PRT RB) NP)|0.045455
+cream~False~False|(VP VB (PRT (RP together)) NP , NP)|0.045455
+cream~False~False|(VP VB NP , NP)|0.045455
+cream~False~False|(VP VB NP (PP (IN with) NP))|0.045455
+cream~False~False|(VP VB NP (PRT RB))|0.045455
+cream~False~False|(VP VB NP NP)|0.045455
+cream~False~False|(VP VB NP ADVP)|0.045455
+cream~False~False|(VP VB (PRT RB) NP)|0.045455
+cream~False~False|(VP VB NP SBAR)|0.045455
+stir~True~False|(VP VB)|0.044444
+serve~True~False|(VP VBP ADVP)|0.044444
+serve~True~False|(VP VB (PRT (RP on)) S)|0.044444
+serve~True~False|(VP VB (PP (IN on) NP))|0.044444
+roll~True~False|(VP VB (PRT (RP out)) NP)|0.043478
+roll~True~False|(VP VB NP , NP)|0.043478
+roll~True~False|(VP VB (PP (IN into) ADJP))|0.043478
+roll~True~False|(VP VB (PP (IN into) NP))|0.043478
+roll~True~False|(VP VB (PRT (RP out)) (PP (TO to) NP))|0.043478
+roll~True~False|(VP VBP (PRT (RP out)) NP (PP (TO to) NP))|0.043478
+mix~True~False|(VP VB)|0.043478
+mix~True~False|(VP VB NP (PP (IN with) NP))|0.043478
+remove~True~True|(VP ADVP VB NP (PP (IN from) NP))|0.043478
+remove~True~True|(VP VB)|0.043478
+remove~True~True|(VP VB (PP (TO to) NP))|0.043478
+remove~True~True|(VP VB (PP (PP (IN from) NP) (PP (TO to) NP)))|0.043478
+remove~True~True|(VP VB NP NP)|0.043478
+remove~True~True|(VP VB NP (PP (TO to) NP))|0.043478
+remove~True~True|(VP VB (PRT (RP with)) NP (PP (TO to) NP))|0.043478
+bake~True~False|(VP VB NP ,)|0.042857
+combine~False~False|(VP VBP)|0.042105
+place~True~False|(VP VB (PRT (RP in)) NP)|0.041237
+place~True~False|(VP VB NP (PP (IN onto) NP))|0.041237
+cool~True~False|(VP VB (PRT (RP in)) NP)|0.041096
+cool~True~False|(VP (PP (IN from) NP) , VB , VB VB ADVP)|0.041096
+cut~True~False|(VP VBN (PP (IN in) NP))|0.040000
+cut~True~False|(VP VBN (PP (IN with) NP))|0.040000
+cut~True~False|(VP VB NP (PP (IN in) NP))|0.040000
+cut~True~False|(VP VB NP NP (PP (IN through)))|0.040000
+cut~True~False|(VP VB NP NP)|0.040000
+cut~True~False|(VP VB NP (PP (IN from) NP))|0.040000
+cut~True~False|(VP VBN (PP (IN in) NP) .)|0.040000
+cut~True~False|(VP VBN NP)|0.040000
+cut~True~False|(VP VB (PRT (RP out)) NP)|0.040000
+cut~True~False|(VP VB SBAR)|0.040000
+set~True~False|(VP VBN ADVP)|0.037037
+set~True~False|(VP VBP NP (PRT (RP aside)))|0.037037
+set~True~False|(VP VBD)|0.037037
+set~True~False|(VP VB VB)|0.037037
+serving~True~False|(VP VBG (PP (IN with) NP))|0.035714
+serving~True~False|(VP VBG SBAR)|0.035714
+stir~True~True|(VP VB (PP (IN in) NP) (PP (IN with) NP))|0.034483
+cook~True~True|(VP VB (PRT (RP on)) NP)|0.034483
+cook~True~True|(VP VB (PP (IN over) NP) SBAR)|0.034483
+cook~True~True|(VP VB NP ,)|0.034483
+cook~True~True|(VP VB ADVP (PP (IN with) NP) , (PP (IN about) NP))|0.034483
+cook~True~True|(VP VB (PP ,))|0.034483
+cook~True~True|(VP VB (PP , (PP (TO to) NP)))|0.034483
+cook~True~True|(VP VB NP ADVP)|0.034483
+cook~True~True|(VP VB ADVP)|0.034483
+stir~False~False|(VP VBP (PRT (RP together)) NP NP)|0.033333
+stir~False~False|(VP ADVP VB SBAR)|0.033333
+stir~False~False|(VP VB NP (PP (IN into) NP))|0.033333
+stir~False~False|(VP VB NP)|0.033333
+stir~False~False|(VP VB (PRT (RP together)) NP (PP (IN in) NP))|0.033333
+stir~False~False|(VP VB (PRT (IN in)) NP)|0.033333
+stir~False~False|(VP VB (PP (IN in) : NP))|0.033333
+stir~False~False|(VP VB ADVP)|0.033333
+remove~True~False|(VP VB (PP (PP (IN from) NP) (PP (TO to) NP)))|0.032258
+remove~True~False|(VP VB (PP (IN from) ADJP))|0.032258
+remove~True~False|(VP VB NP NP)|0.032258
+cover~True~False|(VP VB (PP (IN with) NP) NP)|0.031250
+cover~True~False|(VP VB SBAR)|0.031250
+cover~True~False|(VP VB NP (PP (IN with) NP))|0.031250
+cover~True~False|(VP VB NP ADVP (PP (IN with) NP))|0.031250
+cover~True~False|(VP VB VB (PP (IN in) NP))|0.031250
+cover~True~False|(VP VB NP ADVP)|0.031250
+place~True~False|(VP VB (PP (IN on) NP))|0.030928
+pour~True~False|(VP VB NP (PP (IN onto) NP))|0.030769
+sprinkle~True~False|(VP VBP NP (PP (IN with) NP))|0.030303
+sprinkle~True~False|(VP VBP ADVP (PP (IN in) NP))|0.030303
+sprinkle~True~False|(VP VBP NP (PP (IN around) NP))|0.030303
+sprinkle~True~False|(VP VBP NP (PP (IN on) NP))|0.030303
+sprinkle~True~False|(VP VBP NP ADVP)|0.030303
+sprinkle~True~False|(VP VBP ADJP)|0.030303
+sprinkle~True~False|(VP VBP NP (PP (IN over) NP))|0.030303
+stir~True~False|(VP VB (PP (IN into) NP))|0.029630
+mix~True~False|(VP VB (PP (IN into) NP))|0.028986
+heat~False~False|(VP VB (PP (IN over) NP))|0.028571
+heat~False~False|(VP VB NP (PP (TO to) NP))|0.028571
+heat~False~False|(VP VB NP (PP (RP in) NP))|0.028571
+add~True~False|(VP VBP NP)|0.028571
+add~True~False|(VP VB NP (PP (IN with) NP))|0.028571
+add~True~False|(VP VB ADJP)|0.028571
+mix~False~False|(VP VB ADVP (PP (IN with) NP))|0.028571
+mix~False~False|(VP VB NP , NP)|0.028571
+mix~False~False|(VP VB (PP (IN with) NP))|0.028571
+mix~False~False|(VP VB (PRT (RP together)) NP NP)|0.028571
+mix~False~False|(VP VB NP ADVP)|0.028571
+mix~False~False|(VP VB NP (PP (IN in) NP))|0.028571
+bake~True~False|(VP VB (PRT (RP in)) NP)|0.028571
+bake~True~False|(VP VB (PP (PP (IN in) NP)))|0.028571
+bake~True~False|(VP VB NP (PP (IN in) NP) ,)|0.028571
+bake~True~False|(VP VB (PP))|0.028571
+bake~True~False|(VP VB NP PRN)|0.028571
+bake~True~False|(VP VB (PP (IN on) NP))|0.028571
+combine~True~False|(VP VB NP (PP (IN with) NP) (PP (IN into) NP))|0.028169
+combine~True~False|(VP VBP NP ADVP)|0.028169
+preheat~False~False|(VP VB NP (PP (IN on) NP))|0.027778
+cool~True~False|(VP VB (PRT (RP on)) NP)|0.027397
+cool~True~False|(VP VB (PP (IN in) NP))|0.027397
+cool~True~False|(VP VBP S)|0.027397
+cool~True~False|(VP VB (PP (TO to) NP))|0.027397
+place~False~False|(VP VB NP (PP (IN down) (PP (IN in) NP)))|0.025641
+place~False~False|(VP VB NP (PP (IN over) NP))|0.025641
+place~False~False|(VP VB ADVP)|0.025641
+beat~True~False|(VP VB ADVP (PP (IN with) NP))|0.025000
+beat~True~False|(VP VBD NP (PP (IN with) NP))|0.025000
+beat~True~False|(VP VB (PRT (RP in)) NP (PP RB (IN with) NP))|0.025000
+beat~True~False|(VP VBP NP (PP (IN into) NP))|0.025000
+beat~True~False|(VP VBD (PP (IN in) NP))|0.025000
+beat~True~False|(VP VBP NP (PP (IN on) NP))|0.025000
+beat~True~False|(VP VB SBAR)|0.025000
+beat~True~False|(VP VBP (PRT (RP in)) NP)|0.025000
+beat~True~False|(VP VB (PRT RB) NP)|0.025000
+beat~True~False|(VP VB (PP (IN on) NP))|0.025000
+stir~True~False|(VP ADVP VB (PRT (RP in)) NP)|0.022222
+serve~True~False|(VP VB (PP VBN (PP (IN with) NP)))|0.022222
+serve~True~False|(VP VB NP)|0.022222
+serve~True~False|(VP VB (PP (IN over) NP))|0.022222
+serve~True~False|(VP VB (PP (IN on) NP) (PP (IN with) NP))|0.022222
+serve~True~False|(VP VBP ADJP)|0.022222
+combine~False~False|(VP VB)|0.021053
+place~True~False|(VP VB NP (PP (IN into) NP) , NP)|0.020619
+place~True~False|(VP VB NP (PP ADVP (IN on) NP))|0.020619
+place~True~False|(VP VB NP (PRT (RP down)) (PP (IN on) NP))|0.020619
+pour~True~False|(VP VB NP NP (PP (IN into) NP))|0.015385
+pour~True~False|(VP VB NP (PRT (RP over)))|0.015385
+pour~True~False|(VP VB (PP (IN onto) NP))|0.015385
+pour~True~False|(VP VB (PP (IN in) NP) (PP (TO to) NP))|0.015385
+pour~True~False|(VP VBP (PP (IN in) NP))|0.015385
+pour~True~False|(VP VBP (PP (IN into) NP))|0.015385
+stir~True~False|(VP VB (PP (IN into) NP) (PP ADVP (IN until) ADJP))|0.014815
+stir~True~False|(VP VB (PP (IN with) NP) SBAR)|0.014815
+stir~True~False|(VP VBP (PP (IN in) NP) (PP (IN with) NP))|0.014815
+mix~True~False|(VP VB (PRT (RP together)))|0.014493
+mix~True~False|(VP VB SBAR)|0.014493
+mix~True~False|(VP VB NP (PP (IN into) NP) SBAR)|0.014493
+mix~True~False|(VP VB ADVP (PP (IN with) NP))|0.014493
+mix~True~False|(VP VB (PRT (RP together)) ADVP)|0.014493
+mix~True~False|(VP VB NP , NP)|0.014493
+mix~True~False|(VP VB NP (PP (IN into) NP))|0.014493
+mix~True~False|(VP VB (PP (IN with) NP) SBAR)|0.014493
+mix~True~False|(VP VB (PRT (RP together)) NP NP)|0.014493
+mix~True~False|(VP VB NP (PP (IN in) NP))|0.014493
+add~True~False|(VP VBP (PP (TO to) NP) ADVP)|0.014286
+add~True~False|(VP VB NP (PP (IN on) NP))|0.014286
+add~True~False|(VP VB NP ADVP (PP (TO to) NP))|0.014286
+add~True~False|(VP VB)|0.014286
+add~True~False|(VP VB NP NP)|0.014286
+add~True~False|(VP VB NP , NP)|0.014286
+add~True~False|(VP VBP)|0.014286
+bake~True~False|(VP VB (PP (IN in) NP) (PP (TO to) NP) , (PP (IN about) NP))|0.014286
+bake~True~False|(VP VB (PP ,))|0.014286
+combine~True~False|(VP VBP NP (PP (IN in) NP))|0.014085
+combine~True~False|(VP VB)|0.014085
+combine~True~False|(VP VB S)|0.014085
+cool~True~False|(VP VB NP (PP (IN on) NP))|0.013699
+cool~True~False|(VP VB (PP (TO to) ADJP))|0.013699
+cool~True~False|(VP VB ADVP (PP (IN in) NP))|0.013699
+cool~True~False|(VP VB (PRT RB))|0.013699
+combine~False~False|(VP VBP NP (PP (IN in) NP))|0.010526
+combine~False~False|(VP VBP S)|0.010526
+combine~False~False|(VP VB NP (PP (IN with) NP))|0.010526
+combine~False~False|(VP VB S)|0.010526
+place~True~False|(VP VBP (PP (IN in) NP))|0.010309
+place~True~False|(VP VB NP (PP VBG (PP (IN on) NP)))|0.010309
+place~True~False|(VP VB NP (PP (IN into) NP) (PP (IN with) NP))|0.010309
+place~True~False|(VP VB ADVP (PP (IN on) NP))|0.010309
+place~True~False|(VP VB ADVP (PP (IN into) NP))|0.010309
+place~True~False|(VP VBP NP ADVP)|0.010309
+place~True~False|(VP VB NP (PP (IN in)))|0.010309
+place~True~False|(VP VB NP (PP (IN over) NP))|0.010309
+stir~True~False|(VP VB (PP (IN in) NP) (PP NP))|0.007407
+stir~True~False|(VP ADVP VBP (PRT (RP in)) NP)|0.007407
+stir~True~False|(VP VB (PP (IN in) NP) (PP (IN with) NP))|0.007407
+stir~True~False|(VP VB (PRT (RP in)))|0.007407
+stir~True~False|(VP VBP (PRT (RP together)) NP NP)|0.007407
+stir~True~False|(VP VBP (PP (IN in) ADJP))|0.007407
+stir~True~False|(VP VB NP (PP (IN into) S))|0.007407
+stir~True~False|(VP VB NP)|0.007407
+stir~True~False|(VP VB (PP (IN in) NP NN))|0.007407
+stir~True~False|(VP VB (PRT (RP over)) NP NP)|0.007407
+stir~True~False|(VP ADVP VB (PP (IN in) NP))|0.007407
+stir~True~False|(VP VB (PRT (RP together)) NP (PP (IN in) NP))|0.007407
+stir~True~False|(VP VBP (PP (IN in) NP) (PP (TO to) NP))|0.007407
+stir~True~False|(VP VB ADVP)|0.007407

@@ -250,7 +250,7 @@ def getNounsFromCommands(commands, ingDescriptions, toolDescriptions):
 
 def getMostProbable(given, probs):
 	for tup in probs:
-		if tup[0][0] == given[0]:
+		if tup[0] == given:
 			return tup[1]
 	return probs[0][1]
 

@@ -34,7 +34,7 @@ def treeToString(tree):
 		return tree
 
 def addToCaseframeCounts(caseFrame, vb, command, ingredientsPreviouslyUsed, toolsPreviouslyUsed, sexp, filename):
-	givenKey = (vb, ingredientsPreviouslyUsed)
+	givenKey = (vb, ingredientsPreviouslyUsed, toolsPreviouslyUsed)
 	if givenKey in caseFrameCounts:
 		caseFrameDict = caseFrameCounts[givenKey]
 		if caseFrame in caseFrameDict:
