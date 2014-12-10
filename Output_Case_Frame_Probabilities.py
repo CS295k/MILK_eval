@@ -76,7 +76,7 @@ for filename in parseCommandPairMappings:
 					vp, vb = vpVbPair
 					caseFrame = makeListOfListsHashable(getCaseFrame(vp))
 					caseFrame = removeWithPredicate(caseFrame, ["PP"], lambda n: n[1][1] in ["until", "for", "at", "by"])
-					caseFrame = removeWithPredicate(caseFrame, ["CC"], lambda n: True)
+					caseFrame = removeWithPredicate(caseFrame, ["CC", "ADVP"], lambda n: True)
 					inputIngredients = getInputIngredients(command[0], command[1])
 					tools = getTools(command[0], command[1])
 					assert(all(re.compile("ing[0-9]+").match(i) for i in inputIngredients))

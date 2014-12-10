@@ -223,11 +223,15 @@ def getMostLikelyVpVbPair(initialVps, command):
 			highestProbability = prob
 	return mostLikelyVpVbPair
 
-def inputToEnglish(commands, verbs, nouns, caseFrameProbabilities, topLevelProbabilities):
+def inputToEnglish(commands, verbs, prevIngredients, prevTools, nouns, caseFrameProbabilities, topLevelProbabilities):
 	caseFrames = []
 	ings = nouns["ings"][:]
+	currIngredients = [ing for command in commands for ing in getInputIngredients(command[0], command[1])]
+	currTools = [tool for command in commands for tool in getTools(command[0], command[1])]
 	for verb in verbs:
-		caseFrame = getMostProbable((verb, False, False), caseFrameProbabilities)
+		reusedIngredients = len(set(prevIngredients).intersection(set(currIngredients))) > 0
+		reusedTools = len(set(prevTools).intersection(set(currTools))) > 0
+		caseFrame = getMostProbable((verb, reusedIngredients, reusedTools), caseFrameProbabilities)
 		caseFrame = tuple(["_VP_"] + list(caseFrame)[1:]) # so the case frame isn't replaced again after being added to the top level tree
 		caseFrame = replaceOnceInTree(caseFrame, VERB_TAGS, verb)["tree"]
 		caseFrame = replaceUnderTag(caseFrame, ["NP"], ["PP"], lambda n: n[1][1] not in ["with", "together"], nouns["tool"], False)

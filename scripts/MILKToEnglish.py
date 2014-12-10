@@ -167,8 +167,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-        if (recipe_name != "../annotated_recipes/Chicken-and-Black-Bean-Chili.rcp_tagged.xml"):
-            continue
+        # if (recipe_name != "../annotated_recipes/Chicken-and-Black-Bean-Chili.rcp_tagged.xml"):
+            # continue
         curPreds = preds[i]
         for p in curPreds:
             if p.startswith("create_"):
@@ -326,8 +326,10 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 nouns = getNounsFromCommands(milkChunk.commands, ingDescriptions, toolDescriptions)
                 caseFrameProbabilities = probabilitiesFromFile(os.path.join("..", "Case_Frame_Probabilities.txt"))
                 topLevelProbabilities = probabilitiesFromFile(os.path.join("..", "Top_Level_Probabilities.txt"))
-                recipeLines.append(inputToEnglish(None, milkChunk.verbs, nouns, caseFrameProbabilities, topLevelProbabilities))
+                recipeLines.append(inputToEnglish(milkChunk.commands, milkChunk.verbs, prevIngredients, prevTools, nouns, caseFrameProbabilities, topLevelProbabilities))
                 updateIngredientDescriptions(milkChunk.commands, ingDescriptions, mod)
+                prevIngredients = [ing for command in milkChunk.commands for ing in getOutputIngredients(command[0], command[1])]
+                prevTools = [tool for command in milkChunk.commands for tool in getTools(command[0], command[1])]
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
             print "\n=============================\n"
