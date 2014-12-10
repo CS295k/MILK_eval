@@ -94,7 +94,7 @@ def loadVerbMarkers(input):
 
     # finishes file
     verbMarkersDict[curTuple] = curList
-    print "setting",curTuple,"->",curList
+    # print "setting",curTuple,"->",curList
     #print verbMarkersDict
     return verbMarkersDict
 
@@ -167,7 +167,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-        # if (recipe_name != "../annotated_recipes/Chicken-and-Black-Bean-Chili.rcp_tagged.xml"):
+        # if (recipe_name != "../annotated_recipes\\Black-Bean-and-Corn-Quesadillas.rcp_tagged.xml"):
             # continue
         curPreds = preds[i]
         for p in curPreds:
@@ -318,7 +318,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             file_reader()
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
             print "\n\n"
-            ingDescriptions, toolDescriptions = seedDescriptions(recipe_name)
+            ingDescriptions, toolDescriptions = seedDescriptions(recipe_name, mod)
             prevIngredients = []
             prevTools = []
             recipeLines = []
@@ -332,6 +332,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 prevTools = [tool for command in milkChunk.commands for tool in getTools(command[0], command[1])]
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
+            print ingDescriptions, mod
             print "\n=============================\n"
         print "done w/ the recipe... exiting"
         #exit(1)
@@ -343,13 +344,13 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
     #print state_probs
     ############
 
-def seedDescriptions(filename):
+def seedDescriptions(filename, mod):
     commands = MILK_parse(filename)
     ingDescriptions = {}
     toolDescriptions = {}
     for command in commands:
         if command[0] == "create_ing":
-            ingDescriptions[command[1][0]] = command[1][1]
+            ingDescriptions[command[1][0]] = gen_NP("create_ing", command[1][1], mod)[0][0]
         elif command[0] == "create_tool":
             toolDescriptions[command[1][0]] = command[1][1]
     return ingDescriptions, toolDescriptions
@@ -367,10 +368,12 @@ def updateIngredientDescriptions(commands, ingDescriptions, mod):
             elif command[0] == "combine":
                 gen_NP_result = gen_NP(command[0], "*".join(ingDescriptions[input] for input in inputs), mod)
                 newNps = [gen_NP_result[0][0]] if len(gen_NP_result) > 0 else ["everything"]
-            else:
+            elif command[0] not in ["create_ing", "create_tool", "put", "remove", "serve", "set", "leave", "chefcheck"]:
                 assert(len(inputs) == 1)
                 gen_NP_result = gen_NP(command[0], ingDescriptions[inputs[0]], mod)
                 newNps = [gen_NP_result[0][0]]
+            else:
+                newNps = []
             for i in xrange(len(newNps)):
                 ingDescriptions[outputs[i]] = newNps[i]
 
@@ -400,7 +403,7 @@ if __name__ == "__main__":
         train_paths = []
         test_paths = []
         for j in xrange(len_data_files):
-            if ((j+1) % 10 == i):
+            if j % 10 == i:
                 test_paths.append(data_files[j])
             else:
                 train_paths.append(data_files[j])
