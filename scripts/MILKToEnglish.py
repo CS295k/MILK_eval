@@ -84,7 +84,7 @@ def loadVerbMarkers(input):
 
             # we've finished a tuple, so let's store it
             if (curTuple != ()):
-                print "setting",curTuple,"->",curList
+                # print "setting",curTuple,"->",curList
                 verbMarkersDict[curTuple] = curList
                 curList = []
             curTuple = (tokens[0],tokens[1])
@@ -154,6 +154,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
     # To use
     # If state_probs is None, then finish
     # select(state) given state_probs[state]=0 might cause problems later
+    file_reader() # read in the data for the NP generator
 
     group_num = 4
     best_seq_num = 100
@@ -174,8 +175,8 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             if p.startswith("create_"):
                 curPreds.remove(p)
         curCommands = commands[i]
-        print "curPreds:",curPreds
-        print "finished pos =",str(len(curPreds))
+        # print "curPreds:",curPreds
+        # print "finished pos =",str(len(curPreds))
         # gets eugene's verb markers for the current recipe
         # constructs the filename
         #vmFile = recipe_name[recipe_name.rfind('/')+1:][:-15] # works for mac/linux
@@ -310,14 +311,12 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             candidateRecipes = sorted(candidateRecipes, key=lambda rt: rt.totalProb, reverse=True)[0:min(100,len(candidateRecipes))]
-            print "now our # of candidates:", str(len(candidateRecipes)), "# complete:", str(len(completedRecipes))
+            print "now our # of candidates: %s\t\t# complete: %s" % (str(len(candidateRecipes)), str(len(completedRecipes)))
             # if (len(candidateRecipes)-len(completedRecipes)) > 500:# and len(completedRecipes) > 10:
                 # "&&& too many candidates, so stopping prematurely"
                 # break
         if len(completedRecipes) > 0:
-            file_reader()
             sortedPaths = sorted(completedRecipes, key=lambda rt: rt.totalProb, reverse=True)
-            print "\n\n"
             ingDescriptions, toolDescriptions = seedDescriptions(recipe_name, mod)
             prevIngredients = []
             prevTools = []
@@ -332,9 +331,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 prevTools = [tool for command in milkChunk.commands for tool in getTools(command[0], command[1])]
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
-            print ingDescriptions, mod
-            print "\n=============================\n"
-        print "done w/ the recipe... exiting"
+        print "done w/ the recipe...\n"
         #exit(1)
     #jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
     #state_probs = jit_decoder.ping();
@@ -385,6 +382,8 @@ if __name__ == "__main__":
 
     verbMarkersDir = ("../stage2Ps/")
     data_files = glob("../annotated_recipes/*.xml")
+    print data_files
+    exit(1)
             
     # loads spencer's most likely verbs
     verbProbs = loadVerbProbs("10FoldCrossValidation_verbGenerationProbabilities_normalizedWithoutNoverb.txt")

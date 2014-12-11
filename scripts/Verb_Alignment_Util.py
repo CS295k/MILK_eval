@@ -4,9 +4,12 @@ from os.path import basename
 
 def getVerbAlignmentCountDict():
 	counts = {}
+	recipeNumber = 0
 	for filename in glob("verbAlignments/*"):
 		if basename(filename) != "README":
-			addToVerbAlignmentCounts(filename, counts)
+			if recipeNumber % 10 != 0: # if this recipe is in the training set
+				addToVerbAlignmentCounts(filename, counts)
+			recipeNumber += 1
 	return counts
 
 def addToVerbAlignmentCounts(filename, counts):

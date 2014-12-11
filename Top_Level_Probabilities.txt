@@ -1,423 +1,384 @@
 8|(S1 (S (VP (PP (S (VP (SBAR (S (VP (VP (ADJP (S (VP (VP (S (NP (CC and)) (VP (S (VP VP))))))))))))))))))|1.000000
 7|(S1 (S (VP VP (VP (NP (SBAR (S (VP (VP (PP (SBAR (S (VP (VP (VP (PP (S VP)))))))))))))))))|1.000000
-0|(S1 (S VP))|0.806925
+0|(S1 (S VP))|0.795799
 6|(S1 (S (VP (S (VP (VP (PP (S (VP (PP (NP (PP (S (VP (PP (NP (S (VP VP))))))))))))))))))|0.600000
+5|(S1 (S (VP (S (VP VP (CC and) (VP (S (VP (VP (UCP (SBAR (S VP))))))))))))|0.500000
 6|(S1 (S (VP VP (CC and) (VP (PP (NP (PP (NP (SBAR (S (VP (VP (S (VP (VP (NP (CC and))) (CC and) VP))))))))))))))|0.400000
-5|(S1 (S (VP VP (CC and) (VP (SBAR (S (VP (S (VP (VP (CC and)))))))))))|0.333333
-5|(S1 (S (VP (S (VP VP (CC and) (VP (S (VP (VP (UCP (SBAR (S VP))))))))))))|0.333333
-1|(S1 (S (VP (NP (CC and)))))|0.238828
-5|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S (VP (VP (SBAR (S (S VP) (CC and) (S VP))))))))))|0.222222
-1|(S1 (S (VP VP (CC and) VP)))|0.216117
-4|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S (VP VP)))))))))|0.147541
-3|(S1 (S (VP VP (CC and) (VP (S (VP VP))))))|0.147321
-4|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S (VP VP))))))|0.114754
-5|(S1 (S (VP (S (VP (VP (PP (NP (PP (NP (PP (NP (PP (S (VP (S (VP VP)))))))))))))))))|0.111111
-2|(S1 (S (VP (VP (NP (CC and))) (CC and) VP)))|0.101449
-4|(S1 (S (VP VP VP (CC and) (VP (S (VP (SBAR (S (VP (NP (PRN (CC and))))))))))))|0.065574
-4|(S1 (S (S (VP (VP (SBAR (S VP))) (VP (PP (NP VP))))) (CC and) (S (VP (UCP (SBAR (S VP)))))))|0.065574
-2|(S1 (S (VP (S (VP VP)))))|0.065217
-1|(S1 (S (VP (PP (NP (CC and))))))|0.055678
-0|(S1 (S (S VP) (CC and) (S VP)))|0.051417
-1|(S1 (S (VP (S VP))))|0.051282
-4|(S1 (S (VP (PP (S (VP (S (VP (VP VP VP)))))))))|0.049180
-4|(S1 (S (VP (S (VP (PP (S (VP (S (VP VP))))))))))|0.049180
-4|(S1 (S (VP VP VP (CC and) (VP (UCP (SBAR (S (VP (VP (PP (NP (CC and))))))))))))|0.049180
-4|(S1 (S (VP (PP (NP (VP (UCP (SBAR (S (VP (S (VP VP))))))))))))|0.049180
-4|(S1 (S (VP (S (VP (UCP (SBAR (S (S (VP VP)) (CC and) (S (VP VP))))))))))|0.049180
-1|(S1 (S (VP (SBAR (S VP)))))|0.043956
-2|(S1 (S (VP VP (CC and) (VP (S VP)))))|0.043478
-4|(S1 (S (VP VP (CC and) (VP (SBAR (S (VP (S (VP VP)))))))))|0.032787
-4|(S1 (S (VP (VP (ADVP (SBAR (S VP)))) (CC and) (VP (S (VP VP))))))|0.032787
-4|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S (VP (PP (S VP)))))))))))|0.032787
-4|(S1 (S (VP (S (VP (VP (SBAR (S (VP VP)))))))))|0.032787
-4|(S1 (S (VP VP (CC and) (VP (SBAR (S (S (VP VP)) (CC and) (S (VP VP))))))))|0.032787
-4|(S1 (S (VP (VP VP (VP (S (VP VP)))))))|0.032787
-3|(S1 (S (VP (SBAR (S (VP (S (VP VP))))))))|0.031250
-3|(S1 (S (VP (S (VP (VP (PP (S VP))))))))|0.031250
-2|(S1 (S (VP (SBAR (S (VP VP))))))|0.028986
-0|(S1 (S (NP VP) VP))|0.028332
-3|(S1 (S (VP VP (VP (PP (NP (PP (NP (NX (CC and))))))) (CC and) (VP (PP (NP (CC and)))))))|0.026786
-3|(S1 (S (S (VP VP VP)) (VP VP (CC and) (VP (PP (S VP))))))|0.026786
-2|(S1 (S (VP (VP (PP (NP (CC and)))) (CC and) VP)))|0.026570
-1|(S1 (S (VP (NP (NP (CC and))))))|0.026374
-1|(S1 (S (VP VP VP (CC and) VP)))|0.025641
-2|(S1 (S (VP VP (CC and) (VP (PP (NP (CC and)))))))|0.024155
-3|(S1 (S (VP (NP (CC and)) (S (VP (SBAR (S (NP (CC and)) (VP VP))))))))|0.022321
-3|(S1 (S (VP (VP (PP (S (VP (NP (PP (NP (CC and)))))))) (CC and) VP)))|0.022321
-1|(S1 (S (VP VP VP)))|0.020513
-2|(S1 (S (VP (PP (NP (SBAR (S (VP VP))))))))|0.019324
-2|(S1 (S (VP VP (CC and) (VP (SBAR (S VP))))))|0.019324
-3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S VP) (PP (S VP))))))|0.017857
-3|(S1 (S (VP (VP VP (CC and) (VP (NP (CC and)))))))|0.017857
-3|(S1 (S (VP VP (CC and) (VP (SBAR (S (VP VP)))))))|0.017857
-3|(S1 (S (VP (SBAR (S (VP (VP VP)))))))|0.017857
-3|(S1 (S (VP VP VP (CC and) (VP (ADVP (SBAR (FRAG (ADJP (S (VP (SBAR (S VP))))))))))))|0.017857
-2|(S1 (S (VP VP (CC and) (VP (NP (CC and))))))|0.016908
-1|(S1 (S (VP (CC and))))|0.016850
-4|(S1 (S (S VP) (S (VP VP)) (CC and) (S (VP (VP (S (VP VP)))))))|0.016393
-4|(S1 (S (VP (S (VP (VP (S (VP VP))))))))|0.016393
-4|(S1 (S (VP (ADJP (S (VP (VP (NP (SBAR (S (VP VP)))))))))))|0.016393
-4|(S1 (S (VP (VP (SBAR (S (VP (SBAR (S (VP (ADJP (CC and))))))))))))|0.016393
-4|(S1 (S (VP (S (VP (NP (UCP (SBAR (S (VP (VP VP)))))))))))|0.016393
-4|(S1 (S (VP (S (VP (SBAR (S (VP (VP VP) (CC and) VP))))))))|0.016393
-4|(S1 (S (VP (NP (S (VP (VP (PP (UCP (ADJP (CC and) (S (VP VP))))))))))))|0.016393
-4|(S1 (S (VP (S (VP (VP (CC and) (SBAR (S (NP (CC and)) (VP VP)))))))))|0.016393
-4|(S1 (S (VP VP (CC and) (VP (S (VP (VP (PP (S VP)))))))))|0.016393
-4|(S1 (S (VP (PP (NP (S (VP (VP (S (VP VP))))))))))|0.016393
-2|(S1 (S (VP (S (VP (PP (S VP)))))))|0.014493
-2|(S1 (S (VP (S (VP VP (CC and) VP)))))|0.014493
-1|(S1 (S (VP VP)))|0.013919
-3|(S1 (S (SBAR (S (VP (ADJP (S (VP VP)))))) (VP VP (CC and) VP)))|0.013393
-3|(S1 (FRAG (SBAR (S (S (VP (ADJP (CC and)))) (CC and) (S (VP (VP (ADVP (CC and)))))))))|0.013393
-3|(S1 (S (S (VP VP (CC and) VP)) (VP (S (VP VP)))))|0.013393
-3|(S1 (S (VP (VP (NP (PP (NP (CC and))))) (CC and) (VP (S VP)))))|0.013393
-3|(S1 (S (VP (VP (PP (NP (CC and)))) (VP (PP (NP (CC and)))))))|0.013393
-3|(S1 (S (VP VP (CC and) (VP (S VP) (SBAR (S (VP VP)))))))|0.013393
-3|(S1 (S (VP (S (VP (VP (CC and)))))))|0.013393
-3|(S1 (S (VP (VP (PP (NP (S (VP VP))))) VP)))|0.013393
-3|(S1 (S (VP (NP (CC and)) (PP (NP (S (VP (VP VP (CC and) VP))))))))|0.013393
-3|(S1 (S (S VP) (S (VP (S (VP (SBAR (S (VP (ADJP (CC and)))))))))))|0.013393
-3|(S1 (S (VP (PP (NP (CC and) (S (VP (SBAR (S (VP VP))))))))))|0.013393
-3|(S1 (S (VP (PP (S (VP (S (VP VP))))))))|0.013393
-3|(S1 (S (VP VP VP (CC and) (VP (S (VP VP))))))|0.013393
-3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (SBAR (S VP))))))|0.013393
-3|(S1 (S (VP (SBAR (S (VP VP (CC and) (VP (PP (NP VP)))))))))|0.013393
-1|(S1 (S (VP (PP (S VP)))))|0.013187
-2|(S1 (S (VP (NP (SBAR (S (VP VP)))))))|0.012077
-2|(S1 (S (VP (PP (NP (S (VP VP)))))))|0.012077
-2|(S1 (S (S (VP VP)) (VP VP (CC and) VP)))|0.012077
-2|(S1 (S (VP VP (VP (NP (CC and))))))|0.012077
-2|(S1 (S (VP VP (CC and) (VP (NP (CC and))) (CC and) VP)))|0.012077
-0|(S1 (S (S VP) (S VP)))|0.010493
-0|(S1 (SQ VP))|0.010493
-2|(S1 (S (S (VP (S (VP (SBAR (S VP)))))) (CC and) (S VP)))|0.009662
-2|(S1 (S (S VP) (CC and) (S (VP (S (VP (SBAR (S VP))))))))|0.009662
-2|(S1 (S (VP (VP (CC and)))))|0.009662
-2|(S1 (S (VP VP (CC and) (VP (PP (S VP))))))|0.009662
-2|(S1 (S (S (VP VP VP (CC and) (VP (UCP (SBAR (S VP)))))) (CC and) (S VP)))|0.009662
-2|(S1 (S (VP (PP (NP (VP VP))))))|0.009662
-2|(S1 (S (VP VP (CC and) (VP (S VP) (SBAR (S VP))))))|0.009662
-2|(S1 (S (SBAR (S (VP VP))) (VP VP (CC and) VP)))|0.009662
-2|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S (S VP) (CC and) (S VP))))))))|0.009662
-2|(S1 (S (VP VP (VP (PP (NP (CC and)))) (CC and) VP)))|0.009662
-2|(S1 (S (S (VP (NP (CC and)))) (CC and) (S (VP (PP (NP (CC and)))))))|0.009662
-2|(S1 (S (VP (VP (SBAR (S VP))))))|0.009662
-2|(S1 (S (VP (VP (S VP)) (CC and) VP)))|0.009662
-0|(S1 (SINV VP (NP (CC and))))|0.009444
-0|(S1 (FRAG (S VP)))|0.009444
-3|(S1 (S (VP (S (VP (ADJP (S (VP VP))))))))|0.008929
-3|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S (S VP) (CC and) (S (VP VP)))))))))|0.008929
-3|(S1 (S (VP (VP (S (VP VP))) VP)))|0.008929
-3|(S1 (S (VP (VP (SBAR (S (S (VP VP)) (CC and) (S VP)))))))|0.008929
-3|(S1 (S (VP VP VP (CC and) (VP (SBAR (S (VP VP)))))))|0.008929
-3|(S1 (S (VP (VP (S VP)) (CC and) (VP (PP (S VP))))))|0.008929
-3|(S1 (S (VP VP (CC and) (VP (NP (S (VP VP)))))))|0.008929
-3|(S1 (S (VP (PP (PP (NP (VP (S (VP VP)))))))))|0.008929
-3|(S1 (S (VP (S (VP (VP VP (CC and) VP))))))|0.008929
-3|(S1 (S (VP VP (SBAR (S (VP (S (VP VP))))))))|0.008929
-3|(S1 (S (VP (PP (NP (CC and))) (SBAR (S (VP (ADVP (S (VP VP)))))))))|0.008929
-3|(S1 (UCP (S (VP (VP (S VP)))) (SBAR (S (VP (NP (CC and)))))))|0.008929
-3|(S1 (S (VP (S (VP (UCP (SBAR (S (VP (S VP))))))))))|0.008929
-3|(S1 (S (VP (CC and) (PP (S VP)) (SBAR (S (VP (ADJP (S (VP VP)))))))))|0.008929
-3|(S1 (S (VP (NP (NP (VP (S (VP VP))))))))|0.008929
-3|(S1 (S (VP (PP (NP (S (VP (VP (S VP)))))))))|0.008929
-3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (PP (NP (CC and)))))))|0.008929
-3|(S1 (S (VP (PP (NP (PP (S (VP (S (VP VP))))))))))|0.008929
-3|(S1 (S (VP (VP (PP (NP (CC and)))) (CC and) (VP (S VP)))))|0.008929
-3|(S1 (S (S VP) (S (VP VP (CC and) (VP (S (VP VP)))))))|0.008929
-3|(S1 (S (VP (VP (CC and)) (CC and) (VP (SBAR (S VP))))))|0.008929
-3|(S1 (S (VP (PP (S (VP VP (VP (SBAR (S VP)))))))))|0.008929
-3|(S1 (S (VP (NP (PP (NP (S (VP (VP VP (CC and) VP)))))))))|0.008929
-3|(S1 (S (VP (UCP (SBAR (S (VP (VP VP (CC and) VP))))))))|0.008929
-3|(S1 (S (S (VP (PRN (ADVP (SBAR (S (VP (VP (NP VP))))))))) (CC and) (S VP)))|0.008929
-3|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S VP))))))))|0.008929
-3|(S1 (S (VP (S (VP VP (CC and) (VP (S VP)))))))|0.008929
-3|(S1 (S (VP (S (VP VP (CC and) (VP (PP (S VP))))))))|0.008929
-3|(S1 (S (VP (VP (S (VP VP))) (CC and) VP)))|0.008929
-3|(S1 (S (VP (PP (S VP)) (S (VP (SBAR (S (VP (PP (S VP))))))))))|0.008929
-3|(S1 (S (VP (PP (NP (SBAR (S (VP (VP (CC and))))))))))|0.008929
-3|(S1 (S (VP (VP (S (VP (PP (NP (NP VP) (CC and))) (S VP))) (SBAR (S VP))))))|0.008929
-3|(S1 (S (VP VP (SBAR (S (VP VP (CC and) (VP VP)))))))|0.008929
-0|(S1 (FRAG VP))|0.008395
-1|(S1 (S (S VP) (S (VP VP (CC and) VP))))|0.008059
-1|(S1 (S (VP (PP (NP VP)))))|0.007326
-1|(S1 (S (VP (PP (NP (NP (CC and)))))))|0.007326
-2|(S1 (S (VP (NP (CC and)) (S VP) (SBAR (S (VP VP))))))|0.007246
-2|(S1 (S (VP (UCP (SBAR (S (VP (ADVP (CC and)))))))))|0.007246
-2|(S1 (S (VP (UCP (SBAR (S (VP VP)))))))|0.007246
-2|(S1 (S (VP (NP (NX (CC and) (NX (PRN (ADVP (SBAR (S (VP VP)))))))))))|0.007246
-2|(S1 (S (VP VP (CC and) (VP (NP (NP (CC and)))))))|0.007246
-2|(S1 (S (VP (PP (S (VP VP))))))|0.007246
-2|(S1 (S (VP (NP (CC and) (NP (PP (NP (VP (PP (NP (CC and)))))))) (ADVP (CC and)))))|0.007246
-2|(S1 (S (VP VP (CC and) VP (S (VP (S VP))))))|0.007246
-2|(S1 (S (VP (VP VP))))|0.007246
-2|(S1 (S (VP (VP VP VP) (CC and) VP)))|0.007246
-2|(S1 (S (VP (NP (NX (CC and))) (PP (NP (PP (NP (SBAR (S (VP VP))))))))))|0.007246
-2|(S1 (S (VP (PP (NP (CC and))) (SBAR (S (VP VP))))))|0.007246
-2|(S1 (S (VP VP VP (CC and) (VP (PP (S VP))))))|0.007246
-2|(S1 (S (VP (CC and) (VP (PP (NP VP))))))|0.007246
-2|(S1 (S (S (VP (NP (CC and)))) (CC and) (S (VP (PP (ADJP (CC and)))))))|0.007246
-2|(S1 (S (VP (VP (CC and)) (CC and) VP)))|0.007246
-2|(S1 (S (VP VP (CC and) (VP (PP (ADJP (CC and)))))))|0.007246
-2|(S1 (S (SBAR (S (VP VP))) (VP (PP (NP (CC and))))))|0.007246
-2|(S1 (S (VP VP (CC and) (VP (PP (NP (ADJP (CC and))))))))|0.007246
-2|(S1 (S (S (VP VP)) (S (VP (CC and)))))|0.007246
-2|(S1 (S (VP (VP (CC and)) VP)))|0.007246
-2|(S1 (S (VP (VP VP VP (CC and) VP))))|0.007246
-2|(S1 (S (VP (VP (SBAR (S VP))) VP)))|0.007246
-2|(S1 (S (VP (SBAR (S (NP (PP (PP (NP (CC and))))) (VP VP))))))|0.007246
-2|(S1 (S (VP VP (CC and) (VP (ADVP (PP (NP (PP (NP (CC and))))))))))|0.007246
-1|(S1 (S (VP (CC and) VP)))|0.006593
-1|(S1 (S (VP VP (NP (CC and)))))|0.006593
-0|(S1 (S (NP (CC and)) VP))|0.006296
-0|(S1 (S (SBAR (S VP)) VP))|0.006296
-1|(S1 (S (VP (NP (NX (CC and))))))|0.005861
-0|(S1 (S (S VP) (S VP) (CC and) (S VP)))|0.005247
-1|(S1 (S (VP (PP (NP (PP (S VP)))))))|0.005128
-2|(S1 (S (S (VP (S (VP VP)))) (S VP)))|0.004831
-2|(S1 (FRAG (S (VP VP)) (S (VP (NP (CC and)) (SBAR (SBAR (S VP)))))))|0.004831
-2|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S VP)))))))|0.004831
-2|(S1 (S (VP (S (VP VP (SBAR (S VP)))))))|0.004831
-2|(S1 (S (VP (PP (NP (NP (UCP (SBAR (S (VP VP))))))))))|0.004831
-2|(S1 (S (VP (S (VP (S VP))))))|0.004831
-2|(S1 (S (SBAR (S (VP VP))) (VP VP VP (CC and) VP)))|0.004831
-2|(S1 (S (VP (SBAR (S (VP (NP (NP (CC and)))))))))|0.004831
-2|(S1 (S VP (CC and) (VP (PP (S (VP (NP (CC and))))))))|0.004831
-2|(S1 (S (SBAR (S (VP VP))) (VP (PP VP))))|0.004831
-2|(S1 (S (VP (VP (PP (PP (NP (NP (CC and)))))) VP)))|0.004831
-2|(S1 (S (VP (NP (VP (NP (CC and)))))))|0.004831
-2|(S1 (S (VP (VP (NP (SBAR (S VP)))) (CC and) VP)))|0.004831
-2|(S1 (S (VP (S (NP (CC and)) (VP (S VP))))))|0.004831
-2|(S1 (S (VP VP (CC and) (VP (PP (NP (NP (UCP (CC and)))))))))|0.004831
-2|(S1 (S (VP (SBAR (SBAR (S (VP (UCP (CC and)))))))))|0.004831
-2|(S1 (S (VP (VP (NP (CC and))))))|0.004831
-2|(S1 (S (VP (PP (S (VP (NP (CC and))))))))|0.004831
-2|(S1 (S (VP (PP (NP (VP (PP (S VP))))))))|0.004831
-2|(S1 (S (VP (CC and) (S (VP (NP (CC and)))))))|0.004831
-2|(S1 (S (VP (VP (PP (NP VP))) VP)))|0.004831
-2|(S1 (S (S (VP (PP (NP (S (VP VP)))))) (CC and) (S VP)))|0.004831
-2|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S (NP VP) VP)))))))|0.004831
-2|(S1 (S (VP (S (VP (NP (CC and)))))))|0.004831
-2|(S1 (S (SBAR (S (ADJP (S (VP VP))))) (VP (NP (CC and)))))|0.004831
-2|(S1 (S (VP (VP (NP VP)) (CC and) VP)))|0.004831
-2|(S1 (S (S (VP (S (VP VP)))) (CC and) (S VP)))|0.004831
-2|(S1 (S (VP (VP (S VP)))))|0.004831
-2|(S1 (S (VP (UCP (SBAR (S (VP (CC and))))))))|0.004831
-2|(S1 (S (VP (VP (NP (NX (CC and)))) (CC and) VP)))|0.004831
-2|(S1 (S (S VP) (S (VP VP (CC and) (VP (S VP))))))|0.004831
-2|(S1 (S (VP VP (CC and) (VP (NP (NX (CC and)))))))|0.004831
-2|(S1 (S (S VP) (VP (PP (NP (SBAR (S (VP VP))))))))|0.004831
-2|(S1 (S (VP (VP (SBAR (S VP))) (CC and) VP)))|0.004831
-2|(S1 (S (VP (SBAR (S (VP (ADJP (CC and))))))))|0.004831
-2|(S1 (S (VP (PP (S (VP VP (CC and) VP))))))|0.004831
-2|(S1 (S (VP (SBAR (S (VP (S VP)))))))|0.004831
-2|(S1 (S (VP (PP (NP (VP (PP (NP VP))))))))|0.004831
-2|(S1 (S (VP VP (PRN (S (VP VP))))))|0.004831
-2|(S1 (S (SBAR (S (S (VP VP)) (CC and) (S VP))) (VP (PP (NP (CC and))) (PP (NP (CC and))))))|0.004831
-2|(S1 (S (VP (PP (NP (PP (NP (SBAR (S (VP VP))))))))))|0.004831
-2|(S1 (S (VP (S (VP (SBAR (S VP)))))))|0.004831
-3|(S1 (S (VP (ADJP (S (VP VP)))) (S (VP VP))))|0.004464
-3|(S1 (S (VP (NP (PP (NP (SBAR (S (SBAR (S VP)) (VP (S (VP VP)))))))))))|0.004464
-3|(S1 (S (VP VP (VP (S (VP VP))) (CC and) VP)))|0.004464
-3|(S1 (S (VP (NP (PP (NP (S (VP (VP (CC and))))))))))|0.004464
-3|(S1 (S (VP (ADVP (S (VP (VP VP (CC and) VP)))))))|0.004464
-3|(S1 (S (VP VP (CC and) (VP (S (VP (UCP (SBAR (S (S VP) (CC and) (S VP))))))))))|0.004464
-3|(S1 (S (S (VP (S (VP VP)))) (VP (PP (CC and)))))|0.004464
-3|(S1 (S (SBAR (S (VP VP))) (VP (PP (ADJP (S (VP VP)))))))|0.004464
-3|(S1 (S (VP (S (VP (VP (SBAR (S VP))))))))|0.004464
-3|(S1 (S (VP (S (VP (PP (NP (PP (NP (S (VP VP)))))))))))|0.004464
-3|(S1 (S (VP (PP (NP (PRN (S (S (VP VP)) (S (VP VP)))))))))|0.004464
-3|(S1 (S (VP VP (CC and) (VP (SBAR (S (S (VP (PP (S VP)))) (CC and) (S VP)))))))|0.004464
-3|(S1 (S (SBAR (S (VP (S (VP VP))))) (VP (NP (CC and)))))|0.004464
-3|(S1 (S (VP (S (VP (PP (NP (PP (S VP)) (SBAR (S (VP VP))))))))))|0.004464
-3|(S1 (S (VP VP (CC and) (VP (ADJP (S (VP VP)))))))|0.004464
-3|(S1 (S (VP VP (CC and) (VP (SBAR (S (ADJP (S (VP VP)))))))))|0.004464
-3|(S1 (S (S (VP VP)) (VP VP (CC and) (VP (SBAR (S VP))))))|0.004464
-3|(S1 (S (VP VP (VP (PP (S (VP (ADJP (CC and)) (UCP (SBAR (S VP))))))))))|0.004464
-3|(S1 (S (VP (ADJP (SBAR (S (VP (SBAR (S (VP VP))))))))))|0.004464
-3|(S1 (FRAG (S (VP VP)) (VP (PP (S (VP (NP (CC and))))))))|0.004464
-3|(S1 (S (VP (VP (SBAR (S (VP VP)))))))|0.004464
-3|(S1 (S (VP (PP (PP (NP (SBAR (S (VP (VP (S VP)))))))))))|0.004464
-3|(S1 (S (SBAR (S VP)) (VP VP (CC and) (VP (S (VP VP))))))|0.004464
-3|(S1 (S (VP (NP (VP (S (VP VP)))))))|0.004464
-1|(S1 (S (VP (NP (CC and)) (PP (NP (CC and) (CC and))))))|0.004396
-1|(S1 (S (VP (NP (NP (CC and))) (S VP))))|0.004396
-1|(S1 (S (VP VP VP VP)))|0.004396
-0|(S1 (S (S VP) VP))|0.004197
-0|(S1 (S VP (CC and) VP))|0.004197
-0|(S1 (NP VP))|0.004197
-1|(S1 (S (VP (NP (PP (S VP))))))|0.003663
-1|(S1 (S (VP (FRAG (UCP (SBAR (S VP)))))))|0.003663
-1|(S1 (S (S VP) (CC and) (S (VP (SBAR (S VP))))))|0.003663
-1|(S1 (S (VP VP VP VP (CC and) VP)))|0.003663
-1|(S1 (S (S (VP (NP (CC and)))) (CC and) (S VP)))|0.003663
-1|(S1 (S (VP (NP (UCP (CC and))))))|0.003663
-1|(S1 (S (VP (S (NP (CC and)) VP))))|0.003663
-1|(S1 (S (VP (NP (CC and)) (PP (S VP)))))|0.003663
-1|(S1 (S (VP (NP (CC and)) (PP (NP VP)))))|0.003663
-0|(S1 (S (PP (CC and)) VP))|0.003148
-0|(S1 (S (S VP) (CC and)))|0.003148
-0|(S1 (S (S VP)))|0.003148
-1|(S1 (S (VP (PP (NP (UCP (SBAR (S (NP VP) VP))))))))|0.002930
-1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (CC and)))))))|0.002930
-1|(S1 (FRAG (VP VP (CC and) VP)))|0.002930
-1|(S1 (FRAG (S (VP (NP (CC and))))))|0.002930
-1|(S1 (S (S VP) (VP (SBAR (S VP)))))|0.002930
-1|(S1 (S (VP (CC and) (PP (S VP)))))|0.002930
-1|(S1 (S (VP (UCP (SBAR (S VP))))))|0.002930
-1|(S1 (S (VP (PP (ADJP (CC and))))))|0.002930
-1|(S1 (S (VP VP (CC and) VP (S VP))))|0.002930
-1|(S1 (S (VP (PP (NP (CC and) (CC and))))))|0.002930
-1|(S1 (S (VP VP VP (CC and) VP (SBAR (S (NP (CC and)) VP)))))|0.002930
-1|(S1 (S (VP (S VP) (SBAR (S VP)))))|0.002930
-2|(S1 (S (VP (S (VP (ADVP (CC and)))))))|0.002415
-2|(S1 (S (VP (VP (PP (NP (CC and)))))))|0.002415
-2|(S1 (S (VP (NP (VP (S VP))) (PP (NP VP)))))|0.002415
-2|(S1 (S (VP (VP (PP (NP (NP (CC and))))) (CC and) VP)))|0.002415
-2|(S1 (S (VP VP (VP VP (CC and) VP))))|0.002415
-2|(S1 (FRAG (S (VP VP)) (VP VP (CC and) VP)))|0.002415
-2|(S1 (S (VP (ADJP (SBAR (S (VP (S VP))))))))|0.002415
-2|(S1 (S (S VP) (CC and) (S (VP (S (VP VP))))))|0.002415
-2|(S1 (S (VP (S VP) (SBAR (S (VP (S VP)))))))|0.002415
-2|(S1 (S (VP VP (CC and) (VP (PP (NP (SBAR (S VP))))))))|0.002415
-2|(S1 (S (VP VP (CC and) (VP (NP (UCP (CC and)))))))|0.002415
-2|(S1 (S (VP (CC and) (S (VP VP)))))|0.002415
-2|(S1 (S (VP VP (VP (SBAR (S VP))))))|0.002415
-2|(S1 (S (VP VP (SBAR (S (VP VP))))))|0.002415
-2|(S1 (S (VP VP VP (CC and) (VP (S VP)) (S VP) (SBAR (S VP)))))|0.002415
-2|(S1 (S (NP (PP (NP (SBAR (S VP))))) (VP (S (VP VP)))))|0.002415
-2|(S1 (S (VP (CC and) (PP (UCP (SBAR (S (S VP) (CC and) (S (VP VP)))))))))|0.002415
-2|(S1 (S (S VP) (CC and) (S (VP (SBAR (S (VP (PP (NP (CC and))))))))))|0.002415
-2|(S1 (S (VP (S VP) (SBAR (S (VP (CC and)))))))|0.002415
-2|(S1 (S (VP (NP (CC and)) (S (VP VP)))))|0.002415
-2|(S1 (S (VP (SBAR (S (VP (SBAR (S VP))))))))|0.002415
-2|(S1 (S (S VP) (CC and) (S (VP (SBAR (S (ADJP (S (VP VP)))))))))|0.002415
-2|(S1 (S (VP (SBAR (SBAR (S VP)) (SBAR (S (VP VP)))))))|0.002415
-1|(S1 (S (S VP) (VP (S VP))))|0.002198
-1|(S1 (S (VP VP (CC and) VP (CC and) VP)))|0.002198
-1|(S1 (S (VP (NP (CC and) (NP VP)))))|0.002198
-1|(S1 (S (VP (PP (NP (PP (NP (PP (NP (NP (CC and)) VP)))))))))|0.002198
-1|(S1 (FRAG (SBAR (S (VP VP))) VP))|0.002198
-1|(S1 (S (VP (PP (UCP (CC and))))))|0.002198
-1|(S1 (S (PP (S VP)) (VP (NP (CC and)))))|0.002198
-1|(S1 (S (PP (NP (CC and))) (VP (NP (CC and)))))|0.002198
-1|(S1 (S (VP (NP (CC and)) (S VP))))|0.002198
-1|(S1 (S (VP (NP (CC and)) (PP (ADJP (CC and))))))|0.002198
-1|(S1 (S (VP (NP (PP (NP (CC and)))) (SBAR (S VP)))))|0.002198
-1|(S1 (S (VP VP (SBAR (S VP)))))|0.002198
-1|(S1 (S (VP (S (NP (NP (CC and)))))))|0.002198
-1|(S1 (S (S VP) (S (VP (CC and) (S VP)))))|0.002198
-1|(S1 (S (VP (SBAR (S (NP (PP (PP (NP VP)))) VP)))))|0.002198
-1|(S1 (S (S (VP VP VP)) (CC and) (S VP)))|0.002198
-1|(S1 (S (S VP) (CC and) (S (VP (S VP)))))|0.002198
-1|(S1 (S (VP (CC and) (PP (NP VP)))))|0.002198
-1|(S1 (S (PRN (S (VP (SBAR (S VP))))) VP))|0.002198
-1|(S1 (S (SBAR (S VP)) (VP (NP (PP (NP (CC and)))))))|0.002198
-1|(S1 (S (VP (NP (ADJP (CC and))))))|0.002198
-0|(S1 (SINV VP))|0.002099
-0|(S1 (S (PP (NP (NP VP))) VP))|0.002099
-0|(S1 (FRAG (PP (NP VP))))|0.002099
-0|(S1 (SINV (S VP) VP (NP (NP (CC and)))))|0.002099
-0|(S1 (S (NP (PP (NP (NP (CC and)) (CC and)))) VP))|0.002099
-0|(S1 (S (S VP) (S VP) (S VP)))|0.002099
-0|(S1 (SBARQ (S VP)))|0.002099
-0|(S1 (S (PP (NP (PP (S VP)))) VP))|0.002099
-1|(S1 (S (VP (PP (NP (UCP (CC and)))))))|0.001465
-1|(S1 (S (VP (NP (PP (NP (NX (CC and))))))))|0.001465
-1|(S1 (S (VP (PP (NP (PP (NP (NP VP) (CC and))))))))|0.001465
-1|(S1 (S (VP (PP (NP (NP (NP (CC and))))))))|0.001465
-1|(S1 (S (VP (PP (NP (PP (NP (PP (NP VP)))))))))|0.001465
-1|(S1 (S (S (VP (SBAR (S VP)))) (CC and) (S VP)))|0.001465
-1|(S1 (S (VP (PP (NP (CC and))) (PP (ADJP (CC and))))))|0.001465
-1|(S1 (S (VP (PP (NP (PP (NP (CC and))))))))|0.001465
-1|(S1 (S (VP (SBAR (S (NP (NP (PP (PP (NP VP))))) VP)))))|0.001465
-1|(S1 (S (VP (NP (NP (CC and)) (CC and)))))|0.001465
-1|(S1 (S (VP (NP VP))))|0.001465
-1|(S1 (S (VP (PP (NP (PP (NP (PP (S VP)))))))))|0.001465
-1|(S1 (S (VP (SBAR (S (NP VP) VP)))))|0.001465
-1|(S1 (S (PP (S VP)) (VP (NP (CC and)) (SBAR (S VP)))))|0.001465
-1|(S1 (S (VP (PP (PP (UCP (S VP) (CC and)))))))|0.001465
-1|(S1 (SQ (VP (PP (NP (ADJP (CC and)))))))|0.001465
-1|(S1 (S (S VP) (CC and) (S (VP (PP (UCP (CC and) VP))))))|0.001465
-1|(S1 (S (ADVP (SBAR (S VP))) (VP VP (CC and) VP)))|0.001465
-1|(S1 (SQ (VP (NP (CC and)))))|0.001465
-1|(S1 (S (VP (PP (PP (S (NP VP) VP))))))|0.001465
-1|(S1 (S (S VP) (CC and) (S (VP (PP (S VP))))))|0.001465
-1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (PP (NP VP))))))))|0.001465
-1|(S1 (S (VP (PP (NP (NP (NP (CC and))) (CC and))))))|0.001465
-1|(S1 (S (S (VP VP (CC and) VP)) (PRN (S (SBAR (S VP)) VP))))|0.001465
-1|(S1 (S (SBAR (S (VP VP))) (S VP)))|0.001465
-1|(S1 (S (S VP) (S (SBAR (S (VP (UCP (CC and) VP)))) VP)))|0.001465
-1|(S1 (S (S (VP (PP (S VP)))) (CC and) (S VP)))|0.001465
-1|(S1 (S (S VP) (CC and) (S (VP VP (CC and) VP))))|0.001465
-1|(S1 (S (S (VP VP (CC and) VP)) (S VP)))|0.001465
-1|(S1 (S (VP VP (NP (PP (NP (CC and)))))))|0.001465
-1|(S1 (S (VP (PP (NP (SBAR (S VP)))))))|0.001465
-1|(S1 (S (VP (NP (NP (NX (CC and)))))))|0.001465
-1|(S1 (S (S VP) (S VP) (CC and) (S (VP (S VP)))))|0.001465
-1|(S1 (S (S VP) (S (SBAR (S VP)) (VP (NP (PP (NP (SBAR (S VP)))))))))|0.001465
-1|(S1 (S (NP (PRN (S VP))) (VP (ADJP (CC and)))))|0.001465
-1|(S1 (S (VP (PP (NP (PP (PP (NP VP))))))))|0.001465
-1|(S1 (SQ (VP VP (CC and) VP)))|0.001465
-1|(S1 (NP (PP (NP (S (VP VP))))))|0.001465
-1|(S1 (S (VP (SBAR (NP (CC and))))))|0.001465
-1|(S1 (S (SBAR (S VP)) (VP VP)))|0.001465
-1|(S1 (S (S VP) (S (VP (NP (CC and))))))|0.001465
-1|(S1 (S (NP (NP VP)) (VP (UCP (SBAR (S VP))))))|0.001465
-1|(S1 (S (VP (NP (NP (NP (CC and))) (CC and)))))|0.001465
-1|(S1 (S (NP (CC and)) (VP (S VP))))|0.001465
-1|(S1 (S (VP (NP (NP (CC and))) (PP (NP (CC and))))))|0.001465
-1|(S1 (FRAG (NP (PP (NP (S (VP VP)))))))|0.001465
-1|(S1 (S (S VP) (S (VP VP))))|0.001465
-1|(S1 (S (VP (PP (PP (NP VP))))))|0.001465
-1|(S1 (S (VP (ADVP (NP VP)) (NP (CC and)))))|0.001465
-1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (CC and))) (SBAR (S VP))))))|0.001465
-0|(S1 (SINV VP (NP (NP (CC and)))))|0.001049
-0|(S1 (S (NP (S VP) (CC and)) VP))|0.001049
-0|(S1 (FRAG (SBAR (S VP))))|0.001049
-0|(S1 VP)|0.001049
-0|(S1 (S (S (S VP) (CC and) (S VP)) (S VP)))|0.001049
-0|(S1 (S (PP (S VP)) VP))|0.001049
-0|(S1 (SBARQ VP))|0.001049
-0|(S1 (S (ADJP (PP (S VP)))))|0.001049
-1|(S1 (S (VP (ADVP (SBAR (S VP))))))|0.000733
-1|(S1 (S (VP (PP (NP (ADJP (CC and)))))))|0.000733
-1|(S1 (S (VP (ADJP (CC and)))))|0.000733
-1|(S1 (S (VP (PP (NP (PRN (S VP)))))))|0.000733
-1|(S1 (S (VP (NP (PP (NP (PP (S VP))))))))|0.000733
-1|(S1 (S (SBAR (S VP)) (VP VP (CC and) VP)))|0.000733
-1|(S1 (S (VP (CC and) (SBAR (S VP)))))|0.000733
-1|(S1 (S (NP VP) (VP (NP (CC and)))))|0.000733
-1|(S1 (S (VP (PP VP))))|0.000733
-1|(S1 (S (VP (PP (CC and)))))|0.000733
-1|(S1 (S (PP (S VP)) (VP (S VP))))|0.000733
-1|(S1 (S (S (VP VP)) (CC and) (S VP)))|0.000733
-1|(S1 (S (VP (NP (PP (NP (PP (NP (CC and)))))))))|0.000733
-1|(S1 (S (VP (S (NP (CC and))))))|0.000733
-1|(S1 (S (VP (PP (S VP)) (S VP))))|0.000733
-1|(S1 (S (S VP) (CC and) (S (VP (UCP (PP (S VP)) (CC and))))))|0.000733
-1|(S1 (S (VP (NP (CC and)) (PP (NP (CC and))))))|0.000733
-1|(S1 (S (VP (PP (NP (NX (CC and)))))))|0.000733
-1|(S1 (S (VP (ADJP (SBAR (S VP))))))|0.000733
-1|(S1 (S (VP (NP (NP (NP (CC and)))))))|0.000733
-1|(S1 (S (S (VP (PP (NP VP))))))|0.000733
-1|(S1 (S (S (VP VP)) VP))|0.000733
-1|(S1 (S (VP (PP (NP (NX (CC and) (NX (CC and))))))))|0.000733
-1|(S1 (S (VP (NP (NP (CC and)) (PP (NP VP))))))|0.000733
-1|(S1 (S (VP (ADVP (NP (CC and))))))|0.000733
-1|(S1 (S (VP VP (PRN (S VP)) (CC and) VP)))|0.000733
-1|(S1 (S (VP (NP (CC and)) (SBAR (S VP)))))|0.000733
-1|(S1 (S (VP (SBAR (S (S VP) VP)))))|0.000733
-1|(S1 (S (VP (NP (PP (NP (CC and)))))))|0.000733
-1|(S1 (S (VP VP (PP (NP (CC and))))))|0.000733
-1|(S1 (S (SBAR (S (VP VP))) VP))|0.000733
-1|(S1 (S (VP (PP (NP (NP (SBAR (S VP))) (CC and))))))|0.000733
-1|(S1 (NP (S (VP (NP (CC and))))))|0.000733
-1|(S1 (S (VP VP (S VP))))|0.000733
-1|(S1 (S (S VP) (S (VP (PP (ADJP (CC and)))))))|0.000733
-1|(S1 (S (VP (NP (PP (NP (NP (PP (NP VP))) (CC and)))))))|0.000733
-1|(S1 (FRAG (VP VP)))|0.000733
-1|(S1 (S (VP VP VP (S VP))))|0.000733
-1|(S1 (S (VP (NP (PP (NP VP))))))|0.000733
-1|(S1 (S (VP (PP (NP (PP (NP (NP (CC and)))))))))|0.000733
-1|(S1 (SQ (VP (PP VP))))|0.000733
+5|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S (VP (VP (SBAR (S (S VP) (CC and) (S VP))))))))))|0.333333
+1|(S1 (S (VP (NP (CC and)))))|0.238173
+1|(S1 (S (VP VP (CC and) VP)))|0.216150
+5|(S1 (S (VP (S (VP (VP (PP (NP (PP (NP (PP (NP (PP (S (VP (S (VP VP)))))))))))))))))|0.166667
+3|(S1 (S (VP VP (CC and) (VP (S (VP VP))))))|0.151832
+4|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S (VP VP)))))))))|0.150000
+4|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S (VP VP))))))|0.116667
+2|(S1 (S (VP (VP (NP (CC and))) (CC and) VP)))|0.101648
+4|(S1 (S (VP VP VP (CC and) (VP (S (VP (SBAR (S (VP (NP (PRN (CC and))))))))))))|0.066667
+4|(S1 (S (S (VP (VP (SBAR (S VP))) (VP (PP (NP VP))))) (CC and) (S (VP (UCP (SBAR (S VP)))))))|0.066667
+1|(S1 (S (VP (PP (NP (CC and))))))|0.057912
+2|(S1 (S (VP (S (VP VP)))))|0.057692
+0|(S1 (S (S VP) (CC and) (S VP)))|0.054842
+1|(S1 (S (VP (S VP))))|0.054649
+4|(S1 (S (VP (PP (S (VP (S (VP (VP VP VP)))))))))|0.050000
+4|(S1 (S (VP (S (VP (PP (S (VP (S (VP VP))))))))))|0.050000
+4|(S1 (S (VP VP VP (CC and) (VP (UCP (SBAR (S (VP (VP (PP (NP (CC and))))))))))))|0.050000
+4|(S1 (S (VP (PP (NP (VP (UCP (SBAR (S (VP (S (VP VP))))))))))))|0.050000
+4|(S1 (S (VP (S (VP (UCP (SBAR (S (S (VP VP)) (CC and) (S (VP VP))))))))))|0.050000
+2|(S1 (S (VP VP (CC and) (VP (S VP)))))|0.049451
+1|(S1 (S (VP (SBAR (S VP)))))|0.045677
+3|(S1 (S (VP (S (VP (VP (PP (S VP))))))))|0.036649
+4|(S1 (S (VP VP (CC and) (VP (SBAR (S (VP (S (VP VP)))))))))|0.033333
+4|(S1 (S (VP (VP (ADVP (SBAR (S VP)))) (CC and) (VP (S (VP VP))))))|0.033333
+4|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S (VP (PP (S VP)))))))))))|0.033333
+4|(S1 (S (VP (S (VP (VP (SBAR (S (VP VP)))))))))|0.033333
+4|(S1 (S (VP VP (CC and) (VP (SBAR (S (S (VP VP)) (CC and) (S (VP VP))))))))|0.033333
+4|(S1 (S (VP (VP VP (VP (S (VP VP)))))))|0.033333
+2|(S1 (S (VP (SBAR (S (VP VP))))))|0.032967
+3|(S1 (S (VP VP (VP (PP (NP (PP (NP (NX (CC and))))))) (CC and) (VP (PP (NP (CC and)))))))|0.031414
+3|(S1 (S (S (VP VP VP)) (VP VP (CC and) (VP (PP (S VP))))))|0.031414
+2|(S1 (S (VP (VP (PP (NP (CC and)))) (CC and) VP)))|0.030220
+1|(S1 (S (VP (NP (NP (CC and))))))|0.028548
+2|(S1 (S (VP VP (CC and) (VP (PP (NP (CC and)))))))|0.027473
+0|(S1 (S (NP VP) VP))|0.026838
+3|(S1 (S (VP (NP (CC and)) (S (VP (SBAR (S (NP (CC and)) (VP VP))))))))|0.026178
+3|(S1 (S (VP (VP (PP (S (VP (NP (PP (NP (CC and)))))))) (CC and) VP)))|0.026178
+1|(S1 (S (VP VP VP (CC and) VP)))|0.025285
+2|(S1 (S (VP (PP (NP (SBAR (S (VP VP))))))))|0.021978
+2|(S1 (S (VP VP (CC and) (VP (SBAR (S VP))))))|0.021978
+3|(S1 (S (VP (SBAR (S (VP (S (VP VP))))))))|0.020942
+3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (S VP) (PP (S VP))))))|0.020942
+3|(S1 (S (VP (VP VP (CC and) (VP (NP (CC and)))))))|0.020942
+3|(S1 (S (VP VP (CC and) (VP (SBAR (S (VP VP)))))))|0.020942
+3|(S1 (S (VP (SBAR (S (VP (VP VP)))))))|0.020942
+3|(S1 (S (VP VP VP (CC and) (VP (ADVP (SBAR (FRAG (ADJP (S (VP (SBAR (S VP))))))))))))|0.020942
+4|(S1 (S (S VP) (S (VP VP)) (CC and) (S (VP (VP (S (VP VP)))))))|0.016667
+4|(S1 (S (VP (S (VP (VP (S (VP VP))))))))|0.016667
+4|(S1 (S (VP (ADJP (S (VP (VP (NP (SBAR (S (VP VP)))))))))))|0.016667
+4|(S1 (S (VP (VP (SBAR (S (VP (SBAR (S (VP (ADJP (CC and))))))))))))|0.016667
+4|(S1 (S (VP (S (VP (NP (UCP (SBAR (S (VP (VP VP)))))))))))|0.016667
+4|(S1 (S (VP (S (VP (SBAR (S (VP (VP VP) (CC and) VP))))))))|0.016667
+4|(S1 (S (VP (NP (S (VP (VP (PP (UCP (ADJP (CC and) (S (VP VP))))))))))))|0.016667
+4|(S1 (S (VP (S (VP (VP (CC and) (SBAR (S (NP (CC and)) (VP VP)))))))))|0.016667
+4|(S1 (S (VP VP (CC and) (VP (S (VP (VP (PP (S VP)))))))))|0.016667
+2|(S1 (S (VP VP (CC and) (VP (NP (CC and))))))|0.016484
+3|(S1 (FRAG (SBAR (S (S (VP (ADJP (CC and)))) (CC and) (S (VP (VP (ADVP (CC and)))))))))|0.015707
+3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (SBAR (S VP))))))|0.015707
+3|(S1 (S (S (VP VP (CC and) VP)) (VP (S (VP VP)))))|0.015707
+3|(S1 (S (VP (VP (NP (PP (NP (CC and))))) (CC and) (VP (S VP)))))|0.015707
+3|(S1 (S (VP VP VP (CC and) (VP (S (VP VP))))))|0.015707
+3|(S1 (S (VP (VP (PP (NP (CC and)))) (VP (PP (NP (CC and)))))))|0.015707
+3|(S1 (S (VP VP (CC and) (VP (S VP) (SBAR (S (VP VP)))))))|0.015707
+3|(S1 (S (VP (VP (PP (NP (S (VP VP))))) VP)))|0.015707
+3|(S1 (S (VP (NP (CC and)) (PP (NP (S (VP (VP VP (CC and) VP))))))))|0.015707
+3|(S1 (S (VP (PP (NP (CC and) (S (VP (SBAR (S (VP VP))))))))))|0.015707
+3|(S1 (S (VP (PP (S (VP (S (VP VP))))))))|0.015707
+3|(S1 (S (VP (SBAR (S (VP VP (CC and) (VP (PP (NP VP)))))))))|0.015707
+1|(S1 (S (VP VP VP)))|0.015498
+1|(S1 (S (VP (CC and))))|0.014682
+1|(S1 (S (VP (PP (S VP)))))|0.014682
+1|(S1 (S (VP VP)))|0.014682
+2|(S1 (S (VP (NP (SBAR (S (VP VP)))))))|0.013736
+2|(S1 (S (VP (PP (NP (S (VP VP)))))))|0.013736
+2|(S1 (S (VP VP (VP (NP (CC and))))))|0.013736
+2|(S1 (S (VP (S (VP (PP (S VP)))))))|0.013736
+2|(S1 (S (VP VP (CC and) (VP (NP (CC and))) (CC and) VP)))|0.013736
+2|(S1 (S (S (VP (S (VP (SBAR (S VP)))))) (CC and) (S VP)))|0.010989
+2|(S1 (S (S VP) (CC and) (S (VP (S (VP (SBAR (S VP))))))))|0.010989
+2|(S1 (S (VP (VP (CC and)))))|0.010989
+2|(S1 (S (VP (PP (NP (VP VP))))))|0.010989
+2|(S1 (S (VP VP (CC and) (VP (S VP) (SBAR (S VP))))))|0.010989
+2|(S1 (S (SBAR (S (VP VP))) (VP VP (CC and) VP)))|0.010989
+2|(S1 (S (VP (S (VP VP (CC and) VP)))))|0.010989
+2|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S (S VP) (CC and) (S VP))))))))|0.010989
+2|(S1 (S (VP VP (VP (PP (NP (CC and)))) (CC and) VP)))|0.010989
+2|(S1 (S (S (VP (NP (CC and)))) (CC and) (S (VP (PP (NP (CC and)))))))|0.010989
+2|(S1 (S (VP (VP (S VP)) (CC and) VP)))|0.010989
+0|(S1 (FRAG (S VP)))|0.010502
+0|(S1 (S (S VP) (S VP)))|0.010502
+0|(S1 (SQ VP))|0.010502
+0|(S1 (SINV VP (NP (CC and))))|0.010502
+3|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S (S VP) (CC and) (S (VP VP)))))))))|0.010471
+3|(S1 (S (VP (VP (S (VP VP))) VP)))|0.010471
+3|(S1 (S (VP (VP (SBAR (S (S (VP VP)) (CC and) (S VP)))))))|0.010471
+3|(S1 (S (VP VP VP (CC and) (VP (SBAR (S (VP VP)))))))|0.010471
+3|(S1 (S (VP (VP (S VP)) (CC and) (VP (PP (S VP))))))|0.010471
+3|(S1 (S (VP VP (CC and) (VP (NP (S (VP VP)))))))|0.010471
+3|(S1 (S (VP (PP (NP (SBAR (S (VP (VP (CC and))))))))))|0.010471
+3|(S1 (S (VP (PP (NP (S (VP (VP (S VP)))))))))|0.010471
+3|(S1 (S (VP VP (SBAR (S (VP (S (VP VP))))))))|0.010471
+3|(S1 (S (VP (VP (CC and)) (CC and) (VP (SBAR (S VP))))))|0.010471
+3|(S1 (UCP (S (VP (VP (S VP)))) (SBAR (S (VP (NP (CC and)))))))|0.010471
+3|(S1 (S (VP (CC and) (PP (S VP)) (SBAR (S (VP (ADJP (S (VP VP)))))))))|0.010471
+3|(S1 (S (VP (NP (NP (VP (S (VP VP))))))))|0.010471
+3|(S1 (S (VP (VP (NP (CC and))) (CC and) (VP (PP (NP (CC and)))))))|0.010471
+3|(S1 (S (VP (VP (PP (NP (CC and)))) (CC and) (VP (S VP)))))|0.010471
+3|(S1 (S (VP (PP (S (VP VP (VP (SBAR (S VP)))))))))|0.010471
+3|(S1 (S (VP (NP (PP (NP (S (VP (VP VP (CC and) VP)))))))))|0.010471
+3|(S1 (S (VP (UCP (SBAR (S (VP (VP VP (CC and) VP))))))))|0.010471
+3|(S1 (S (S (VP (PRN (ADVP (SBAR (S (VP (VP (NP VP))))))))) (CC and) (S VP)))|0.010471
+3|(S1 (S (VP VP (CC and) (VP (S (VP (SBAR (S VP))))))))|0.010471
+3|(S1 (S (VP (S (VP VP (CC and) (VP (S VP)))))))|0.010471
+3|(S1 (S (VP (S (VP VP (CC and) (VP (PP (S VP))))))))|0.010471
+3|(S1 (S (VP (VP (S (VP VP))) (CC and) VP)))|0.010471
+3|(S1 (S (VP (PP (S VP)) (S (VP (SBAR (S (VP (PP (S VP))))))))))|0.010471
+3|(S1 (S (VP (VP (S (VP (PP (NP (NP VP) (CC and))) (S VP))) (SBAR (S VP))))))|0.010471
+3|(S1 (S (VP VP (SBAR (S (VP VP (CC and) (VP VP)))))))|0.010471
+1|(S1 (S (S VP) (S (VP VP (CC and) VP))))|0.008972
+2|(S1 (S (VP (NP (CC and)) (S VP) (SBAR (S (VP VP))))))|0.008242
+2|(S1 (S (VP (UCP (SBAR (S (VP (ADVP (CC and)))))))))|0.008242
+2|(S1 (S (VP (PP (S (VP VP))))))|0.008242
+2|(S1 (S (VP (NP (CC and) (NP (PP (NP (VP (PP (NP (CC and)))))))) (ADVP (CC and)))))|0.008242
+2|(S1 (S (VP VP (CC and) (VP (NP (NP (CC and)))))))|0.008242
+2|(S1 (S (S (VP VP)) (VP VP (CC and) VP)))|0.008242
+2|(S1 (S (VP VP (CC and) VP (S (VP (S VP))))))|0.008242
+2|(S1 (S (VP (VP VP))))|0.008242
+2|(S1 (S (VP (VP VP VP) (CC and) VP)))|0.008242
+2|(S1 (S (VP (NP (NX (CC and))) (PP (NP (PP (NP (SBAR (S (VP VP))))))))))|0.008242
+2|(S1 (S (VP (PP (NP (CC and))) (SBAR (S (VP VP))))))|0.008242
+2|(S1 (S (VP VP VP (CC and) (VP (PP (S VP))))))|0.008242
+2|(S1 (S (VP (CC and) (VP (PP (NP VP))))))|0.008242
+2|(S1 (S (S (VP (NP (CC and)))) (CC and) (S (VP (PP (ADJP (CC and)))))))|0.008242
+2|(S1 (S (VP VP (CC and) (VP (PP (ADJP (CC and)))))))|0.008242
+2|(S1 (S (SBAR (S (VP VP))) (VP (PP (NP (CC and))))))|0.008242
+2|(S1 (S (VP VP (CC and) (VP (PP (NP (ADJP (CC and))))))))|0.008242
+2|(S1 (S (S (VP VP)) (S (VP (CC and)))))|0.008242
+2|(S1 (S (VP (VP (CC and)) VP)))|0.008242
+2|(S1 (S (VP (VP (SBAR (S VP))) VP)))|0.008242
+2|(S1 (S (VP VP (CC and) (VP (ADVP (PP (NP (PP (NP (CC and))))))))))|0.008242
+0|(S1 (FRAG VP))|0.008168
+1|(S1 (S (VP (PP (NP (NP (CC and)))))))|0.008157
+1|(S1 (S (VP (CC and) VP)))|0.007341
+1|(S1 (S (VP (PP (NP VP)))))|0.007341
+1|(S1 (S (VP VP (NP (CC and)))))|0.007341
+0|(S1 (S (NP (CC and)) VP))|0.007001
+0|(S1 (S (SBAR (S VP)) VP))|0.007001
+1|(S1 (S (VP (NP (NX (CC and))))))|0.006525
+0|(S1 (S (S VP) (S VP) (CC and) (S VP)))|0.005834
+2|(S1 (S (S (VP (S (VP VP)))) (S VP)))|0.005495
+2|(S1 (FRAG (S (VP VP)) (S (VP (NP (CC and)) (SBAR (SBAR (S VP)))))))|0.005495
+2|(S1 (S (VP (UCP (SBAR (S (VP VP)))))))|0.005495
+2|(S1 (S (VP (S (VP VP (SBAR (S VP)))))))|0.005495
+2|(S1 (S (VP (PP (NP (NP (UCP (SBAR (S (VP VP))))))))))|0.005495
+2|(S1 (S (VP (S (VP (S VP))))))|0.005495
+2|(S1 (S (SBAR (S (VP VP))) (VP VP VP (CC and) VP)))|0.005495
+2|(S1 (S (VP (SBAR (S (VP (NP (NP (CC and)))))))))|0.005495
+2|(S1 (S VP (CC and) (VP (PP (S (VP (NP (CC and))))))))|0.005495
+2|(S1 (S (SBAR (S (VP VP))) (VP (PP VP))))|0.005495
+2|(S1 (S (VP VP (CC and) (VP (UCP (SBAR (S VP)))))))|0.005495
+2|(S1 (S (VP (NP (VP (NP (CC and)))))))|0.005495
+2|(S1 (S (VP (VP (NP (SBAR (S VP)))) (CC and) VP)))|0.005495
+2|(S1 (S (VP VP (CC and) (VP (PP (S VP))))))|0.005495
+2|(S1 (S (VP VP (CC and) (VP (PP (NP (NP (UCP (CC and)))))))))|0.005495
+2|(S1 (S (VP (SBAR (SBAR (S (VP (UCP (CC and)))))))))|0.005495
+2|(S1 (S (VP (VP (NP (CC and))))))|0.005495
+2|(S1 (S (VP (PP (S (VP (NP (CC and))))))))|0.005495
+2|(S1 (S (VP (PP (NP (VP (PP (S VP))))))))|0.005495
+2|(S1 (S (VP (CC and) (S (VP (NP (CC and)))))))|0.005495
+2|(S1 (S (VP (VP (PP (NP VP))) VP)))|0.005495
+2|(S1 (S (S (VP (PP (NP (S (VP VP)))))) (CC and) (S VP)))|0.005495
+2|(S1 (S (VP (S (VP (NP (CC and)))))))|0.005495
+2|(S1 (S (VP (VP (NP VP)) (CC and) VP)))|0.005495
+2|(S1 (S (SBAR (S (ADJP (S (VP VP))))) (VP (NP (CC and)))))|0.005495
+2|(S1 (S (S (VP (S (VP VP)))) (CC and) (S VP)))|0.005495
+2|(S1 (S (VP (VP (S VP)))))|0.005495
+2|(S1 (S (VP (UCP (SBAR (S (VP (CC and))))))))|0.005495
+2|(S1 (S (VP (VP (NP (NX (CC and)))) (CC and) VP)))|0.005495
+2|(S1 (S (S VP) (S (VP VP (CC and) (VP (S VP))))))|0.005495
+2|(S1 (S (S VP) (VP (PP (NP (SBAR (S (VP VP))))))))|0.005495
+2|(S1 (S (VP (VP (SBAR (S VP))) (CC and) VP)))|0.005495
+2|(S1 (S (VP (SBAR (S (VP (ADJP (CC and))))))))|0.005495
+2|(S1 (S (VP (PP (S (VP VP (CC and) VP))))))|0.005495
+2|(S1 (S (VP (SBAR (S (VP (S VP)))))))|0.005495
+2|(S1 (S (VP (PP (NP (VP (PP (NP VP))))))))|0.005495
+2|(S1 (S (SBAR (S (S (VP VP)) (CC and) (S VP))) (VP (PP (NP (CC and))) (PP (NP (CC and))))))|0.005495
+2|(S1 (S (VP (PP (NP (PP (NP (SBAR (S (VP VP))))))))))|0.005495
+2|(S1 (S (VP (S (VP (SBAR (S VP)))))))|0.005495
+3|(S1 (S (VP (ADJP (S (VP VP)))) (S (VP VP))))|0.005236
+3|(S1 (S (SBAR (S (VP VP))) (VP (PP (ADJP (S (VP VP)))))))|0.005236
+3|(S1 (S (VP VP (VP (S (VP VP))) (CC and) VP)))|0.005236
+3|(S1 (S (VP (PP (PP (NP (SBAR (S (VP (VP (S VP)))))))))))|0.005236
+3|(S1 (S (S (VP (S (VP VP)))) (VP (PP (CC and)))))|0.005236
+3|(S1 (S (VP (S (VP (VP (SBAR (S VP))))))))|0.005236
+3|(S1 (S (VP (S (VP (PP (NP (PP (NP (S (VP VP)))))))))))|0.005236
+3|(S1 (S (VP (PP (NP (PRN (S (S (VP VP)) (S (VP VP)))))))))|0.005236
+3|(S1 (S (VP VP (CC and) (VP (SBAR (S (S (VP (PP (S VP)))) (CC and) (S VP)))))))|0.005236
+3|(S1 (S (SBAR (S (VP (S (VP VP))))) (VP (NP (CC and)))))|0.005236
+3|(S1 (S (VP (S (VP (VP (CC and)))))))|0.005236
+3|(S1 (S (VP (S (VP (PP (NP (PP (S VP)) (SBAR (S (VP VP))))))))))|0.005236
+3|(S1 (S (VP VP (CC and) (VP (ADJP (S (VP VP)))))))|0.005236
+3|(S1 (S (VP VP (CC and) (VP (SBAR (S (ADJP (S (VP VP)))))))))|0.005236
+3|(S1 (S (S (VP VP)) (VP VP (CC and) (VP (SBAR (S VP))))))|0.005236
+3|(S1 (S (VP VP (VP (PP (S (VP (ADJP (CC and)) (UCP (SBAR (S VP))))))))))|0.005236
+3|(S1 (S (VP (ADJP (SBAR (S (VP (SBAR (S (VP VP))))))))))|0.005236
+3|(S1 (FRAG (S (VP VP)) (VP (PP (S (VP (NP (CC and))))))))|0.005236
+3|(S1 (S (VP (VP (SBAR (S (VP VP)))))))|0.005236
+3|(S1 (S (VP VP (CC and) (VP (S (VP (UCP (SBAR (S (S VP) (CC and) (S VP))))))))))|0.005236
+3|(S1 (S (SBAR (S VP)) (VP VP (CC and) (VP (S (VP VP))))))|0.005236
+1|(S1 (S (VP (NP (CC and)) (PP (NP (CC and) (CC and))))))|0.004894
+1|(S1 (S (VP (NP (NP (CC and))) (S VP))))|0.004894
+1|(S1 (S (VP VP VP VP)))|0.004894
+0|(S1 (S (S VP) VP))|0.004667
+0|(S1 (S VP (CC and) VP))|0.004667
+0|(S1 (NP VP))|0.004667
+1|(S1 (S (VP (FRAG (UCP (SBAR (S VP)))))))|0.004078
+1|(S1 (S (S VP) (CC and) (S (VP (SBAR (S VP))))))|0.004078
+1|(S1 (S (VP VP VP VP (CC and) VP)))|0.004078
+1|(S1 (S (VP (NP (UCP (CC and))))))|0.004078
+1|(S1 (S (VP (S (NP (CC and)) VP))))|0.004078
+1|(S1 (S (VP (NP (CC and)) (PP (S VP)))))|0.004078
+1|(S1 (S (VP (NP (CC and)) (PP (NP VP)))))|0.004078
+0|(S1 (S (PP (CC and)) VP))|0.003501
+0|(S1 (S (S VP) (CC and)))|0.003501
+0|(S1 (S (S VP)))|0.003501
+1|(S1 (S (VP (PP (NP (UCP (SBAR (S (NP VP) VP))))))))|0.003263
+1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (CC and)))))))|0.003263
+1|(S1 (FRAG (S (VP (NP (CC and))))))|0.003263
+1|(S1 (S (VP (NP (PP (S VP))))))|0.003263
+1|(S1 (S (S VP) (VP (SBAR (S VP)))))|0.003263
+1|(S1 (S (VP (CC and) (PP (S VP)))))|0.003263
+1|(S1 (S (VP (UCP (SBAR (S VP))))))|0.003263
+1|(S1 (S (VP (PP (NP (PP (S VP)))))))|0.003263
+1|(S1 (S (VP (PP (NP (CC and) (CC and))))))|0.003263
+1|(S1 (S (VP VP VP (CC and) VP (SBAR (S (NP (CC and)) VP)))))|0.003263
+1|(S1 (S (VP (S VP) (SBAR (S VP)))))|0.003263
+2|(S1 (S (VP (S (VP (ADVP (CC and)))))))|0.002747
+2|(S1 (S (VP (VP (PP (NP (CC and)))))))|0.002747
+2|(S1 (S (VP (NP (VP (S VP))) (PP (NP VP)))))|0.002747
+2|(S1 (S (VP (VP (PP (NP (NP (CC and))))) (CC and) VP)))|0.002747
+2|(S1 (S (VP VP (VP VP (CC and) VP))))|0.002747
+2|(S1 (FRAG (S (VP VP)) (VP VP (CC and) VP)))|0.002747
+2|(S1 (S (VP (ADJP (SBAR (S (VP (S VP))))))))|0.002747
+2|(S1 (S (S VP) (CC and) (S (VP (S (VP VP))))))|0.002747
+2|(S1 (S (VP (S VP) (SBAR (S (VP (S VP)))))))|0.002747
+2|(S1 (S (VP VP (CC and) (VP (NP (UCP (CC and)))))))|0.002747
+2|(S1 (S (VP (CC and) (S (VP VP)))))|0.002747
+2|(S1 (S (VP VP (VP (SBAR (S VP))))))|0.002747
+2|(S1 (S (VP VP (SBAR (S (VP VP))))))|0.002747
+2|(S1 (S (VP VP VP (CC and) (VP (S VP)) (S VP) (SBAR (S VP)))))|0.002747
+2|(S1 (S (NP (PP (NP (SBAR (S VP))))) (VP (S (VP VP)))))|0.002747
+2|(S1 (S (VP (CC and) (PP (UCP (SBAR (S (S VP) (CC and) (S (VP VP)))))))))|0.002747
+2|(S1 (S (S VP) (CC and) (S (VP (SBAR (S (VP (PP (NP (CC and))))))))))|0.002747
+2|(S1 (S (VP (S VP) (SBAR (S (VP (CC and)))))))|0.002747
+2|(S1 (S (VP (NP (CC and)) (S (VP VP)))))|0.002747
+2|(S1 (S (VP (SBAR (S (VP (SBAR (S VP))))))))|0.002747
+2|(S1 (S (VP (VP (SBAR (S VP))))))|0.002747
+2|(S1 (S (S VP) (CC and) (S (VP (SBAR (S (ADJP (S (VP VP)))))))))|0.002747
+2|(S1 (S (VP (SBAR (SBAR (S VP)) (SBAR (S (VP VP)))))))|0.002747
+1|(S1 (S (S VP) (VP (S VP))))|0.002447
+1|(S1 (S (VP VP (CC and) VP (CC and) VP)))|0.002447
+1|(S1 (S (VP (NP (CC and) (NP VP)))))|0.002447
+1|(S1 (S (VP (PP (NP (PP (NP (PP (NP (NP (CC and)) VP)))))))))|0.002447
+1|(S1 (FRAG (SBAR (S (VP VP))) VP))|0.002447
+1|(S1 (S (PP (NP (CC and))) (VP (NP (CC and)))))|0.002447
+1|(S1 (S (VP (PP (UCP (CC and))))))|0.002447
+1|(S1 (S (VP (NP (CC and)) (S VP))))|0.002447
+1|(S1 (S (VP (NP (PP (NP (CC and)))) (SBAR (S VP)))))|0.002447
+1|(S1 (S (VP VP (SBAR (S VP)))))|0.002447
+1|(S1 (S (VP (S (NP (NP (CC and)))))))|0.002447
+1|(S1 (S (S VP) (S (VP (CC and) (S VP)))))|0.002447
+1|(S1 (S (VP (SBAR (S (NP (PP (PP (NP VP)))) VP)))))|0.002447
+1|(S1 (S (S (VP VP VP)) (CC and) (S VP)))|0.002447
+1|(S1 (S (VP VP (CC and) VP (S VP))))|0.002447
+1|(S1 (S (S VP) (CC and) (S (VP (S VP)))))|0.002447
+1|(S1 (S (VP (CC and) (PP (NP VP)))))|0.002447
+1|(S1 (S (PP (S VP)) (VP (NP (CC and)))))|0.002447
+1|(S1 (S (VP (NP (ADJP (CC and))))))|0.002447
+0|(S1 (SINV VP))|0.002334
+0|(S1 (S (PP (NP (NP VP))) VP))|0.002334
+0|(S1 (FRAG (PP (NP VP))))|0.002334
+0|(S1 (SINV (S VP) VP (NP (NP (CC and)))))|0.002334
+0|(S1 (S (NP (PP (NP (NP (CC and)) (CC and)))) VP))|0.002334
+0|(S1 (S (S VP) (S VP) (S VP)))|0.002334
+0|(S1 (SBARQ (S VP)))|0.002334
+0|(S1 (S (PP (NP (PP (S VP)))) VP))|0.002334
+1|(S1 (S (VP (PP (NP (UCP (CC and)))))))|0.001631
+1|(S1 (S (VP (NP (PP (NP (NX (CC and))))))))|0.001631
+1|(S1 (S (VP (PP (NP (PP (NP (NP VP) (CC and))))))))|0.001631
+1|(S1 (S (VP (PP (NP (NP (NP (CC and))))))))|0.001631
+1|(S1 (S (VP (PP (NP (PP (NP (PP (NP VP)))))))))|0.001631
+1|(S1 (S (S (VP (SBAR (S VP)))) (CC and) (S VP)))|0.001631
+1|(S1 (FRAG (VP VP (CC and) VP)))|0.001631
+1|(S1 (S (VP (PP (NP (CC and))) (PP (ADJP (CC and))))))|0.001631
+1|(S1 (S (VP (NP (NP (CC and)) (CC and)))))|0.001631
+1|(S1 (S (VP (NP VP))))|0.001631
+1|(S1 (S (VP (PP (NP (PP (NP (PP (S VP)))))))))|0.001631
+1|(S1 (S (PP (S VP)) (VP (NP (CC and)) (SBAR (S VP)))))|0.001631
+1|(S1 (S (S (VP VP (CC and) VP)) (S VP)))|0.001631
+1|(S1 (S (VP (PP (PP (UCP (S VP) (CC and)))))))|0.001631
+1|(S1 (S (SBAR (S VP)) (VP (NP (PP (NP (CC and)))))))|0.001631
+1|(S1 (SQ (VP (PP (NP (ADJP (CC and)))))))|0.001631
+1|(S1 (S (S VP) (CC and) (S (VP (PP (UCP (CC and) VP))))))|0.001631
+1|(S1 (S (ADVP (SBAR (S VP))) (VP VP (CC and) VP)))|0.001631
+1|(S1 (SQ (VP (NP (CC and)))))|0.001631
+1|(S1 (S (VP (PP (PP (S (NP VP) VP))))))|0.001631
+1|(S1 (S (S VP) (CC and) (S (VP (PP (S VP))))))|0.001631
+1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (PP (NP VP))))))))|0.001631
+1|(S1 (S (VP (PP (NP (NP (NP (CC and))) (CC and))))))|0.001631
+1|(S1 (S (SBAR (S (VP VP))) (S VP)))|0.001631
+1|(S1 (S (S VP) (CC and) (S (VP VP (CC and) VP))))|0.001631
+1|(S1 (S (S (VP (NP (CC and)))) (CC and) (S VP)))|0.001631
+1|(S1 (S (VP VP (NP (PP (NP (CC and)))))))|0.001631
+1|(S1 (S (VP (PP (NP (SBAR (S VP)))))))|0.001631
+1|(S1 (S (VP (NP (NP (NX (CC and)))))))|0.001631
+1|(S1 (S (S VP) (S VP) (CC and) (S (VP (S VP)))))|0.001631
+1|(S1 (S (VP (PP (NP (PP (PP (NP VP))))))))|0.001631
+1|(S1 (SQ (VP VP (CC and) VP)))|0.001631
+1|(S1 (NP (PP (NP (S (VP VP))))))|0.001631
+1|(S1 (S (VP (SBAR (NP (CC and))))))|0.001631
+1|(S1 (S (SBAR (S VP)) (VP VP)))|0.001631
+1|(S1 (S (NP (NP VP)) (VP (UCP (SBAR (S VP))))))|0.001631
+1|(S1 (S (VP (NP (NP (NP (CC and))) (CC and)))))|0.001631
+1|(S1 (S (NP (CC and)) (VP (S VP))))|0.001631
+1|(S1 (S (VP (NP (NP (CC and))) (PP (NP (CC and))))))|0.001631
+1|(S1 (FRAG (NP (PP (NP (S (VP VP)))))))|0.001631
+1|(S1 (S (VP (ADVP (NP VP)) (NP (CC and)))))|0.001631
+1|(S1 (S (S VP) (CC and) (S (VP (PP (NP (CC and))) (SBAR (S VP))))))|0.001631
+0|(S1 (SINV VP (NP (NP (CC and)))))|0.001167
+0|(S1 (S (NP (S VP) (CC and)) VP))|0.001167
+0|(S1 (FRAG (SBAR (S VP))))|0.001167
+0|(S1 (S (S (S VP) (CC and) (S VP)) (S VP)))|0.001167
+0|(S1 (S (PP (S VP)) VP))|0.001167
+0|(S1 (SBARQ VP))|0.001167
+0|(S1 VP)|0.001167
+0|(S1 (S (ADJP (PP (S VP)))))|0.001167
+1|(S1 (S (VP (ADVP (SBAR (S VP))))))|0.000816
+1|(S1 (S (VP (PP (NP (ADJP (CC and)))))))|0.000816
+1|(S1 (S (VP (ADJP (CC and)))))|0.000816
+1|(S1 (S (VP (PP (NP (PRN (S VP)))))))|0.000816
+1|(S1 (S (VP (NP (PP (NP (PP (S VP))))))))|0.000816
+1|(S1 (S (SBAR (S VP)) (VP VP (CC and) VP)))|0.000816
+1|(S1 (S (VP (CC and) (SBAR (S VP)))))|0.000816
+1|(S1 (S (NP VP) (VP (NP (CC and)))))|0.000816
+1|(S1 (S (VP (PP VP))))|0.000816
+1|(S1 (S (VP (PP (CC and)))))|0.000816
+1|(S1 (S (S VP) (CC and) (S (VP (UCP (PP (S VP)) (CC and))))))|0.000816
+1|(S1 (S (PP (S VP)) (VP (S VP))))|0.000816
+1|(S1 (S (VP (NP (PP (NP (PP (NP (CC and)))))))))|0.000816
+1|(S1 (S (VP (S (NP (CC and))))))|0.000816
+1|(S1 (S (VP (PP (S VP)) (S VP))))|0.000816
+1|(S1 (S (S VP) (S (VP VP))))|0.000816
+1|(S1 (S (VP (NP (CC and)) (PP (NP (CC and))))))|0.000816
+1|(S1 (S (VP (PP (NP (NX (CC and)))))))|0.000816
+1|(S1 (S (VP (ADJP (SBAR (S VP))))))|0.000816
+1|(S1 (S (VP (NP (NP (NP (CC and)))))))|0.000816
+1|(S1 (S (S (VP (PP (NP VP))))))|0.000816
+1|(S1 (S (VP (PP (ADJP (CC and))))))|0.000816
+1|(S1 (S (S (VP VP)) VP))|0.000816
+1|(S1 (S (VP (PP (NP (NX (CC and) (NX (CC and))))))))|0.000816
+1|(S1 (S (VP (NP (NP (CC and)) (PP (NP VP))))))|0.000816
+1|(S1 (S (VP (ADVP (NP (CC and))))))|0.000816
+1|(S1 (S (VP VP (PRN (S VP)) (CC and) VP)))|0.000816
+1|(S1 (S (VP (NP (CC and)) (SBAR (S VP)))))|0.000816
+1|(S1 (S (VP (SBAR (S (S VP) VP)))))|0.000816
+1|(S1 (S (VP (NP (PP (NP (CC and)))))))|0.000816
+1|(S1 (S (VP VP (PP (NP (CC and))))))|0.000816
+1|(S1 (S (SBAR (S (VP VP))) VP))|0.000816
+1|(S1 (S (VP (PP (NP (NP (SBAR (S VP))) (CC and))))))|0.000816
+1|(S1 (NP (S (VP (NP (CC and))))))|0.000816
+1|(S1 (S (VP VP (S VP))))|0.000816
+1|(S1 (S (S VP) (S (VP (PP (ADJP (CC and)))))))|0.000816
+1|(S1 (S (VP (NP (PP (NP (NP (PP (NP VP))) (CC and)))))))|0.000816
+1|(S1 (FRAG (VP VP)))|0.000816
+1|(S1 (S (VP VP VP (S VP))))|0.000816
+1|(S1 (S (VP (NP (PP (NP VP))))))|0.000816
+1|(S1 (S (VP (PP (NP (PP (NP (NP (CC and)))))))))|0.000816
+1|(S1 (SQ (VP (PP VP))))|0.000816

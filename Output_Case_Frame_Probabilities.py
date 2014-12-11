@@ -1,7 +1,7 @@
 from __future__ import division
 from sexpdata import loads, ExpectClosingBracket, Symbol
 import re
-from Data_Interface import getParseCommandPairMappings
+from Data_Interface import getParseCommandPairMappingsForTrain
 from scripts.MILK_parse import MILK_parse_command
 from scripts.Case_Frame_Helper import *
 
@@ -58,7 +58,7 @@ def addToTopLevelCounts(topLevelFrame, numVerbs):
 	else:
 		topLevelCounts[givenKey] = {topLevelFrame: 1}
 
-parseCommandPairMappings = getParseCommandPairMappings()
+parseCommandPairMappings = getParseCommandPairMappingsForTrain()
 for filename in parseCommandPairMappings:
 	pairs = parseCommandPairMappings[filename]
 	prevPrevIngredients = []
