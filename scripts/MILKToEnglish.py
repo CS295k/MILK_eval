@@ -311,7 +311,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             candidateRecipes = []
             candidateRecipes = copy.deepcopy(newCandidates)
             candidateRecipes = sorted(candidateRecipes, key=lambda rt: rt.totalProb, reverse=True)[0:min(100,len(candidateRecipes))]
-            print "now our # of candidates: %s\t\t# complete: %s" % (str(len(candidateRecipes)), str(len(completedRecipes)))
+            print "now our # of candidates: %s\t# complete: %s" % (str(len(candidateRecipes)), str(len(completedRecipes)))
             # if (len(candidateRecipes)-len(completedRecipes)) > 500:# and len(completedRecipes) > 10:
                 # "&&& too many candidates, so stopping prematurely"
                 # break
@@ -331,7 +331,6 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                 prevTools = [tool for command in milkChunk.commands for tool in getTools(command[0], command[1])]
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
-        print "done w/ the recipe...\n"
         #exit(1)
     #jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
     #state_probs = jit_decoder.ping();
@@ -382,8 +381,6 @@ if __name__ == "__main__":
 
     verbMarkersDir = ("../stage2Ps/")
     data_files = glob("../annotated_recipes/*.xml")
-    print data_files
-    exit(1)
             
     # loads spencer's most likely verbs
     verbProbs = loadVerbProbs("10FoldCrossValidation_verbGenerationProbabilities_normalizedWithoutNoverb.txt")
