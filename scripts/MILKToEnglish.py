@@ -168,14 +168,17 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
   
         recipe_name = test_paths[i]
         print recipe_name
-        # if (recipe_name != "../annotated_recipes\\Black-Bean-and-Corn-Quesadillas.rcp_tagged.xml"):
+        # if "Easy-Bake-Oven-Cookie-Mix.rcp_tagged.xml" not in recipe_name:
             # continue
         curPreds = preds[i]
+        tmp = []
         for p in curPreds:
-            if p.startswith("create_"):
-                curPreds.remove(p)
+            if not p.startswith("create_"):
+                tmp.append(p)
         curCommands = commands[i]
+        curPreds = copy.deepcopy(tmp)
         # print "curPreds:",curPreds
+        
         # print "finished pos =",str(len(curPreds))
         # gets eugene's verb markers for the current recipe
         # constructs the filename
@@ -255,7 +258,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
                         continue
 
                     for verbMarkerMask in curVerbMarkerMasks[tup]:
-#
+
                         #print "trying",verbMarkerMask
                         verbFlags = verbMarkerMask[0]
                         #print "vf", verbFlags
@@ -332,6 +335,7 @@ def getEnglishRecipes(train_recipes, test_recipes, mod):
             filename = os.path.basename(recipe_name)[:-15] + ".txt"
             sendToOutputEnglishFile("\n".join(recipeLines), filename)
         #exit(1)
+        print("")
     #jit_decoder = tagger.get_JITDecoder(test_recipe_index, group_num, best_seq_num)
     #state_probs = jit_decoder.ping();
     #print state_probs
@@ -381,6 +385,8 @@ if __name__ == "__main__":
 
     verbMarkersDir = ("../stage2Ps/")
     data_files = glob("../annotated_recipes/*.xml")
+    #print data_files
+    #exit(1)
             
     # loads spencer's most likely verbs
     verbProbs = loadVerbProbs("10FoldCrossValidation_verbGenerationProbabilities_normalizedWithoutNoverb.txt")
@@ -394,8 +400,9 @@ if __name__ == "__main__":
     #print mc
     #exit(1)
 
-    for i in xrange(0, 10):
+    for i in xrange(7, 10):
         print i
+
         train_paths = []
         test_paths = []
         for j in xrange(len_data_files):
